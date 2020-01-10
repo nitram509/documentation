@@ -129,7 +129,7 @@ This example uses the `ReadStreamEventsForwardAsync` method in a loop to page th
 var streamEvents = new List<ResolvedEvent>();
 
 StreamEventsSlice currentSlice;
-var nextSliceStart = StreamPosition.Start;
+long nextSliceStart = StreamPosition.Start;
 do
 {
     currentSlice =
