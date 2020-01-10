@@ -133,7 +133,7 @@ var nextSliceStart = StreamPosition.Start;
 do
 {
     currentSlice =
-    _eventStoreConnection.ReadStreamEventsForward("myStream", nextSliceStart,
+    _eventStoreConnection.ReadStreamEventsForwardAsync("myStream", nextSliceStart,
                                                   200, false)
                                                   .Result;
 
