@@ -83,7 +83,7 @@
           },
           "400": {
               "description": "Bad request"
-          }
+          },
           "401": {
             "description": "Unauthorized"
           }
@@ -291,7 +291,7 @@
             "description": "Request content type",
             "required": true,
             "type": "string"
-          }
+          },
           {
             "in": "body",
             "name": "stream data",
@@ -312,7 +312,7 @@
           },
           {
             "$ref": "#/parameters/ES-RequiresMaster"
-          },
+          }
         ],
         "responses": {
           "201": {
@@ -461,7 +461,7 @@
           },
           "400": {
               "description": "Bad request"
-          }
+          },
           "401": {
             "description": "Unauthorized"
           },
@@ -748,7 +748,7 @@
           },
           "401": {
             "description": "Unauthorized"
-          },
+          }
         }
       }
     },
