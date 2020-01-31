@@ -14,10 +14,12 @@
       href: dotnet-api/index.md
     - name: Connecting to a server
       href: dotnet-api/connecting-to-a-server.md
-    - name: Streams
+    - name: Creating and writing to a stream
       href: dotnet-api/streams.md
     - name: Reading events
       href: dotnet-api/reading-events.md
+    - name: Deleting a stream
+      href: dotnet-api/deleting-a-stream.md
     - name: Persistent subscriptions
       href: dotnet-api/persistent-subscriptions.md
     - name: Competing consumers
@@ -32,6 +34,8 @@
       href: dotnet-api/stream-metadata.md
     - name: User management
       href: dotnet-api/users.md
+    - name: Security
+      href: dotnet-api/security.md
     - name: Code documentation
       href: dotnet-api/code/toc.yml
 - name: HTTP API

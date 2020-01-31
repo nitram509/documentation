@@ -4,9 +4,30 @@ outputFileName: index.html
 
 # User management
 
-The Event Store Client API includes helper methods that use the HTTP API to allow for the management of users. This document describes the methods found in the `UsersManager` class. All methods in this class are asynchronous.
+Event Store allows managing users programmatically using the .NET client. This guide covers details about default users, groups and managing users.
 
-## Create a user
+## Default users
+
+By default Event Store has two users `admin` and `ops` with the password `changeit`.
+
+> [!TIP]
+> We recommend you create separate functional account with minimal access rights for any connected application or service.
+
+## Default groups
+
+By default Event Store has two user groups `$admins` `$ops`. However it is possible to create custom groups with the .NET client.  
+
+## User management
+
+The Event Store .NET client includes helper methods that use the HTTP API to allow for the management of users. This section describes the methods found in the `UsersManager` class. All methods in this class are asynchronous.
+
+### Create UsersManager instance
+
+[!code-csharp[Create UsersManager](../../EventStore.Samples.Dotnet/DocsExample/DotNetClient/UsersCreateUsersManager.cs?range=11-12)]
+
+Resolving the host name may be especially useful if the Event Store Admin UI is not available under loopback address e.g., when container orchestrator assign dynamic DNS based on service name.
+
+### Create a user
 
 Creates a user, the credentials for this operation must be a member of the `$admins` group.
 
@@ -14,7 +35,7 @@ Creates a user, the credentials for this operation must be a member of the `$adm
 public Task CreateUserAsync(string login, string fullName, string[] groups, string password, UserCredentials userCredentials = null)
 ```
 
-## Disable a user
+### Disable a user
 
 Disables a user, the credentials for this operation must be a member of the `$admins` group.
 
@@ -22,7 +43,7 @@ Disables a user, the credentials for this operation must be a member of the `$ad
 public Task DisableAsync(string login, UserCredentials userCredentials = null)
 ```
 
-## Enable a User
+### Enable a User
 
 Enables a user, the credentials for this operation must be a member of the `$admins` group.
 
@@ -30,7 +51,7 @@ Enables a user, the credentials for this operation must be a member of the `$adm
 public Task EnableAsync(string login, UserCredentials userCredentials = null)
 ```
 
-## Delete a user
+### Delete a user
 
 Deletes (non-recoverable) a user, the credentials for this operation must be a member of the `$admins` group. If you prefer this action to be recoverable, disable the user as opposed to deleting the user.
 
@@ -38,7 +59,7 @@ Deletes (non-recoverable) a user, the credentials for this operation must be a m
 public Task DeleteUserAsync(string login, UserCredentials userCredentials = null)
 ```
 
-## List all users
+### List all users
 
 Lists all users.
 
@@ -46,7 +67,7 @@ Lists all users.
 public Task<List<UserDetails>> ListAllAsync(UserCredentials userCredentials = null)
 ```
 
-## Get details of user
+### Get details of user
 
 Return the details of the user supplied in user credentials (e.g. the user making the request).
 
@@ -54,21 +75,25 @@ Return the details of the user supplied in user credentials (e.g. the user makin
 public Task<UserDetails> GetCurrentUserAsync(UserCredentials userCredentials)
 ```
 
-## Get details of logged in user
+### Get details of logged in user
 
 ```csharp
 public Task<UserDetails> GetUserAsync(string login, UserCredentials userCredentials)
 ```
 
-### Update user details
+### Update user details / manage user groups
 
 ```csharp
 public Task UpdateUserAsync(string login, string fullName, string[] groups, UserCredentials userCredentials = null)
 ```
 
+Although `UsersManager` does not have separate methods for indepotent adding/removing user groups it can be extended:
+
+[!code-csharp[Users management group extensions](../../EventStore.Samples.Dotnet/DocsExample/DotNetClient/UsersManagerExtensions.cs?range=8-27)]
+
 ### Reset user password
 
-Resets the password of a user. The credentials doing this operation must be part of the `$admins` group.
+Resets the password of a user. The credentials for this operation must be part of the `$admins` group.
 
 ```csharp
 public Task ResetPasswordAsync(string login, string newPassword, UserCredentials userCredentials = null)
