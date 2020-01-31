@@ -29,6 +29,7 @@ items:
     content: 'public class EmittedEventJsonContract : object'
     content.vb: >-
       Public Class EmittedEventJsonContract
+
           Inherits Object
   inheritance:
   - System.Object
@@ -208,16 +209,28 @@ references:
   nameWithType: EventStore.Projections.Core.Services.v8
   fullName: EventStore.Projections.Core.Services.v8
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

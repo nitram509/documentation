@@ -5,7 +5,7 @@ items:
   id: ProjectionConfig
   parent: EventStore.Projections.Core.Services
   children:
-  - EventStore.Projections.Core.Services.ProjectionConfig.#ctor(IPrincipal,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Int32)
+  - EventStore.Projections.Core.Services.ProjectionConfig.#ctor(IPrincipal,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Int32)
   - EventStore.Projections.Core.Services.ProjectionConfig.CheckpointAfterMs
   - EventStore.Projections.Core.Services.ProjectionConfig.CheckpointHandledThreshold
   - EventStore.Projections.Core.Services.ProjectionConfig.CheckpointsEnabled
@@ -13,12 +13,10 @@ items:
   - EventStore.Projections.Core.Services.ProjectionConfig.CreateTempStreams
   - EventStore.Projections.Core.Services.ProjectionConfig.EmitEventEnabled
   - EventStore.Projections.Core.Services.ProjectionConfig.GetTest
-  - EventStore.Projections.Core.Services.ProjectionConfig.IsSlaveProjection
   - EventStore.Projections.Core.Services.ProjectionConfig.MaximumAllowedWritesInFlight
   - EventStore.Projections.Core.Services.ProjectionConfig.MaxWriteBatchLength
   - EventStore.Projections.Core.Services.ProjectionConfig.PendingEventsThreshold
   - EventStore.Projections.Core.Services.ProjectionConfig.RunAs
-  - EventStore.Projections.Core.Services.ProjectionConfig.SetIsSlave
   - EventStore.Projections.Core.Services.ProjectionConfig.StopOnEof
   - EventStore.Projections.Core.Services.ProjectionConfig.TrackEmittedStreams
   langs:
@@ -39,6 +37,7 @@ items:
     content: 'public class ProjectionConfig : object'
     content.vb: >-
       Public Class ProjectionConfig
+
           Inherits Object
   inheritance:
   - System.Object
@@ -48,26 +47,26 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: EventStore.Projections.Core.Services.ProjectionConfig.#ctor(IPrincipal,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Int32)
-  commentId: M:EventStore.Projections.Core.Services.ProjectionConfig.#ctor(IPrincipal,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Int32)
-  id: '#ctor(IPrincipal,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Int32)'
+- uid: EventStore.Projections.Core.Services.ProjectionConfig.#ctor(IPrincipal,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Int32)
+  commentId: M:EventStore.Projections.Core.Services.ProjectionConfig.#ctor(IPrincipal,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Int32)
+  id: '#ctor(IPrincipal,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Int32)'
   parent: EventStore.Projections.Core.Services.ProjectionConfig
   langs:
   - csharp
   - vb
-  name: ProjectionConfig(IPrincipal, Int32, Int32, Int32, Int32, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Int32, Int32)
-  nameWithType: ProjectionConfig.ProjectionConfig(IPrincipal, Int32, Int32, Int32, Int32, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Int32, Int32)
-  fullName: EventStore.Projections.Core.Services.ProjectionConfig.ProjectionConfig(IPrincipal, System.Int32, System.Int32, System.Int32, System.Int32, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Int32, System.Int32)
+  name: ProjectionConfig(IPrincipal, Int32, Int32, Int32, Int32, Boolean, Boolean, Boolean, Boolean, Boolean, Int32, Int32)
+  nameWithType: ProjectionConfig.ProjectionConfig(IPrincipal, Int32, Int32, Int32, Int32, Boolean, Boolean, Boolean, Boolean, Boolean, Int32, Int32)
+  fullName: EventStore.Projections.Core.Services.ProjectionConfig.ProjectionConfig(IPrincipal, System.Int32, System.Int32, System.Int32, System.Int32, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Int32, System.Int32)
   type: Constructor
   source:
     id: .ctor
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
-    startLine: 20
+    startLine: 19
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services
   syntax:
-    content: public ProjectionConfig(IPrincipal runAs, int checkpointHandledThreshold, int checkpointUnhandledBytesThreshold, int pendingEventsThreshold, int maxWriteBatchLength, bool emitEventEnabled, bool checkpointsEnabled, bool createTempStreams, bool stopOnEof, bool isSlaveProjection, bool trackEmittedStreams, int checkpointAfterMs, int maximumAllowedWritesInFlight)
+    content: public ProjectionConfig(IPrincipal runAs, int checkpointHandledThreshold, int checkpointUnhandledBytesThreshold, int pendingEventsThreshold, int maxWriteBatchLength, bool emitEventEnabled, bool checkpointsEnabled, bool createTempStreams, bool stopOnEof, bool trackEmittedStreams, int checkpointAfterMs, int maximumAllowedWritesInFlight)
     parameters:
     - id: runAs
       type: IPrincipal
@@ -87,15 +86,13 @@ items:
       type: System.Boolean
     - id: stopOnEof
       type: System.Boolean
-    - id: isSlaveProjection
-      type: System.Boolean
     - id: trackEmittedStreams
       type: System.Boolean
     - id: checkpointAfterMs
       type: System.Int32
     - id: maximumAllowedWritesInFlight
       type: System.Int32
-    content.vb: Public Sub New(runAs As IPrincipal, checkpointHandledThreshold As Integer, checkpointUnhandledBytesThreshold As Integer, pendingEventsThreshold As Integer, maxWriteBatchLength As Integer, emitEventEnabled As Boolean, checkpointsEnabled As Boolean, createTempStreams As Boolean, stopOnEof As Boolean, isSlaveProjection As Boolean, trackEmittedStreams As Boolean, checkpointAfterMs As Integer, maximumAllowedWritesInFlight As Integer)
+    content.vb: Public Sub New(runAs As IPrincipal, checkpointHandledThreshold As Integer, checkpointUnhandledBytesThreshold As Integer, pendingEventsThreshold As Integer, maxWriteBatchLength As Integer, emitEventEnabled As Boolean, checkpointsEnabled As Boolean, createTempStreams As Boolean, stopOnEof As Boolean, trackEmittedStreams As Boolean, checkpointAfterMs As Integer, maximumAllowedWritesInFlight As Integer)
   overload: EventStore.Projections.Core.Services.ProjectionConfig.#ctor*
   modifiers.csharp:
   - public
@@ -115,7 +112,7 @@ items:
   source:
     id: CheckpointHandledThreshold
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
-    startLine: 57
+    startLine: 55
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services
@@ -146,7 +143,7 @@ items:
   source:
     id: CheckpointUnhandledBytesThreshold
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
-    startLine: 61
+    startLine: 59
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services
@@ -177,7 +174,7 @@ items:
   source:
     id: MaxWriteBatchLength
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
-    startLine: 65
+    startLine: 63
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services
@@ -208,7 +205,7 @@ items:
   source:
     id: EmitEventEnabled
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
-    startLine: 69
+    startLine: 67
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services
@@ -239,7 +236,7 @@ items:
   source:
     id: CheckpointsEnabled
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
-    startLine: 73
+    startLine: 71
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services
@@ -270,7 +267,7 @@ items:
   source:
     id: PendingEventsThreshold
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
-    startLine: 77
+    startLine: 75
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services
@@ -301,7 +298,7 @@ items:
   source:
     id: CreateTempStreams
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
-    startLine: 81
+    startLine: 79
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services
@@ -332,7 +329,7 @@ items:
   source:
     id: StopOnEof
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
-    startLine: 85
+    startLine: 83
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services
@@ -363,7 +360,7 @@ items:
   source:
     id: RunAs
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
-    startLine: 89
+    startLine: 87
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services
@@ -374,37 +371,6 @@ items:
       type: IPrincipal
     content.vb: Public ReadOnly Property RunAs As IPrincipal
   overload: EventStore.Projections.Core.Services.ProjectionConfig.RunAs*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: EventStore.Projections.Core.Services.ProjectionConfig.IsSlaveProjection
-  commentId: P:EventStore.Projections.Core.Services.ProjectionConfig.IsSlaveProjection
-  id: IsSlaveProjection
-  parent: EventStore.Projections.Core.Services.ProjectionConfig
-  langs:
-  - csharp
-  - vb
-  name: IsSlaveProjection
-  nameWithType: ProjectionConfig.IsSlaveProjection
-  fullName: EventStore.Projections.Core.Services.ProjectionConfig.IsSlaveProjection
-  type: Property
-  source:
-    id: IsSlaveProjection
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
-    startLine: 93
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services
-  syntax:
-    content: public bool IsSlaveProjection { get; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public ReadOnly Property IsSlaveProjection As Boolean
-  overload: EventStore.Projections.Core.Services.ProjectionConfig.IsSlaveProjection*
   modifiers.csharp:
   - public
   - get
@@ -425,7 +391,7 @@ items:
   source:
     id: TrackEmittedStreams
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
-    startLine: 97
+    startLine: 91
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services
@@ -456,7 +422,7 @@ items:
   source:
     id: CheckpointAfterMs
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
-    startLine: 101
+    startLine: 95
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services
@@ -487,7 +453,7 @@ items:
   source:
     id: MaximumAllowedWritesInFlight
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
-    startLine: 105
+    startLine: 99
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services
@@ -518,7 +484,7 @@ items:
   source:
     id: GetTest
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
-    startLine: 109
+    startLine: 103
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services
@@ -534,34 +500,6 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: EventStore.Projections.Core.Services.ProjectionConfig.SetIsSlave
-  commentId: M:EventStore.Projections.Core.Services.ProjectionConfig.SetIsSlave
-  id: SetIsSlave
-  parent: EventStore.Projections.Core.Services.ProjectionConfig
-  langs:
-  - csharp
-  - vb
-  name: SetIsSlave()
-  nameWithType: ProjectionConfig.SetIsSlave()
-  fullName: EventStore.Projections.Core.Services.ProjectionConfig.SetIsSlave()
-  type: Method
-  source:
-    id: SetIsSlave
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
-    startLine: 114
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services
-  syntax:
-    content: public ProjectionConfig SetIsSlave()
-    return:
-      type: EventStore.Projections.Core.Services.ProjectionConfig
-    content.vb: Public Function SetIsSlave As ProjectionConfig
-  overload: EventStore.Projections.Core.Services.ProjectionConfig.SetIsSlave*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: EventStore.Projections.Core.Services
   commentId: N:EventStore.Projections.Core.Services
@@ -569,10 +507,18 @@ references:
   nameWithType: EventStore.Projections.Core.Services
   fullName: EventStore.Projections.Core.Services
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.ProjectionConfig.#ctor*
   commentId: Overload:EventStore.Projections.Core.Services.ProjectionConfig.#ctor
   name: ProjectionConfig
@@ -584,11 +530,15 @@ references:
   nameWithType: IPrincipal
   fullName: IPrincipal
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -638,11 +588,6 @@ references:
   name: RunAs
   nameWithType: ProjectionConfig.RunAs
   fullName: EventStore.Projections.Core.Services.ProjectionConfig.RunAs
-- uid: EventStore.Projections.Core.Services.ProjectionConfig.IsSlaveProjection*
-  commentId: Overload:EventStore.Projections.Core.Services.ProjectionConfig.IsSlaveProjection
-  name: IsSlaveProjection
-  nameWithType: ProjectionConfig.IsSlaveProjection
-  fullName: EventStore.Projections.Core.Services.ProjectionConfig.IsSlaveProjection
 - uid: EventStore.Projections.Core.Services.ProjectionConfig.TrackEmittedStreams*
   commentId: Overload:EventStore.Projections.Core.Services.ProjectionConfig.TrackEmittedStreams
   name: TrackEmittedStreams
@@ -669,8 +614,3 @@ references:
   name: ProjectionConfig
   nameWithType: ProjectionConfig
   fullName: EventStore.Projections.Core.Services.ProjectionConfig
-- uid: EventStore.Projections.Core.Services.ProjectionConfig.SetIsSlave*
-  commentId: Overload:EventStore.Projections.Core.Services.ProjectionConfig.SetIsSlave
-  name: SetIsSlave
-  nameWithType: ProjectionConfig.SetIsSlave
-  fullName: EventStore.Projections.Core.Services.ProjectionConfig.SetIsSlave

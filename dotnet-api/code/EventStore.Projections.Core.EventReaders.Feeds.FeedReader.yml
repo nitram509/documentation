@@ -31,7 +31,9 @@ items:
     content: 'public class FeedReader : object, IHandle<EventReaderSubscriptionMessage.CommittedEventReceived>, IHandle<EventReaderSubscriptionMessage.EofReached>, IHandle<EventReaderSubscriptionMessage.PartitionEofReached>, IHandle<EventReaderSubscriptionMessage.CheckpointSuggested>, IHandle<EventReaderSubscriptionMessage.NotAuthorized>'
     content.vb: >-
       Public Class FeedReader
+
           Inherits Object
+
           Implements IHandle(Of EventReaderSubscriptionMessage.CommittedEventReceived), IHandle(Of EventReaderSubscriptionMessage.EofReached), IHandle(Of EventReaderSubscriptionMessage.PartitionEofReached), IHandle(Of EventReaderSubscriptionMessage.CheckpointSuggested), IHandle(Of EventReaderSubscriptionMessage.NotAuthorized)
   inheritance:
   - System.Object
@@ -321,6 +323,8 @@ references:
   nameWithType: EventStore.Projections.Core.EventReaders.Feeds
   fullName: EventStore.Projections.Core.EventReaders.Feeds
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -525,6 +529,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Bus.IHandle`1
   commentId: T:EventStore.Core.Bus.IHandle`1
   name: IHandle<T>
@@ -783,6 +793,8 @@ references:
   nameWithType: CheckpointTag
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

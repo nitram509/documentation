@@ -58,7 +58,9 @@ items:
     content: 'public abstract class CoreProjectionCheckpointManager : object, IProjectionCheckpointManager, IHandle<CoreProjectionProcessingMessage.ReadyForCheckpoint>, IHandle<CoreProjectionProcessingMessage.RestartRequested>, IHandle<CoreProjectionProcessingMessage.Failed>, ICoreProjectionCheckpointManager, IEmittedEventWriter'
     content.vb: >-
       Public MustInherit Class CoreProjectionCheckpointManager
+
           Inherits Object
+
           Implements IProjectionCheckpointManager, IHandle(Of CoreProjectionProcessingMessage.ReadyForCheckpoint), IHandle(Of CoreProjectionProcessingMessage.RestartRequested), IHandle(Of CoreProjectionProcessingMessage.Failed), ICoreProjectionCheckpointManager, IEmittedEventWriter
   inheritance:
   - System.Object
@@ -1194,6 +1196,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -1336,6 +1340,12 @@ references:
   name: IEmittedEventWriter
   nameWithType: IEmittedEventWriter
   fullName: EventStore.Projections.Core.Services.Processing.IEmittedEventWriter
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Messages
   commentId: N:EventStore.Projections.Core.Messages
   name: EventStore.Projections.Core.Messages
@@ -1423,6 +1433,8 @@ references:
   nameWithType: ProjectionCheckpoint
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionCheckpoint
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -1438,6 +1450,8 @@ references:
   nameWithType: Guid
   fullName: Guid
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -2115,6 +2129,8 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Single
+  commentId: T:System.Single
+  parent: System
   isExternal: true
   name: Single
   nameWithType: Single
@@ -2533,6 +2549,8 @@ references:
   nameWithType: ResolvedEvent
   fullName: EventStore.Core.Data.ResolvedEvent
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64

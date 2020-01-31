@@ -16,7 +16,7 @@ items:
   source:
     id: IProjectionCheckpointHandler
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
-    startLine: 65
+    startLine: 57
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services
@@ -43,7 +43,7 @@ items:
   source:
     id: ProcessNewCheckpoint
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
-    startLine: 66
+    startLine: 58
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services

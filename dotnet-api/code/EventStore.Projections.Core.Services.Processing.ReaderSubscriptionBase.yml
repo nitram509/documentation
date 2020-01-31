@@ -15,7 +15,6 @@ items:
   - EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderEof)
   - EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderNotAuthorized)
   - EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionEof)
-  - EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured)
   - EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderStarting)
   - EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase.ProcessOne(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.CommittedEventDistributed)
   - EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase.PublishPartitionDeleted(System.String,EventStore.Projections.Core.Services.Processing.CheckpointTag)
@@ -39,6 +38,7 @@ items:
     content: 'public class ReaderSubscriptionBase : object'
     content.vb: >-
       Public Class ReaderSubscriptionBase
+
           Inherits Object
   inheritance:
   - System.Object
@@ -430,35 +430,6 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured)
-  commentId: M:EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured)
-  id: Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured)
-  parent: EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase
-  langs:
-  - csharp
-  - vb
-  name: Handle(ReaderSubscriptionMessage.EventReaderPartitionMeasured)
-  nameWithType: ReaderSubscriptionBase.Handle(ReaderSubscriptionMessage.EventReaderPartitionMeasured)
-  fullName: EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured)
-  type: Method
-  source:
-    id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
-    startLine: 224
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Processing
-  syntax:
-    content: public void Handle(ReaderSubscriptionMessage.EventReaderPartitionMeasured message)
-    parameters:
-    - id: message
-      type: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured
-    content.vb: Public Sub Handle(message As ReaderSubscriptionMessage.EventReaderPartitionMeasured)
-  overload: EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase.Handle*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderNotAuthorized)
   commentId: M:EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderNotAuthorized)
   id: Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderNotAuthorized)
@@ -473,7 +444,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
-    startLine: 234
+    startLine: 224
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -502,7 +473,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
-    startLine: 246
+    startLine: 236
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -531,7 +502,7 @@ items:
   source:
     id: EofReached
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
-    startLine: 250
+    startLine: 240
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -552,10 +523,18 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.EventFilter
   commentId: T:EventStore.Projections.Core.Services.Processing.EventFilter
   parent: EventStore.Projections.Core.Services.Processing
@@ -575,6 +554,8 @@ references:
   nameWithType: PositionTracker
   fullName: EventStore.Projections.Core.Services.Processing.PositionTracker
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -614,7 +595,8 @@ references:
   nameWithType: ITimeProvider
   fullName: EventStore.Core.Services.TimerService.ITimeProvider
 - uid: System.Nullable{System.Int64}
-  commentId: '!:System.Nullable{System.Int64}'
+  commentId: T:System.Nullable{System.Int64}
+  parent: System
   definition: System.Nullable`1
   name: Nullable<Int64>
   nameWithType: Nullable<Int64>
@@ -657,7 +639,8 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Nullable{System.Int32}
-  commentId: '!:System.Nullable{System.Int32}'
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
   definition: System.Nullable`1
   name: Nullable<Int32>
   nameWithType: Nullable<Int32>
@@ -700,11 +683,15 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -720,13 +707,14 @@ references:
   nameWithType: EventStore.Core.Services.TimerService
   fullName: EventStore.Core.Services.TimerService
 - uid: System.Nullable`1
+  commentId: T:System.Nullable`1
   isExternal: true
-  name: Nullable<>
-  nameWithType: Nullable<>
-  fullName: System.Nullable<>
-  nameWithType.vb: Nullable(Of )
-  fullName.vb: System.Nullable(Of )
-  name.vb: Nullable(Of )
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
@@ -736,9 +724,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -751,9 +739,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )
@@ -827,12 +815,6 @@ references:
   name: ReaderSubscriptionMessage.EventReaderPartitionEof
   nameWithType: ReaderSubscriptionMessage.EventReaderPartitionEof
   fullName: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionEof
-- uid: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured
-  commentId: T:EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured
-  parent: EventStore.Projections.Core.Messages
-  name: ReaderSubscriptionMessage.EventReaderPartitionMeasured
-  nameWithType: ReaderSubscriptionMessage.EventReaderPartitionMeasured
-  fullName: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured
 - uid: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderNotAuthorized
   commentId: T:EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderNotAuthorized
   parent: EventStore.Projections.Core.Messages

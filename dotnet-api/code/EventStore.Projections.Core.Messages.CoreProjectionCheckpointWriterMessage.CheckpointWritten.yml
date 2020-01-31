@@ -26,6 +26,7 @@ items:
     content: 'public sealed class CheckpointWritten : Message'
     content.vb: >-
       Public NotInheritable Class CheckpointWritten
+
           Inherits Message
   inheritance:
   - System.Object
@@ -141,6 +142,8 @@ references:
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -157,6 +160,12 @@ references:
   name: NextMsgId
   nameWithType: Message.NextMsgId
   fullName: EventStore.Core.Messaging.Message.NextMsgId
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Messaging
   commentId: N:EventStore.Core.Messaging
   name: EventStore.Core.Messaging
@@ -174,6 +183,8 @@ references:
   nameWithType: CoreProjectionCheckpointWriterMessage.CheckpointWritten.MsgTypeId
   fullName: EventStore.Projections.Core.Messages.CoreProjectionCheckpointWriterMessage.CheckpointWritten.MsgTypeId
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

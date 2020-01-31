@@ -25,6 +25,7 @@ items:
     content: 'public class ProjectionsStatisticsHttpFormatted : object'
     content.vb: >-
       Public Class ProjectionsStatisticsHttpFormatted
+
           Inherits Object
   inheritance:
   - System.Object
@@ -106,10 +107,18 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Http
   fullName: EventStore.Projections.Core.Services.Http
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Http.ProjectionsStatisticsHttpFormatted.#ctor*
   commentId: Overload:EventStore.Projections.Core.Services.Http.ProjectionsStatisticsHttpFormatted.#ctor
   name: ProjectionsStatisticsHttpFormatted

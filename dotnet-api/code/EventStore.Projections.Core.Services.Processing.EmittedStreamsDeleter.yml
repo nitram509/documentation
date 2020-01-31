@@ -25,7 +25,9 @@ items:
     content: 'public class EmittedStreamsDeleter : object, IEmittedStreamsDeleter'
     content.vb: >-
       Public Class EmittedStreamsDeleter
+
           Inherits Object
+
           Implements IEmittedStreamsDeleter
   inheritance:
   - System.Object
@@ -108,6 +110,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -118,6 +122,12 @@ references:
   name: IEmittedStreamsDeleter
   nameWithType: IEmittedStreamsDeleter
   fullName: EventStore.Projections.Core.Services.Processing.IEmittedStreamsDeleter
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.EmittedStreamsDeleter.#ctor*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.EmittedStreamsDeleter.#ctor
   name: EmittedStreamsDeleter
@@ -130,6 +140,8 @@ references:
   nameWithType: IODispatcher
   fullName: EventStore.Core.Helpers.IODispatcher
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

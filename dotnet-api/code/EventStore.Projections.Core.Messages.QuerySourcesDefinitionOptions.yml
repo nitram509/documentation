@@ -5,10 +5,8 @@ items:
   id: QuerySourcesDefinitionOptions
   parent: EventStore.Projections.Core.Messages
   children:
-  - EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.DefinesCatalogTransform
   - EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.DefinesFold
   - EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.DefinesStateTransform
-  - EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.DisableParallelism
   - EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.HandlesDeletedNotifications
   - EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.IncludeLinks
   - EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.IsBiState
@@ -35,6 +33,7 @@ items:
     content: 'public class QuerySourcesDefinitionOptions : object'
     content.vb: >-
       Public Class QuerySourcesDefinitionOptions
+
           Inherits Object
   inheritance:
   - System.Object
@@ -168,37 +167,6 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.DefinesCatalogTransform
-  commentId: P:EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.DefinesCatalogTransform
-  id: DefinesCatalogTransform
-  parent: EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions
-  langs:
-  - csharp
-  - vb
-  name: DefinesCatalogTransform
-  nameWithType: QuerySourcesDefinitionOptions.DefinesCatalogTransform
-  fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.DefinesCatalogTransform
-  type: Property
-  source:
-    id: DefinesCatalogTransform
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinitionOptions.cs
-    startLine: 15
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Messages
-  syntax:
-    content: public bool DefinesCatalogTransform { get; set; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public Property DefinesCatalogTransform As Boolean
-  overload: EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.DefinesCatalogTransform*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.ResultStreamName
   commentId: P:EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.ResultStreamName
   id: ResultStreamName
@@ -213,7 +181,7 @@ items:
   source:
     id: ResultStreamName
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinitionOptions.cs
-    startLine: 18
+    startLine: 15
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -244,7 +212,7 @@ items:
   source:
     id: PartitionResultStreamNamePattern
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinitionOptions.cs
-    startLine: 21
+    startLine: 18
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -275,7 +243,7 @@ items:
   source:
     id: IncludeLinks
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinitionOptions.cs
-    startLine: 24
+    startLine: 21
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -286,37 +254,6 @@ items:
       type: System.Boolean
     content.vb: Public Property IncludeLinks As Boolean
   overload: EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.IncludeLinks*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.DisableParallelism
-  commentId: P:EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.DisableParallelism
-  id: DisableParallelism
-  parent: EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions
-  langs:
-  - csharp
-  - vb
-  name: DisableParallelism
-  nameWithType: QuerySourcesDefinitionOptions.DisableParallelism
-  fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.DisableParallelism
-  type: Property
-  source:
-    id: DisableParallelism
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinitionOptions.cs
-    startLine: 26
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Messages
-  syntax:
-    content: public bool DisableParallelism { get; set; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public Property DisableParallelism As Boolean
-  overload: EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.DisableParallelism*
   modifiers.csharp:
   - public
   - get
@@ -337,7 +274,7 @@ items:
   source:
     id: ReorderEvents
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinitionOptions.cs
-    startLine: 29
+    startLine: 23
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -368,7 +305,7 @@ items:
   source:
     id: ProcessingLag
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinitionOptions.cs
-    startLine: 31
+    startLine: 25
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -399,7 +336,7 @@ items:
   source:
     id: IsBiState
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinitionOptions.cs
-    startLine: 33
+    startLine: 27
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -423,16 +360,26 @@ references:
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.ProducesResults*
   commentId: Overload:EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.ProducesResults
   name: ProducesResults
   nameWithType: QuerySourcesDefinitionOptions.ProducesResults
   fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.ProducesResults
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -452,17 +399,14 @@ references:
   name: DefinesStateTransform
   nameWithType: QuerySourcesDefinitionOptions.DefinesStateTransform
   fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.DefinesStateTransform
-- uid: EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.DefinesCatalogTransform*
-  commentId: Overload:EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.DefinesCatalogTransform
-  name: DefinesCatalogTransform
-  nameWithType: QuerySourcesDefinitionOptions.DefinesCatalogTransform
-  fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.DefinesCatalogTransform
 - uid: EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.ResultStreamName*
   commentId: Overload:EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.ResultStreamName
   name: ResultStreamName
   nameWithType: QuerySourcesDefinitionOptions.ResultStreamName
   fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.ResultStreamName
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -477,11 +421,6 @@ references:
   name: IncludeLinks
   nameWithType: QuerySourcesDefinitionOptions.IncludeLinks
   fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.IncludeLinks
-- uid: EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.DisableParallelism*
-  commentId: Overload:EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.DisableParallelism
-  name: DisableParallelism
-  nameWithType: QuerySourcesDefinitionOptions.DisableParallelism
-  fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.DisableParallelism
 - uid: EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.ReorderEvents*
   commentId: Overload:EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.ReorderEvents
   name: ReorderEvents
@@ -493,7 +432,8 @@ references:
   nameWithType: QuerySourcesDefinitionOptions.ProcessingLag
   fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions.ProcessingLag
 - uid: System.Nullable{System.Int32}
-  commentId: '!:System.Nullable{System.Int32}'
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
   definition: System.Nullable`1
   name: Nullable<Int32>
   nameWithType: Nullable<Int32>
@@ -536,13 +476,14 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Nullable`1
+  commentId: T:System.Nullable`1
   isExternal: true
-  name: Nullable<>
-  nameWithType: Nullable<>
-  fullName: System.Nullable<>
-  nameWithType.vb: Nullable(Of )
-  fullName.vb: System.Nullable(Of )
-  name.vb: Nullable(Of )
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
@@ -552,9 +493,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -567,9 +508,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )

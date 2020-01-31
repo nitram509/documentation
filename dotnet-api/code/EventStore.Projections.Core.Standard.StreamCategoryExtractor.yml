@@ -25,6 +25,7 @@ items:
     content: 'public abstract class StreamCategoryExtractor : object'
     content.vb: >-
       Public MustInherit Class StreamCategoryExtractor
+
           Inherits Object
   inheritance:
   - System.Object
@@ -117,16 +118,26 @@ references:
   nameWithType: EventStore.Projections.Core.Standard
   fullName: EventStore.Projections.Core.Standard
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Standard.StreamCategoryExtractor.GetCategoryByStreamId*
   commentId: Overload:EventStore.Projections.Core.Standard.StreamCategoryExtractor.GetCategoryByStreamId
   name: GetCategoryByStreamId
   nameWithType: StreamCategoryExtractor.GetCategoryByStreamId
   fullName: EventStore.Projections.Core.Standard.StreamCategoryExtractor.GetCategoryByStreamId
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

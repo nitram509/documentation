@@ -25,7 +25,9 @@ items:
     content: 'public class TimeoutScheduler : object, ISingletonTimeoutScheduler'
     content.vb: >-
       Public Class TimeoutScheduler
+
           Inherits Object
+
           Implements ISingletonTimeoutScheduler
   inheritance:
   - System.Object
@@ -103,6 +105,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Management
   fullName: EventStore.Projections.Core.Services.Management
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -113,6 +117,12 @@ references:
   name: ISingletonTimeoutScheduler
   nameWithType: ISingletonTimeoutScheduler
   fullName: EventStore.Projections.Core.Services.ISingletonTimeoutScheduler
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services
   commentId: N:EventStore.Projections.Core.Services
   name: EventStore.Projections.Core.Services
@@ -184,6 +194,8 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

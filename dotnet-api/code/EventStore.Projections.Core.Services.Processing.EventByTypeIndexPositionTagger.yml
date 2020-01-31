@@ -31,6 +31,7 @@ items:
     content: 'public class EventByTypeIndexPositionTagger : PositionTagger'
     content.vb: >-
       Public Class EventByTypeIndexPositionTagger
+
           Inherits PositionTagger
   inheritance:
   - System.Object
@@ -329,6 +330,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -345,12 +348,20 @@ references:
   name: Phase
   nameWithType: PositionTagger.Phase
   fullName: EventStore.Projections.Core.Services.Processing.PositionTagger.Phase
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.EventByTypeIndexPositionTagger.#ctor*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.EventByTypeIndexPositionTagger.#ctor
   name: EventByTypeIndexPositionTagger
   nameWithType: EventByTypeIndexPositionTagger.EventByTypeIndexPositionTagger
   fullName: EventStore.Projections.Core.Services.Processing.EventByTypeIndexPositionTagger.EventByTypeIndexPositionTagger
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -382,6 +393,8 @@ references:
     nameWithType: ()
     fullName: ()
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

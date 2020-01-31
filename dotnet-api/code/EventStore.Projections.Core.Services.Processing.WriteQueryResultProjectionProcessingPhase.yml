@@ -25,7 +25,9 @@ items:
     content: 'public sealed class WriteQueryResultProjectionProcessingPhase : WriteQueryResultProjectionProcessingPhaseBase, IProjectionProcessingPhase, IDisposable, IHandle<CoreProjectionManagementMessage.GetState>, IHandle<CoreProjectionManagementMessage.GetResult>, IHandle<CoreProjectionProcessingMessage.PrerecordedEventsLoaded>'
     content.vb: >-
       Public NotInheritable Class WriteQueryResultProjectionProcessingPhase
+
           Inherits WriteQueryResultProjectionProcessingPhaseBase
+
           Implements IProjectionProcessingPhase, IDisposable, IHandle(Of CoreProjectionManagementMessage.GetState), IHandle(Of CoreProjectionManagementMessage.GetResult), IHandle(Of CoreProjectionProcessingMessage.PrerecordedEventsLoaded)
   inheritance:
   - System.Object
@@ -50,7 +52,6 @@ items:
   - EventStore.Projections.Core.Services.Processing.WriteQueryResultProjectionProcessingPhaseBase.Handle(CoreProjectionProcessingMessage.PrerecordedEventsLoaded)
   - EventStore.Projections.Core.Services.Processing.WriteQueryResultProjectionProcessingPhaseBase.AdjustTag(EventStore.Projections.Core.Services.Processing.CheckpointTag)
   - EventStore.Projections.Core.Services.Processing.WriteQueryResultProjectionProcessingPhaseBase.InitializeFromCheckpoint(EventStore.Projections.Core.Services.Processing.CheckpointTag)
-  - EventStore.Projections.Core.Services.Processing.WriteQueryResultProjectionProcessingPhaseBase.AssignSlaves(EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels)
   - EventStore.Projections.Core.Services.Processing.WriteQueryResultProjectionProcessingPhaseBase.ProcessEvent
   - EventStore.Projections.Core.Services.Processing.WriteQueryResultProjectionProcessingPhaseBase.Subscribe(EventStore.Projections.Core.Services.Processing.CheckpointTag,System.Boolean)
   - EventStore.Projections.Core.Services.Processing.WriteQueryResultProjectionProcessingPhaseBase.SetProjectionState(EventStore.Projections.Core.Services.Processing.PhaseState)
@@ -149,6 +150,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -540,42 +543,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: EventStore.Projections.Core.Services.Processing.WriteQueryResultProjectionProcessingPhaseBase.AssignSlaves(EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels)
-  commentId: M:EventStore.Projections.Core.Services.Processing.WriteQueryResultProjectionProcessingPhaseBase.AssignSlaves(EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels)
-  parent: EventStore.Projections.Core.Services.Processing.WriteQueryResultProjectionProcessingPhaseBase
-  name: AssignSlaves(SlaveProjectionCommunicationChannels)
-  nameWithType: WriteQueryResultProjectionProcessingPhaseBase.AssignSlaves(SlaveProjectionCommunicationChannels)
-  fullName: EventStore.Projections.Core.Services.Processing.WriteQueryResultProjectionProcessingPhaseBase.AssignSlaves(EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels)
-  spec.csharp:
-  - uid: EventStore.Projections.Core.Services.Processing.WriteQueryResultProjectionProcessingPhaseBase.AssignSlaves(EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels)
-    name: AssignSlaves
-    nameWithType: WriteQueryResultProjectionProcessingPhaseBase.AssignSlaves
-    fullName: EventStore.Projections.Core.Services.Processing.WriteQueryResultProjectionProcessingPhaseBase.AssignSlaves
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels
-    name: SlaveProjectionCommunicationChannels
-    nameWithType: SlaveProjectionCommunicationChannels
-    fullName: EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EventStore.Projections.Core.Services.Processing.WriteQueryResultProjectionProcessingPhaseBase.AssignSlaves(EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels)
-    name: AssignSlaves
-    nameWithType: WriteQueryResultProjectionProcessingPhaseBase.AssignSlaves
-    fullName: EventStore.Projections.Core.Services.Processing.WriteQueryResultProjectionProcessingPhaseBase.AssignSlaves
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels
-    name: SlaveProjectionCommunicationChannels
-    nameWithType: SlaveProjectionCommunicationChannels
-    fullName: EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: EventStore.Projections.Core.Services.Processing.WriteQueryResultProjectionProcessingPhaseBase.ProcessEvent
   commentId: M:EventStore.Projections.Core.Services.Processing.WriteQueryResultProjectionProcessingPhaseBase.ProcessEvent
   parent: EventStore.Projections.Core.Services.Processing.WriteQueryResultProjectionProcessingPhaseBase
@@ -785,6 +752,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Bus.IHandle`1
   commentId: T:EventStore.Core.Bus.IHandle`1
   name: IHandle<T>
@@ -838,11 +811,15 @@ references:
   nameWithType: IPublisher
   fullName: EventStore.Core.Bus.IPublisher
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

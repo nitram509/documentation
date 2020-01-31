@@ -25,7 +25,9 @@ items:
     content: 'public class ResultEventEmitter : object, IResultEventEmitter'
     content.vb: >-
       Public Class ResultEventEmitter
+
           Inherits Object
+
           Implements IResultEventEmitter
   inheritance:
   - System.Object
@@ -110,6 +112,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -120,6 +124,12 @@ references:
   name: IResultEventEmitter
   nameWithType: IResultEventEmitter
   fullName: EventStore.Projections.Core.Services.Processing.IResultEventEmitter
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.ResultEventEmitter.#ctor*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.ResultEventEmitter.#ctor
   name: ResultEventEmitter
@@ -206,6 +216,8 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

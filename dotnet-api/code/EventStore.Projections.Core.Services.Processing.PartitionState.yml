@@ -30,6 +30,7 @@ items:
     content: 'public class PartitionState : object'
     content.vb: >-
       Public Class PartitionState
+
           Inherits Object
   inheritance:
   - System.Object
@@ -266,10 +267,18 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.PartitionState.IsChanged*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.PartitionState.IsChanged
   name: IsChanged
@@ -282,6 +291,8 @@ references:
   nameWithType: PartitionState
   fullName: EventStore.Projections.Core.Services.Processing.PartitionState
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -292,6 +303,8 @@ references:
   nameWithType: PartitionState.Deserialize
   fullName: EventStore.Projections.Core.Services.Processing.PartitionState.Deserialize
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

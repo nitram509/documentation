@@ -17,7 +17,6 @@ items:
   - EventStore.Projections.Core.v8.QueryScript.Push(System.String,System.String[])
   - EventStore.Projections.Core.v8.QueryScript.SetSharedState(System.String)
   - EventStore.Projections.Core.v8.QueryScript.SetState(System.String)
-  - EventStore.Projections.Core.v8.QueryScript.TransformCatalogEvent(System.String,System.String[])
   - EventStore.Projections.Core.v8.QueryScript.TransformStateToResult
   langs:
   - csharp
@@ -37,6 +36,7 @@ items:
     content: 'public class QueryScript : IDisposable'
     content.vb: >-
       Public Class QueryScript
+
           Inherits IDisposable
   inheritance:
   - System.Object
@@ -60,7 +60,7 @@ items:
   source:
     id: Emit
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
-    startLine: 32
+    startLine: 31
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.v8
@@ -87,7 +87,7 @@ items:
   source:
     id: .ctor
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
-    startLine: 34
+    startLine: 33
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.v8
@@ -120,7 +120,7 @@ items:
   source:
     id: Dispose
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
-    startLine: 182
+    startLine: 178
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.v8
@@ -146,7 +146,7 @@ items:
   source:
     id: Initialize
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
-    startLine: 186
+    startLine: 182
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.v8
@@ -172,7 +172,7 @@ items:
   source:
     id: InitializeShared
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
-    startLine: 190
+    startLine: 186
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.v8
@@ -198,7 +198,7 @@ items:
   source:
     id: GetPartition
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
-    startLine: 204
+    startLine: 200
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.v8
@@ -220,42 +220,6 @@ items:
   - Public
   fullName.vb: EventStore.Projections.Core.v8.QueryScript.GetPartition(System.String, System.String())
   name.vb: GetPartition(String, String())
-- uid: EventStore.Projections.Core.v8.QueryScript.TransformCatalogEvent(System.String,System.String[])
-  commentId: M:EventStore.Projections.Core.v8.QueryScript.TransformCatalogEvent(System.String,System.String[])
-  id: TransformCatalogEvent(System.String,System.String[])
-  parent: EventStore.Projections.Core.v8.QueryScript
-  langs:
-  - csharp
-  - vb
-  name: TransformCatalogEvent(String, String[])
-  nameWithType: QueryScript.TransformCatalogEvent(String, String[])
-  fullName: EventStore.Projections.Core.v8.QueryScript.TransformCatalogEvent(System.String, System.String[])
-  type: Method
-  source:
-    id: TransformCatalogEvent
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
-    startLine: 211
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.v8
-  syntax:
-    content: public string TransformCatalogEvent(string json, string[] other)
-    parameters:
-    - id: json
-      type: System.String
-    - id: other
-      type: System.String[]
-    return:
-      type: System.String
-    content.vb: Public Function TransformCatalogEvent(json As String, other As String()) As String
-  overload: EventStore.Projections.Core.v8.QueryScript.TransformCatalogEvent*
-  nameWithType.vb: QueryScript.TransformCatalogEvent(String, String())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: EventStore.Projections.Core.v8.QueryScript.TransformCatalogEvent(System.String, System.String())
-  name.vb: TransformCatalogEvent(String, String())
 - uid: EventStore.Projections.Core.v8.QueryScript.Push(System.String,System.String[])
   commentId: M:EventStore.Projections.Core.v8.QueryScript.Push(System.String,System.String[])
   id: Push(System.String,System.String[])
@@ -270,7 +234,7 @@ items:
   source:
     id: Push
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
-    startLine: 219
+    startLine: 207
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.v8
@@ -306,7 +270,7 @@ items:
   source:
     id: NotifyDeleted
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
-    startLine: 226
+    startLine: 214
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.v8
@@ -342,7 +306,7 @@ items:
   source:
     id: NotifyCreated
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
-    startLine: 234
+    startLine: 222
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.v8
@@ -378,7 +342,7 @@ items:
   source:
     id: TransformStateToResult
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
-    startLine: 242
+    startLine: 230
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.v8
@@ -406,7 +370,7 @@ items:
   source:
     id: SetState
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
-    startLine: 250
+    startLine: 238
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.v8
@@ -435,7 +399,7 @@ items:
   source:
     id: SetSharedState
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
-    startLine: 256
+    startLine: 244
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.v8
@@ -464,7 +428,7 @@ items:
   source:
     id: GetSourcesDefintion
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
-    startLine: 262
+    startLine: 250
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.v8
@@ -485,10 +449,18 @@ references:
   nameWithType: EventStore.Projections.Core.v8
   fullName: EventStore.Projections.Core.v8
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Action{System.String}
   commentId: '!:Action{System.String}'
   definition: Action`1
@@ -582,6 +554,8 @@ references:
   nameWithType: PreludeScript
   fullName: EventStore.Projections.Core.v8.PreludeScript
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -632,11 +606,6 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: EventStore.Projections.Core.v8.QueryScript.TransformCatalogEvent*
-  commentId: Overload:EventStore.Projections.Core.v8.QueryScript.TransformCatalogEvent
-  name: TransformCatalogEvent
-  nameWithType: QueryScript.TransformCatalogEvent
-  fullName: EventStore.Projections.Core.v8.QueryScript.TransformCatalogEvent
 - uid: EventStore.Projections.Core.v8.QueryScript.Push*
   commentId: Overload:EventStore.Projections.Core.v8.QueryScript.Push
   name: Push

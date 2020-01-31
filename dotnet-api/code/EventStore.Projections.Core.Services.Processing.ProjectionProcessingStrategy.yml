@@ -12,10 +12,8 @@ items:
   - EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.Create(Guid,EventStore.Core.Bus.IPublisher,Guid,IPrincipal,EventStore.Core.Bus.IPublisher,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher,EventStore.Core.Services.TimerService.ITimeProvider)
   - EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.CreateProcessingPhases(EventStore.Core.Bus.IPublisher,EventStore.Core.Bus.IPublisher,Guid,EventStore.Projections.Core.Services.Processing.PartitionStateCache,Action,EventStore.Projections.Core.Services.Processing.CoreProjection,EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder,EventStore.Core.Services.TimerService.ITimeProvider,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.Processing.CoreProjectionCheckpointWriter)
   - EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.EnrichStatistics(EventStore.Projections.Core.Services.ProjectionStatistics)
-  - EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetIsSlaveProjection
   - EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetProducesRunningResults
   - EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetRequiresRootPartition
-  - EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetSlaveProjections
   - EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetSourceDefinition
   - EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetStopOnEof
   - EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetUseCheckpoints
@@ -37,6 +35,7 @@ items:
     content: 'public abstract class ProjectionProcessingStrategy : object'
     content.vb: >-
       Public MustInherit Class ProjectionProcessingStrategy
+
           Inherits Object
   inheritance:
   - System.Object
@@ -365,36 +364,6 @@ items:
   modifiers.vb:
   - Public
   - MustOverride
-- uid: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetIsSlaveProjection
-  commentId: M:EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetIsSlaveProjection
-  id: GetIsSlaveProjection
-  parent: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy
-  langs:
-  - csharp
-  - vb
-  name: GetIsSlaveProjection()
-  nameWithType: ProjectionProcessingStrategy.GetIsSlaveProjection()
-  fullName: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetIsSlaveProjection()
-  type: Method
-  source:
-    id: GetIsSlaveProjection
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionProcessingStrategy.cs
-    startLine: 70
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Processing
-  syntax:
-    content: public abstract bool GetIsSlaveProjection()
-    return:
-      type: System.Boolean
-    content.vb: Public MustOverride Function GetIsSlaveProjection As Boolean
-  overload: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetIsSlaveProjection*
-  modifiers.csharp:
-  - public
-  - abstract
-  modifiers.vb:
-  - Public
-  - MustOverride
 - uid: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.EnrichStatistics(EventStore.Projections.Core.Services.ProjectionStatistics)
   commentId: M:EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.EnrichStatistics(EventStore.Projections.Core.Services.ProjectionStatistics)
   id: EnrichStatistics(EventStore.Projections.Core.Services.ProjectionStatistics)
@@ -409,7 +378,7 @@ items:
   source:
     id: EnrichStatistics
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionProcessingStrategy.cs
-    startLine: 71
+    startLine: 70
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -440,7 +409,7 @@ items:
   source:
     id: CreateProcessingPhases
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionProcessingStrategy.cs
-    startLine: 73
+    startLine: 72
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -477,36 +446,6 @@ items:
   modifiers.vb:
   - Public
   - MustOverride
-- uid: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetSlaveProjections
-  commentId: M:EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetSlaveProjections
-  id: GetSlaveProjections
-  parent: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy
-  langs:
-  - csharp
-  - vb
-  name: GetSlaveProjections()
-  nameWithType: ProjectionProcessingStrategy.GetSlaveProjections()
-  fullName: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetSlaveProjections()
-  type: Method
-  source:
-    id: GetSlaveProjections
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionProcessingStrategy.cs
-    startLine: 85
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Processing
-  syntax:
-    content: public abstract SlaveProjectionDefinitions GetSlaveProjections()
-    return:
-      type: EventStore.Projections.Core.Messages.SlaveProjectionDefinitions
-    content.vb: Public MustOverride Function GetSlaveProjections As SlaveProjectionDefinitions
-  overload: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetSlaveProjections*
-  modifiers.csharp:
-  - public
-  - abstract
-  modifiers.vb:
-  - Public
-  - MustOverride
 references:
 - uid: EventStore.Projections.Core.Services.Processing
   commentId: N:EventStore.Projections.Core.Services.Processing
@@ -514,11 +453,21 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -632,6 +581,8 @@ references:
   nameWithType: ProjectionProcessingStrategy.GetStopOnEof
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetStopOnEof
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -651,11 +602,6 @@ references:
   name: GetProducesRunningResults
   nameWithType: ProjectionProcessingStrategy.GetProducesRunningResults
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetProducesRunningResults
-- uid: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetIsSlaveProjection*
-  commentId: Overload:EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetIsSlaveProjection
-  name: GetIsSlaveProjection
-  nameWithType: ProjectionProcessingStrategy.GetIsSlaveProjection
-  fullName: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetIsSlaveProjection
 - uid: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.EnrichStatistics*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.EnrichStatistics
   name: EnrichStatistics
@@ -719,14 +665,3 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetSlaveProjections*
-  commentId: Overload:EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetSlaveProjections
-  name: GetSlaveProjections
-  nameWithType: ProjectionProcessingStrategy.GetSlaveProjections
-  fullName: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetSlaveProjections
-- uid: EventStore.Projections.Core.Messages.SlaveProjectionDefinitions
-  commentId: T:EventStore.Projections.Core.Messages.SlaveProjectionDefinitions
-  parent: EventStore.Projections.Core.Messages
-  name: SlaveProjectionDefinitions
-  nameWithType: SlaveProjectionDefinitions
-  fullName: EventStore.Projections.Core.Messages.SlaveProjectionDefinitions

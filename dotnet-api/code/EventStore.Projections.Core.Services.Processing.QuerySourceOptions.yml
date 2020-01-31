@@ -5,10 +5,8 @@ items:
   id: QuerySourceOptions
   parent: EventStore.Projections.Core.Services.Processing
   children:
-  - EventStore.Projections.Core.Services.Processing.QuerySourceOptions.DefinesCatalogTransform
   - EventStore.Projections.Core.Services.Processing.QuerySourceOptions.DefinesFold
   - EventStore.Projections.Core.Services.Processing.QuerySourceOptions.DefinesStateTransform
-  - EventStore.Projections.Core.Services.Processing.QuerySourceOptions.DisableParallelism
   - EventStore.Projections.Core.Services.Processing.QuerySourceOptions.Equals(EventStore.Projections.Core.Services.Processing.QuerySourceOptions)
   - EventStore.Projections.Core.Services.Processing.QuerySourceOptions.Equals(System.Object)
   - EventStore.Projections.Core.Services.Processing.QuerySourceOptions.GetHashCode
@@ -30,7 +28,7 @@ items:
   source:
     id: QuerySourceOptions
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
-    startLine: 207
+    startLine: 186
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -38,6 +36,7 @@ items:
     content: 'public class QuerySourceOptions : object'
     content.vb: >-
       Public Class QuerySourceOptions
+
           Inherits Object
   inheritance:
   - System.Object
@@ -61,7 +60,7 @@ items:
   source:
     id: ResultStreamName
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
-    startLine: 209
+    startLine: 188
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -92,7 +91,7 @@ items:
   source:
     id: PartitionResultStreamNamePattern
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
-    startLine: 211
+    startLine: 190
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -123,7 +122,7 @@ items:
   source:
     id: ReorderEvents
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
-    startLine: 213
+    startLine: 192
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -154,7 +153,7 @@ items:
   source:
     id: ProcessingLag
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
-    startLine: 215
+    startLine: 194
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -185,7 +184,7 @@ items:
   source:
     id: IsBiState
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
-    startLine: 217
+    startLine: 196
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -216,7 +215,7 @@ items:
   source:
     id: DefinesStateTransform
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
-    startLine: 219
+    startLine: 198
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -227,37 +226,6 @@ items:
       type: System.Boolean
     content.vb: Public Property DefinesStateTransform As Boolean
   overload: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.DefinesStateTransform*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.DefinesCatalogTransform
-  commentId: P:EventStore.Projections.Core.Services.Processing.QuerySourceOptions.DefinesCatalogTransform
-  id: DefinesCatalogTransform
-  parent: EventStore.Projections.Core.Services.Processing.QuerySourceOptions
-  langs:
-  - csharp
-  - vb
-  name: DefinesCatalogTransform
-  nameWithType: QuerySourceOptions.DefinesCatalogTransform
-  fullName: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.DefinesCatalogTransform
-  type: Property
-  source:
-    id: DefinesCatalogTransform
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
-    startLine: 221
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Processing
-  syntax:
-    content: public bool DefinesCatalogTransform { get; set; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public Property DefinesCatalogTransform As Boolean
-  overload: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.DefinesCatalogTransform*
   modifiers.csharp:
   - public
   - get
@@ -278,7 +246,7 @@ items:
   source:
     id: ProducesResults
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
-    startLine: 223
+    startLine: 200
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -309,7 +277,7 @@ items:
   source:
     id: DefinesFold
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
-    startLine: 225
+    startLine: 202
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -340,7 +308,7 @@ items:
   source:
     id: HandlesDeletedNotifications
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
-    startLine: 227
+    startLine: 204
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -371,7 +339,7 @@ items:
   source:
     id: IncludeLinks
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
-    startLine: 229
+    startLine: 206
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -382,37 +350,6 @@ items:
       type: System.Boolean
     content.vb: Public Property IncludeLinks As Boolean
   overload: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.IncludeLinks*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.DisableParallelism
-  commentId: P:EventStore.Projections.Core.Services.Processing.QuerySourceOptions.DisableParallelism
-  id: DisableParallelism
-  parent: EventStore.Projections.Core.Services.Processing.QuerySourceOptions
-  langs:
-  - csharp
-  - vb
-  name: DisableParallelism
-  nameWithType: QuerySourceOptions.DisableParallelism
-  fullName: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.DisableParallelism
-  type: Property
-  source:
-    id: DisableParallelism
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
-    startLine: 231
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Processing
-  syntax:
-    content: public bool DisableParallelism { get; set; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public Property DisableParallelism As Boolean
-  overload: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.DisableParallelism*
   modifiers.csharp:
   - public
   - get
@@ -433,7 +370,7 @@ items:
   source:
     id: Equals
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
-    startLine: 233
+    startLine: 208
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -464,7 +401,7 @@ items:
   source:
     id: Equals
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
-    startLine: 244
+    startLine: 218
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -497,7 +434,7 @@ items:
   source:
     id: GetHashCode
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
-    startLine: 251
+    startLine: 225
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -520,16 +457,26 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.ResultStreamName*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.QuerySourceOptions.ResultStreamName
   name: ResultStreamName
   nameWithType: QuerySourceOptions.ResultStreamName
   fullName: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.ResultStreamName
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -545,6 +492,8 @@ references:
   nameWithType: QuerySourceOptions.ReorderEvents
   fullName: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.ReorderEvents
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -555,6 +504,8 @@ references:
   nameWithType: QuerySourceOptions.ProcessingLag
   fullName: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.ProcessingLag
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -569,11 +520,6 @@ references:
   name: DefinesStateTransform
   nameWithType: QuerySourceOptions.DefinesStateTransform
   fullName: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.DefinesStateTransform
-- uid: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.DefinesCatalogTransform*
-  commentId: Overload:EventStore.Projections.Core.Services.Processing.QuerySourceOptions.DefinesCatalogTransform
-  name: DefinesCatalogTransform
-  nameWithType: QuerySourceOptions.DefinesCatalogTransform
-  fullName: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.DefinesCatalogTransform
 - uid: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.ProducesResults*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.QuerySourceOptions.ProducesResults
   name: ProducesResults
@@ -594,11 +540,6 @@ references:
   name: IncludeLinks
   nameWithType: QuerySourceOptions.IncludeLinks
   fullName: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.IncludeLinks
-- uid: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.DisableParallelism*
-  commentId: Overload:EventStore.Projections.Core.Services.Processing.QuerySourceOptions.DisableParallelism
-  name: DisableParallelism
-  nameWithType: QuerySourceOptions.DisableParallelism
-  fullName: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.DisableParallelism
 - uid: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.Equals*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.QuerySourceOptions.Equals
   name: Equals

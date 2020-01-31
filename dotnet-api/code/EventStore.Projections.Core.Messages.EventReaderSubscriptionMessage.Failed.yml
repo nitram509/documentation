@@ -26,6 +26,7 @@ items:
     content: 'public sealed class Failed : EventReaderSubscriptionMessageBase'
     content.vb: >-
       Public NotInheritable Class Failed
+
           Inherits EventReaderSubscriptionMessageBase
   inheritance:
   - System.Object
@@ -149,6 +150,8 @@ references:
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -201,6 +204,12 @@ references:
   name: NextMsgId
   nameWithType: Message.NextMsgId
   fullName: EventStore.Core.Messaging.Message.NextMsgId
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Messaging
   commentId: N:EventStore.Core.Messaging
   name: EventStore.Core.Messaging
@@ -218,6 +227,8 @@ references:
   nameWithType: EventReaderSubscriptionMessage.Failed.MsgTypeId
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.Failed.MsgTypeId
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -228,6 +239,8 @@ references:
   nameWithType: EventReaderSubscriptionMessage.Failed.Reason
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.Failed.Reason
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

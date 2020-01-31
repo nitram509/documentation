@@ -21,7 +21,7 @@ items:
   source:
     id: SerializedRunAs
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 1063
+    startLine: 1037
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -29,6 +29,7 @@ items:
     content: 'public class SerializedRunAs : object'
     content.vb: >-
       Public Class SerializedRunAs
+
           Inherits Object
   inheritance:
   - System.Object
@@ -52,7 +53,7 @@ items:
   source:
     id: Name
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 1064
+    startLine: 1038
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -83,7 +84,7 @@ items:
   source:
     id: Roles
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 1065
+    startLine: 1039
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -114,7 +115,7 @@ items:
   source:
     id: op_Implicit
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 1067
+    startLine: 1041
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -150,7 +151,7 @@ items:
   source:
     id: op_Implicit
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 1071
+    startLine: 1045
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -186,7 +187,7 @@ items:
   source:
     id: SerializePrincipal
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 1083
+    startLine: 1057
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -219,7 +220,7 @@ items:
   source:
     id: DeserializePrincipal
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 1098
+    startLine: 1072
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -245,16 +246,26 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Management
   fullName: EventStore.Projections.Core.Services.Management
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Management.SerializedRunAs.Name*
   commentId: Overload:EventStore.Projections.Core.Services.Management.SerializedRunAs.Name
   name: Name
   nameWithType: SerializedRunAs.Name
   fullName: EventStore.Projections.Core.Services.Management.SerializedRunAs.Name
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

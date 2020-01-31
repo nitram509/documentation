@@ -10,7 +10,6 @@ items:
   - EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.ProcessCommittedEvent(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived,System.String)
   - EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.ProcessPartitionDeleted(System.String,EventStore.Projections.Core.Services.Processing.CheckpointTag)
   - EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.RecordEventOrder(EventStore.Projections.Core.Services.Processing.ResolvedEvent,EventStore.Projections.Core.Services.Processing.CheckpointTag,Action)
-  - EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.TransformCatalogEvent(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived)
   langs:
   - csharp
   - vb
@@ -29,6 +28,7 @@ items:
     content: 'public interface IEventProcessingProjectionPhase : IProjectionPhaseStateManager'
     content.vb: >-
       Public Interface IEventProcessingProjectionPhase
+
           Inherits IProjectionPhaseStateManager
   inheritedMembers:
   - EventStore.Projections.Core.Services.Processing.IProjectionPhaseStateManager.BeginGetPartitionStateAt(System.String,EventStore.Projections.Core.Services.Processing.CheckpointTag,Action{EventStore.Projections.Core.Services.Processing.PartitionState},System.Boolean)
@@ -40,33 +40,6 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.TransformCatalogEvent(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived)
-  commentId: M:EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.TransformCatalogEvent(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived)
-  id: TransformCatalogEvent(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived)
-  parent: EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase
-  langs:
-  - csharp
-  - vb
-  name: TransformCatalogEvent(EventReaderSubscriptionMessage.CommittedEventReceived)
-  nameWithType: IEventProcessingProjectionPhase.TransformCatalogEvent(EventReaderSubscriptionMessage.CommittedEventReceived)
-  fullName: EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.TransformCatalogEvent(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived)
-  type: Method
-  source:
-    id: TransformCatalogEvent
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
-    startLine: 24
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Processing
-  syntax:
-    content: string TransformCatalogEvent(EventReaderSubscriptionMessage.CommittedEventReceived message)
-    parameters:
-    - id: message
-      type: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived
-    return:
-      type: System.String
-    content.vb: Function TransformCatalogEvent(message As EventReaderSubscriptionMessage.CommittedEventReceived) As String
-  overload: EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.TransformCatalogEvent*
 - uid: EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.ProcessCommittedEvent(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived,System.String)
   commentId: M:EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.ProcessCommittedEvent(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived,System.String)
   id: ProcessCommittedEvent(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived,System.String)
@@ -81,7 +54,7 @@ items:
   source:
     id: ProcessCommittedEvent
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
-    startLine: 26
+    startLine: 24
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -110,7 +83,7 @@ items:
   source:
     id: FinalizeEventProcessing
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
-    startLine: 29
+    startLine: 27
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -139,7 +112,7 @@ items:
   source:
     id: RecordEventOrder
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
-    startLine: 32
+    startLine: 30
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -168,7 +141,7 @@ items:
   source:
     id: EmitEofResult
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
-    startLine: 34
+    startLine: 32
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -201,7 +174,7 @@ items:
   source:
     id: ProcessPartitionDeleted
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
-    startLine: 37
+    startLine: 35
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -378,11 +351,11 @@ references:
   name: IProjectionPhaseStateManager
   nameWithType: IProjectionPhaseStateManager
   fullName: EventStore.Projections.Core.Services.Processing.IProjectionPhaseStateManager
-- uid: EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.TransformCatalogEvent*
-  commentId: Overload:EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.TransformCatalogEvent
-  name: TransformCatalogEvent
-  nameWithType: IEventProcessingProjectionPhase.TransformCatalogEvent
-  fullName: EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.TransformCatalogEvent
+- uid: EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.ProcessCommittedEvent*
+  commentId: Overload:EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.ProcessCommittedEvent
+  name: ProcessCommittedEvent
+  nameWithType: IEventProcessingProjectionPhase.ProcessCommittedEvent
+  fullName: EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.ProcessCommittedEvent
 - uid: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived
   commentId: T:EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived
   parent: EventStore.Projections.Core.Messages
@@ -390,26 +363,29 @@ references:
   nameWithType: EventReaderSubscriptionMessage.CommittedEventReceived
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
-- uid: EventStore.Projections.Core.Messages
-  commentId: N:EventStore.Projections.Core.Messages
-  name: EventStore.Projections.Core.Messages
-  nameWithType: EventStore.Projections.Core.Messages
-  fullName: EventStore.Projections.Core.Messages
-- uid: EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.ProcessCommittedEvent*
-  commentId: Overload:EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.ProcessCommittedEvent
-  name: ProcessCommittedEvent
-  nameWithType: IEventProcessingProjectionPhase.ProcessCommittedEvent
-  fullName: EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.ProcessCommittedEvent
 - uid: EventStore.Projections.Core.Services.Processing.EventProcessedResult
   commentId: T:EventStore.Projections.Core.Services.Processing.EventProcessedResult
   parent: EventStore.Projections.Core.Services.Processing
   name: EventProcessedResult
   nameWithType: EventProcessedResult
   fullName: EventStore.Projections.Core.Services.Processing.EventProcessedResult
+- uid: EventStore.Projections.Core.Messages
+  commentId: N:EventStore.Projections.Core.Messages
+  name: EventStore.Projections.Core.Messages
+  nameWithType: EventStore.Projections.Core.Messages
+  fullName: EventStore.Projections.Core.Messages
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.FinalizeEventProcessing*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.FinalizeEventProcessing
   name: FinalizeEventProcessing
@@ -422,6 +398,8 @@ references:
   nameWithType: CheckpointTag
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag
 - uid: System.Single
+  commentId: T:System.Single
+  parent: System
   isExternal: true
   name: Single
   nameWithType: Single

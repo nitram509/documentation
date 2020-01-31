@@ -36,7 +36,9 @@ items:
     content: 'public class ProjectionCheckpoint : IDisposable, IEmittedStreamContainer, IProjectionCheckpointManager, IHandle<CoreProjectionProcessingMessage.ReadyForCheckpoint>, IHandle<CoreProjectionProcessingMessage.RestartRequested>, IHandle<CoreProjectionProcessingMessage.Failed>, IHandle<CoreProjectionProcessingMessage.EmittedStreamAwaiting>, IHandle<CoreProjectionProcessingMessage.EmittedStreamWriteCompleted>, IEventWriter'
     content.vb: >-
       Public Class ProjectionCheckpoint
+
           Inherits IDisposable
+
           Implements IEmittedStreamContainer, IProjectionCheckpointManager, IHandle(Of CoreProjectionProcessingMessage.ReadyForCheckpoint), IHandle(Of CoreProjectionProcessingMessage.RestartRequested), IHandle(Of CoreProjectionProcessingMessage.Failed), IHandle(Of CoreProjectionProcessingMessage.EmittedStreamAwaiting), IHandle(Of CoreProjectionProcessingMessage.EmittedStreamWriteCompleted), IEventWriter
   inheritance:
   - System.Object
@@ -463,6 +465,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -685,6 +689,12 @@ references:
   name: IEventWriter
   nameWithType: IEventWriter
   fullName: EventStore.Projections.Core.Services.Processing.IEventWriter
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Messages
   commentId: N:EventStore.Projections.Core.Messages
   name: EventStore.Projections.Core.Messages
@@ -772,6 +782,8 @@ references:
   nameWithType: PositionTagger
   fullName: EventStore.Projections.Core.Services.Processing.PositionTagger
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

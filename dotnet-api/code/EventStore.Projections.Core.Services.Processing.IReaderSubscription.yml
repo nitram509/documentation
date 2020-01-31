@@ -23,10 +23,11 @@ items:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
   syntax:
-    content: 'public interface IReaderSubscription : IHandle<ReaderSubscriptionMessage.CommittedEventDistributed>, IHandle<ReaderSubscriptionMessage.EventReaderIdle>, IHandle<ReaderSubscriptionMessage.EventReaderStarting>, IHandle<ReaderSubscriptionMessage.EventReaderEof>, IHandle<ReaderSubscriptionMessage.EventReaderPartitionEof>, IHandle<ReaderSubscriptionMessage.EventReaderPartitionDeleted>, IHandle<ReaderSubscriptionMessage.EventReaderPartitionMeasured>, IHandle<ReaderSubscriptionMessage.EventReaderNotAuthorized>'
+    content: 'public interface IReaderSubscription : IHandle<ReaderSubscriptionMessage.CommittedEventDistributed>, IHandle<ReaderSubscriptionMessage.EventReaderIdle>, IHandle<ReaderSubscriptionMessage.EventReaderStarting>, IHandle<ReaderSubscriptionMessage.EventReaderEof>, IHandle<ReaderSubscriptionMessage.EventReaderPartitionEof>, IHandle<ReaderSubscriptionMessage.EventReaderPartitionDeleted>, IHandle<ReaderSubscriptionMessage.EventReaderNotAuthorized>'
     content.vb: >-
       Public Interface IReaderSubscription
-          Inherits IHandle(Of ReaderSubscriptionMessage.CommittedEventDistributed), IHandle(Of ReaderSubscriptionMessage.EventReaderIdle), IHandle(Of ReaderSubscriptionMessage.EventReaderStarting), IHandle(Of ReaderSubscriptionMessage.EventReaderEof), IHandle(Of ReaderSubscriptionMessage.EventReaderPartitionEof), IHandle(Of ReaderSubscriptionMessage.EventReaderPartitionDeleted), IHandle(Of ReaderSubscriptionMessage.EventReaderPartitionMeasured), IHandle(Of ReaderSubscriptionMessage.EventReaderNotAuthorized)
+
+          Inherits IHandle(Of ReaderSubscriptionMessage.CommittedEventDistributed), IHandle(Of ReaderSubscriptionMessage.EventReaderIdle), IHandle(Of ReaderSubscriptionMessage.EventReaderStarting), IHandle(Of ReaderSubscriptionMessage.EventReaderEof), IHandle(Of ReaderSubscriptionMessage.EventReaderPartitionEof), IHandle(Of ReaderSubscriptionMessage.EventReaderPartitionDeleted), IHandle(Of ReaderSubscriptionMessage.EventReaderNotAuthorized)
   inheritedMembers:
   - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.CommittedEventDistributed}.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.CommittedEventDistributed)
   - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderIdle}.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderIdle)
@@ -34,7 +35,6 @@ items:
   - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderEof}.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderEof)
   - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionEof}.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionEof)
   - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionDeleted}.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionDeleted)
-  - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured}.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured)
   - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderNotAuthorized}.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderNotAuthorized)
   modifiers.csharp:
   - public
@@ -56,7 +56,7 @@ items:
   source:
     id: Tag
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderSubscription.cs
-    startLine: 14
+    startLine: 13
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -85,7 +85,7 @@ items:
   source:
     id: SubscriptionId
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderSubscription.cs
-    startLine: 15
+    startLine: 14
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -114,7 +114,7 @@ items:
   source:
     id: CreatePausedEventReader
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderSubscription.cs
-    startLine: 16
+    startLine: 15
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -368,45 +368,6 @@ references:
     name: ReaderSubscriptionMessage.EventReaderPartitionDeleted
     nameWithType: ReaderSubscriptionMessage.EventReaderPartitionDeleted
     fullName: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionDeleted
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured}.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured)
-  commentId: M:EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured}.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured)
-  parent: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured}
-  definition: EventStore.Core.Bus.IHandle`1.Handle(`0)
-  name: Handle(ReaderSubscriptionMessage.EventReaderPartitionMeasured)
-  nameWithType: IHandle<ReaderSubscriptionMessage.EventReaderPartitionMeasured>.Handle(ReaderSubscriptionMessage.EventReaderPartitionMeasured)
-  fullName: EventStore.Core.Bus.IHandle<EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured>.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured)
-  nameWithType.vb: IHandle(Of ReaderSubscriptionMessage.EventReaderPartitionMeasured).Handle(ReaderSubscriptionMessage.EventReaderPartitionMeasured)
-  fullName.vb: EventStore.Core.Bus.IHandle(Of EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured).Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured)
-  spec.csharp:
-  - uid: EventStore.Core.Bus.IHandle`1.Handle(`0)
-    name: Handle
-    nameWithType: IHandle<ReaderSubscriptionMessage.EventReaderPartitionMeasured>.Handle
-    fullName: EventStore.Core.Bus.IHandle<EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured>.Handle
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured
-    name: ReaderSubscriptionMessage.EventReaderPartitionMeasured
-    nameWithType: ReaderSubscriptionMessage.EventReaderPartitionMeasured
-    fullName: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EventStore.Core.Bus.IHandle`1.Handle(`0)
-    name: Handle
-    nameWithType: IHandle(Of ReaderSubscriptionMessage.EventReaderPartitionMeasured).Handle
-    fullName: EventStore.Core.Bus.IHandle(Of EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured).Handle
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured
-    name: ReaderSubscriptionMessage.EventReaderPartitionMeasured
-    nameWithType: ReaderSubscriptionMessage.EventReaderPartitionMeasured
-    fullName: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured
   - name: )
     nameWithType: )
     fullName: )
@@ -724,46 +685,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured}
-  commentId: T:EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured}
-  parent: EventStore.Core.Bus
-  definition: EventStore.Core.Bus.IHandle`1
-  name: IHandle<ReaderSubscriptionMessage.EventReaderPartitionMeasured>
-  nameWithType: IHandle<ReaderSubscriptionMessage.EventReaderPartitionMeasured>
-  fullName: EventStore.Core.Bus.IHandle<EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured>
-  nameWithType.vb: IHandle(Of ReaderSubscriptionMessage.EventReaderPartitionMeasured)
-  fullName.vb: EventStore.Core.Bus.IHandle(Of EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured)
-  name.vb: IHandle(Of ReaderSubscriptionMessage.EventReaderPartitionMeasured)
-  spec.csharp:
-  - uid: EventStore.Core.Bus.IHandle`1
-    name: IHandle
-    nameWithType: IHandle
-    fullName: EventStore.Core.Bus.IHandle
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured
-    name: ReaderSubscriptionMessage.EventReaderPartitionMeasured
-    nameWithType: ReaderSubscriptionMessage.EventReaderPartitionMeasured
-    fullName: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: EventStore.Core.Bus.IHandle`1
-    name: IHandle
-    nameWithType: IHandle
-    fullName: EventStore.Core.Bus.IHandle
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured
-    name: ReaderSubscriptionMessage.EventReaderPartitionMeasured
-    nameWithType: ReaderSubscriptionMessage.EventReaderPartitionMeasured
-    fullName: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderNotAuthorized}
   commentId: T:EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderNotAuthorized}
   parent: EventStore.Core.Bus
@@ -851,10 +772,18 @@ references:
   nameWithType: IReaderSubscription.Tag
   fullName: EventStore.Projections.Core.Services.Processing.IReaderSubscription.Tag
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.IReaderSubscription.SubscriptionId*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.IReaderSubscription.SubscriptionId
   name: SubscriptionId

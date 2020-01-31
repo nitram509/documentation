@@ -6,7 +6,6 @@ items:
   parent: EventStore.Projections.Core.Services.Processing
   children:
   - EventStore.Projections.Core.Services.Processing.ReaderStrategy.Create(System.String,System.Int32,EventStore.Projections.Core.Messages.IQuerySources,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,IPrincipal)
-  - EventStore.Projections.Core.Services.Processing.ReaderStrategy.CreateExternallyFedReaderStrategy(System.String,System.Int32,EventStore.Core.Services.TimerService.ITimeProvider,IPrincipal,System.Int64)
   - EventStore.Projections.Core.Services.Processing.ReaderStrategy.CreatePausedEventReader(Guid,EventStore.Core.Bus.IPublisher,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.Processing.CheckpointTag,System.Boolean,System.Nullable{System.Int32})
   - EventStore.Projections.Core.Services.Processing.ReaderStrategy.CreateReaderSubscription(EventStore.Core.Bus.IPublisher,EventStore.Projections.Core.Services.Processing.CheckpointTag,Guid,EventStore.Projections.Core.Services.Processing.ReaderSubscriptionOptions)
   - EventStore.Projections.Core.Services.Processing.ReaderStrategy.EventFilter
@@ -31,7 +30,9 @@ items:
     content: 'public class ReaderStrategy : object, IReaderStrategy'
     content.vb: >-
       Public Class ReaderStrategy
+
           Inherits Object
+
           Implements IReaderStrategy
   inheritance:
   - System.Object
@@ -43,47 +44,6 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: EventStore.Projections.Core.Services.Processing.ReaderStrategy.CreateExternallyFedReaderStrategy(System.String,System.Int32,EventStore.Core.Services.TimerService.ITimeProvider,IPrincipal,System.Int64)
-  commentId: M:EventStore.Projections.Core.Services.Processing.ReaderStrategy.CreateExternallyFedReaderStrategy(System.String,System.Int32,EventStore.Core.Services.TimerService.ITimeProvider,IPrincipal,System.Int64)
-  id: CreateExternallyFedReaderStrategy(System.String,System.Int32,EventStore.Core.Services.TimerService.ITimeProvider,IPrincipal,System.Int64)
-  parent: EventStore.Projections.Core.Services.Processing.ReaderStrategy
-  langs:
-  - csharp
-  - vb
-  name: CreateExternallyFedReaderStrategy(String, Int32, ITimeProvider, IPrincipal, Int64)
-  nameWithType: ReaderStrategy.CreateExternallyFedReaderStrategy(String, Int32, ITimeProvider, IPrincipal, Int64)
-  fullName: EventStore.Projections.Core.Services.Processing.ReaderStrategy.CreateExternallyFedReaderStrategy(System.String, System.Int32, EventStore.Core.Services.TimerService.ITimeProvider, IPrincipal, System.Int64)
-  type: Method
-  source:
-    id: CreateExternallyFedReaderStrategy
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
-    startLine: 32
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Processing
-  syntax:
-    content: public static IReaderStrategy CreateExternallyFedReaderStrategy(string tag, int phase, ITimeProvider timeProvider, IPrincipal runAs, long limitingCommitPosition)
-    parameters:
-    - id: tag
-      type: System.String
-    - id: phase
-      type: System.Int32
-    - id: timeProvider
-      type: EventStore.Core.Services.TimerService.ITimeProvider
-    - id: runAs
-      type: IPrincipal
-    - id: limitingCommitPosition
-      type: System.Int64
-    return:
-      type: EventStore.Projections.Core.Services.Processing.IReaderStrategy
-    content.vb: Public Shared Function CreateExternallyFedReaderStrategy(tag As String, phase As Integer, timeProvider As ITimeProvider, runAs As IPrincipal, limitingCommitPosition As Long) As IReaderStrategy
-  overload: EventStore.Projections.Core.Services.Processing.ReaderStrategy.CreateExternallyFedReaderStrategy*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: EventStore.Projections.Core.Services.Processing.ReaderStrategy.Create(System.String,System.Int32,EventStore.Projections.Core.Messages.IQuerySources,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,IPrincipal)
   commentId: M:EventStore.Projections.Core.Services.Processing.ReaderStrategy.Create(System.String,System.Int32,EventStore.Projections.Core.Messages.IQuerySources,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,IPrincipal)
   id: Create(System.String,System.Int32,EventStore.Projections.Core.Messages.IQuerySources,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,IPrincipal)
@@ -98,7 +58,7 @@ items:
   source:
     id: Create
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
-    startLine: 46
+    startLine: 31
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -141,7 +101,7 @@ items:
   source:
     id: IsReadingOrderRepeatable
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
-    startLine: 149
+    startLine: 119
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -174,7 +134,7 @@ items:
   source:
     id: EventFilter
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
-    startLine: 153
+    startLine: 123
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -207,7 +167,7 @@ items:
   source:
     id: PositionTagger
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
-    startLine: 157
+    startLine: 127
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -240,7 +200,7 @@ items:
   source:
     id: Phase
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
-    startLine: 161
+    startLine: 131
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -271,7 +231,7 @@ items:
   source:
     id: CreateReaderSubscription
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
-    startLine: 165
+    startLine: 135
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -310,7 +270,7 @@ items:
   source:
     id: CreatePausedEventReader
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
-    startLine: 196
+    startLine: 166
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -349,6 +309,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -359,63 +321,65 @@ references:
   name: IReaderStrategy
   nameWithType: IReaderStrategy
   fullName: EventStore.Projections.Core.Services.Processing.IReaderStrategy
-- uid: EventStore.Projections.Core.Services.Processing.ReaderStrategy.CreateExternallyFedReaderStrategy*
-  commentId: Overload:EventStore.Projections.Core.Services.Processing.ReaderStrategy.CreateExternallyFedReaderStrategy
-  name: CreateExternallyFedReaderStrategy
-  nameWithType: ReaderStrategy.CreateExternallyFedReaderStrategy
-  fullName: EventStore.Projections.Core.Services.Processing.ReaderStrategy.CreateExternallyFedReaderStrategy
-- uid: System.String
+- uid: System
+  commentId: N:System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: EventStore.Core.Services.TimerService.ITimeProvider
-  commentId: T:EventStore.Core.Services.TimerService.ITimeProvider
-  parent: EventStore.Core.Services.TimerService
-  name: ITimeProvider
-  nameWithType: ITimeProvider
-  fullName: EventStore.Core.Services.TimerService.ITimeProvider
-- uid: IPrincipal
-  isExternal: true
-  name: IPrincipal
-  nameWithType: IPrincipal
-  fullName: IPrincipal
-- uid: System.Int64
-  isExternal: true
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: EventStore.Core.Services.TimerService
-  commentId: N:EventStore.Core.Services.TimerService
-  name: EventStore.Core.Services.TimerService
-  nameWithType: EventStore.Core.Services.TimerService
-  fullName: EventStore.Core.Services.TimerService
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.ReaderStrategy.Create*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.ReaderStrategy.Create
   name: Create
   nameWithType: ReaderStrategy.Create
   fullName: EventStore.Projections.Core.Services.Processing.ReaderStrategy.Create
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: EventStore.Projections.Core.Messages.IQuerySources
   commentId: T:EventStore.Projections.Core.Messages.IQuerySources
   parent: EventStore.Projections.Core.Messages
   name: IQuerySources
   nameWithType: IQuerySources
   fullName: EventStore.Projections.Core.Messages.IQuerySources
+- uid: EventStore.Core.Services.TimerService.ITimeProvider
+  commentId: T:EventStore.Core.Services.TimerService.ITimeProvider
+  parent: EventStore.Core.Services.TimerService
+  name: ITimeProvider
+  nameWithType: ITimeProvider
+  fullName: EventStore.Core.Services.TimerService.ITimeProvider
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: IPrincipal
+  isExternal: true
+  name: IPrincipal
+  nameWithType: IPrincipal
+  fullName: IPrincipal
 - uid: EventStore.Projections.Core.Messages
   commentId: N:EventStore.Projections.Core.Messages
   name: EventStore.Projections.Core.Messages
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
+- uid: EventStore.Core.Services.TimerService
+  commentId: N:EventStore.Core.Services.TimerService
+  name: EventStore.Core.Services.TimerService
+  nameWithType: EventStore.Core.Services.TimerService
+  fullName: EventStore.Core.Services.TimerService
 - uid: EventStore.Projections.Core.Services.Processing.ReaderStrategy.IsReadingOrderRepeatable*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.ReaderStrategy.IsReadingOrderRepeatable
   name: IsReadingOrderRepeatable
@@ -736,7 +700,8 @@ references:
   nameWithType: IODispatcher
   fullName: EventStore.Core.Helpers.IODispatcher
 - uid: System.Nullable{System.Int32}
-  commentId: '!:System.Nullable{System.Int32}'
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
   definition: System.Nullable`1
   name: Nullable<Int32>
   nameWithType: Nullable<Int32>
@@ -790,13 +755,14 @@ references:
   nameWithType: EventStore.Core.Helpers
   fullName: EventStore.Core.Helpers
 - uid: System.Nullable`1
+  commentId: T:System.Nullable`1
   isExternal: true
-  name: Nullable<>
-  nameWithType: Nullable<>
-  fullName: System.Nullable<>
-  nameWithType.vb: Nullable(Of )
-  fullName.vb: System.Nullable(Of )
-  name.vb: Nullable(Of )
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
@@ -806,9 +772,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -821,9 +787,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )

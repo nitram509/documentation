@@ -11,11 +11,9 @@ items:
   - EventStore.Projections.Core.Services.Processing.EventProcessingProjectionProcessingPhase.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived)
   - EventStore.Projections.Core.Services.Processing.EventProcessingProjectionProcessingPhase.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionDeleted)
   - EventStore.Projections.Core.Services.Processing.EventProcessingProjectionProcessingPhase.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionEofReached)
-  - EventStore.Projections.Core.Services.Processing.EventProcessingProjectionProcessingPhase.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured)
   - EventStore.Projections.Core.Services.Processing.EventProcessingProjectionProcessingPhase.NewCheckpointStarted(EventStore.Projections.Core.Services.Processing.CheckpointTag)
   - EventStore.Projections.Core.Services.Processing.EventProcessingProjectionProcessingPhase.ProcessCommittedEvent(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived,System.String)
   - EventStore.Projections.Core.Services.Processing.EventProcessingProjectionProcessingPhase.ProcessPartitionDeleted(System.String,EventStore.Projections.Core.Services.Processing.CheckpointTag)
-  - EventStore.Projections.Core.Services.Processing.EventProcessingProjectionProcessingPhase.TransformCatalogEvent(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived)
   langs:
   - csharp
   - vb
@@ -31,11 +29,13 @@ items:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
   syntax:
-    content: 'public class EventProcessingProjectionProcessingPhase : EventSubscriptionBasedProjectionProcessingPhase, IProjectionPhaseCompleter, IProjectionPhaseCheckpointManager, IHandle<EventReaderSubscriptionMessage.ProgressChanged>, IHandle<EventReaderSubscriptionMessage.SubscriptionStarted>, IHandle<EventReaderSubscriptionMessage.NotAuthorized>, IHandle<EventReaderSubscriptionMessage.EofReached>, IHandle<EventReaderSubscriptionMessage.CheckpointSuggested>, IHandle<EventReaderSubscriptionMessage.ReaderAssignedReader>, IHandle<EventReaderSubscriptionMessage.Failed>, IProjectionProcessingPhase, IDisposable, IHandle<CoreProjectionManagementMessage.GetState>, IHandle<CoreProjectionManagementMessage.GetResult>, IHandle<CoreProjectionProcessingMessage.PrerecordedEventsLoaded>, IHandle<EventReaderSubscriptionMessage.CommittedEventReceived>, IHandle<EventReaderSubscriptionMessage.PartitionEofReached>, IHandle<EventReaderSubscriptionMessage.PartitionDeleted>, IHandle<EventReaderSubscriptionMessage.PartitionMeasured>, IEventProcessingProjectionPhase, IProjectionPhaseStateManager'
+    content: 'public class EventProcessingProjectionProcessingPhase : EventSubscriptionBasedProjectionProcessingPhase, IProjectionPhaseCompleter, IProjectionPhaseCheckpointManager, IHandle<EventReaderSubscriptionMessage.ProgressChanged>, IHandle<EventReaderSubscriptionMessage.SubscriptionStarted>, IHandle<EventReaderSubscriptionMessage.NotAuthorized>, IHandle<EventReaderSubscriptionMessage.EofReached>, IHandle<EventReaderSubscriptionMessage.CheckpointSuggested>, IHandle<EventReaderSubscriptionMessage.ReaderAssignedReader>, IHandle<EventReaderSubscriptionMessage.Failed>, IProjectionProcessingPhase, IDisposable, IHandle<CoreProjectionManagementMessage.GetState>, IHandle<CoreProjectionManagementMessage.GetResult>, IHandle<CoreProjectionProcessingMessage.PrerecordedEventsLoaded>, IHandle<EventReaderSubscriptionMessage.CommittedEventReceived>, IHandle<EventReaderSubscriptionMessage.PartitionEofReached>, IHandle<EventReaderSubscriptionMessage.PartitionDeleted>, IEventProcessingProjectionPhase, IProjectionPhaseStateManager'
     content.vb: >-
       Public Class EventProcessingProjectionProcessingPhase
+
           Inherits EventSubscriptionBasedProjectionProcessingPhase
-          Implements IProjectionPhaseCompleter, IProjectionPhaseCheckpointManager, IHandle(Of EventReaderSubscriptionMessage.ProgressChanged), IHandle(Of EventReaderSubscriptionMessage.SubscriptionStarted), IHandle(Of EventReaderSubscriptionMessage.NotAuthorized), IHandle(Of EventReaderSubscriptionMessage.EofReached), IHandle(Of EventReaderSubscriptionMessage.CheckpointSuggested), IHandle(Of EventReaderSubscriptionMessage.ReaderAssignedReader), IHandle(Of EventReaderSubscriptionMessage.Failed), IProjectionProcessingPhase, IDisposable, IHandle(Of CoreProjectionManagementMessage.GetState), IHandle(Of CoreProjectionManagementMessage.GetResult), IHandle(Of CoreProjectionProcessingMessage.PrerecordedEventsLoaded), IHandle(Of EventReaderSubscriptionMessage.CommittedEventReceived), IHandle(Of EventReaderSubscriptionMessage.PartitionEofReached), IHandle(Of EventReaderSubscriptionMessage.PartitionDeleted), IHandle(Of EventReaderSubscriptionMessage.PartitionMeasured), IEventProcessingProjectionPhase, IProjectionPhaseStateManager
+
+          Implements IProjectionPhaseCompleter, IProjectionPhaseCheckpointManager, IHandle(Of EventReaderSubscriptionMessage.ProgressChanged), IHandle(Of EventReaderSubscriptionMessage.SubscriptionStarted), IHandle(Of EventReaderSubscriptionMessage.NotAuthorized), IHandle(Of EventReaderSubscriptionMessage.EofReached), IHandle(Of EventReaderSubscriptionMessage.CheckpointSuggested), IHandle(Of EventReaderSubscriptionMessage.ReaderAssignedReader), IHandle(Of EventReaderSubscriptionMessage.Failed), IProjectionProcessingPhase, IDisposable, IHandle(Of CoreProjectionManagementMessage.GetState), IHandle(Of CoreProjectionManagementMessage.GetResult), IHandle(Of CoreProjectionProcessingMessage.PrerecordedEventsLoaded), IHandle(Of EventReaderSubscriptionMessage.CommittedEventReceived), IHandle(Of EventReaderSubscriptionMessage.PartitionEofReached), IHandle(Of EventReaderSubscriptionMessage.PartitionDeleted), IEventProcessingProjectionPhase, IProjectionPhaseStateManager
   inheritance:
   - System.Object
   - EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase
@@ -57,7 +57,6 @@ items:
   - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived}
   - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionEofReached}
   - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionDeleted}
-  - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured}
   - EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase
   - EventStore.Projections.Core.Services.Processing.IProjectionPhaseStateManager
   inheritedMembers:
@@ -89,7 +88,6 @@ items:
   - EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.IsOutOfOrderSubscriptionMessage(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase)
   - EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.RegisterSubscriptionMessage(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase)
   - EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.EnsureTickPending
-  - EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.AssignSlaves(EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels)
   - EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.ProcessEvent
   - EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.ProgressChanged)
   - EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.SubscriptionStarted)
@@ -146,7 +144,7 @@ items:
   source:
     id: .ctor
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventProcessingProjectionProcessingPhase.cs
-    startLine: 25
+    startLine: 24
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -217,7 +215,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventProcessingProjectionProcessingPhase.cs
-    startLine: 76
+    startLine: 75
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -248,7 +246,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventProcessingProjectionProcessingPhase.cs
-    startLine: 92
+    startLine: 91
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -279,7 +277,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventProcessingProjectionProcessingPhase.cs
-    startLine: 109
+    startLine: 108
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -292,39 +290,6 @@ items:
   overload: EventStore.Projections.Core.Services.Processing.EventProcessingProjectionProcessingPhase.Handle*
   implements:
   - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionEofReached}.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionEofReached)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: EventStore.Projections.Core.Services.Processing.EventProcessingProjectionProcessingPhase.TransformCatalogEvent(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived)
-  commentId: M:EventStore.Projections.Core.Services.Processing.EventProcessingProjectionProcessingPhase.TransformCatalogEvent(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived)
-  id: TransformCatalogEvent(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived)
-  parent: EventStore.Projections.Core.Services.Processing.EventProcessingProjectionProcessingPhase
-  langs:
-  - csharp
-  - vb
-  name: TransformCatalogEvent(EventReaderSubscriptionMessage.CommittedEventReceived)
-  nameWithType: EventProcessingProjectionProcessingPhase.TransformCatalogEvent(EventReaderSubscriptionMessage.CommittedEventReceived)
-  fullName: EventStore.Projections.Core.Services.Processing.EventProcessingProjectionProcessingPhase.TransformCatalogEvent(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived)
-  type: Method
-  source:
-    id: TransformCatalogEvent
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventProcessingProjectionProcessingPhase.cs
-    startLine: 124
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Processing
-  syntax:
-    content: public string TransformCatalogEvent(EventReaderSubscriptionMessage.CommittedEventReceived message)
-    parameters:
-    - id: message
-      type: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived
-    return:
-      type: System.String
-    content.vb: Public Function TransformCatalogEvent(message As EventReaderSubscriptionMessage.CommittedEventReceived) As String
-  overload: EventStore.Projections.Core.Services.Processing.EventProcessingProjectionProcessingPhase.TransformCatalogEvent*
-  implements:
-  - EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.TransformCatalogEvent(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -343,7 +308,7 @@ items:
   source:
     id: ProcessCommittedEvent
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventProcessingProjectionProcessingPhase.cs
-    startLine: 137
+    startLine: 123
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -378,7 +343,7 @@ items:
   source:
     id: ProcessPartitionDeleted
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventProcessingProjectionProcessingPhase.cs
-    startLine: 151
+    startLine: 137
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -413,7 +378,7 @@ items:
   source:
     id: NewCheckpointStarted
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventProcessingProjectionProcessingPhase.cs
-    startLine: 381
+    startLine: 336
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -445,7 +410,7 @@ items:
   source:
     id: GetStatistics
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventProcessingProjectionProcessingPhase.cs
-    startLine: 412
+    startLine: 367
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -477,7 +442,7 @@ items:
   source:
     id: Dispose
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventProcessingProjectionProcessingPhase.cs
-    startLine: 417
+    startLine: 372
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -492,37 +457,6 @@ items:
   modifiers.vb:
   - Public
   - Overrides
-- uid: EventStore.Projections.Core.Services.Processing.EventProcessingProjectionProcessingPhase.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured)
-  commentId: M:EventStore.Projections.Core.Services.Processing.EventProcessingProjectionProcessingPhase.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured)
-  id: Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured)
-  parent: EventStore.Projections.Core.Services.Processing.EventProcessingProjectionProcessingPhase
-  langs:
-  - csharp
-  - vb
-  name: Handle(EventReaderSubscriptionMessage.PartitionMeasured)
-  nameWithType: EventProcessingProjectionProcessingPhase.Handle(EventReaderSubscriptionMessage.PartitionMeasured)
-  fullName: EventStore.Projections.Core.Services.Processing.EventProcessingProjectionProcessingPhase.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured)
-  type: Method
-  source:
-    id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventProcessingProjectionProcessingPhase.cs
-    startLine: 422
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Processing
-  syntax:
-    content: public void Handle(EventReaderSubscriptionMessage.PartitionMeasured message)
-    parameters:
-    - id: message
-      type: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured
-    content.vb: Public Sub Handle(message As EventReaderSubscriptionMessage.PartitionMeasured)
-  overload: EventStore.Projections.Core.Services.Processing.EventProcessingProjectionProcessingPhase.Handle*
-  implements:
-  - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured}.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: EventStore.Projections.Core.Services.Processing
   commentId: N:EventStore.Projections.Core.Services.Processing
@@ -530,6 +464,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -1083,46 +1019,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured}
-  commentId: T:EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured}
-  parent: EventStore.Core.Bus
-  definition: EventStore.Core.Bus.IHandle`1
-  name: IHandle<EventReaderSubscriptionMessage.PartitionMeasured>
-  nameWithType: IHandle<EventReaderSubscriptionMessage.PartitionMeasured>
-  fullName: EventStore.Core.Bus.IHandle<EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured>
-  nameWithType.vb: IHandle(Of EventReaderSubscriptionMessage.PartitionMeasured)
-  fullName.vb: EventStore.Core.Bus.IHandle(Of EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured)
-  name.vb: IHandle(Of EventReaderSubscriptionMessage.PartitionMeasured)
-  spec.csharp:
-  - uid: EventStore.Core.Bus.IHandle`1
-    name: IHandle
-    nameWithType: IHandle
-    fullName: EventStore.Core.Bus.IHandle
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured
-    name: EventReaderSubscriptionMessage.PartitionMeasured
-    nameWithType: EventReaderSubscriptionMessage.PartitionMeasured
-    fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: EventStore.Core.Bus.IHandle`1
-    name: IHandle
-    nameWithType: IHandle
-    fullName: EventStore.Core.Bus.IHandle
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured
-    name: EventReaderSubscriptionMessage.PartitionMeasured
-    nameWithType: EventReaderSubscriptionMessage.PartitionMeasured
-    fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase
   commentId: T:EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase
   parent: EventStore.Projections.Core.Services.Processing
@@ -1412,42 +1308,6 @@ references:
   - name: (
     nameWithType: (
     fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.AssignSlaves(EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels)
-  commentId: M:EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.AssignSlaves(EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels)
-  parent: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase
-  name: AssignSlaves(SlaveProjectionCommunicationChannels)
-  nameWithType: EventSubscriptionBasedProjectionProcessingPhase.AssignSlaves(SlaveProjectionCommunicationChannels)
-  fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.AssignSlaves(EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels)
-  spec.csharp:
-  - uid: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.AssignSlaves(EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels)
-    name: AssignSlaves
-    nameWithType: EventSubscriptionBasedProjectionProcessingPhase.AssignSlaves
-    fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.AssignSlaves
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels
-    name: SlaveProjectionCommunicationChannels
-    nameWithType: SlaveProjectionCommunicationChannels
-    fullName: EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.AssignSlaves(EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels)
-    name: AssignSlaves
-    nameWithType: EventSubscriptionBasedProjectionProcessingPhase.AssignSlaves
-    fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.AssignSlaves
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels
-    name: SlaveProjectionCommunicationChannels
-    nameWithType: SlaveProjectionCommunicationChannels
-    fullName: EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels
   - name: )
     nameWithType: )
     fullName: )
@@ -2983,6 +2843,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Bus.IHandle`1
   commentId: T:EventStore.Core.Bus.IHandle`1
   name: IHandle<T>
@@ -3070,11 +2936,15 @@ references:
   nameWithType: PartitionStateCache
   fullName: EventStore.Projections.Core.Services.Processing.PartitionStateCache
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -3317,47 +3187,6 @@ references:
   name: EventReaderSubscriptionMessage.PartitionEofReached
   nameWithType: EventReaderSubscriptionMessage.PartitionEofReached
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionEofReached
-- uid: EventStore.Projections.Core.Services.Processing.EventProcessingProjectionProcessingPhase.TransformCatalogEvent*
-  commentId: Overload:EventStore.Projections.Core.Services.Processing.EventProcessingProjectionProcessingPhase.TransformCatalogEvent
-  name: TransformCatalogEvent
-  nameWithType: EventProcessingProjectionProcessingPhase.TransformCatalogEvent
-  fullName: EventStore.Projections.Core.Services.Processing.EventProcessingProjectionProcessingPhase.TransformCatalogEvent
-- uid: EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.TransformCatalogEvent(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived)
-  commentId: M:EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.TransformCatalogEvent(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived)
-  parent: EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase
-  name: TransformCatalogEvent(EventReaderSubscriptionMessage.CommittedEventReceived)
-  nameWithType: IEventProcessingProjectionPhase.TransformCatalogEvent(EventReaderSubscriptionMessage.CommittedEventReceived)
-  fullName: EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.TransformCatalogEvent(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived)
-  spec.csharp:
-  - uid: EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.TransformCatalogEvent(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived)
-    name: TransformCatalogEvent
-    nameWithType: IEventProcessingProjectionPhase.TransformCatalogEvent
-    fullName: EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.TransformCatalogEvent
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived
-    name: EventReaderSubscriptionMessage.CommittedEventReceived
-    nameWithType: EventReaderSubscriptionMessage.CommittedEventReceived
-    fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.TransformCatalogEvent(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived)
-    name: TransformCatalogEvent
-    nameWithType: IEventProcessingProjectionPhase.TransformCatalogEvent
-    fullName: EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.TransformCatalogEvent
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived
-    name: EventReaderSubscriptionMessage.CommittedEventReceived
-    nameWithType: EventReaderSubscriptionMessage.CommittedEventReceived
-    fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: EventStore.Projections.Core.Services.Processing.EventProcessingProjectionProcessingPhase.ProcessCommittedEvent*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.EventProcessingProjectionProcessingPhase.ProcessCommittedEvent
   name: ProcessCommittedEvent
@@ -3601,48 +3430,3 @@ references:
   name: Dispose
   nameWithType: EventProcessingProjectionProcessingPhase.Dispose
   fullName: EventStore.Projections.Core.Services.Processing.EventProcessingProjectionProcessingPhase.Dispose
-- uid: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured}.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured)
-  commentId: M:EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured}.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured)
-  parent: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured}
-  definition: EventStore.Core.Bus.IHandle`1.Handle(`0)
-  name: Handle(EventReaderSubscriptionMessage.PartitionMeasured)
-  nameWithType: IHandle<EventReaderSubscriptionMessage.PartitionMeasured>.Handle(EventReaderSubscriptionMessage.PartitionMeasured)
-  fullName: EventStore.Core.Bus.IHandle<EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured>.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured)
-  nameWithType.vb: IHandle(Of EventReaderSubscriptionMessage.PartitionMeasured).Handle(EventReaderSubscriptionMessage.PartitionMeasured)
-  fullName.vb: EventStore.Core.Bus.IHandle(Of EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured).Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured)
-  spec.csharp:
-  - uid: EventStore.Core.Bus.IHandle`1.Handle(`0)
-    name: Handle
-    nameWithType: IHandle<EventReaderSubscriptionMessage.PartitionMeasured>.Handle
-    fullName: EventStore.Core.Bus.IHandle<EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured>.Handle
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured
-    name: EventReaderSubscriptionMessage.PartitionMeasured
-    nameWithType: EventReaderSubscriptionMessage.PartitionMeasured
-    fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EventStore.Core.Bus.IHandle`1.Handle(`0)
-    name: Handle
-    nameWithType: IHandle(Of EventReaderSubscriptionMessage.PartitionMeasured).Handle
-    fullName: EventStore.Core.Bus.IHandle(Of EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured).Handle
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured
-    name: EventReaderSubscriptionMessage.PartitionMeasured
-    nameWithType: EventReaderSubscriptionMessage.PartitionMeasured
-    fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured
-  commentId: T:EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured
-  parent: EventStore.Projections.Core.Messages
-  name: EventReaderSubscriptionMessage.PartitionMeasured
-  nameWithType: EventReaderSubscriptionMessage.PartitionMeasured
-  fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured

@@ -38,6 +38,7 @@ items:
     content: 'public abstract class EmittedEvent : object'
     content.vb: >-
       Public MustInherit Class EmittedEvent
+
           Inherits Object
   inheritance:
   - System.Object
@@ -528,11 +529,21 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -670,6 +681,8 @@ references:
   nameWithType: EmittedEvent.IsJson
   fullName: EventStore.Projections.Core.Services.Processing.EmittedEvent.IsJson
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

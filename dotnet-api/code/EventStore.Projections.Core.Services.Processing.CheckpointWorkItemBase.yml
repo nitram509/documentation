@@ -25,6 +25,7 @@ items:
     content: 'public class CheckpointWorkItemBase : WorkItem'
     content.vb: >-
       Public Class CheckpointWorkItemBase
+
           Inherits WorkItem
   inheritance:
   - System.Object
@@ -114,6 +115,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -531,6 +534,12 @@ references:
   name: InitialCorrelationId
   nameWithType: StagedTask.InitialCorrelationId
   fullName: EventStore.Projections.Core.Services.Processing.StagedTask.InitialCorrelationId
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.CheckpointWorkItemBase.#ctor*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.CheckpointWorkItemBase.#ctor
   name: CheckpointWorkItemBase

@@ -24,24 +24,24 @@ items:
   - EventStore.ClientAPI.ConnectionSettingsBuilder.SetClusterDns(System.String)
   - EventStore.ClientAPI.ConnectionSettingsBuilder.SetClusterGossipPort(System.Int32)
   - EventStore.ClientAPI.ConnectionSettingsBuilder.SetDefaultUserCredentials(EventStore.ClientAPI.SystemData.UserCredentials)
-  - EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints(EndPoint[])
   - EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints(EventStore.ClientAPI.GossipSeed[])
-  - EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints(System.Boolean,EndPoint[])
-  - EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipTimeout(TimeSpan)
-  - EventStore.ClientAPI.ConnectionSettingsBuilder.SetHeartbeatInterval(TimeSpan)
-  - EventStore.ClientAPI.ConnectionSettingsBuilder.SetHeartbeatTimeout(TimeSpan)
+  - EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints(System.Boolean,System.Net.EndPoint[])
+  - EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints(System.Net.EndPoint[])
+  - EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipTimeout(System.TimeSpan)
+  - EventStore.ClientAPI.ConnectionSettingsBuilder.SetHeartbeatInterval(System.TimeSpan)
+  - EventStore.ClientAPI.ConnectionSettingsBuilder.SetHeartbeatTimeout(System.TimeSpan)
   - EventStore.ClientAPI.ConnectionSettingsBuilder.SetMaxDiscoverAttempts(System.Int32)
-  - EventStore.ClientAPI.ConnectionSettingsBuilder.SetOperationTimeoutTo(TimeSpan)
-  - EventStore.ClientAPI.ConnectionSettingsBuilder.SetQueueTimeoutTo(TimeSpan)
-  - EventStore.ClientAPI.ConnectionSettingsBuilder.SetReconnectionDelayTo(TimeSpan)
-  - EventStore.ClientAPI.ConnectionSettingsBuilder.SetTimeoutCheckPeriodTo(TimeSpan)
+  - EventStore.ClientAPI.ConnectionSettingsBuilder.SetOperationTimeoutTo(System.TimeSpan)
+  - EventStore.ClientAPI.ConnectionSettingsBuilder.SetQueueTimeoutTo(System.TimeSpan)
+  - EventStore.ClientAPI.ConnectionSettingsBuilder.SetReconnectionDelayTo(System.TimeSpan)
+  - EventStore.ClientAPI.ConnectionSettingsBuilder.SetTimeoutCheckPeriodTo(System.TimeSpan)
   - EventStore.ClientAPI.ConnectionSettingsBuilder.UseConsoleLogger
   - EventStore.ClientAPI.ConnectionSettingsBuilder.UseCustomHttpClient(EventStore.ClientAPI.Transport.Http.IHttpClient)
   - EventStore.ClientAPI.ConnectionSettingsBuilder.UseCustomLogger(EventStore.ClientAPI.ILogger)
   - EventStore.ClientAPI.ConnectionSettingsBuilder.UseDebugLogger
   - EventStore.ClientAPI.ConnectionSettingsBuilder.UseFileLogger(System.String)
   - EventStore.ClientAPI.ConnectionSettingsBuilder.UseSslConnection(System.String,System.Boolean)
-  - EventStore.ClientAPI.ConnectionSettingsBuilder.WithConnectionTimeoutOf(TimeSpan)
+  - EventStore.ClientAPI.ConnectionSettingsBuilder.WithConnectionTimeoutOf(System.TimeSpan)
   langs:
   - csharp
   - vb
@@ -59,12 +59,18 @@ items:
   summary: "\nUsed to build a connection settings (fluent API)\n"
   example: []
   syntax:
-    content: 'public class ConnectionSettingsBuilder : object'
-    content.vb: >-
-      Public Class ConnectionSettingsBuilder
-          Inherits Object
+    content: public class ConnectionSettingsBuilder
+    content.vb: Public Class ConnectionSettingsBuilder
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
   modifiers.csharp:
   - public
   - class
@@ -189,7 +195,7 @@ items:
   assemblies:
   - EventStore.ClientAPI
   namespace: EventStore.ClientAPI
-  summary: "\nConfigures the connection to output log messages to the listeners\nconfigured on <see cref=\"!:System.Diagnostics.Debug\"></see>.\n"
+  summary: "\nConfigures the connection to output log messages to the listeners\nconfigured on <xref href=\"System.Diagnostics.Debug\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   example: []
   syntax:
     content: public ConnectionSettingsBuilder UseDebugLogger()
@@ -564,16 +570,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: EventStore.ClientAPI.ConnectionSettingsBuilder.SetReconnectionDelayTo(TimeSpan)
-  commentId: M:EventStore.ClientAPI.ConnectionSettingsBuilder.SetReconnectionDelayTo(TimeSpan)
-  id: SetReconnectionDelayTo(TimeSpan)
+- uid: EventStore.ClientAPI.ConnectionSettingsBuilder.SetReconnectionDelayTo(System.TimeSpan)
+  commentId: M:EventStore.ClientAPI.ConnectionSettingsBuilder.SetReconnectionDelayTo(System.TimeSpan)
+  id: SetReconnectionDelayTo(System.TimeSpan)
   parent: EventStore.ClientAPI.ConnectionSettingsBuilder
   langs:
   - csharp
   - vb
   name: SetReconnectionDelayTo(TimeSpan)
   nameWithType: ConnectionSettingsBuilder.SetReconnectionDelayTo(TimeSpan)
-  fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.SetReconnectionDelayTo(TimeSpan)
+  fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.SetReconnectionDelayTo(System.TimeSpan)
   type: Method
   source:
     id: SetReconnectionDelayTo
@@ -588,7 +594,7 @@ items:
     content: public ConnectionSettingsBuilder SetReconnectionDelayTo(TimeSpan reconnectionDelay)
     parameters:
     - id: reconnectionDelay
-      type: TimeSpan
+      type: System.TimeSpan
       description: ''
     return:
       type: EventStore.ClientAPI.ConnectionSettingsBuilder
@@ -599,16 +605,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: EventStore.ClientAPI.ConnectionSettingsBuilder.SetQueueTimeoutTo(TimeSpan)
-  commentId: M:EventStore.ClientAPI.ConnectionSettingsBuilder.SetQueueTimeoutTo(TimeSpan)
-  id: SetQueueTimeoutTo(TimeSpan)
+- uid: EventStore.ClientAPI.ConnectionSettingsBuilder.SetQueueTimeoutTo(System.TimeSpan)
+  commentId: M:EventStore.ClientAPI.ConnectionSettingsBuilder.SetQueueTimeoutTo(System.TimeSpan)
+  id: SetQueueTimeoutTo(System.TimeSpan)
   parent: EventStore.ClientAPI.ConnectionSettingsBuilder
   langs:
   - csharp
   - vb
   name: SetQueueTimeoutTo(TimeSpan)
   nameWithType: ConnectionSettingsBuilder.SetQueueTimeoutTo(TimeSpan)
-  fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.SetQueueTimeoutTo(TimeSpan)
+  fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.SetQueueTimeoutTo(System.TimeSpan)
   type: Method
   source:
     id: SetQueueTimeoutTo
@@ -623,7 +629,7 @@ items:
     content: public ConnectionSettingsBuilder SetQueueTimeoutTo(TimeSpan queueTimeout)
     parameters:
     - id: queueTimeout
-      type: TimeSpan
+      type: System.TimeSpan
       description: ''
     return:
       type: EventStore.ClientAPI.ConnectionSettingsBuilder
@@ -634,16 +640,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: EventStore.ClientAPI.ConnectionSettingsBuilder.SetOperationTimeoutTo(TimeSpan)
-  commentId: M:EventStore.ClientAPI.ConnectionSettingsBuilder.SetOperationTimeoutTo(TimeSpan)
-  id: SetOperationTimeoutTo(TimeSpan)
+- uid: EventStore.ClientAPI.ConnectionSettingsBuilder.SetOperationTimeoutTo(System.TimeSpan)
+  commentId: M:EventStore.ClientAPI.ConnectionSettingsBuilder.SetOperationTimeoutTo(System.TimeSpan)
+  id: SetOperationTimeoutTo(System.TimeSpan)
   parent: EventStore.ClientAPI.ConnectionSettingsBuilder
   langs:
   - csharp
   - vb
   name: SetOperationTimeoutTo(TimeSpan)
   nameWithType: ConnectionSettingsBuilder.SetOperationTimeoutTo(TimeSpan)
-  fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.SetOperationTimeoutTo(TimeSpan)
+  fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.SetOperationTimeoutTo(System.TimeSpan)
   type: Method
   source:
     id: SetOperationTimeoutTo
@@ -658,7 +664,7 @@ items:
     content: public ConnectionSettingsBuilder SetOperationTimeoutTo(TimeSpan operationTimeout)
     parameters:
     - id: operationTimeout
-      type: TimeSpan
+      type: System.TimeSpan
       description: ''
     return:
       type: EventStore.ClientAPI.ConnectionSettingsBuilder
@@ -669,16 +675,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: EventStore.ClientAPI.ConnectionSettingsBuilder.SetTimeoutCheckPeriodTo(TimeSpan)
-  commentId: M:EventStore.ClientAPI.ConnectionSettingsBuilder.SetTimeoutCheckPeriodTo(TimeSpan)
-  id: SetTimeoutCheckPeriodTo(TimeSpan)
+- uid: EventStore.ClientAPI.ConnectionSettingsBuilder.SetTimeoutCheckPeriodTo(System.TimeSpan)
+  commentId: M:EventStore.ClientAPI.ConnectionSettingsBuilder.SetTimeoutCheckPeriodTo(System.TimeSpan)
+  id: SetTimeoutCheckPeriodTo(System.TimeSpan)
   parent: EventStore.ClientAPI.ConnectionSettingsBuilder
   langs:
   - csharp
   - vb
   name: SetTimeoutCheckPeriodTo(TimeSpan)
   nameWithType: ConnectionSettingsBuilder.SetTimeoutCheckPeriodTo(TimeSpan)
-  fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.SetTimeoutCheckPeriodTo(TimeSpan)
+  fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.SetTimeoutCheckPeriodTo(System.TimeSpan)
   type: Method
   source:
     id: SetTimeoutCheckPeriodTo
@@ -693,7 +699,7 @@ items:
     content: public ConnectionSettingsBuilder SetTimeoutCheckPeriodTo(TimeSpan timeoutCheckPeriod)
     parameters:
     - id: timeoutCheckPeriod
-      type: TimeSpan
+      type: System.TimeSpan
       description: ''
     return:
       type: EventStore.ClientAPI.ConnectionSettingsBuilder
@@ -808,16 +814,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: EventStore.ClientAPI.ConnectionSettingsBuilder.SetHeartbeatInterval(TimeSpan)
-  commentId: M:EventStore.ClientAPI.ConnectionSettingsBuilder.SetHeartbeatInterval(TimeSpan)
-  id: SetHeartbeatInterval(TimeSpan)
+- uid: EventStore.ClientAPI.ConnectionSettingsBuilder.SetHeartbeatInterval(System.TimeSpan)
+  commentId: M:EventStore.ClientAPI.ConnectionSettingsBuilder.SetHeartbeatInterval(System.TimeSpan)
+  id: SetHeartbeatInterval(System.TimeSpan)
   parent: EventStore.ClientAPI.ConnectionSettingsBuilder
   langs:
   - csharp
   - vb
   name: SetHeartbeatInterval(TimeSpan)
   nameWithType: ConnectionSettingsBuilder.SetHeartbeatInterval(TimeSpan)
-  fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.SetHeartbeatInterval(TimeSpan)
+  fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.SetHeartbeatInterval(System.TimeSpan)
   type: Method
   source:
     id: SetHeartbeatInterval
@@ -832,7 +838,7 @@ items:
     content: public ConnectionSettingsBuilder SetHeartbeatInterval(TimeSpan interval)
     parameters:
     - id: interval
-      type: TimeSpan
+      type: System.TimeSpan
       description: ''
     return:
       type: EventStore.ClientAPI.ConnectionSettingsBuilder
@@ -843,16 +849,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: EventStore.ClientAPI.ConnectionSettingsBuilder.SetHeartbeatTimeout(TimeSpan)
-  commentId: M:EventStore.ClientAPI.ConnectionSettingsBuilder.SetHeartbeatTimeout(TimeSpan)
-  id: SetHeartbeatTimeout(TimeSpan)
+- uid: EventStore.ClientAPI.ConnectionSettingsBuilder.SetHeartbeatTimeout(System.TimeSpan)
+  commentId: M:EventStore.ClientAPI.ConnectionSettingsBuilder.SetHeartbeatTimeout(System.TimeSpan)
+  id: SetHeartbeatTimeout(System.TimeSpan)
   parent: EventStore.ClientAPI.ConnectionSettingsBuilder
   langs:
   - csharp
   - vb
   name: SetHeartbeatTimeout(TimeSpan)
   nameWithType: ConnectionSettingsBuilder.SetHeartbeatTimeout(TimeSpan)
-  fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.SetHeartbeatTimeout(TimeSpan)
+  fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.SetHeartbeatTimeout(System.TimeSpan)
   type: Method
   source:
     id: SetHeartbeatTimeout
@@ -867,7 +873,7 @@ items:
     content: public ConnectionSettingsBuilder SetHeartbeatTimeout(TimeSpan timeout)
     parameters:
     - id: timeout
-      type: TimeSpan
+      type: System.TimeSpan
       description: ''
     return:
       type: EventStore.ClientAPI.ConnectionSettingsBuilder
@@ -878,16 +884,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: EventStore.ClientAPI.ConnectionSettingsBuilder.WithConnectionTimeoutOf(TimeSpan)
-  commentId: M:EventStore.ClientAPI.ConnectionSettingsBuilder.WithConnectionTimeoutOf(TimeSpan)
-  id: WithConnectionTimeoutOf(TimeSpan)
+- uid: EventStore.ClientAPI.ConnectionSettingsBuilder.WithConnectionTimeoutOf(System.TimeSpan)
+  commentId: M:EventStore.ClientAPI.ConnectionSettingsBuilder.WithConnectionTimeoutOf(System.TimeSpan)
+  id: WithConnectionTimeoutOf(System.TimeSpan)
   parent: EventStore.ClientAPI.ConnectionSettingsBuilder
   langs:
   - csharp
   - vb
   name: WithConnectionTimeoutOf(TimeSpan)
   nameWithType: ConnectionSettingsBuilder.WithConnectionTimeoutOf(TimeSpan)
-  fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.WithConnectionTimeoutOf(TimeSpan)
+  fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.WithConnectionTimeoutOf(System.TimeSpan)
   type: Method
   source:
     id: WithConnectionTimeoutOf
@@ -902,7 +908,7 @@ items:
     content: public ConnectionSettingsBuilder WithConnectionTimeoutOf(TimeSpan timeout)
     parameters:
     - id: timeout
-      type: TimeSpan
+      type: System.TimeSpan
       description: ''
     return:
       type: EventStore.ClientAPI.ConnectionSettingsBuilder
@@ -944,6 +950,10 @@ items:
       description: A <xref href="EventStore.ClientAPI.DnsClusterSettingsBuilder" data-throw-if-not-resolved="false"></xref> for further configuration.
     content.vb: Public Function SetClusterDns(clusterDns As String) As ConnectionSettingsBuilder
   overload: EventStore.ClientAPI.ConnectionSettingsBuilder.SetClusterDns*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: If <code data-dev-comment-type="paramref" class="paramref">clusterDns</code> is null or empty.
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -979,20 +989,24 @@ items:
       description: A <xref href="EventStore.ClientAPI.DnsClusterSettingsBuilder" data-throw-if-not-resolved="false"></xref> for further configuration.
     content.vb: Public Function SetMaxDiscoverAttempts(maxDiscoverAttempts As Integer) As ConnectionSettingsBuilder
   overload: EventStore.ClientAPI.ConnectionSettingsBuilder.SetMaxDiscoverAttempts*
+  exceptions:
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: If <code data-dev-comment-type="paramref" class="paramref">maxDiscoverAttempts</code> is less than or equal to 0.
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipTimeout(TimeSpan)
-  commentId: M:EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipTimeout(TimeSpan)
-  id: SetGossipTimeout(TimeSpan)
+- uid: EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipTimeout(System.TimeSpan)
+  commentId: M:EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipTimeout(System.TimeSpan)
+  id: SetGossipTimeout(System.TimeSpan)
   parent: EventStore.ClientAPI.ConnectionSettingsBuilder
   langs:
   - csharp
   - vb
   name: SetGossipTimeout(TimeSpan)
   nameWithType: ConnectionSettingsBuilder.SetGossipTimeout(TimeSpan)
-  fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipTimeout(TimeSpan)
+  fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipTimeout(System.TimeSpan)
   type: Method
   source:
     id: SetGossipTimeout
@@ -1007,7 +1021,7 @@ items:
     content: public ConnectionSettingsBuilder SetGossipTimeout(TimeSpan timeout)
     parameters:
     - id: timeout
-      type: TimeSpan
+      type: System.TimeSpan
       description: The period after which gossip times out if none is received.
     return:
       type: EventStore.ClientAPI.ConnectionSettingsBuilder
@@ -1129,7 +1143,7 @@ items:
   assemblies:
   - EventStore.ClientAPI
   namespace: EventStore.ClientAPI
-  summary: "\nSets the well-known port on which the cluster gossip is taking place.\n\nIf you are using the commercial edition of Event Store HA, with Manager nodes in\nplace, this should be the port number of the External HTTP port on which the\nmanagers are running.\n\nIf you are using the open source edition of Event Store HA, this should be the\nExternal HTTP port that the nodes are running on. If you cannot use a well-known\nport for this across all nodes, you can instead use gossip seed discovery and set\nthe <see cref=\"!:IPEndPoint\"></see> of some seed nodes instead.\n"
+  summary: "\nSets the well-known port on which the cluster gossip is taking place.\n\nIf you are using the commercial edition of Event Store HA, with Manager nodes in\nplace, this should be the port number of the External HTTP port on which the\nmanagers are running.\n\nIf you are using the open source edition of Event Store HA, this should be the\nExternal HTTP port that the nodes are running on. If you cannot use a well-known\nport for this across all nodes, you can instead use gossip seed discovery and set\nthe <xref href=\"System.Net.IPEndPoint\" data-throw-if-not-resolved=\"false\"></xref> of some seed nodes instead.\n"
   example: []
   syntax:
     content: public ConnectionSettingsBuilder SetClusterGossipPort(int clusterGossipPort)
@@ -1146,16 +1160,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints(EndPoint[])
-  commentId: M:EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints(EndPoint[])
-  id: SetGossipSeedEndPoints(EndPoint[])
+- uid: EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints(System.Net.EndPoint[])
+  commentId: M:EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints(System.Net.EndPoint[])
+  id: SetGossipSeedEndPoints(System.Net.EndPoint[])
   parent: EventStore.ClientAPI.ConnectionSettingsBuilder
   langs:
   - csharp
   - vb
   name: SetGossipSeedEndPoints(EndPoint[])
   nameWithType: ConnectionSettingsBuilder.SetGossipSeedEndPoints(EndPoint[])
-  fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints(EndPoint[])
+  fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints(System.Net.EndPoint[])
   type: Method
   source:
     id: SetGossipSeedEndPoints
@@ -1170,30 +1184,34 @@ items:
     content: public ConnectionSettingsBuilder SetGossipSeedEndPoints(params EndPoint[] gossipSeeds)
     parameters:
     - id: gossipSeeds
-      type: EndPoint[]
-      description: <see cref="!:EndPoint"></see>s representing the endpoints of nodes from which to seed gossip.
+      type: System.Net.EndPoint[]
+      description: <xref href="System.Net.EndPoint" data-throw-if-not-resolved="false"></xref>s representing the endpoints of nodes from which to seed gossip.
     return:
       type: EventStore.ClientAPI.ConnectionSettingsBuilder
       description: A <xref href="EventStore.ClientAPI.ClusterSettingsBuilder" data-throw-if-not-resolved="false"></xref> for further configuration.
     content.vb: Public Function SetGossipSeedEndPoints(ParamArray gossipSeeds As EndPoint()) As ConnectionSettingsBuilder
   overload: EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints*
+  exceptions:
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: If no gossip seeds are specified.
   nameWithType.vb: ConnectionSettingsBuilder.SetGossipSeedEndPoints(EndPoint())
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints(EndPoint())
+  fullName.vb: EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints(System.Net.EndPoint())
   name.vb: SetGossipSeedEndPoints(EndPoint())
-- uid: EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints(System.Boolean,EndPoint[])
-  commentId: M:EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints(System.Boolean,EndPoint[])
-  id: SetGossipSeedEndPoints(System.Boolean,EndPoint[])
+- uid: EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints(System.Boolean,System.Net.EndPoint[])
+  commentId: M:EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints(System.Boolean,System.Net.EndPoint[])
+  id: SetGossipSeedEndPoints(System.Boolean,System.Net.EndPoint[])
   parent: EventStore.ClientAPI.ConnectionSettingsBuilder
   langs:
   - csharp
   - vb
   name: SetGossipSeedEndPoints(Boolean, EndPoint[])
   nameWithType: ConnectionSettingsBuilder.SetGossipSeedEndPoints(Boolean, EndPoint[])
-  fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints(System.Boolean, EndPoint[])
+  fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints(System.Boolean, System.Net.EndPoint[])
   type: Method
   source:
     id: SetGossipSeedEndPoints
@@ -1211,19 +1229,23 @@ items:
       type: System.Boolean
       description: Specifies that eventstore should use https when connecting to gossip
     - id: gossipSeeds
-      type: EndPoint[]
-      description: <see cref="!:EndPoint"></see>s representing the endpoints of nodes from which to seed gossip.
+      type: System.Net.EndPoint[]
+      description: <xref href="System.Net.EndPoint" data-throw-if-not-resolved="false"></xref>s representing the endpoints of nodes from which to seed gossip.
     return:
       type: EventStore.ClientAPI.ConnectionSettingsBuilder
       description: A <xref href="EventStore.ClientAPI.ClusterSettingsBuilder" data-throw-if-not-resolved="false"></xref> for further configuration.
     content.vb: Public Function SetGossipSeedEndPoints(seedOverTls As Boolean, ParamArray gossipSeeds As EndPoint()) As ConnectionSettingsBuilder
   overload: EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints*
+  exceptions:
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: If no gossip seeds are specified.
   nameWithType.vb: ConnectionSettingsBuilder.SetGossipSeedEndPoints(Boolean, EndPoint())
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints(System.Boolean, EndPoint())
+  fullName.vb: EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints(System.Boolean, System.Net.EndPoint())
   name.vb: SetGossipSeedEndPoints(Boolean, EndPoint())
 - uid: EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints(EventStore.ClientAPI.GossipSeed[])
   commentId: M:EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints(EventStore.ClientAPI.GossipSeed[])
@@ -1256,6 +1278,10 @@ items:
       description: A <xref href="EventStore.ClientAPI.ClusterSettingsBuilder" data-throw-if-not-resolved="false"></xref> for further configuration.
     content.vb: Public Function SetGossipSeedEndPoints(ParamArray gossipSeeds As GossipSeed()) As ConnectionSettingsBuilder
   overload: EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints*
+  exceptions:
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: If no gossip seeds are specified.
   nameWithType.vb: ConnectionSettingsBuilder.SetGossipSeedEndPoints(GossipSeed())
   modifiers.csharp:
   - public
@@ -1340,10 +1366,297 @@ references:
   nameWithType: EventStore.ClientAPI
   fullName: EventStore.ClientAPI
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.ClientAPI.Transport.Http.IHttpClient
   commentId: T:EventStore.ClientAPI.Transport.Http.IHttpClient
   parent: EventStore.ClientAPI.Transport.Http
@@ -1382,6 +1695,9 @@ references:
   name: UseConsoleLogger
   nameWithType: ConnectionSettingsBuilder.UseConsoleLogger
   fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.UseConsoleLogger
+- uid: System.Diagnostics.Debug
+  commentId: T:System.Diagnostics.Debug
+  isExternal: true
 - uid: EventStore.ClientAPI.ConnectionSettingsBuilder.UseDebugLogger*
   commentId: Overload:EventStore.ClientAPI.ConnectionSettingsBuilder.UseDebugLogger
   name: UseDebugLogger
@@ -1393,6 +1709,8 @@ references:
   nameWithType: ConnectionSettingsBuilder.UseFileLogger
   fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.UseFileLogger
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -1413,6 +1731,8 @@ references:
   nameWithType: ConnectionSettingsBuilder.LimitOperationsQueueTo
   fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.LimitOperationsQueueTo
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -1462,11 +1782,13 @@ references:
   name: SetReconnectionDelayTo
   nameWithType: ConnectionSettingsBuilder.SetReconnectionDelayTo
   fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.SetReconnectionDelayTo
-- uid: TimeSpan
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
   isExternal: true
   name: TimeSpan
   nameWithType: TimeSpan
-  fullName: TimeSpan
+  fullName: System.TimeSpan
 - uid: EventStore.ClientAPI.Exceptions.OperationExpiredException
   commentId: T:EventStore.ClientAPI.Exceptions.OperationExpiredException
   name: OperationExpiredException
@@ -1509,6 +1831,8 @@ references:
   nameWithType: ConnectionSettingsBuilder.UseSslConnection
   fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.UseSslConnection
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -1539,11 +1863,17 @@ references:
   name: DnsClusterSettingsBuilder
   nameWithType: DnsClusterSettingsBuilder
   fullName: EventStore.ClientAPI.DnsClusterSettingsBuilder
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
 - uid: EventStore.ClientAPI.ConnectionSettingsBuilder.SetClusterDns*
   commentId: Overload:EventStore.ClientAPI.ConnectionSettingsBuilder.SetClusterDns
   name: SetClusterDns
   nameWithType: ConnectionSettingsBuilder.SetClusterDns
   fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.SetClusterDns
+- uid: System.ArgumentOutOfRangeException
+  commentId: T:System.ArgumentOutOfRangeException
+  isExternal: true
 - uid: EventStore.ClientAPI.ConnectionSettingsBuilder.SetMaxDiscoverAttempts*
   commentId: Overload:EventStore.ClientAPI.ConnectionSettingsBuilder.SetMaxDiscoverAttempts
   name: SetMaxDiscoverAttempts
@@ -1569,49 +1899,72 @@ references:
   name: PreferReadOnlyReplica
   nameWithType: ConnectionSettingsBuilder.PreferReadOnlyReplica
   fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.PreferReadOnlyReplica
+- uid: System.Net.IPEndPoint
+  commentId: T:System.Net.IPEndPoint
+  parent: System.Net
+  isExternal: true
+  name: IPEndPoint
+  nameWithType: IPEndPoint
+  fullName: System.Net.IPEndPoint
 - uid: EventStore.ClientAPI.ConnectionSettingsBuilder.SetClusterGossipPort*
   commentId: Overload:EventStore.ClientAPI.ConnectionSettingsBuilder.SetClusterGossipPort
   name: SetClusterGossipPort
   nameWithType: ConnectionSettingsBuilder.SetClusterGossipPort
   fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.SetClusterGossipPort
+- uid: System.Net
+  commentId: N:System.Net
+  isExternal: true
+  name: System.Net
+  nameWithType: System.Net
+  fullName: System.Net
 - uid: EventStore.ClientAPI.GossipSeed
   commentId: T:EventStore.ClientAPI.GossipSeed
   name: GossipSeed
   nameWithType: GossipSeed
   fullName: EventStore.ClientAPI.GossipSeed
+- uid: System.Net.EndPoint
+  commentId: T:System.Net.EndPoint
+  parent: System.Net
+  isExternal: true
+  name: EndPoint
+  nameWithType: EndPoint
+  fullName: System.Net.EndPoint
 - uid: EventStore.ClientAPI.ClusterSettingsBuilder
   commentId: T:EventStore.ClientAPI.ClusterSettingsBuilder
   parent: EventStore.ClientAPI
   name: ClusterSettingsBuilder
   nameWithType: ClusterSettingsBuilder
   fullName: EventStore.ClientAPI.ClusterSettingsBuilder
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  isExternal: true
 - uid: EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints*
   commentId: Overload:EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints
   name: SetGossipSeedEndPoints
   nameWithType: ConnectionSettingsBuilder.SetGossipSeedEndPoints
   fullName: EventStore.ClientAPI.ConnectionSettingsBuilder.SetGossipSeedEndPoints
-- uid: EndPoint[]
+- uid: System.Net.EndPoint[]
   isExternal: true
   name: EndPoint[]
   nameWithType: EndPoint[]
-  fullName: EndPoint[]
+  fullName: System.Net.EndPoint[]
   nameWithType.vb: EndPoint()
-  fullName.vb: EndPoint()
+  fullName.vb: System.Net.EndPoint()
   name.vb: EndPoint()
   spec.csharp:
-  - uid: EndPoint
+  - uid: System.Net.EndPoint
     name: EndPoint
     nameWithType: EndPoint
-    fullName: EndPoint
+    fullName: System.Net.EndPoint
     isExternal: true
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
   spec.vb:
-  - uid: EndPoint
+  - uid: System.Net.EndPoint
     name: EndPoint
     nameWithType: EndPoint
-    fullName: EndPoint
+    fullName: System.Net.EndPoint
     isExternal: true
   - name: ()
     nameWithType: ()

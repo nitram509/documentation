@@ -25,6 +25,7 @@ items:
     content: 'public class StreamCategoryExtractorByFirstSeparator : StreamCategoryExtractor'
     content.vb: >-
       Public Class StreamCategoryExtractorByFirstSeparator
+
           Inherits StreamCategoryExtractor
   inheritance:
   - System.Object
@@ -107,6 +108,8 @@ references:
   nameWithType: EventStore.Projections.Core.Standard
   fullName: EventStore.Projections.Core.Standard
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -219,6 +222,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Standard.StreamCategoryExtractorByFirstSeparator.#ctor*
   commentId: Overload:EventStore.Projections.Core.Standard.StreamCategoryExtractorByFirstSeparator.#ctor
   name: StreamCategoryExtractorByFirstSeparator
@@ -274,6 +283,8 @@ references:
   nameWithType: StreamCategoryExtractorByFirstSeparator.GetCategoryByStreamId
   fullName: EventStore.Projections.Core.Standard.StreamCategoryExtractorByFirstSeparator.GetCategoryByStreamId
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

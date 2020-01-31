@@ -23,6 +23,7 @@ items:
     content: 'public static class FeedReaderMessage : object'
     content.vb: >-
       Public Module FeedReaderMessage
+
           Inherits Object
   inheritance:
   - System.Object
@@ -40,7 +41,15 @@ references:
   nameWithType: EventStore.Projections.Core.Messages.EventReaders.Feeds
   fullName: EventStore.Projections.Core.Messages.EventReaders.Feeds
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

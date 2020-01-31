@@ -8,7 +8,6 @@ items:
   - EventStore.Projections.Core.Services.Processing.IResultWriter.AccountPartition(EventStore.Projections.Core.Services.Processing.EventProcessedResult)
   - EventStore.Projections.Core.Services.Processing.IResultWriter.EventsEmitted(EventStore.Projections.Core.Services.Processing.EmittedEventEnvelope[],Guid,System.String)
   - EventStore.Projections.Core.Services.Processing.IResultWriter.WriteEofResult(Guid,System.String,System.String,EventStore.Projections.Core.Services.Processing.CheckpointTag,Guid,System.String)
-  - EventStore.Projections.Core.Services.Processing.IResultWriter.WritePartitionMeasured(Guid,System.String,System.Int64)
   - EventStore.Projections.Core.Services.Processing.IResultWriter.WriteProgress(Guid,System.Single)
   - EventStore.Projections.Core.Services.Processing.IResultWriter.WriteRunningResult(EventStore.Projections.Core.Services.Processing.EventProcessedResult)
   langs:
@@ -69,35 +68,6 @@ items:
       type: System.String
     content.vb: Sub WriteEofResult(subscriptionId As Guid, partition As String, resultBody As String, causedBy As CheckpointTag, causedByGuid As Guid, correlationId As String)
   overload: EventStore.Projections.Core.Services.Processing.IResultWriter.WriteEofResult*
-- uid: EventStore.Projections.Core.Services.Processing.IResultWriter.WritePartitionMeasured(Guid,System.String,System.Int64)
-  commentId: M:EventStore.Projections.Core.Services.Processing.IResultWriter.WritePartitionMeasured(Guid,System.String,System.Int64)
-  id: WritePartitionMeasured(Guid,System.String,System.Int64)
-  parent: EventStore.Projections.Core.Services.Processing.IResultWriter
-  langs:
-  - csharp
-  - vb
-  name: WritePartitionMeasured(Guid, String, Int64)
-  nameWithType: IResultWriter.WritePartitionMeasured(Guid, String, Int64)
-  fullName: EventStore.Projections.Core.Services.Processing.IResultWriter.WritePartitionMeasured(Guid, System.String, System.Int64)
-  type: Method
-  source:
-    id: WritePartitionMeasured
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IResultWriter.cs
-    startLine: 9
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Processing
-  syntax:
-    content: void WritePartitionMeasured(Guid subscriptionId, string partition, long size)
-    parameters:
-    - id: subscriptionId
-      type: Guid
-    - id: partition
-      type: System.String
-    - id: size
-      type: System.Int64
-    content.vb: Sub WritePartitionMeasured(subscriptionId As Guid, partition As String, size As Long)
-  overload: EventStore.Projections.Core.Services.Processing.IResultWriter.WritePartitionMeasured*
 - uid: EventStore.Projections.Core.Services.Processing.IResultWriter.WriteRunningResult(EventStore.Projections.Core.Services.Processing.EventProcessedResult)
   commentId: M:EventStore.Projections.Core.Services.Processing.IResultWriter.WriteRunningResult(EventStore.Projections.Core.Services.Processing.EventProcessedResult)
   id: WriteRunningResult(EventStore.Projections.Core.Services.Processing.EventProcessedResult)
@@ -112,7 +82,7 @@ items:
   source:
     id: WriteRunningResult
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IResultWriter.cs
-    startLine: 11
+    startLine: 9
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -137,7 +107,7 @@ items:
   source:
     id: AccountPartition
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IResultWriter.cs
-    startLine: 13
+    startLine: 11
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -162,7 +132,7 @@ items:
   source:
     id: EventsEmitted
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IResultWriter.cs
-    startLine: 15
+    startLine: 13
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -194,7 +164,7 @@ items:
   source:
     id: WriteProgress
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IResultWriter.cs
-    startLine: 17
+    startLine: 15
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -224,6 +194,8 @@ references:
   nameWithType: Guid
   fullName: Guid
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -234,16 +206,12 @@ references:
   name: CheckpointTag
   nameWithType: CheckpointTag
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag
-- uid: EventStore.Projections.Core.Services.Processing.IResultWriter.WritePartitionMeasured*
-  commentId: Overload:EventStore.Projections.Core.Services.Processing.IResultWriter.WritePartitionMeasured
-  name: WritePartitionMeasured
-  nameWithType: IResultWriter.WritePartitionMeasured
-  fullName: EventStore.Projections.Core.Services.Processing.IResultWriter.WritePartitionMeasured
-- uid: System.Int64
+- uid: System
+  commentId: N:System
   isExternal: true
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.IResultWriter.WriteRunningResult*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.IResultWriter.WriteRunningResult
   name: WriteRunningResult
@@ -295,6 +263,8 @@ references:
   nameWithType: IResultWriter.WriteProgress
   fullName: EventStore.Projections.Core.Services.Processing.IResultWriter.WriteProgress
 - uid: System.Single
+  commentId: T:System.Single
+  parent: System
   isExternal: true
   name: Single
   nameWithType: Single

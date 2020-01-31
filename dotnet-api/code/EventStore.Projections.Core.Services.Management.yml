@@ -4,25 +4,16 @@ items:
   commentId: N:EventStore.Projections.Core.Services.Management
   id: EventStore.Projections.Core.Services.Management
   children:
-  - EventStore.Projections.Core.Services.Management.IMultiStreamMessageWriter
-  - EventStore.Projections.Core.Services.Management.IResponseWriter
   - EventStore.Projections.Core.Services.Management.ManagedProjection
   - EventStore.Projections.Core.Services.Management.ManagedProjection.PersistedState
   - EventStore.Projections.Core.Services.Management.ManagedProjectionState
-  - EventStore.Projections.Core.Services.Management.MasterCoreProjectionResponseReader
-  - EventStore.Projections.Core.Services.Management.MultiStreamMessageWriter
   - EventStore.Projections.Core.Services.Management.ProjectionCoreCoordinator
-  - EventStore.Projections.Core.Services.Management.ProjectionCoreResponseWriter
   - EventStore.Projections.Core.Services.Management.ProjectionManager
   - EventStore.Projections.Core.Services.Management.ProjectionManager.NewProjectionInitializer
   - EventStore.Projections.Core.Services.Management.ProjectionManager.PendingProjection
-  - EventStore.Projections.Core.Services.Management.ProjectionManagerCommandWriter
   - EventStore.Projections.Core.Services.Management.ProjectionManagerMessageDispatcher
-  - EventStore.Projections.Core.Services.Management.ProjectionManagerResponseReader
   - EventStore.Projections.Core.Services.Management.ProjectionStateHandlerFactory
-  - EventStore.Projections.Core.Services.Management.ResponseWriter
   - EventStore.Projections.Core.Services.Management.SerializedRunAs
-  - EventStore.Projections.Core.Services.Management.SlaveProjectionResponseWriter
   - EventStore.Projections.Core.Services.Management.TimeoutScheduler
   langs:
   - csharp
@@ -34,18 +25,6 @@ items:
   assemblies:
   - EventStore.Projections.Core
 references:
-- uid: EventStore.Projections.Core.Services.Management.IMultiStreamMessageWriter
-  commentId: T:EventStore.Projections.Core.Services.Management.IMultiStreamMessageWriter
-  parent: EventStore.Projections.Core.Services.Management
-  name: IMultiStreamMessageWriter
-  nameWithType: IMultiStreamMessageWriter
-  fullName: EventStore.Projections.Core.Services.Management.IMultiStreamMessageWriter
-- uid: EventStore.Projections.Core.Services.Management.IResponseWriter
-  commentId: T:EventStore.Projections.Core.Services.Management.IResponseWriter
-  parent: EventStore.Projections.Core.Services.Management
-  name: IResponseWriter
-  nameWithType: IResponseWriter
-  fullName: EventStore.Projections.Core.Services.Management.IResponseWriter
 - uid: EventStore.Projections.Core.Services.Management.ManagedProjection
   commentId: T:EventStore.Projections.Core.Services.Management.ManagedProjection
   name: ManagedProjection
@@ -69,26 +48,11 @@ references:
   name: ManagedProjectionState
   nameWithType: ManagedProjectionState
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjectionState
-- uid: EventStore.Projections.Core.Services.Management.MasterCoreProjectionResponseReader
-  commentId: T:EventStore.Projections.Core.Services.Management.MasterCoreProjectionResponseReader
-  name: MasterCoreProjectionResponseReader
-  nameWithType: MasterCoreProjectionResponseReader
-  fullName: EventStore.Projections.Core.Services.Management.MasterCoreProjectionResponseReader
-- uid: EventStore.Projections.Core.Services.Management.MultiStreamMessageWriter
-  commentId: T:EventStore.Projections.Core.Services.Management.MultiStreamMessageWriter
-  name: MultiStreamMessageWriter
-  nameWithType: MultiStreamMessageWriter
-  fullName: EventStore.Projections.Core.Services.Management.MultiStreamMessageWriter
 - uid: EventStore.Projections.Core.Services.Management.ProjectionCoreCoordinator
   commentId: T:EventStore.Projections.Core.Services.Management.ProjectionCoreCoordinator
   name: ProjectionCoreCoordinator
   nameWithType: ProjectionCoreCoordinator
   fullName: EventStore.Projections.Core.Services.Management.ProjectionCoreCoordinator
-- uid: EventStore.Projections.Core.Services.Management.ProjectionCoreResponseWriter
-  commentId: T:EventStore.Projections.Core.Services.Management.ProjectionCoreResponseWriter
-  name: ProjectionCoreResponseWriter
-  nameWithType: ProjectionCoreResponseWriter
-  fullName: EventStore.Projections.Core.Services.Management.ProjectionCoreResponseWriter
 - uid: EventStore.Projections.Core.Services.Management.ProjectionManager
   commentId: T:EventStore.Projections.Core.Services.Management.ProjectionManager
   parent: EventStore.Projections.Core.Services.Management
@@ -106,37 +70,16 @@ references:
   name: ProjectionManager.PendingProjection
   nameWithType: ProjectionManager.PendingProjection
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.PendingProjection
-- uid: EventStore.Projections.Core.Services.Management.ProjectionManagerCommandWriter
-  commentId: T:EventStore.Projections.Core.Services.Management.ProjectionManagerCommandWriter
-  name: ProjectionManagerCommandWriter
-  nameWithType: ProjectionManagerCommandWriter
-  fullName: EventStore.Projections.Core.Services.Management.ProjectionManagerCommandWriter
 - uid: EventStore.Projections.Core.Services.Management.ProjectionManagerMessageDispatcher
   commentId: T:EventStore.Projections.Core.Services.Management.ProjectionManagerMessageDispatcher
   name: ProjectionManagerMessageDispatcher
   nameWithType: ProjectionManagerMessageDispatcher
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManagerMessageDispatcher
-- uid: EventStore.Projections.Core.Services.Management.ProjectionManagerResponseReader
-  commentId: T:EventStore.Projections.Core.Services.Management.ProjectionManagerResponseReader
-  name: ProjectionManagerResponseReader
-  nameWithType: ProjectionManagerResponseReader
-  fullName: EventStore.Projections.Core.Services.Management.ProjectionManagerResponseReader
 - uid: EventStore.Projections.Core.Services.Management.ProjectionStateHandlerFactory
   commentId: T:EventStore.Projections.Core.Services.Management.ProjectionStateHandlerFactory
   name: ProjectionStateHandlerFactory
   nameWithType: ProjectionStateHandlerFactory
   fullName: EventStore.Projections.Core.Services.Management.ProjectionStateHandlerFactory
-- uid: EventStore.Projections.Core.Services.Management.ResponseWriter
-  commentId: T:EventStore.Projections.Core.Services.Management.ResponseWriter
-  name: ResponseWriter
-  nameWithType: ResponseWriter
-  fullName: EventStore.Projections.Core.Services.Management.ResponseWriter
-- uid: EventStore.Projections.Core.Services.Management.SlaveProjectionResponseWriter
-  commentId: T:EventStore.Projections.Core.Services.Management.SlaveProjectionResponseWriter
-  parent: EventStore.Projections.Core.Services.Management
-  name: SlaveProjectionResponseWriter
-  nameWithType: SlaveProjectionResponseWriter
-  fullName: EventStore.Projections.Core.Services.Management.SlaveProjectionResponseWriter
 - uid: EventStore.Projections.Core.Services.Management.TimeoutScheduler
   commentId: T:EventStore.Projections.Core.Services.Management.TimeoutScheduler
   name: TimeoutScheduler

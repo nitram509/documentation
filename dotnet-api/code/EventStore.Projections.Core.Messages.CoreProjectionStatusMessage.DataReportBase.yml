@@ -20,7 +20,7 @@ items:
   source:
     id: DataReportBase
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
-    startLine: 51
+    startLine: 53
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -28,6 +28,7 @@ items:
     content: 'public abstract class DataReportBase : CoreProjectionStatusMessage.CoreProjectionStatusMessageBase'
     content.vb: >-
       Public MustInherit Class DataReportBase
+
           Inherits CoreProjectionStatusMessage.CoreProjectionStatusMessageBase
   inheritance:
   - System.Object
@@ -62,7 +63,7 @@ items:
   source:
     id: MsgTypeId
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
-    startLine: 54
+    startLine: 56
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -96,7 +97,7 @@ items:
   source:
     id: .ctor
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
-    startLine: 62
+    startLine: 64
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -131,7 +132,7 @@ items:
   source:
     id: Partition
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
-    startLine: 69
+    startLine: 71
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -162,7 +163,7 @@ items:
   source:
     id: CorrelationId
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
-    startLine: 73
+    startLine: 75
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -193,7 +194,7 @@ items:
   source:
     id: Position
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
-    startLine: 77
+    startLine: 79
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -217,6 +218,8 @@ references:
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -251,6 +254,12 @@ references:
   name: NextMsgId
   nameWithType: Message.NextMsgId
   fullName: EventStore.Core.Messaging.Message.NextMsgId
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Messaging
   commentId: N:EventStore.Core.Messaging
   name: EventStore.Core.Messaging
@@ -268,6 +277,8 @@ references:
   nameWithType: CoreProjectionStatusMessage.DataReportBase.MsgTypeId
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.DataReportBase.MsgTypeId
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -283,6 +294,8 @@ references:
   nameWithType: Guid
   fullName: Guid
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

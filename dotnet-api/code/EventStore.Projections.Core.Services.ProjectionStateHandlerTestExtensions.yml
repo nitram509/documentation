@@ -18,7 +18,7 @@ items:
   source:
     id: ProjectionStateHandlerTestExtensions
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
-    startLine: 69
+    startLine: 61
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services
@@ -26,6 +26,7 @@ items:
     content: 'public static class ProjectionStateHandlerTestExtensions : object'
     content.vb: >-
       Public Module ProjectionStateHandlerTestExtensions
+
           Inherits Object
   inheritance:
   - System.Object
@@ -51,7 +52,7 @@ items:
   source:
     id: ProcessEvent
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
-    startLine: 70
+    startLine: 62
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services
@@ -115,7 +116,7 @@ items:
   source:
     id: ProcessEvent
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
-    startLine: 82
+    startLine: 74
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services
@@ -181,7 +182,7 @@ items:
   source:
     id: GetNativeHandlerName
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
-    startLine: 93
+    startLine: 85
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services
@@ -210,10 +211,18 @@ references:
   nameWithType: EventStore.Projections.Core.Services
   fullName: EventStore.Projections.Core.Services
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.ProjectionStateHandlerTestExtensions.ProcessEvent*
   commentId: Overload:EventStore.Projections.Core.Services.ProjectionStateHandlerTestExtensions.ProcessEvent
   name: ProcessEvent
@@ -226,6 +235,8 @@ references:
   nameWithType: IProjectionStateHandler
   fullName: EventStore.Projections.Core.Services.IProjectionStateHandler
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -242,6 +253,8 @@ references:
   nameWithType: Guid
   fullName: Guid
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
@@ -271,6 +284,8 @@ references:
     nameWithType: ()
     fullName: ()
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

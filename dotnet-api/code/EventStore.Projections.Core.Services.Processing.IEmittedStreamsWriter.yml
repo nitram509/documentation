@@ -77,11 +77,15 @@ references:
   nameWithType: IEmittedStreamsWriter.WriteEvents
   fullName: EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter.WriteEvents
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
@@ -156,6 +160,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Action`1
   isExternal: true
   name: Action<>

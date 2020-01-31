@@ -17,7 +17,7 @@ items:
   source:
     id: EventReaderNotAuthorized
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionMessage.cs
-    startLine: 192
+    startLine: 166
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -25,6 +25,7 @@ items:
     content: 'public sealed class EventReaderNotAuthorized : ReaderSubscriptionMessage.SubscriptionMessage'
     content.vb: >-
       Public NotInheritable Class EventReaderNotAuthorized
+
           Inherits ReaderSubscriptionMessage.SubscriptionMessage
   inheritance:
   - System.Object
@@ -57,7 +58,7 @@ items:
   source:
     id: MsgTypeId
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionMessage.cs
-    startLine: 195
+    startLine: 169
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -91,7 +92,7 @@ items:
   source:
     id: .ctor
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionMessage.cs
-    startLine: 199
+    startLine: 173
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -115,6 +116,8 @@ references:
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -155,6 +158,12 @@ references:
   name: NextMsgId
   nameWithType: Message.NextMsgId
   fullName: EventStore.Core.Messaging.Message.NextMsgId
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Messaging
   commentId: N:EventStore.Core.Messaging
   name: EventStore.Core.Messaging
@@ -172,6 +181,8 @@ references:
   nameWithType: ReaderSubscriptionMessage.EventReaderNotAuthorized.MsgTypeId
   fullName: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderNotAuthorized.MsgTypeId
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

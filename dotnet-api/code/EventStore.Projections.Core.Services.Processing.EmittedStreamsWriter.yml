@@ -25,7 +25,9 @@ items:
     content: 'public class EmittedStreamsWriter : object, IEmittedStreamsWriter'
     content.vb: >-
       Public Class EmittedStreamsWriter
+
           Inherits Object
+
           Implements IEmittedStreamsWriter
   inheritance:
   - System.Object
@@ -115,6 +117,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -125,6 +129,12 @@ references:
   name: IEmittedStreamsWriter
   nameWithType: IEmittedStreamsWriter
   fullName: EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.EmittedStreamsWriter.#ctor*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.EmittedStreamsWriter.#ctor
   name: EmittedStreamsWriter
@@ -277,11 +287,15 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64

@@ -18,7 +18,7 @@ items:
   source:
     id: PartitionDeleted
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
-    startLine: 160
+    startLine: 134
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -28,6 +28,7 @@ items:
     content: 'public class PartitionDeleted : EventReaderSubscriptionMessageBase'
     content.vb: >-
       Public Class PartitionDeleted
+
           Inherits EventReaderSubscriptionMessageBase
   inheritance:
   - System.Object
@@ -60,7 +61,7 @@ items:
   source:
     id: MsgTypeId
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
-    startLine: 164
+    startLine: 138
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -94,7 +95,7 @@ items:
   source:
     id: Partition
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
-    startLine: 168
+    startLine: 142
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -125,7 +126,7 @@ items:
   source:
     id: .ctor
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
-    startLine: 172
+    startLine: 146
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -155,6 +156,8 @@ references:
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -207,6 +210,12 @@ references:
   name: NextMsgId
   nameWithType: Message.NextMsgId
   fullName: EventStore.Core.Messaging.Message.NextMsgId
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Messaging
   commentId: N:EventStore.Core.Messaging
   name: EventStore.Core.Messaging
@@ -224,6 +233,8 @@ references:
   nameWithType: EventReaderSubscriptionMessage.PartitionDeleted.MsgTypeId
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionDeleted.MsgTypeId
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -234,6 +245,8 @@ references:
   nameWithType: EventReaderSubscriptionMessage.PartitionDeleted.Partition
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionDeleted.Partition
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -255,6 +268,8 @@ references:
   nameWithType: CheckpointTag
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64

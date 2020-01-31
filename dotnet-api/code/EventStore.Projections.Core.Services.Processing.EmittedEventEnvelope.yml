@@ -26,6 +26,7 @@ items:
     content: 'public sealed class EmittedEventEnvelope : object'
     content.vb: >-
       Public NotInheritable Class EmittedEventEnvelope
+
           Inherits Object
   inheritance:
   - System.Object
@@ -133,10 +134,18 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.EmittedEvent
   commentId: T:EventStore.Projections.Core.Services.Processing.EmittedEvent
   parent: EventStore.Projections.Core.Services.Processing

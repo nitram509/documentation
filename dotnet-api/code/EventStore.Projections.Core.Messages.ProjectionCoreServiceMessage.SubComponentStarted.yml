@@ -27,6 +27,7 @@ items:
     content: 'public class SubComponentStarted : Message'
     content.vb: >-
       Public Class SubComponentStarted
+
           Inherits Message
   inheritance:
   - System.Object
@@ -173,6 +174,8 @@ references:
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -189,6 +192,12 @@ references:
   name: NextMsgId
   nameWithType: Message.NextMsgId
   fullName: EventStore.Core.Messaging.Message.NextMsgId
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Messaging
   commentId: N:EventStore.Core.Messaging
   name: EventStore.Core.Messaging
@@ -206,6 +215,8 @@ references:
   nameWithType: ProjectionCoreServiceMessage.SubComponentStarted.MsgTypeId
   fullName: EventStore.Projections.Core.Messages.ProjectionCoreServiceMessage.SubComponentStarted.MsgTypeId
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -216,6 +227,8 @@ references:
   nameWithType: ProjectionCoreServiceMessage.SubComponentStarted.SubComponent
   fullName: EventStore.Projections.Core.Messages.ProjectionCoreServiceMessage.SubComponentStarted.SubComponent
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

@@ -21,7 +21,7 @@ items:
   source:
     id: EventReaderSubscriptionMessageBase
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
-    startLine: 263
+    startLine: 237
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -29,6 +29,7 @@ items:
     content: 'public abstract class EventReaderSubscriptionMessageBase : Message'
     content.vb: >-
       Public MustInherit Class EventReaderSubscriptionMessageBase
+
           Inherits Message
   inheritance:
   - System.Object
@@ -41,7 +42,6 @@ items:
   - EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.NotAuthorized
   - EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionDeleted
   - EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionEofReached
-  - EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured
   - EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.ProgressChanged
   - EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.ReaderAssignedReader
   - EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.SubscriptionStarted
@@ -69,7 +69,7 @@ items:
   source:
     id: MsgTypeId
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
-    startLine: 266
+    startLine: 240
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -103,7 +103,7 @@ items:
   source:
     id: CheckpointTag
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
-    startLine: 286
+    startLine: 260
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -134,7 +134,7 @@ items:
   source:
     id: Progress
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
-    startLine: 290
+    startLine: 264
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -165,7 +165,7 @@ items:
   source:
     id: SubscriptionMessageSequenceNumber
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
-    startLine: 294
+    startLine: 268
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -196,7 +196,7 @@ items:
   source:
     id: SubscriptionId
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
-    startLine: 298
+    startLine: 272
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -227,7 +227,7 @@ items:
   source:
     id: Source
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
-    startLine: 302
+    startLine: 276
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -251,6 +251,8 @@ references:
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -267,6 +269,12 @@ references:
   name: NextMsgId
   nameWithType: Message.NextMsgId
   fullName: EventStore.Core.Messaging.Message.NextMsgId
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Messaging
   commentId: N:EventStore.Core.Messaging
   name: EventStore.Core.Messaging
@@ -284,6 +292,8 @@ references:
   nameWithType: EventReaderSubscriptionMessageBase.MsgTypeId
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase.MsgTypeId
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -310,6 +320,8 @@ references:
   nameWithType: EventReaderSubscriptionMessageBase.Progress
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase.Progress
 - uid: System.Single
+  commentId: T:System.Single
+  parent: System
   isExternal: true
   name: Single
   nameWithType: Single
@@ -320,6 +332,8 @@ references:
   nameWithType: EventReaderSubscriptionMessageBase.SubscriptionMessageSequenceNumber
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase.SubscriptionMessageSequenceNumber
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64

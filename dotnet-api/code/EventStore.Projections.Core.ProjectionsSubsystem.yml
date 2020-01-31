@@ -10,9 +10,11 @@ items:
   - EventStore.Projections.Core.ProjectionsSubsystem.ConfigureServices
   - EventStore.Projections.Core.ProjectionsSubsystem.Handle(EventStore.Core.Messages.SystemMessage.StateChangeMessage)
   - EventStore.Projections.Core.ProjectionsSubsystem.Handle(EventStore.Core.Messages.SystemMessage.SystemCoreReady)
+  - EventStore.Projections.Core.ProjectionsSubsystem.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started)
   - EventStore.Projections.Core.ProjectionsSubsystem.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Stopped)
   - EventStore.Projections.Core.ProjectionsSubsystem.Handle(EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.ComponentStarted)
   - EventStore.Projections.Core.ProjectionsSubsystem.Handle(EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.ComponentStopped)
+  - EventStore.Projections.Core.ProjectionsSubsystem.Handle(EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained)
   - EventStore.Projections.Core.ProjectionsSubsystem.Handle(EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.RestartSubsystem)
   - EventStore.Projections.Core.ProjectionsSubsystem.MasterMainBus
   - EventStore.Projections.Core.ProjectionsSubsystem.MasterOutputBus
@@ -30,16 +32,18 @@ items:
   source:
     id: ProjectionsSubsystem
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionsSubsystem.cs
-    startLine: 22
+    startLine: 20
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core
   syntax:
-    content: 'public sealed class ProjectionsSubsystem : object, ISubsystem, IHandle<SystemMessage.SystemCoreReady>, IHandle<SystemMessage.StateChangeMessage>, IHandle<CoreProjectionStatusMessage.Stopped>, IHandle<ProjectionSubsystemMessage.RestartSubsystem>, IHandle<ProjectionSubsystemMessage.ComponentStarted>, IHandle<ProjectionSubsystemMessage.ComponentStopped>'
+    content: 'public sealed class ProjectionsSubsystem : object, ISubsystem, IHandle<SystemMessage.SystemCoreReady>, IHandle<SystemMessage.StateChangeMessage>, IHandle<CoreProjectionStatusMessage.Stopped>, IHandle<CoreProjectionStatusMessage.Started>, IHandle<ProjectionSubsystemMessage.RestartSubsystem>, IHandle<ProjectionSubsystemMessage.ComponentStarted>, IHandle<ProjectionSubsystemMessage.ComponentStopped>, IHandle<ProjectionSubsystemMessage.IODispatcherDrained>'
     content.vb: >-
       Public NotInheritable Class ProjectionsSubsystem
+
           Inherits Object
-          Implements ISubsystem, IHandle(Of SystemMessage.SystemCoreReady), IHandle(Of SystemMessage.StateChangeMessage), IHandle(Of CoreProjectionStatusMessage.Stopped), IHandle(Of ProjectionSubsystemMessage.RestartSubsystem), IHandle(Of ProjectionSubsystemMessage.ComponentStarted), IHandle(Of ProjectionSubsystemMessage.ComponentStopped)
+
+          Implements ISubsystem, IHandle(Of SystemMessage.SystemCoreReady), IHandle(Of SystemMessage.StateChangeMessage), IHandle(Of CoreProjectionStatusMessage.Stopped), IHandle(Of CoreProjectionStatusMessage.Started), IHandle(Of ProjectionSubsystemMessage.RestartSubsystem), IHandle(Of ProjectionSubsystemMessage.ComponentStarted), IHandle(Of ProjectionSubsystemMessage.ComponentStopped), IHandle(Of ProjectionSubsystemMessage.IODispatcherDrained)
   inheritance:
   - System.Object
   implements:
@@ -47,9 +51,11 @@ items:
   - EventStore.Core.Bus.IHandle{EventStore.Core.Messages.SystemMessage.SystemCoreReady}
   - EventStore.Core.Bus.IHandle{EventStore.Core.Messages.SystemMessage.StateChangeMessage}
   - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Stopped}
+  - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started}
   - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.RestartSubsystem}
   - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.ComponentStarted}
   - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.ComponentStopped}
+  - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained}
   modifiers.csharp:
   - public
   - sealed
@@ -72,7 +78,7 @@ items:
   source:
     id: MasterMainBus
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionsSubsystem.cs
-    startLine: 32
+    startLine: 31
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core
@@ -103,7 +109,7 @@ items:
   source:
     id: MasterOutputBus
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionsSubsystem.cs
-    startLine: 35
+    startLine: 34
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core
@@ -134,7 +140,7 @@ items:
   source:
     id: VERSION
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionsSubsystem.cs
-    startLine: 44
+    startLine: 43
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core
@@ -163,7 +169,7 @@ items:
   source:
     id: Configure
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionsSubsystem.cs
-    startLine: 64
+    startLine: 65
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core
@@ -194,7 +200,7 @@ items:
   source:
     id: ConfigureServices
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionsSubsystem.cs
-    startLine: 71
+    startLine: 72
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core
@@ -225,7 +231,7 @@ items:
   source:
     id: .ctor
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionsSubsystem.cs
-    startLine: 75
+    startLine: 76
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core
@@ -262,7 +268,7 @@ items:
   source:
     id: Register
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionsSubsystem.cs
-    startLine: 93
+    startLine: 97
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core
@@ -293,7 +299,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionsSubsystem.cs
-    startLine: 129
+    startLine: 135
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core
@@ -324,7 +330,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionsSubsystem.cs
-    startLine: 136
+    startLine: 142
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core
@@ -355,7 +361,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionsSubsystem.cs
-    startLine: 182
+    startLine: 188
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core
@@ -386,7 +392,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionsSubsystem.cs
-    startLine: 203
+    startLine: 209
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core
@@ -399,6 +405,37 @@ items:
   overload: EventStore.Projections.Core.ProjectionsSubsystem.Handle*
   implements:
   - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.ComponentStarted}.Handle(EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.ComponentStarted)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: EventStore.Projections.Core.ProjectionsSubsystem.Handle(EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained)
+  commentId: M:EventStore.Projections.Core.ProjectionsSubsystem.Handle(EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained)
+  id: Handle(EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained)
+  parent: EventStore.Projections.Core.ProjectionsSubsystem
+  langs:
+  - csharp
+  - vb
+  name: Handle(ProjectionSubsystemMessage.IODispatcherDrained)
+  nameWithType: ProjectionsSubsystem.Handle(ProjectionSubsystemMessage.IODispatcherDrained)
+  fullName: EventStore.Projections.Core.ProjectionsSubsystem.Handle(EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained)
+  type: Method
+  source:
+    id: Handle
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionsSubsystem.cs
+    startLine: 231
+  assemblies:
+  - EventStore.Projections.Core
+  namespace: EventStore.Projections.Core
+  syntax:
+    content: public void Handle(ProjectionSubsystemMessage.IODispatcherDrained message)
+    parameters:
+    - id: message
+      type: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained
+    content.vb: Public Sub Handle(message As ProjectionSubsystemMessage.IODispatcherDrained)
+  overload: EventStore.Projections.Core.ProjectionsSubsystem.Handle*
+  implements:
+  - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained}.Handle(EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -417,7 +454,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionsSubsystem.cs
-    startLine: 238
+    startLine: 253
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core
@@ -448,7 +485,7 @@ items:
   source:
     id: Start
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionsSubsystem.cs
-    startLine: 279
+    startLine: 296
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core
@@ -476,7 +513,7 @@ items:
   source:
     id: Stop
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionsSubsystem.cs
-    startLine: 292
+    startLine: 309
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core
@@ -504,7 +541,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionsSubsystem.cs
-    startLine: 311
+    startLine: 328
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core
@@ -521,6 +558,37 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: EventStore.Projections.Core.ProjectionsSubsystem.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started)
+  commentId: M:EventStore.Projections.Core.ProjectionsSubsystem.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started)
+  id: Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started)
+  parent: EventStore.Projections.Core.ProjectionsSubsystem
+  langs:
+  - csharp
+  - vb
+  name: Handle(CoreProjectionStatusMessage.Started)
+  nameWithType: ProjectionsSubsystem.Handle(CoreProjectionStatusMessage.Started)
+  fullName: EventStore.Projections.Core.ProjectionsSubsystem.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started)
+  type: Method
+  source:
+    id: Handle
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionsSubsystem.cs
+    startLine: 339
+  assemblies:
+  - EventStore.Projections.Core
+  namespace: EventStore.Projections.Core
+  syntax:
+    content: public void Handle(CoreProjectionStatusMessage.Started message)
+    parameters:
+    - id: message
+      type: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started
+    content.vb: Public Sub Handle(message As CoreProjectionStatusMessage.Started)
+  overload: EventStore.Projections.Core.ProjectionsSubsystem.Handle*
+  implements:
+  - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started}.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: EventStore.Projections.Core
   commentId: N:EventStore.Projections.Core
@@ -528,6 +596,8 @@ references:
   nameWithType: EventStore.Projections.Core
   fullName: EventStore.Projections.Core
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -658,6 +728,46 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started}
+  commentId: T:EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started}
+  parent: EventStore.Core.Bus
+  definition: EventStore.Core.Bus.IHandle`1
+  name: IHandle<CoreProjectionStatusMessage.Started>
+  nameWithType: IHandle<CoreProjectionStatusMessage.Started>
+  fullName: EventStore.Core.Bus.IHandle<EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started>
+  nameWithType.vb: IHandle(Of CoreProjectionStatusMessage.Started)
+  fullName.vb: EventStore.Core.Bus.IHandle(Of EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started)
+  name.vb: IHandle(Of CoreProjectionStatusMessage.Started)
+  spec.csharp:
+  - uid: EventStore.Core.Bus.IHandle`1
+    name: IHandle
+    nameWithType: IHandle
+    fullName: EventStore.Core.Bus.IHandle
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started
+    name: CoreProjectionStatusMessage.Started
+    nameWithType: CoreProjectionStatusMessage.Started
+    fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: EventStore.Core.Bus.IHandle`1
+    name: IHandle
+    nameWithType: IHandle
+    fullName: EventStore.Core.Bus.IHandle
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started
+    name: CoreProjectionStatusMessage.Started
+    nameWithType: CoreProjectionStatusMessage.Started
+    fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.RestartSubsystem}
   commentId: T:EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.RestartSubsystem}
   parent: EventStore.Core.Bus
@@ -778,6 +888,52 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained}
+  commentId: T:EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained}
+  parent: EventStore.Core.Bus
+  definition: EventStore.Core.Bus.IHandle`1
+  name: IHandle<ProjectionSubsystemMessage.IODispatcherDrained>
+  nameWithType: IHandle<ProjectionSubsystemMessage.IODispatcherDrained>
+  fullName: EventStore.Core.Bus.IHandle<EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained>
+  nameWithType.vb: IHandle(Of ProjectionSubsystemMessage.IODispatcherDrained)
+  fullName.vb: EventStore.Core.Bus.IHandle(Of EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained)
+  name.vb: IHandle(Of ProjectionSubsystemMessage.IODispatcherDrained)
+  spec.csharp:
+  - uid: EventStore.Core.Bus.IHandle`1
+    name: IHandle
+    nameWithType: IHandle
+    fullName: EventStore.Core.Bus.IHandle
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained
+    name: ProjectionSubsystemMessage.IODispatcherDrained
+    nameWithType: ProjectionSubsystemMessage.IODispatcherDrained
+    fullName: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: EventStore.Core.Bus.IHandle`1
+    name: IHandle
+    nameWithType: IHandle
+    fullName: EventStore.Core.Bus.IHandle
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained
+    name: ProjectionSubsystemMessage.IODispatcherDrained
+    nameWithType: ProjectionSubsystemMessage.IODispatcherDrained
+    fullName: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core
   commentId: N:EventStore.Core
   name: EventStore.Core
@@ -841,6 +997,8 @@ references:
   nameWithType: ProjectionsSubsystem.MasterOutputBus
   fullName: EventStore.Projections.Core.ProjectionsSubsystem.MasterOutputBus
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -1035,6 +1193,8 @@ references:
   nameWithType: ProjectionType
   fullName: EventStore.Common.Options.ProjectionType
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -1326,6 +1486,51 @@ references:
   name: ProjectionSubsystemMessage.ComponentStarted
   nameWithType: ProjectionSubsystemMessage.ComponentStarted
   fullName: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.ComponentStarted
+- uid: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained}.Handle(EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained)
+  commentId: M:EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained}.Handle(EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained)
+  parent: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained}
+  definition: EventStore.Core.Bus.IHandle`1.Handle(`0)
+  name: Handle(ProjectionSubsystemMessage.IODispatcherDrained)
+  nameWithType: IHandle<ProjectionSubsystemMessage.IODispatcherDrained>.Handle(ProjectionSubsystemMessage.IODispatcherDrained)
+  fullName: EventStore.Core.Bus.IHandle<EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained>.Handle(EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained)
+  nameWithType.vb: IHandle(Of ProjectionSubsystemMessage.IODispatcherDrained).Handle(ProjectionSubsystemMessage.IODispatcherDrained)
+  fullName.vb: EventStore.Core.Bus.IHandle(Of EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained).Handle(EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained)
+  spec.csharp:
+  - uid: EventStore.Core.Bus.IHandle`1.Handle(`0)
+    name: Handle
+    nameWithType: IHandle<ProjectionSubsystemMessage.IODispatcherDrained>.Handle
+    fullName: EventStore.Core.Bus.IHandle<EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained>.Handle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained
+    name: ProjectionSubsystemMessage.IODispatcherDrained
+    nameWithType: ProjectionSubsystemMessage.IODispatcherDrained
+    fullName: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EventStore.Core.Bus.IHandle`1.Handle(`0)
+    name: Handle
+    nameWithType: IHandle(Of ProjectionSubsystemMessage.IODispatcherDrained).Handle
+    fullName: EventStore.Core.Bus.IHandle(Of EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained).Handle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained
+    name: ProjectionSubsystemMessage.IODispatcherDrained
+    nameWithType: ProjectionSubsystemMessage.IODispatcherDrained
+    fullName: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained
+  commentId: T:EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained
+  parent: EventStore.Projections.Core.Messages
+  name: ProjectionSubsystemMessage.IODispatcherDrained
+  nameWithType: ProjectionSubsystemMessage.IODispatcherDrained
+  fullName: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained
 - uid: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.ComponentStopped}.Handle(EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.ComponentStopped)
   commentId: M:EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.ComponentStopped}.Handle(EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.ComponentStopped)
   parent: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.ComponentStopped}
@@ -1535,3 +1740,48 @@ references:
   name: CoreProjectionStatusMessage.Stopped
   nameWithType: CoreProjectionStatusMessage.Stopped
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Stopped
+- uid: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started}.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started)
+  commentId: M:EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started}.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started)
+  parent: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started}
+  definition: EventStore.Core.Bus.IHandle`1.Handle(`0)
+  name: Handle(CoreProjectionStatusMessage.Started)
+  nameWithType: IHandle<CoreProjectionStatusMessage.Started>.Handle(CoreProjectionStatusMessage.Started)
+  fullName: EventStore.Core.Bus.IHandle<EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started>.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started)
+  nameWithType.vb: IHandle(Of CoreProjectionStatusMessage.Started).Handle(CoreProjectionStatusMessage.Started)
+  fullName.vb: EventStore.Core.Bus.IHandle(Of EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started).Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started)
+  spec.csharp:
+  - uid: EventStore.Core.Bus.IHandle`1.Handle(`0)
+    name: Handle
+    nameWithType: IHandle<CoreProjectionStatusMessage.Started>.Handle
+    fullName: EventStore.Core.Bus.IHandle<EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started>.Handle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started
+    name: CoreProjectionStatusMessage.Started
+    nameWithType: CoreProjectionStatusMessage.Started
+    fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EventStore.Core.Bus.IHandle`1.Handle(`0)
+    name: Handle
+    nameWithType: IHandle(Of CoreProjectionStatusMessage.Started).Handle
+    fullName: EventStore.Core.Bus.IHandle(Of EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started).Handle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started
+    name: CoreProjectionStatusMessage.Started
+    nameWithType: CoreProjectionStatusMessage.Started
+    fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started
+  commentId: T:EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started
+  parent: EventStore.Projections.Core.Messages
+  name: CoreProjectionStatusMessage.Started
+  nameWithType: CoreProjectionStatusMessage.Started
+  fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started

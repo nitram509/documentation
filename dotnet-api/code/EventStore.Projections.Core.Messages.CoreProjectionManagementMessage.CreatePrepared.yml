@@ -23,7 +23,7 @@ items:
   source:
     id: CreatePrepared
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
-    startLine: 227
+    startLine: 157
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -31,6 +31,7 @@ items:
     content: 'public class CreatePrepared : CoreProjectionManagementControlMessage'
     content.vb: >-
       Public Class CreatePrepared
+
           Inherits CoreProjectionManagementControlMessage
   inheritance:
   - System.Object
@@ -61,7 +62,7 @@ items:
   source:
     id: MsgTypeId
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
-    startLine: 230
+    startLine: 160
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -95,7 +96,7 @@ items:
   source:
     id: .ctor
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
-    startLine: 241
+    startLine: 171
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -138,7 +139,7 @@ items:
   source:
     id: Config
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
-    startLine: 264
+    startLine: 194
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -169,7 +170,7 @@ items:
   source:
     id: Name
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
-    startLine: 268
+    startLine: 198
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -200,7 +201,7 @@ items:
   source:
     id: SourceDefinition
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
-    startLine: 272
+    startLine: 202
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -231,7 +232,7 @@ items:
   source:
     id: Version
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
-    startLine: 276
+    startLine: 206
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -262,7 +263,7 @@ items:
   source:
     id: HandlerType
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
-    startLine: 280
+    startLine: 210
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -293,7 +294,7 @@ items:
   source:
     id: Query
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
-    startLine: 284
+    startLine: 214
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -317,6 +318,8 @@ references:
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -357,6 +360,12 @@ references:
   name: NextMsgId
   nameWithType: Message.NextMsgId
   fullName: EventStore.Core.Messaging.Message.NextMsgId
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Messaging
   commentId: N:EventStore.Core.Messaging
   name: EventStore.Core.Messaging
@@ -374,6 +383,8 @@ references:
   nameWithType: CoreProjectionManagementMessage.CreatePrepared.MsgTypeId
   fullName: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.CreatePrepared.MsgTypeId
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -389,6 +400,8 @@ references:
   nameWithType: Guid
   fullName: Guid
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

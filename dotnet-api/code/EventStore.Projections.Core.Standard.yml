@@ -13,7 +13,6 @@ items:
   - EventStore.Projections.Core.Standard.StreamCategoryExtractorByFirstSeparator
   - EventStore.Projections.Core.Standard.StreamCategoryExtractorByLastSeparator
   - EventStore.Projections.Core.Standard.StreamDeletedHelper
-  - EventStore.Projections.Core.Standard.StubHandler
   langs:
   - csharp
   - vb
@@ -70,11 +69,6 @@ references:
   name: StreamDeletedHelper
   nameWithType: StreamDeletedHelper
   fullName: EventStore.Projections.Core.Standard.StreamDeletedHelper
-- uid: EventStore.Projections.Core.Standard.StubHandler
-  commentId: T:EventStore.Projections.Core.Standard.StubHandler
-  name: StubHandler
-  nameWithType: StubHandler
-  fullName: EventStore.Projections.Core.Standard.StubHandler
 - uid: EventStore.Projections.Core.Standard
   commentId: N:EventStore.Projections.Core.Standard
   name: EventStore.Projections.Core.Standard

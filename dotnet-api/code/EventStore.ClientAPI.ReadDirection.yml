@@ -24,8 +24,8 @@ items:
   summary: "\nRepresents the direction of read operation (both from $all and usual streams)\n"
   example: []
   syntax:
-    content: 'public enum ReadDirection : int'
-    content.vb: Public Enum ReadDirection As Integer
+    content: public enum ReadDirection
+    content.vb: Public Enum ReadDirection
   extensionMethods:
   - EventStore.ClientAPI.ReadDirection.EventStore.Projections.Core.Utils.EnumExtensions.EnumValueName``1
   modifiers.csharp:

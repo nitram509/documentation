@@ -11,10 +11,8 @@ items:
   - EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Core.Messages.ClientMessage.ReadStreamEventsBackwardCompleted)
   - EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Core.Messages.ClientMessage.ReadStreamEventsForwardCompleted)
   - EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Core.Messages.ClientMessage.WriteEventsCompleted)
-  - EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned)
   - EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Faulted)
   - EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Prepared)
-  - EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted)
   - EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ResultReport)
   - EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started)
   - EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.StateReport)
@@ -33,13 +31,10 @@ items:
   - EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.PostBatch)
   - EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Reset)
   - EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.SetRunAs)
-  - EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections)
   - EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.UpdateConfig)
   - EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.UpdateQuery)
   - EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.CleanupExpired)
   - EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.Deleted)
-  - EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady)
-  - EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection)
   - EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.StartComponents)
   - EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.StopComponents)
   - EventStore.Projections.Core.Services.Management.ProjectionManager.ProjectionCreationRetryCount
@@ -60,11 +55,13 @@ items:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
   syntax:
-    content: 'public class ProjectionManager : IDisposable, IHandle<ClientMessage.ReadStreamEventsBackwardCompleted>, IHandle<ClientMessage.ReadStreamEventsForwardCompleted>, IHandle<ClientMessage.WriteEventsCompleted>, IHandle<ClientMessage.DeleteStreamCompleted>, IHandle<ProjectionManagementMessage.Command.Post>, IHandle<ProjectionManagementMessage.Command.PostBatch>, IHandle<ProjectionManagementMessage.Command.UpdateQuery>, IHandle<ProjectionManagementMessage.Command.GetQuery>, IHandle<ProjectionManagementMessage.Command.Delete>, IHandle<ProjectionManagementMessage.Command.GetStatistics>, IHandle<ProjectionManagementMessage.Command.GetState>, IHandle<ProjectionManagementMessage.Command.GetResult>, IHandle<ProjectionManagementMessage.Command.Disable>, IHandle<ProjectionManagementMessage.Command.Enable>, IHandle<ProjectionManagementMessage.Command.Abort>, IHandle<ProjectionManagementMessage.Command.SetRunAs>, IHandle<ProjectionManagementMessage.Command.Reset>, IHandle<ProjectionManagementMessage.Command.StartSlaveProjections>, IHandle<ProjectionManagementMessage.Command.GetConfig>, IHandle<ProjectionManagementMessage.Command.UpdateConfig>, IHandle<ProjectionSubsystemMessage.StartComponents>, IHandle<ProjectionSubsystemMessage.StopComponents>, IHandle<ProjectionManagementMessage.Internal.CleanupExpired>, IHandle<ProjectionManagementMessage.Internal.Deleted>, IHandle<CoreProjectionStatusMessage.Started>, IHandle<CoreProjectionStatusMessage.Stopped>, IHandle<CoreProjectionStatusMessage.Faulted>, IHandle<CoreProjectionStatusMessage.Prepared>, IHandle<CoreProjectionStatusMessage.StateReport>, IHandle<CoreProjectionStatusMessage.ResultReport>, IHandle<CoreProjectionStatusMessage.StatisticsReport>, IHandle<CoreProjectionManagementMessage.SlaveProjectionReaderAssigned>, IHandle<ProjectionManagementMessage.RegisterSystemProjection>, IHandle<CoreProjectionStatusMessage.ProjectionWorkerStarted>, IHandle<ProjectionManagementMessage.ReaderReady>'
+    content: 'public class ProjectionManager : IDisposable, IHandle<ClientMessage.ReadStreamEventsBackwardCompleted>, IHandle<ClientMessage.ReadStreamEventsForwardCompleted>, IHandle<ClientMessage.WriteEventsCompleted>, IHandle<ClientMessage.DeleteStreamCompleted>, IHandle<ProjectionManagementMessage.Command.Post>, IHandle<ProjectionManagementMessage.Command.PostBatch>, IHandle<ProjectionManagementMessage.Command.UpdateQuery>, IHandle<ProjectionManagementMessage.Command.GetQuery>, IHandle<ProjectionManagementMessage.Command.Delete>, IHandle<ProjectionManagementMessage.Command.GetStatistics>, IHandle<ProjectionManagementMessage.Command.GetState>, IHandle<ProjectionManagementMessage.Command.GetResult>, IHandle<ProjectionManagementMessage.Command.Disable>, IHandle<ProjectionManagementMessage.Command.Enable>, IHandle<ProjectionManagementMessage.Command.Abort>, IHandle<ProjectionManagementMessage.Command.SetRunAs>, IHandle<ProjectionManagementMessage.Command.Reset>, IHandle<ProjectionManagementMessage.Command.GetConfig>, IHandle<ProjectionManagementMessage.Command.UpdateConfig>, IHandle<ProjectionSubsystemMessage.StartComponents>, IHandle<ProjectionSubsystemMessage.StopComponents>, IHandle<ProjectionManagementMessage.Internal.CleanupExpired>, IHandle<ProjectionManagementMessage.Internal.Deleted>, IHandle<CoreProjectionStatusMessage.Started>, IHandle<CoreProjectionStatusMessage.Stopped>, IHandle<CoreProjectionStatusMessage.Faulted>, IHandle<CoreProjectionStatusMessage.Prepared>, IHandle<CoreProjectionStatusMessage.StateReport>, IHandle<CoreProjectionStatusMessage.ResultReport>, IHandle<CoreProjectionStatusMessage.StatisticsReport>'
     content.vb: >-
       Public Class ProjectionManager
+
           Inherits IDisposable
-          Implements IHandle(Of ClientMessage.ReadStreamEventsBackwardCompleted), IHandle(Of ClientMessage.ReadStreamEventsForwardCompleted), IHandle(Of ClientMessage.WriteEventsCompleted), IHandle(Of ClientMessage.DeleteStreamCompleted), IHandle(Of ProjectionManagementMessage.Command.Post), IHandle(Of ProjectionManagementMessage.Command.PostBatch), IHandle(Of ProjectionManagementMessage.Command.UpdateQuery), IHandle(Of ProjectionManagementMessage.Command.GetQuery), IHandle(Of ProjectionManagementMessage.Command.Delete), IHandle(Of ProjectionManagementMessage.Command.GetStatistics), IHandle(Of ProjectionManagementMessage.Command.GetState), IHandle(Of ProjectionManagementMessage.Command.GetResult), IHandle(Of ProjectionManagementMessage.Command.Disable), IHandle(Of ProjectionManagementMessage.Command.Enable), IHandle(Of ProjectionManagementMessage.Command.Abort), IHandle(Of ProjectionManagementMessage.Command.SetRunAs), IHandle(Of ProjectionManagementMessage.Command.Reset), IHandle(Of ProjectionManagementMessage.Command.StartSlaveProjections), IHandle(Of ProjectionManagementMessage.Command.GetConfig), IHandle(Of ProjectionManagementMessage.Command.UpdateConfig), IHandle(Of ProjectionSubsystemMessage.StartComponents), IHandle(Of ProjectionSubsystemMessage.StopComponents), IHandle(Of ProjectionManagementMessage.Internal.CleanupExpired), IHandle(Of ProjectionManagementMessage.Internal.Deleted), IHandle(Of CoreProjectionStatusMessage.Started), IHandle(Of CoreProjectionStatusMessage.Stopped), IHandle(Of CoreProjectionStatusMessage.Faulted), IHandle(Of CoreProjectionStatusMessage.Prepared), IHandle(Of CoreProjectionStatusMessage.StateReport), IHandle(Of CoreProjectionStatusMessage.ResultReport), IHandle(Of CoreProjectionStatusMessage.StatisticsReport), IHandle(Of CoreProjectionManagementMessage.SlaveProjectionReaderAssigned), IHandle(Of ProjectionManagementMessage.RegisterSystemProjection), IHandle(Of CoreProjectionStatusMessage.ProjectionWorkerStarted), IHandle(Of ProjectionManagementMessage.ReaderReady)
+
+          Implements IHandle(Of ClientMessage.ReadStreamEventsBackwardCompleted), IHandle(Of ClientMessage.ReadStreamEventsForwardCompleted), IHandle(Of ClientMessage.WriteEventsCompleted), IHandle(Of ClientMessage.DeleteStreamCompleted), IHandle(Of ProjectionManagementMessage.Command.Post), IHandle(Of ProjectionManagementMessage.Command.PostBatch), IHandle(Of ProjectionManagementMessage.Command.UpdateQuery), IHandle(Of ProjectionManagementMessage.Command.GetQuery), IHandle(Of ProjectionManagementMessage.Command.Delete), IHandle(Of ProjectionManagementMessage.Command.GetStatistics), IHandle(Of ProjectionManagementMessage.Command.GetState), IHandle(Of ProjectionManagementMessage.Command.GetResult), IHandle(Of ProjectionManagementMessage.Command.Disable), IHandle(Of ProjectionManagementMessage.Command.Enable), IHandle(Of ProjectionManagementMessage.Command.Abort), IHandle(Of ProjectionManagementMessage.Command.SetRunAs), IHandle(Of ProjectionManagementMessage.Command.Reset), IHandle(Of ProjectionManagementMessage.Command.GetConfig), IHandle(Of ProjectionManagementMessage.Command.UpdateConfig), IHandle(Of ProjectionSubsystemMessage.StartComponents), IHandle(Of ProjectionSubsystemMessage.StopComponents), IHandle(Of ProjectionManagementMessage.Internal.CleanupExpired), IHandle(Of ProjectionManagementMessage.Internal.Deleted), IHandle(Of CoreProjectionStatusMessage.Started), IHandle(Of CoreProjectionStatusMessage.Stopped), IHandle(Of CoreProjectionStatusMessage.Faulted), IHandle(Of CoreProjectionStatusMessage.Prepared), IHandle(Of CoreProjectionStatusMessage.StateReport), IHandle(Of CoreProjectionStatusMessage.ResultReport), IHandle(Of CoreProjectionStatusMessage.StatisticsReport)
   inheritance:
   - System.Object
   implements:
@@ -85,7 +82,6 @@ items:
   - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Abort}
   - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.SetRunAs}
   - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Reset}
-  - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections}
   - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.GetConfig}
   - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.UpdateConfig}
   - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.StartComponents}
@@ -99,10 +95,6 @@ items:
   - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.StateReport}
   - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ResultReport}
   - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.StatisticsReport}
-  - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned}
-  - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection}
-  - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted}
-  - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady}
   modifiers.csharp:
   - public
   - class
@@ -123,7 +115,7 @@ items:
   source:
     id: ProjectionQueryId
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 56
+    startLine: 51
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -152,7 +144,7 @@ items:
   source:
     id: ProjectionCreationRetryCount
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 57
+    startLine: 52
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -181,7 +173,7 @@ items:
   source:
     id: ServiceName
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 58
+    startLine: 53
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -210,7 +202,7 @@ items:
   source:
     id: .ctor
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 112
+    startLine: 107
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -256,7 +248,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 183
+    startLine: 178
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -304,37 +296,6 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady)
-  commentId: M:EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady)
-  id: Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady)
-  parent: EventStore.Projections.Core.Services.Management.ProjectionManager
-  langs:
-  - csharp
-  - vb
-  name: Handle(ProjectionManagementMessage.ReaderReady)
-  nameWithType: ProjectionManager.Handle(ProjectionManagementMessage.ReaderReady)
-  fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady)
-  type: Method
-  source:
-    id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 214
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Management
-  syntax:
-    content: public void Handle(ProjectionManagementMessage.ReaderReady message)
-    parameters:
-    - id: message
-      type: EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady
-    content.vb: Public Sub Handle(message As ProjectionManagementMessage.ReaderReady)
-  overload: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle*
-  implements:
-  - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady}.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Post)
   commentId: M:EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Post)
   id: Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Post)
@@ -349,7 +310,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 252
+    startLine: 236
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -380,7 +341,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 272
+    startLine: 256
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -411,7 +372,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 338
+    startLine: 322
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -442,7 +403,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 369
+    startLine: 353
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -473,7 +434,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 382
+    startLine: 366
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -504,7 +465,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 400
+    startLine: 384
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -535,7 +496,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 415
+    startLine: 399
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -566,7 +527,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 431
+    startLine: 415
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -597,7 +558,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 446
+    startLine: 430
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -628,7 +589,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 465
+    startLine: 449
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -659,7 +620,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 481
+    startLine: 465
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -690,7 +651,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 505
+    startLine: 489
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -721,7 +682,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 515
+    startLine: 499
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -752,7 +713,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 525
+    startLine: 509
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -783,7 +744,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 538
+    startLine: 522
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -814,7 +775,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 556
+    startLine: 540
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -845,7 +806,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 567
+    startLine: 551
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -876,7 +837,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 575
+    startLine: 559
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -907,7 +868,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 583
+    startLine: 567
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -938,7 +899,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 591
+    startLine: 575
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -969,7 +930,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 599
+    startLine: 583
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -1000,7 +961,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 603
+    startLine: 587
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -1031,7 +992,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 607
+    startLine: 591
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -1044,37 +1005,6 @@ items:
   overload: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle*
   implements:
   - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.StatisticsReport}.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.StatisticsReport)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned)
-  commentId: M:EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned)
-  id: Handle(EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned)
-  parent: EventStore.Projections.Core.Services.Management.ProjectionManager
-  langs:
-  - csharp
-  - vb
-  name: Handle(CoreProjectionManagementMessage.SlaveProjectionReaderAssigned)
-  nameWithType: ProjectionManager.Handle(CoreProjectionManagementMessage.SlaveProjectionReaderAssigned)
-  fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned)
-  type: Method
-  source:
-    id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 615
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Management
-  syntax:
-    content: public void Handle(CoreProjectionManagementMessage.SlaveProjectionReaderAssigned message)
-    parameters:
-    - id: message
-      type: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
-    content.vb: Public Sub Handle(message As CoreProjectionManagementMessage.SlaveProjectionReaderAssigned)
-  overload: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle*
-  implements:
-  - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned}.Handle(EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1093,7 +1023,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 622
+    startLine: 599
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -1124,7 +1054,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 626
+    startLine: 603
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -1155,7 +1085,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 630
+    startLine: 607
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -1186,7 +1116,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 634
+    startLine: 611
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -1217,7 +1147,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 638
+    startLine: 615
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -1230,37 +1160,6 @@ items:
   overload: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle*
   implements:
   - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.Deleted}.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.Deleted)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection)
-  commentId: M:EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection)
-  id: Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection)
-  parent: EventStore.Projections.Core.Services.Management.ProjectionManager
-  langs:
-  - csharp
-  - vb
-  name: Handle(ProjectionManagementMessage.RegisterSystemProjection)
-  nameWithType: ProjectionManager.Handle(ProjectionManagementMessage.RegisterSystemProjection)
-  fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection)
-  type: Method
-  source:
-    id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 671
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Management
-  syntax:
-    content: public void Handle(ProjectionManagementMessage.RegisterSystemProjection message)
-    parameters:
-    - id: message
-      type: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection
-    content.vb: Public Sub Handle(message As ProjectionManagementMessage.RegisterSystemProjection)
-  overload: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle*
-  implements:
-  - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection}.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1279,7 +1178,7 @@ items:
   source:
     id: Dispose
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 689
+    startLine: 647
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -1291,68 +1190,6 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections)
-  commentId: M:EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections)
-  id: Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections)
-  parent: EventStore.Projections.Core.Services.Management.ProjectionManager
-  langs:
-  - csharp
-  - vb
-  name: Handle(ProjectionManagementMessage.Command.StartSlaveProjections)
-  nameWithType: ProjectionManager.Handle(ProjectionManagementMessage.Command.StartSlaveProjections)
-  fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections)
-  type: Method
-  source:
-    id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 1282
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Management
-  syntax:
-    content: public void Handle(ProjectionManagementMessage.Command.StartSlaveProjections message)
-    parameters:
-    - id: message
-      type: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections
-    content.vb: Public Sub Handle(message As ProjectionManagementMessage.Command.StartSlaveProjections)
-  overload: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle*
-  implements:
-  - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections}.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted)
-  commentId: M:EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted)
-  id: Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted)
-  parent: EventStore.Projections.Core.Services.Management.ProjectionManager
-  langs:
-  - csharp
-  - vb
-  name: Handle(CoreProjectionStatusMessage.ProjectionWorkerStarted)
-  nameWithType: ProjectionManager.Handle(CoreProjectionStatusMessage.ProjectionWorkerStarted)
-  fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted)
-  type: Method
-  source:
-    id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 1386
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Management
-  syntax:
-    content: public void Handle(CoreProjectionStatusMessage.ProjectionWorkerStarted message)
-    parameters:
-    - id: message
-      type: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted
-    content.vb: Public Sub Handle(message As CoreProjectionStatusMessage.ProjectionWorkerStarted)
-  overload: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle*
-  implements:
-  - EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted}.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: EventStore.Projections.Core.Services.Management
   commentId: N:EventStore.Projections.Core.Services.Management
@@ -1360,6 +1197,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Management
   fullName: EventStore.Projections.Core.Services.Management
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -2044,46 +1883,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections}
-  commentId: T:EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections}
-  parent: EventStore.Core.Bus
-  definition: EventStore.Core.Bus.IHandle`1
-  name: IHandle<ProjectionManagementMessage.Command.StartSlaveProjections>
-  nameWithType: IHandle<ProjectionManagementMessage.Command.StartSlaveProjections>
-  fullName: EventStore.Core.Bus.IHandle<EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections>
-  nameWithType.vb: IHandle(Of ProjectionManagementMessage.Command.StartSlaveProjections)
-  fullName.vb: EventStore.Core.Bus.IHandle(Of EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections)
-  name.vb: IHandle(Of ProjectionManagementMessage.Command.StartSlaveProjections)
-  spec.csharp:
-  - uid: EventStore.Core.Bus.IHandle`1
-    name: IHandle
-    nameWithType: IHandle
-    fullName: EventStore.Core.Bus.IHandle
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections
-    name: ProjectionManagementMessage.Command.StartSlaveProjections
-    nameWithType: ProjectionManagementMessage.Command.StartSlaveProjections
-    fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: EventStore.Core.Bus.IHandle`1
-    name: IHandle
-    nameWithType: IHandle
-    fullName: EventStore.Core.Bus.IHandle
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections
-    name: ProjectionManagementMessage.Command.StartSlaveProjections
-    nameWithType: ProjectionManagementMessage.Command.StartSlaveProjections
-    fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.GetConfig}
   commentId: T:EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.GetConfig}
   parent: EventStore.Core.Bus
@@ -2604,166 +2403,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned}
-  commentId: T:EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned}
-  parent: EventStore.Core.Bus
-  definition: EventStore.Core.Bus.IHandle`1
-  name: IHandle<CoreProjectionManagementMessage.SlaveProjectionReaderAssigned>
-  nameWithType: IHandle<CoreProjectionManagementMessage.SlaveProjectionReaderAssigned>
-  fullName: EventStore.Core.Bus.IHandle<EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned>
-  nameWithType.vb: IHandle(Of CoreProjectionManagementMessage.SlaveProjectionReaderAssigned)
-  fullName.vb: EventStore.Core.Bus.IHandle(Of EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned)
-  name.vb: IHandle(Of CoreProjectionManagementMessage.SlaveProjectionReaderAssigned)
-  spec.csharp:
-  - uid: EventStore.Core.Bus.IHandle`1
-    name: IHandle
-    nameWithType: IHandle
-    fullName: EventStore.Core.Bus.IHandle
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
-    name: CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
-    nameWithType: CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
-    fullName: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: EventStore.Core.Bus.IHandle`1
-    name: IHandle
-    nameWithType: IHandle
-    fullName: EventStore.Core.Bus.IHandle
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
-    name: CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
-    nameWithType: CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
-    fullName: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection}
-  commentId: T:EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection}
-  parent: EventStore.Core.Bus
-  definition: EventStore.Core.Bus.IHandle`1
-  name: IHandle<ProjectionManagementMessage.RegisterSystemProjection>
-  nameWithType: IHandle<ProjectionManagementMessage.RegisterSystemProjection>
-  fullName: EventStore.Core.Bus.IHandle<EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection>
-  nameWithType.vb: IHandle(Of ProjectionManagementMessage.RegisterSystemProjection)
-  fullName.vb: EventStore.Core.Bus.IHandle(Of EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection)
-  name.vb: IHandle(Of ProjectionManagementMessage.RegisterSystemProjection)
-  spec.csharp:
-  - uid: EventStore.Core.Bus.IHandle`1
-    name: IHandle
-    nameWithType: IHandle
-    fullName: EventStore.Core.Bus.IHandle
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection
-    name: ProjectionManagementMessage.RegisterSystemProjection
-    nameWithType: ProjectionManagementMessage.RegisterSystemProjection
-    fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: EventStore.Core.Bus.IHandle`1
-    name: IHandle
-    nameWithType: IHandle
-    fullName: EventStore.Core.Bus.IHandle
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection
-    name: ProjectionManagementMessage.RegisterSystemProjection
-    nameWithType: ProjectionManagementMessage.RegisterSystemProjection
-    fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted}
-  commentId: T:EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted}
-  parent: EventStore.Core.Bus
-  definition: EventStore.Core.Bus.IHandle`1
-  name: IHandle<CoreProjectionStatusMessage.ProjectionWorkerStarted>
-  nameWithType: IHandle<CoreProjectionStatusMessage.ProjectionWorkerStarted>
-  fullName: EventStore.Core.Bus.IHandle<EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted>
-  nameWithType.vb: IHandle(Of CoreProjectionStatusMessage.ProjectionWorkerStarted)
-  fullName.vb: EventStore.Core.Bus.IHandle(Of EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted)
-  name.vb: IHandle(Of CoreProjectionStatusMessage.ProjectionWorkerStarted)
-  spec.csharp:
-  - uid: EventStore.Core.Bus.IHandle`1
-    name: IHandle
-    nameWithType: IHandle
-    fullName: EventStore.Core.Bus.IHandle
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted
-    name: CoreProjectionStatusMessage.ProjectionWorkerStarted
-    nameWithType: CoreProjectionStatusMessage.ProjectionWorkerStarted
-    fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: EventStore.Core.Bus.IHandle`1
-    name: IHandle
-    nameWithType: IHandle
-    fullName: EventStore.Core.Bus.IHandle
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted
-    name: CoreProjectionStatusMessage.ProjectionWorkerStarted
-    nameWithType: CoreProjectionStatusMessage.ProjectionWorkerStarted
-    fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady}
-  commentId: T:EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady}
-  parent: EventStore.Core.Bus
-  definition: EventStore.Core.Bus.IHandle`1
-  name: IHandle<ProjectionManagementMessage.ReaderReady>
-  nameWithType: IHandle<ProjectionManagementMessage.ReaderReady>
-  fullName: EventStore.Core.Bus.IHandle<EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady>
-  nameWithType.vb: IHandle(Of ProjectionManagementMessage.ReaderReady)
-  fullName.vb: EventStore.Core.Bus.IHandle(Of EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady)
-  name.vb: IHandle(Of ProjectionManagementMessage.ReaderReady)
-  spec.csharp:
-  - uid: EventStore.Core.Bus.IHandle`1
-    name: IHandle
-    nameWithType: IHandle
-    fullName: EventStore.Core.Bus.IHandle
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady
-    name: ProjectionManagementMessage.ReaderReady
-    nameWithType: ProjectionManagementMessage.ReaderReady
-    fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: EventStore.Core.Bus.IHandle`1
-    name: IHandle
-    nameWithType: IHandle
-    fullName: EventStore.Core.Bus.IHandle
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady
-    name: ProjectionManagementMessage.ReaderReady
-    nameWithType: ProjectionManagementMessage.ReaderReady
-    fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady
-  - name: )
-    nameWithType: )
-    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Bus.IHandle`1
   commentId: T:EventStore.Core.Bus.IHandle`1
   name: IHandle<T>
@@ -2806,11 +2451,15 @@ references:
   nameWithType: EventStore.Core.Bus
   fullName: EventStore.Core.Bus
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -2907,6 +2556,8 @@ references:
   nameWithType: TimeSpan
   fullName: TimeSpan
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -3111,51 +2762,6 @@ references:
   name: ProjectionSubsystemMessage.StopComponents
   nameWithType: ProjectionSubsystemMessage.StopComponents
   fullName: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.StopComponents
-- uid: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady}.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady)
-  commentId: M:EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady}.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady)
-  parent: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady}
-  definition: EventStore.Core.Bus.IHandle`1.Handle(`0)
-  name: Handle(ProjectionManagementMessage.ReaderReady)
-  nameWithType: IHandle<ProjectionManagementMessage.ReaderReady>.Handle(ProjectionManagementMessage.ReaderReady)
-  fullName: EventStore.Core.Bus.IHandle<EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady>.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady)
-  nameWithType.vb: IHandle(Of ProjectionManagementMessage.ReaderReady).Handle(ProjectionManagementMessage.ReaderReady)
-  fullName.vb: EventStore.Core.Bus.IHandle(Of EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady).Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady)
-  spec.csharp:
-  - uid: EventStore.Core.Bus.IHandle`1.Handle(`0)
-    name: Handle
-    nameWithType: IHandle<ProjectionManagementMessage.ReaderReady>.Handle
-    fullName: EventStore.Core.Bus.IHandle<EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady>.Handle
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady
-    name: ProjectionManagementMessage.ReaderReady
-    nameWithType: ProjectionManagementMessage.ReaderReady
-    fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EventStore.Core.Bus.IHandle`1.Handle(`0)
-    name: Handle
-    nameWithType: IHandle(Of ProjectionManagementMessage.ReaderReady).Handle
-    fullName: EventStore.Core.Bus.IHandle(Of EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady).Handle
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady
-    name: ProjectionManagementMessage.ReaderReady
-    nameWithType: ProjectionManagementMessage.ReaderReady
-    fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady
-  commentId: T:EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady
-  parent: EventStore.Projections.Core.Messages
-  name: ProjectionManagementMessage.ReaderReady
-  nameWithType: ProjectionManagementMessage.ReaderReady
-  fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady
 - uid: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Post}.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Post)
   commentId: M:EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Post}.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Post)
   parent: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Post}
@@ -4191,51 +3797,6 @@ references:
   name: CoreProjectionStatusMessage.StatisticsReport
   nameWithType: CoreProjectionStatusMessage.StatisticsReport
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.StatisticsReport
-- uid: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned}.Handle(EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned)
-  commentId: M:EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned}.Handle(EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned)
-  parent: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned}
-  definition: EventStore.Core.Bus.IHandle`1.Handle(`0)
-  name: Handle(CoreProjectionManagementMessage.SlaveProjectionReaderAssigned)
-  nameWithType: IHandle<CoreProjectionManagementMessage.SlaveProjectionReaderAssigned>.Handle(CoreProjectionManagementMessage.SlaveProjectionReaderAssigned)
-  fullName: EventStore.Core.Bus.IHandle<EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned>.Handle(EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned)
-  nameWithType.vb: IHandle(Of CoreProjectionManagementMessage.SlaveProjectionReaderAssigned).Handle(CoreProjectionManagementMessage.SlaveProjectionReaderAssigned)
-  fullName.vb: EventStore.Core.Bus.IHandle(Of EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned).Handle(EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned)
-  spec.csharp:
-  - uid: EventStore.Core.Bus.IHandle`1.Handle(`0)
-    name: Handle
-    nameWithType: IHandle<CoreProjectionManagementMessage.SlaveProjectionReaderAssigned>.Handle
-    fullName: EventStore.Core.Bus.IHandle<EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned>.Handle
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
-    name: CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
-    nameWithType: CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
-    fullName: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EventStore.Core.Bus.IHandle`1.Handle(`0)
-    name: Handle
-    nameWithType: IHandle(Of CoreProjectionManagementMessage.SlaveProjectionReaderAssigned).Handle
-    fullName: EventStore.Core.Bus.IHandle(Of EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned).Handle
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
-    name: CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
-    nameWithType: CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
-    fullName: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
-  commentId: T:EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
-  parent: EventStore.Projections.Core.Messages
-  name: CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
-  nameWithType: CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
-  fullName: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
 - uid: EventStore.Core.Bus.IHandle{EventStore.Core.Messages.ClientMessage.ReadStreamEventsBackwardCompleted}.Handle(EventStore.Core.Messages.ClientMessage.ReadStreamEventsBackwardCompleted)
   commentId: M:EventStore.Core.Bus.IHandle{EventStore.Core.Messages.ClientMessage.ReadStreamEventsBackwardCompleted}.Handle(EventStore.Core.Messages.ClientMessage.ReadStreamEventsBackwardCompleted)
   parent: EventStore.Core.Bus.IHandle{EventStore.Core.Messages.ClientMessage.ReadStreamEventsBackwardCompleted}
@@ -4466,143 +4027,8 @@ references:
   name: ProjectionManagementMessage.Internal.Deleted
   nameWithType: ProjectionManagementMessage.Internal.Deleted
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.Deleted
-- uid: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection}.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection)
-  commentId: M:EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection}.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection)
-  parent: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection}
-  definition: EventStore.Core.Bus.IHandle`1.Handle(`0)
-  name: Handle(ProjectionManagementMessage.RegisterSystemProjection)
-  nameWithType: IHandle<ProjectionManagementMessage.RegisterSystemProjection>.Handle(ProjectionManagementMessage.RegisterSystemProjection)
-  fullName: EventStore.Core.Bus.IHandle<EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection>.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection)
-  nameWithType.vb: IHandle(Of ProjectionManagementMessage.RegisterSystemProjection).Handle(ProjectionManagementMessage.RegisterSystemProjection)
-  fullName.vb: EventStore.Core.Bus.IHandle(Of EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection).Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection)
-  spec.csharp:
-  - uid: EventStore.Core.Bus.IHandle`1.Handle(`0)
-    name: Handle
-    nameWithType: IHandle<ProjectionManagementMessage.RegisterSystemProjection>.Handle
-    fullName: EventStore.Core.Bus.IHandle<EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection>.Handle
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection
-    name: ProjectionManagementMessage.RegisterSystemProjection
-    nameWithType: ProjectionManagementMessage.RegisterSystemProjection
-    fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EventStore.Core.Bus.IHandle`1.Handle(`0)
-    name: Handle
-    nameWithType: IHandle(Of ProjectionManagementMessage.RegisterSystemProjection).Handle
-    fullName: EventStore.Core.Bus.IHandle(Of EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection).Handle
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection
-    name: ProjectionManagementMessage.RegisterSystemProjection
-    nameWithType: ProjectionManagementMessage.RegisterSystemProjection
-    fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection
-  commentId: T:EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection
-  parent: EventStore.Projections.Core.Messages
-  name: ProjectionManagementMessage.RegisterSystemProjection
-  nameWithType: ProjectionManagementMessage.RegisterSystemProjection
-  fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection
 - uid: EventStore.Projections.Core.Services.Management.ProjectionManager.Dispose*
   commentId: Overload:EventStore.Projections.Core.Services.Management.ProjectionManager.Dispose
   name: Dispose
   nameWithType: ProjectionManager.Dispose
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Dispose
-- uid: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections}.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections)
-  commentId: M:EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections}.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections)
-  parent: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections}
-  definition: EventStore.Core.Bus.IHandle`1.Handle(`0)
-  name: Handle(ProjectionManagementMessage.Command.StartSlaveProjections)
-  nameWithType: IHandle<ProjectionManagementMessage.Command.StartSlaveProjections>.Handle(ProjectionManagementMessage.Command.StartSlaveProjections)
-  fullName: EventStore.Core.Bus.IHandle<EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections>.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections)
-  nameWithType.vb: IHandle(Of ProjectionManagementMessage.Command.StartSlaveProjections).Handle(ProjectionManagementMessage.Command.StartSlaveProjections)
-  fullName.vb: EventStore.Core.Bus.IHandle(Of EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections).Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections)
-  spec.csharp:
-  - uid: EventStore.Core.Bus.IHandle`1.Handle(`0)
-    name: Handle
-    nameWithType: IHandle<ProjectionManagementMessage.Command.StartSlaveProjections>.Handle
-    fullName: EventStore.Core.Bus.IHandle<EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections>.Handle
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections
-    name: ProjectionManagementMessage.Command.StartSlaveProjections
-    nameWithType: ProjectionManagementMessage.Command.StartSlaveProjections
-    fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EventStore.Core.Bus.IHandle`1.Handle(`0)
-    name: Handle
-    nameWithType: IHandle(Of ProjectionManagementMessage.Command.StartSlaveProjections).Handle
-    fullName: EventStore.Core.Bus.IHandle(Of EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections).Handle
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections
-    name: ProjectionManagementMessage.Command.StartSlaveProjections
-    nameWithType: ProjectionManagementMessage.Command.StartSlaveProjections
-    fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections
-  commentId: T:EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections
-  parent: EventStore.Projections.Core.Messages
-  name: ProjectionManagementMessage.Command.StartSlaveProjections
-  nameWithType: ProjectionManagementMessage.Command.StartSlaveProjections
-  fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections
-- uid: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted}.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted)
-  commentId: M:EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted}.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted)
-  parent: EventStore.Core.Bus.IHandle{EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted}
-  definition: EventStore.Core.Bus.IHandle`1.Handle(`0)
-  name: Handle(CoreProjectionStatusMessage.ProjectionWorkerStarted)
-  nameWithType: IHandle<CoreProjectionStatusMessage.ProjectionWorkerStarted>.Handle(CoreProjectionStatusMessage.ProjectionWorkerStarted)
-  fullName: EventStore.Core.Bus.IHandle<EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted>.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted)
-  nameWithType.vb: IHandle(Of CoreProjectionStatusMessage.ProjectionWorkerStarted).Handle(CoreProjectionStatusMessage.ProjectionWorkerStarted)
-  fullName.vb: EventStore.Core.Bus.IHandle(Of EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted).Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted)
-  spec.csharp:
-  - uid: EventStore.Core.Bus.IHandle`1.Handle(`0)
-    name: Handle
-    nameWithType: IHandle<CoreProjectionStatusMessage.ProjectionWorkerStarted>.Handle
-    fullName: EventStore.Core.Bus.IHandle<EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted>.Handle
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted
-    name: CoreProjectionStatusMessage.ProjectionWorkerStarted
-    nameWithType: CoreProjectionStatusMessage.ProjectionWorkerStarted
-    fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EventStore.Core.Bus.IHandle`1.Handle(`0)
-    name: Handle
-    nameWithType: IHandle(Of CoreProjectionStatusMessage.ProjectionWorkerStarted).Handle
-    fullName: EventStore.Core.Bus.IHandle(Of EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted).Handle
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted
-    name: CoreProjectionStatusMessage.ProjectionWorkerStarted
-    nameWithType: CoreProjectionStatusMessage.ProjectionWorkerStarted
-    fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted
-  commentId: T:EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted
-  parent: EventStore.Projections.Core.Messages
-  name: CoreProjectionStatusMessage.ProjectionWorkerStarted
-  nameWithType: CoreProjectionStatusMessage.ProjectionWorkerStarted
-  fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted

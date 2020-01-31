@@ -16,7 +16,7 @@ items:
   source:
     id: ProjectionManagerNode
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionManagerNode.cs
-    startLine: 18
+    startLine: 17
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core
@@ -24,6 +24,7 @@ items:
     content: 'public class ProjectionManagerNode : object'
     content.vb: >-
       Public Class ProjectionManagerNode
+
           Inherits Object
   inheritance:
   - System.Object
@@ -47,7 +48,7 @@ items:
   source:
     id: CreateManagerService
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionManagerNode.cs
-    startLine: 19
+    startLine: 18
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core
@@ -80,10 +81,18 @@ references:
   nameWithType: EventStore.Projections.Core
   fullName: EventStore.Projections.Core
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.ProjectionManagerNode.CreateManagerService*
   commentId: Overload:EventStore.Projections.Core.ProjectionManagerNode.CreateManagerService
   name: CreateManagerService

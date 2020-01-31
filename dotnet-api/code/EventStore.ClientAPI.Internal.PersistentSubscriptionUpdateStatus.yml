@@ -26,8 +26,8 @@ items:
   summary: "\nEnumeration representing the status of a single subscription create message.\n"
   example: []
   syntax:
-    content: 'public enum PersistentSubscriptionUpdateStatus : int'
-    content.vb: Public Enum PersistentSubscriptionUpdateStatus As Integer
+    content: public enum PersistentSubscriptionUpdateStatus
+    content.vb: Public Enum PersistentSubscriptionUpdateStatus
   extensionMethods:
   - EventStore.ClientAPI.Internal.PersistentSubscriptionUpdateStatus.EventStore.Projections.Core.Utils.EnumExtensions.EnumValueName``1
   modifiers.csharp:
@@ -57,10 +57,9 @@ items:
   summary: "\nThe subscription was created successfully\n"
   example: []
   syntax:
-    content: Success = null
+    content: Success = 0
     return:
       type: EventStore.ClientAPI.Internal.PersistentSubscriptionUpdateStatus
-    content.vb: Success = Nothing
   modifiers.csharp:
   - public
   - const
@@ -88,10 +87,9 @@ items:
   summary: "\nThe subscription already exists\n"
   example: []
   syntax:
-    content: NotFound = null
+    content: NotFound = 1
     return:
       type: EventStore.ClientAPI.Internal.PersistentSubscriptionUpdateStatus
-    content.vb: NotFound = Nothing
   modifiers.csharp:
   - public
   - const
@@ -119,10 +117,9 @@ items:
   summary: "\nSome failure happened creating the subscription\n"
   example: []
   syntax:
-    content: Failure = null
+    content: Failure = 2
     return:
       type: EventStore.ClientAPI.Internal.PersistentSubscriptionUpdateStatus
-    content.vb: Failure = Nothing
   modifiers.csharp:
   - public
   - const
@@ -150,10 +147,9 @@ items:
   summary: "\nYou do not have permissions to update this subscription\n"
   example: []
   syntax:
-    content: AccessDenied = null
+    content: AccessDenied = 3
     return:
       type: EventStore.ClientAPI.Internal.PersistentSubscriptionUpdateStatus
-    content.vb: AccessDenied = Nothing
   modifiers.csharp:
   - public
   - const

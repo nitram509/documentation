@@ -26,6 +26,7 @@ items:
     content: 'public abstract class DefaultProjectionProcessingStrategy : EventReaderBasedProjectionProcessingStrategy'
     content.vb: >-
       Public MustInherit Class DefaultProjectionProcessingStrategy
+
           Inherits EventReaderBasedProjectionProcessingStrategy
   inheritance:
   - System.Object
@@ -34,7 +35,6 @@ items:
   derivedClasses:
   - EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy
   - EventStore.Projections.Core.Services.Processing.QueryProcessingStrategy
-  - EventStore.Projections.Core.Services.Processing.SlaveQueryProcessingStrategy
   inheritedMembers:
   - EventStore.Projections.Core.Services.Processing.EventReaderBasedProjectionProcessingStrategy._projectionConfig
   - EventStore.Projections.Core.Services.Processing.EventReaderBasedProjectionProcessingStrategy._sourceDefinition
@@ -54,8 +54,6 @@ items:
   - EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetStopOnEof
   - EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetUseCheckpoints
   - EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetProducesRunningResults
-  - EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetIsSlaveProjection
-  - EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetSlaveProjections
   modifiers.csharp:
   - public
   - abstract
@@ -198,6 +196,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -1126,68 +1126,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetIsSlaveProjection
-  commentId: M:EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetIsSlaveProjection
-  parent: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy
-  name: GetIsSlaveProjection()
-  nameWithType: ProjectionProcessingStrategy.GetIsSlaveProjection()
-  fullName: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetIsSlaveProjection()
-  spec.csharp:
-  - uid: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetIsSlaveProjection
-    name: GetIsSlaveProjection
-    nameWithType: ProjectionProcessingStrategy.GetIsSlaveProjection
-    fullName: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetIsSlaveProjection
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetIsSlaveProjection
-    name: GetIsSlaveProjection
-    nameWithType: ProjectionProcessingStrategy.GetIsSlaveProjection
-    fullName: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetIsSlaveProjection
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetSlaveProjections
-  commentId: M:EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetSlaveProjections
-  parent: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy
-  name: GetSlaveProjections()
-  nameWithType: ProjectionProcessingStrategy.GetSlaveProjections()
-  fullName: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetSlaveProjections()
-  spec.csharp:
-  - uid: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetSlaveProjections
-    name: GetSlaveProjections
-    nameWithType: ProjectionProcessingStrategy.GetSlaveProjections
-    fullName: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetSlaveProjections
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetSlaveProjections
-    name: GetSlaveProjections
-    nameWithType: ProjectionProcessingStrategy.GetSlaveProjections
-    fullName: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetSlaveProjections
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.DefaultProjectionProcessingStrategy.#ctor*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.DefaultProjectionProcessingStrategy.#ctor
   name: DefaultProjectionProcessingStrategy
   nameWithType: DefaultProjectionProcessingStrategy.DefaultProjectionProcessingStrategy
   fullName: EventStore.Projections.Core.Services.Processing.DefaultProjectionProcessingStrategy.DefaultProjectionProcessingStrategy
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

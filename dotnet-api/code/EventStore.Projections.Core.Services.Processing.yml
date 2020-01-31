@@ -4,13 +4,8 @@ items:
   commentId: N:EventStore.Projections.Core.Services.Processing
   id: EventStore.Projections.Core.Services.Processing
   children:
-  - EventStore.Projections.Core.Services.Processing.AllStreamsCatalogEventReader
   - EventStore.Projections.Core.Services.Processing.ByHandleStatePartitionSelector
-  - EventStore.Projections.Core.Services.Processing.BypassingEventFilter
-  - EventStore.Projections.Core.Services.Processing.ByPositionStreamStatePartitionSelector
-  - EventStore.Projections.Core.Services.Processing.ByStreamCatalogEventReader
   - EventStore.Projections.Core.Services.Processing.ByStreamStatePartitionSelector
-  - EventStore.Projections.Core.Services.Processing.CatalogStreamPositionTagger
   - EventStore.Projections.Core.Services.Processing.CategoryEventFilter
   - EventStore.Projections.Core.Services.Processing.CheckpointSuggestedWorkItem
   - EventStore.Projections.Core.Services.Processing.CheckpointTag
@@ -48,8 +43,6 @@ items:
   - EventStore.Projections.Core.Services.Processing.EventReaderCoreService
   - EventStore.Projections.Core.Services.Processing.EventReorderingReaderSubscription
   - EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase
-  - EventStore.Projections.Core.Services.Processing.ExternallyFedByStreamEventReader
-  - EventStore.Projections.Core.Services.Processing.ExternallyFedReaderStrategy
   - EventStore.Projections.Core.Services.Processing.ExtraMetaData
   - EventStore.Projections.Core.Services.Processing.HeadingEventReader
   - EventStore.Projections.Core.Services.Processing.ICoreProjectionCheckpointManager
@@ -71,21 +64,12 @@ items:
   - EventStore.Projections.Core.Services.Processing.IReaderSubscription
   - EventStore.Projections.Core.Services.Processing.IResultEventEmitter
   - EventStore.Projections.Core.Services.Processing.IResultWriter
-  - EventStore.Projections.Core.Services.Processing.ISpoolStreamWorkItemContainer
   - EventStore.Projections.Core.Services.Processing.MultiStreamEventFilter
   - EventStore.Projections.Core.Services.Processing.MultiStreamEventReader
   - EventStore.Projections.Core.Services.Processing.MultiStreamMultiOutputCheckpointManager
   - EventStore.Projections.Core.Services.Processing.MultiStreamPositionTagger
-  - EventStore.Projections.Core.Services.Processing.NoopCheckpointManager
   - EventStore.Projections.Core.Services.Processing.NoopResultEventEmitter
   - EventStore.Projections.Core.Services.Processing.NoopStatePartitionSelector
-  - EventStore.Projections.Core.Services.Processing.ParallelProcessingLoadBalancer
-  - EventStore.Projections.Core.Services.Processing.ParallelProcessingLoadBalancer.TaskState
-  - EventStore.Projections.Core.Services.Processing.ParallelProcessingLoadBalancer.WorkerState
-  - EventStore.Projections.Core.Services.Processing.ParallelQueryAllStreamsMasterReaderStrategy
-  - EventStore.Projections.Core.Services.Processing.ParallelQueryMasterProjectionProcessingPhase
-  - EventStore.Projections.Core.Services.Processing.ParallelQueryMasterReaderStrategy
-  - EventStore.Projections.Core.Services.Processing.ParallelQueryProcessingStrategy
   - EventStore.Projections.Core.Services.Processing.PartitionState
   - EventStore.Projections.Core.Services.Processing.PartitionStateCache
   - EventStore.Projections.Core.Services.Processing.PartitionStateUpdateManager
@@ -94,11 +78,9 @@ items:
   - EventStore.Projections.Core.Services.Processing.PositionTagger
   - EventStore.Projections.Core.Services.Processing.PositionTracker
   - EventStore.Projections.Core.Services.Processing.PreparePositionTagger
-  - EventStore.Projections.Core.Services.Processing.PreTaggedPositionTagger
   - EventStore.Projections.Core.Services.Processing.ProcessingStrategySelector
   - EventStore.Projections.Core.Services.Processing.ProjectionCheckpoint
   - EventStore.Projections.Core.Services.Processing.ProjectionCoreService
-  - EventStore.Projections.Core.Services.Processing.ProjectionCoreServiceCommandReader
   - EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder
   - EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.StandardProjections
   - EventStore.Projections.Core.Services.Processing.ProjectionOutputConfig
@@ -116,10 +98,7 @@ items:
   - EventStore.Projections.Core.Services.Processing.ResolvedEvent
   - EventStore.Projections.Core.Services.Processing.ResultEventEmitter
   - EventStore.Projections.Core.Services.Processing.ResultWriter
-  - EventStore.Projections.Core.Services.Processing.SlaveQueryProcessingStrategy
-  - EventStore.Projections.Core.Services.Processing.SlaveResultWriter
   - EventStore.Projections.Core.Services.Processing.SourceDefinitionBuilder
-  - EventStore.Projections.Core.Services.Processing.SpoolStreamProcessingWorkItem
   - EventStore.Projections.Core.Services.Processing.StagedProcessingQueue
   - EventStore.Projections.Core.Services.Processing.StagedTask
   - EventStore.Projections.Core.Services.Processing.StatePartitionSelector
@@ -131,7 +110,6 @@ items:
   - EventStore.Projections.Core.Services.Processing.TransactionFileEventReader
   - EventStore.Projections.Core.Services.Processing.TransactionFilePositionTagger
   - EventStore.Projections.Core.Services.Processing.WorkItem
-  - EventStore.Projections.Core.Services.Processing.WorkLoadEstimationStrategy
   - EventStore.Projections.Core.Services.Processing.WriteQueryEofProjectionProcessingPhase
   - EventStore.Projections.Core.Services.Processing.WriteQueryResultProjectionProcessingPhase
   - EventStore.Projections.Core.Services.Processing.WriteQueryResultProjectionProcessingPhaseBase
@@ -145,41 +123,16 @@ items:
   assemblies:
   - EventStore.Projections.Core
 references:
-- uid: EventStore.Projections.Core.Services.Processing.AllStreamsCatalogEventReader
-  commentId: T:EventStore.Projections.Core.Services.Processing.AllStreamsCatalogEventReader
-  name: AllStreamsCatalogEventReader
-  nameWithType: AllStreamsCatalogEventReader
-  fullName: EventStore.Projections.Core.Services.Processing.AllStreamsCatalogEventReader
 - uid: EventStore.Projections.Core.Services.Processing.ByHandleStatePartitionSelector
   commentId: T:EventStore.Projections.Core.Services.Processing.ByHandleStatePartitionSelector
   name: ByHandleStatePartitionSelector
   nameWithType: ByHandleStatePartitionSelector
   fullName: EventStore.Projections.Core.Services.Processing.ByHandleStatePartitionSelector
-- uid: EventStore.Projections.Core.Services.Processing.BypassingEventFilter
-  commentId: T:EventStore.Projections.Core.Services.Processing.BypassingEventFilter
-  name: BypassingEventFilter
-  nameWithType: BypassingEventFilter
-  fullName: EventStore.Projections.Core.Services.Processing.BypassingEventFilter
-- uid: EventStore.Projections.Core.Services.Processing.ByPositionStreamStatePartitionSelector
-  commentId: T:EventStore.Projections.Core.Services.Processing.ByPositionStreamStatePartitionSelector
-  name: ByPositionStreamStatePartitionSelector
-  nameWithType: ByPositionStreamStatePartitionSelector
-  fullName: EventStore.Projections.Core.Services.Processing.ByPositionStreamStatePartitionSelector
-- uid: EventStore.Projections.Core.Services.Processing.ByStreamCatalogEventReader
-  commentId: T:EventStore.Projections.Core.Services.Processing.ByStreamCatalogEventReader
-  name: ByStreamCatalogEventReader
-  nameWithType: ByStreamCatalogEventReader
-  fullName: EventStore.Projections.Core.Services.Processing.ByStreamCatalogEventReader
 - uid: EventStore.Projections.Core.Services.Processing.ByStreamStatePartitionSelector
   commentId: T:EventStore.Projections.Core.Services.Processing.ByStreamStatePartitionSelector
   name: ByStreamStatePartitionSelector
   nameWithType: ByStreamStatePartitionSelector
   fullName: EventStore.Projections.Core.Services.Processing.ByStreamStatePartitionSelector
-- uid: EventStore.Projections.Core.Services.Processing.CatalogStreamPositionTagger
-  commentId: T:EventStore.Projections.Core.Services.Processing.CatalogStreamPositionTagger
-  name: CatalogStreamPositionTagger
-  nameWithType: CatalogStreamPositionTagger
-  fullName: EventStore.Projections.Core.Services.Processing.CatalogStreamPositionTagger
 - uid: EventStore.Projections.Core.Services.Processing.CategoryEventFilter
   commentId: T:EventStore.Projections.Core.Services.Processing.CategoryEventFilter
   name: CategoryEventFilter
@@ -395,16 +348,6 @@ references:
   name: EventSubscriptionBasedProjectionProcessingPhase
   nameWithType: EventSubscriptionBasedProjectionProcessingPhase
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase
-- uid: EventStore.Projections.Core.Services.Processing.ExternallyFedByStreamEventReader
-  commentId: T:EventStore.Projections.Core.Services.Processing.ExternallyFedByStreamEventReader
-  name: ExternallyFedByStreamEventReader
-  nameWithType: ExternallyFedByStreamEventReader
-  fullName: EventStore.Projections.Core.Services.Processing.ExternallyFedByStreamEventReader
-- uid: EventStore.Projections.Core.Services.Processing.ExternallyFedReaderStrategy
-  commentId: T:EventStore.Projections.Core.Services.Processing.ExternallyFedReaderStrategy
-  name: ExternallyFedReaderStrategy
-  nameWithType: ExternallyFedReaderStrategy
-  fullName: EventStore.Projections.Core.Services.Processing.ExternallyFedReaderStrategy
 - uid: EventStore.Projections.Core.Services.Processing.ExtraMetaData
   commentId: T:EventStore.Projections.Core.Services.Processing.ExtraMetaData
   parent: EventStore.Projections.Core.Services.Processing
@@ -544,11 +487,6 @@ references:
   name: MultiStreamPositionTagger
   nameWithType: MultiStreamPositionTagger
   fullName: EventStore.Projections.Core.Services.Processing.MultiStreamPositionTagger
-- uid: EventStore.Projections.Core.Services.Processing.NoopCheckpointManager
-  commentId: T:EventStore.Projections.Core.Services.Processing.NoopCheckpointManager
-  name: NoopCheckpointManager
-  nameWithType: NoopCheckpointManager
-  fullName: EventStore.Projections.Core.Services.Processing.NoopCheckpointManager
 - uid: EventStore.Projections.Core.Services.Processing.NoopResultEventEmitter
   commentId: T:EventStore.Projections.Core.Services.Processing.NoopResultEventEmitter
   name: NoopResultEventEmitter
@@ -559,44 +497,6 @@ references:
   name: NoopStatePartitionSelector
   nameWithType: NoopStatePartitionSelector
   fullName: EventStore.Projections.Core.Services.Processing.NoopStatePartitionSelector
-- uid: EventStore.Projections.Core.Services.Processing.ParallelProcessingLoadBalancer
-  commentId: T:EventStore.Projections.Core.Services.Processing.ParallelProcessingLoadBalancer
-  parent: EventStore.Projections.Core.Services.Processing
-  name: ParallelProcessingLoadBalancer
-  nameWithType: ParallelProcessingLoadBalancer
-  fullName: EventStore.Projections.Core.Services.Processing.ParallelProcessingLoadBalancer
-- uid: EventStore.Projections.Core.Services.Processing.ParallelProcessingLoadBalancer.WorkerState
-  commentId: T:EventStore.Projections.Core.Services.Processing.ParallelProcessingLoadBalancer.WorkerState
-  parent: EventStore.Projections.Core.Services.Processing
-  name: ParallelProcessingLoadBalancer.WorkerState
-  nameWithType: ParallelProcessingLoadBalancer.WorkerState
-  fullName: EventStore.Projections.Core.Services.Processing.ParallelProcessingLoadBalancer.WorkerState
-- uid: EventStore.Projections.Core.Services.Processing.ParallelProcessingLoadBalancer.TaskState
-  commentId: T:EventStore.Projections.Core.Services.Processing.ParallelProcessingLoadBalancer.TaskState
-  parent: EventStore.Projections.Core.Services.Processing
-  name: ParallelProcessingLoadBalancer.TaskState
-  nameWithType: ParallelProcessingLoadBalancer.TaskState
-  fullName: EventStore.Projections.Core.Services.Processing.ParallelProcessingLoadBalancer.TaskState
-- uid: EventStore.Projections.Core.Services.Processing.ParallelQueryAllStreamsMasterReaderStrategy
-  commentId: T:EventStore.Projections.Core.Services.Processing.ParallelQueryAllStreamsMasterReaderStrategy
-  name: ParallelQueryAllStreamsMasterReaderStrategy
-  nameWithType: ParallelQueryAllStreamsMasterReaderStrategy
-  fullName: EventStore.Projections.Core.Services.Processing.ParallelQueryAllStreamsMasterReaderStrategy
-- uid: EventStore.Projections.Core.Services.Processing.ParallelQueryMasterProjectionProcessingPhase
-  commentId: T:EventStore.Projections.Core.Services.Processing.ParallelQueryMasterProjectionProcessingPhase
-  name: ParallelQueryMasterProjectionProcessingPhase
-  nameWithType: ParallelQueryMasterProjectionProcessingPhase
-  fullName: EventStore.Projections.Core.Services.Processing.ParallelQueryMasterProjectionProcessingPhase
-- uid: EventStore.Projections.Core.Services.Processing.ParallelQueryMasterReaderStrategy
-  commentId: T:EventStore.Projections.Core.Services.Processing.ParallelQueryMasterReaderStrategy
-  name: ParallelQueryMasterReaderStrategy
-  nameWithType: ParallelQueryMasterReaderStrategy
-  fullName: EventStore.Projections.Core.Services.Processing.ParallelQueryMasterReaderStrategy
-- uid: EventStore.Projections.Core.Services.Processing.ParallelQueryProcessingStrategy
-  commentId: T:EventStore.Projections.Core.Services.Processing.ParallelQueryProcessingStrategy
-  name: ParallelQueryProcessingStrategy
-  nameWithType: ParallelQueryProcessingStrategy
-  fullName: EventStore.Projections.Core.Services.Processing.ParallelQueryProcessingStrategy
 - uid: EventStore.Projections.Core.Services.Processing.PartitionState
   commentId: T:EventStore.Projections.Core.Services.Processing.PartitionState
   parent: EventStore.Projections.Core.Services.Processing
@@ -636,11 +536,6 @@ references:
   name: PreparePositionTagger
   nameWithType: PreparePositionTagger
   fullName: EventStore.Projections.Core.Services.Processing.PreparePositionTagger
-- uid: EventStore.Projections.Core.Services.Processing.PreTaggedPositionTagger
-  commentId: T:EventStore.Projections.Core.Services.Processing.PreTaggedPositionTagger
-  name: PreTaggedPositionTagger
-  nameWithType: PreTaggedPositionTagger
-  fullName: EventStore.Projections.Core.Services.Processing.PreTaggedPositionTagger
 - uid: EventStore.Projections.Core.Services.Processing.ProcessingStrategySelector
   commentId: T:EventStore.Projections.Core.Services.Processing.ProcessingStrategySelector
   name: ProcessingStrategySelector
@@ -654,15 +549,9 @@ references:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionCheckpoint
 - uid: EventStore.Projections.Core.Services.Processing.ProjectionCoreService
   commentId: T:EventStore.Projections.Core.Services.Processing.ProjectionCoreService
-  parent: EventStore.Projections.Core.Services.Processing
   name: ProjectionCoreService
   nameWithType: ProjectionCoreService
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreService
-- uid: EventStore.Projections.Core.Services.Processing.ProjectionCoreServiceCommandReader
-  commentId: T:EventStore.Projections.Core.Services.Processing.ProjectionCoreServiceCommandReader
-  name: ProjectionCoreServiceCommandReader
-  nameWithType: ProjectionCoreServiceCommandReader
-  fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreServiceCommandReader
 - uid: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder
   commentId: T:EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder
   parent: EventStore.Projections.Core.Services.Processing
@@ -751,16 +640,6 @@ references:
   name: ResultWriter
   nameWithType: ResultWriter
   fullName: EventStore.Projections.Core.Services.Processing.ResultWriter
-- uid: EventStore.Projections.Core.Services.Processing.SlaveQueryProcessingStrategy
-  commentId: T:EventStore.Projections.Core.Services.Processing.SlaveQueryProcessingStrategy
-  name: SlaveQueryProcessingStrategy
-  nameWithType: SlaveQueryProcessingStrategy
-  fullName: EventStore.Projections.Core.Services.Processing.SlaveQueryProcessingStrategy
-- uid: EventStore.Projections.Core.Services.Processing.SlaveResultWriter
-  commentId: T:EventStore.Projections.Core.Services.Processing.SlaveResultWriter
-  name: SlaveResultWriter
-  nameWithType: SlaveResultWriter
-  fullName: EventStore.Projections.Core.Services.Processing.SlaveResultWriter
 - uid: EventStore.Projections.Core.Services.Processing.SourceDefinitionBuilder
   commentId: T:EventStore.Projections.Core.Services.Processing.SourceDefinitionBuilder
   parent: EventStore.Projections.Core.Services.Processing
@@ -773,17 +652,6 @@ references:
   name: QuerySourceOptions
   nameWithType: QuerySourceOptions
   fullName: EventStore.Projections.Core.Services.Processing.QuerySourceOptions
-- uid: EventStore.Projections.Core.Services.Processing.SpoolStreamProcessingWorkItem
-  commentId: T:EventStore.Projections.Core.Services.Processing.SpoolStreamProcessingWorkItem
-  name: SpoolStreamProcessingWorkItem
-  nameWithType: SpoolStreamProcessingWorkItem
-  fullName: EventStore.Projections.Core.Services.Processing.SpoolStreamProcessingWorkItem
-- uid: EventStore.Projections.Core.Services.Processing.ISpoolStreamWorkItemContainer
-  commentId: T:EventStore.Projections.Core.Services.Processing.ISpoolStreamWorkItemContainer
-  parent: EventStore.Projections.Core.Services.Processing
-  name: ISpoolStreamWorkItemContainer
-  nameWithType: ISpoolStreamWorkItemContainer
-  fullName: EventStore.Projections.Core.Services.Processing.ISpoolStreamWorkItemContainer
 - uid: EventStore.Projections.Core.Services.Processing.StagedProcessingQueue
   commentId: T:EventStore.Projections.Core.Services.Processing.StagedProcessingQueue
   name: StagedProcessingQueue
@@ -842,11 +710,6 @@ references:
   name: WorkItem
   nameWithType: WorkItem
   fullName: EventStore.Projections.Core.Services.Processing.WorkItem
-- uid: EventStore.Projections.Core.Services.Processing.WorkLoadEstimationStrategy
-  commentId: T:EventStore.Projections.Core.Services.Processing.WorkLoadEstimationStrategy
-  name: WorkLoadEstimationStrategy
-  nameWithType: WorkLoadEstimationStrategy
-  fullName: EventStore.Projections.Core.Services.Processing.WorkLoadEstimationStrategy
 - uid: EventStore.Projections.Core.Services.Processing.WriteQueryEofProjectionProcessingPhase
   commentId: T:EventStore.Projections.Core.Services.Processing.WriteQueryEofProjectionProcessingPhase
   name: WriteQueryEofProjectionProcessingPhase

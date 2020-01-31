@@ -6,7 +6,6 @@ items:
   children:
   - EventStore.Projections.Core.Utils.EncodingExtensions
   - EventStore.Projections.Core.Utils.EnumExtensions
-  - EventStore.Projections.Core.Utils.Logging
   langs:
   - csharp
   - vb
@@ -28,11 +27,6 @@ references:
   name: EnumExtensions
   nameWithType: EnumExtensions
   fullName: EventStore.Projections.Core.Utils.EnumExtensions
-- uid: EventStore.Projections.Core.Utils.Logging
-  commentId: T:EventStore.Projections.Core.Utils.Logging
-  name: Logging
-  nameWithType: Logging
-  fullName: EventStore.Projections.Core.Utils.Logging
 - uid: EventStore.Projections.Core.Utils
   commentId: N:EventStore.Projections.Core.Utils
   name: EventStore.Projections.Core.Utils

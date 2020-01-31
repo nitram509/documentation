@@ -23,7 +23,7 @@ items:
   source:
     id: CommittedEventDistributed
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionMessage.cs
-    startLine: 204
+    startLine: 178
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -31,6 +31,7 @@ items:
     content: 'public class CommittedEventDistributed : ReaderSubscriptionMessage.SubscriptionMessage'
     content.vb: >-
       Public Class CommittedEventDistributed
+
           Inherits ReaderSubscriptionMessage.SubscriptionMessage
   inheritance:
   - System.Object
@@ -61,7 +62,7 @@ items:
   source:
     id: MsgTypeId
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionMessage.cs
-    startLine: 207
+    startLine: 181
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -95,7 +96,7 @@ items:
   source:
     id: Sample
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionMessage.cs
-    startLine: 211
+    startLine: 185
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -159,7 +160,7 @@ items:
   source:
     id: Sample
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionMessage.cs
-    startLine: 226
+    startLine: 200
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -215,7 +216,7 @@ items:
   source:
     id: .ctor
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionMessage.cs
-    startLine: 248
+    startLine: 222
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -257,7 +258,7 @@ items:
   source:
     id: .ctor
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionMessage.cs
-    startLine: 257
+    startLine: 231
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -290,7 +291,7 @@ items:
   source:
     id: Data
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionMessage.cs
-    startLine: 261
+    startLine: 235
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -321,7 +322,7 @@ items:
   source:
     id: SafeTransactionFileReaderJoinPosition
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionMessage.cs
-    startLine: 265
+    startLine: 239
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -352,7 +353,7 @@ items:
   source:
     id: Progress
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionMessage.cs
-    startLine: 269
+    startLine: 243
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -376,6 +377,8 @@ references:
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -416,6 +419,12 @@ references:
   name: NextMsgId
   nameWithType: Message.NextMsgId
   fullName: EventStore.Core.Messaging.Message.NextMsgId
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Messaging
   commentId: N:EventStore.Core.Messaging
   name: EventStore.Core.Messaging
@@ -433,6 +442,8 @@ references:
   nameWithType: ReaderSubscriptionMessage.CommittedEventDistributed.MsgTypeId
   fullName: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.CommittedEventDistributed.MsgTypeId
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -454,16 +465,22 @@ references:
   nameWithType: TFPos
   fullName: EventStore.Core.Data.TFPos
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -495,7 +512,8 @@ references:
     nameWithType: ()
     fullName: ()
 - uid: System.Nullable{System.Int64}
-  commentId: '!:System.Nullable{System.Int64}'
+  commentId: T:System.Nullable{System.Int64}
+  parent: System
   definition: System.Nullable`1
   name: Nullable<Int64>
   nameWithType: Nullable<Int64>
@@ -538,6 +556,8 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Single
+  commentId: T:System.Single
+  parent: System
   isExternal: true
   name: Single
   nameWithType: Single
@@ -554,13 +574,14 @@ references:
   nameWithType: EventStore.Core.Data
   fullName: EventStore.Core.Data
 - uid: System.Nullable`1
+  commentId: T:System.Nullable`1
   isExternal: true
-  name: Nullable<>
-  nameWithType: Nullable<>
-  fullName: System.Nullable<>
-  nameWithType.vb: Nullable(Of )
-  fullName.vb: System.Nullable(Of )
-  name.vb: Nullable(Of )
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
@@ -570,9 +591,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -585,9 +606,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )

@@ -33,7 +33,9 @@ items:
     content: 'public class RequestResponseQueueForwarder : object, IHandle<ClientMessage.ReadEvent>, IHandle<ClientMessage.ReadStreamEventsBackward>, IHandle<ClientMessage.ReadStreamEventsForward>, IHandle<ClientMessage.ReadAllEventsForward>, IHandle<ClientMessage.WriteEvents>, IHandle<ClientMessage.DeleteStream>, IHandle<SystemMessage.SubSystemInitialized>, IHandle<ProjectionCoreServiceMessage.SubComponentStarted>, IHandle<ProjectionCoreServiceMessage.SubComponentStopped>'
     content.vb: >-
       Public Class RequestResponseQueueForwarder
+
           Inherits Object
+
           Implements IHandle(Of ClientMessage.ReadEvent), IHandle(Of ClientMessage.ReadStreamEventsBackward), IHandle(Of ClientMessage.ReadStreamEventsForward), IHandle(Of ClientMessage.ReadAllEventsForward), IHandle(Of ClientMessage.WriteEvents), IHandle(Of ClientMessage.DeleteStream), IHandle(Of SystemMessage.SubSystemInitialized), IHandle(Of ProjectionCoreServiceMessage.SubComponentStarted), IHandle(Of ProjectionCoreServiceMessage.SubComponentStopped)
   inheritance:
   - System.Object
@@ -368,6 +370,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -732,6 +736,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Bus.IHandle`1
   commentId: T:EventStore.Core.Bus.IHandle`1
   name: IHandle<T>

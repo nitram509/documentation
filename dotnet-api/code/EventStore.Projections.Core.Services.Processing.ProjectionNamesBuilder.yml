@@ -6,30 +6,19 @@ items:
   parent: EventStore.Projections.Core.Services.Processing
   children:
   - EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.#ctor(System.String,EventStore.Projections.Core.Messages.IQuerySources)
-  - EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder._projectionsControlStream
-  - EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder._projectionsMasterStream
-  - EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.BuildControlStreamName(Guid)
-  - EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.ControlStreamMaxAge
-  - EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.CoreControlStreamMaxAge
   - EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.CreateForTest(System.String)
   - EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.EffectiveProjectionName
-  - EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetCategoryCatalogStreamName(System.String)
   - EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetEmittedStreamsCheckpointName
   - EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetEmittedStreamsName
   - EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetOrderStreamName
   - EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetPartitionCatalogStreamName
-  - EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetPartitionResultCatalogStreamName
   - EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetPartitionResultStreamNamePattern
   - EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetResultStreamName
   - EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.MakeCheckpointStreamName
-  - EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.MakeControlStreamName(Guid)
-  - EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.MakeControlStreamName(System.String)
   - EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.MakePartitionCheckpointStreamName(System.String)
   - EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.MakePartitionResultStreamName(System.String)
-  - EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.MasterStreamMaxAge
   - EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.ProjectionsRegistrationStream
   - EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.ProjectionsStreamPrefix
-  - EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.SlaveProjectionControlStreamMaxAge
   langs:
   - csharp
   - vb
@@ -48,6 +37,7 @@ items:
     content: 'public class ProjectionNamesBuilder : object'
     content.vb: >-
       Public Class ProjectionNamesBuilder
+
           Inherits Object
   inheritance:
   - System.Object
@@ -90,122 +80,6 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.MasterStreamMaxAge
-  commentId: F:EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.MasterStreamMaxAge
-  id: MasterStreamMaxAge
-  parent: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder
-  langs:
-  - csharp
-  - vb
-  name: MasterStreamMaxAge
-  nameWithType: ProjectionNamesBuilder.MasterStreamMaxAge
-  fullName: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.MasterStreamMaxAge
-  type: Field
-  source:
-    id: MasterStreamMaxAge
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-    startLine: 26
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Processing
-  syntax:
-    content: public static TimeSpan MasterStreamMaxAge
-    return:
-      type: TimeSpan
-    content.vb: Public Shared MasterStreamMaxAge As TimeSpan
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.ControlStreamMaxAge
-  commentId: F:EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.ControlStreamMaxAge
-  id: ControlStreamMaxAge
-  parent: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder
-  langs:
-  - csharp
-  - vb
-  name: ControlStreamMaxAge
-  nameWithType: ProjectionNamesBuilder.ControlStreamMaxAge
-  fullName: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.ControlStreamMaxAge
-  type: Field
-  source:
-    id: ControlStreamMaxAge
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-    startLine: 27
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Processing
-  syntax:
-    content: public static TimeSpan ControlStreamMaxAge
-    return:
-      type: TimeSpan
-    content.vb: Public Shared ControlStreamMaxAge As TimeSpan
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.SlaveProjectionControlStreamMaxAge
-  commentId: F:EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.SlaveProjectionControlStreamMaxAge
-  id: SlaveProjectionControlStreamMaxAge
-  parent: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder
-  langs:
-  - csharp
-  - vb
-  name: SlaveProjectionControlStreamMaxAge
-  nameWithType: ProjectionNamesBuilder.SlaveProjectionControlStreamMaxAge
-  fullName: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.SlaveProjectionControlStreamMaxAge
-  type: Field
-  source:
-    id: SlaveProjectionControlStreamMaxAge
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-    startLine: 28
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Processing
-  syntax:
-    content: public static TimeSpan SlaveProjectionControlStreamMaxAge
-    return:
-      type: TimeSpan
-    content.vb: Public Shared SlaveProjectionControlStreamMaxAge As TimeSpan
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.CoreControlStreamMaxAge
-  commentId: F:EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.CoreControlStreamMaxAge
-  id: CoreControlStreamMaxAge
-  parent: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder
-  langs:
-  - csharp
-  - vb
-  name: CoreControlStreamMaxAge
-  nameWithType: ProjectionNamesBuilder.CoreControlStreamMaxAge
-  fullName: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.CoreControlStreamMaxAge
-  type: Field
-  source:
-    id: CoreControlStreamMaxAge
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-    startLine: 29
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Processing
-  syntax:
-    content: public static TimeSpan CoreControlStreamMaxAge
-    return:
-      type: TimeSpan
-    content.vb: Public Shared CoreControlStreamMaxAge As TimeSpan
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.#ctor(System.String,EventStore.Projections.Core.Messages.IQuerySources)
   commentId: M:EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.#ctor(System.String,EventStore.Projections.Core.Messages.IQuerySources)
   id: '#ctor(System.String,EventStore.Projections.Core.Messages.IQuerySources)'
@@ -220,7 +94,7 @@ items:
   source:
     id: .ctor
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-    startLine: 35
+    startLine: 30
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -251,7 +125,7 @@ items:
   source:
     id: EffectiveProjectionName
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-    startLine: 51
+    startLine: 46
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -282,7 +156,7 @@ items:
   source:
     id: GetResultStreamName
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-    startLine: 60
+    startLine: 55
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -310,7 +184,7 @@ items:
   source:
     id: GetPartitionResultStreamNamePattern
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-    startLine: 64
+    startLine: 59
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -338,7 +212,7 @@ items:
   source:
     id: ProjectionsStreamPrefix
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-    startLine: 69
+    startLine: 64
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -347,64 +221,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const ProjectionsStreamPrefix As String = Nothing
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
-- uid: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder._projectionsControlStream
-  commentId: F:EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder._projectionsControlStream
-  id: _projectionsControlStream
-  parent: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder
-  langs:
-  - csharp
-  - vb
-  name: _projectionsControlStream
-  nameWithType: ProjectionNamesBuilder._projectionsControlStream
-  fullName: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder._projectionsControlStream
-  type: Field
-  source:
-    id: _projectionsControlStream
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-    startLine: 77
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Processing
-  syntax:
-    content: public const string _projectionsControlStream = null
-    return:
-      type: System.String
-    content.vb: Public Const _projectionsControlStream As String = Nothing
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
-- uid: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder._projectionsMasterStream
-  commentId: F:EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder._projectionsMasterStream
-  id: _projectionsMasterStream
-  parent: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder
-  langs:
-  - csharp
-  - vb
-  name: _projectionsMasterStream
-  nameWithType: ProjectionNamesBuilder._projectionsMasterStream
-  fullName: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder._projectionsMasterStream
-  type: Field
-  source:
-    id: _projectionsMasterStream
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-    startLine: 78
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Processing
-  syntax:
-    content: public const string _projectionsMasterStream = null
-    return:
-      type: System.String
-    content.vb: Public Const _projectionsMasterStream As String = Nothing
   modifiers.csharp:
   - public
   - const
@@ -425,7 +241,7 @@ items:
   source:
     id: ProjectionsRegistrationStream
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-    startLine: 79
+    startLine: 70
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -440,39 +256,6 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.BuildControlStreamName(Guid)
-  commentId: M:EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.BuildControlStreamName(Guid)
-  id: BuildControlStreamName(Guid)
-  parent: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder
-  langs:
-  - csharp
-  - vb
-  name: BuildControlStreamName(Guid)
-  nameWithType: ProjectionNamesBuilder.BuildControlStreamName(Guid)
-  fullName: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.BuildControlStreamName(Guid)
-  type: Method
-  source:
-    id: BuildControlStreamName
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-    startLine: 81
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Processing
-  syntax:
-    content: public static string BuildControlStreamName(Guid uniqueId)
-    parameters:
-    - id: uniqueId
-      type: Guid
-    return:
-      type: System.String
-    content.vb: Public Shared Function BuildControlStreamName(uniqueId As Guid) As String
-  overload: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.BuildControlStreamName*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetPartitionCatalogStreamName
   commentId: M:EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetPartitionCatalogStreamName
   id: GetPartitionCatalogStreamName
@@ -487,7 +270,7 @@ items:
   source:
     id: GetPartitionCatalogStreamName
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-    startLine: 85
+    startLine: 72
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -497,34 +280,6 @@ items:
       type: System.String
     content.vb: Public Function GetPartitionCatalogStreamName As String
   overload: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetPartitionCatalogStreamName*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetPartitionResultCatalogStreamName
-  commentId: M:EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetPartitionResultCatalogStreamName
-  id: GetPartitionResultCatalogStreamName
-  parent: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder
-  langs:
-  - csharp
-  - vb
-  name: GetPartitionResultCatalogStreamName()
-  nameWithType: ProjectionNamesBuilder.GetPartitionResultCatalogStreamName()
-  fullName: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetPartitionResultCatalogStreamName()
-  type: Method
-  source:
-    id: GetPartitionResultCatalogStreamName
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-    startLine: 89
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Processing
-  syntax:
-    content: public string GetPartitionResultCatalogStreamName()
-    return:
-      type: System.String
-    content.vb: Public Function GetPartitionResultCatalogStreamName As String
-  overload: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetPartitionResultCatalogStreamName*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -543,7 +298,7 @@ items:
   source:
     id: MakePartitionResultStreamName
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-    startLine: 93
+    startLine: 76
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -574,7 +329,7 @@ items:
   source:
     id: MakePartitionCheckpointStreamName
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-    startLine: 99
+    startLine: 82
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -605,7 +360,7 @@ items:
   source:
     id: MakeCheckpointStreamName
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-    startLine: 108
+    startLine: 91
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -633,7 +388,7 @@ items:
   source:
     id: GetEmittedStreamsName
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-    startLine: 112
+    startLine: 95
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -661,7 +416,7 @@ items:
   source:
     id: GetEmittedStreamsCheckpointName
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-    startLine: 116
+    startLine: 99
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -689,7 +444,7 @@ items:
   source:
     id: GetOrderStreamName
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-    startLine: 120
+    startLine: 103
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -703,103 +458,6 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetCategoryCatalogStreamName(System.String)
-  commentId: M:EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetCategoryCatalogStreamName(System.String)
-  id: GetCategoryCatalogStreamName(System.String)
-  parent: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder
-  langs:
-  - csharp
-  - vb
-  name: GetCategoryCatalogStreamName(String)
-  nameWithType: ProjectionNamesBuilder.GetCategoryCatalogStreamName(String)
-  fullName: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetCategoryCatalogStreamName(System.String)
-  type: Method
-  source:
-    id: GetCategoryCatalogStreamName
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-    startLine: 124
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Processing
-  syntax:
-    content: public string GetCategoryCatalogStreamName(string category)
-    parameters:
-    - id: category
-      type: System.String
-    return:
-      type: System.String
-    content.vb: Public Function GetCategoryCatalogStreamName(category As String) As String
-  overload: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetCategoryCatalogStreamName*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.MakeControlStreamName(Guid)
-  commentId: M:EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.MakeControlStreamName(Guid)
-  id: MakeControlStreamName(Guid)
-  parent: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder
-  langs:
-  - csharp
-  - vb
-  name: MakeControlStreamName(Guid)
-  nameWithType: ProjectionNamesBuilder.MakeControlStreamName(Guid)
-  fullName: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.MakeControlStreamName(Guid)
-  type: Method
-  source:
-    id: MakeControlStreamName
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-    startLine: 128
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Processing
-  syntax:
-    content: public static string MakeControlStreamName(Guid guid)
-    parameters:
-    - id: guid
-      type: Guid
-    return:
-      type: System.String
-    content.vb: Public Shared Function MakeControlStreamName(guid As Guid) As String
-  overload: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.MakeControlStreamName*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.MakeControlStreamName(System.String)
-  commentId: M:EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.MakeControlStreamName(System.String)
-  id: MakeControlStreamName(System.String)
-  parent: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder
-  langs:
-  - csharp
-  - vb
-  name: MakeControlStreamName(String)
-  nameWithType: ProjectionNamesBuilder.MakeControlStreamName(String)
-  fullName: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.MakeControlStreamName(System.String)
-  type: Method
-  source:
-    id: MakeControlStreamName
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-    startLine: 132
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Processing
-  syntax:
-    content: public static string MakeControlStreamName(string guid)
-    parameters:
-    - id: guid
-      type: System.String
-    return:
-      type: System.String
-    content.vb: Public Shared Function MakeControlStreamName(guid As String) As String
-  overload: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.MakeControlStreamName*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 references:
 - uid: EventStore.Projections.Core.Services.Processing
   commentId: N:EventStore.Projections.Core.Services.Processing
@@ -807,16 +465,26 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.CreateForTest*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.CreateForTest
   name: CreateForTest
   nameWithType: ProjectionNamesBuilder.CreateForTest
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.CreateForTest
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -827,11 +495,6 @@ references:
   name: ProjectionNamesBuilder
   nameWithType: ProjectionNamesBuilder
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder
-- uid: TimeSpan
-  isExternal: true
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: TimeSpan
 - uid: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.#ctor*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.#ctor
   name: ProjectionNamesBuilder
@@ -863,26 +526,11 @@ references:
   name: GetPartitionResultStreamNamePattern
   nameWithType: ProjectionNamesBuilder.GetPartitionResultStreamNamePattern
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetPartitionResultStreamNamePattern
-- uid: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.BuildControlStreamName*
-  commentId: Overload:EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.BuildControlStreamName
-  name: BuildControlStreamName
-  nameWithType: ProjectionNamesBuilder.BuildControlStreamName
-  fullName: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.BuildControlStreamName
-- uid: Guid
-  isExternal: true
-  name: Guid
-  nameWithType: Guid
-  fullName: Guid
 - uid: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetPartitionCatalogStreamName*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetPartitionCatalogStreamName
   name: GetPartitionCatalogStreamName
   nameWithType: ProjectionNamesBuilder.GetPartitionCatalogStreamName
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetPartitionCatalogStreamName
-- uid: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetPartitionResultCatalogStreamName*
-  commentId: Overload:EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetPartitionResultCatalogStreamName
-  name: GetPartitionResultCatalogStreamName
-  nameWithType: ProjectionNamesBuilder.GetPartitionResultCatalogStreamName
-  fullName: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetPartitionResultCatalogStreamName
 - uid: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.MakePartitionResultStreamName*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.MakePartitionResultStreamName
   name: MakePartitionResultStreamName
@@ -913,13 +561,3 @@ references:
   name: GetOrderStreamName
   nameWithType: ProjectionNamesBuilder.GetOrderStreamName
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetOrderStreamName
-- uid: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetCategoryCatalogStreamName*
-  commentId: Overload:EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetCategoryCatalogStreamName
-  name: GetCategoryCatalogStreamName
-  nameWithType: ProjectionNamesBuilder.GetCategoryCatalogStreamName
-  fullName: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.GetCategoryCatalogStreamName
-- uid: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.MakeControlStreamName*
-  commentId: Overload:EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.MakeControlStreamName
-  name: MakeControlStreamName
-  nameWithType: ProjectionNamesBuilder.MakeControlStreamName
-  fullName: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.MakeControlStreamName

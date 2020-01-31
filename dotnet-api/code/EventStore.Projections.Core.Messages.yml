@@ -10,14 +10,12 @@ items:
   - EventStore.Projections.Core.Messages.CoreProjectionManagementControlMessage
   - EventStore.Projections.Core.Messages.CoreProjectionManagementMessage
   - EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.CreateAndPrepare
-  - EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.CreateAndPrepareSlave
   - EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.CreatePrepared
   - EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.Dispose
   - EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.GetResult
   - EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.GetState
   - EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.Kill
   - EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.LoadStopped
-  - EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
   - EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.Start
   - EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.Stop
   - EventStore.Projections.Core.Messages.CoreProjectionManagementMessageBase
@@ -26,7 +24,6 @@ items:
   - EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.DataReportBase
   - EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Faulted
   - EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Prepared
-  - EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted
   - EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ResultReport
   - EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started
   - EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.StateReport
@@ -41,7 +38,6 @@ items:
   - EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.NotAuthorized
   - EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionDeleted
   - EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionEofReached
-  - EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured
   - EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.ProgressChanged
   - EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.ReaderAssignedReader
   - EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.SubscriptionStarted
@@ -75,7 +71,6 @@ items:
   - EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Reset
   - EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.SetRunAs
   - EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.SetRunAs.SetRemove
-  - EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections
   - EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.UpdateConfig
   - EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.UpdateQuery
   - EventStore.Projections.Core.Messages.ProjectionManagementMessage.Conflict
@@ -92,18 +87,14 @@ items:
   - EventStore.Projections.Core.Messages.ProjectionManagementMessage.ProjectionQuery
   - EventStore.Projections.Core.Messages.ProjectionManagementMessage.ProjectionResult
   - EventStore.Projections.Core.Messages.ProjectionManagementMessage.ProjectionState
-  - EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady
-  - EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection
-  - EventStore.Projections.Core.Messages.ProjectionManagementMessage.RequestSystemProjections
   - EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs
-  - EventStore.Projections.Core.Messages.ProjectionManagementMessage.SlaveProjectionsStarted
-  - EventStore.Projections.Core.Messages.ProjectionManagementMessage.Starting
   - EventStore.Projections.Core.Messages.ProjectionManagementMessage.Statistics
   - EventStore.Projections.Core.Messages.ProjectionManagementMessage.Updated
   - EventStore.Projections.Core.Messages.ProjectionSubsystemMessage
   - EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.ComponentStarted
   - EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.ComponentStopped
   - EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.InvalidSubsystemRestart
+  - EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained
   - EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.RestartSubsystem
   - EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.StartComponents
   - EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.StopComponents
@@ -112,16 +103,12 @@ items:
   - EventStore.Projections.Core.Messages.QuerySourcesDefinitionOptions
   - EventStore.Projections.Core.Messages.QuerySourcesExtensions
   - EventStore.Projections.Core.Messages.ReaderCoreServiceMessage
-  - EventStore.Projections.Core.Messages.ReaderCoreServiceMessage.ReaderTick
   - EventStore.Projections.Core.Messages.ReaderCoreServiceMessage.StartReader
   - EventStore.Projections.Core.Messages.ReaderCoreServiceMessage.StopReader
   - EventStore.Projections.Core.Messages.ReaderSubscriptionManagement
-  - EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.CompleteSpooledStreamReading
   - EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.Pause
   - EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage
   - EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.Resume
-  - EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.SpoolStreamReading
-  - EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.SpoolStreamReadingCore
   - EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.Subscribe
   - EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.Unsubscribe
   - EventStore.Projections.Core.Messages.ReaderSubscriptionMessage
@@ -131,15 +118,9 @@ items:
   - EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderNotAuthorized
   - EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionDeleted
   - EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionEof
-  - EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured
   - EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderStarting
   - EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.Faulted
   - EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.SubscriptionMessage
-  - EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannel
-  - EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels
-  - EventStore.Projections.Core.Messages.SlaveProjectionDefinitions
-  - EventStore.Projections.Core.Messages.SlaveProjectionDefinitions.Definition
-  - EventStore.Projections.Core.Messages.SlaveProjectionDefinitions.SlaveProjectionRequestedNumber
   langs:
   - csharp
   - vb
@@ -203,12 +184,6 @@ references:
   name: CoreProjectionManagementMessage.CreateAndPrepare
   nameWithType: CoreProjectionManagementMessage.CreateAndPrepare
   fullName: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.CreateAndPrepare
-- uid: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.CreateAndPrepareSlave
-  commentId: T:EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.CreateAndPrepareSlave
-  parent: EventStore.Projections.Core.Messages
-  name: CoreProjectionManagementMessage.CreateAndPrepareSlave
-  nameWithType: CoreProjectionManagementMessage.CreateAndPrepareSlave
-  fullName: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.CreateAndPrepareSlave
 - uid: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.CreatePrepared
   commentId: T:EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.CreatePrepared
   parent: EventStore.Projections.Core.Messages
@@ -221,12 +196,6 @@ references:
   name: CoreProjectionManagementMessage.Dispose
   nameWithType: CoreProjectionManagementMessage.Dispose
   fullName: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.Dispose
-- uid: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
-  commentId: T:EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
-  parent: EventStore.Projections.Core.Messages
-  name: CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
-  nameWithType: CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
-  fullName: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.SlaveProjectionReaderAssigned
 - uid: EventStore.Projections.Core.Messages.CoreProjectionManagementMessageBase
   commentId: T:EventStore.Projections.Core.Messages.CoreProjectionManagementMessageBase
   parent: EventStore.Projections.Core.Messages
@@ -303,12 +272,6 @@ references:
   name: CoreProjectionStatusMessage.Prepared
   nameWithType: CoreProjectionStatusMessage.Prepared
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Prepared
-- uid: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted
-  commentId: T:EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted
-  parent: EventStore.Projections.Core.Messages
-  name: CoreProjectionStatusMessage.ProjectionWorkerStarted
-  nameWithType: CoreProjectionStatusMessage.ProjectionWorkerStarted
-  fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ProjectionWorkerStarted
 - uid: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Suspended
   commentId: T:EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Suspended
   parent: EventStore.Projections.Core.Messages
@@ -368,12 +331,6 @@ references:
   name: EventReaderSubscriptionMessage.PartitionEofReached
   nameWithType: EventReaderSubscriptionMessage.PartitionEofReached
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionEofReached
-- uid: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured
-  commentId: T:EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured
-  parent: EventStore.Projections.Core.Messages
-  name: EventReaderSubscriptionMessage.PartitionMeasured
-  nameWithType: EventReaderSubscriptionMessage.PartitionMeasured
-  fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionMeasured
 - uid: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionDeleted
   commentId: T:EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionDeleted
   parent: EventStore.Projections.Core.Messages
@@ -569,12 +526,6 @@ references:
   name: ProjectionManagementMessage.Command.UpdateConfig
   nameWithType: ProjectionManagementMessage.Command.UpdateConfig
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.UpdateConfig
-- uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections
-  commentId: T:EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections
-  parent: EventStore.Projections.Core.Messages
-  name: ProjectionManagementMessage.Command.StartSlaveProjections
-  nameWithType: ProjectionManagementMessage.Command.StartSlaveProjections
-  fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.StartSlaveProjections
 - uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.GetStatistics
   commentId: T:EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.GetStatistics
   parent: EventStore.Projections.Core.Messages
@@ -681,35 +632,6 @@ references:
   name: ProjectionManagementMessage.Internal.Deleted
   nameWithType: ProjectionManagementMessage.Internal.Deleted
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.Deleted
-- uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RequestSystemProjections
-  commentId: T:EventStore.Projections.Core.Messages.ProjectionManagementMessage.RequestSystemProjections
-  name: ProjectionManagementMessage.RequestSystemProjections
-  nameWithType: ProjectionManagementMessage.RequestSystemProjections
-  fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RequestSystemProjections
-- uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection
-  commentId: T:EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection
-  parent: EventStore.Projections.Core.Messages
-  name: ProjectionManagementMessage.RegisterSystemProjection
-  nameWithType: ProjectionManagementMessage.RegisterSystemProjection
-  fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RegisterSystemProjection
-- uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Starting
-  commentId: T:EventStore.Projections.Core.Messages.ProjectionManagementMessage.Starting
-  parent: EventStore.Projections.Core.Messages
-  name: ProjectionManagementMessage.Starting
-  nameWithType: ProjectionManagementMessage.Starting
-  fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Starting
-- uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady
-  commentId: T:EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady
-  parent: EventStore.Projections.Core.Messages
-  name: ProjectionManagementMessage.ReaderReady
-  nameWithType: ProjectionManagementMessage.ReaderReady
-  fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.ReaderReady
-- uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.SlaveProjectionsStarted
-  commentId: T:EventStore.Projections.Core.Messages.ProjectionManagementMessage.SlaveProjectionsStarted
-  parent: EventStore.Projections.Core.Messages
-  name: ProjectionManagementMessage.SlaveProjectionsStarted
-  nameWithType: ProjectionManagementMessage.SlaveProjectionsStarted
-  fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.SlaveProjectionsStarted
 - uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.ProjectionConfig
   commentId: T:EventStore.Projections.Core.Messages.ProjectionManagementMessage.ProjectionConfig
   name: ProjectionManagementMessage.ProjectionConfig
@@ -760,6 +682,12 @@ references:
   name: ProjectionSubsystemMessage.ComponentStopped
   nameWithType: ProjectionSubsystemMessage.ComponentStopped
   fullName: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.ComponentStopped
+- uid: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained
+  commentId: T:EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained
+  parent: EventStore.Projections.Core.Messages
+  name: ProjectionSubsystemMessage.IODispatcherDrained
+  nameWithType: ProjectionSubsystemMessage.IODispatcherDrained
+  fullName: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.IODispatcherDrained
 - uid: EventStore.Projections.Core.Messages.QuerySourcesDefinition
   commentId: T:EventStore.Projections.Core.Messages.QuerySourcesDefinition
   parent: EventStore.Projections.Core.Messages
@@ -789,12 +717,6 @@ references:
   name: ReaderCoreServiceMessage.StopReader
   nameWithType: ReaderCoreServiceMessage.StopReader
   fullName: EventStore.Projections.Core.Messages.ReaderCoreServiceMessage.StopReader
-- uid: EventStore.Projections.Core.Messages.ReaderCoreServiceMessage.ReaderTick
-  commentId: T:EventStore.Projections.Core.Messages.ReaderCoreServiceMessage.ReaderTick
-  parent: EventStore.Projections.Core.Messages
-  name: ReaderCoreServiceMessage.ReaderTick
-  nameWithType: ReaderCoreServiceMessage.ReaderTick
-  fullName: EventStore.Projections.Core.Messages.ReaderCoreServiceMessage.ReaderTick
 - uid: EventStore.Projections.Core.Messages.ReaderSubscriptionManagement
   commentId: T:EventStore.Projections.Core.Messages.ReaderSubscriptionManagement
   name: ReaderSubscriptionManagement
@@ -830,24 +752,6 @@ references:
   name: ReaderSubscriptionManagement.Unsubscribe
   nameWithType: ReaderSubscriptionManagement.Unsubscribe
   fullName: EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.Unsubscribe
-- uid: EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.SpoolStreamReading
-  commentId: T:EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.SpoolStreamReading
-  parent: EventStore.Projections.Core.Messages
-  name: ReaderSubscriptionManagement.SpoolStreamReading
-  nameWithType: ReaderSubscriptionManagement.SpoolStreamReading
-  fullName: EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.SpoolStreamReading
-- uid: EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.CompleteSpooledStreamReading
-  commentId: T:EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.CompleteSpooledStreamReading
-  parent: EventStore.Projections.Core.Messages
-  name: ReaderSubscriptionManagement.CompleteSpooledStreamReading
-  nameWithType: ReaderSubscriptionManagement.CompleteSpooledStreamReading
-  fullName: EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.CompleteSpooledStreamReading
-- uid: EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.SpoolStreamReadingCore
-  commentId: T:EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.SpoolStreamReadingCore
-  parent: EventStore.Projections.Core.Messages
-  name: ReaderSubscriptionManagement.SpoolStreamReadingCore
-  nameWithType: ReaderSubscriptionManagement.SpoolStreamReadingCore
-  fullName: EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.SpoolStreamReadingCore
 - uid: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage
   commentId: T:EventStore.Projections.Core.Messages.ReaderSubscriptionMessage
   name: ReaderSubscriptionMessage
@@ -889,12 +793,6 @@ references:
   name: ReaderSubscriptionMessage.EventReaderPartitionDeleted
   nameWithType: ReaderSubscriptionMessage.EventReaderPartitionDeleted
   fullName: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionDeleted
-- uid: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured
-  commentId: T:EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured
-  parent: EventStore.Projections.Core.Messages
-  name: ReaderSubscriptionMessage.EventReaderPartitionMeasured
-  nameWithType: ReaderSubscriptionMessage.EventReaderPartitionMeasured
-  fullName: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionMeasured
 - uid: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderNotAuthorized
   commentId: T:EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderNotAuthorized
   parent: EventStore.Projections.Core.Messages
@@ -913,34 +811,6 @@ references:
   name: ReaderSubscriptionMessage.Faulted
   nameWithType: ReaderSubscriptionMessage.Faulted
   fullName: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.Faulted
-- uid: EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannel
-  commentId: T:EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannel
-  name: SlaveProjectionCommunicationChannel
-  nameWithType: SlaveProjectionCommunicationChannel
-  fullName: EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannel
-- uid: EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels
-  commentId: T:EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels
-  parent: EventStore.Projections.Core.Messages
-  name: SlaveProjectionCommunicationChannels
-  nameWithType: SlaveProjectionCommunicationChannels
-  fullName: EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels
-- uid: EventStore.Projections.Core.Messages.SlaveProjectionDefinitions
-  commentId: T:EventStore.Projections.Core.Messages.SlaveProjectionDefinitions
-  parent: EventStore.Projections.Core.Messages
-  name: SlaveProjectionDefinitions
-  nameWithType: SlaveProjectionDefinitions
-  fullName: EventStore.Projections.Core.Messages.SlaveProjectionDefinitions
-- uid: EventStore.Projections.Core.Messages.SlaveProjectionDefinitions.SlaveProjectionRequestedNumber
-  commentId: T:EventStore.Projections.Core.Messages.SlaveProjectionDefinitions.SlaveProjectionRequestedNumber
-  parent: EventStore.Projections.Core.Messages
-  name: SlaveProjectionDefinitions.SlaveProjectionRequestedNumber
-  nameWithType: SlaveProjectionDefinitions.SlaveProjectionRequestedNumber
-  fullName: EventStore.Projections.Core.Messages.SlaveProjectionDefinitions.SlaveProjectionRequestedNumber
-- uid: EventStore.Projections.Core.Messages.SlaveProjectionDefinitions.Definition
-  commentId: T:EventStore.Projections.Core.Messages.SlaveProjectionDefinitions.Definition
-  name: SlaveProjectionDefinitions.Definition
-  nameWithType: SlaveProjectionDefinitions.Definition
-  fullName: EventStore.Projections.Core.Messages.SlaveProjectionDefinitions.Definition
 - uid: EventStore.Projections.Core.Messages
   commentId: N:EventStore.Projections.Core.Messages
   name: EventStore.Projections.Core.Messages

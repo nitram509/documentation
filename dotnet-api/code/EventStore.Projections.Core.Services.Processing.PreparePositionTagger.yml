@@ -31,6 +31,7 @@ items:
     content: 'public class PreparePositionTagger : PositionTagger'
     content.vb: >-
       Public Class PreparePositionTagger
+
           Inherits PositionTagger
   inheritance:
   - System.Object
@@ -322,6 +323,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -338,12 +341,20 @@ references:
   name: Phase
   nameWithType: PositionTagger.Phase
   fullName: EventStore.Projections.Core.Services.Processing.PositionTagger.Phase
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.PreparePositionTagger.#ctor*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.PreparePositionTagger.#ctor
   name: PreparePositionTagger
   nameWithType: PreparePositionTagger.PreparePositionTagger
   fullName: EventStore.Projections.Core.Services.Processing.PreparePositionTagger.PreparePositionTagger
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -416,6 +427,8 @@ references:
   nameWithType: ReaderSubscriptionMessage.CommittedEventDistributed
   fullName: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.CommittedEventDistributed
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

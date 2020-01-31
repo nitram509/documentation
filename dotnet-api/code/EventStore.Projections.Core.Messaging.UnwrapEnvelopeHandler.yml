@@ -24,7 +24,9 @@ items:
     content: 'public class UnwrapEnvelopeHandler : object, IHandle<UnwrapEnvelopeMessage>'
     content.vb: >-
       Public Class UnwrapEnvelopeHandler
+
           Inherits Object
+
           Implements IHandle(Of UnwrapEnvelopeMessage)
   inheritance:
   - System.Object
@@ -74,6 +76,8 @@ references:
   nameWithType: EventStore.Projections.Core.Messaging
   fullName: EventStore.Projections.Core.Messaging
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -118,6 +122,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Bus.IHandle`1
   commentId: T:EventStore.Core.Bus.IHandle`1
   name: IHandle<T>

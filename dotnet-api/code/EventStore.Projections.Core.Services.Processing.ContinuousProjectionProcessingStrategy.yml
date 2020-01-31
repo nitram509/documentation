@@ -8,9 +8,7 @@ items:
   - EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.#ctor(System.String,EventStore.Projections.Core.Services.Processing.ProjectionVersion,EventStore.Projections.Core.Services.IProjectionStateHandler,EventStore.Projections.Core.Services.ProjectionConfig,EventStore.Projections.Core.Messages.IQuerySources,EventStore.Common.Log.ILogger,EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher)
   - EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.CreateFirstPhaseResultEmitter(EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder)
   - EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.CreateProjectionProcessingPhases(EventStore.Core.Bus.IPublisher,EventStore.Core.Bus.IPublisher,Guid,EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder,EventStore.Projections.Core.Services.Processing.PartitionStateCache,EventStore.Projections.Core.Services.Processing.CoreProjection,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.Processing.IProjectionProcessingPhase)
-  - EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.GetIsSlaveProjection
   - EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.GetProducesRunningResults
-  - EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.GetSlaveProjections
   - EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.GetStopOnEof
   - EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.GetUseCheckpoints
   langs:
@@ -31,6 +29,7 @@ items:
     content: 'public class ContinuousProjectionProcessingStrategy : DefaultProjectionProcessingStrategy'
     content.vb: >-
       Public Class ContinuousProjectionProcessingStrategy
+
           Inherits DefaultProjectionProcessingStrategy
   inheritance:
   - System.Object
@@ -193,68 +192,6 @@ items:
   modifiers.vb:
   - Public
   - Overrides
-- uid: EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.GetIsSlaveProjection
-  commentId: M:EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.GetIsSlaveProjection
-  id: GetIsSlaveProjection
-  parent: EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy
-  langs:
-  - csharp
-  - vb
-  name: GetIsSlaveProjection()
-  nameWithType: ContinuousProjectionProcessingStrategy.GetIsSlaveProjection()
-  fullName: EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.GetIsSlaveProjection()
-  type: Method
-  source:
-    id: GetIsSlaveProjection
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ContinuousProjectionProcessingStrategy.cs
-    startLine: 29
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Processing
-  syntax:
-    content: public override bool GetIsSlaveProjection()
-    return:
-      type: System.Boolean
-    content.vb: Public Overrides Function GetIsSlaveProjection As Boolean
-  overridden: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetIsSlaveProjection
-  overload: EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.GetIsSlaveProjection*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
-- uid: EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.GetSlaveProjections
-  commentId: M:EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.GetSlaveProjections
-  id: GetSlaveProjections
-  parent: EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy
-  langs:
-  - csharp
-  - vb
-  name: GetSlaveProjections()
-  nameWithType: ContinuousProjectionProcessingStrategy.GetSlaveProjections()
-  fullName: EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.GetSlaveProjections()
-  type: Method
-  source:
-    id: GetSlaveProjections
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ContinuousProjectionProcessingStrategy.cs
-    startLine: 33
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Processing
-  syntax:
-    content: public override SlaveProjectionDefinitions GetSlaveProjections()
-    return:
-      type: EventStore.Projections.Core.Messages.SlaveProjectionDefinitions
-    content.vb: Public Overrides Function GetSlaveProjections As SlaveProjectionDefinitions
-  overridden: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetSlaveProjections
-  overload: EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.GetSlaveProjections*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.CreateProjectionProcessingPhases(EventStore.Core.Bus.IPublisher,EventStore.Core.Bus.IPublisher,Guid,EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder,EventStore.Projections.Core.Services.Processing.PartitionStateCache,EventStore.Projections.Core.Services.Processing.CoreProjection,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.Processing.IProjectionProcessingPhase)
   commentId: M:EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.CreateProjectionProcessingPhases(EventStore.Core.Bus.IPublisher,EventStore.Core.Bus.IPublisher,Guid,EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder,EventStore.Projections.Core.Services.Processing.PartitionStateCache,EventStore.Projections.Core.Services.Processing.CoreProjection,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.Processing.IProjectionProcessingPhase)
   id: CreateProjectionProcessingPhases(EventStore.Core.Bus.IPublisher,EventStore.Core.Bus.IPublisher,Guid,EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder,EventStore.Projections.Core.Services.Processing.PartitionStateCache,EventStore.Projections.Core.Services.Processing.CoreProjection,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.Processing.IProjectionProcessingPhase)
@@ -269,7 +206,7 @@ items:
   source:
     id: CreateProjectionProcessingPhases
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ContinuousProjectionProcessingStrategy.cs
-    startLine: 37
+    startLine: 29
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -317,7 +254,7 @@ items:
   source:
     id: CreateFirstPhaseResultEmitter
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ContinuousProjectionProcessingStrategy.cs
-    startLine: 49
+    startLine: 41
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -344,6 +281,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -1244,12 +1183,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.#ctor*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.#ctor
   name: ContinuousProjectionProcessingStrategy
   nameWithType: ContinuousProjectionProcessingStrategy.ContinuousProjectionProcessingStrategy
   fullName: EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.ContinuousProjectionProcessingStrategy
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -1339,6 +1286,8 @@ references:
   nameWithType: ContinuousProjectionProcessingStrategy.GetStopOnEof
   fullName: EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.GetStopOnEof
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -1409,78 +1358,6 @@ references:
   name: GetProducesRunningResults
   nameWithType: ContinuousProjectionProcessingStrategy.GetProducesRunningResults
   fullName: EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.GetProducesRunningResults
-- uid: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetIsSlaveProjection
-  commentId: M:EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetIsSlaveProjection
-  parent: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy
-  name: GetIsSlaveProjection()
-  nameWithType: ProjectionProcessingStrategy.GetIsSlaveProjection()
-  fullName: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetIsSlaveProjection()
-  spec.csharp:
-  - uid: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetIsSlaveProjection
-    name: GetIsSlaveProjection
-    nameWithType: ProjectionProcessingStrategy.GetIsSlaveProjection
-    fullName: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetIsSlaveProjection
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetIsSlaveProjection
-    name: GetIsSlaveProjection
-    nameWithType: ProjectionProcessingStrategy.GetIsSlaveProjection
-    fullName: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetIsSlaveProjection
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.GetIsSlaveProjection*
-  commentId: Overload:EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.GetIsSlaveProjection
-  name: GetIsSlaveProjection
-  nameWithType: ContinuousProjectionProcessingStrategy.GetIsSlaveProjection
-  fullName: EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.GetIsSlaveProjection
-- uid: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetSlaveProjections
-  commentId: M:EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetSlaveProjections
-  parent: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy
-  name: GetSlaveProjections()
-  nameWithType: ProjectionProcessingStrategy.GetSlaveProjections()
-  fullName: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetSlaveProjections()
-  spec.csharp:
-  - uid: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetSlaveProjections
-    name: GetSlaveProjections
-    nameWithType: ProjectionProcessingStrategy.GetSlaveProjections
-    fullName: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetSlaveProjections
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetSlaveProjections
-    name: GetSlaveProjections
-    nameWithType: ProjectionProcessingStrategy.GetSlaveProjections
-    fullName: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetSlaveProjections
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.GetSlaveProjections*
-  commentId: Overload:EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.GetSlaveProjections
-  name: GetSlaveProjections
-  nameWithType: ContinuousProjectionProcessingStrategy.GetSlaveProjections
-  fullName: EventStore.Projections.Core.Services.Processing.ContinuousProjectionProcessingStrategy.GetSlaveProjections
-- uid: EventStore.Projections.Core.Messages.SlaveProjectionDefinitions
-  commentId: T:EventStore.Projections.Core.Messages.SlaveProjectionDefinitions
-  parent: EventStore.Projections.Core.Messages
-  name: SlaveProjectionDefinitions
-  nameWithType: SlaveProjectionDefinitions
-  fullName: EventStore.Projections.Core.Messages.SlaveProjectionDefinitions
 - uid: EventStore.Projections.Core.Services.Processing.EventReaderBasedProjectionProcessingStrategy.CreateProjectionProcessingPhases(EventStore.Core.Bus.IPublisher,EventStore.Core.Bus.IPublisher,Guid,EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder,EventStore.Projections.Core.Services.Processing.PartitionStateCache,EventStore.Projections.Core.Services.Processing.CoreProjection,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.Processing.IProjectionProcessingPhase)
   commentId: M:EventStore.Projections.Core.Services.Processing.EventReaderBasedProjectionProcessingStrategy.CreateProjectionProcessingPhases(EventStore.Core.Bus.IPublisher,EventStore.Core.Bus.IPublisher,Guid,EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder,EventStore.Projections.Core.Services.Processing.PartitionStateCache,EventStore.Projections.Core.Services.Processing.CoreProjection,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.Processing.IProjectionProcessingPhase)
   parent: EventStore.Projections.Core.Services.Processing.EventReaderBasedProjectionProcessingStrategy

@@ -25,7 +25,9 @@ items:
     content: 'public class DefaultV8ProjectionStateHandler : V8ProjectionStateHandler, IProjectionStateHandler, IDisposable, ISourceDefinitionSource'
     content.vb: >-
       Public Class DefaultV8ProjectionStateHandler
+
           Inherits V8ProjectionStateHandler
+
           Implements IProjectionStateHandler, IDisposable, ISourceDefinitionSource
   inheritance:
   - System.Object
@@ -40,7 +42,6 @@ items:
   - EventStore.Projections.Core.Services.v8.V8ProjectionStateHandler.Initialize
   - EventStore.Projections.Core.Services.v8.V8ProjectionStateHandler.InitializeShared
   - EventStore.Projections.Core.Services.v8.V8ProjectionStateHandler.GetStatePartition(EventStore.Projections.Core.Services.Processing.CheckpointTag,System.String,EventStore.Projections.Core.Services.Processing.ResolvedEvent)
-  - EventStore.Projections.Core.Services.v8.V8ProjectionStateHandler.TransformCatalogEvent(EventStore.Projections.Core.Services.Processing.CheckpointTag,EventStore.Projections.Core.Services.Processing.ResolvedEvent)
   - EventStore.Projections.Core.Services.v8.V8ProjectionStateHandler.ProcessEvent(System.String,EventStore.Projections.Core.Services.Processing.CheckpointTag,System.String,EventStore.Projections.Core.Services.Processing.ResolvedEvent,System.String@,System.String@,EventStore.Projections.Core.Services.Processing.EmittedEventEnvelope[]@)
   - EventStore.Projections.Core.Services.v8.V8ProjectionStateHandler.ProcessPartitionCreated(System.String,EventStore.Projections.Core.Services.Processing.CheckpointTag,EventStore.Projections.Core.Services.Processing.ResolvedEvent,EventStore.Projections.Core.Services.Processing.EmittedEventEnvelope[]@)
   - EventStore.Projections.Core.Services.v8.V8ProjectionStateHandler.ProcessPartitionDeleted(System.String,EventStore.Projections.Core.Services.Processing.CheckpointTag,System.String@)
@@ -129,6 +130,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.v8
   fullName: EventStore.Projections.Core.Services.v8
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -347,56 +350,6 @@ references:
     nameWithType: String
     fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: EventStore.Projections.Core.Services.Processing.ResolvedEvent
-    name: ResolvedEvent
-    nameWithType: ResolvedEvent
-    fullName: EventStore.Projections.Core.Services.Processing.ResolvedEvent
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: EventStore.Projections.Core.Services.v8.V8ProjectionStateHandler.TransformCatalogEvent(EventStore.Projections.Core.Services.Processing.CheckpointTag,EventStore.Projections.Core.Services.Processing.ResolvedEvent)
-  commentId: M:EventStore.Projections.Core.Services.v8.V8ProjectionStateHandler.TransformCatalogEvent(EventStore.Projections.Core.Services.Processing.CheckpointTag,EventStore.Projections.Core.Services.Processing.ResolvedEvent)
-  parent: EventStore.Projections.Core.Services.v8.V8ProjectionStateHandler
-  name: TransformCatalogEvent(CheckpointTag, ResolvedEvent)
-  nameWithType: V8ProjectionStateHandler.TransformCatalogEvent(CheckpointTag, ResolvedEvent)
-  fullName: EventStore.Projections.Core.Services.v8.V8ProjectionStateHandler.TransformCatalogEvent(EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Services.Processing.ResolvedEvent)
-  spec.csharp:
-  - uid: EventStore.Projections.Core.Services.v8.V8ProjectionStateHandler.TransformCatalogEvent(EventStore.Projections.Core.Services.Processing.CheckpointTag,EventStore.Projections.Core.Services.Processing.ResolvedEvent)
-    name: TransformCatalogEvent
-    nameWithType: V8ProjectionStateHandler.TransformCatalogEvent
-    fullName: EventStore.Projections.Core.Services.v8.V8ProjectionStateHandler.TransformCatalogEvent
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventStore.Projections.Core.Services.Processing.CheckpointTag
-    name: CheckpointTag
-    nameWithType: CheckpointTag
-    fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: EventStore.Projections.Core.Services.Processing.ResolvedEvent
-    name: ResolvedEvent
-    nameWithType: ResolvedEvent
-    fullName: EventStore.Projections.Core.Services.Processing.ResolvedEvent
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EventStore.Projections.Core.Services.v8.V8ProjectionStateHandler.TransformCatalogEvent(EventStore.Projections.Core.Services.Processing.CheckpointTag,EventStore.Projections.Core.Services.Processing.ResolvedEvent)
-    name: TransformCatalogEvent
-    nameWithType: V8ProjectionStateHandler.TransformCatalogEvent
-    fullName: EventStore.Projections.Core.Services.v8.V8ProjectionStateHandler.TransformCatalogEvent
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventStore.Projections.Core.Services.Processing.CheckpointTag
-    name: CheckpointTag
-    nameWithType: CheckpointTag
-    fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag
   - name: ', '
     nameWithType: ', '
     fullName: ', '
@@ -788,6 +741,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services
   commentId: N:EventStore.Projections.Core.Services
   name: EventStore.Projections.Core.Services
@@ -799,6 +758,8 @@ references:
   nameWithType: DefaultV8ProjectionStateHandler.DefaultV8ProjectionStateHandler
   fullName: EventStore.Projections.Core.Services.v8.DefaultV8ProjectionStateHandler.DefaultV8ProjectionStateHandler
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

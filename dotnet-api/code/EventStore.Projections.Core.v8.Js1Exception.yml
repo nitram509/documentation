@@ -25,6 +25,7 @@ items:
     content: 'public class Js1Exception : Exception'
     content.vb: >-
       Public Class Js1Exception
+
           Inherits Exception
   inheritance:
   - System.Object
@@ -103,21 +104,33 @@ references:
   nameWithType: EventStore.Projections.Core.v8
   fullName: EventStore.Projections.Core.v8
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.v8.Js1Exception.#ctor*
   commentId: Overload:EventStore.Projections.Core.v8.Js1Exception.#ctor
   name: Js1Exception
   nameWithType: Js1Exception.Js1Exception
   fullName: EventStore.Projections.Core.v8.Js1Exception.Js1Exception
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

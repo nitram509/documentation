@@ -35,8 +35,8 @@ items:
   summary: "\nRepresents the reason subscription drop happened\n"
   example: []
   syntax:
-    content: 'public enum SubscriptionDropReason : int'
-    content.vb: Public Enum SubscriptionDropReason As Integer
+    content: public enum SubscriptionDropReason
+    content.vb: Public Enum SubscriptionDropReason
   extensionMethods:
   - EventStore.ClientAPI.SubscriptionDropReason.EventStore.Projections.Core.Utils.EnumExtensions.EnumValueName``1
   modifiers.csharp:
@@ -396,10 +396,9 @@ items:
   summary: "\nSubscription was dropped for an unknown reason.\n"
   example: []
   syntax:
-    content: Unknown = null
+    content: Unknown = 100
     return:
       type: EventStore.ClientAPI.SubscriptionDropReason
-    content.vb: Unknown = Nothing
   modifiers.csharp:
   - public
   - const
@@ -427,10 +426,9 @@ items:
   summary: "\nTarget of persistent subscription was not found. Needs to be created first\n"
   example: []
   syntax:
-    content: NotFound = null
+    content: NotFound = 101
     return:
       type: EventStore.ClientAPI.SubscriptionDropReason
-    content.vb: NotFound = Nothing
   modifiers.csharp:
   - public
   - const

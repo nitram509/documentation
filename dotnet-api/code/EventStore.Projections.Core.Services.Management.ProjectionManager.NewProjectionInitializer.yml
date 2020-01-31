@@ -6,7 +6,7 @@ items:
   parent: EventStore.Projections.Core.Services.Management
   children:
   - EventStore.Projections.Core.Services.Management.ProjectionManager.NewProjectionInitializer.#ctor(System.Int64,System.String,EventStore.Projections.Core.Services.ProjectionMode,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs,EventStore.Core.Messaging.IEnvelope)
-  - EventStore.Projections.Core.Services.Management.ProjectionManager.NewProjectionInitializer.CreateAndInitializeNewProjection(EventStore.Projections.Core.Services.Management.ProjectionManager,Guid,Guid,System.Boolean,Guid,Guid,System.Nullable{System.Int64})
+  - EventStore.Projections.Core.Services.Management.ProjectionManager.NewProjectionInitializer.CreateAndInitializeNewProjection(EventStore.Projections.Core.Services.Management.ProjectionManager,Guid,Guid,System.Nullable{System.Int64})
   langs:
   - csharp
   - vb
@@ -17,7 +17,7 @@ items:
   source:
     id: NewProjectionInitializer
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 1149
+    startLine: 1107
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -25,6 +25,7 @@ items:
     content: 'public class NewProjectionInitializer : object'
     content.vb: >-
       Public Class NewProjectionInitializer
+
           Inherits Object
   inheritance:
   - System.Object
@@ -48,7 +49,7 @@ items:
   source:
     id: .ctor
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 1163
+    startLine: 1121
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -85,26 +86,26 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: EventStore.Projections.Core.Services.Management.ProjectionManager.NewProjectionInitializer.CreateAndInitializeNewProjection(EventStore.Projections.Core.Services.Management.ProjectionManager,Guid,Guid,System.Boolean,Guid,Guid,System.Nullable{System.Int64})
-  commentId: M:EventStore.Projections.Core.Services.Management.ProjectionManager.NewProjectionInitializer.CreateAndInitializeNewProjection(EventStore.Projections.Core.Services.Management.ProjectionManager,Guid,Guid,System.Boolean,Guid,Guid,System.Nullable{System.Int64})
-  id: CreateAndInitializeNewProjection(EventStore.Projections.Core.Services.Management.ProjectionManager,Guid,Guid,System.Boolean,Guid,Guid,System.Nullable{System.Int64})
+- uid: EventStore.Projections.Core.Services.Management.ProjectionManager.NewProjectionInitializer.CreateAndInitializeNewProjection(EventStore.Projections.Core.Services.Management.ProjectionManager,Guid,Guid,System.Nullable{System.Int64})
+  commentId: M:EventStore.Projections.Core.Services.Management.ProjectionManager.NewProjectionInitializer.CreateAndInitializeNewProjection(EventStore.Projections.Core.Services.Management.ProjectionManager,Guid,Guid,System.Nullable{System.Int64})
+  id: CreateAndInitializeNewProjection(EventStore.Projections.Core.Services.Management.ProjectionManager,Guid,Guid,System.Nullable{System.Int64})
   parent: EventStore.Projections.Core.Services.Management.ProjectionManager.NewProjectionInitializer
   langs:
   - csharp
   - vb
-  name: CreateAndInitializeNewProjection(ProjectionManager, Guid, Guid, Boolean, Guid, Guid, Nullable<Int64>)
-  nameWithType: ProjectionManager.NewProjectionInitializer.CreateAndInitializeNewProjection(ProjectionManager, Guid, Guid, Boolean, Guid, Guid, Nullable<Int64>)
-  fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.NewProjectionInitializer.CreateAndInitializeNewProjection(EventStore.Projections.Core.Services.Management.ProjectionManager, Guid, Guid, System.Boolean, Guid, Guid, System.Nullable<System.Int64>)
+  name: CreateAndInitializeNewProjection(ProjectionManager, Guid, Guid, Nullable<Int64>)
+  nameWithType: ProjectionManager.NewProjectionInitializer.CreateAndInitializeNewProjection(ProjectionManager, Guid, Guid, Nullable<Int64>)
+  fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.NewProjectionInitializer.CreateAndInitializeNewProjection(EventStore.Projections.Core.Services.Management.ProjectionManager, Guid, Guid, System.Nullable<System.Int64>)
   type: Method
   source:
     id: CreateAndInitializeNewProjection
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-    startLine: 1196
+    startLine: 1154
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
   syntax:
-    content: public void CreateAndInitializeNewProjection(ProjectionManager projectionManager, Guid projectionCorrelationId, Guid workerId, bool isSlave = false, Guid slaveMasterWorkerId = null, Guid slaveMasterCorrelationId = null, long? version = null)
+    content: public void CreateAndInitializeNewProjection(ProjectionManager projectionManager, Guid projectionCorrelationId, Guid workerId, long? version = null)
     parameters:
     - id: projectionManager
       type: EventStore.Projections.Core.Services.Management.ProjectionManager
@@ -112,23 +113,17 @@ items:
       type: Guid
     - id: workerId
       type: Guid
-    - id: isSlave
-      type: System.Boolean
-    - id: slaveMasterWorkerId
-      type: Guid
-    - id: slaveMasterCorrelationId
-      type: Guid
     - id: version
       type: System.Nullable{System.Int64}
-    content.vb: Public Sub CreateAndInitializeNewProjection(projectionManager As ProjectionManager, projectionCorrelationId As Guid, workerId As Guid, isSlave As Boolean = False, slaveMasterWorkerId As Guid = Nothing, slaveMasterCorrelationId As Guid = Nothing, version As Long? = Nothing)
+    content.vb: Public Sub CreateAndInitializeNewProjection(projectionManager As ProjectionManager, projectionCorrelationId As Guid, workerId As Guid, version As Long? = Nothing)
   overload: EventStore.Projections.Core.Services.Management.ProjectionManager.NewProjectionInitializer.CreateAndInitializeNewProjection*
-  nameWithType.vb: ProjectionManager.NewProjectionInitializer.CreateAndInitializeNewProjection(ProjectionManager, Guid, Guid, Boolean, Guid, Guid, Nullable(Of Int64))
+  nameWithType.vb: ProjectionManager.NewProjectionInitializer.CreateAndInitializeNewProjection(ProjectionManager, Guid, Guid, Nullable(Of Int64))
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: EventStore.Projections.Core.Services.Management.ProjectionManager.NewProjectionInitializer.CreateAndInitializeNewProjection(EventStore.Projections.Core.Services.Management.ProjectionManager, Guid, Guid, System.Boolean, Guid, Guid, System.Nullable(Of System.Int64))
-  name.vb: CreateAndInitializeNewProjection(ProjectionManager, Guid, Guid, Boolean, Guid, Guid, Nullable(Of Int64))
+  fullName.vb: EventStore.Projections.Core.Services.Management.ProjectionManager.NewProjectionInitializer.CreateAndInitializeNewProjection(EventStore.Projections.Core.Services.Management.ProjectionManager, Guid, Guid, System.Nullable(Of System.Int64))
+  name.vb: CreateAndInitializeNewProjection(ProjectionManager, Guid, Guid, Nullable(Of Int64))
 references:
 - uid: EventStore.Projections.Core.Services.Management
   commentId: N:EventStore.Projections.Core.Services.Management
@@ -136,21 +131,33 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Management
   fullName: EventStore.Projections.Core.Services.Management
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Management.ProjectionManager.NewProjectionInitializer.#ctor*
   commentId: Overload:EventStore.Projections.Core.Services.Management.ProjectionManager.NewProjectionInitializer.#ctor
   name: NewProjectionInitializer
   nameWithType: ProjectionManager.NewProjectionInitializer.NewProjectionInitializer
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.NewProjectionInitializer.NewProjectionInitializer
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -162,6 +169,8 @@ references:
   nameWithType: ProjectionMode
   fullName: EventStore.Projections.Core.Services.ProjectionMode
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -210,7 +219,8 @@ references:
   nameWithType: Guid
   fullName: Guid
 - uid: System.Nullable{System.Int64}
-  commentId: '!:System.Nullable{System.Int64}'
+  commentId: T:System.Nullable{System.Int64}
+  parent: System
   definition: System.Nullable`1
   name: Nullable<Int64>
   nameWithType: Nullable<Int64>
@@ -253,13 +263,14 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Nullable`1
+  commentId: T:System.Nullable`1
   isExternal: true
-  name: Nullable<>
-  nameWithType: Nullable<>
-  fullName: System.Nullable<>
-  nameWithType.vb: Nullable(Of )
-  fullName.vb: System.Nullable(Of )
-  name.vb: Nullable(Of )
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
@@ -269,9 +280,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -284,9 +295,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )

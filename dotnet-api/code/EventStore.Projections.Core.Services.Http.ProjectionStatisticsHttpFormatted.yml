@@ -50,6 +50,7 @@ items:
     content: 'public class ProjectionStatisticsHttpFormatted : object'
     content.vb: >-
       Public Class ProjectionStatisticsHttpFormatted
+
           Inherits Object
   inheritance:
   - System.Object
@@ -906,10 +907,18 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Http
   fullName: EventStore.Projections.Core.Services.Http
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.#ctor*
   commentId: Overload:EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.#ctor
   name: ProjectionStatisticsHttpFormatted
@@ -1041,6 +1050,8 @@ references:
   nameWithType: ProjectionStatisticsHttpFormatted.CoreProcessingTime
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.CoreProcessingTime
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
@@ -1061,6 +1072,8 @@ references:
   nameWithType: ProjectionStatisticsHttpFormatted.EffectiveName
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.EffectiveName
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -1071,6 +1084,8 @@ references:
   nameWithType: ProjectionStatisticsHttpFormatted.WritesInProgress
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.WritesInProgress
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -1122,6 +1137,8 @@ references:
   nameWithType: ProjectionStatisticsHttpFormatted.Progress
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.Progress
 - uid: System.Single
+  commentId: T:System.Single
+  parent: System
   isExternal: true
   name: Single
   nameWithType: Single

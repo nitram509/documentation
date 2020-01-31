@@ -29,7 +29,6 @@ items:
   - EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase._useCheckpoints
   - EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase._zeroCheckpointTag
   - EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.AdjustTag(EventStore.Projections.Core.Services.Processing.CheckpointTag)
-  - EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.AssignSlaves(EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels)
   - EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.BeginGetPartitionStateAt(System.String,EventStore.Projections.Core.Services.Processing.CheckpointTag,Action{EventStore.Projections.Core.Services.Processing.PartitionState},System.Boolean)
   - EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.CheckpointManager
   - EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.Complete
@@ -92,13 +91,14 @@ items:
     content: 'public abstract class EventSubscriptionBasedProjectionProcessingPhase : object, IProjectionPhaseCompleter, IProjectionPhaseCheckpointManager, IHandle<EventReaderSubscriptionMessage.ProgressChanged>, IHandle<EventReaderSubscriptionMessage.SubscriptionStarted>, IHandle<EventReaderSubscriptionMessage.NotAuthorized>, IHandle<EventReaderSubscriptionMessage.EofReached>, IHandle<EventReaderSubscriptionMessage.CheckpointSuggested>, IHandle<EventReaderSubscriptionMessage.ReaderAssignedReader>, IHandle<EventReaderSubscriptionMessage.Failed>, IProjectionProcessingPhase, IDisposable, IHandle<CoreProjectionManagementMessage.GetState>, IHandle<CoreProjectionManagementMessage.GetResult>, IHandle<CoreProjectionProcessingMessage.PrerecordedEventsLoaded>, IProjectionPhaseStateManager'
     content.vb: >-
       Public MustInherit Class EventSubscriptionBasedProjectionProcessingPhase
+
           Inherits Object
+
           Implements IProjectionPhaseCompleter, IProjectionPhaseCheckpointManager, IHandle(Of EventReaderSubscriptionMessage.ProgressChanged), IHandle(Of EventReaderSubscriptionMessage.SubscriptionStarted), IHandle(Of EventReaderSubscriptionMessage.NotAuthorized), IHandle(Of EventReaderSubscriptionMessage.EofReached), IHandle(Of EventReaderSubscriptionMessage.CheckpointSuggested), IHandle(Of EventReaderSubscriptionMessage.ReaderAssignedReader), IHandle(Of EventReaderSubscriptionMessage.Failed), IProjectionProcessingPhase, IDisposable, IHandle(Of CoreProjectionManagementMessage.GetState), IHandle(Of CoreProjectionManagementMessage.GetResult), IHandle(Of CoreProjectionProcessingMessage.PrerecordedEventsLoaded), IProjectionPhaseStateManager
   inheritance:
   - System.Object
   derivedClasses:
   - EventStore.Projections.Core.Services.Processing.EventProcessingProjectionProcessingPhase
-  - EventStore.Projections.Core.Services.Processing.ParallelQueryMasterProjectionProcessingPhase
   implements:
   - EventStore.Projections.Core.Services.Processing.IProjectionPhaseCompleter
   - EventStore.Projections.Core.Services.Processing.IProjectionPhaseCheckpointManager
@@ -1005,39 +1005,6 @@ items:
   - protected
   modifiers.vb:
   - Protected
-- uid: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.AssignSlaves(EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels)
-  commentId: M:EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.AssignSlaves(EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels)
-  id: AssignSlaves(EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels)
-  parent: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase
-  langs:
-  - csharp
-  - vb
-  name: AssignSlaves(SlaveProjectionCommunicationChannels)
-  nameWithType: EventSubscriptionBasedProjectionProcessingPhase.AssignSlaves(SlaveProjectionCommunicationChannels)
-  fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.AssignSlaves(EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels)
-  type: Method
-  source:
-    id: AssignSlaves
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 126
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services.Processing
-  syntax:
-    content: public virtual void AssignSlaves(SlaveProjectionCommunicationChannels slaveProjections)
-    parameters:
-    - id: slaveProjections
-      type: EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels
-    content.vb: Public Overridable Sub AssignSlaves(slaveProjections As SlaveProjectionCommunicationChannels)
-  overload: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.AssignSlaves*
-  implements:
-  - EventStore.Projections.Core.Services.Processing.IProjectionProcessingPhase.AssignSlaves(EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels)
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.ProcessEvent
   commentId: M:EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.ProcessEvent
   id: ProcessEvent
@@ -1052,7 +1019,7 @@ items:
   source:
     id: ProcessEvent
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 130
+    startLine: 126
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1080,7 +1047,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 156
+    startLine: 152
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1111,7 +1078,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 170
+    startLine: 166
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1142,7 +1109,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 181
+    startLine: 177
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1173,7 +1140,7 @@ items:
   source:
     id: Unsubscribed
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 194
+    startLine: 190
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1199,7 +1166,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 200
+    startLine: 196
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1230,7 +1197,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 214
+    startLine: 210
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1261,7 +1228,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 233
+    startLine: 229
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1292,7 +1259,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 248
+    startLine: 244
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1323,7 +1290,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 263
+    startLine: 259
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1354,7 +1321,7 @@ items:
   source:
     id: UnsubscribeFromPreRecordedOrderEvents
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 267
+    startLine: 263
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1380,7 +1347,7 @@ items:
   source:
     id: Subscribed
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 273
+    startLine: 269
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1409,7 +1376,7 @@ items:
   source:
     id: GetSubscriptionOptions
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 277
+    startLine: 273
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1437,7 +1404,7 @@ items:
   source:
     id: SubscribeReaders
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 284
+    startLine: 280
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1466,7 +1433,7 @@ items:
   source:
     id: SubscribeToPreRecordedOrderEvents
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 305
+    startLine: 301
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1492,7 +1459,7 @@ items:
   source:
     id: Subscribe
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 315
+    startLine: 311
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1527,7 +1494,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 324
+    startLine: 320
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1558,7 +1525,7 @@ items:
   source:
     id: AdjustTag
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 329
+    startLine: 325
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1591,7 +1558,7 @@ items:
   source:
     id: SetFaulting
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 333
+    startLine: 329
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1622,7 +1589,7 @@ items:
   source:
     id: ValidateEmittedEvents
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 344
+    startLine: 340
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1656,7 +1623,7 @@ items:
   source:
     id: NewCheckpointStarted
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 355
+    startLine: 351
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1689,7 +1656,7 @@ items:
   source:
     id: InitializeFromCheckpoint
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 357
+    startLine: 353
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1720,7 +1687,7 @@ items:
   source:
     id: GetBufferedEventCount
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 364
+    startLine: 360
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1748,7 +1715,7 @@ items:
   source:
     id: GetStatus
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 368
+    startLine: 364
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1776,7 +1743,7 @@ items:
   source:
     id: InternalCommittedEventProcessed
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 372
+    startLine: 368
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1818,7 +1785,7 @@ items:
   source:
     id: InternalPartitionDeletedProcessed
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 405
+    startLine: 401
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1853,7 +1820,7 @@ items:
   source:
     id: BeginGetPartitionStateAt
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 427
+    startLine: 423
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1893,7 +1860,7 @@ items:
   source:
     id: FinalizeEventProcessing
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 458
+    startLine: 454
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1926,7 +1893,7 @@ items:
   source:
     id: EmitEofResult
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 485
+    startLine: 481
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1963,7 +1930,7 @@ items:
   source:
     id: RecordEventOrder
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 491
+    startLine: 487
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -1996,7 +1963,7 @@ items:
   source:
     id: Complete
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 504
+    startLine: 500
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -2024,7 +1991,7 @@ items:
   source:
     id: SetCurrentCheckpointSuggestedWorkItem
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 510
+    startLine: 506
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -2055,7 +2022,7 @@ items:
   source:
     id: GetStatistics
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 514
+    startLine: 510
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -2088,7 +2055,7 @@ items:
   source:
     id: MakeZeroCheckpointTag
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 519
+    startLine: 515
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -2118,7 +2085,7 @@ items:
   source:
     id: EnsureUnsubscribed
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 523
+    startLine: 519
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -2146,7 +2113,7 @@ items:
   source:
     id: _subscriptionStartedAtLastCommitPosition
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 535
+    startLine: 531
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -2173,7 +2140,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 540
+    startLine: 536
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -2204,7 +2171,7 @@ items:
   source:
     id: Dispose
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 555
+    startLine: 546
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -2232,7 +2199,7 @@ items:
   source:
     id: SetProjectionState
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-    startLine: 557
+    startLine: 548
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -2256,6 +2223,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -2689,6 +2658,12 @@ references:
   name: IProjectionPhaseStateManager
   nameWithType: IProjectionPhaseStateManager
   fullName: EventStore.Projections.Core.Services.Processing.IProjectionPhaseStateManager
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Bus.IHandle`1
   commentId: T:EventStore.Core.Bus.IHandle`1
   name: IHandle<T>
@@ -2771,6 +2746,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services
   fullName: EventStore.Projections.Core.Services
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -2823,11 +2800,15 @@ references:
   nameWithType: IResultWriter
   fullName: EventStore.Projections.Core.Services.Processing.IResultWriter
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
@@ -2954,53 +2935,6 @@ references:
   name: EnsureTickPending
   nameWithType: EventSubscriptionBasedProjectionProcessingPhase.EnsureTickPending
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.EnsureTickPending
-- uid: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.AssignSlaves*
-  commentId: Overload:EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.AssignSlaves
-  name: AssignSlaves
-  nameWithType: EventSubscriptionBasedProjectionProcessingPhase.AssignSlaves
-  fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.AssignSlaves
-- uid: EventStore.Projections.Core.Services.Processing.IProjectionProcessingPhase.AssignSlaves(EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels)
-  commentId: M:EventStore.Projections.Core.Services.Processing.IProjectionProcessingPhase.AssignSlaves(EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels)
-  parent: EventStore.Projections.Core.Services.Processing.IProjectionProcessingPhase
-  name: AssignSlaves(SlaveProjectionCommunicationChannels)
-  nameWithType: IProjectionProcessingPhase.AssignSlaves(SlaveProjectionCommunicationChannels)
-  fullName: EventStore.Projections.Core.Services.Processing.IProjectionProcessingPhase.AssignSlaves(EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels)
-  spec.csharp:
-  - uid: EventStore.Projections.Core.Services.Processing.IProjectionProcessingPhase.AssignSlaves(EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels)
-    name: AssignSlaves
-    nameWithType: IProjectionProcessingPhase.AssignSlaves
-    fullName: EventStore.Projections.Core.Services.Processing.IProjectionProcessingPhase.AssignSlaves
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels
-    name: SlaveProjectionCommunicationChannels
-    nameWithType: SlaveProjectionCommunicationChannels
-    fullName: EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EventStore.Projections.Core.Services.Processing.IProjectionProcessingPhase.AssignSlaves(EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels)
-    name: AssignSlaves
-    nameWithType: IProjectionProcessingPhase.AssignSlaves
-    fullName: EventStore.Projections.Core.Services.Processing.IProjectionProcessingPhase.AssignSlaves
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels
-    name: SlaveProjectionCommunicationChannels
-    nameWithType: SlaveProjectionCommunicationChannels
-    fullName: EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels
-  commentId: T:EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels
-  parent: EventStore.Projections.Core.Messages
-  name: SlaveProjectionCommunicationChannels
-  nameWithType: SlaveProjectionCommunicationChannels
-  fullName: EventStore.Projections.Core.Messages.SlaveProjectionCommunicationChannels
 - uid: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.ProcessEvent*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.ProcessEvent
   name: ProcessEvent
@@ -3740,6 +3674,8 @@ references:
   nameWithType: EventSubscriptionBasedProjectionProcessingPhase.GetBufferedEventCount
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.GetBufferedEventCount
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -3975,6 +3911,8 @@ references:
   nameWithType: EventSubscriptionBasedProjectionProcessingPhase.FinalizeEventProcessing
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.FinalizeEventProcessing
 - uid: System.Single
+  commentId: T:System.Single
+  parent: System
   isExternal: true
   name: Single
   nameWithType: Single

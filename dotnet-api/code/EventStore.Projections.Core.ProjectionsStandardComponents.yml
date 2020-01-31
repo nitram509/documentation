@@ -30,6 +30,7 @@ items:
     content: 'public class ProjectionsStandardComponents : object'
     content.vb: >-
       Public Class ProjectionsStandardComponents
+
           Inherits Object
   inheritance:
   - System.Object
@@ -271,16 +272,26 @@ references:
   nameWithType: EventStore.Projections.Core
   fullName: EventStore.Projections.Core
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.ProjectionsStandardComponents.#ctor*
   commentId: Overload:EventStore.Projections.Core.ProjectionsStandardComponents.#ctor
   name: ProjectionsStandardComponents
   nameWithType: ProjectionsStandardComponents.ProjectionsStandardComponents
   fullName: EventStore.Projections.Core.ProjectionsStandardComponents.ProjectionsStandardComponents
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -304,6 +315,8 @@ references:
   nameWithType: IQueuedHandler
   fullName: EventStore.Core.Bus.IQueuedHandler
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

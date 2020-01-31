@@ -25,8 +25,8 @@ items:
   summary: "\nThe reason why a conditional write fails\n"
   example: []
   syntax:
-    content: 'public enum ConditionalWriteStatus : int'
-    content.vb: Public Enum ConditionalWriteStatus As Integer
+    content: public enum ConditionalWriteStatus
+    content.vb: Public Enum ConditionalWriteStatus
   extensionMethods:
   - EventStore.ClientAPI.ConditionalWriteStatus.EventStore.Projections.Core.Utils.EnumExtensions.EnumValueName``1
   modifiers.csharp:
@@ -56,10 +56,9 @@ items:
   summary: "\nThe write operation succeeded\n"
   example: []
   syntax:
-    content: Succeeded = null
+    content: Succeeded = 0
     return:
       type: EventStore.ClientAPI.ConditionalWriteStatus
-    content.vb: Succeeded = Nothing
   modifiers.csharp:
   - public
   - const
@@ -87,10 +86,9 @@ items:
   summary: "\nThe expected version does not match actual stream version\n"
   example: []
   syntax:
-    content: VersionMismatch = null
+    content: VersionMismatch = 1
     return:
       type: EventStore.ClientAPI.ConditionalWriteStatus
-    content.vb: VersionMismatch = Nothing
   modifiers.csharp:
   - public
   - const
@@ -118,10 +116,9 @@ items:
   summary: "\nThe stream has been deleted\n"
   example: []
   syntax:
-    content: StreamDeleted = null
+    content: StreamDeleted = 2
     return:
       type: EventStore.ClientAPI.ConditionalWriteStatus
-    content.vb: StreamDeleted = Nothing
   modifiers.csharp:
   - public
   - const

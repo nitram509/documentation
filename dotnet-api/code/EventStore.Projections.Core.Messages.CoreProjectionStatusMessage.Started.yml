@@ -5,8 +5,9 @@ items:
   id: CoreProjectionStatusMessage.Started
   parent: EventStore.Projections.Core.Messages
   children:
-  - EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started.#ctor(Guid)
+  - EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started.#ctor(Guid,System.String)
   - EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started.MsgTypeId
+  - EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started.Name
   langs:
   - csharp
   - vb
@@ -25,6 +26,7 @@ items:
     content: 'public class Started : CoreProjectionStatusMessage.CoreProjectionStatusMessageBase'
     content.vb: >-
       Public Class Started
+
           Inherits CoreProjectionStatusMessage.CoreProjectionStatusMessageBase
   inheritance:
   - System.Object
@@ -74,30 +76,63 @@ items:
   - Public
   - Overrides
   - ReadOnly
-- uid: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started.#ctor(Guid)
-  commentId: M:EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started.#ctor(Guid)
-  id: '#ctor(Guid)'
+- uid: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started.Name
+  commentId: P:EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started.Name
+  id: Name
   parent: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started
   langs:
   - csharp
   - vb
-  name: Started(Guid)
-  nameWithType: CoreProjectionStatusMessage.Started.Started(Guid)
-  fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started.Started(Guid)
-  type: Constructor
+  name: Name
+  nameWithType: CoreProjectionStatusMessage.Started.Name
+  fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started.Name
+  type: Property
   source:
-    id: .ctor
+    id: Name
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
     startLine: 27
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
   syntax:
-    content: public Started(Guid projectionId)
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started.#ctor(Guid,System.String)
+  commentId: M:EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started.#ctor(Guid,System.String)
+  id: '#ctor(Guid,System.String)'
+  parent: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started
+  langs:
+  - csharp
+  - vb
+  name: Started(Guid, String)
+  nameWithType: CoreProjectionStatusMessage.Started.Started(Guid, String)
+  fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started.Started(Guid, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+    startLine: 28
+  assemblies:
+  - EventStore.Projections.Core
+  namespace: EventStore.Projections.Core.Messages
+  syntax:
+    content: public Started(Guid projectionId, string name)
     parameters:
     - id: projectionId
       type: Guid
-    content.vb: Public Sub New(projectionId As Guid)
+    - id: name
+      type: System.String
+    content.vb: Public Sub New(projectionId As Guid, name As String)
   overload: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started.#ctor*
   modifiers.csharp:
   - public
@@ -110,6 +145,8 @@ references:
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -144,6 +181,12 @@ references:
   name: NextMsgId
   nameWithType: Message.NextMsgId
   fullName: EventStore.Core.Messaging.Message.NextMsgId
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Messaging
   commentId: N:EventStore.Core.Messaging
   name: EventStore.Core.Messaging
@@ -161,10 +204,24 @@ references:
   nameWithType: CoreProjectionStatusMessage.Started.MsgTypeId
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started.MsgTypeId
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started.Name*
+  commentId: Overload:EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started.Name
+  name: Name
+  nameWithType: CoreProjectionStatusMessage.Started.Name
+  fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started.#ctor*
   commentId: Overload:EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started.#ctor
   name: Started

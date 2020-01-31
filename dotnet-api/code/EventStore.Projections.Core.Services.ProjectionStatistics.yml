@@ -50,6 +50,7 @@ items:
     content: 'public class ProjectionStatistics : object'
     content.vb: >-
       Public Class ProjectionStatistics
+
           Inherits Object
   inheritance:
   - System.Object
@@ -901,16 +902,26 @@ references:
   nameWithType: EventStore.Projections.Core.Services
   fullName: EventStore.Projections.Core.Services
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.ProjectionStatistics.Status*
   commentId: Overload:EventStore.Projections.Core.Services.ProjectionStatistics.Status
   name: Status
   nameWithType: ProjectionStatistics.Status
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.Status
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -921,6 +932,8 @@ references:
   nameWithType: ProjectionStatistics.Enabled
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.Enabled
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -957,6 +970,8 @@ references:
   nameWithType: ProjectionStatistics.ProjectionId
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.ProjectionId
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
@@ -993,6 +1008,8 @@ references:
   nameWithType: ProjectionStatistics.Progress
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.Progress
 - uid: System.Single
+  commentId: T:System.Single
+  parent: System
   isExternal: true
   name: Single
   nameWithType: Single
@@ -1008,6 +1025,8 @@ references:
   nameWithType: ProjectionStatistics.EventsProcessedAfterRestart
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.EventsProcessedAfterRestart
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

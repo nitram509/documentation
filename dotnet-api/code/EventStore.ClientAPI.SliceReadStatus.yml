@@ -25,8 +25,8 @@ items:
   summary: "\nEnumeration detailing the possible outcomes of reading a \nslice of a stream.\n"
   example: []
   syntax:
-    content: 'public enum SliceReadStatus : int'
-    content.vb: Public Enum SliceReadStatus As Integer
+    content: public enum SliceReadStatus
+    content.vb: Public Enum SliceReadStatus
   extensionMethods:
   - EventStore.ClientAPI.SliceReadStatus.EventStore.Projections.Core.Utils.EnumExtensions.EnumValueName``1
   modifiers.csharp:

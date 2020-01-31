@@ -24,6 +24,7 @@ items:
     content: 'public static class EnumExtensions : object'
     content.vb: >-
       Public Module EnumExtensions
+
           Inherits Object
   inheritance:
   - System.Object
@@ -56,6 +57,7 @@ items:
   syntax:
     content: >-
       public static string EnumValueName<T>(this T value)
+
           where T : struct
     parameters:
     - id: value
@@ -85,10 +87,18 @@ references:
   nameWithType: EventStore.Projections.Core.Utils
   fullName: EventStore.Projections.Core.Utils
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Utils.EnumExtensions.EnumValueName*
   commentId: Overload:EventStore.Projections.Core.Utils.EnumExtensions.EnumValueName
   name: EnumValueName
@@ -101,6 +111,8 @@ references:
   nameWithType: T
   fullName: T
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

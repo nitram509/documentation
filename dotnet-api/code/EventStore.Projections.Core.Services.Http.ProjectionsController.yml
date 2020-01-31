@@ -26,7 +26,9 @@ items:
     content: 'public class ProjectionsController : CommunicationController, IHttpController'
     content.vb: >-
       Public Class ProjectionsController
+
           Inherits CommunicationController
+
           Implements IHttpController
   inheritance:
   - System.Object
@@ -161,6 +163,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Http
   fullName: EventStore.Projections.Core.Services.Http
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -915,6 +919,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Services.Transport.Http.Controllers
   commentId: N:EventStore.Core.Services.Transport.Http.Controllers
   name: EventStore.Core.Services.Transport.Http.Controllers
@@ -1045,6 +1055,7 @@ references:
   nameWithType: T
   fullName: T
 - uid: Func`1
+  commentId: '!:Func`1'
   isExternal: true
   name: Func<>
   nameWithType: Func<>

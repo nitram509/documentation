@@ -13,7 +13,6 @@ items:
   - EventStore.Projections.Core.Services.IProjectionStateHandler.ProcessEvent(System.String,EventStore.Projections.Core.Services.Processing.CheckpointTag,System.String,EventStore.Projections.Core.Services.Processing.ResolvedEvent,System.String@,System.String@,EventStore.Projections.Core.Services.Processing.EmittedEventEnvelope[]@)
   - EventStore.Projections.Core.Services.IProjectionStateHandler.ProcessPartitionCreated(System.String,EventStore.Projections.Core.Services.Processing.CheckpointTag,EventStore.Projections.Core.Services.Processing.ResolvedEvent,EventStore.Projections.Core.Services.Processing.EmittedEventEnvelope[]@)
   - EventStore.Projections.Core.Services.IProjectionStateHandler.ProcessPartitionDeleted(System.String,EventStore.Projections.Core.Services.Processing.CheckpointTag,System.String@)
-  - EventStore.Projections.Core.Services.IProjectionStateHandler.TransformCatalogEvent(EventStore.Projections.Core.Services.Processing.CheckpointTag,EventStore.Projections.Core.Services.Processing.ResolvedEvent)
   - EventStore.Projections.Core.Services.IProjectionStateHandler.TransformStateToResult
   langs:
   - csharp
@@ -33,6 +32,7 @@ items:
     content: 'public interface IProjectionStateHandler : IDisposable, ISourceDefinitionSource'
     content.vb: >-
       Public Interface IProjectionStateHandler
+
           Inherits IDisposable, ISourceDefinitionSource
   inheritedMembers:
   - EventStore.Projections.Core.Services.ISourceDefinitionSource.GetSourceDefinition
@@ -173,40 +173,6 @@ items:
       description: partition name
     content.vb: Function GetStatePartition(eventPosition As CheckpointTag, category As String, data As ResolvedEvent) As String
   overload: EventStore.Projections.Core.Services.IProjectionStateHandler.GetStatePartition*
-- uid: EventStore.Projections.Core.Services.IProjectionStateHandler.TransformCatalogEvent(EventStore.Projections.Core.Services.Processing.CheckpointTag,EventStore.Projections.Core.Services.Processing.ResolvedEvent)
-  commentId: M:EventStore.Projections.Core.Services.IProjectionStateHandler.TransformCatalogEvent(EventStore.Projections.Core.Services.Processing.CheckpointTag,EventStore.Projections.Core.Services.Processing.ResolvedEvent)
-  id: TransformCatalogEvent(EventStore.Projections.Core.Services.Processing.CheckpointTag,EventStore.Projections.Core.Services.Processing.ResolvedEvent)
-  parent: EventStore.Projections.Core.Services.IProjectionStateHandler
-  langs:
-  - csharp
-  - vb
-  name: TransformCatalogEvent(CheckpointTag, ResolvedEvent)
-  nameWithType: IProjectionStateHandler.TransformCatalogEvent(CheckpointTag, ResolvedEvent)
-  fullName: EventStore.Projections.Core.Services.IProjectionStateHandler.TransformCatalogEvent(EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Services.Processing.ResolvedEvent)
-  type: Method
-  source:
-    id: TransformCatalogEvent
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
-    startLine: 30
-  assemblies:
-  - EventStore.Projections.Core
-  namespace: EventStore.Projections.Core.Services
-  summary: "\ntransforms a catalog event to streamId\n"
-  example: []
-  syntax:
-    content: string TransformCatalogEvent(CheckpointTag eventPosition, ResolvedEvent data)
-    parameters:
-    - id: eventPosition
-      type: EventStore.Projections.Core.Services.Processing.CheckpointTag
-      description: ''
-    - id: data
-      type: EventStore.Projections.Core.Services.Processing.ResolvedEvent
-      description: ''
-    return:
-      type: System.String
-      description: ''
-    content.vb: Function TransformCatalogEvent(eventPosition As CheckpointTag, data As ResolvedEvent) As String
-  overload: EventStore.Projections.Core.Services.IProjectionStateHandler.TransformCatalogEvent*
 - uid: EventStore.Projections.Core.Services.IProjectionStateHandler.ProcessEvent(System.String,EventStore.Projections.Core.Services.Processing.CheckpointTag,System.String,EventStore.Projections.Core.Services.Processing.ResolvedEvent,System.String@,System.String@,EventStore.Projections.Core.Services.Processing.EmittedEventEnvelope[]@)
   commentId: M:EventStore.Projections.Core.Services.IProjectionStateHandler.ProcessEvent(System.String,EventStore.Projections.Core.Services.Processing.CheckpointTag,System.String,EventStore.Projections.Core.Services.Processing.ResolvedEvent,System.String@,System.String@,EventStore.Projections.Core.Services.Processing.EmittedEventEnvelope[]@)
   id: ProcessEvent(System.String,EventStore.Projections.Core.Services.Processing.CheckpointTag,System.String,EventStore.Projections.Core.Services.Processing.ResolvedEvent,System.String@,System.String@,EventStore.Projections.Core.Services.Processing.EmittedEventEnvelope[]@)
@@ -221,7 +187,7 @@ items:
   source:
     id: ProcessEvent
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
-    startLine: 36
+    startLine: 28
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services
@@ -266,7 +232,7 @@ items:
   source:
     id: ProcessPartitionCreated
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
-    startLine: 48
+    startLine: 40
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services
@@ -309,7 +275,7 @@ items:
   source:
     id: ProcessPartitionDeleted
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
-    startLine: 56
+    startLine: 48
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services
@@ -346,7 +312,7 @@ items:
   source:
     id: TransformStateToResult
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
-    startLine: 62
+    startLine: 54
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services
@@ -1349,10 +1315,18 @@ references:
   nameWithType: IProjectionStateHandler.Load
   fullName: EventStore.Projections.Core.Services.IProjectionStateHandler.Load
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.IProjectionStateHandler.LoadShared*
   commentId: Overload:EventStore.Projections.Core.Services.IProjectionStateHandler.LoadShared
   name: LoadShared
@@ -1390,11 +1364,6 @@ references:
   name: EventStore.Projections.Core.Services.Processing
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
-- uid: EventStore.Projections.Core.Services.IProjectionStateHandler.TransformCatalogEvent*
-  commentId: Overload:EventStore.Projections.Core.Services.IProjectionStateHandler.TransformCatalogEvent
-  name: TransformCatalogEvent
-  nameWithType: IProjectionStateHandler.TransformCatalogEvent
-  fullName: EventStore.Projections.Core.Services.IProjectionStateHandler.TransformCatalogEvent
 - uid: EventStore.Projections.Core.Services.IProjectionStateHandler.ProcessEvent*
   commentId: Overload:EventStore.Projections.Core.Services.IProjectionStateHandler.ProcessEvent
   name: ProcessEvent
@@ -1425,6 +1394,8 @@ references:
     nameWithType: ()
     fullName: ()
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

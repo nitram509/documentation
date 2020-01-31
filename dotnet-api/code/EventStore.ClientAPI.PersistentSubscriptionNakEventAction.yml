@@ -27,8 +27,8 @@ items:
   summary: "\nActions to be taken by server in the case of a client NAK\n"
   example: []
   syntax:
-    content: 'public enum PersistentSubscriptionNakEventAction : int'
-    content.vb: Public Enum PersistentSubscriptionNakEventAction As Integer
+    content: public enum PersistentSubscriptionNakEventAction
+    content.vb: Public Enum PersistentSubscriptionNakEventAction
   extensionMethods:
   - EventStore.ClientAPI.PersistentSubscriptionNakEventAction.EventStore.Projections.Core.Utils.EnumExtensions.EnumValueName``1
   modifiers.csharp:
@@ -58,10 +58,9 @@ items:
   summary: "\nClient unknown on action. Let server decide\n"
   example: []
   syntax:
-    content: Unknown = null
+    content: Unknown = 0
     return:
       type: EventStore.ClientAPI.PersistentSubscriptionNakEventAction
-    content.vb: Unknown = Nothing
   modifiers.csharp:
   - public
   - const
@@ -89,10 +88,9 @@ items:
   summary: "\nPark message do not resend. Put on poison queue\n"
   example: []
   syntax:
-    content: Park = null
+    content: Park = 1
     return:
       type: EventStore.ClientAPI.PersistentSubscriptionNakEventAction
-    content.vb: Park = Nothing
   modifiers.csharp:
   - public
   - const
@@ -120,10 +118,9 @@ items:
   summary: "\nExplicitly retry the message.\n"
   example: []
   syntax:
-    content: Retry = null
+    content: Retry = 2
     return:
       type: EventStore.ClientAPI.PersistentSubscriptionNakEventAction
-    content.vb: Retry = Nothing
   modifiers.csharp:
   - public
   - const
@@ -151,10 +148,9 @@ items:
   summary: "\nSkip this message do not resend do not put in poison queue\n"
   example: []
   syntax:
-    content: Skip = null
+    content: Skip = 3
     return:
       type: EventStore.ClientAPI.PersistentSubscriptionNakEventAction
-    content.vb: Skip = Nothing
   modifiers.csharp:
   - public
   - const
@@ -182,10 +178,9 @@ items:
   summary: "\nStop the subscription.\n"
   example: []
   syntax:
-    content: Stop = null
+    content: Stop = 4
     return:
       type: EventStore.ClientAPI.PersistentSubscriptionNakEventAction
-    content.vb: Stop = Nothing
   modifiers.csharp:
   - public
   - const

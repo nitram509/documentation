@@ -26,6 +26,7 @@ items:
     content: 'public static class EncodingExtensions : object'
     content.vb: >-
       Public Module EncodingExtensions
+
           Inherits Object
   inheritance:
   - System.Object
@@ -162,10 +163,18 @@ references:
   nameWithType: EventStore.Projections.Core.Utils
   fullName: EventStore.Projections.Core.Utils
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Utils.EncodingExtensions.FromUtf8*
   commentId: Overload:EventStore.Projections.Core.Utils.EncodingExtensions.FromUtf8
   name: FromUtf8
@@ -198,6 +207,8 @@ references:
     nameWithType: ()
     fullName: ()
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

@@ -31,7 +31,9 @@ items:
     content: 'public class ProjectionCoreCoordinator : object, IHandle<ProjectionManagementMessage.Internal.RegularTimeout>, IHandle<ProjectionSubsystemMessage.StartComponents>, IHandle<ProjectionSubsystemMessage.StopComponents>, IHandle<ProjectionCoreServiceMessage.SubComponentStarted>, IHandle<ProjectionCoreServiceMessage.SubComponentStopped>'
     content.vb: >-
       Public Class ProjectionCoreCoordinator
+
           Inherits Object
+
           Implements IHandle(Of ProjectionManagementMessage.Internal.RegularTimeout), IHandle(Of ProjectionSubsystemMessage.StartComponents), IHandle(Of ProjectionSubsystemMessage.StopComponents), IHandle(Of ProjectionCoreServiceMessage.SubComponentStarted), IHandle(Of ProjectionCoreServiceMessage.SubComponentStopped)
   inheritance:
   - System.Object
@@ -223,7 +225,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
-    startLine: 133
+    startLine: 132
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -254,7 +256,7 @@ items:
   source:
     id: Handle
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
-    startLine: 157
+    startLine: 156
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -285,7 +287,7 @@ items:
   source:
     id: SetupMessaging
     path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
-    startLine: 180
+    startLine: 179
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -307,6 +309,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Management
   fullName: EventStore.Projections.Core.Services.Management
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -511,6 +515,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Bus.IHandle`1
   commentId: T:EventStore.Core.Bus.IHandle`1
   name: IHandle<T>
@@ -553,6 +563,8 @@ references:
   nameWithType: EventStore.Core.Bus
   fullName: EventStore.Core.Bus
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

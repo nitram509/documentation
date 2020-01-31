@@ -26,8 +26,8 @@ items:
   summary: "\nIndicates which order of preferred nodes for connecting to.\n"
   example: []
   syntax:
-    content: 'public enum NodePreference : int'
-    content.vb: Public Enum NodePreference As Integer
+    content: public enum NodePreference
+    content.vb: Public Enum NodePreference
   extensionMethods:
   - EventStore.ClientAPI.NodePreference.EventStore.Projections.Core.Utils.EnumExtensions.EnumValueName``1
   modifiers.csharp:
