@@ -67,7 +67,10 @@ To use a client API, you use port `1113` and create a connection:
 
 When using the .NET client, you also need to give the connection a name.
 
-[!code-csharp[getting-started-connection](../../EventStore.Samples.Dotnet/DocsExample/Program.cs?start=32&end=33)]
+```bash
+var conn = EventStoreConnection.Create(new Uri("tcp://admin:changeit@localhost:1113"));
+conn.ConnectAsync().Wait();
+```
 
 > [!NEXT]
 > In this example we used the [`EventStoreConnection.Create()`](xref:EventStore.ClientAPI.EventStoreConnection.Create(System.String,System.String)) overloaded method but [others are available](xref:EventStore.ClientAPI.EventStoreConnection).

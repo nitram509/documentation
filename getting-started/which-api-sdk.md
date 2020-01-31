@@ -12,12 +12,11 @@ Event Store offers a low-level protocol in the form of an asynchronous TCP proto
 
 ### Event Store supported clients
 
--   [.NET Client](http://www.nuget.org/packages/EventStore.Client)
+-   [.NET Client / .NET Core](http://www.nuget.org/packages/EventStore.Client)
 -   [JVM Client](https://github.com/EventStore/EventStore.JVM)
 
 ### Community developed clients
 
-- [.NET Core](https://www.nuget.org/packages/EventStore.ClientAPI.NetCore/)
 -   [Node.js](https://www.npmjs.com/package/event-store-client)
 -   [Node.js](https://www.npmjs.com/package/ges-client)
 -   [Node.js](https://github.com/nicdex/eventstore-node)

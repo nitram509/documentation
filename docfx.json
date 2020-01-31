@@ -189,6 +189,11 @@
         "dest": "dotnet-api"
       },
       {
+        "files": "security.md",
+        "src": "dotnet-api",
+        "dest": "dotnet-api/security"
+      },
+      {
         "files": "optimistic-concurrency-and-idempotence.md",
         "src": "dotnet-api",
         "dest": "dotnet-api/optimistic-concurrency-and-idempotence"
@@ -202,6 +207,11 @@
         "files": "reading-events.md",
         "src": "dotnet-api",
         "dest": "dotnet-api/reading-events"
+      },
+      {
+        "files": "deleting-a-stream.md",
+        "src": "dotnet-api",
+        "dest": "dotnet-api/deleting-a-stream"
       },
       {
         "files": "persistent-subscriptions.md",

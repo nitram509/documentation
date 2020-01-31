@@ -21,12 +21,15 @@ The `EventStoreConnection` classes uses the static `Create` methods to create a 
 
 | Method                                                                                      | Description                                                                                                              |
 | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `Create(ConnectionSettings connectionSettings)`                                             | Connects to Event Store using specified settings                                                                         |
 | `Create(Uri uri)`                                                                           | Connects to Event Store (see URIs below) with default settings                                                           |
 | `Create(ConnectionSettings connectionSettings, Uri uri)`                                    | Connects to Event Store (see URIs below) with specified settings                                                         |
-| `Create(string connectionString)`                                                           | Connects to Event Store (see URIs below) with settings from connection string                                            |
+| `Create(string connectionString)`                                                           | Connects to Event Store with settings from connection string                                                             |
+| `Create(string connectionString, ConnectionSettingsBuilder builder)`                        | Connects to Event Store by merging connection string settings with prepopulated builder                                  |
 | `(obsolete) Create(IPEndPoint tcpEndPoint)`                                                 | Connects to a single node with default settings                                                                          |
 | `(obsolete) Create(ConnectionSettings settings, IPEndPoint tcpEndPoint)`                    | Connects to a single node with custom settings (see [Customising Connection Settings](#customising-connection-settings)) |
 | `(obsolete) Create(ConnectionSettings connectionSettings, ClusterSettings clusterSettings)` | Connects to an Event Store HA cluster with custom settings (see [Cluster Settings](#cluster-settings))                   |
+| `Create(ConnectionSettings connectionSettings, IEndPointDiscover endPointDiscover)`         | Connects to an Event Store HA cluster with custom settings (see [Cluster Settings](#cluster-settings))                   |
 
 > [!NOTE]
 > The connection returned by these methods is inactive. Use the `ConnectAsync()` method to establish a connection with the server.

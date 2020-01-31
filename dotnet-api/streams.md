@@ -2,29 +2,56 @@
 outputFileName: index.html
 ---
 
-# Streams
+# Creating and writing to a stream
+
+Sending events to a non-existing stream, implicitly creates the stream.
 
 ## Writing to a stream
 
-You can use the client API to write one or more events to a stream atomically. You do this by appending the events to the stream in one operation, or by starting a transaction on the stream, writing events in one or more operations in that transaction, and then committing the transaction.
+You can use the client API to write one or more events to a stream atomically. You do this by appending the events to the stream in one operation, or by using transactions.
 
-You can make an optimistic concurrency check during the write by specifying the version at which you expect the stream to be. Identical write operations are idempotent if the optimistic concurrency check is not disabled. You can find more information on optimistic concurrency and idempotence [here](~/dotnet-api/optimistic-concurrency-and-idempotence.md).
+It is possible to make an optimistic concurrency check during the write by specifying the version at which you expect the stream to be. Identical write operations are idempotent if the optimistic concurrency check is not disabled. You can find more information on optimistic concurrency and idempotence [here](~/dotnet-api/optimistic-concurrency-and-idempotence.md).
 
-### Appending to a stream in a single write
+The writing methods all use a type named `EventData` to represent an event to store.
+
+## Append to a stream in a single write
+
+The `AppendToStreamAsync` method writes a single event or list of events atomically to the end of a stream, working in an asynchronous manner.
+
+Method definitions:
+
+```csharp
+Task<WriteResult> AppendToStreamAsync(string stream, long expectedVersion, params EventData[] events)
+```
+
+```csharp
+Task<WriteResult> AppendToStreamAsync(string stream, long expectedVersion, UserCredentials userCredentials, params EventData[] events)
+```
 
 ```csharp
 Task<WriteResult> AppendToStreamAsync(string stream, long expectedVersion, IEnumerable<EventData> events)
 ```
 
-```csharp
-Task<WriteResult> AppendToStreamAsync(string stream, long expectedVersion, params EventData[] events)
-```
-> [!NOTE]
-> An `EventData` array's length must not be greater than 4095.
+Parameters:
 
-### Using a transaction to append to a stream across multiple writes
+| Parameter                       | Description                                                                                                                                                                                                                                                                                                                                                                           |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `string stream`                 | The name of the stream to which to append.                                                                                                                                                                                                                                                                                                                                            |
+| `long expectedVersion`          | The version at which you expect the stream to be in order that an optimistic concurrency check can be performed. This should either be a positive integer, or one of the constants `ExpectedVersion.NoStream`, `ExpectedVersion.EmptyStream`, or to disable the check, `ExpectedVersion.Any`. See [here](optimistic-concurrency-and-idempotence.md) for a broader discussion of this. |
+| `IEnumerable<EventData> events` | The events to append. There is also an overload of each method which takes the events as a `params` array. `events`'s length must not be greater than 4095.                                                                                                                                                                                                                                                                           |
+| `userCredentials`               | Specify user on behalf whom write will be executed. |
 
-#### On `EventStoreConnection`
+Example single event in single write:
+
+[!code-csharp[Write single event](../../EventStore.Samples.Dotnet/DocsExample/DotNetClient/WritingSingleEvent.cs?start=15&end=19)]
+
+Example list of events in single write:
+
+[!code-csharp[Write list of events](../../EventStore.Samples.Dotnet/DocsExample/DotNetClient/WritingListEvents.cs?start=11&end=26)]
+
+## Using a transaction to append to a stream across multiple writes
+
+Method definitions on `EventStoreConnection`:
 
 ```csharp
 Task<EventStoreTransaction> StartTransactionAsync(string stream, long expectedVersion)
@@ -34,7 +61,7 @@ Task<EventStoreTransaction> StartTransactionAsync(string stream, long expectedVe
 EventStoreTransaction ContinueTransaction(long transactionId)
 ```
 
-#### On `EventStoreTransaction`
+Method definitions on `EventStoreTransaction`:
 
 ```csharp
 Task WriteAsync(IEnumerable<EventData> events)
@@ -51,6 +78,12 @@ Task CommitAsync()
 ```csharp
 void Rollback()
 ```
+
+Example:
+
+[!code-csharp[Use transactions](../../EventStore.Samples.Dotnet/DocsExample/DotNetClient/WritingTransactions.cs?start=10&end=33)]
+
+Events are written in the following order: `3, 1, 2, 4, 5`.
 
 ## EventData
 
@@ -70,38 +103,3 @@ The members on `EventData` are:
 
 > [!NOTE]
 > An event size (not only data and metadata) must not exceed 16,777,215 bytes (16MB-1B).
-
-## Append to a stream in a single write
-
-The `AppendToStreamAsync` method writes events atomically to the end of a stream, working in an asynchronous manner.
-
-The parameters are:
-
-| Parameter                       | Description                                                                                                                                                                                                                                                                                                                                                                           |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `string stream`                 | The name of the stream to which to append.                                                                                                                                                                                                                                                                                                                                            |
-| `long expectedVersion`          | The version at which you expect the stream to be in order that an optimistic concurrency check can be performed. This should either be a positive integer, or one of the constants `ExpectedVersion.NoStream`, `ExpectedVersion.EmptyStream`, or to disable the check, `ExpectedVersion.Any`. See [here](optimistic-concurrency-and-idempotence.md) for a broader discussion of this. |
-| `IEnumerable<EventData> events` | The events to append. There is also an overload of each method which takes the events as a `params` array. `events`'s length must not be greater than 4095.                                                                                                                                                                                                                                                                           |
-
-## Deleting a stream
-
-### Soft delete
-
-```csharp
-Task<DeleteResult> DeleteStreamAsync(string stream, long expectedVersion, UserCredentials userCredentials = null);
-```
-
-<!-- TODO: Need a better explanation -->
-
-By default when you delete a stream, Event Store soft deletes it. You can recreate the stream by appending new events to it. If you try to read a soft deleted stream you receive an error response.
-
-### Hard Delete
-
-You can hard delete a stream.
-
-> [!WARNING]
-> A hard delete is permanent and the stream is not removed during a scavenge. If you hard delete a stream, you cannot recreate the stream.
-
-```csharp
-Task<DeleteResult> DeleteStreamAsync(string stream, long expectedVersion, bool hardDelete, UserCredentials userCredentials = null);
-```
