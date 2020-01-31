@@ -19,6 +19,8 @@ Task<WriteResult> AppendToStreamAsync(string stream, long expectedVersion, IEnum
 ```csharp
 Task<WriteResult> AppendToStreamAsync(string stream, long expectedVersion, params EventData[] events)
 ```
+> [!NOTE]
+> An `EventData` array's length must not be greater than 4095.
 
 ### Using a transaction to append to a stream across multiple writes
 
@@ -63,8 +65,11 @@ The members on `EventData` are:
 | `Guid EventId`    | A unique identifier representing this event. Event Store uses this for idempotency if you write the same event twice you should use the same identifier both times.                                       |
 | `string Type`     | The name of the event type. You can use this for pattern matching in projections, so should be a "friendly" name rather than a CLR type name, for example.                                                |
 | `bool IsJson`     | If the data and metadata fields are serialized as JSON, you should set this to `true`. Setting this to `true` will cause the projections framework to attempt to deserialize the data and metadata later. |
-| `byte[] Data`     | The serialized data representing the event to be stored.                                                                                                                                                  |
+| `byte[] Data`     | The serialized data representing the event to be stored.                                                                                                                                                 |
 | `byte[] Metadata` | The serialized data representing metadata about the event to be stored.                                                                                                                                   |
+
+> [!NOTE]
+> An event size (not only data and metadata) must not exceed 16,777,215 bytes (16MB-1B).
 
 ## Append to a stream in a single write
 
@@ -76,7 +81,7 @@ The parameters are:
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `string stream`                 | The name of the stream to which to append.                                                                                                                                                                                                                                                                                                                                            |
 | `long expectedVersion`          | The version at which you expect the stream to be in order that an optimistic concurrency check can be performed. This should either be a positive integer, or one of the constants `ExpectedVersion.NoStream`, `ExpectedVersion.EmptyStream`, or to disable the check, `ExpectedVersion.Any`. See [here](optimistic-concurrency-and-idempotence.md) for a broader discussion of this. |
-| `IEnumerable<EventData> events` | The events to append. There is also an overload of each method which takes the events as a `params` array.                                                                                                                                                                                                                                                                            |
+| `IEnumerable<EventData> events` | The events to append. There is also an overload of each method which takes the events as a `params` array. `events`'s length must not be greater than 4095.                                                                                                                                                                                                                                                                           |
 
 ## Deleting a stream
 
