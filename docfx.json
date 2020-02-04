@@ -433,7 +433,7 @@
         ]
       }
     ],
-    "dest": "../eventstore.org/docs",
+    "dest": "../eventstore.com/docs",
     "exclude": [
       ".git/**"
     ],
