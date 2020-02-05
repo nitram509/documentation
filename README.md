@@ -1,8 +1,8 @@
 # Event Store Documentation
 
-**This documentation is available at <https://eventstore.org/docs>.** Pages are built with [DocFX](https://dotnet.github.io).
+**This documentation is available at <https://eventstore.com/docs>.** Pages are built with [DocFX](https://dotnet.github.io).
 
-What follows is documentation for how to use and contribute to the Event Store documentation. If you’re planning to make updates or contributions then read on. Otherwise, head on over to the [website](https://eventstore.org/docs).
+What follows is documentation for how to use and contribute to the Event Store documentation. If you’re planning to make updates or contributions then read on. Otherwise, head on over to the [website](https://eventstore.com/docs).
 
 ## Contributing to Event Store Documentation
 
@@ -37,7 +37,7 @@ To have everything you need to fully generate the site, clone the following repo
 
 Optional:
 
--   [The eventstore.org website, which hosts the rendered documentation](https://github.com/EventStore/eventstore.org)
+-   [The eventstore.com website, which hosts the rendered documentation](https://github.com/EventStore/eventstore.com)
 
 You need the website for the top menu to work as on live. If you only need to preview the documentation locally, it is not needed.
 

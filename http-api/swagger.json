@@ -5,14 +5,14 @@
     "version": "5.0.4",
     "title": "HTTP API",
     "contact": {
-      "email": "chris.ward@eventstore.org"
+      "email": "chris.ward@eventstore.com"
     },
     "license": {
       "name": "Apache 2.0",
       "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
     }
   },
-  "host": "eventstore.org",
+  "host": "eventstore.com",
   "securityDefinitions": {
     "basicAuth": {
       "type": "basic"

@@ -20,7 +20,7 @@ This removes the `eventstore-oss` Chocolatey package.
 
 ### Binary or built from source
 
-If you installed Event Store by [downloading a binary](https://eventstore.org/downloads/), you can remove it by:
+If you installed Event Store by [downloading a binary](https://eventstore.com/downloads/), you can remove it by:
 
 * Deleting the `EventStore-OSS-Win-*` directory.
 * Removing the directory from your PATH.

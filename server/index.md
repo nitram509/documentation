@@ -6,7 +6,7 @@ outputFileName: index.html
 
 Event Store runs as a server that clients can connect to either [over HTTP](~/http-api/index.md) or using [one of the client APIs](~/getting-started/which-api-sdk.md). You can run both the open source and commercial versions as either a single node or a highly available cluster of nodes.
 
-We distribute an [open source version of Event Store](https://eventstore.org/downloads) as a console application. There are separate distributions for Windows on .NET and Linux/macOS on Mono.
+We distribute an [open source version of Event Store](https://eventstore.com/downloads) as a console application. There are separate distributions for Windows on .NET and Linux/macOS on Mono.
 
 [!include[<Getting Started Install and run>](~/partials/_install-run.md)]
 

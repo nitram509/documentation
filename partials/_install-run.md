@@ -15,7 +15,7 @@ Event Store has [Chocolatey packages](https://chocolatey.org/packages/eventstore
 choco install eventstore-oss
 ```
 
-You can also [download](https://eventstore.org/downloads/) a binary, unzip the archive and run from the folder location with an administrator console.
+You can also [download](https://eventstore.com/downloads/) a binary, unzip the archive and run from the folder location with an administrator console.
 
 The following command starts Event Store with the database stored at the path _./db_ and the logs in _./logs_. You can view further command line arguments in the [server docs](~/server/index.md).
 
@@ -89,13 +89,13 @@ helm install -n eventstore eventstore/eventstore
 
 ### [macOS](#tab/tabid-macos)
 
-Event Store has a macOS package [you can download](https://eventstore.org/downloads/) and install, and we maintain a Homebrew Cask formula you can install:
+Event Store has a macOS package [you can download](https://eventstore.com/downloads/) and install, and we maintain a Homebrew Cask formula you can install:
 
 ```shell
 brew cask install eventstore
 ```
 
-In each case you can run Event Store with the `eventstore` command, and stop it with `Ctrl+c`. To use the default database location you need to use `sudo`, or you can change the location with the `--db` parameter.
+In each case you can run Event Store with the `eventstore` command, and stop it with `Ctrl+c`. To use the default database location you need to use `sudo`, which we **strongly** recommend you don't do, or you can change the location with the `--db` parameter to a location your user account has access to.
 
 To build Event Store from source, refer to the [Event Store README](https://github.com/EventStore/EventStore#mac-os-x).
 

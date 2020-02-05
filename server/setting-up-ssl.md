@@ -10,7 +10,7 @@ The steps to set up SSL on Windows are as follows.
 First, create a certificate using powershell, and copy the thumbprint from the output
 
 ```powershell
-New-SelfSignedCertificate -DnsName eventstore.org, localhost -CertStoreLocation cert:\CurrentUser\My
+New-SelfSignedCertificate -DnsName eventstore.com, localhost -CertStoreLocation cert:\CurrentUser\My
 ```
 
 To trust the new certificate, the certificate you have to import the certificate into the Trusted Root Certification Authorities:
@@ -20,7 +20,7 @@ To trust the new certificate, the certificate you have to import the certificate
 ![Open certmgr.msc](~/images/ssl-step1.png)
 
 2.  Navigate to _Certificates -> Current User -> Personal -> Certificates_.
-3.  Locate the certificate 'eventstore.org'.
+3.  Locate the certificate 'eventstore.com'.
 
 ![Find certificate](~/images/ssl-step2.png)
 
@@ -39,7 +39,7 @@ Start Event Store with the following configuration in [a configuration file](~/s
 CertificateStoreLocation: CurrentUser
 CertificateStoreName: My
 CertificateThumbPrint: {Insert Thumb Print from Step 1}
-CertificateSubjectName: CN=eventstore.org
+CertificateSubjectName: CN=eventstore.com
 ExtSecureTcpPort: 1115
 ```
 
@@ -48,7 +48,7 @@ Connect to Event Store:
 ### [.NET API](#tab/tabid-6)
 
 ```csharp
-var settings = ConnectionSettings.Create().UseSslConnection("eventstore.org", true);
+var settings = ConnectionSettings.Create().UseSslConnection("eventstore.com", true);
 
 using (var conn = EventStoreConnection.Create(settings, new IPEndPoint(IPAddress.Loopback, 1115)))
 {
@@ -73,7 +73,7 @@ First, create a private key and self-signed certificate request (This is only fo
 
 ```bash
 openssl req \
-  -x509 -sha256 -nodes -days 365 -subj "/CN=eventstore.org" \
+  -x509 -sha256 -nodes -days 365 -subj "/CN=eventstore.com" \
   -newkey rsa:2048 -keyout eventstore.pem -out eventstore.csr
 ```
 
@@ -123,7 +123,7 @@ Connect to Event Store:
 ### [.NET API](#tab/tabid-8)
 
 ```csharp
-var settings = ConnectionSettings.Create().UseSslConnection("eventstore.org", true);
+var settings = ConnectionSettings.Create().UseSslConnection("eventstore.com", true);
 
 using (var conn = EventStoreConnection.Create(settings, new IPEndPoint(IPAddress.Loopback, 1115)))
 {
