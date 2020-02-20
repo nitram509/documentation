@@ -139,6 +139,11 @@
         "dest": "server/stats-debug"
       },
       {
+        "files": "production-checklist.md",
+        "src": "server",
+        "dest": "server/production-checklist"
+      },
+      {
         "files": "setting-up-varnish-in-linux.md",
         "src": "server",
         "dest": "server/setting-up-varnish-in-linux"

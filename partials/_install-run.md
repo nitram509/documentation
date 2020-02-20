@@ -73,6 +73,27 @@ docker run --name eventstore-node -it -p 2113:2113 -p 1113:1113 eventstore/event
 
 Refer to the [image overview](https://hub.docker.com/r/eventstore/eventstore/) for more information.
 
+### [Docker-Compose](#tab/tabid-compose)
+
+Event Store has a Docker image available for any platform that supports Docker. In order to save keystrokes it is possible to run Event Store via docker-compose.
+
+Pull the Docker image:
+
+```bash
+docker pull eventstore/eventstore
+```
+
+Create file `docker-compose.yaml` with following content:
+
+[!code-bash[Compose running Event Store](~/code-examples/getting-started/docker-compose.yaml)]
+
+Run the container:
+```bash
+docker-compose -f docker-compose.yaml up
+```
+
+Refer to the [image overview](https://hub.docker.com/r/eventstore/eventstore/) for more information.
+
 ### [Kubernetes](#tab/tabid-k8)
 
 Event Store has [a Helm chart](https://github.com/EventStore/EventStore.Charts) available for installing Event Store on Kubernetes clusters:
@@ -85,7 +106,7 @@ helm install -n eventstore eventstore/eventstore
 
 > [!NOTE]
 > Read [this guide](https://github.com/EventStore/EventStore.Charts/blob/master/stable/eventstore/README.md) for more details on how to use the helm chart.
-> Read [this guide](~/server/deploy-kubernetes-aks.md) for more details on using Kubernetes with AKS and this guide for more details on using Kubernetes with GKE.
+> Read [this guide](~/server/deploy-kubernetes-aks.md) for more details on using Kubernetes with AKS and [this guide](~/server/deploy-kubernetes-gke.md) for more details on using Kubernetes with GKE.
 
 ### [macOS](#tab/tabid-macos)
 

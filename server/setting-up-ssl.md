@@ -138,3 +138,29 @@ curl -vk --cert <PATH_TO_CERT> --key <PATH_TO_KEY> -i -d "@event.json" "http://1
 ```
 
 * * *
+
+## Setting up SSL for Docker with image baked certificate
+
+This example shows how to build own docker image that base on original eventstore/eventstore image and add self-signed certificate. Following example should be modified before going to production by using real certificate.
+
+Create file `Dockerfile` with following content:
+[!code-bash[Self signed certificate for docker](~/code-examples/server/DockerfileSsl)]
+
+Build image:
+```bash
+docker build -t eventstore/eventstore:with-cert-local --no-cache .
+```
+
+Run container:
+```bash
+docker run --name eventstore-node -it -p 1113:1113 -p 1115:1115 -p 2113:2113 -e EVENTSTORE_CERTIFICATE_FILE=eventstore.p12 -e EVENTSTORE_EXT_SECURE_TCP_PORT=1115 eventstore/eventstore:with-cert-local
+```
+
+Notice port 1115 is used instead of default 1113!
+
+Use connection string:
+```bash
+"ConnectTo=tcp://localhost:1115;DefaultUserCredentials=admin:changeit;UseSslConnection=true;TargetHost=eventstore.org;ValidateServer=false",
+```
+
+Notice ValidateServer is set to false because Self-Signed Certificate is used! For production always use `ValidateServer=true`.

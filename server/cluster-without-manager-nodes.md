@@ -29,26 +29,39 @@ You should now have three nodes running together in a cluster. If you kill one o
 
 ## Running on separate machines
 
+### Using gossip seeds
+
 Most important is to understand the "gossip seeds". You are instructing seed locations for when the node first starts and needs to begin gossiping. Any node can be a seed. By giving each node the other nodes you ensure that there is always another node to gossip with, if a quorum can be built. If you want to move this to run on three machines, change the IPs on the command line to something like this:
 
 ```powershell
-EventStore.ClusterNode.exe --mem-db --log c:\dbs\cluster\log1 --int-ip 192.168.0.1 --ext-ip 192.168.0.1 --int-tcp-port=1111 --ext-tcp-port=1112 --int-http-port=2113 --ext-http-port=2114 --cluster-size=3 --discover-via-dns=false --gossip-seed=192.168.0.2:2113,192.168.0.3:2113
-EventStore.ClusterNode.exe --mem-db --log c:\dbs\cluster\log2 --int-ip 192.168.0.2 --ext-ip 192.168.0.2 --int-tcp-port=1111 --ext-tcp-port=1112 --int-http-port=2113 --ext-http-port=2114 --cluster-size=3 --discover-via-dns=false --gossip-seed=192.168.0.1:2113,192.168.0.3:2113
-EventStore.ClusterNode.exe --mem-db --log c:\dbs\cluster\log3 --int-ip 192.168.0.3 --ext-ip 192.168.0.3 --int-tcp-port=1111 --ext-tcp-port=1112 --int-http-port=2113 --ext-http-port=2114 --cluster-size=3 --discover-via-dns=false --gossip-seed=192.168.0.1:2113,192.168.0.2:2113
+EventStore.ClusterNode.exe --mem-db --log c:\dbs\cluster\log1 --int-ip 192.168.0.1 --ext-ip 192.168.0.1 --int-tcp-port=1112 --ext-tcp-port=1113 --int-http-port=2112 --ext-http-port=2113 --cluster-size=3 --discover-via-dns=false --gossip-seed=192.168.0.2:2112,192.168.0.3:2112
+EventStore.ClusterNode.exe --mem-db --log c:\dbs\cluster\log2 --int-ip 192.168.0.2 --ext-ip 192.168.0.2 --int-tcp-port=1112 --ext-tcp-port=1113 --int-http-port=2112 --ext-http-port=2113 --cluster-size=3 --discover-via-dns=false --gossip-seed=192.168.0.1:2112,192.168.0.3:2112
+EventStore.ClusterNode.exe --mem-db --log c:\dbs\cluster\log3 --int-ip 192.168.0.3 --ext-ip 192.168.0.3 --int-tcp-port=1112 --ext-tcp-port=1113 --int-http-port=2112 --ext-http-port=2113 --cluster-size=3 --discover-via-dns=false --gossip-seed=192.168.0.1:2112,192.168.0.2:2112
 ```
 
-## Using DNS
+### Using DNS
 
 Entering the commands above into each node is tedious and error-prone (especially as the replica set counts change). Another configuration option is to create a DNS entry that points to all the nodes in the cluster and then specify that DNS entry with the appropriate port:
 
 ```powershell
-EventStore.ClusterNode.exe --log c:\dbs\cluster\log1 --int-ip 192.168.0.1 --ext-ip 192.168.0.1 --int-tcp-port=1111 --ext-tcp-port=1112 --int-http-port=2113 --ext-http-port=2114 --cluster-size=3 --cluster-dns mydomain.com --cluster-gossip-port=2113
-EventStore.ClusterNode.exe --mem-db --log c:\dbs\cluster\log2 --int-ip 192.168.0.2 --ext-ip 192.168.0.2 --int-tcp-port=1111 --ext-tcp-port=1112 --int-http-port=2113 --ext-http-port=2114 --cluster-size=3 --cluster-dns mydomain.com --cluster-gossip-port=2113
-EventStore.ClusterNode.exe --mem-db --log c:\dbs\cluster\log3 --int-ip 192.168.0.3 --ext-ip 192.168.0.3 --int-tcp-port=1111 --ext-tcp-port=1112 --int-http-port=2113 --ext-http-port=2114 --cluster-size=3 --cluster-dns mydomain.com --cluster-gossip-port=2113
+EventStore.ClusterNode.exe --mem-db --log c:\dbs\cluster\log1 --int-ip 192.168.0.1 --ext-ip 192.168.0.1 --int-tcp-port=1112 --ext-tcp-port=1113 --int-http-port=2112 --ext-http-port=2113 --cluster-size=3 --cluster-dns eventstore.local --cluster-gossip-port=2112
+EventStore.ClusterNode.exe --mem-db --log c:\dbs\cluster\log2 --int-ip 192.168.0.2 --ext-ip 192.168.0.2 --int-tcp-port=1112 --ext-tcp-port=1113 --int-http-port=2112 --ext-http-port=2113 --cluster-size=3 --cluster-dns eventstore.local --cluster-gossip-port=2112
+EventStore.ClusterNode.exe --mem-db --log c:\dbs\cluster\log3 --int-ip 192.168.0.3 --ext-ip 192.168.0.3 --int-tcp-port=1112 --ext-tcp-port=1113 --int-http-port=2112 --ext-http-port=2113 --cluster-size=3 --cluster-dns eventstore.local --cluster-gossip-port=2112
 ```
 
 > [!NOTE]
 > You can also use the method above for HTTP clients to avoid using a load balancer and fall back to round robin DNS for many deployments.
+
+### Run in docker-compose using DNS
+
+Create file `docker-compose.yaml` with following content:
+
+[!code-bash[Compose running 3 node cluster](~/code-examples/server/docker-compose.yaml)]
+
+Run containers:
+```bash
+docker-compose -f docker-compose.yaml up
+```
 
 ## Internal vs. external networks
 
@@ -66,28 +79,11 @@ You can connect to the cluster using the native TCP interface. The client APIs s
 
 To set up a connection as above, provide gossip seeds to the connection. The client then uses the gossip seeds to begin gossiping information about the cluster.
 
-```csharp
-EventStoreConnection.Create(
-        ConnectionSettings.Create().KeepReconnecting(),
-        ClusterSettings.Create()
-        .WithGossipTimeoutOf(TimeSpan.FromMilliseconds(500))
-        .WithGossipSeeds(new []
-{
-        new IPEndPoint(IPAddress.Parse("192.168.0.1"), 2113),
-        new IPEndPoint(IPAddress.Parse("192.168.0.2"), 2113),
-        new IPEndPoint(IPAddress.Parse("192.168.0.3"), 2113)
-}));
-```
+[!code-csharp[ConnectClusterGossipSeeds](../../EventStore.Samples.Dotnet/DocsExample/Server/ConnectClusterGossipSeeds.cs)]
 
 As in the example above, you can also use DNS to avoid manually specifying the seeds. You add the nodes to a DNS record and then specify that DNS entry to the connection to locate nodes.
 
-```csharp
-EventStoreConnection.Create(ConnectionSettings.Create()
-                            .KeepReconnecting(),
-                            ClusterSettings.Create()
-                            .SetClusterDns("mycluster.com"))
-.SetGossipPort(2113)
-```
+[!code-csharp[ConnectClusterGossipDns](../../EventStore.Samples.Dotnet/DocsExample/Server/ConnectClusterGossipDns.cs)]
 
 The connection automatically reconnects during node failures. You can control this behaviour with options on the [`ConnectionSettings`](xref:EventStore.ClientAPI.ConnectionSettings) such as limiting retry attempts or frequency. The connection and durable subscription even manage a subscription during node failures, you will not receive duplicated messages over your durable subscription.
 

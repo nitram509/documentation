@@ -18,6 +18,23 @@ There are three ways to interact with Event Store:
 2.  [With the HTTP API](~/http-api/index.md).
 3.  With a Client API, which you need to install first. Our documentation covers the [.NET Core client API](~/dotnet-api/index.md) and the [JVM client](https://github.com/EventStore/EventStore.JVM) but [others](~/getting-started/which-api-sdk.md) are available.
 
+## Discover Event Store via Admin UI
+
+Event Store ships with GUI called Admin UI, which allows browsing statistics, streams and events manipulation, user management and more. Admin UI is visible under `2113` port, navigate to <http://127.0.0.1:2113/> in your web browser to see it.
+
+> [!TIP]
+> The default username and password is `admin:changeit`
+
+![The Admin UI Dashboard](~/images/es-web-admin-dashboard.png)
+
+## First call to HTTP API
+
+Event Store expose HTTP API that allows cross-platform integration. API is exposed under the same port `2113` as Admin UI. For example `curl -i http://127.0.0.1:2113/stats` for the HTTP API.
+
+## Connecting to Event Store
+
+Get on the fast-track with native SDK for your language of choice. Full list of supported SDS's available [here](~/getting-started/which-api-sdk.md).
+
 ### [.NET client](#tab/tabid-dotnet-client)
 
 [Install the .NET client API](https://www.nuget.org/packages/EventStore.Client) using your preferred method.
@@ -32,6 +49,7 @@ And require it in your code:
 
 ```csharp
 using EventStore.ClientAPI;
+using EventStore.ClientAPI.SystemData;
 ```
 
 ### [JVM client](#tab/tabid-jvm-client)
@@ -52,25 +70,13 @@ And import it in your code.
 
 * * *
 
-## Connecting to Event Store
-
-If you want to use the Admin UI or the HTTP API, then you use port `2113`. For example, <http://127.0.0.1:2113/> in your web browser, or `curl -i http://127.0.0.1:2113` for the HTTP API.
-
-> [!TIP]
-> The default username and password is `admin:changeit`
-
-![The Admin UI Dashboard](~/images/es-web-admin-dashboard.png)
-
 To use a client API, you use port `1113` and create a connection:
 
 ### [.NET client](#tab/tabid-dotnet-client-connect)
 
 When using the .NET client, you also need to give the connection a name.
 
-```bash
-var conn = EventStoreConnection.Create(new Uri("tcp://admin:changeit@localhost:1113"));
-conn.ConnectAsync().Wait();
-```
+[!code-csharp[getting-started-connection](../../EventStore.Samples.Dotnet/DocsExample/Program.cs?start=32&end=34)]
 
 > [!NEXT]
 > In this example we used the [`EventStoreConnection.Create()`](xref:EventStore.ClientAPI.EventStoreConnection.Create(System.String,System.String)) overloaded method but [others are available](xref:EventStore.ClientAPI.EventStoreConnection).
@@ -114,11 +120,11 @@ Use the following cURL command, passing the name of the stream and the events to
 > [!NOTE]
 > You can also post events to the HTTP API as XML, by changing the `Content-Type` header to `XML`.
 
-### [.NET API](#tab/tabid-5)
+### [.NET client](#tab/tabid-5)
 
-To use the .NET API, use the following method, passing the name of the stream, the version, and the events to write:
+To use the .NET client, use the following method, passing the name of the stream, the version, and the events to write:
 
-[!code-csharp[getting-started-write-event-request](../../EventStore.Samples.Dotnet/DocsExample/Program.cs?range=95-99)]
+[!code-csharp[getting-started-write-event-request](../../EventStore.Samples.Dotnet/DocsExample/GettingStarted/ConnectEventStore.cs?range=12-17)]
 
 > [!NEXT]
 > Read [this guide](~/http-api/creating-writing-a-stream.md) for more information on how to write events with the .NET API. We don't cover version checking in this guide, but you can read more in [the optimistic concurrency guide](~/dotnet-api/optimistic-concurrency-and-idempotence.md).

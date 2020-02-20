@@ -138,6 +138,8 @@
       href: server/64-bit-index.md
     - name: Scavenging
       href: server/scavenging.md
+    - name: Production checklist
+      href: server/production-checklist.md
     - name: Setting up Varnish in Linux
       href: server/setting-up-varnish-in-linux.md
     - name: Uninstalling Event Store
