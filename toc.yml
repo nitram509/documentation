@@ -36,8 +36,12 @@
       href: dotnet-api/users.md
     - name: Security
       href: dotnet-api/security.md
-    - name: Code documentation
-      href: dotnet-api/code/toc.yml
+    - name: .NET API
+      items:
+        - name: V5
+          href: dotnet-api/code/v5/toc.yml
+        - name: V6
+          href: dotnet-api/code/v6/toc.yml
 - name: HTTP API
   items:
     - name: Overview
@@ -78,8 +82,12 @@
           href: http-api/optional-http-headers/trusted-intermediary.md
     - name: Security
       href: http-api/security.md
-    - name: HTTP API spec
-      href: http-api/swagger.json
+    - name: HTTP API
+      items:
+        - name: V5
+          href: http-api/5/swagger.json
+        - name: V6
+          href: http-api/6/swagger.json
 - name: Projections
   items:
     - name: Overview

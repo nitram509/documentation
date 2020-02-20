@@ -3,17 +3,28 @@
     {
       "src": [
         {
-          "src": "../EventStore",
+          "src": "../es-v5-release",
           "files": [
             "src/EventStore.ClientAPI/*.csproj",
             "src/EventStore.Projections.Core/*.csproj"
           ]
         }
       ],
-      "dest": "dotnet-api/code",
-      "properties": {
-        "TargetFramework": "netstandard2.0"
-      },
+      "dest": "dotnet-api/code/v5",
+      "filter": "filterConfig.yml"
+    },
+    {
+      "src": [
+        {
+          "src": "../es-v6-release",
+          "files": [
+            "src/EventStore.Client/*.csproj",
+            "src/EventStore.ClientAPI/*.csproj",
+            "src/EventStore.Projections.Core/*.csproj"
+          ]
+        }
+      ],
+      "dest": "dotnet-api/code/v6",
       "filter": "filterConfig.yml"
     }
   ],
@@ -32,7 +43,10 @@
     },
     "content": [
       {
-        "files": "http-api/swagger.json"
+        "files": "http-api/5/swagger.json"
+      },
+      {
+        "files": "http-api/6/swagger.json"
       },
       {
         "files": [
@@ -440,8 +454,8 @@
     "template": [
       "default",
       "../es-docs-template",
-      "../dfx-plugins/rest.tagpage.2.45.0/",
-      "../dfx-plugins/rest.operationpage.2.45.0/content"
+      "plugins/rest.tagpage.2.49.0/content",
+      "plugins/rest.operationpage.2.49.0/content"
     ]
   }
 }
