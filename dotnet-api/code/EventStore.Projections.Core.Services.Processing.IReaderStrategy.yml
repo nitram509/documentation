@@ -18,8 +18,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IReaderStrategy
   type: Interface
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: IReaderStrategy
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
     startLine: 5
   assemblies:
   - EventStore.Projections.Core
@@ -45,8 +49,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IReaderStrategy.IsReadingOrderRepeatable
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: IsReadingOrderRepeatable
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core
@@ -74,8 +82,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IReaderStrategy.EventFilter
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EventFilter
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
     startLine: 7
   assemblies:
   - EventStore.Projections.Core
@@ -103,8 +115,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IReaderStrategy.PositionTagger
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: PositionTagger
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core
@@ -132,8 +148,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IReaderStrategy.CreateReaderSubscription(EventStore.Core.Bus.IPublisher, EventStore.Projections.Core.Services.Processing.CheckpointTag, Guid, EventStore.Projections.Core.Services.Processing.ReaderSubscriptionOptions)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CreateReaderSubscription
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
     startLine: 10
   assemblies:
   - EventStore.Projections.Core
@@ -165,8 +185,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IReaderStrategy.CreatePausedEventReader(Guid, EventStore.Core.Bus.IPublisher, EventStore.Core.Helpers.IODispatcher, EventStore.Projections.Core.Services.Processing.CheckpointTag, System.Boolean, System.Nullable<System.Int32>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CreatePausedEventReader
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
     startLine: 14
   assemblies:
   - EventStore.Projections.Core
@@ -205,18 +229,10 @@ references:
   nameWithType: IReaderStrategy.IsReadingOrderRepeatable
   fullName: EventStore.Projections.Core.Services.Processing.IReaderStrategy.IsReadingOrderRepeatable
 - uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.IReaderStrategy.EventFilter*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.IReaderStrategy.EventFilter
   name: EventFilter
@@ -290,8 +306,7 @@ references:
   nameWithType: IODispatcher
   fullName: EventStore.Core.Helpers.IODispatcher
 - uid: System.Nullable{System.Int32}
-  commentId: T:System.Nullable{System.Int32}
-  parent: System
+  commentId: '!:System.Nullable{System.Int32}'
   definition: System.Nullable`1
   name: Nullable<Int32>
   nameWithType: Nullable<Int32>
@@ -345,14 +360,13 @@ references:
   nameWithType: EventStore.Core.Helpers
   fullName: EventStore.Core.Helpers
 - uid: System.Nullable`1
-  commentId: T:System.Nullable`1
   isExternal: true
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
@@ -362,9 +376,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -377,9 +391,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )

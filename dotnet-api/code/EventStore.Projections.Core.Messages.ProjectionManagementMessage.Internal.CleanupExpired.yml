@@ -14,9 +14,13 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.CleanupExpired
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CleanupExpired
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 867
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 868
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -49,9 +53,13 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.CleanupExpired.MsgTypeId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 870
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 871
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -78,8 +86,6 @@ references:
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -96,12 +102,6 @@ references:
   name: NextMsgId
   nameWithType: Message.NextMsgId
   fullName: EventStore.Core.Messaging.Message.NextMsgId
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Core.Messaging
   commentId: N:EventStore.Core.Messaging
   name: EventStore.Core.Messaging
@@ -119,8 +119,6 @@ references:
   nameWithType: ProjectionManagementMessage.Internal.CleanupExpired.MsgTypeId
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.CleanupExpired.MsgTypeId
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

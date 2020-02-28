@@ -14,8 +14,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ReaderSubscriptionDispatcher.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ReaderSubscriptionDispatcher
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ReaderSubscriptionDispatcher.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ReaderSubscriptionDispatcher.cs
     startLine: 5
   assemblies:
   - EventStore.Projections.Core
@@ -59,8 +63,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher.ReaderSubscriptionDispatcher(EventStore.Core.Bus.IPublisher)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ReaderSubscriptionDispatcher.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ReaderSubscriptionDispatcher.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ReaderSubscriptionDispatcher.cs
     startLine: 9
   assemblies:
   - EventStore.Projections.Core
@@ -83,8 +91,6 @@ references:
   nameWithType: EventStore.Projections.Core.Services
   fullName: EventStore.Projections.Core.Services
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -588,12 +594,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Projections.Core.Services.PublishSubscribeDispatcher`4
   commentId: T:EventStore.Projections.Core.Services.PublishSubscribeDispatcher`4
   name: PublishSubscribeDispatcher<TGuid, TSubscribeRequest, TControlMessageBase, TResponseBase>

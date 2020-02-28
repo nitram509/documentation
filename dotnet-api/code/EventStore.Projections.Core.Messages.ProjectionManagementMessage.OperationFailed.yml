@@ -16,9 +16,13 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.OperationFailed
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: OperationFailed
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 573
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 574
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -55,9 +59,13 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.OperationFailed.MsgTypeId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 576
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 577
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -89,9 +97,13 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.OperationFailed.OperationFailed(System.String)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 582
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 583
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -118,9 +130,13 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.OperationFailed.Reason
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Reason
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 586
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 587
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -144,8 +160,6 @@ references:
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -162,12 +176,6 @@ references:
   name: NextMsgId
   nameWithType: Message.NextMsgId
   fullName: EventStore.Core.Messaging.Message.NextMsgId
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Core.Messaging
   commentId: N:EventStore.Core.Messaging
   name: EventStore.Core.Messaging
@@ -185,8 +193,6 @@ references:
   nameWithType: ProjectionManagementMessage.OperationFailed.MsgTypeId
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.OperationFailed.MsgTypeId
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -197,8 +203,6 @@ references:
   nameWithType: ProjectionManagementMessage.OperationFailed.OperationFailed
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.OperationFailed.OperationFailed
 - uid: System.String
-  commentId: T:System.String
-  parent: System
   isExternal: true
   name: String
   nameWithType: String

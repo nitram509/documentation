@@ -17,8 +17,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventFilter
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventFilter.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EventByTypeIndexEventFilter
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventFilter.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventFilter.cs
     startLine: 5
   assemblies:
   - EventStore.Projections.Core
@@ -53,8 +57,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventFilter.EventByTypeIndexEventFilter(HashSet<System.String>)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventFilter.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventFilter.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventFilter.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core
@@ -85,8 +93,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventFilter.DeletedNotificationPasses(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventFilter.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: DeletedNotificationPasses
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventFilter.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventFilter.cs
     startLine: 14
   assemblies:
   - EventStore.Projections.Core
@@ -119,8 +131,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventFilter.PassesSource(System.Boolean, System.String, System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventFilter.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: PassesSource
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventFilter.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventFilter.cs
     startLine: 18
   assemblies:
   - EventStore.Projections.Core
@@ -157,8 +173,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventFilter.GetCategory(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventFilter.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GetCategory
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventFilter.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventFilter.cs
     startLine: 23
   assemblies:
   - EventStore.Projections.Core
@@ -186,8 +206,6 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -324,12 +342,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventFilter.#ctor*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventFilter.#ctor
   name: EventByTypeIndexEventFilter
@@ -461,15 +473,11 @@ references:
   nameWithType: EventByTypeIndexEventFilter.DeletedNotificationPasses
   fullName: EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventFilter.DeletedNotificationPasses
 - uid: System.String
-  commentId: T:System.String
-  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
 - uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

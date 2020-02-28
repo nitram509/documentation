@@ -17,8 +17,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.ComponentStopped
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ComponentStopped
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
     startLine: 86
   assemblies:
   - EventStore.Projections.Core
@@ -52,8 +56,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.ComponentStopped.MsgTypeId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
     startLine: 89
   assemblies:
   - EventStore.Projections.Core
@@ -86,8 +94,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.ComponentStopped.ComponentName
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ComponentName
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
     startLine: 93
   assemblies:
   - EventStore.Projections.Core
@@ -117,8 +129,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.ComponentStopped.InstanceCorrelationId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: InstanceCorrelationId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
     startLine: 94
   assemblies:
   - EventStore.Projections.Core
@@ -148,8 +164,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.ComponentStopped.ComponentStopped(System.String, Guid)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
     startLine: 96
   assemblies:
   - EventStore.Projections.Core
@@ -174,8 +194,6 @@ references:
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -192,12 +210,6 @@ references:
   name: NextMsgId
   nameWithType: Message.NextMsgId
   fullName: EventStore.Core.Messaging.Message.NextMsgId
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Core.Messaging
   commentId: N:EventStore.Core.Messaging
   name: EventStore.Core.Messaging
@@ -215,8 +227,6 @@ references:
   nameWithType: ProjectionSubsystemMessage.ComponentStopped.MsgTypeId
   fullName: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.ComponentStopped.MsgTypeId
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -227,8 +237,6 @@ references:
   nameWithType: ProjectionSubsystemMessage.ComponentStopped.ComponentName
   fullName: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.ComponentStopped.ComponentName
 - uid: System.String
-  commentId: T:System.String
-  parent: System
   isExternal: true
   name: String
   nameWithType: String

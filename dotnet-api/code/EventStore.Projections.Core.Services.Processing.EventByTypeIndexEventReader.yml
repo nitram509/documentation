@@ -5,7 +5,7 @@ items:
   id: EventByTypeIndexEventReader
   parent: EventStore.Projections.Core.Services.Processing
   children:
-  - EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventReader.#ctor(EventStore.Core.Bus.IPublisher,Guid,IPrincipal,System.String[],System.Boolean,EventStore.Core.Data.TFPos,Dictionary{System.String,System.Int64},System.Boolean,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean)
+  - EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventReader.#ctor(EventStore.Core.Bus.IPublisher,Guid,ClaimsPrincipal,System.String[],System.Boolean,EventStore.Core.Data.TFPos,Dictionary{System.String,System.Int64},System.Boolean,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean)
   - EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventReader.AreEventsRequested
   - EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventReader.Dispose
   - EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventReader.MaxReadCount
@@ -18,8 +18,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventReader
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EventByTypeIndexEventReader
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventReader.cs
     startLine: 17
   assemblies:
   - EventStore.Projections.Core
@@ -73,8 +77,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventReader.MaxReadCount
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MaxReadCount
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventReader.cs
     startLine: 18
   assemblies:
   - EventStore.Projections.Core
@@ -90,33 +98,37 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventReader.#ctor(EventStore.Core.Bus.IPublisher,Guid,IPrincipal,System.String[],System.Boolean,EventStore.Core.Data.TFPos,Dictionary{System.String,System.Int64},System.Boolean,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean)
-  commentId: M:EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventReader.#ctor(EventStore.Core.Bus.IPublisher,Guid,IPrincipal,System.String[],System.Boolean,EventStore.Core.Data.TFPos,Dictionary{System.String,System.Int64},System.Boolean,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean)
-  id: '#ctor(EventStore.Core.Bus.IPublisher,Guid,IPrincipal,System.String[],System.Boolean,EventStore.Core.Data.TFPos,Dictionary{System.String,System.Int64},System.Boolean,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean)'
+- uid: EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventReader.#ctor(EventStore.Core.Bus.IPublisher,Guid,ClaimsPrincipal,System.String[],System.Boolean,EventStore.Core.Data.TFPos,Dictionary{System.String,System.Int64},System.Boolean,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean)
+  commentId: M:EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventReader.#ctor(EventStore.Core.Bus.IPublisher,Guid,ClaimsPrincipal,System.String[],System.Boolean,EventStore.Core.Data.TFPos,Dictionary{System.String,System.Int64},System.Boolean,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean)
+  id: '#ctor(EventStore.Core.Bus.IPublisher,Guid,ClaimsPrincipal,System.String[],System.Boolean,EventStore.Core.Data.TFPos,Dictionary{System.String,System.Int64},System.Boolean,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean)'
   parent: EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventReader
   langs:
   - csharp
   - vb
-  name: EventByTypeIndexEventReader(IPublisher, Guid, IPrincipal, String[], Boolean, TFPos, Dictionary<String, Int64>, Boolean, ITimeProvider, Boolean)
-  nameWithType: EventByTypeIndexEventReader.EventByTypeIndexEventReader(IPublisher, Guid, IPrincipal, String[], Boolean, TFPos, Dictionary<String, Int64>, Boolean, ITimeProvider, Boolean)
-  fullName: EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventReader.EventByTypeIndexEventReader(EventStore.Core.Bus.IPublisher, Guid, IPrincipal, System.String[], System.Boolean, EventStore.Core.Data.TFPos, Dictionary<System.String, System.Int64>, System.Boolean, EventStore.Core.Services.TimerService.ITimeProvider, System.Boolean)
+  name: EventByTypeIndexEventReader(IPublisher, Guid, ClaimsPrincipal, String[], Boolean, TFPos, Dictionary<String, Int64>, Boolean, ITimeProvider, Boolean)
+  nameWithType: EventByTypeIndexEventReader.EventByTypeIndexEventReader(IPublisher, Guid, ClaimsPrincipal, String[], Boolean, TFPos, Dictionary<String, Int64>, Boolean, ITimeProvider, Boolean)
+  fullName: EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventReader.EventByTypeIndexEventReader(EventStore.Core.Bus.IPublisher, Guid, ClaimsPrincipal, System.String[], System.Boolean, EventStore.Core.Data.TFPos, Dictionary<System.String, System.Int64>, System.Boolean, EventStore.Core.Services.TimerService.ITimeProvider, System.Boolean)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventReader.cs
     startLine: 42
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
   syntax:
-    content: public EventByTypeIndexEventReader(IPublisher publisher, Guid eventReaderCorrelationId, IPrincipal readAs, string[] eventTypes, bool includeDeletedStreamNotification, TFPos fromTfPosition, Dictionary<string, long> fromPositions, bool resolveLinkTos, ITimeProvider timeProvider, bool stopOnEof = false)
+    content: public EventByTypeIndexEventReader(IPublisher publisher, Guid eventReaderCorrelationId, ClaimsPrincipal readAs, string[] eventTypes, bool includeDeletedStreamNotification, TFPos fromTfPosition, Dictionary<string, long> fromPositions, bool resolveLinkTos, ITimeProvider timeProvider, bool stopOnEof = false)
     parameters:
     - id: publisher
       type: EventStore.Core.Bus.IPublisher
     - id: eventReaderCorrelationId
       type: Guid
     - id: readAs
-      type: IPrincipal
+      type: ClaimsPrincipal
     - id: eventTypes
       type: System.String[]
     - id: includeDeletedStreamNotification
@@ -131,15 +143,15 @@ items:
       type: EventStore.Core.Services.TimerService.ITimeProvider
     - id: stopOnEof
       type: System.Boolean
-    content.vb: Public Sub New(publisher As IPublisher, eventReaderCorrelationId As Guid, readAs As IPrincipal, eventTypes As String(), includeDeletedStreamNotification As Boolean, fromTfPosition As TFPos, fromPositions As Dictionary(Of String, Long), resolveLinkTos As Boolean, timeProvider As ITimeProvider, stopOnEof As Boolean = False)
+    content.vb: Public Sub New(publisher As IPublisher, eventReaderCorrelationId As Guid, readAs As ClaimsPrincipal, eventTypes As String(), includeDeletedStreamNotification As Boolean, fromTfPosition As TFPos, fromPositions As Dictionary(Of String, Long), resolveLinkTos As Boolean, timeProvider As ITimeProvider, stopOnEof As Boolean = False)
   overload: EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventReader.#ctor*
-  nameWithType.vb: EventByTypeIndexEventReader.EventByTypeIndexEventReader(IPublisher, Guid, IPrincipal, String(), Boolean, TFPos, Dictionary(Of String, Int64), Boolean, ITimeProvider, Boolean)
+  nameWithType.vb: EventByTypeIndexEventReader.EventByTypeIndexEventReader(IPublisher, Guid, ClaimsPrincipal, String(), Boolean, TFPos, Dictionary(Of String, Int64), Boolean, ITimeProvider, Boolean)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventReader.EventByTypeIndexEventReader(EventStore.Core.Bus.IPublisher, Guid, IPrincipal, System.String(), System.Boolean, EventStore.Core.Data.TFPos, Dictionary(Of System.String, System.Int64), System.Boolean, EventStore.Core.Services.TimerService.ITimeProvider, System.Boolean)
-  name.vb: EventByTypeIndexEventReader(IPublisher, Guid, IPrincipal, String(), Boolean, TFPos, Dictionary(Of String, Int64), Boolean, ITimeProvider, Boolean)
+  fullName.vb: EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventReader.EventByTypeIndexEventReader(EventStore.Core.Bus.IPublisher, Guid, ClaimsPrincipal, System.String(), System.Boolean, EventStore.Core.Data.TFPos, Dictionary(Of System.String, System.Int64), System.Boolean, EventStore.Core.Services.TimerService.ITimeProvider, System.Boolean)
+  name.vb: EventByTypeIndexEventReader(IPublisher, Guid, ClaimsPrincipal, String(), Boolean, TFPos, Dictionary(Of String, Int64), Boolean, ITimeProvider, Boolean)
 - uid: EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventReader.Dispose
   commentId: M:EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventReader.Dispose
   id: Dispose
@@ -152,8 +164,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventReader.Dispose()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Dispose
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventReader.cs
     startLine: 84
   assemblies:
   - EventStore.Projections.Core
@@ -181,8 +197,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventReader.RequestEvents()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: RequestEvents
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventReader.cs
     startLine: 89
   assemblies:
   - EventStore.Projections.Core
@@ -210,8 +230,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventByTypeIndexEventReader.AreEventsRequested()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: AreEventsRequested
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexEventReader.cs
     startLine: 95
   assemblies:
   - EventStore.Projections.Core
@@ -236,8 +260,6 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -789,15 +811,7 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -818,11 +832,11 @@ references:
   name: Guid
   nameWithType: Guid
   fullName: Guid
-- uid: IPrincipal
+- uid: ClaimsPrincipal
   isExternal: true
-  name: IPrincipal
-  nameWithType: IPrincipal
-  fullName: IPrincipal
+  name: ClaimsPrincipal
+  nameWithType: ClaimsPrincipal
+  fullName: ClaimsPrincipal
 - uid: System.String[]
   isExternal: true
   name: String[]
@@ -850,8 +864,6 @@ references:
     nameWithType: ()
     fullName: ()
 - uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

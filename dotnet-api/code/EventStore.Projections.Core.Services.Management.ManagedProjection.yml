@@ -44,9 +44,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ManagedProjection
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 24
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 25
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -78,9 +82,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.ManagedProjection(Guid, Guid, System.Int64, System.String, System.Boolean, EventStore.Common.Log.ILogger, EventStore.Core.Messaging.RequestResponseDispatcher<EventStore.Core.Messages.ClientMessage.DeleteStream, EventStore.Core.Messages.ClientMessage.DeleteStreamCompleted>, EventStore.Core.Messaging.RequestResponseDispatcher<EventStore.Core.Messages.ClientMessage.WriteEvents, EventStore.Core.Messages.ClientMessage.WriteEventsCompleted>, EventStore.Core.Messaging.RequestResponseDispatcher<EventStore.Core.Messages.ClientMessage.ReadStreamEventsBackward, EventStore.Core.Messages.ClientMessage.ReadStreamEventsBackwardCompleted>, EventStore.Core.Bus.IPublisher, EventStore.Core.Services.TimerService.ITimeProvider, EventStore.Core.Messaging.RequestResponseDispatcher<EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.GetState, EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.StateReport>, EventStore.Core.Messaging.RequestResponseDispatcher<EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.GetResult, EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ResultReport>, EventStore.Core.Helpers.IODispatcher, TimeSpan)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 120
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 121
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -138,9 +146,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.Deleted
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Deleted
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 186
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 187
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -169,9 +181,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.Deleting
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Deleting
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 191
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 192
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -200,9 +216,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.Id
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Id
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 196
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 197
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -231,9 +251,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.Mode
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Mode
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 200
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 201
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -262,18 +286,22 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.RunAs
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: RunAs
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 204
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 205
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
   syntax:
-    content: public IPrincipal RunAs { get; }
+    content: public ClaimsPrincipal RunAs { get; }
     parameters: []
     return:
-      type: IPrincipal
-    content.vb: Public ReadOnly Property RunAs As IPrincipal
+      type: ClaimsPrincipal
+    content.vb: Public ReadOnly Property RunAs As ClaimsPrincipal
   overload: EventStore.Projections.Core.Services.Management.ManagedProjection.RunAs*
   modifiers.csharp:
   - public
@@ -293,9 +321,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.Dispose()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Dispose
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 257
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 258
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -319,9 +351,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.GetStatistics()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GetStatistics
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 261
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 262
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -347,9 +383,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.GetState)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 296
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 297
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -376,9 +416,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.GetResult)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 311
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 312
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -405,9 +449,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.GetQuery)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 327
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 328
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -434,9 +482,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.UpdateQuery)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 352
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 353
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -463,9 +515,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Disable)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 362
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 363
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -492,9 +548,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Abort)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 370
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 371
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -521,9 +581,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Enable)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 378
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 379
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -550,9 +614,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.SetRunAs)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 398
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 399
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -579,9 +647,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Delete)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 407
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 408
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -608,9 +680,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.GetConfig)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 438
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 439
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -637,9 +713,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.UpdateConfig)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 453
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 454
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -666,9 +746,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.DeleteProjectionStreams()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: DeleteProjectionStreams
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 477
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 478
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -692,9 +776,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Reset)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 514
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 515
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -721,9 +809,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.CleanupExpired)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 524
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 525
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -750,9 +842,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 545
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 546
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -779,9 +875,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Stopped)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 549
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 550
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -808,9 +908,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Faulted)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 556
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 557
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -837,9 +941,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Prepared)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 560
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 561
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -866,9 +974,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.StatisticsReport)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 564
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 565
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -895,9 +1007,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.InitializeNew(EventStore.Projections.Core.Services.Management.ManagedProjection.PersistedState, EventStore.Core.Messaging.IEnvelope)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: InitializeNew
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 594
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 595
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -926,9 +1042,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.InitializeExisting(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: InitializeExisting
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 602
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 603
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -955,9 +1075,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.Fault(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Fault
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 920
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 921
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -984,9 +1108,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.PrepareOrWriteStartOrLoadStopped()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: PrepareOrWriteStartOrLoadStopped
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 988
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 989
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -1005,18 +1133,10 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Management
   fullName: EventStore.Projections.Core.Services.Management
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Projections.Core.Services.Management.ManagedProjection.#ctor*
   commentId: Overload:EventStore.Projections.Core.Services.Management.ManagedProjection.#ctor
   name: ManagedProjection
@@ -1028,22 +1148,16 @@ references:
   nameWithType: Guid
   fullName: Guid
 - uid: System.Int64
-  commentId: T:System.Int64
-  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
 - uid: System.String
-  commentId: T:System.String
-  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
 - uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -1456,11 +1570,11 @@ references:
   name: RunAs
   nameWithType: ManagedProjection.RunAs
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjection.RunAs
-- uid: IPrincipal
+- uid: ClaimsPrincipal
   isExternal: true
-  name: IPrincipal
-  nameWithType: IPrincipal
-  fullName: IPrincipal
+  name: ClaimsPrincipal
+  nameWithType: ClaimsPrincipal
+  fullName: ClaimsPrincipal
 - uid: EventStore.Projections.Core.Services.Management.ManagedProjection.Dispose*
   commentId: Overload:EventStore.Projections.Core.Services.Management.ManagedProjection.Dispose
   name: Dispose

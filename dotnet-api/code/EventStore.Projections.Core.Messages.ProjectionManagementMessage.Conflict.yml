@@ -15,9 +15,13 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Conflict
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Conflict
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 615
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 616
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -52,9 +56,13 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Conflict.MsgTypeId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 618
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 619
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -86,9 +94,13 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Conflict.Conflict(System.String)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 622
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 623
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -110,8 +122,6 @@ references:
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -140,12 +150,6 @@ references:
   name: NextMsgId
   nameWithType: Message.NextMsgId
   fullName: EventStore.Core.Messaging.Message.NextMsgId
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Core.Messaging
   commentId: N:EventStore.Core.Messaging
   name: EventStore.Core.Messaging
@@ -163,8 +167,6 @@ references:
   nameWithType: ProjectionManagementMessage.Conflict.MsgTypeId
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Conflict.MsgTypeId
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -175,8 +177,6 @@ references:
   nameWithType: ProjectionManagementMessage.Conflict.Conflict
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Conflict.Conflict
 - uid: System.String
-  commentId: T:System.String
-  parent: System
   isExternal: true
   name: String
   nameWithType: String

@@ -5,7 +5,7 @@ items:
   id: MultiStreamMultiOutputCheckpointManager
   parent: EventStore.Projections.Core.Services.Processing
   children:
-  - EventStore.Projections.Core.Services.Processing.MultiStreamMultiOutputCheckpointManager.#ctor(EventStore.Core.Bus.IPublisher,Guid,EventStore.Projections.Core.Services.Processing.ProjectionVersion,IPrincipal,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.ProjectionConfig,System.String,EventStore.Projections.Core.Services.Processing.PositionTagger,EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder,System.Boolean,System.Boolean,System.Boolean,EventStore.Projections.Core.Services.Processing.CoreProjectionCheckpointWriter)
+  - EventStore.Projections.Core.Services.Processing.MultiStreamMultiOutputCheckpointManager.#ctor(EventStore.Core.Bus.IPublisher,Guid,EventStore.Projections.Core.Services.Processing.ProjectionVersion,ClaimsPrincipal,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.ProjectionConfig,System.String,EventStore.Projections.Core.Services.Processing.PositionTagger,EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder,System.Boolean,System.Boolean,System.Boolean,EventStore.Projections.Core.Services.Processing.CoreProjectionCheckpointWriter)
   - EventStore.Projections.Core.Services.Processing.MultiStreamMultiOutputCheckpointManager.BeginLoadPrerecordedEvents(EventStore.Projections.Core.Services.Processing.CheckpointTag)
   - EventStore.Projections.Core.Services.Processing.MultiStreamMultiOutputCheckpointManager.GetStatistics(EventStore.Projections.Core.Services.ProjectionStatistics)
   - EventStore.Projections.Core.Services.Processing.MultiStreamMultiOutputCheckpointManager.Handle(CoreProjectionProcessingMessage.EmittedStreamAwaiting)
@@ -21,8 +21,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.MultiStreamMultiOutputCheckpointManager
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/MultiStreamMultiOutputCheckpointManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MultiStreamMultiOutputCheckpointManager
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamMultiOutputCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamMultiOutputCheckpointManager.cs
     startLine: 12
   assemblies:
   - EventStore.Projections.Core
@@ -91,26 +95,30 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: EventStore.Projections.Core.Services.Processing.MultiStreamMultiOutputCheckpointManager.#ctor(EventStore.Core.Bus.IPublisher,Guid,EventStore.Projections.Core.Services.Processing.ProjectionVersion,IPrincipal,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.ProjectionConfig,System.String,EventStore.Projections.Core.Services.Processing.PositionTagger,EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder,System.Boolean,System.Boolean,System.Boolean,EventStore.Projections.Core.Services.Processing.CoreProjectionCheckpointWriter)
-  commentId: M:EventStore.Projections.Core.Services.Processing.MultiStreamMultiOutputCheckpointManager.#ctor(EventStore.Core.Bus.IPublisher,Guid,EventStore.Projections.Core.Services.Processing.ProjectionVersion,IPrincipal,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.ProjectionConfig,System.String,EventStore.Projections.Core.Services.Processing.PositionTagger,EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder,System.Boolean,System.Boolean,System.Boolean,EventStore.Projections.Core.Services.Processing.CoreProjectionCheckpointWriter)
-  id: '#ctor(EventStore.Core.Bus.IPublisher,Guid,EventStore.Projections.Core.Services.Processing.ProjectionVersion,IPrincipal,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.ProjectionConfig,System.String,EventStore.Projections.Core.Services.Processing.PositionTagger,EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder,System.Boolean,System.Boolean,System.Boolean,EventStore.Projections.Core.Services.Processing.CoreProjectionCheckpointWriter)'
+- uid: EventStore.Projections.Core.Services.Processing.MultiStreamMultiOutputCheckpointManager.#ctor(EventStore.Core.Bus.IPublisher,Guid,EventStore.Projections.Core.Services.Processing.ProjectionVersion,ClaimsPrincipal,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.ProjectionConfig,System.String,EventStore.Projections.Core.Services.Processing.PositionTagger,EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder,System.Boolean,System.Boolean,System.Boolean,EventStore.Projections.Core.Services.Processing.CoreProjectionCheckpointWriter)
+  commentId: M:EventStore.Projections.Core.Services.Processing.MultiStreamMultiOutputCheckpointManager.#ctor(EventStore.Core.Bus.IPublisher,Guid,EventStore.Projections.Core.Services.Processing.ProjectionVersion,ClaimsPrincipal,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.ProjectionConfig,System.String,EventStore.Projections.Core.Services.Processing.PositionTagger,EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder,System.Boolean,System.Boolean,System.Boolean,EventStore.Projections.Core.Services.Processing.CoreProjectionCheckpointWriter)
+  id: '#ctor(EventStore.Core.Bus.IPublisher,Guid,EventStore.Projections.Core.Services.Processing.ProjectionVersion,ClaimsPrincipal,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.ProjectionConfig,System.String,EventStore.Projections.Core.Services.Processing.PositionTagger,EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder,System.Boolean,System.Boolean,System.Boolean,EventStore.Projections.Core.Services.Processing.CoreProjectionCheckpointWriter)'
   parent: EventStore.Projections.Core.Services.Processing.MultiStreamMultiOutputCheckpointManager
   langs:
   - csharp
   - vb
-  name: MultiStreamMultiOutputCheckpointManager(IPublisher, Guid, ProjectionVersion, IPrincipal, IODispatcher, ProjectionConfig, String, PositionTagger, ProjectionNamesBuilder, Boolean, Boolean, Boolean, CoreProjectionCheckpointWriter)
-  nameWithType: MultiStreamMultiOutputCheckpointManager.MultiStreamMultiOutputCheckpointManager(IPublisher, Guid, ProjectionVersion, IPrincipal, IODispatcher, ProjectionConfig, String, PositionTagger, ProjectionNamesBuilder, Boolean, Boolean, Boolean, CoreProjectionCheckpointWriter)
-  fullName: EventStore.Projections.Core.Services.Processing.MultiStreamMultiOutputCheckpointManager.MultiStreamMultiOutputCheckpointManager(EventStore.Core.Bus.IPublisher, Guid, EventStore.Projections.Core.Services.Processing.ProjectionVersion, IPrincipal, EventStore.Core.Helpers.IODispatcher, EventStore.Projections.Core.Services.ProjectionConfig, System.String, EventStore.Projections.Core.Services.Processing.PositionTagger, EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder, System.Boolean, System.Boolean, System.Boolean, EventStore.Projections.Core.Services.Processing.CoreProjectionCheckpointWriter)
+  name: MultiStreamMultiOutputCheckpointManager(IPublisher, Guid, ProjectionVersion, ClaimsPrincipal, IODispatcher, ProjectionConfig, String, PositionTagger, ProjectionNamesBuilder, Boolean, Boolean, Boolean, CoreProjectionCheckpointWriter)
+  nameWithType: MultiStreamMultiOutputCheckpointManager.MultiStreamMultiOutputCheckpointManager(IPublisher, Guid, ProjectionVersion, ClaimsPrincipal, IODispatcher, ProjectionConfig, String, PositionTagger, ProjectionNamesBuilder, Boolean, Boolean, Boolean, CoreProjectionCheckpointWriter)
+  fullName: EventStore.Projections.Core.Services.Processing.MultiStreamMultiOutputCheckpointManager.MultiStreamMultiOutputCheckpointManager(EventStore.Core.Bus.IPublisher, Guid, EventStore.Projections.Core.Services.Processing.ProjectionVersion, ClaimsPrincipal, EventStore.Core.Helpers.IODispatcher, EventStore.Projections.Core.Services.ProjectionConfig, System.String, EventStore.Projections.Core.Services.Processing.PositionTagger, EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder, System.Boolean, System.Boolean, System.Boolean, EventStore.Projections.Core.Services.Processing.CoreProjectionCheckpointWriter)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/MultiStreamMultiOutputCheckpointManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamMultiOutputCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamMultiOutputCheckpointManager.cs
     startLine: 22
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
   syntax:
-    content: public MultiStreamMultiOutputCheckpointManager(IPublisher publisher, Guid projectionCorrelationId, ProjectionVersion projectionVersion, IPrincipal runAs, IODispatcher ioDispatcher, ProjectionConfig projectionConfig, string name, PositionTagger positionTagger, ProjectionNamesBuilder namingBuilder, bool usePersistentCheckpoints, bool producesRunningResults, bool definesFold, CoreProjectionCheckpointWriter coreProjectionCheckpointWriter)
+    content: public MultiStreamMultiOutputCheckpointManager(IPublisher publisher, Guid projectionCorrelationId, ProjectionVersion projectionVersion, ClaimsPrincipal runAs, IODispatcher ioDispatcher, ProjectionConfig projectionConfig, string name, PositionTagger positionTagger, ProjectionNamesBuilder namingBuilder, bool usePersistentCheckpoints, bool producesRunningResults, bool definesFold, CoreProjectionCheckpointWriter coreProjectionCheckpointWriter)
     parameters:
     - id: publisher
       type: EventStore.Core.Bus.IPublisher
@@ -119,7 +127,7 @@ items:
     - id: projectionVersion
       type: EventStore.Projections.Core.Services.Processing.ProjectionVersion
     - id: runAs
-      type: IPrincipal
+      type: ClaimsPrincipal
     - id: ioDispatcher
       type: EventStore.Core.Helpers.IODispatcher
     - id: projectionConfig
@@ -138,7 +146,7 @@ items:
       type: System.Boolean
     - id: coreProjectionCheckpointWriter
       type: EventStore.Projections.Core.Services.Processing.CoreProjectionCheckpointWriter
-    content.vb: Public Sub New(publisher As IPublisher, projectionCorrelationId As Guid, projectionVersion As ProjectionVersion, runAs As IPrincipal, ioDispatcher As IODispatcher, projectionConfig As ProjectionConfig, name As String, positionTagger As PositionTagger, namingBuilder As ProjectionNamesBuilder, usePersistentCheckpoints As Boolean, producesRunningResults As Boolean, definesFold As Boolean, coreProjectionCheckpointWriter As CoreProjectionCheckpointWriter)
+    content.vb: Public Sub New(publisher As IPublisher, projectionCorrelationId As Guid, projectionVersion As ProjectionVersion, runAs As ClaimsPrincipal, ioDispatcher As IODispatcher, projectionConfig As ProjectionConfig, name As String, positionTagger As PositionTagger, namingBuilder As ProjectionNamesBuilder, usePersistentCheckpoints As Boolean, producesRunningResults As Boolean, definesFold As Boolean, coreProjectionCheckpointWriter As CoreProjectionCheckpointWriter)
   overload: EventStore.Projections.Core.Services.Processing.MultiStreamMultiOutputCheckpointManager.#ctor*
   modifiers.csharp:
   - public
@@ -156,8 +164,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.MultiStreamMultiOutputCheckpointManager.Initialize()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/MultiStreamMultiOutputCheckpointManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Initialize
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamMultiOutputCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamMultiOutputCheckpointManager.cs
     startLine: 35
   assemblies:
   - EventStore.Projections.Core
@@ -185,8 +197,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.MultiStreamMultiOutputCheckpointManager.Start(EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Services.Processing.PartitionState)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/MultiStreamMultiOutputCheckpointManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Start
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamMultiOutputCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamMultiOutputCheckpointManager.cs
     startLine: 42
   assemblies:
   - EventStore.Projections.Core
@@ -219,8 +235,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.MultiStreamMultiOutputCheckpointManager.RecordEventOrder(EventStore.Projections.Core.Services.Processing.ResolvedEvent, EventStore.Projections.Core.Services.Processing.CheckpointTag, Action)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/MultiStreamMultiOutputCheckpointManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: RecordEventOrder
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamMultiOutputCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamMultiOutputCheckpointManager.cs
     startLine: 48
   assemblies:
   - EventStore.Projections.Core
@@ -255,8 +275,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.MultiStreamMultiOutputCheckpointManager.GetStatistics(EventStore.Projections.Core.Services.ProjectionStatistics)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/MultiStreamMultiOutputCheckpointManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GetStatistics
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamMultiOutputCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamMultiOutputCheckpointManager.cs
     startLine: 77
   assemblies:
   - EventStore.Projections.Core
@@ -287,8 +311,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.MultiStreamMultiOutputCheckpointManager.BeginLoadPrerecordedEvents(EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/MultiStreamMultiOutputCheckpointManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: BeginLoadPrerecordedEvents
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamMultiOutputCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamMultiOutputCheckpointManager.cs
     startLine: 87
   assemblies:
   - EventStore.Projections.Core
@@ -319,8 +347,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.MultiStreamMultiOutputCheckpointManager.Handle(CoreProjectionProcessingMessage.EmittedStreamAwaiting)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/MultiStreamMultiOutputCheckpointManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamMultiOutputCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamMultiOutputCheckpointManager.cs
     startLine: 224
   assemblies:
   - EventStore.Projections.Core
@@ -350,8 +382,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.MultiStreamMultiOutputCheckpointManager.Handle(CoreProjectionProcessingMessage.EmittedStreamWriteCompleted)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/MultiStreamMultiOutputCheckpointManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamMultiOutputCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamMultiOutputCheckpointManager.cs
     startLine: 230
   assemblies:
   - EventStore.Projections.Core
@@ -376,8 +412,6 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -1805,12 +1839,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Core.Bus.IHandle`1
   commentId: T:EventStore.Core.Bus.IHandle`1
   name: IHandle<T>
@@ -1879,11 +1907,11 @@ references:
   name: ProjectionVersion
   nameWithType: ProjectionVersion
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionVersion
-- uid: IPrincipal
+- uid: ClaimsPrincipal
   isExternal: true
-  name: IPrincipal
-  nameWithType: IPrincipal
-  fullName: IPrincipal
+  name: ClaimsPrincipal
+  nameWithType: ClaimsPrincipal
+  fullName: ClaimsPrincipal
 - uid: EventStore.Core.Helpers.IODispatcher
   commentId: T:EventStore.Core.Helpers.IODispatcher
   parent: EventStore.Core.Helpers
@@ -1897,8 +1925,6 @@ references:
   nameWithType: ProjectionConfig
   fullName: EventStore.Projections.Core.Services.ProjectionConfig
 - uid: System.String
-  commentId: T:System.String
-  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -1916,8 +1942,6 @@ references:
   nameWithType: ProjectionNamesBuilder
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder
 - uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

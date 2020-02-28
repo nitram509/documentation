@@ -19,9 +19,13 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.UpdateQuery
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: UpdateQuery
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 266
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 267
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -57,9 +61,13 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.UpdateQuery.MsgTypeId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 269
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 270
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -91,9 +99,13 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.UpdateQuery.UpdateQuery(EventStore.Core.Messaging.IEnvelope, System.String, EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs, System.String, System.String, System.Nullable<System.Boolean>)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 278
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 279
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -133,9 +145,13 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.UpdateQuery.Query
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Query
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 287
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 288
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -164,9 +180,13 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.UpdateQuery.Name
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Name
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 291
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 292
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -195,9 +215,13 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.UpdateQuery.HandlerType
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: HandlerType
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 295
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 296
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -226,9 +250,13 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.UpdateQuery.EmitEnabled
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EmitEnabled
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 299
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 300
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -252,8 +280,6 @@ references:
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -288,12 +314,6 @@ references:
   name: NextMsgId
   nameWithType: Message.NextMsgId
   fullName: EventStore.Core.Messaging.Message.NextMsgId
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Core.Messaging
   commentId: N:EventStore.Core.Messaging
   name: EventStore.Core.Messaging
@@ -311,8 +331,6 @@ references:
   nameWithType: ProjectionManagementMessage.Command.UpdateQuery.MsgTypeId
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.UpdateQuery.MsgTypeId
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -329,8 +347,6 @@ references:
   nameWithType: IEnvelope
   fullName: EventStore.Core.Messaging.IEnvelope
 - uid: System.String
-  commentId: T:System.String
-  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -342,8 +358,7 @@ references:
   nameWithType: ProjectionManagementMessage.RunAs
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs
 - uid: System.Nullable{System.Boolean}
-  commentId: T:System.Nullable{System.Boolean}
-  parent: System
+  commentId: '!:System.Nullable{System.Boolean}'
   definition: System.Nullable`1
   name: Nullable<Boolean>
   nameWithType: Nullable<Boolean>
@@ -386,14 +401,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Nullable`1
-  commentId: T:System.Nullable`1
   isExternal: true
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
@@ -403,9 +417,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -418,9 +432,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )

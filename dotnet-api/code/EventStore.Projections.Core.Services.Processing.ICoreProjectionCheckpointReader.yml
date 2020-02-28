@@ -15,8 +15,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionCheckpointReader
   type: Interface
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ICoreProjectionCheckpointReader
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -42,8 +46,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionCheckpointReader.BeginLoadState()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: BeginLoadState
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core
@@ -64,8 +72,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionCheckpointReader.Initialize()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Initialize
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
     startLine: 5
   assemblies:
   - EventStore.Projections.Core

@@ -18,8 +18,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreAllCatchUpSubscription
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreAllCatchUpSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStoreAllCatchUpSubscription
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreAllCatchUpSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreAllCatchUpSubscription.cs
     startLine: 14
   assemblies:
   - EventStore.ClientAPI
@@ -30,7 +34,6 @@ items:
     content: 'public class EventStoreAllCatchUpSubscription : EventStoreCatchUpSubscription'
     content.vb: >-
       Public Class EventStoreAllCatchUpSubscription
-
           Inherits EventStoreCatchUpSubscription
   inheritance:
   - System.Object
@@ -50,21 +53,14 @@ items:
   - EventStore.ClientAPI.EventStoreCatchUpSubscription.Subscription
   - EventStore.ClientAPI.EventStoreCatchUpSubscription.AllowProcessing
   - EventStore.ClientAPI.EventStoreCatchUpSubscription.ShouldStop
-  - EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop(System.TimeSpan)
+  - EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop(TimeSpan)
   - EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop
   - EventStore.ClientAPI.EventStoreCatchUpSubscription.ReadMissedHistoricEventsAsync
   - EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueuePushedEvent(EventStore.ClientAPI.EventStoreSubscription,EventStore.ClientAPI.ResolvedEvent)
-  - EventStore.ClientAPI.EventStoreCatchUpSubscription.ServerSubscriptionDropped(EventStore.ClientAPI.EventStoreSubscription,EventStore.ClientAPI.SubscriptionDropReason,System.Exception)
-  - EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification(EventStore.ClientAPI.SubscriptionDropReason,System.Exception)
+  - EventStore.ClientAPI.EventStoreCatchUpSubscription.ServerSubscriptionDropped(EventStore.ClientAPI.EventStoreSubscription,EventStore.ClientAPI.SubscriptionDropReason,Exception)
+  - EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification(EventStore.ClientAPI.SubscriptionDropReason,Exception)
   - EventStore.ClientAPI.EventStoreCatchUpSubscription.EnsureProcessingPushQueue
-  - EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction(System.Func{System.Threading.Tasks.Task})
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
+  - EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction(Func{Task})
   modifiers.csharp:
   - public
   - class
@@ -83,8 +79,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreAllCatchUpSubscription.LastProcessedPosition
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreAllCatchUpSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: LastProcessedPosition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreAllCatchUpSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreAllCatchUpSubscription.cs
     startLine: 18
   assemblies:
   - EventStore.ClientAPI
@@ -116,8 +116,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreAllCatchUpSubscription.ReadEventsTillAsync(EventStore.ClientAPI.IEventStoreConnection, System.Boolean, EventStore.ClientAPI.SystemData.UserCredentials, System.Nullable<System.Int64>, System.Nullable<System.Int64>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreAllCatchUpSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ReadEventsTillAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreAllCatchUpSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreAllCatchUpSubscription.cs
     startLine: 56
   assemblies:
   - EventStore.ClientAPI
@@ -143,7 +147,7 @@ items:
       type: System.Nullable{System.Int64}
       description: The event number to read until.
     return:
-      type: System.Threading.Tasks.Task{EventStore.ClientAPI.Position}
+      type: Task{EventStore.ClientAPI.Position}
       description: ''
     content.vb: Protected Overrides Function ReadEventsTillAsync(connection As IEventStoreConnection, resolveLinkTos As Boolean, userCredentials As UserCredentials, lastCommitPosition As Long?, lastEventNumber As Long?) As Task(Of Position)
   overridden: EventStore.ClientAPI.EventStoreCatchUpSubscription.ReadEventsTillAsync(EventStore.ClientAPI.IEventStoreConnection,System.Boolean,EventStore.ClientAPI.SystemData.UserCredentials,System.Nullable{System.Int64},System.Nullable{System.Int64})
@@ -169,8 +173,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreAllCatchUpSubscription.TryProcessAsync(EventStore.ClientAPI.ResolvedEvent)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreAllCatchUpSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: TryProcessAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreAllCatchUpSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreAllCatchUpSubscription.cs
     startLine: 111
   assemblies:
   - EventStore.ClientAPI
@@ -184,7 +192,7 @@ items:
       type: EventStore.ClientAPI.ResolvedEvent
       description: The <xref href="EventStore.ClientAPI.ResolvedEvent" data-throw-if-not-resolved="false"></xref> to process.
     return:
-      type: System.Threading.Tasks.Task
+      type: Task
     content.vb: Protected Overrides Function TryProcessAsync(e As ResolvedEvent) As Task
   overridden: EventStore.ClientAPI.EventStoreCatchUpSubscription.TryProcessAsync(EventStore.ClientAPI.ResolvedEvent)
   overload: EventStore.ClientAPI.EventStoreAllCatchUpSubscription.TryProcessAsync*
@@ -206,17 +214,23 @@ items:
   fullName: EventStore.ClientAPI.EventStoreAllCatchUpSubscription.SubscribeToStreamAsync()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreAllCatchUpSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SubscribeToStreamAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreAllCatchUpSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreAllCatchUpSubscription.cs
     startLine: 136
   assemblies:
   - EventStore.ClientAPI
   namespace: EventStore.ClientAPI
+  summary: "\nSubscribes to the stream.\n"
   example: []
   syntax:
     content: protected override Task SubscribeToStreamAsync()
     return:
-      type: System.Threading.Tasks.Task
+      type: Task
+      description: ''
     content.vb: Protected Overrides Function SubscribeToStreamAsync As Task
   overridden: EventStore.ClientAPI.EventStoreCatchUpSubscription.SubscribeToStreamAsync
   overload: EventStore.ClientAPI.EventStoreAllCatchUpSubscription.SubscribeToStreamAsync*
@@ -238,22 +252,30 @@ items:
   fullName: EventStore.ClientAPI.EventStoreAllCatchUpSubscription.LiveProcessingStarted(EventStore.ClientAPI.EventStoreCatchUpSubscription, EventStore.ClientAPI.Position)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreAllCatchUpSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: LiveProcessingStarted
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreAllCatchUpSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreAllCatchUpSubscription.cs
     startLine: 152
   assemblies:
   - EventStore.ClientAPI
   namespace: EventStore.ClientAPI
+  summary: "\nThe callback invoked when the subscription switches to push notifications.\n"
   example: []
   syntax:
     content: protected override Task LiveProcessingStarted(EventStoreCatchUpSubscription eventStoreCatchUpSubscription, Position lastPosition)
     parameters:
     - id: eventStoreCatchUpSubscription
       type: EventStore.ClientAPI.EventStoreCatchUpSubscription
+      description: ''
     - id: lastPosition
       type: EventStore.ClientAPI.Position
+      description: ''
     return:
-      type: System.Threading.Tasks.Task
+      type: Task
+      description: ''
     content.vb: Protected Overrides Function LiveProcessingStarted(eventStoreCatchUpSubscription As EventStoreCatchUpSubscription, lastPosition As Position) As Task
   overridden: EventStore.ClientAPI.EventStoreCatchUpSubscription.LiveProcessingStarted(EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.Position)
   overload: EventStore.ClientAPI.EventStoreAllCatchUpSubscription.LiveProcessingStarted*
@@ -270,8 +292,6 @@ references:
   nameWithType: EventStore.ClientAPI
   fullName: EventStore.ClientAPI
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -366,41 +386,41 @@ references:
   name: ShouldStop
   nameWithType: EventStoreCatchUpSubscription.ShouldStop
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.ShouldStop
-- uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop(System.TimeSpan)
-  commentId: M:EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop(System.TimeSpan)
+- uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop(TimeSpan)
+  commentId: M:EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop(TimeSpan)
   parent: EventStore.ClientAPI.EventStoreCatchUpSubscription
   isExternal: true
   name: Stop(TimeSpan)
   nameWithType: EventStoreCatchUpSubscription.Stop(TimeSpan)
-  fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop(System.TimeSpan)
+  fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop(TimeSpan)
   spec.csharp:
-  - uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop(System.TimeSpan)
+  - uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop(TimeSpan)
     name: Stop
     nameWithType: EventStoreCatchUpSubscription.Stop
     fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop
   - name: (
     nameWithType: (
     fullName: (
-  - uid: System.TimeSpan
+  - uid: TimeSpan
     name: TimeSpan
     nameWithType: TimeSpan
-    fullName: System.TimeSpan
+    fullName: TimeSpan
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop(System.TimeSpan)
+  - uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop(TimeSpan)
     name: Stop
     nameWithType: EventStoreCatchUpSubscription.Stop
     fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop
   - name: (
     nameWithType: (
     fullName: (
-  - uid: System.TimeSpan
+  - uid: TimeSpan
     name: TimeSpan
     nameWithType: TimeSpan
-    fullName: System.TimeSpan
+    fullName: TimeSpan
     isExternal: true
   - name: )
     nameWithType: )
@@ -511,15 +531,15 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.ServerSubscriptionDropped(EventStore.ClientAPI.EventStoreSubscription,EventStore.ClientAPI.SubscriptionDropReason,System.Exception)
-  commentId: M:EventStore.ClientAPI.EventStoreCatchUpSubscription.ServerSubscriptionDropped(EventStore.ClientAPI.EventStoreSubscription,EventStore.ClientAPI.SubscriptionDropReason,System.Exception)
+- uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.ServerSubscriptionDropped(EventStore.ClientAPI.EventStoreSubscription,EventStore.ClientAPI.SubscriptionDropReason,Exception)
+  commentId: M:EventStore.ClientAPI.EventStoreCatchUpSubscription.ServerSubscriptionDropped(EventStore.ClientAPI.EventStoreSubscription,EventStore.ClientAPI.SubscriptionDropReason,Exception)
   parent: EventStore.ClientAPI.EventStoreCatchUpSubscription
   isExternal: true
   name: ServerSubscriptionDropped(EventStoreSubscription, SubscriptionDropReason, Exception)
   nameWithType: EventStoreCatchUpSubscription.ServerSubscriptionDropped(EventStoreSubscription, SubscriptionDropReason, Exception)
-  fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.ServerSubscriptionDropped(EventStore.ClientAPI.EventStoreSubscription, EventStore.ClientAPI.SubscriptionDropReason, System.Exception)
+  fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.ServerSubscriptionDropped(EventStore.ClientAPI.EventStoreSubscription, EventStore.ClientAPI.SubscriptionDropReason, Exception)
   spec.csharp:
-  - uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.ServerSubscriptionDropped(EventStore.ClientAPI.EventStoreSubscription,EventStore.ClientAPI.SubscriptionDropReason,System.Exception)
+  - uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.ServerSubscriptionDropped(EventStore.ClientAPI.EventStoreSubscription,EventStore.ClientAPI.SubscriptionDropReason,Exception)
     name: ServerSubscriptionDropped
     nameWithType: EventStoreCatchUpSubscription.ServerSubscriptionDropped
     fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.ServerSubscriptionDropped
@@ -540,16 +560,16 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: System.Exception
+  - uid: Exception
     name: Exception
     nameWithType: Exception
-    fullName: System.Exception
+    fullName: Exception
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.ServerSubscriptionDropped(EventStore.ClientAPI.EventStoreSubscription,EventStore.ClientAPI.SubscriptionDropReason,System.Exception)
+  - uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.ServerSubscriptionDropped(EventStore.ClientAPI.EventStoreSubscription,EventStore.ClientAPI.SubscriptionDropReason,Exception)
     name: ServerSubscriptionDropped
     nameWithType: EventStoreCatchUpSubscription.ServerSubscriptionDropped
     fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.ServerSubscriptionDropped
@@ -570,23 +590,23 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: System.Exception
+  - uid: Exception
     name: Exception
     nameWithType: Exception
-    fullName: System.Exception
+    fullName: Exception
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification(EventStore.ClientAPI.SubscriptionDropReason,System.Exception)
-  commentId: M:EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification(EventStore.ClientAPI.SubscriptionDropReason,System.Exception)
+- uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification(EventStore.ClientAPI.SubscriptionDropReason,Exception)
+  commentId: M:EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification(EventStore.ClientAPI.SubscriptionDropReason,Exception)
   parent: EventStore.ClientAPI.EventStoreCatchUpSubscription
   isExternal: true
   name: EnqueueSubscriptionDropNotification(SubscriptionDropReason, Exception)
   nameWithType: EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification(SubscriptionDropReason, Exception)
-  fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification(EventStore.ClientAPI.SubscriptionDropReason, System.Exception)
+  fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification(EventStore.ClientAPI.SubscriptionDropReason, Exception)
   spec.csharp:
-  - uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification(EventStore.ClientAPI.SubscriptionDropReason,System.Exception)
+  - uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification(EventStore.ClientAPI.SubscriptionDropReason,Exception)
     name: EnqueueSubscriptionDropNotification
     nameWithType: EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification
     fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification
@@ -600,16 +620,16 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: System.Exception
+  - uid: Exception
     name: Exception
     nameWithType: Exception
-    fullName: System.Exception
+    fullName: Exception
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification(EventStore.ClientAPI.SubscriptionDropReason,System.Exception)
+  - uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification(EventStore.ClientAPI.SubscriptionDropReason,Exception)
     name: EnqueueSubscriptionDropNotification
     nameWithType: EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification
     fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification
@@ -623,10 +643,10 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: System.Exception
+  - uid: Exception
     name: Exception
     nameWithType: Exception
-    fullName: System.Exception
+    fullName: Exception
     isExternal: true
   - name: )
     nameWithType: )
@@ -659,36 +679,36 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction(System.Func{System.Threading.Tasks.Task})
-  commentId: M:EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction(System.Func{System.Threading.Tasks.Task})
+- uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction(Func{Task})
+  commentId: M:EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction(Func{Task})
   parent: EventStore.ClientAPI.EventStoreCatchUpSubscription
   isExternal: true
   name: EnqueueAction(Func<Task>)
   nameWithType: EventStoreCatchUpSubscription.EnqueueAction(Func<Task>)
-  fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction(System.Func<System.Threading.Tasks.Task>)
+  fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction(Func<Task>)
   nameWithType.vb: EventStoreCatchUpSubscription.EnqueueAction(Func(Of Task))
-  fullName.vb: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction(System.Func(Of System.Threading.Tasks.Task))
+  fullName.vb: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction(Func(Of Task))
   name.vb: EnqueueAction(Func(Of Task))
   spec.csharp:
-  - uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction(System.Func{System.Threading.Tasks.Task})
+  - uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction(Func{Task})
     name: EnqueueAction
     nameWithType: EventStoreCatchUpSubscription.EnqueueAction
     fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction
   - name: (
     nameWithType: (
     fullName: (
-  - uid: System.Func`1
+  - uid: Func`1
     name: Func
     nameWithType: Func
-    fullName: System.Func
+    fullName: Func
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - uid: System.Threading.Tasks.Task
+  - uid: Task
     name: Task
     nameWithType: Task
-    fullName: System.Threading.Tasks.Task
+    fullName: Task
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -697,25 +717,25 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction(System.Func{System.Threading.Tasks.Task})
+  - uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction(Func{Task})
     name: EnqueueAction
     nameWithType: EventStoreCatchUpSubscription.EnqueueAction
     fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction
   - name: (
     nameWithType: (
     fullName: (
-  - uid: System.Func`1
+  - uid: Func`1
     name: Func
     nameWithType: Func
-    fullName: System.Func
+    fullName: Func
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: System.Threading.Tasks.Task
+  - uid: Task
     name: Task
     nameWithType: Task
-    fullName: System.Threading.Tasks.Task
+    fullName: Task
     isExternal: true
   - name: )
     nameWithType: )
@@ -723,291 +743,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.ClientAPI.EventStoreAllCatchUpSubscription.LastProcessedPosition*
   commentId: Overload:EventStore.ClientAPI.EventStoreAllCatchUpSubscription.LastProcessedPosition
   name: LastProcessedPosition
@@ -1177,8 +912,6 @@ references:
   nameWithType: IEventStoreConnection
   fullName: EventStore.ClientAPI.IEventStoreConnection
 - uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -1190,8 +923,7 @@ references:
   nameWithType: UserCredentials
   fullName: EventStore.ClientAPI.SystemData.UserCredentials
 - uid: System.Nullable{System.Int64}
-  commentId: T:System.Nullable{System.Int64}
-  parent: System
+  commentId: '!:System.Nullable{System.Int64}'
   definition: System.Nullable`1
   name: Nullable<Int64>
   nameWithType: Nullable<Int64>
@@ -1233,21 +965,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Threading.Tasks.Task{EventStore.ClientAPI.Position}
-  commentId: T:System.Threading.Tasks.Task{EventStore.ClientAPI.Position}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
+- uid: Task{EventStore.ClientAPI.Position}
+  commentId: '!:Task{EventStore.ClientAPI.Position}'
+  definition: Task`1
   name: Task<Position>
   nameWithType: Task<Position>
-  fullName: System.Threading.Tasks.Task<EventStore.ClientAPI.Position>
+  fullName: Task<EventStore.ClientAPI.Position>
   nameWithType.vb: Task(Of Position)
-  fullName.vb: System.Threading.Tasks.Task(Of EventStore.ClientAPI.Position)
+  fullName.vb: Task(Of EventStore.ClientAPI.Position)
   name.vb: Task(Of Position)
   spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
+  - uid: Task`1
     name: Task
     nameWithType: Task
-    fullName: System.Threading.Tasks.Task
+    fullName: Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -1260,10 +991,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Threading.Tasks.Task`1
+  - uid: Task`1
     name: Task
     nameWithType: Task
-    fullName: System.Threading.Tasks.Task
+    fullName: Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -1281,14 +1012,13 @@ references:
   nameWithType: EventStore.ClientAPI.SystemData
   fullName: EventStore.ClientAPI.SystemData
 - uid: System.Nullable`1
-  commentId: T:System.Nullable`1
   isExternal: true
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
@@ -1298,9 +1028,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -1313,57 +1043,50 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Threading.Tasks.Task`1
-  commentId: T:System.Threading.Tasks.Task`1
+- uid: Task`1
   isExternal: true
-  name: Task<TResult>
-  nameWithType: Task<TResult>
-  fullName: System.Threading.Tasks.Task<TResult>
-  nameWithType.vb: Task(Of TResult)
-  fullName.vb: System.Threading.Tasks.Task(Of TResult)
-  name.vb: Task(Of TResult)
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
   spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
+  - uid: Task`1
     name: Task
     nameWithType: Task
-    fullName: System.Threading.Tasks.Task
+    fullName: Task
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: TResult
-    nameWithType: TResult
-    fullName: TResult
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Threading.Tasks.Task`1
+  - uid: Task`1
     name: Task
     nameWithType: Task
-    fullName: System.Threading.Tasks.Task
+    fullName: Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: TResult
-    nameWithType: TResult
-    fullName: TResult
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Threading.Tasks
-  commentId: N:System.Threading.Tasks
-  isExternal: true
-  name: System.Threading.Tasks
-  nameWithType: System.Threading.Tasks
-  fullName: System.Threading.Tasks
 - uid: EventStore.ClientAPI.ResolvedEvent
   commentId: T:EventStore.ClientAPI.ResolvedEvent
   parent: EventStore.ClientAPI
@@ -1411,13 +1134,11 @@ references:
   name: TryProcessAsync
   nameWithType: EventStoreAllCatchUpSubscription.TryProcessAsync
   fullName: EventStore.ClientAPI.EventStoreAllCatchUpSubscription.TryProcessAsync
-- uid: System.Threading.Tasks.Task
-  commentId: T:System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
+- uid: Task
   isExternal: true
   name: Task
   nameWithType: Task
-  fullName: System.Threading.Tasks.Task
+  fullName: Task
 - uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.SubscribeToStreamAsync
   commentId: M:EventStore.ClientAPI.EventStoreCatchUpSubscription.SubscribeToStreamAsync
   parent: EventStore.ClientAPI.EventStoreCatchUpSubscription

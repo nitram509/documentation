@@ -17,7 +17,7 @@ items:
   - EventStore.Projections.Core.Services.ProjectionStatistics.EventsProcessedAfterRestart
   - EventStore.Projections.Core.Services.ProjectionStatistics.GetHashCode
   - EventStore.Projections.Core.Services.ProjectionStatistics.LastCheckpoint
-  - EventStore.Projections.Core.Services.ProjectionStatistics.MasterStatus
+  - EventStore.Projections.Core.Services.ProjectionStatistics.LeaderStatus
   - EventStore.Projections.Core.Services.ProjectionStatistics.Mode
   - EventStore.Projections.Core.Services.ProjectionStatistics.Name
   - EventStore.Projections.Core.Services.ProjectionStatistics.PartitionsCached
@@ -40,8 +40,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionStatistics
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -72,8 +76,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.Status
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Status
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core
@@ -103,8 +111,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.Enabled
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Enabled
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core
@@ -122,31 +134,35 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: EventStore.Projections.Core.Services.ProjectionStatistics.MasterStatus
-  commentId: P:EventStore.Projections.Core.Services.ProjectionStatistics.MasterStatus
-  id: MasterStatus
+- uid: EventStore.Projections.Core.Services.ProjectionStatistics.LeaderStatus
+  commentId: P:EventStore.Projections.Core.Services.ProjectionStatistics.LeaderStatus
+  id: LeaderStatus
   parent: EventStore.Projections.Core.Services.ProjectionStatistics
   langs:
   - csharp
   - vb
-  name: MasterStatus
-  nameWithType: ProjectionStatistics.MasterStatus
-  fullName: EventStore.Projections.Core.Services.ProjectionStatistics.MasterStatus
+  name: LeaderStatus
+  nameWithType: ProjectionStatistics.LeaderStatus
+  fullName: EventStore.Projections.Core.Services.ProjectionStatistics.LeaderStatus
   type: Property
   source:
-    id: MasterStatus
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
+    id: LeaderStatus
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 10
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services
   syntax:
-    content: public ManagedProjectionState MasterStatus { get; set; }
+    content: public ManagedProjectionState LeaderStatus { get; set; }
     parameters: []
     return:
       type: EventStore.Projections.Core.Services.Management.ManagedProjectionState
-    content.vb: Public Property MasterStatus As ManagedProjectionState
-  overload: EventStore.Projections.Core.Services.ProjectionStatistics.MasterStatus*
+    content.vb: Public Property LeaderStatus As ManagedProjectionState
+  overload: EventStore.Projections.Core.Services.ProjectionStatistics.LeaderStatus*
   modifiers.csharp:
   - public
   - get
@@ -165,8 +181,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.StateReason
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StateReason
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 12
   assemblies:
   - EventStore.Projections.Core
@@ -196,8 +216,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.Name
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Name
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 14
   assemblies:
   - EventStore.Projections.Core
@@ -227,8 +251,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.ProjectionId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 16
   assemblies:
   - EventStore.Projections.Core
@@ -258,8 +286,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.Epoch
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Epoch
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 18
   assemblies:
   - EventStore.Projections.Core
@@ -289,8 +321,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.Version
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Version
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 20
   assemblies:
   - EventStore.Projections.Core
@@ -320,8 +356,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.Mode
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Mode
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 22
   assemblies:
   - EventStore.Projections.Core
@@ -351,8 +391,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.Position
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Position
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 24
   assemblies:
   - EventStore.Projections.Core
@@ -382,8 +426,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.Progress
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Progress
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 26
   assemblies:
   - EventStore.Projections.Core
@@ -413,8 +461,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.LastCheckpoint
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: LastCheckpoint
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 28
   assemblies:
   - EventStore.Projections.Core
@@ -444,8 +496,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.EventsProcessedAfterRestart
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EventsProcessedAfterRestart
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 30
   assemblies:
   - EventStore.Projections.Core
@@ -475,8 +531,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.BufferedEvents
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: BufferedEvents
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 32
   assemblies:
   - EventStore.Projections.Core
@@ -506,8 +566,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.CheckpointStatus
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CheckpointStatus
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 34
   assemblies:
   - EventStore.Projections.Core
@@ -537,8 +601,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.WritePendingEventsBeforeCheckpoint
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: WritePendingEventsBeforeCheckpoint
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 36
   assemblies:
   - EventStore.Projections.Core
@@ -568,8 +636,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.WritePendingEventsAfterCheckpoint
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: WritePendingEventsAfterCheckpoint
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 38
   assemblies:
   - EventStore.Projections.Core
@@ -599,8 +671,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.PartitionsCached
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: PartitionsCached
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 40
   assemblies:
   - EventStore.Projections.Core
@@ -630,8 +706,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.ReadsInProgress
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ReadsInProgress
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 42
   assemblies:
   - EventStore.Projections.Core
@@ -661,8 +741,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.WritesInProgress
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: WritesInProgress
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 44
   assemblies:
   - EventStore.Projections.Core
@@ -692,8 +776,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.EffectiveName
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EffectiveName
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 46
   assemblies:
   - EventStore.Projections.Core
@@ -723,8 +811,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.ResultStreamName
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ResultStreamName
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 48
   assemblies:
   - EventStore.Projections.Core
@@ -754,8 +846,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.CoreProcessingTime
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CoreProcessingTime
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 50
   assemblies:
   - EventStore.Projections.Core
@@ -785,8 +881,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.Clone()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Clone
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 52
   assemblies:
   - EventStore.Projections.Core
@@ -813,8 +913,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.Equals(EventStore.Projections.Core.Services.ProjectionStatistics)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Equals
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 56
   assemblies:
   - EventStore.Projections.Core
@@ -844,8 +948,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.Equals(System.Object)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Equals
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 82
   assemblies:
   - EventStore.Projections.Core
@@ -877,8 +985,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.GetHashCode()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GetHashCode
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionStatistics.cs
     startLine: 89
   assemblies:
   - EventStore.Projections.Core
@@ -902,26 +1014,16 @@ references:
   nameWithType: EventStore.Projections.Core.Services
   fullName: EventStore.Projections.Core.Services
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Projections.Core.Services.ProjectionStatistics.Status*
   commentId: Overload:EventStore.Projections.Core.Services.ProjectionStatistics.Status
   name: Status
   nameWithType: ProjectionStatistics.Status
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.Status
 - uid: System.String
-  commentId: T:System.String
-  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -932,17 +1034,15 @@ references:
   nameWithType: ProjectionStatistics.Enabled
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.Enabled
 - uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: EventStore.Projections.Core.Services.ProjectionStatistics.MasterStatus*
-  commentId: Overload:EventStore.Projections.Core.Services.ProjectionStatistics.MasterStatus
-  name: MasterStatus
-  nameWithType: ProjectionStatistics.MasterStatus
-  fullName: EventStore.Projections.Core.Services.ProjectionStatistics.MasterStatus
+- uid: EventStore.Projections.Core.Services.ProjectionStatistics.LeaderStatus*
+  commentId: Overload:EventStore.Projections.Core.Services.ProjectionStatistics.LeaderStatus
+  name: LeaderStatus
+  nameWithType: ProjectionStatistics.LeaderStatus
+  fullName: EventStore.Projections.Core.Services.ProjectionStatistics.LeaderStatus
 - uid: EventStore.Projections.Core.Services.Management.ManagedProjectionState
   commentId: T:EventStore.Projections.Core.Services.Management.ManagedProjectionState
   parent: EventStore.Projections.Core.Services.Management
@@ -970,8 +1070,6 @@ references:
   nameWithType: ProjectionStatistics.ProjectionId
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.ProjectionId
 - uid: System.Int64
-  commentId: T:System.Int64
-  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
@@ -1008,8 +1106,6 @@ references:
   nameWithType: ProjectionStatistics.Progress
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.Progress
 - uid: System.Single
-  commentId: T:System.Single
-  parent: System
   isExternal: true
   name: Single
   nameWithType: Single
@@ -1025,8 +1121,6 @@ references:
   nameWithType: ProjectionStatistics.EventsProcessedAfterRestart
   fullName: EventStore.Projections.Core.Services.ProjectionStatistics.EventsProcessedAfterRestart
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

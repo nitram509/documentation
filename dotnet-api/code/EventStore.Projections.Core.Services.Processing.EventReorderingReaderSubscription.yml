@@ -19,8 +19,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventReorderingReaderSubscription
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReorderingReaderSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EventReorderingReaderSubscription
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReorderingReaderSubscription.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReorderingReaderSubscription.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core
@@ -76,8 +80,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventReorderingReaderSubscription.EventReorderingReaderSubscription(EventStore.Core.Bus.IPublisher, Guid, EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Services.Processing.IReaderStrategy, EventStore.Core.Services.TimerService.ITimeProvider, System.Nullable<System.Int64>, System.Nullable<System.Int32>, System.Int32, System.Int32, System.Boolean, System.Nullable<System.Int32>)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReorderingReaderSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReorderingReaderSubscription.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReorderingReaderSubscription.cs
     startLine: 14
   assemblies:
   - EventStore.Projections.Core
@@ -128,8 +136,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventReorderingReaderSubscription.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.CommittedEventDistributed)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReorderingReaderSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReorderingReaderSubscription.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReorderingReaderSubscription.cs
     startLine: 40
   assemblies:
   - EventStore.Projections.Core
@@ -159,8 +171,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventReorderingReaderSubscription.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderIdle)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReorderingReaderSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReorderingReaderSubscription.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReorderingReaderSubscription.cs
     startLine: 74
   assemblies:
   - EventStore.Projections.Core
@@ -190,8 +206,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventReorderingReaderSubscription.EofReached()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReorderingReaderSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EofReached
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReorderingReaderSubscription.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReorderingReaderSubscription.cs
     startLine: 79
   assemblies:
   - EventStore.Projections.Core
@@ -219,8 +239,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventReorderingReaderSubscription.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionEof)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReorderingReaderSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReorderingReaderSubscription.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReorderingReaderSubscription.cs
     startLine: 84
   assemblies:
   - EventStore.Projections.Core
@@ -250,8 +274,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventReorderingReaderSubscription.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionDeleted)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReorderingReaderSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReorderingReaderSubscription.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReorderingReaderSubscription.cs
     startLine: 88
   assemblies:
   - EventStore.Projections.Core
@@ -276,8 +304,6 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -874,12 +900,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Core.Bus.IHandle`1
   commentId: T:EventStore.Core.Bus.IHandle`1
   name: IHandle<T>
@@ -956,8 +976,7 @@ references:
   nameWithType: ITimeProvider
   fullName: EventStore.Core.Services.TimerService.ITimeProvider
 - uid: System.Nullable{System.Int64}
-  commentId: T:System.Nullable{System.Int64}
-  parent: System
+  commentId: '!:System.Nullable{System.Int64}'
   definition: System.Nullable`1
   name: Nullable<Int64>
   nameWithType: Nullable<Int64>
@@ -1000,8 +1019,7 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Nullable{System.Int32}
-  commentId: T:System.Nullable{System.Int32}
-  parent: System
+  commentId: '!:System.Nullable{System.Int32}'
   definition: System.Nullable`1
   name: Nullable<Int32>
   nameWithType: Nullable<Int32>
@@ -1044,15 +1062,11 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
 - uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -1063,14 +1077,13 @@ references:
   nameWithType: EventStore.Core.Services.TimerService
   fullName: EventStore.Core.Services.TimerService
 - uid: System.Nullable`1
-  commentId: T:System.Nullable`1
   isExternal: true
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
@@ -1080,9 +1093,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -1095,9 +1108,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )

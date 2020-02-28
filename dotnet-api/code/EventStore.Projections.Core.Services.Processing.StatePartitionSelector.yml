@@ -15,8 +15,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StatePartitionSelector
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StatePartitionSelector.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StatePartitionSelector
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StatePartitionSelector.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StatePartitionSelector.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -53,8 +57,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StatePartitionSelector.GetStatePartition(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StatePartitionSelector.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GetStatePartition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StatePartitionSelector.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StatePartitionSelector.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core
@@ -86,8 +94,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StatePartitionSelector.EventReaderBasePartitionDeletedIsSupported()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StatePartitionSelector.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EventReaderBasePartitionDeletedIsSupported
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StatePartitionSelector.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StatePartitionSelector.cs
     startLine: 5
   assemblies:
   - EventStore.Projections.Core
@@ -111,18 +123,10 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.StatePartitionSelector.GetStatePartition*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.StatePartitionSelector.GetStatePartition
   name: GetStatePartition
@@ -135,8 +139,6 @@ references:
   nameWithType: EventReaderSubscriptionMessage.CommittedEventReceived
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived
 - uid: System.String
-  commentId: T:System.String
-  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -152,8 +154,6 @@ references:
   nameWithType: StatePartitionSelector.EventReaderBasePartitionDeletedIsSupported
   fullName: EventStore.Projections.Core.Services.Processing.StatePartitionSelector.EventReaderBasePartitionDeletedIsSupported
 - uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

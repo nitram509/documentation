@@ -18,8 +18,12 @@ items:
   fullName: EventStore.Projections.Core.v8.PreludeScript
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/v8/PreludeScript.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: PreludeScript
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/PreludeScript.cs
+    path: ../EventStore/src/EventStore.Projections.Core/v8/PreludeScript.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core
@@ -50,8 +54,12 @@ items:
   fullName: EventStore.Projections.Core.v8.PreludeScript.PreludeScript(System.String, System.String, Func<System.String, Tuple<System.String, System.String>>, Action<System.Int32, Action>, Action<System.String, System.Object[]>)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/v8/PreludeScript.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/PreludeScript.cs
+    path: ../EventStore/src/EventStore.Projections.Core/v8/PreludeScript.cs
     startLine: 32
   assemblies:
   - EventStore.Projections.Core
@@ -90,8 +98,12 @@ items:
   fullName: EventStore.Projections.Core.v8.PreludeScript.Dispose()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/v8/PreludeScript.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Dispose
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/PreludeScript.cs
+    path: ../EventStore/src/EventStore.Projections.Core/v8/PreludeScript.cs
     startLine: 105
   assemblies:
   - EventStore.Projections.Core
@@ -116,8 +128,12 @@ items:
   fullName: EventStore.Projections.Core.v8.PreludeScript.GetHandle()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/v8/PreludeScript.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GetHandle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/PreludeScript.cs
+    path: ../EventStore/src/EventStore.Projections.Core/v8/PreludeScript.cs
     startLine: 110
   assemblies:
   - EventStore.Projections.Core
@@ -144,8 +160,12 @@ items:
   fullName: EventStore.Projections.Core.v8.PreludeScript.ScheduleTerminateExecution()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/v8/PreludeScript.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ScheduleTerminateExecution
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/PreludeScript.cs
+    path: ../EventStore/src/EventStore.Projections.Core/v8/PreludeScript.cs
     startLine: 140
   assemblies:
   - EventStore.Projections.Core
@@ -170,8 +190,12 @@ items:
   fullName: EventStore.Projections.Core.v8.PreludeScript.CancelTerminateExecution()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/v8/PreludeScript.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CancelTerminateExecution
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/PreludeScript.cs
+    path: ../EventStore/src/EventStore.Projections.Core/v8/PreludeScript.cs
     startLine: 158
   assemblies:
   - EventStore.Projections.Core
@@ -193,26 +217,16 @@ references:
   nameWithType: EventStore.Projections.Core.v8
   fullName: EventStore.Projections.Core.v8
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Projections.Core.v8.PreludeScript.#ctor*
   commentId: Overload:EventStore.Projections.Core.v8.PreludeScript.#ctor
   name: PreludeScript
   nameWithType: PreludeScript.PreludeScript
   fullName: EventStore.Projections.Core.v8.PreludeScript.PreludeScript
 - uid: System.String
-  commentId: T:System.String
-  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -564,8 +578,6 @@ references:
   nameWithType: PreludeScript.CancelTerminateExecution
   fullName: EventStore.Projections.Core.v8.PreludeScript.CancelTerminateExecution
 - uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

@@ -17,8 +17,12 @@ items:
   fullName: EventStore.ClientAPI.EventReadStatus
   type: Enum
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventReadStatus.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EventReadStatus
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventReadStatus.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventReadStatus.cs
     startLine: 4
   assemblies:
   - EventStore.ClientAPI
@@ -26,8 +30,8 @@ items:
   summary: "\nEnumeration representing the status of a single event read operation.\n"
   example: []
   syntax:
-    content: public enum EventReadStatus
-    content.vb: Public Enum EventReadStatus
+    content: 'public enum EventReadStatus : int'
+    content.vb: Public Enum EventReadStatus As Integer
   extensionMethods:
   - EventStore.ClientAPI.EventReadStatus.EventStore.Projections.Core.Utils.EnumExtensions.EnumValueName``1
   modifiers.csharp:
@@ -48,8 +52,12 @@ items:
   fullName: EventStore.ClientAPI.EventReadStatus.Success
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventReadStatus.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Success
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventReadStatus.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventReadStatus.cs
     startLine: 8
   assemblies:
   - EventStore.ClientAPI
@@ -57,9 +65,10 @@ items:
   summary: "\nThe read operation was successful.\n"
   example: []
   syntax:
-    content: Success = 0
+    content: Success = null
     return:
       type: EventStore.ClientAPI.EventReadStatus
+    content.vb: Success = Nothing
   modifiers.csharp:
   - public
   - const
@@ -78,8 +87,12 @@ items:
   fullName: EventStore.ClientAPI.EventReadStatus.NotFound
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventReadStatus.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: NotFound
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventReadStatus.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventReadStatus.cs
     startLine: 13
   assemblies:
   - EventStore.ClientAPI
@@ -87,9 +100,10 @@ items:
   summary: "\nThe event was not found.\n"
   example: []
   syntax:
-    content: NotFound = 1
+    content: NotFound = null
     return:
       type: EventStore.ClientAPI.EventReadStatus
+    content.vb: NotFound = Nothing
   modifiers.csharp:
   - public
   - const
@@ -108,8 +122,12 @@ items:
   fullName: EventStore.ClientAPI.EventReadStatus.NoStream
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventReadStatus.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: NoStream
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventReadStatus.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventReadStatus.cs
     startLine: 18
   assemblies:
   - EventStore.ClientAPI
@@ -117,9 +135,10 @@ items:
   summary: "\nThe stream was not found.\n"
   example: []
   syntax:
-    content: NoStream = 2
+    content: NoStream = null
     return:
       type: EventStore.ClientAPI.EventReadStatus
+    content.vb: NoStream = Nothing
   modifiers.csharp:
   - public
   - const
@@ -138,8 +157,12 @@ items:
   fullName: EventStore.ClientAPI.EventReadStatus.StreamDeleted
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventReadStatus.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamDeleted
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventReadStatus.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventReadStatus.cs
     startLine: 23
   assemblies:
   - EventStore.ClientAPI
@@ -147,9 +170,10 @@ items:
   summary: "\nThe stream previously existed but was deleted.\n"
   example: []
   syntax:
-    content: StreamDeleted = 3
+    content: StreamDeleted = null
     return:
       type: EventStore.ClientAPI.EventReadStatus
+    content.vb: StreamDeleted = Nothing
   modifiers.csharp:
   - public
   - const

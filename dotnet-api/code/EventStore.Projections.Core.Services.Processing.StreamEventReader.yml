@@ -5,7 +5,7 @@ items:
   id: StreamEventReader
   parent: EventStore.Projections.Core.Services.Processing
   children:
-  - EventStore.Projections.Core.Services.Processing.StreamEventReader.#ctor(EventStore.Core.Bus.IPublisher,Guid,IPrincipal,System.String,System.Int64,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,System.Boolean,System.Boolean)
+  - EventStore.Projections.Core.Services.Processing.StreamEventReader.#ctor(EventStore.Core.Bus.IPublisher,Guid,ClaimsPrincipal,System.String,System.Int64,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,System.Boolean,System.Boolean)
   - EventStore.Projections.Core.Services.Processing.StreamEventReader.AreEventsRequested
   - EventStore.Projections.Core.Services.Processing.StreamEventReader.Handle(EventStore.Core.Messages.ClientMessage.ReadStreamEventsForwardCompleted)
   - EventStore.Projections.Core.Services.Processing.StreamEventReader.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.ReadTimeout)
@@ -18,8 +18,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StreamEventReader
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StreamEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamEventReader
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StreamEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StreamEventReader.cs
     startLine: 13
   assemblies:
   - EventStore.Projections.Core
@@ -64,33 +68,37 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: EventStore.Projections.Core.Services.Processing.StreamEventReader.#ctor(EventStore.Core.Bus.IPublisher,Guid,IPrincipal,System.String,System.Int64,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,System.Boolean,System.Boolean)
-  commentId: M:EventStore.Projections.Core.Services.Processing.StreamEventReader.#ctor(EventStore.Core.Bus.IPublisher,Guid,IPrincipal,System.String,System.Int64,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,System.Boolean,System.Boolean)
-  id: '#ctor(EventStore.Core.Bus.IPublisher,Guid,IPrincipal,System.String,System.Int64,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,System.Boolean,System.Boolean)'
+- uid: EventStore.Projections.Core.Services.Processing.StreamEventReader.#ctor(EventStore.Core.Bus.IPublisher,Guid,ClaimsPrincipal,System.String,System.Int64,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:EventStore.Projections.Core.Services.Processing.StreamEventReader.#ctor(EventStore.Core.Bus.IPublisher,Guid,ClaimsPrincipal,System.String,System.Int64,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,System.Boolean,System.Boolean)
+  id: '#ctor(EventStore.Core.Bus.IPublisher,Guid,ClaimsPrincipal,System.String,System.Int64,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,System.Boolean,System.Boolean)'
   parent: EventStore.Projections.Core.Services.Processing.StreamEventReader
   langs:
   - csharp
   - vb
-  name: StreamEventReader(IPublisher, Guid, IPrincipal, String, Int64, ITimeProvider, Boolean, Boolean, Boolean)
-  nameWithType: StreamEventReader.StreamEventReader(IPublisher, Guid, IPrincipal, String, Int64, ITimeProvider, Boolean, Boolean, Boolean)
-  fullName: EventStore.Projections.Core.Services.Processing.StreamEventReader.StreamEventReader(EventStore.Core.Bus.IPublisher, Guid, IPrincipal, System.String, System.Int64, EventStore.Core.Services.TimerService.ITimeProvider, System.Boolean, System.Boolean, System.Boolean)
+  name: StreamEventReader(IPublisher, Guid, ClaimsPrincipal, String, Int64, ITimeProvider, Boolean, Boolean, Boolean)
+  nameWithType: StreamEventReader.StreamEventReader(IPublisher, Guid, ClaimsPrincipal, String, Int64, ITimeProvider, Boolean, Boolean, Boolean)
+  fullName: EventStore.Projections.Core.Services.Processing.StreamEventReader.StreamEventReader(EventStore.Core.Bus.IPublisher, Guid, ClaimsPrincipal, System.String, System.Int64, EventStore.Core.Services.TimerService.ITimeProvider, System.Boolean, System.Boolean, System.Boolean)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StreamEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StreamEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StreamEventReader.cs
     startLine: 28
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
   syntax:
-    content: public StreamEventReader(IPublisher publisher, Guid eventReaderCorrelationId, IPrincipal readAs, string streamName, long fromSequenceNumber, ITimeProvider timeProvider, bool resolveLinkTos, bool produceStreamDeletes, bool stopOnEof = false)
+    content: public StreamEventReader(IPublisher publisher, Guid eventReaderCorrelationId, ClaimsPrincipal readAs, string streamName, long fromSequenceNumber, ITimeProvider timeProvider, bool resolveLinkTos, bool produceStreamDeletes, bool stopOnEof = false)
     parameters:
     - id: publisher
       type: EventStore.Core.Bus.IPublisher
     - id: eventReaderCorrelationId
       type: Guid
     - id: readAs
-      type: IPrincipal
+      type: ClaimsPrincipal
     - id: streamName
       type: System.String
     - id: fromSequenceNumber
@@ -103,7 +111,7 @@ items:
       type: System.Boolean
     - id: stopOnEof
       type: System.Boolean
-    content.vb: Public Sub New(publisher As IPublisher, eventReaderCorrelationId As Guid, readAs As IPrincipal, streamName As String, fromSequenceNumber As Long, timeProvider As ITimeProvider, resolveLinkTos As Boolean, produceStreamDeletes As Boolean, stopOnEof As Boolean = False)
+    content.vb: Public Sub New(publisher As IPublisher, eventReaderCorrelationId As Guid, readAs As ClaimsPrincipal, streamName As String, fromSequenceNumber As Long, timeProvider As ITimeProvider, resolveLinkTos As Boolean, produceStreamDeletes As Boolean, stopOnEof As Boolean = False)
   overload: EventStore.Projections.Core.Services.Processing.StreamEventReader.#ctor*
   modifiers.csharp:
   - public
@@ -121,8 +129,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StreamEventReader.AreEventsRequested()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StreamEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: AreEventsRequested
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StreamEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StreamEventReader.cs
     startLine: 49
   assemblies:
   - EventStore.Projections.Core
@@ -152,8 +164,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StreamEventReader.Handle(EventStore.Core.Messages.ClientMessage.ReadStreamEventsForwardCompleted)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StreamEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StreamEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StreamEventReader.cs
     startLine: 53
   assemblies:
   - EventStore.Projections.Core
@@ -183,8 +199,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StreamEventReader.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.ReadTimeout)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StreamEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StreamEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StreamEventReader.cs
     startLine: 125
   assemblies:
   - EventStore.Projections.Core
@@ -214,8 +234,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StreamEventReader.RequestEvents()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StreamEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: RequestEvents
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StreamEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StreamEventReader.cs
     startLine: 148
   assemblies:
   - EventStore.Projections.Core
@@ -238,8 +262,6 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -899,12 +921,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Core.Bus.IHandle`1
   commentId: T:EventStore.Core.Bus.IHandle`1
   name: IHandle<T>
@@ -962,21 +978,17 @@ references:
   name: Guid
   nameWithType: Guid
   fullName: Guid
-- uid: IPrincipal
+- uid: ClaimsPrincipal
   isExternal: true
-  name: IPrincipal
-  nameWithType: IPrincipal
-  fullName: IPrincipal
+  name: ClaimsPrincipal
+  nameWithType: ClaimsPrincipal
+  fullName: ClaimsPrincipal
 - uid: System.String
-  commentId: T:System.String
-  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
 - uid: System.Int64
-  commentId: T:System.Int64
-  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
@@ -988,8 +1000,6 @@ references:
   nameWithType: ITimeProvider
   fullName: EventStore.Core.Services.TimerService.ITimeProvider
 - uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

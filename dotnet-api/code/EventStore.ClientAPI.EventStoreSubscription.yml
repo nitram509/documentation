@@ -20,8 +20,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreSubscription
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStoreSubscription
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
     startLine: 7
   assemblies:
   - EventStore.ClientAPI
@@ -32,20 +36,9 @@ items:
     content: 'public abstract class EventStoreSubscription : IDisposable'
     content.vb: >-
       Public MustInherit Class EventStoreSubscription
-
-          Implements IDisposable
+          Inherits IDisposable
   inheritance:
   - System.Object
-  implements:
-  - System.IDisposable
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
   modifiers.csharp:
   - public
   - abstract
@@ -66,8 +59,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreSubscription.IsSubscribedToAll
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: IsSubscribedToAll
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
     startLine: 11
   assemblies:
   - EventStore.ClientAPI
@@ -99,8 +96,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreSubscription.StreamId
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
     startLine: 18
   assemblies:
   - EventStore.ClientAPI
@@ -132,8 +133,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreSubscription.LastCommitPosition
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: LastCommitPosition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
     startLine: 24
   assemblies:
   - EventStore.ClientAPI
@@ -163,8 +168,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreSubscription.LastEventNumber
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: LastEventNumber
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
     startLine: 30
   assemblies:
   - EventStore.ClientAPI
@@ -194,8 +203,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreSubscription.Dispose()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Dispose
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
     startLine: 41
   assemblies:
   - EventStore.ClientAPI
@@ -206,8 +219,6 @@ items:
     content: public void Dispose()
     content.vb: Public Sub Dispose
   overload: EventStore.ClientAPI.EventStoreSubscription.Dispose*
-  implements:
-  - System.IDisposable.Dispose
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -224,8 +235,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreSubscription.Close()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Close
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
     startLine: 48
   assemblies:
   - EventStore.ClientAPI
@@ -252,8 +267,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreSubscription.Unsubscribe()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Unsubscribe
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
     startLine: 55
   assemblies:
   - EventStore.ClientAPI
@@ -277,312 +296,16 @@ references:
   nameWithType: EventStore.ClientAPI
   fullName: EventStore.ClientAPI
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
-  isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.ClientAPI.EventStoreSubscription.IsSubscribedToAll*
   commentId: Overload:EventStore.ClientAPI.EventStoreSubscription.IsSubscribedToAll
   name: IsSubscribedToAll
   nameWithType: EventStoreSubscription.IsSubscribedToAll
   fullName: EventStore.ClientAPI.EventStoreSubscription.IsSubscribedToAll
 - uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -593,22 +316,17 @@ references:
   nameWithType: EventStoreSubscription.StreamId
   fullName: EventStore.ClientAPI.EventStoreSubscription.StreamId
 - uid: System.String
-  commentId: T:System.String
-  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
 - uid: System.Int64
-  commentId: T:System.Int64
-  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
 - uid: System.Nullable{System.Int64}
-  commentId: T:System.Nullable{System.Int64}
-  parent: System
+  commentId: '!:System.Nullable{System.Int64}'
   definition: System.Nullable`1
   name: Nullable<Int64>
   nameWithType: Nullable<Int64>
@@ -651,14 +369,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Nullable`1
-  commentId: T:System.Nullable`1
   isExternal: true
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
@@ -668,9 +385,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -683,9 +400,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -694,37 +411,6 @@ references:
   name: Dispose
   nameWithType: EventStoreSubscription.Dispose
   fullName: EventStore.ClientAPI.EventStoreSubscription.Dispose
-- uid: System.IDisposable.Dispose
-  commentId: M:System.IDisposable.Dispose
-  parent: System.IDisposable
-  isExternal: true
-  name: Dispose()
-  nameWithType: IDisposable.Dispose()
-  fullName: System.IDisposable.Dispose()
-  spec.csharp:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    nameWithType: IDisposable.Dispose
-    fullName: System.IDisposable.Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    nameWithType: IDisposable.Dispose
-    fullName: System.IDisposable.Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: EventStore.ClientAPI.EventStoreSubscription.Close*
   commentId: Overload:EventStore.ClientAPI.EventStoreSubscription.Close
   name: Close

@@ -28,8 +28,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjectionState
   type: Enum
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ManagedProjectionState
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
     startLine: 1
   assemblies:
   - EventStore.Projections.Core
@@ -57,8 +61,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjectionState.Creating
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Creating
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
     startLine: 2
   assemblies:
   - EventStore.Projections.Core
@@ -85,8 +93,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjectionState.Loading
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Loading
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -113,8 +125,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjectionState.Loaded
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Loaded
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core
@@ -141,8 +157,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjectionState.Preparing
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Preparing
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
     startLine: 5
   assemblies:
   - EventStore.Projections.Core
@@ -169,8 +189,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjectionState.Prepared
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Prepared
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core
@@ -197,8 +221,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjectionState.Starting
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Starting
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
     startLine: 7
   assemblies:
   - EventStore.Projections.Core
@@ -225,8 +253,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjectionState.LoadingStopped
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: LoadingStopped
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core
@@ -253,8 +285,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjectionState.Running
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Running
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
     startLine: 9
   assemblies:
   - EventStore.Projections.Core
@@ -281,8 +317,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjectionState.Stopping
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Stopping
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
     startLine: 10
   assemblies:
   - EventStore.Projections.Core
@@ -309,8 +349,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjectionState.Aborting
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Aborting
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
     startLine: 11
   assemblies:
   - EventStore.Projections.Core
@@ -337,8 +381,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjectionState.Stopped
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Stopped
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
     startLine: 12
   assemblies:
   - EventStore.Projections.Core
@@ -365,8 +413,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjectionState.Completed
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Completed
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
     startLine: 13
   assemblies:
   - EventStore.Projections.Core
@@ -393,8 +445,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjectionState.Aborted
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Aborted
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
     startLine: 14
   assemblies:
   - EventStore.Projections.Core
@@ -421,8 +477,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjectionState.Faulted
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Faulted
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
     startLine: 15
   assemblies:
   - EventStore.Projections.Core
@@ -449,8 +509,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ManagedProjectionState.Deleting
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Deleting
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjectionState.cs
     startLine: 16
   assemblies:
   - EventStore.Projections.Core

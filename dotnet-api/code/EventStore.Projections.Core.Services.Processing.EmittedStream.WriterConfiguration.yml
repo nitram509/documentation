@@ -5,7 +5,7 @@ items:
   id: EmittedStream.WriterConfiguration
   parent: EventStore.Projections.Core.Services.Processing
   children:
-  - EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.#ctor(EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter,EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.StreamMetadata,IPrincipal,System.Int32,EventStore.Common.Log.ILogger)
+  - EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.#ctor(EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter,EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.StreamMetadata,ClaimsPrincipal,System.Int32,EventStore.Common.Log.ILogger)
   - EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.Logger
   - EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.MaxAge
   - EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.MaxCount
@@ -20,8 +20,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: WriterConfiguration
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
     startLine: 68
   assemblies:
   - EventStore.Projections.Core
@@ -40,38 +44,42 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.#ctor(EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter,EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.StreamMetadata,IPrincipal,System.Int32,EventStore.Common.Log.ILogger)
-  commentId: M:EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.#ctor(EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter,EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.StreamMetadata,IPrincipal,System.Int32,EventStore.Common.Log.ILogger)
-  id: '#ctor(EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter,EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.StreamMetadata,IPrincipal,System.Int32,EventStore.Common.Log.ILogger)'
+- uid: EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.#ctor(EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter,EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.StreamMetadata,ClaimsPrincipal,System.Int32,EventStore.Common.Log.ILogger)
+  commentId: M:EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.#ctor(EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter,EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.StreamMetadata,ClaimsPrincipal,System.Int32,EventStore.Common.Log.ILogger)
+  id: '#ctor(EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter,EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.StreamMetadata,ClaimsPrincipal,System.Int32,EventStore.Common.Log.ILogger)'
   parent: EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration
   langs:
   - csharp
   - vb
-  name: WriterConfiguration(IEmittedStreamsWriter, EmittedStream.WriterConfiguration.StreamMetadata, IPrincipal, Int32, ILogger)
-  nameWithType: EmittedStream.WriterConfiguration.WriterConfiguration(IEmittedStreamsWriter, EmittedStream.WriterConfiguration.StreamMetadata, IPrincipal, Int32, ILogger)
-  fullName: EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.WriterConfiguration(EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter, EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.StreamMetadata, IPrincipal, System.Int32, EventStore.Common.Log.ILogger)
+  name: WriterConfiguration(IEmittedStreamsWriter, EmittedStream.WriterConfiguration.StreamMetadata, ClaimsPrincipal, Int32, ILogger)
+  nameWithType: EmittedStream.WriterConfiguration.WriterConfiguration(IEmittedStreamsWriter, EmittedStream.WriterConfiguration.StreamMetadata, ClaimsPrincipal, Int32, ILogger)
+  fullName: EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.WriterConfiguration(EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter, EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.StreamMetadata, ClaimsPrincipal, System.Int32, EventStore.Common.Log.ILogger)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
     startLine: 96
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
   syntax:
-    content: public WriterConfiguration(IEmittedStreamsWriter writer, EmittedStream.WriterConfiguration.StreamMetadata streamMetadata, IPrincipal writeAs, int maxWriteBatchLength, ILogger logger = null)
+    content: public WriterConfiguration(IEmittedStreamsWriter writer, EmittedStream.WriterConfiguration.StreamMetadata streamMetadata, ClaimsPrincipal writeAs, int maxWriteBatchLength, ILogger logger = null)
     parameters:
     - id: writer
       type: EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter
     - id: streamMetadata
       type: EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.StreamMetadata
     - id: writeAs
-      type: IPrincipal
+      type: ClaimsPrincipal
     - id: maxWriteBatchLength
       type: System.Int32
     - id: logger
       type: EventStore.Common.Log.ILogger
-    content.vb: Public Sub New(writer As IEmittedStreamsWriter, streamMetadata As EmittedStream.WriterConfiguration.StreamMetadata, writeAs As IPrincipal, maxWriteBatchLength As Integer, logger As ILogger = Nothing)
+    content.vb: Public Sub New(writer As IEmittedStreamsWriter, streamMetadata As EmittedStream.WriterConfiguration.StreamMetadata, writeAs As ClaimsPrincipal, maxWriteBatchLength As Integer, logger As ILogger = Nothing)
   overload: EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.#ctor*
   modifiers.csharp:
   - public
@@ -89,18 +97,22 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.WriteAs
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: WriteAs
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
     startLine: 109
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
   syntax:
-    content: public IPrincipal WriteAs { get; }
+    content: public ClaimsPrincipal WriteAs { get; }
     parameters: []
     return:
-      type: IPrincipal
-    content.vb: Public ReadOnly Property WriteAs As IPrincipal
+      type: ClaimsPrincipal
+    content.vb: Public ReadOnly Property WriteAs As ClaimsPrincipal
   overload: EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.WriteAs*
   modifiers.csharp:
   - public
@@ -120,8 +132,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.MaxWriteBatchLength
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MaxWriteBatchLength
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
     startLine: 113
   assemblies:
   - EventStore.Projections.Core
@@ -151,8 +167,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.Logger
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Logger
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
     startLine: 117
   assemblies:
   - EventStore.Projections.Core
@@ -182,8 +202,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.MaxCount
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MaxCount
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
     startLine: 121
   assemblies:
   - EventStore.Projections.Core
@@ -213,8 +237,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.MaxAge
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MaxAge
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
     startLine: 125
   assemblies:
   - EventStore.Projections.Core
@@ -244,8 +272,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.Writer
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Writer
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
     startLine: 129
   assemblies:
   - EventStore.Projections.Core
@@ -270,18 +302,10 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.#ctor*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.#ctor
   name: WriterConfiguration
@@ -299,14 +323,12 @@ references:
   name: EmittedStream.WriterConfiguration.StreamMetadata
   nameWithType: EmittedStream.WriterConfiguration.StreamMetadata
   fullName: EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.StreamMetadata
-- uid: IPrincipal
+- uid: ClaimsPrincipal
   isExternal: true
-  name: IPrincipal
-  nameWithType: IPrincipal
-  fullName: IPrincipal
+  name: ClaimsPrincipal
+  nameWithType: ClaimsPrincipal
+  fullName: ClaimsPrincipal
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -343,8 +365,7 @@ references:
   nameWithType: EmittedStream.WriterConfiguration.MaxCount
   fullName: EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.MaxCount
 - uid: System.Nullable{System.Int32}
-  commentId: T:System.Nullable{System.Int32}
-  parent: System
+  commentId: '!:System.Nullable{System.Int32}'
   definition: System.Nullable`1
   name: Nullable<Int32>
   nameWithType: Nullable<Int32>
@@ -387,14 +408,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Nullable`1
-  commentId: T:System.Nullable`1
   isExternal: true
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
@@ -404,9 +424,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -419,9 +439,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )

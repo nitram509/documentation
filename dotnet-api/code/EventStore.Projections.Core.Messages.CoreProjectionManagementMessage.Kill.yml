@@ -15,8 +15,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.Kill
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Kill
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
     startLine: 43
   assemblies:
   - EventStore.Projections.Core
@@ -54,8 +58,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.Kill.MsgTypeId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
     startLine: 46
   assemblies:
   - EventStore.Projections.Core
@@ -88,8 +96,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.Kill.Kill(Guid, Guid)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
     startLine: 50
   assemblies:
   - EventStore.Projections.Core
@@ -114,8 +126,6 @@ references:
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -156,12 +166,6 @@ references:
   name: NextMsgId
   nameWithType: Message.NextMsgId
   fullName: EventStore.Core.Messaging.Message.NextMsgId
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Core.Messaging
   commentId: N:EventStore.Core.Messaging
   name: EventStore.Core.Messaging
@@ -179,8 +183,6 @@ references:
   nameWithType: CoreProjectionManagementMessage.Kill.MsgTypeId
   fullName: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.Kill.MsgTypeId
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

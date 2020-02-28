@@ -16,8 +16,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionsController.ReadEventsBody
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ReadEventsBody
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
     startLine: 337
   assemblies:
   - EventStore.Projections.Core
@@ -48,8 +52,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionsController.ReadEventsBody.Query
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Query
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
     startLine: 338
   assemblies:
   - EventStore.Projections.Core
@@ -79,8 +87,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionsController.ReadEventsBody.Position
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Position
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
     startLine: 339
   assemblies:
   - EventStore.Projections.Core
@@ -110,8 +122,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionsController.ReadEventsBody.MaxEvents
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MaxEvents
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
     startLine: 340
   assemblies:
   - EventStore.Projections.Core
@@ -136,18 +152,10 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Http
   fullName: EventStore.Projections.Core.Services.Http
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Projections.Core.Services.Http.ProjectionsController.ReadEventsBody.Query*
   commentId: Overload:EventStore.Projections.Core.Services.Http.ProjectionsController.ReadEventsBody.Query
   name: Query
@@ -181,8 +189,7 @@ references:
   nameWithType: ProjectionsController.ReadEventsBody.MaxEvents
   fullName: EventStore.Projections.Core.Services.Http.ProjectionsController.ReadEventsBody.MaxEvents
 - uid: System.Nullable{System.Int32}
-  commentId: T:System.Nullable{System.Int32}
-  parent: System
+  commentId: '!:System.Nullable{System.Int32}'
   definition: System.Nullable`1
   name: Nullable<Int32>
   nameWithType: Nullable<Int32>
@@ -225,14 +232,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Nullable`1
-  commentId: T:System.Nullable`1
   isExternal: true
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
@@ -242,9 +248,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -257,9 +263,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )

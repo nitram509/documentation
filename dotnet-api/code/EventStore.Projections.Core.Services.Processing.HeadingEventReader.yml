@@ -21,8 +21,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.HeadingEventReader
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/HeadingEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: HeadingEventReader
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/HeadingEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/HeadingEventReader.cs
     startLine: 7
   assemblies:
   - EventStore.Projections.Core
@@ -53,8 +57,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.HeadingEventReader.HeadingEventReader(System.Int32, EventStore.Core.Bus.IPublisher)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/HeadingEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/HeadingEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/HeadingEventReader.cs
     startLine: 71
   assemblies:
   - EventStore.Projections.Core
@@ -84,8 +92,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.HeadingEventReader.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.CommittedEventDistributed)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/HeadingEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/HeadingEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/HeadingEventReader.cs
     startLine: 76
   assemblies:
   - EventStore.Projections.Core
@@ -115,8 +127,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.HeadingEventReader.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionDeleted)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/HeadingEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/HeadingEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/HeadingEventReader.cs
     startLine: 90
   assemblies:
   - EventStore.Projections.Core
@@ -146,8 +162,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.HeadingEventReader.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderIdle)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/HeadingEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/HeadingEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/HeadingEventReader.cs
     startLine: 103
   assemblies:
   - EventStore.Projections.Core
@@ -177,8 +197,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.HeadingEventReader.Start(Guid, EventStore.Projections.Core.Services.Processing.IEventReader)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/HeadingEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Start
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/HeadingEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/HeadingEventReader.cs
     startLine: 130
   assemblies:
   - EventStore.Projections.Core
@@ -208,8 +232,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.HeadingEventReader.Stop()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/HeadingEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Stop
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/HeadingEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/HeadingEventReader.cs
     startLine: 140
   assemblies:
   - EventStore.Projections.Core
@@ -234,8 +262,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.HeadingEventReader.TrySubscribe(Guid, EventStore.Projections.Core.Services.Processing.IReaderSubscription, System.Int64)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/HeadingEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: TrySubscribe
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/HeadingEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/HeadingEventReader.cs
     startLine: 147
   assemblies:
   - EventStore.Projections.Core
@@ -269,8 +301,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.HeadingEventReader.Unsubscribe(Guid)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/HeadingEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Unsubscribe
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/HeadingEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/HeadingEventReader.cs
     startLine: 165
   assemblies:
   - EventStore.Projections.Core
@@ -293,26 +329,16 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.HeadingEventReader.#ctor*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.HeadingEventReader.#ctor
   name: HeadingEventReader
   nameWithType: HeadingEventReader.HeadingEventReader
   fullName: EventStore.Projections.Core.Services.Processing.HeadingEventReader.HeadingEventReader
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -340,8 +366,6 @@ references:
   nameWithType: ReaderSubscriptionMessage.CommittedEventDistributed
   fullName: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.CommittedEventDistributed
 - uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -396,8 +420,6 @@ references:
   nameWithType: IReaderSubscription
   fullName: EventStore.Projections.Core.Services.Processing.IReaderSubscription
 - uid: System.Int64
-  commentId: T:System.Int64
-  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64

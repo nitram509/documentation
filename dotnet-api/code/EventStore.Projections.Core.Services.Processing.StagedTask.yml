@@ -16,8 +16,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StagedTask
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StagedTask
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
     startLine: 256
   assemblies:
   - EventStore.Projections.Core
@@ -52,8 +56,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StagedTask.InitialCorrelationId
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: InitialCorrelationId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
     startLine: 257
   assemblies:
   - EventStore.Projections.Core
@@ -81,8 +89,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StagedTask.StagedTask(System.Object)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
     startLine: 259
   assemblies:
   - EventStore.Projections.Core
@@ -110,8 +122,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StagedTask.Process(System.Int32, Action<System.Int32, System.Object>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Process
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
     startLine: 263
   assemblies:
   - EventStore.Projections.Core
@@ -141,18 +157,10 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.StagedTask.#ctor*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.StagedTask.#ctor
   name: StagedTask
@@ -164,8 +172,6 @@ references:
   nameWithType: StagedTask.Process
   fullName: EventStore.Projections.Core.Services.Processing.StagedTask.Process
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

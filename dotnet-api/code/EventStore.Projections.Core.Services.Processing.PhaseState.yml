@@ -17,8 +17,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.PhaseState
   type: Enum
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: PhaseState
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
     startLine: 5
   assemblies:
   - EventStore.Projections.Core
@@ -46,8 +50,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.PhaseState.Unknown
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Unknown
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core
@@ -74,8 +82,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.PhaseState.Stopped
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Stopped
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
     startLine: 7
   assemblies:
   - EventStore.Projections.Core
@@ -102,8 +114,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.PhaseState.Starting
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Starting
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core
@@ -130,8 +146,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.PhaseState.Running
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Running
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
     startLine: 9
   assemblies:
   - EventStore.Projections.Core

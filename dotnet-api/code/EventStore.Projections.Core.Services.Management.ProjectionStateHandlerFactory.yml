@@ -14,8 +14,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionStateHandlerFactory
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionStateHandlerFactory.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionStateHandlerFactory
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionStateHandlerFactory.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionStateHandlerFactory.cs
     startLine: 5
   assemblies:
   - EventStore.Projections.Core
@@ -46,8 +50,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionStateHandlerFactory.Create(System.String, System.String, Action<System.Int32, Action>, Action<System.String, System.Object[]>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionStateHandlerFactory.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Create
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionStateHandlerFactory.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionStateHandlerFactory.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core
@@ -81,26 +89,16 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Management
   fullName: EventStore.Projections.Core.Services.Management
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Projections.Core.Services.Management.ProjectionStateHandlerFactory.Create*
   commentId: Overload:EventStore.Projections.Core.Services.Management.ProjectionStateHandlerFactory.Create
   name: Create
   nameWithType: ProjectionStateHandlerFactory.Create
   fullName: EventStore.Projections.Core.Services.Management.ProjectionStateHandlerFactory.Create
 - uid: System.String
-  commentId: T:System.String
-  parent: System
   isExternal: true
   name: String
   nameWithType: String

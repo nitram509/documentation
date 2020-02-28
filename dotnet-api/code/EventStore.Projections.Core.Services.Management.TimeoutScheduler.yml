@@ -15,8 +15,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.TimeoutScheduler
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/TimeoutScheduler.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: TimeoutScheduler
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/TimeoutScheduler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/TimeoutScheduler.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core
@@ -51,8 +55,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.TimeoutScheduler.Tick()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/TimeoutScheduler.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Tick
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/TimeoutScheduler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/TimeoutScheduler.cs
     startLine: 12
   assemblies:
   - EventStore.Projections.Core
@@ -77,8 +85,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.TimeoutScheduler.Schedule(System.Int32, Action)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/TimeoutScheduler.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Schedule
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/TimeoutScheduler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/TimeoutScheduler.cs
     startLine: 24
   assemblies:
   - EventStore.Projections.Core
@@ -105,8 +117,6 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Management
   fullName: EventStore.Projections.Core.Services.Management
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -117,12 +127,6 @@ references:
   name: ISingletonTimeoutScheduler
   nameWithType: ISingletonTimeoutScheduler
   fullName: EventStore.Projections.Core.Services.ISingletonTimeoutScheduler
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Projections.Core.Services
   commentId: N:EventStore.Projections.Core.Services
   name: EventStore.Projections.Core.Services
@@ -194,8 +198,6 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

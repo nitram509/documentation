@@ -22,8 +22,12 @@ items:
   fullName: EventStore.Projections.Core.Services.IProjectionStateHandler
   type: Interface
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: IProjectionStateHandler
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
     startLine: 12
   assemblies:
   - EventStore.Projections.Core
@@ -57,8 +61,12 @@ items:
   fullName: EventStore.Projections.Core.Services.IProjectionStateHandler.Load(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Load
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
     startLine: 13
   assemblies:
   - EventStore.Projections.Core
@@ -82,8 +90,12 @@ items:
   fullName: EventStore.Projections.Core.Services.IProjectionStateHandler.LoadShared(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: LoadShared
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
     startLine: 14
   assemblies:
   - EventStore.Projections.Core
@@ -107,8 +119,12 @@ items:
   fullName: EventStore.Projections.Core.Services.IProjectionStateHandler.Initialize()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Initialize
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
     startLine: 15
   assemblies:
   - EventStore.Projections.Core
@@ -129,8 +145,12 @@ items:
   fullName: EventStore.Projections.Core.Services.IProjectionStateHandler.InitializeShared()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: InitializeShared
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
     startLine: 16
   assemblies:
   - EventStore.Projections.Core
@@ -151,8 +171,12 @@ items:
   fullName: EventStore.Projections.Core.Services.IProjectionStateHandler.GetStatePartition(EventStore.Projections.Core.Services.Processing.CheckpointTag, System.String, EventStore.Projections.Core.Services.Processing.ResolvedEvent)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GetStatePartition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
     startLine: 22
   assemblies:
   - EventStore.Projections.Core
@@ -185,8 +209,12 @@ items:
   fullName: EventStore.Projections.Core.Services.IProjectionStateHandler.ProcessEvent(System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag, System.String, EventStore.Projections.Core.Services.Processing.ResolvedEvent, out System.String, out System.String, out EventStore.Projections.Core.Services.Processing.EmittedEventEnvelope[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ProcessEvent
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
     startLine: 28
   assemblies:
   - EventStore.Projections.Core
@@ -230,8 +258,12 @@ items:
   fullName: EventStore.Projections.Core.Services.IProjectionStateHandler.ProcessPartitionCreated(System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Services.Processing.ResolvedEvent, out EventStore.Projections.Core.Services.Processing.EmittedEventEnvelope[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ProcessPartitionCreated
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
     startLine: 40
   assemblies:
   - EventStore.Projections.Core
@@ -273,8 +305,12 @@ items:
   fullName: EventStore.Projections.Core.Services.IProjectionStateHandler.ProcessPartitionDeleted(System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag, out System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ProcessPartitionDeleted
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
     startLine: 48
   assemblies:
   - EventStore.Projections.Core
@@ -310,8 +346,12 @@ items:
   fullName: EventStore.Projections.Core.Services.IProjectionStateHandler.TransformStateToResult()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: TransformStateToResult
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
     startLine: 54
   assemblies:
   - EventStore.Projections.Core
@@ -1315,18 +1355,10 @@ references:
   nameWithType: IProjectionStateHandler.Load
   fullName: EventStore.Projections.Core.Services.IProjectionStateHandler.Load
 - uid: System.String
-  commentId: T:System.String
-  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Projections.Core.Services.IProjectionStateHandler.LoadShared*
   commentId: Overload:EventStore.Projections.Core.Services.IProjectionStateHandler.LoadShared
   name: LoadShared
@@ -1394,8 +1426,6 @@ references:
     nameWithType: ()
     fullName: ()
 - uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

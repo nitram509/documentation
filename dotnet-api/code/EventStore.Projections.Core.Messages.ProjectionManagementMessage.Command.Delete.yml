@@ -19,9 +19,13 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Delete
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Delete
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 323
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 324
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -57,9 +61,13 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Delete.MsgTypeId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 326
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 327
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -91,9 +99,13 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Delete.Delete(EventStore.Core.Messaging.IEnvelope, System.String, EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs, System.Boolean, System.Boolean, System.Boolean)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 335
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 336
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -130,9 +142,13 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Delete.Name
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Name
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 345
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 346
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -161,9 +177,13 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Delete.DeleteCheckpointStream
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: DeleteCheckpointStream
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 349
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 350
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -192,9 +212,13 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Delete.DeleteStateStream
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: DeleteStateStream
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 353
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 354
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -223,9 +247,13 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Delete.DeleteEmittedStreams
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: DeleteEmittedStreams
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 357
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 358
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -249,8 +277,6 @@ references:
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -285,12 +311,6 @@ references:
   name: NextMsgId
   nameWithType: Message.NextMsgId
   fullName: EventStore.Core.Messaging.Message.NextMsgId
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Core.Messaging
   commentId: N:EventStore.Core.Messaging
   name: EventStore.Core.Messaging
@@ -308,8 +328,6 @@ references:
   nameWithType: ProjectionManagementMessage.Command.Delete.MsgTypeId
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Delete.MsgTypeId
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -326,8 +344,6 @@ references:
   nameWithType: IEnvelope
   fullName: EventStore.Core.Messaging.IEnvelope
 - uid: System.String
-  commentId: T:System.String
-  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -339,8 +355,6 @@ references:
   nameWithType: ProjectionManagementMessage.RunAs
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs
 - uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

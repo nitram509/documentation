@@ -26,8 +26,12 @@ items:
   fullName: EventStore.ClientAPI.StreamAcl
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamAcl.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamAcl
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamAcl.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamAcl.cs
     startLine: 6
   assemblies:
   - EventStore.ClientAPI
@@ -35,17 +39,12 @@ items:
   summary: "\nRepresents an access control list for a stream\n"
   example: []
   syntax:
-    content: public class StreamAcl
-    content.vb: Public Class StreamAcl
+    content: 'public class StreamAcl : object'
+    content.vb: >-
+      Public Class StreamAcl
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
   modifiers.csharp:
   - public
   - class
@@ -64,8 +63,12 @@ items:
   fullName: EventStore.ClientAPI.StreamAcl.ReadRoles
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamAcl.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ReadRoles
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamAcl.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamAcl.cs
     startLine: 10
   assemblies:
   - EventStore.ClientAPI
@@ -95,8 +98,12 @@ items:
   fullName: EventStore.ClientAPI.StreamAcl.WriteRoles
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamAcl.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: WriteRoles
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamAcl.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamAcl.cs
     startLine: 15
   assemblies:
   - EventStore.ClientAPI
@@ -126,8 +133,12 @@ items:
   fullName: EventStore.ClientAPI.StreamAcl.DeleteRoles
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamAcl.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: DeleteRoles
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamAcl.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamAcl.cs
     startLine: 20
   assemblies:
   - EventStore.ClientAPI
@@ -157,8 +168,12 @@ items:
   fullName: EventStore.ClientAPI.StreamAcl.MetaReadRoles
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamAcl.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MetaReadRoles
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamAcl.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamAcl.cs
     startLine: 25
   assemblies:
   - EventStore.ClientAPI
@@ -188,8 +203,12 @@ items:
   fullName: EventStore.ClientAPI.StreamAcl.MetaWriteRoles
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamAcl.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MetaWriteRoles
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamAcl.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamAcl.cs
     startLine: 30
   assemblies:
   - EventStore.ClientAPI
@@ -219,8 +238,12 @@ items:
   fullName: EventStore.ClientAPI.StreamAcl.ReadRole
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamAcl.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ReadRole
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamAcl.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamAcl.cs
     startLine: 35
   assemblies:
   - EventStore.ClientAPI
@@ -252,8 +275,12 @@ items:
   fullName: EventStore.ClientAPI.StreamAcl.WriteRole
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamAcl.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: WriteRole
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamAcl.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamAcl.cs
     startLine: 42
   assemblies:
   - EventStore.ClientAPI
@@ -285,8 +312,12 @@ items:
   fullName: EventStore.ClientAPI.StreamAcl.DeleteRole
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamAcl.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: DeleteRole
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamAcl.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamAcl.cs
     startLine: 49
   assemblies:
   - EventStore.ClientAPI
@@ -318,8 +349,12 @@ items:
   fullName: EventStore.ClientAPI.StreamAcl.MetaReadRole
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamAcl.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MetaReadRole
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamAcl.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamAcl.cs
     startLine: 56
   assemblies:
   - EventStore.ClientAPI
@@ -351,8 +386,12 @@ items:
   fullName: EventStore.ClientAPI.StreamAcl.MetaWriteRole
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamAcl.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MetaWriteRole
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamAcl.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamAcl.cs
     startLine: 63
   assemblies:
   - EventStore.ClientAPI
@@ -384,8 +423,12 @@ items:
   fullName: EventStore.ClientAPI.StreamAcl.StreamAcl(System.String, System.String, System.String, System.String, System.String)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamAcl.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamAcl.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamAcl.cs
     startLine: 75
   assemblies:
   - EventStore.ClientAPI
@@ -428,8 +471,12 @@ items:
   fullName: EventStore.ClientAPI.StreamAcl.StreamAcl(System.String[], System.String[], System.String[], System.String[], System.String[])
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamAcl.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamAcl.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamAcl.cs
     startLine: 92
   assemblies:
   - EventStore.ClientAPI
@@ -475,8 +522,12 @@ items:
   fullName: EventStore.ClientAPI.StreamAcl.ToString()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamAcl.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ToString
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamAcl.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamAcl.cs
     startLine: 108
   assemblies:
   - EventStore.ClientAPI
@@ -489,7 +540,6 @@ items:
       type: System.String
       description: "\nA string that represents the current object.\n"
     content.vb: Public Overrides Function ToString As String
-  overridden: System.Object.ToString
   overload: EventStore.ClientAPI.StreamAcl.ToString*
   modifiers.csharp:
   - public
@@ -504,266 +554,10 @@ references:
   nameWithType: EventStore.ClientAPI
   fullName: EventStore.ClientAPI
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: System.String[]
   isExternal: true
   name: String[]
@@ -796,8 +590,6 @@ references:
   nameWithType: StreamAcl.ReadRole
   fullName: EventStore.ClientAPI.StreamAcl.ReadRole
 - uid: System.String
-  commentId: T:System.String
-  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -827,37 +619,6 @@ references:
   name: StreamAcl
   nameWithType: StreamAcl.StreamAcl
   fullName: EventStore.ClientAPI.StreamAcl.StreamAcl
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: EventStore.ClientAPI.StreamAcl.ToString*
   commentId: Overload:EventStore.ClientAPI.StreamAcl.ToString
   name: ToString

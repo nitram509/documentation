@@ -14,8 +14,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionOutputConfig
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionOutputConfig.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionOutputConfig
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionOutputConfig.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionOutputConfig.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -46,8 +50,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionOutputConfig.ResultStreamName
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionOutputConfig.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ResultStreamName
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionOutputConfig.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionOutputConfig.cs
     startLine: 5
   assemblies:
   - EventStore.Projections.Core
@@ -72,26 +80,16 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.ProjectionOutputConfig.ResultStreamName*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.ProjectionOutputConfig.ResultStreamName
   name: ResultStreamName
   nameWithType: ProjectionOutputConfig.ResultStreamName
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionOutputConfig.ResultStreamName
 - uid: System.String
-  commentId: T:System.String
-  parent: System
   isExternal: true
   name: String
   nameWithType: String

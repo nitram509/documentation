@@ -16,8 +16,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IEventReader
   type: Interface
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: IEventReader
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IEventReader.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -46,8 +50,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IEventReader.Resume()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Resume
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IEventReader.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core
@@ -68,8 +76,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IEventReader.Pause()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Pause
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IEventReader.cs
     startLine: 5
   assemblies:
   - EventStore.Projections.Core
@@ -90,8 +102,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IEventReader.SendNotAuthorized()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SendNotAuthorized
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IEventReader.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core

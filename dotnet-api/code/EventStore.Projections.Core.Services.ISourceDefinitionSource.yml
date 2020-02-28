@@ -14,8 +14,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ISourceDefinitionSource
   type: Interface
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ISourceDefinitionSource
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
     startLine: 7
   assemblies:
   - EventStore.Projections.Core
@@ -41,8 +45,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ISourceDefinitionSource.GetSourceDefinition()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GetSourceDefinition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core

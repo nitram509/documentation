@@ -14,8 +14,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IResultEventEmitter
   type: Interface
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IResultEventEmitter.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: IResultEventEmitter
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IResultEventEmitter.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IResultEventEmitter.cs
     startLine: 1
   assemblies:
   - EventStore.Projections.Core
@@ -41,8 +45,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IResultEventEmitter.ResultUpdated(System.String, System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IResultEventEmitter.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ResultUpdated
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IResultEventEmitter.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IResultEventEmitter.cs
     startLine: 2
   assemblies:
   - EventStore.Projections.Core
@@ -72,8 +80,6 @@ references:
   nameWithType: IResultEventEmitter.ResultUpdated
   fullName: EventStore.Projections.Core.Services.Processing.IResultEventEmitter.ResultUpdated
 - uid: System.String
-  commentId: T:System.String
-  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -108,9 +114,3 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System

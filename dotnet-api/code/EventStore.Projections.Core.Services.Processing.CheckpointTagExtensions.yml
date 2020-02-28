@@ -19,8 +19,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTagExtensions
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CheckpointTagExtensions
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
     startLine: 23
   assemblies:
   - EventStore.Projections.Core
@@ -53,8 +57,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTagExtensions.ParseCheckpointTagJson(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ParseCheckpointTagJson
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
     startLine: 24
   assemblies:
   - EventStore.Projections.Core
@@ -90,8 +98,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTagExtensions.ParseCheckpointTagJson(System.Byte[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ParseCheckpointTagJson
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
     startLine: 31
   assemblies:
   - EventStore.Projections.Core
@@ -130,8 +142,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTagExtensions.ParseCheckpointTagVersionExtraJson(System.Byte[], EventStore.Projections.Core.Services.Processing.ProjectionVersion)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ParseCheckpointTagVersionExtraJson
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
     startLine: 38
   assemblies:
   - EventStore.Projections.Core
@@ -172,8 +188,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTagExtensions.ParseCheckpointTagVersionExtraJson(System.String, EventStore.Projections.Core.Services.Processing.ProjectionVersion)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ParseCheckpointTagVersionExtraJson
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
     startLine: 47
   assemblies:
   - EventStore.Projections.Core
@@ -211,8 +231,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTagExtensions.ParseCheckpointExtraJson(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ParseCheckpointExtraJson
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
     startLine: 56
   assemblies:
   - EventStore.Projections.Core
@@ -248,8 +272,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTagExtensions.ParseCheckpointTagCorrelationId(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ParseCheckpointTagCorrelationId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
     startLine: 63
   assemblies:
   - EventStore.Projections.Core
@@ -279,26 +307,16 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.CheckpointTagExtensions.ParseCheckpointTagJson*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.CheckpointTagExtensions.ParseCheckpointTagJson
   name: ParseCheckpointTagJson
   nameWithType: CheckpointTagExtensions.ParseCheckpointTagJson
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTagExtensions.ParseCheckpointTagJson
 - uid: System.String
-  commentId: T:System.String
-  parent: System
   isExternal: true
   name: String
   nameWithType: String

@@ -20,8 +20,12 @@ items:
   fullName: EventStore.ClientAPI.SystemSettings
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/SystemSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SystemSettings
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SystemSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/SystemSettings.cs
     startLine: 11
   assemblies:
   - EventStore.ClientAPI
@@ -29,17 +33,12 @@ items:
   summary: "\nRepresents global settings for an Event Store server.\n"
   example: []
   syntax:
-    content: public class SystemSettings
-    content.vb: Public Class SystemSettings
+    content: 'public class SystemSettings : object'
+    content.vb: >-
+      Public Class SystemSettings
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
   modifiers.csharp:
   - public
   - class
@@ -58,8 +57,12 @@ items:
   fullName: EventStore.ClientAPI.SystemSettings.UserStreamAcl
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/SystemSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: UserStreamAcl
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SystemSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/SystemSettings.cs
     startLine: 15
   assemblies:
   - EventStore.ClientAPI
@@ -89,8 +92,12 @@ items:
   fullName: EventStore.ClientAPI.SystemSettings.SystemStreamAcl
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/SystemSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SystemStreamAcl
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SystemSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/SystemSettings.cs
     startLine: 20
   assemblies:
   - EventStore.ClientAPI
@@ -120,8 +127,12 @@ items:
   fullName: EventStore.ClientAPI.SystemSettings.SystemSettings(EventStore.ClientAPI.StreamAcl, EventStore.ClientAPI.StreamAcl)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/SystemSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SystemSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/SystemSettings.cs
     startLine: 27
   assemblies:
   - EventStore.ClientAPI
@@ -155,8 +166,12 @@ items:
   fullName: EventStore.ClientAPI.SystemSettings.ToString()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/SystemSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ToString
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SystemSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/SystemSettings.cs
     startLine: 39
   assemblies:
   - EventStore.ClientAPI
@@ -169,7 +184,6 @@ items:
       type: System.String
       description: "\nA string that represents the current object.\n"
     content.vb: Public Overrides Function ToString As String
-  overridden: System.Object.ToString
   overload: EventStore.ClientAPI.SystemSettings.ToString*
   modifiers.csharp:
   - public
@@ -189,8 +203,12 @@ items:
   fullName: EventStore.ClientAPI.SystemSettings.FromJsonBytes(System.Byte[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/SystemSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: FromJsonBytes
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SystemSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/SystemSettings.cs
     startLine: 49
   assemblies:
   - EventStore.ClientAPI
@@ -229,8 +247,12 @@ items:
   fullName: EventStore.ClientAPI.SystemSettings.ToJsonBytes()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/SystemSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ToJsonBytes
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SystemSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/SystemSettings.cs
     startLine: 98
   assemblies:
   - EventStore.ClientAPI
@@ -260,8 +282,12 @@ items:
   fullName: EventStore.ClientAPI.SystemSettings.ToJsonString()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/SystemSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ToJsonString
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SystemSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/SystemSettings.cs
     startLine: 113
   assemblies:
   - EventStore.ClientAPI
@@ -286,266 +312,10 @@ references:
   nameWithType: EventStore.ClientAPI
   fullName: EventStore.ClientAPI
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.ClientAPI.StreamAcl
   commentId: T:EventStore.ClientAPI.StreamAcl
   parent: EventStore.ClientAPI
@@ -563,45 +333,12 @@ references:
   name: SystemSettings
   nameWithType: SystemSettings.SystemSettings
   fullName: EventStore.ClientAPI.SystemSettings.SystemSettings
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: EventStore.ClientAPI.SystemSettings.ToString*
   commentId: Overload:EventStore.ClientAPI.SystemSettings.ToString
   name: ToString
   nameWithType: SystemSettings.ToString
   fullName: EventStore.ClientAPI.SystemSettings.ToString
 - uid: System.String
-  commentId: T:System.String
-  parent: System
   isExternal: true
   name: String
   nameWithType: String

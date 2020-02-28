@@ -15,8 +15,12 @@ items:
   fullName: EventStore.Projections.Core.EventReaders.Feeds.FeedReaderService
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/EventReaders/Feeds/FeedReaderService.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: FeedReaderService
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/EventReaders/Feeds/FeedReaderService.cs
+    path: ../EventStore/src/EventStore.Projections.Core/EventReaders/Feeds/FeedReaderService.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core
@@ -51,8 +55,12 @@ items:
   fullName: EventStore.Projections.Core.EventReaders.Feeds.FeedReaderService.FeedReaderService(EventStore.Projections.Core.Services.PublishSubscribeDispatcher<Guid, EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.Subscribe, EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage, EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase>, EventStore.Core.Services.TimerService.ITimeProvider)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/EventReaders/Feeds/FeedReaderService.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/EventReaders/Feeds/FeedReaderService.cs
+    path: ../EventStore/src/EventStore.Projections.Core/EventReaders/Feeds/FeedReaderService.cs
     startLine: 17
   assemblies:
   - EventStore.Projections.Core
@@ -85,8 +93,12 @@ items:
   fullName: EventStore.Projections.Core.EventReaders.Feeds.FeedReaderService.Handle(EventStore.Projections.Core.Messages.EventReaders.Feeds.FeedReaderMessage.ReadPage)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/EventReaders/Feeds/FeedReaderService.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/EventReaders/Feeds/FeedReaderService.cs
+    path: ../EventStore/src/EventStore.Projections.Core/EventReaders/Feeds/FeedReaderService.cs
     startLine: 27
   assemblies:
   - EventStore.Projections.Core
@@ -111,8 +123,6 @@ references:
   nameWithType: EventStore.Projections.Core.EventReaders.Feeds
   fullName: EventStore.Projections.Core.EventReaders.Feeds
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -157,12 +167,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Core.Bus.IHandle`1
   commentId: T:EventStore.Core.Bus.IHandle`1
   name: IHandle<T>

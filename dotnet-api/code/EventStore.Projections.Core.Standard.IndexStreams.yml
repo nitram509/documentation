@@ -26,8 +26,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.IndexStreams
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/IndexStreams.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: IndexStreams
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
     startLine: 7
   assemblies:
   - EventStore.Projections.Core
@@ -64,8 +68,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.IndexStreams.IndexStreams(System.String, Action<System.String, System.Object[]>)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/IndexStreams.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core
@@ -98,8 +106,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.IndexStreams.ConfigureSourceProcessingStrategy(EventStore.Projections.Core.Services.Processing.SourceDefinitionBuilder)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/IndexStreams.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ConfigureSourceProcessingStrategy
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
     startLine: 18
   assemblies:
   - EventStore.Projections.Core
@@ -127,8 +139,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.IndexStreams.Load(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/IndexStreams.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Load
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
     startLine: 24
   assemblies:
   - EventStore.Projections.Core
@@ -158,8 +174,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.IndexStreams.LoadShared(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/IndexStreams.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: LoadShared
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
     startLine: 27
   assemblies:
   - EventStore.Projections.Core
@@ -189,8 +209,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.IndexStreams.Initialize()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/IndexStreams.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Initialize
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
     startLine: 31
   assemblies:
   - EventStore.Projections.Core
@@ -217,8 +241,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.IndexStreams.InitializeShared()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/IndexStreams.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: InitializeShared
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
     startLine: 34
   assemblies:
   - EventStore.Projections.Core
@@ -245,8 +273,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.IndexStreams.GetStatePartition(EventStore.Projections.Core.Services.Processing.CheckpointTag, System.String, EventStore.Projections.Core.Services.Processing.ResolvedEvent)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/IndexStreams.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GetStatePartition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
     startLine: 37
   assemblies:
   - EventStore.Projections.Core
@@ -282,8 +314,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.IndexStreams.ProcessEvent(System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag, System.String, EventStore.Projections.Core.Services.Processing.ResolvedEvent, out System.String, out System.String, out EventStore.Projections.Core.Services.Processing.EmittedEventEnvelope[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/IndexStreams.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ProcessEvent
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
     startLine: 41
   assemblies:
   - EventStore.Projections.Core
@@ -330,8 +366,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.IndexStreams.ProcessPartitionCreated(System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Services.Processing.ResolvedEvent, out EventStore.Projections.Core.Services.Processing.EmittedEventEnvelope[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/IndexStreams.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ProcessPartitionCreated
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
     startLine: 61
   assemblies:
   - EventStore.Projections.Core
@@ -372,8 +412,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.IndexStreams.ProcessPartitionDeleted(System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag, out System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/IndexStreams.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ProcessPartitionDeleted
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
     startLine: 67
   assemblies:
   - EventStore.Projections.Core
@@ -412,8 +456,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.IndexStreams.TransformStateToResult()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/IndexStreams.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: TransformStateToResult
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
     startLine: 71
   assemblies:
   - EventStore.Projections.Core
@@ -442,8 +490,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.IndexStreams.Dispose()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/IndexStreams.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Dispose
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
     startLine: 75
   assemblies:
   - EventStore.Projections.Core
@@ -468,8 +520,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.IndexStreams.GetSourceDefinition()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/IndexStreams.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GetSourceDefinition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/IndexStreams.cs
     startLine: 78
   assemblies:
   - EventStore.Projections.Core
@@ -493,8 +549,6 @@ references:
   nameWithType: EventStore.Projections.Core.Standard
   fullName: EventStore.Projections.Core.Standard
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -516,12 +570,6 @@ references:
   name: ISourceDefinitionSource
   nameWithType: ISourceDefinitionSource
   fullName: EventStore.Projections.Core.Services.ISourceDefinitionSource
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Projections.Core.Services
   commentId: N:EventStore.Projections.Core.Services
   name: EventStore.Projections.Core.Services
@@ -533,8 +581,6 @@ references:
   nameWithType: IndexStreams.IndexStreams
   fullName: EventStore.Projections.Core.Standard.IndexStreams.IndexStreams
 - uid: System.String
-  commentId: T:System.String
-  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -1076,8 +1122,6 @@ references:
     nameWithType: ()
     fullName: ()
 - uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

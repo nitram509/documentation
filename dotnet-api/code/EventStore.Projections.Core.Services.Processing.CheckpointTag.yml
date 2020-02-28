@@ -54,8 +54,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CheckpointTag
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 12
   assemblies:
   - EventStore.Projections.Core
@@ -86,8 +90,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.Phase
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Phase
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 13
   assemblies:
   - EventStore.Projections.Core
@@ -115,8 +123,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.Position
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Position
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 15
   assemblies:
   - EventStore.Projections.Core
@@ -144,8 +156,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.Streams
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Streams
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 18
   assemblies:
   - EventStore.Projections.Core
@@ -173,8 +189,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.CatalogStream
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CatalogStream
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 20
   assemblies:
   - EventStore.Projections.Core
@@ -202,8 +222,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.DataStream
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: DataStream
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 21
   assemblies:
   - EventStore.Projections.Core
@@ -231,8 +255,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.CatalogPosition
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CatalogPosition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 22
   assemblies:
   - EventStore.Projections.Core
@@ -260,8 +288,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.DataPosition
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: DataPosition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 23
   assemblies:
   - EventStore.Projections.Core
@@ -289,8 +321,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.GreaterThan(EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Operator
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: op_GreaterThan
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 127
   assemblies:
   - EventStore.Projections.Core
@@ -324,8 +360,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.GreaterThanOrEqual(EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Operator
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: op_GreaterThanOrEqual
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 187
   assemblies:
   - EventStore.Projections.Core
@@ -359,8 +399,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.LessThan(EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Operator
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: op_LessThan
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 238
   assemblies:
   - EventStore.Projections.Core
@@ -394,8 +438,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.LessThanOrEqual(EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Operator
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: op_LessThanOrEqual
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 242
   assemblies:
   - EventStore.Projections.Core
@@ -429,8 +477,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.Equality(EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Operator
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: op_Equality
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 246
   assemblies:
   - EventStore.Projections.Core
@@ -464,8 +516,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.Inequality(EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Operator
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: op_Inequality
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 250
   assemblies:
   - EventStore.Projections.Core
@@ -499,8 +555,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.Equals(EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Equals
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 254
   assemblies:
   - EventStore.Projections.Core
@@ -530,8 +590,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.Equals(System.Object)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Equals
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 292
   assemblies:
   - EventStore.Projections.Core
@@ -563,8 +627,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.GetHashCode()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GetHashCode
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 299
   assemblies:
   - EventStore.Projections.Core
@@ -593,8 +661,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.CommitPosition
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CommitPosition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 304
   assemblies:
   - EventStore.Projections.Core
@@ -624,8 +696,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.PreparePosition
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: PreparePosition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 319
   assemblies:
   - EventStore.Projections.Core
@@ -655,8 +731,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.Empty
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Empty
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 332
   assemblies:
   - EventStore.Projections.Core
@@ -688,8 +768,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.FromPhase(System.Int32, System.Boolean)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: FromPhase
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 339
   assemblies:
   - EventStore.Projections.Core
@@ -723,8 +807,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.FromPosition(System.Int32, System.Int64, System.Int64)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: FromPosition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 343
   assemblies:
   - EventStore.Projections.Core
@@ -760,8 +848,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.FromPosition(System.Int32, EventStore.Core.Data.TFPos)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: FromPosition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 347
   assemblies:
   - EventStore.Projections.Core
@@ -795,8 +887,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.FromPreparePosition(System.Int32, System.Int64)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: FromPreparePosition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 351
   assemblies:
   - EventStore.Projections.Core
@@ -830,8 +926,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.FromStreamPosition(System.Int32, System.String, System.Int64)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: FromStreamPosition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 355
   assemblies:
   - EventStore.Projections.Core
@@ -867,8 +967,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.FromStreamPositions(System.Int32, IDictionary<System.String, System.Int64>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: FromStreamPositions
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 359
   assemblies:
   - EventStore.Projections.Core
@@ -905,8 +1009,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.FromEventTypeIndexPositions(System.Int32, EventStore.Core.Data.TFPos, IDictionary<System.String, System.Int64>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: FromEventTypeIndexPositions
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 364
   assemblies:
   - EventStore.Projections.Core
@@ -945,8 +1053,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.FromByStreamPosition(System.Int32, System.String, System.Int64, System.String, System.Int64, System.Int64)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: FromByStreamPosition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 370
   assemblies:
   - EventStore.Projections.Core
@@ -988,8 +1100,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.CompareTo(EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CompareTo
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 376
   assemblies:
   - EventStore.Projections.Core
@@ -1019,8 +1135,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.ToString()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ToString
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 380
   assemblies:
   - EventStore.Projections.Core
@@ -1049,8 +1169,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.Completed
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Completed
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 424
   assemblies:
   - EventStore.Projections.Core
@@ -1080,8 +1204,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.UpdateStreamPosition(System.String, System.Int64)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: UpdateStreamPosition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 450
   assemblies:
   - EventStore.Projections.Core
@@ -1113,8 +1241,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.UpdateEventTypeIndexPosition(EventStore.Core.Data.TFPos, System.String, System.Int64)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: UpdateEventTypeIndexPosition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 457
   assemblies:
   - EventStore.Projections.Core
@@ -1148,8 +1280,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.UpdateEventTypeIndexPosition(EventStore.Core.Data.TFPos)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: UpdateEventTypeIndexPosition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 464
   assemblies:
   - EventStore.Projections.Core
@@ -1179,8 +1315,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.ToJsonBytes(EventStore.Projections.Core.Services.Processing.ProjectionVersion, IEnumerable<KeyValuePair<System.String, JToken>>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ToJsonBytes
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 492
   assemblies:
   - EventStore.Projections.Core
@@ -1215,8 +1355,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.ToJsonString(EventStore.Projections.Core.Services.Processing.ProjectionVersion, IEnumerable<KeyValuePair<System.String, JToken>>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ToJsonString
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 507
   assemblies:
   - EventStore.Projections.Core
@@ -1251,8 +1395,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.ToJsonString(IEnumerable<KeyValuePair<System.String, JToken>>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ToJsonString
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 521
   assemblies:
   - EventStore.Projections.Core
@@ -1285,8 +1433,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.ToJsonRaw(IEnumerable<KeyValuePair<System.String, JToken>>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ToJsonRaw
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 531
   assemblies:
   - EventStore.Projections.Core
@@ -1319,8 +1471,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.WriteTo(EventStore.Projections.Core.Services.Processing.ProjectionVersion, IEnumerable<KeyValuePair<System.String, JToken>>, JsonWriter)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: WriteTo
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 541
   assemblies:
   - EventStore.Projections.Core
@@ -1355,8 +1511,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.FromJson(JsonReader, EventStore.Projections.Core.Services.Processing.ProjectionVersion, System.Boolean)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: FromJson
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 621
   assemblies:
   - EventStore.Projections.Core
@@ -1392,8 +1552,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.Check(JsonToken, JsonReader)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Check
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 768
   assemblies:
   - EventStore.Projections.Core
@@ -1425,8 +1589,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.Check(System.Boolean, JsonReader)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Check
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 773
   assemblies:
   - EventStore.Projections.Core
@@ -1453,21 +1621,11 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -1593,15 +1751,11 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.String
-  commentId: T:System.String
-  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
 - uid: System.Int64
-  commentId: T:System.Int64
-  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
@@ -1618,8 +1772,6 @@ references:
   nameWithType: CheckpointTag
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag
 - uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -1665,8 +1817,7 @@ references:
   nameWithType: CheckpointTag.CommitPosition
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag.CommitPosition
 - uid: System.Nullable{System.Int64}
-  commentId: T:System.Nullable{System.Int64}
-  parent: System
+  commentId: '!:System.Nullable{System.Int64}'
   definition: System.Nullable`1
   name: Nullable<Int64>
   nameWithType: Nullable<Int64>
@@ -1709,14 +1860,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Nullable`1
-  commentId: T:System.Nullable`1
   isExternal: true
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
@@ -1726,9 +1876,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -1741,9 +1891,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )

@@ -5,7 +5,7 @@ items:
   id: MultiStreamEventReader
   parent: EventStore.Projections.Core.Services.Processing
   children:
-  - EventStore.Projections.Core.Services.Processing.MultiStreamEventReader.#ctor(EventStore.Core.Helpers.IODispatcher,EventStore.Core.Bus.IPublisher,Guid,IPrincipal,System.Int32,System.String[],Dictionary{System.String,System.Int64},System.Boolean,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,System.Nullable{System.Int32})
+  - EventStore.Projections.Core.Services.Processing.MultiStreamEventReader.#ctor(EventStore.Core.Helpers.IODispatcher,EventStore.Core.Bus.IPublisher,Guid,ClaimsPrincipal,System.Int32,System.String[],Dictionary{System.String,System.Int64},System.Boolean,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,System.Nullable{System.Int32})
   - EventStore.Projections.Core.Services.Processing.MultiStreamEventReader.AreEventsRequested
   - EventStore.Projections.Core.Services.Processing.MultiStreamEventReader.Handle(EventStore.Core.Messages.ClientMessage.ReadStreamEventsForwardCompleted)
   - EventStore.Projections.Core.Services.Processing.MultiStreamEventReader.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.ReadTimeout)
@@ -18,8 +18,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.MultiStreamEventReader
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/MultiStreamEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MultiStreamEventReader
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamEventReader.cs
     startLine: 17
   assemblies:
   - EventStore.Projections.Core
@@ -64,26 +68,30 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: EventStore.Projections.Core.Services.Processing.MultiStreamEventReader.#ctor(EventStore.Core.Helpers.IODispatcher,EventStore.Core.Bus.IPublisher,Guid,IPrincipal,System.Int32,System.String[],Dictionary{System.String,System.Int64},System.Boolean,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,System.Nullable{System.Int32})
-  commentId: M:EventStore.Projections.Core.Services.Processing.MultiStreamEventReader.#ctor(EventStore.Core.Helpers.IODispatcher,EventStore.Core.Bus.IPublisher,Guid,IPrincipal,System.Int32,System.String[],Dictionary{System.String,System.Int64},System.Boolean,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,System.Nullable{System.Int32})
-  id: '#ctor(EventStore.Core.Helpers.IODispatcher,EventStore.Core.Bus.IPublisher,Guid,IPrincipal,System.Int32,System.String[],Dictionary{System.String,System.Int64},System.Boolean,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,System.Nullable{System.Int32})'
+- uid: EventStore.Projections.Core.Services.Processing.MultiStreamEventReader.#ctor(EventStore.Core.Helpers.IODispatcher,EventStore.Core.Bus.IPublisher,Guid,ClaimsPrincipal,System.Int32,System.String[],Dictionary{System.String,System.Int64},System.Boolean,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,System.Nullable{System.Int32})
+  commentId: M:EventStore.Projections.Core.Services.Processing.MultiStreamEventReader.#ctor(EventStore.Core.Helpers.IODispatcher,EventStore.Core.Bus.IPublisher,Guid,ClaimsPrincipal,System.Int32,System.String[],Dictionary{System.String,System.Int64},System.Boolean,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,System.Nullable{System.Int32})
+  id: '#ctor(EventStore.Core.Helpers.IODispatcher,EventStore.Core.Bus.IPublisher,Guid,ClaimsPrincipal,System.Int32,System.String[],Dictionary{System.String,System.Int64},System.Boolean,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,System.Nullable{System.Int32})'
   parent: EventStore.Projections.Core.Services.Processing.MultiStreamEventReader
   langs:
   - csharp
   - vb
-  name: MultiStreamEventReader(IODispatcher, IPublisher, Guid, IPrincipal, Int32, String[], Dictionary<String, Int64>, Boolean, ITimeProvider, Boolean, Nullable<Int32>)
-  nameWithType: MultiStreamEventReader.MultiStreamEventReader(IODispatcher, IPublisher, Guid, IPrincipal, Int32, String[], Dictionary<String, Int64>, Boolean, ITimeProvider, Boolean, Nullable<Int32>)
-  fullName: EventStore.Projections.Core.Services.Processing.MultiStreamEventReader.MultiStreamEventReader(EventStore.Core.Helpers.IODispatcher, EventStore.Core.Bus.IPublisher, Guid, IPrincipal, System.Int32, System.String[], Dictionary<System.String, System.Int64>, System.Boolean, EventStore.Core.Services.TimerService.ITimeProvider, System.Boolean, System.Nullable<System.Int32>)
+  name: MultiStreamEventReader(IODispatcher, IPublisher, Guid, ClaimsPrincipal, Int32, String[], Dictionary<String, Int64>, Boolean, ITimeProvider, Boolean, Nullable<Int32>)
+  nameWithType: MultiStreamEventReader.MultiStreamEventReader(IODispatcher, IPublisher, Guid, ClaimsPrincipal, Int32, String[], Dictionary<String, Int64>, Boolean, ITimeProvider, Boolean, Nullable<Int32>)
+  fullName: EventStore.Projections.Core.Services.Processing.MultiStreamEventReader.MultiStreamEventReader(EventStore.Core.Helpers.IODispatcher, EventStore.Core.Bus.IPublisher, Guid, ClaimsPrincipal, System.Int32, System.String[], Dictionary<System.String, System.Int64>, System.Boolean, EventStore.Core.Services.TimerService.ITimeProvider, System.Boolean, System.Nullable<System.Int32>)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/MultiStreamEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamEventReader.cs
     startLine: 41
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
   syntax:
-    content: public MultiStreamEventReader(IODispatcher ioDispatcher, IPublisher publisher, Guid eventReaderCorrelationId, IPrincipal readAs, int phase, string[] streams, Dictionary<string, long> fromPositions, bool resolveLinkTos, ITimeProvider timeProvider, bool stopOnEof = false, int? stopAfterNEvents = null)
+    content: public MultiStreamEventReader(IODispatcher ioDispatcher, IPublisher publisher, Guid eventReaderCorrelationId, ClaimsPrincipal readAs, int phase, string[] streams, Dictionary<string, long> fromPositions, bool resolveLinkTos, ITimeProvider timeProvider, bool stopOnEof = false, int? stopAfterNEvents = null)
     parameters:
     - id: ioDispatcher
       type: EventStore.Core.Helpers.IODispatcher
@@ -92,7 +100,7 @@ items:
     - id: eventReaderCorrelationId
       type: Guid
     - id: readAs
-      type: IPrincipal
+      type: ClaimsPrincipal
     - id: phase
       type: System.Int32
     - id: streams
@@ -107,15 +115,15 @@ items:
       type: System.Boolean
     - id: stopAfterNEvents
       type: System.Nullable{System.Int32}
-    content.vb: Public Sub New(ioDispatcher As IODispatcher, publisher As IPublisher, eventReaderCorrelationId As Guid, readAs As IPrincipal, phase As Integer, streams As String(), fromPositions As Dictionary(Of String, Long), resolveLinkTos As Boolean, timeProvider As ITimeProvider, stopOnEof As Boolean = False, stopAfterNEvents As Integer? = Nothing)
+    content.vb: Public Sub New(ioDispatcher As IODispatcher, publisher As IPublisher, eventReaderCorrelationId As Guid, readAs As ClaimsPrincipal, phase As Integer, streams As String(), fromPositions As Dictionary(Of String, Long), resolveLinkTos As Boolean, timeProvider As ITimeProvider, stopOnEof As Boolean = False, stopAfterNEvents As Integer? = Nothing)
   overload: EventStore.Projections.Core.Services.Processing.MultiStreamEventReader.#ctor*
-  nameWithType.vb: MultiStreamEventReader.MultiStreamEventReader(IODispatcher, IPublisher, Guid, IPrincipal, Int32, String(), Dictionary(Of String, Int64), Boolean, ITimeProvider, Boolean, Nullable(Of Int32))
+  nameWithType.vb: MultiStreamEventReader.MultiStreamEventReader(IODispatcher, IPublisher, Guid, ClaimsPrincipal, Int32, String(), Dictionary(Of String, Int64), Boolean, ITimeProvider, Boolean, Nullable(Of Int32))
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: EventStore.Projections.Core.Services.Processing.MultiStreamEventReader.MultiStreamEventReader(EventStore.Core.Helpers.IODispatcher, EventStore.Core.Bus.IPublisher, Guid, IPrincipal, System.Int32, System.String(), Dictionary(Of System.String, System.Int64), System.Boolean, EventStore.Core.Services.TimerService.ITimeProvider, System.Boolean, System.Nullable(Of System.Int32))
-  name.vb: MultiStreamEventReader(IODispatcher, IPublisher, Guid, IPrincipal, Int32, String(), Dictionary(Of String, Int64), Boolean, ITimeProvider, Boolean, Nullable(Of Int32))
+  fullName.vb: EventStore.Projections.Core.Services.Processing.MultiStreamEventReader.MultiStreamEventReader(EventStore.Core.Helpers.IODispatcher, EventStore.Core.Bus.IPublisher, Guid, ClaimsPrincipal, System.Int32, System.String(), Dictionary(Of System.String, System.Int64), System.Boolean, EventStore.Core.Services.TimerService.ITimeProvider, System.Boolean, System.Nullable(Of System.Int32))
+  name.vb: MultiStreamEventReader(IODispatcher, IPublisher, Guid, ClaimsPrincipal, Int32, String(), Dictionary(Of String, Int64), Boolean, ITimeProvider, Boolean, Nullable(Of Int32))
 - uid: EventStore.Projections.Core.Services.Processing.MultiStreamEventReader.RequestEvents
   commentId: M:EventStore.Projections.Core.Services.Processing.MultiStreamEventReader.RequestEvents
   id: RequestEvents
@@ -128,8 +136,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.MultiStreamEventReader.RequestEvents()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/MultiStreamEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: RequestEvents
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamEventReader.cs
     startLine: 75
   assemblies:
   - EventStore.Projections.Core
@@ -157,8 +169,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.MultiStreamEventReader.AreEventsRequested()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/MultiStreamEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: AreEventsRequested
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamEventReader.cs
     startLine: 92
   assemblies:
   - EventStore.Projections.Core
@@ -188,8 +204,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.MultiStreamEventReader.Handle(EventStore.Core.Messages.ClientMessage.ReadStreamEventsForwardCompleted)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/MultiStreamEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamEventReader.cs
     startLine: 96
   assemblies:
   - EventStore.Projections.Core
@@ -219,8 +239,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.MultiStreamEventReader.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.ReadTimeout)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/MultiStreamEventReader.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamEventReader.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamEventReader.cs
     startLine: 157
   assemblies:
   - EventStore.Projections.Core
@@ -245,8 +269,6 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -906,12 +928,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Core.Bus.IHandle`1
   commentId: T:EventStore.Core.Bus.IHandle`1
   name: IHandle<T>
@@ -975,14 +991,12 @@ references:
   name: Guid
   nameWithType: Guid
   fullName: Guid
-- uid: IPrincipal
+- uid: ClaimsPrincipal
   isExternal: true
-  name: IPrincipal
-  nameWithType: IPrincipal
-  fullName: IPrincipal
+  name: ClaimsPrincipal
+  nameWithType: ClaimsPrincipal
+  fullName: ClaimsPrincipal
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -1073,8 +1087,6 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -1086,8 +1098,7 @@ references:
   nameWithType: ITimeProvider
   fullName: EventStore.Core.Services.TimerService.ITimeProvider
 - uid: System.Nullable{System.Int32}
-  commentId: T:System.Nullable{System.Int32}
-  parent: System
+  commentId: '!:System.Nullable{System.Int32}'
   definition: System.Nullable`1
   name: Nullable<Int32>
   nameWithType: Nullable<Int32>
@@ -1190,14 +1201,13 @@ references:
   nameWithType: EventStore.Core.Services.TimerService
   fullName: EventStore.Core.Services.TimerService
 - uid: System.Nullable`1
-  commentId: T:System.Nullable`1
   isExternal: true
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
@@ -1207,9 +1217,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -1222,9 +1232,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )

@@ -48,8 +48,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionManager
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 19
   assemblies:
   - EventStore.Projections.Core
@@ -113,8 +117,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.ProjectionQueryId
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionQueryId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 51
   assemblies:
   - EventStore.Projections.Core
@@ -142,8 +150,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.ProjectionCreationRetryCount
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionCreationRetryCount
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 52
   assemblies:
   - EventStore.Projections.Core
@@ -171,8 +183,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.ServiceName
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ServiceName
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 53
   assemblies:
   - EventStore.Projections.Core
@@ -200,8 +216,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.ProjectionManager(EventStore.Core.Bus.IPublisher, EventStore.Core.Bus.IPublisher, IDictionary<Guid, EventStore.Core.Bus.IPublisher>, EventStore.Core.Services.TimerService.ITimeProvider, EventStore.Common.Options.ProjectionType, EventStore.Core.Helpers.IODispatcher, TimeSpan, System.Boolean)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 107
   assemblies:
   - EventStore.Projections.Core
@@ -246,8 +266,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.StartComponents)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 178
   assemblies:
   - EventStore.Projections.Core
@@ -277,8 +301,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.StopComponents)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 198
   assemblies:
   - EventStore.Projections.Core
@@ -308,8 +336,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Post)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 236
   assemblies:
   - EventStore.Projections.Core
@@ -339,8 +371,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.PostBatch)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 256
   assemblies:
   - EventStore.Projections.Core
@@ -370,8 +406,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Delete)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 322
   assemblies:
   - EventStore.Projections.Core
@@ -401,8 +441,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.GetQuery)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 353
   assemblies:
   - EventStore.Projections.Core
@@ -432,8 +476,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.UpdateQuery)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 366
   assemblies:
   - EventStore.Projections.Core
@@ -463,8 +511,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Disable)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 384
   assemblies:
   - EventStore.Projections.Core
@@ -494,8 +546,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Enable)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 399
   assemblies:
   - EventStore.Projections.Core
@@ -525,8 +581,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Abort)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 415
   assemblies:
   - EventStore.Projections.Core
@@ -556,8 +616,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.SetRunAs)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 430
   assemblies:
   - EventStore.Projections.Core
@@ -587,8 +651,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Reset)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 449
   assemblies:
   - EventStore.Projections.Core
@@ -618,8 +686,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.GetStatistics)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 465
   assemblies:
   - EventStore.Projections.Core
@@ -649,8 +721,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.GetState)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 489
   assemblies:
   - EventStore.Projections.Core
@@ -680,8 +756,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.GetResult)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 499
   assemblies:
   - EventStore.Projections.Core
@@ -711,8 +791,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.GetConfig)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 509
   assemblies:
   - EventStore.Projections.Core
@@ -742,8 +826,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.UpdateConfig)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 522
   assemblies:
   - EventStore.Projections.Core
@@ -773,8 +861,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.CleanupExpired)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 540
   assemblies:
   - EventStore.Projections.Core
@@ -804,8 +896,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 551
   assemblies:
   - EventStore.Projections.Core
@@ -835,8 +931,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Stopped)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 559
   assemblies:
   - EventStore.Projections.Core
@@ -866,8 +966,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Faulted)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 567
   assemblies:
   - EventStore.Projections.Core
@@ -897,8 +1001,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Prepared)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 575
   assemblies:
   - EventStore.Projections.Core
@@ -928,8 +1036,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.StateReport)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 583
   assemblies:
   - EventStore.Projections.Core
@@ -959,8 +1071,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ResultReport)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 587
   assemblies:
   - EventStore.Projections.Core
@@ -990,8 +1106,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.StatisticsReport)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 591
   assemblies:
   - EventStore.Projections.Core
@@ -1021,8 +1141,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Core.Messages.ClientMessage.ReadStreamEventsBackwardCompleted)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 599
   assemblies:
   - EventStore.Projections.Core
@@ -1052,8 +1176,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Core.Messages.ClientMessage.ReadStreamEventsForwardCompleted)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 603
   assemblies:
   - EventStore.Projections.Core
@@ -1083,8 +1211,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Core.Messages.ClientMessage.WriteEventsCompleted)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 607
   assemblies:
   - EventStore.Projections.Core
@@ -1114,8 +1246,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Core.Messages.ClientMessage.DeleteStreamCompleted)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 611
   assemblies:
   - EventStore.Projections.Core
@@ -1145,8 +1281,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.Deleted)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 615
   assemblies:
   - EventStore.Projections.Core
@@ -1176,8 +1316,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.Dispose()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Dispose
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 647
   assemblies:
   - EventStore.Projections.Core
@@ -1197,8 +1341,6 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Management
   fullName: EventStore.Projections.Core.Services.Management
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -2403,12 +2545,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Core.Bus.IHandle`1
   commentId: T:EventStore.Core.Bus.IHandle`1
   name: IHandle<T>
@@ -2451,15 +2587,11 @@ references:
   nameWithType: EventStore.Core.Bus
   fullName: EventStore.Core.Bus
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
 - uid: System.String
-  commentId: T:System.String
-  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -2556,8 +2688,6 @@ references:
   nameWithType: TimeSpan
   fullName: TimeSpan
 - uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

@@ -15,8 +15,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointWorkItemBase
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointWorkItemBase.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CheckpointWorkItemBase
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointWorkItemBase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointWorkItemBase.cs
     startLine: 1
   assemblies:
   - EventStore.Projections.Core
@@ -65,8 +69,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointWorkItemBase.CheckpointWorkItemBase()
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointWorkItemBase.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointWorkItemBase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointWorkItemBase.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core
@@ -91,8 +99,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointWorkItemBase.CheckpointWorkItemBase(System.Object)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointWorkItemBase.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointWorkItemBase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointWorkItemBase.cs
     startLine: 9
   assemblies:
   - EventStore.Projections.Core
@@ -115,8 +127,6 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -534,12 +544,6 @@ references:
   name: InitialCorrelationId
   nameWithType: StagedTask.InitialCorrelationId
   fullName: EventStore.Projections.Core.Services.Processing.StagedTask.InitialCorrelationId
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.CheckpointWorkItemBase.#ctor*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.CheckpointWorkItemBase.#ctor
   name: CheckpointWorkItemBase

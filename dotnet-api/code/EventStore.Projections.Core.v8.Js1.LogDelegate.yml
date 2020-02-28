@@ -13,8 +13,12 @@ items:
   fullName: EventStore.Projections.Core.v8.Js1.LogDelegate
   type: Delegate
   source:
+    remote:
+      path: src/EventStore.Projections.Core/v8/js1.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: LogDelegate
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/js1.cs
+    path: ../EventStore/src/EventStore.Projections.Core/v8/js1.cs
     startLine: 15
   assemblies:
   - EventStore.Projections.Core
@@ -38,15 +42,7 @@ references:
   nameWithType: EventStore.Projections.Core.v8
   fullName: EventStore.Projections.Core.v8
 - uid: System.String
-  commentId: T:System.String
-  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System

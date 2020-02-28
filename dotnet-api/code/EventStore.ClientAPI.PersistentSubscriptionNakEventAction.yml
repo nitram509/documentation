@@ -18,8 +18,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptionNakEventAction
   type: Enum
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: PersistentSubscriptionNakEventAction
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
     startLine: 4
   assemblies:
   - EventStore.ClientAPI
@@ -27,8 +31,8 @@ items:
   summary: "\nActions to be taken by server in the case of a client NAK\n"
   example: []
   syntax:
-    content: public enum PersistentSubscriptionNakEventAction
-    content.vb: Public Enum PersistentSubscriptionNakEventAction
+    content: 'public enum PersistentSubscriptionNakEventAction : int'
+    content.vb: Public Enum PersistentSubscriptionNakEventAction As Integer
   extensionMethods:
   - EventStore.ClientAPI.PersistentSubscriptionNakEventAction.EventStore.Projections.Core.Utils.EnumExtensions.EnumValueName``1
   modifiers.csharp:
@@ -49,8 +53,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptionNakEventAction.Unknown
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Unknown
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
     startLine: 8
   assemblies:
   - EventStore.ClientAPI
@@ -58,9 +66,10 @@ items:
   summary: "\nClient unknown on action. Let server decide\n"
   example: []
   syntax:
-    content: Unknown = 0
+    content: Unknown = null
     return:
       type: EventStore.ClientAPI.PersistentSubscriptionNakEventAction
+    content.vb: Unknown = Nothing
   modifiers.csharp:
   - public
   - const
@@ -79,8 +88,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptionNakEventAction.Park
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Park
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
     startLine: 13
   assemblies:
   - EventStore.ClientAPI
@@ -88,9 +101,10 @@ items:
   summary: "\nPark message do not resend. Put on poison queue\n"
   example: []
   syntax:
-    content: Park = 1
+    content: Park = null
     return:
       type: EventStore.ClientAPI.PersistentSubscriptionNakEventAction
+    content.vb: Park = Nothing
   modifiers.csharp:
   - public
   - const
@@ -109,8 +123,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptionNakEventAction.Retry
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Retry
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
     startLine: 18
   assemblies:
   - EventStore.ClientAPI
@@ -118,9 +136,10 @@ items:
   summary: "\nExplicitly retry the message.\n"
   example: []
   syntax:
-    content: Retry = 2
+    content: Retry = null
     return:
       type: EventStore.ClientAPI.PersistentSubscriptionNakEventAction
+    content.vb: Retry = Nothing
   modifiers.csharp:
   - public
   - const
@@ -139,8 +158,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptionNakEventAction.Skip
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Skip
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
     startLine: 23
   assemblies:
   - EventStore.ClientAPI
@@ -148,9 +171,10 @@ items:
   summary: "\nSkip this message do not resend do not put in poison queue\n"
   example: []
   syntax:
-    content: Skip = 3
+    content: Skip = null
     return:
       type: EventStore.ClientAPI.PersistentSubscriptionNakEventAction
+    content.vb: Skip = Nothing
   modifiers.csharp:
   - public
   - const
@@ -169,8 +193,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptionNakEventAction.Stop
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Stop
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
     startLine: 28
   assemblies:
   - EventStore.ClientAPI
@@ -178,9 +206,10 @@ items:
   summary: "\nStop the subscription.\n"
   example: []
   syntax:
-    content: Stop = 4
+    content: Stop = null
     return:
       type: EventStore.ClientAPI.PersistentSubscriptionNakEventAction
+    content.vb: Stop = Nothing
   modifiers.csharp:
   - public
   - const

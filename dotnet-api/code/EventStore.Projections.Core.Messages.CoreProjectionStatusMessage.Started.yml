@@ -16,8 +16,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Started
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
     startLine: 20
   assemblies:
   - EventStore.Projections.Core
@@ -54,8 +58,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started.MsgTypeId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
     startLine: 23
   assemblies:
   - EventStore.Projections.Core
@@ -88,8 +96,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started.Name
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Name
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
     startLine: 27
   assemblies:
   - EventStore.Projections.Core
@@ -119,8 +131,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started.Started(Guid, System.String)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
     startLine: 28
   assemblies:
   - EventStore.Projections.Core
@@ -145,8 +161,6 @@ references:
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -181,12 +195,6 @@ references:
   name: NextMsgId
   nameWithType: Message.NextMsgId
   fullName: EventStore.Core.Messaging.Message.NextMsgId
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Core.Messaging
   commentId: N:EventStore.Core.Messaging
   name: EventStore.Core.Messaging
@@ -204,8 +212,6 @@ references:
   nameWithType: CoreProjectionStatusMessage.Started.MsgTypeId
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started.MsgTypeId
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -216,8 +222,6 @@ references:
   nameWithType: CoreProjectionStatusMessage.Started.Name
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Started.Name
 - uid: System.String
-  commentId: T:System.String
-  parent: System
   isExternal: true
   name: String
   nameWithType: String

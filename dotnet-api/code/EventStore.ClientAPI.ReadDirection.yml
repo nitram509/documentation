@@ -15,8 +15,12 @@ items:
   fullName: EventStore.ClientAPI.ReadDirection
   type: Enum
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ReadDirection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ReadDirection
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ReadDirection.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ReadDirection.cs
     startLine: 4
   assemblies:
   - EventStore.ClientAPI
@@ -24,8 +28,8 @@ items:
   summary: "\nRepresents the direction of read operation (both from $all and usual streams)\n"
   example: []
   syntax:
-    content: public enum ReadDirection
-    content.vb: Public Enum ReadDirection
+    content: 'public enum ReadDirection : int'
+    content.vb: Public Enum ReadDirection As Integer
   extensionMethods:
   - EventStore.ClientAPI.ReadDirection.EventStore.Projections.Core.Utils.EnumExtensions.EnumValueName``1
   modifiers.csharp:
@@ -46,8 +50,12 @@ items:
   fullName: EventStore.ClientAPI.ReadDirection.Forward
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ReadDirection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Forward
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ReadDirection.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ReadDirection.cs
     startLine: 8
   assemblies:
   - EventStore.ClientAPI
@@ -76,8 +84,12 @@ items:
   fullName: EventStore.ClientAPI.ReadDirection.Backward
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ReadDirection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Backward
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ReadDirection.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ReadDirection.cs
     startLine: 13
   assemblies:
   - EventStore.ClientAPI

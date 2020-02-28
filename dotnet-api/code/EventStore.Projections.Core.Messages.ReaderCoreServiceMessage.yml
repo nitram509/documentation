@@ -13,8 +13,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.ReaderCoreServiceMessage
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ReaderCoreServiceMessage.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ReaderCoreServiceMessage
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ReaderCoreServiceMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ReaderCoreServiceMessage.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core
@@ -41,15 +45,7 @@ references:
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System

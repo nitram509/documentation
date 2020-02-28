@@ -15,8 +15,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionsStatisticsHttpFormatted
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Http/ProjectionsStatisticsHttpFormatted.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionsStatisticsHttpFormatted
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsStatisticsHttpFormatted.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsStatisticsHttpFormatted.cs
     startLine: 5
   assemblies:
   - EventStore.Projections.Core
@@ -47,8 +51,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionsStatisticsHttpFormatted.ProjectionsStatisticsHttpFormatted(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Statistics, Func<System.String, System.String>)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Http/ProjectionsStatisticsHttpFormatted.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsStatisticsHttpFormatted.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsStatisticsHttpFormatted.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core
@@ -81,8 +89,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionsStatisticsHttpFormatted.Projections
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Http/ProjectionsStatisticsHttpFormatted.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Projections
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsStatisticsHttpFormatted.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsStatisticsHttpFormatted.cs
     startLine: 14
   assemblies:
   - EventStore.Projections.Core
@@ -107,18 +119,10 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Http
   fullName: EventStore.Projections.Core.Services.Http
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Projections.Core.Services.Http.ProjectionsStatisticsHttpFormatted.#ctor*
   commentId: Overload:EventStore.Projections.Core.Services.Http.ProjectionsStatisticsHttpFormatted.#ctor
   name: ProjectionsStatisticsHttpFormatted

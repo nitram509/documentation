@@ -7,9 +7,9 @@ items:
   children:
   - EventStore.Projections.Core.ProjectionsStandardComponents.#ctor(System.Int32,EventStore.Common.Options.ProjectionType,EventStore.Core.Bus.InMemoryBus,EventStore.Core.Bus.IQueuedHandler,EventStore.Core.Bus.InMemoryBus,System.Boolean)
   - EventStore.Projections.Core.ProjectionsStandardComponents.FaultOutOfOrderProjections
-  - EventStore.Projections.Core.ProjectionsStandardComponents.MasterInputQueue
-  - EventStore.Projections.Core.ProjectionsStandardComponents.MasterMainBus
-  - EventStore.Projections.Core.ProjectionsStandardComponents.MasterOutputBus
+  - EventStore.Projections.Core.ProjectionsStandardComponents.LeaderInputQueue
+  - EventStore.Projections.Core.ProjectionsStandardComponents.LeaderMainBus
+  - EventStore.Projections.Core.ProjectionsStandardComponents.LeaderOutputBus
   - EventStore.Projections.Core.ProjectionsStandardComponents.ProjectionWorkerThreadCount
   - EventStore.Projections.Core.ProjectionsStandardComponents.RunProjections
   langs:
@@ -20,9 +20,13 @@ items:
   fullName: EventStore.Projections.Core.ProjectionsStandardComponents
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/ProjectionsStandardComponents.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionsStandardComponents
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionsStandardComponents.cs
-    startLine: 6
+    path: ../EventStore/src/EventStore.Projections.Core/ProjectionsStandardComponents.cs
+    startLine: 4
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core
@@ -52,28 +56,32 @@ items:
   fullName: EventStore.Projections.Core.ProjectionsStandardComponents.ProjectionsStandardComponents(System.Int32, EventStore.Common.Options.ProjectionType, EventStore.Core.Bus.InMemoryBus, EventStore.Core.Bus.IQueuedHandler, EventStore.Core.Bus.InMemoryBus, System.Boolean)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/ProjectionsStandardComponents.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionsStandardComponents.cs
-    startLine: 14
+    path: ../EventStore/src/EventStore.Projections.Core/ProjectionsStandardComponents.cs
+    startLine: 12
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core
   syntax:
-    content: public ProjectionsStandardComponents(int projectionWorkerThreadCount, ProjectionType runProjections, InMemoryBus masterOutputBus, IQueuedHandler masterInputQueue, InMemoryBus masterMainBus, bool faultOutOfOrderProjections)
+    content: public ProjectionsStandardComponents(int projectionWorkerThreadCount, ProjectionType runProjections, InMemoryBus leaderOutputBus, IQueuedHandler leaderInputQueue, InMemoryBus leaderMainBus, bool faultOutOfOrderProjections)
     parameters:
     - id: projectionWorkerThreadCount
       type: System.Int32
     - id: runProjections
       type: EventStore.Common.Options.ProjectionType
-    - id: masterOutputBus
+    - id: leaderOutputBus
       type: EventStore.Core.Bus.InMemoryBus
-    - id: masterInputQueue
+    - id: leaderInputQueue
       type: EventStore.Core.Bus.IQueuedHandler
-    - id: masterMainBus
+    - id: leaderMainBus
       type: EventStore.Core.Bus.InMemoryBus
     - id: faultOutOfOrderProjections
       type: System.Boolean
-    content.vb: Public Sub New(projectionWorkerThreadCount As Integer, runProjections As ProjectionType, masterOutputBus As InMemoryBus, masterInputQueue As IQueuedHandler, masterMainBus As InMemoryBus, faultOutOfOrderProjections As Boolean)
+    content.vb: Public Sub New(projectionWorkerThreadCount As Integer, runProjections As ProjectionType, leaderOutputBus As InMemoryBus, leaderInputQueue As IQueuedHandler, leaderMainBus As InMemoryBus, faultOutOfOrderProjections As Boolean)
   overload: EventStore.Projections.Core.ProjectionsStandardComponents.#ctor*
   modifiers.csharp:
   - public
@@ -91,9 +99,13 @@ items:
   fullName: EventStore.Projections.Core.ProjectionsStandardComponents.ProjectionWorkerThreadCount
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/ProjectionsStandardComponents.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionWorkerThreadCount
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionsStandardComponents.cs
-    startLine: 29
+    path: ../EventStore/src/EventStore.Projections.Core/ProjectionsStandardComponents.cs
+    startLine: 27
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core
@@ -122,9 +134,13 @@ items:
   fullName: EventStore.Projections.Core.ProjectionsStandardComponents.RunProjections
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/ProjectionsStandardComponents.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: RunProjections
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionsStandardComponents.cs
-    startLine: 33
+    path: ../EventStore/src/EventStore.Projections.Core/ProjectionsStandardComponents.cs
+    startLine: 31
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core
@@ -141,93 +157,105 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: EventStore.Projections.Core.ProjectionsStandardComponents.MasterOutputBus
-  commentId: P:EventStore.Projections.Core.ProjectionsStandardComponents.MasterOutputBus
-  id: MasterOutputBus
+- uid: EventStore.Projections.Core.ProjectionsStandardComponents.LeaderOutputBus
+  commentId: P:EventStore.Projections.Core.ProjectionsStandardComponents.LeaderOutputBus
+  id: LeaderOutputBus
   parent: EventStore.Projections.Core.ProjectionsStandardComponents
   langs:
   - csharp
   - vb
-  name: MasterOutputBus
-  nameWithType: ProjectionsStandardComponents.MasterOutputBus
-  fullName: EventStore.Projections.Core.ProjectionsStandardComponents.MasterOutputBus
+  name: LeaderOutputBus
+  nameWithType: ProjectionsStandardComponents.LeaderOutputBus
+  fullName: EventStore.Projections.Core.ProjectionsStandardComponents.LeaderOutputBus
   type: Property
   source:
-    id: MasterOutputBus
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionsStandardComponents.cs
-    startLine: 37
+    remote:
+      path: src/EventStore.Projections.Core/ProjectionsStandardComponents.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
+    id: LeaderOutputBus
+    path: ../EventStore/src/EventStore.Projections.Core/ProjectionsStandardComponents.cs
+    startLine: 35
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core
   syntax:
-    content: public InMemoryBus MasterOutputBus { get; }
+    content: public InMemoryBus LeaderOutputBus { get; }
     parameters: []
     return:
       type: EventStore.Core.Bus.InMemoryBus
-    content.vb: Public ReadOnly Property MasterOutputBus As InMemoryBus
-  overload: EventStore.Projections.Core.ProjectionsStandardComponents.MasterOutputBus*
+    content.vb: Public ReadOnly Property LeaderOutputBus As InMemoryBus
+  overload: EventStore.Projections.Core.ProjectionsStandardComponents.LeaderOutputBus*
   modifiers.csharp:
   - public
   - get
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: EventStore.Projections.Core.ProjectionsStandardComponents.MasterInputQueue
-  commentId: P:EventStore.Projections.Core.ProjectionsStandardComponents.MasterInputQueue
-  id: MasterInputQueue
+- uid: EventStore.Projections.Core.ProjectionsStandardComponents.LeaderInputQueue
+  commentId: P:EventStore.Projections.Core.ProjectionsStandardComponents.LeaderInputQueue
+  id: LeaderInputQueue
   parent: EventStore.Projections.Core.ProjectionsStandardComponents
   langs:
   - csharp
   - vb
-  name: MasterInputQueue
-  nameWithType: ProjectionsStandardComponents.MasterInputQueue
-  fullName: EventStore.Projections.Core.ProjectionsStandardComponents.MasterInputQueue
+  name: LeaderInputQueue
+  nameWithType: ProjectionsStandardComponents.LeaderInputQueue
+  fullName: EventStore.Projections.Core.ProjectionsStandardComponents.LeaderInputQueue
   type: Property
   source:
-    id: MasterInputQueue
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionsStandardComponents.cs
-    startLine: 41
+    remote:
+      path: src/EventStore.Projections.Core/ProjectionsStandardComponents.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
+    id: LeaderInputQueue
+    path: ../EventStore/src/EventStore.Projections.Core/ProjectionsStandardComponents.cs
+    startLine: 39
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core
   syntax:
-    content: public IQueuedHandler MasterInputQueue { get; }
+    content: public IQueuedHandler LeaderInputQueue { get; }
     parameters: []
     return:
       type: EventStore.Core.Bus.IQueuedHandler
-    content.vb: Public ReadOnly Property MasterInputQueue As IQueuedHandler
-  overload: EventStore.Projections.Core.ProjectionsStandardComponents.MasterInputQueue*
+    content.vb: Public ReadOnly Property LeaderInputQueue As IQueuedHandler
+  overload: EventStore.Projections.Core.ProjectionsStandardComponents.LeaderInputQueue*
   modifiers.csharp:
   - public
   - get
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: EventStore.Projections.Core.ProjectionsStandardComponents.MasterMainBus
-  commentId: P:EventStore.Projections.Core.ProjectionsStandardComponents.MasterMainBus
-  id: MasterMainBus
+- uid: EventStore.Projections.Core.ProjectionsStandardComponents.LeaderMainBus
+  commentId: P:EventStore.Projections.Core.ProjectionsStandardComponents.LeaderMainBus
+  id: LeaderMainBus
   parent: EventStore.Projections.Core.ProjectionsStandardComponents
   langs:
   - csharp
   - vb
-  name: MasterMainBus
-  nameWithType: ProjectionsStandardComponents.MasterMainBus
-  fullName: EventStore.Projections.Core.ProjectionsStandardComponents.MasterMainBus
+  name: LeaderMainBus
+  nameWithType: ProjectionsStandardComponents.LeaderMainBus
+  fullName: EventStore.Projections.Core.ProjectionsStandardComponents.LeaderMainBus
   type: Property
   source:
-    id: MasterMainBus
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionsStandardComponents.cs
-    startLine: 45
+    remote:
+      path: src/EventStore.Projections.Core/ProjectionsStandardComponents.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
+    id: LeaderMainBus
+    path: ../EventStore/src/EventStore.Projections.Core/ProjectionsStandardComponents.cs
+    startLine: 43
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core
   syntax:
-    content: public InMemoryBus MasterMainBus { get; }
+    content: public InMemoryBus LeaderMainBus { get; }
     parameters: []
     return:
       type: EventStore.Core.Bus.InMemoryBus
-    content.vb: Public ReadOnly Property MasterMainBus As InMemoryBus
-  overload: EventStore.Projections.Core.ProjectionsStandardComponents.MasterMainBus*
+    content.vb: Public ReadOnly Property LeaderMainBus As InMemoryBus
+  overload: EventStore.Projections.Core.ProjectionsStandardComponents.LeaderMainBus*
   modifiers.csharp:
   - public
   - get
@@ -246,9 +274,13 @@ items:
   fullName: EventStore.Projections.Core.ProjectionsStandardComponents.FaultOutOfOrderProjections
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/ProjectionsStandardComponents.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: FaultOutOfOrderProjections
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionsStandardComponents.cs
-    startLine: 49
+    path: ../EventStore/src/EventStore.Projections.Core/ProjectionsStandardComponents.cs
+    startLine: 47
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core
@@ -272,26 +304,16 @@ references:
   nameWithType: EventStore.Projections.Core
   fullName: EventStore.Projections.Core
 - uid: System.Object
-  commentId: T:System.Object
-  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: EventStore.Projections.Core.ProjectionsStandardComponents.#ctor*
   commentId: Overload:EventStore.Projections.Core.ProjectionsStandardComponents.#ctor
   name: ProjectionsStandardComponents
   nameWithType: ProjectionsStandardComponents.ProjectionsStandardComponents
   fullName: EventStore.Projections.Core.ProjectionsStandardComponents.ProjectionsStandardComponents
 - uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -315,8 +337,6 @@ references:
   nameWithType: IQueuedHandler
   fullName: EventStore.Core.Bus.IQueuedHandler
 - uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -341,21 +361,21 @@ references:
   name: RunProjections
   nameWithType: ProjectionsStandardComponents.RunProjections
   fullName: EventStore.Projections.Core.ProjectionsStandardComponents.RunProjections
-- uid: EventStore.Projections.Core.ProjectionsStandardComponents.MasterOutputBus*
-  commentId: Overload:EventStore.Projections.Core.ProjectionsStandardComponents.MasterOutputBus
-  name: MasterOutputBus
-  nameWithType: ProjectionsStandardComponents.MasterOutputBus
-  fullName: EventStore.Projections.Core.ProjectionsStandardComponents.MasterOutputBus
-- uid: EventStore.Projections.Core.ProjectionsStandardComponents.MasterInputQueue*
-  commentId: Overload:EventStore.Projections.Core.ProjectionsStandardComponents.MasterInputQueue
-  name: MasterInputQueue
-  nameWithType: ProjectionsStandardComponents.MasterInputQueue
-  fullName: EventStore.Projections.Core.ProjectionsStandardComponents.MasterInputQueue
-- uid: EventStore.Projections.Core.ProjectionsStandardComponents.MasterMainBus*
-  commentId: Overload:EventStore.Projections.Core.ProjectionsStandardComponents.MasterMainBus
-  name: MasterMainBus
-  nameWithType: ProjectionsStandardComponents.MasterMainBus
-  fullName: EventStore.Projections.Core.ProjectionsStandardComponents.MasterMainBus
+- uid: EventStore.Projections.Core.ProjectionsStandardComponents.LeaderOutputBus*
+  commentId: Overload:EventStore.Projections.Core.ProjectionsStandardComponents.LeaderOutputBus
+  name: LeaderOutputBus
+  nameWithType: ProjectionsStandardComponents.LeaderOutputBus
+  fullName: EventStore.Projections.Core.ProjectionsStandardComponents.LeaderOutputBus
+- uid: EventStore.Projections.Core.ProjectionsStandardComponents.LeaderInputQueue*
+  commentId: Overload:EventStore.Projections.Core.ProjectionsStandardComponents.LeaderInputQueue
+  name: LeaderInputQueue
+  nameWithType: ProjectionsStandardComponents.LeaderInputQueue
+  fullName: EventStore.Projections.Core.ProjectionsStandardComponents.LeaderInputQueue
+- uid: EventStore.Projections.Core.ProjectionsStandardComponents.LeaderMainBus*
+  commentId: Overload:EventStore.Projections.Core.ProjectionsStandardComponents.LeaderMainBus
+  name: LeaderMainBus
+  nameWithType: ProjectionsStandardComponents.LeaderMainBus
+  fullName: EventStore.Projections.Core.ProjectionsStandardComponents.LeaderMainBus
 - uid: EventStore.Projections.Core.ProjectionsStandardComponents.FaultOutOfOrderProjections*
   commentId: Overload:EventStore.Projections.Core.ProjectionsStandardComponents.FaultOutOfOrderProjections
   name: FaultOutOfOrderProjections
