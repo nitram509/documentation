@@ -8,6 +8,11 @@ This guide is to show how to use [the official Event Store Helm Chart](https://g
 interactively deploy an Event Store Cluster in Kubernetes Google Cloud
 GKE service.
 
+> [!NOTE]
+> After reviewing our strategy in regards to deployment of Event Store on Kubernetes, we have decided to deprecate the Helm chart. While we believe that Helm charts are a great solution for deploying simple applications, we do not believe that they provide the comprehensive life-cycle management features that a distributed database like Event Store requires for real world operational use. As such we are devoting resources to develop a Kubernetes operator that satisfies these requirements, for release at a future date.
+>
+> For more information [read this blog post](https://eventstore.com/blog/event-store-on-kubernetes/).
+
 ## Prerequisites
 
 Install the following utilities in your development machine.
@@ -53,7 +58,7 @@ You can then check if the 'tiller-deploy-xxxx' pod is running
 kubectl -n kube-system get pod
 ```
 
-## Deploy Event Store cluster with Helm
+### Deploy Event Store cluster with Helm
 
 It is possible to specify a lot of options to customise your Event Store deployment. The setting used in this guide is "Persistent Volume", that allows you to deploy a [Persistent Volume Claim](https://kubernetes.io/docs/concepts/storage/persistent-volumes/). This Claim is an abstraction that requires Kubernetes to set up one persistent volume per each Event Store node and assign an id to it. These volumes are then reused by the cluster, for example, we want to upgrade the version of the Cluster and retain the data. If we don’t specify an existing volume then the volumes are dynamically created.
 

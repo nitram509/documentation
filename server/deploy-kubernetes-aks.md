@@ -8,6 +8,11 @@ This guide is to show how to use [the official Event Store Helm Chart](https://g
 interactively deploy an Event Store Cluster in Kubernetes Azure Cloud
 AKS service.
 
+> [!NOTE]
+> After reviewing our strategy in regards to deployment of Event Store on Kubernetes, we have decided to deprecate the Helm chart. While we believe that Helm charts are a great solution for deploying simple applications, we do not believe that they provide the comprehensive life-cycle management features that a distributed database like Event Store requires for real world operational use. As such we are devoting resources to develop a Kubernetes operator that satisfies these requirements, for release at a future date.
+>
+> For more information [read this blog post](https://eventstore.com/blog/event-store-on-kubernetes/).
+
 ## Prerequisites
 
 Install the following utilities in your development machine.
@@ -87,7 +92,12 @@ To access the dashboard you can now use the `browse` command. This command is a 
 az aks browse -n {clustername} -g {groupname}
 ```
 
-#### Deploy Event Store cluster with Helm
+### Deploy Event Store cluster with Helm
+
+> [!NOTE]
+> After reviewing our strategy in regards to deployment of Event Store on Kubernetes, we have decided to deprecate the Helm chart. While we believe that Helm charts are a great solution for deploying simple applications, we do not believe that they provide the comprehensive life-cycle management features that a distributed database like Event Store requires for real world operational use. As such we ware devoting resources to develop a Kubernetes operator that satisfies these requirements, for release at a future date.
+> 
+> For more information [read this blog post](https://eventstore.com/blog/event-store-on-kubernetes/).
 
 Helm is the package manager for Kubernetes. After you've created a new Kubernetes cluster you need to configure Helm for your local helm CLI to connect to a configured service account on the server side. The service account used by Helm is called Tiller. Give Tiller access to the cluster and initialise it with the following commands:
 
