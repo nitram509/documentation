@@ -5,7 +5,7 @@ items:
   id: TransactionFileEventReader
   parent: EventStore.Projections.Core.Services.Processing
   children:
-  - EventStore.Projections.Core.Services.Processing.TransactionFileEventReader.#ctor(EventStore.Core.Bus.IPublisher,Guid,ClaimsPrincipal,EventStore.Core.Data.TFPos,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,System.Boolean,System.Boolean)
+  - EventStore.Projections.Core.Services.Processing.TransactionFileEventReader.#ctor(EventStore.Core.Bus.IPublisher,Guid,IPrincipal,EventStore.Core.Data.TFPos,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,System.Boolean,System.Boolean)
   - EventStore.Projections.Core.Services.Processing.TransactionFileEventReader.AreEventsRequested
   - EventStore.Projections.Core.Services.Processing.TransactionFileEventReader.Handle(EventStore.Core.Messages.ClientMessage.ReadAllEventsForwardCompleted)
   - EventStore.Projections.Core.Services.Processing.TransactionFileEventReader.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.ReadTimeout)
@@ -18,12 +18,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.TransactionFileEventReader
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/TransactionFileEventReader.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: TransactionFileEventReader
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/TransactionFileEventReader.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/TransactionFileEventReader.cs
     startLine: 13
   assemblies:
   - EventStore.Projections.Core
@@ -68,37 +64,33 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: EventStore.Projections.Core.Services.Processing.TransactionFileEventReader.#ctor(EventStore.Core.Bus.IPublisher,Guid,ClaimsPrincipal,EventStore.Core.Data.TFPos,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,System.Boolean,System.Boolean)
-  commentId: M:EventStore.Projections.Core.Services.Processing.TransactionFileEventReader.#ctor(EventStore.Core.Bus.IPublisher,Guid,ClaimsPrincipal,EventStore.Core.Data.TFPos,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,System.Boolean,System.Boolean)
-  id: '#ctor(EventStore.Core.Bus.IPublisher,Guid,ClaimsPrincipal,EventStore.Core.Data.TFPos,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,System.Boolean,System.Boolean)'
+- uid: EventStore.Projections.Core.Services.Processing.TransactionFileEventReader.#ctor(EventStore.Core.Bus.IPublisher,Guid,IPrincipal,EventStore.Core.Data.TFPos,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:EventStore.Projections.Core.Services.Processing.TransactionFileEventReader.#ctor(EventStore.Core.Bus.IPublisher,Guid,IPrincipal,EventStore.Core.Data.TFPos,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,System.Boolean,System.Boolean)
+  id: '#ctor(EventStore.Core.Bus.IPublisher,Guid,IPrincipal,EventStore.Core.Data.TFPos,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,System.Boolean,System.Boolean)'
   parent: EventStore.Projections.Core.Services.Processing.TransactionFileEventReader
   langs:
   - csharp
   - vb
-  name: TransactionFileEventReader(IPublisher, Guid, ClaimsPrincipal, TFPos, ITimeProvider, Boolean, Boolean, Boolean)
-  nameWithType: TransactionFileEventReader.TransactionFileEventReader(IPublisher, Guid, ClaimsPrincipal, TFPos, ITimeProvider, Boolean, Boolean, Boolean)
-  fullName: EventStore.Projections.Core.Services.Processing.TransactionFileEventReader.TransactionFileEventReader(EventStore.Core.Bus.IPublisher, Guid, ClaimsPrincipal, EventStore.Core.Data.TFPos, EventStore.Core.Services.TimerService.ITimeProvider, System.Boolean, System.Boolean, System.Boolean)
+  name: TransactionFileEventReader(IPublisher, Guid, IPrincipal, TFPos, ITimeProvider, Boolean, Boolean, Boolean)
+  nameWithType: TransactionFileEventReader.TransactionFileEventReader(IPublisher, Guid, IPrincipal, TFPos, ITimeProvider, Boolean, Boolean, Boolean)
+  fullName: EventStore.Projections.Core.Services.Processing.TransactionFileEventReader.TransactionFileEventReader(EventStore.Core.Bus.IPublisher, Guid, IPrincipal, EventStore.Core.Data.TFPos, EventStore.Core.Services.TimerService.ITimeProvider, System.Boolean, System.Boolean, System.Boolean)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/TransactionFileEventReader.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/TransactionFileEventReader.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/TransactionFileEventReader.cs
     startLine: 26
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
   syntax:
-    content: public TransactionFileEventReader(IPublisher publisher, Guid eventReaderCorrelationId, ClaimsPrincipal readAs, TFPos from, ITimeProvider timeProvider, bool stopOnEof = false, bool deliverEndOfTFPosition = true, bool resolveLinkTos = true)
+    content: public TransactionFileEventReader(IPublisher publisher, Guid eventReaderCorrelationId, IPrincipal readAs, TFPos from, ITimeProvider timeProvider, bool stopOnEof = false, bool deliverEndOfTFPosition = true, bool resolveLinkTos = true)
     parameters:
     - id: publisher
       type: EventStore.Core.Bus.IPublisher
     - id: eventReaderCorrelationId
       type: Guid
     - id: readAs
-      type: ClaimsPrincipal
+      type: IPrincipal
     - id: from
       type: EventStore.Core.Data.TFPos
     - id: timeProvider
@@ -109,7 +101,7 @@ items:
       type: System.Boolean
     - id: resolveLinkTos
       type: System.Boolean
-    content.vb: Public Sub New(publisher As IPublisher, eventReaderCorrelationId As Guid, readAs As ClaimsPrincipal, from As TFPos, timeProvider As ITimeProvider, stopOnEof As Boolean = False, deliverEndOfTFPosition As Boolean = True, resolveLinkTos As Boolean = True)
+    content.vb: Public Sub New(publisher As IPublisher, eventReaderCorrelationId As Guid, readAs As IPrincipal, from As TFPos, timeProvider As ITimeProvider, stopOnEof As Boolean = False, deliverEndOfTFPosition As Boolean = True, resolveLinkTos As Boolean = True)
   overload: EventStore.Projections.Core.Services.Processing.TransactionFileEventReader.#ctor*
   modifiers.csharp:
   - public
@@ -127,12 +119,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.TransactionFileEventReader.AreEventsRequested()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/TransactionFileEventReader.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: AreEventsRequested
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/TransactionFileEventReader.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/TransactionFileEventReader.cs
     startLine: 43
   assemblies:
   - EventStore.Projections.Core
@@ -162,12 +150,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.TransactionFileEventReader.Handle(EventStore.Core.Messages.ClientMessage.ReadAllEventsForwardCompleted)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/TransactionFileEventReader.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/TransactionFileEventReader.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/TransactionFileEventReader.cs
     startLine: 47
   assemblies:
   - EventStore.Projections.Core
@@ -197,12 +181,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.TransactionFileEventReader.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.ReadTimeout)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/TransactionFileEventReader.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/TransactionFileEventReader.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/TransactionFileEventReader.cs
     startLine: 90
   assemblies:
   - EventStore.Projections.Core
@@ -232,12 +212,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.TransactionFileEventReader.RequestEvents()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/TransactionFileEventReader.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: RequestEvents
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/TransactionFileEventReader.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/TransactionFileEventReader.cs
     startLine: 104
   assemblies:
   - EventStore.Projections.Core
@@ -260,6 +236,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -919,6 +897,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Bus.IHandle`1
   commentId: T:EventStore.Core.Bus.IHandle`1
   name: IHandle<T>
@@ -976,11 +960,11 @@ references:
   name: Guid
   nameWithType: Guid
   fullName: Guid
-- uid: ClaimsPrincipal
+- uid: IPrincipal
   isExternal: true
-  name: ClaimsPrincipal
-  nameWithType: ClaimsPrincipal
-  fullName: ClaimsPrincipal
+  name: IPrincipal
+  nameWithType: IPrincipal
+  fullName: IPrincipal
 - uid: EventStore.Core.Data.TFPos
   commentId: T:EventStore.Core.Data.TFPos
   parent: EventStore.Core.Data
@@ -994,6 +978,8 @@ references:
   nameWithType: ITimeProvider
   fullName: EventStore.Core.Services.TimerService.ITimeProvider
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

@@ -20,12 +20,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedDataEvent
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EmittedDataEvent.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EmittedDataEvent
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedDataEvent.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedDataEvent.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core
@@ -68,12 +64,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedDataEvent.EmittedDataEvent(System.String, Guid, System.String, System.Boolean, System.String, EventStore.Projections.Core.Services.Processing.ExtraMetaData, EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Services.Processing.CheckpointTag, Action<System.Int64>)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EmittedDataEvent.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedDataEvent.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedDataEvent.cs
     startLine: 9
   assemblies:
   - EventStore.Projections.Core
@@ -120,12 +112,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedDataEvent.Data
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EmittedDataEvent.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Data
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedDataEvent.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedDataEvent.cs
     startLine: 20
   assemblies:
   - EventStore.Projections.Core
@@ -158,12 +146,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedDataEvent.Metadata
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EmittedDataEvent.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Metadata
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedDataEvent.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedDataEvent.cs
     startLine: 24
   assemblies:
   - EventStore.Projections.Core
@@ -193,12 +177,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedDataEvent.IsJson
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EmittedDataEvent.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: IsJson
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedDataEvent.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedDataEvent.cs
     startLine: 28
   assemblies:
   - EventStore.Projections.Core
@@ -231,12 +211,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedDataEvent.IsReady()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EmittedDataEvent.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: IsReady
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedDataEvent.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedDataEvent.cs
     startLine: 32
   assemblies:
   - EventStore.Projections.Core
@@ -266,12 +242,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedDataEvent.ExtraMetaData()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EmittedDataEvent.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ExtraMetaData
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedDataEvent.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedDataEvent.cs
     startLine: 36
   assemblies:
   - EventStore.Projections.Core
@@ -301,12 +273,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedDataEvent.ToString()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EmittedDataEvent.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ToString
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedDataEvent.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedDataEvent.cs
     startLine: 40
   assemblies:
   - EventStore.Projections.Core
@@ -330,6 +298,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -466,12 +436,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.EmittedDataEvent.#ctor*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.EmittedDataEvent.#ctor
   name: EmittedDataEvent
   nameWithType: EmittedDataEvent.EmittedDataEvent
   fullName: EventStore.Projections.Core.Services.Processing.EmittedDataEvent.EmittedDataEvent
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -482,6 +460,8 @@ references:
   nameWithType: Guid
   fullName: Guid
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

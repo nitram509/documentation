@@ -28,12 +28,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.PendingProjection
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: PendingProjection
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 1223
   assemblies:
   - EventStore.Projections.Core
@@ -64,12 +60,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.PendingProjection.Mode
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Mode
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 1224
   assemblies:
   - EventStore.Projections.Core
@@ -99,12 +91,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.PendingProjection.RunAs
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: RunAs
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 1225
   assemblies:
   - EventStore.Projections.Core
@@ -134,12 +122,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.PendingProjection.Name
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Name
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 1226
   assemblies:
   - EventStore.Projections.Core
@@ -169,12 +153,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.PendingProjection.HandlerType
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: HandlerType
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 1227
   assemblies:
   - EventStore.Projections.Core
@@ -204,12 +184,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.PendingProjection.Query
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Query
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 1228
   assemblies:
   - EventStore.Projections.Core
@@ -239,12 +215,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.PendingProjection.Enabled
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Enabled
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 1229
   assemblies:
   - EventStore.Projections.Core
@@ -274,12 +246,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.PendingProjection.CheckpointsEnabled
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: CheckpointsEnabled
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 1230
   assemblies:
   - EventStore.Projections.Core
@@ -309,12 +277,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.PendingProjection.EmitEnabled
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EmitEnabled
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 1231
   assemblies:
   - EventStore.Projections.Core
@@ -344,12 +308,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.PendingProjection.EnableRunAs
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EnableRunAs
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 1232
   assemblies:
   - EventStore.Projections.Core
@@ -379,12 +339,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.PendingProjection.TrackEmittedStreams
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: TrackEmittedStreams
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 1233
   assemblies:
   - EventStore.Projections.Core
@@ -414,12 +370,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.PendingProjection.ProjectionId
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionId
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 1234
   assemblies:
   - EventStore.Projections.Core
@@ -449,12 +401,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.PendingProjection.PendingProjection(System.Int64, EventStore.Projections.Core.Services.ProjectionMode, EventStore.Projections.Core.Services.Management.SerializedRunAs, System.String, System.String, System.String, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 1236
   assemblies:
   - EventStore.Projections.Core
@@ -502,12 +450,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.PendingProjection.PendingProjection(System.Int64, EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.PostBatch.ProjectionPost)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 1253
   assemblies:
   - EventStore.Projections.Core
@@ -537,12 +481,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.PendingProjection.PendingProjection(System.Int64, EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Post)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 1258
   assemblies:
   - EventStore.Projections.Core
@@ -572,12 +512,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.PendingProjection.CreateInitializer(EventStore.Core.Messaging.IEnvelope)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: CreateInitializer
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManager.cs
     startLine: 1263
   assemblies:
   - EventStore.Projections.Core
@@ -602,10 +538,18 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Management
   fullName: EventStore.Projections.Core.Services.Management
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Management.ProjectionManager.PendingProjection.Mode*
   commentId: Overload:EventStore.Projections.Core.Services.Management.ProjectionManager.PendingProjection.Mode
   name: Mode
@@ -639,6 +583,8 @@ references:
   nameWithType: ProjectionManager.PendingProjection.Name
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.PendingProjection.Name
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -659,6 +605,8 @@ references:
   nameWithType: ProjectionManager.PendingProjection.Enabled
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.PendingProjection.Enabled
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -689,6 +637,8 @@ references:
   nameWithType: ProjectionManager.PendingProjection.ProjectionId
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManager.PendingProjection.ProjectionId
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64

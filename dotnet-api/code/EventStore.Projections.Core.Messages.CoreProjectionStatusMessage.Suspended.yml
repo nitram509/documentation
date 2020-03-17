@@ -15,12 +15,8 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Suspended
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Suspended
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
     startLine: 176
   assemblies:
   - EventStore.Projections.Core
@@ -57,12 +53,8 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Suspended.MsgTypeId
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
     startLine: 179
   assemblies:
   - EventStore.Projections.Core
@@ -95,12 +87,8 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Suspended.Suspended(Guid)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
     startLine: 183
   assemblies:
   - EventStore.Projections.Core
@@ -123,6 +111,8 @@ references:
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -157,6 +147,12 @@ references:
   name: NextMsgId
   nameWithType: Message.NextMsgId
   fullName: EventStore.Core.Messaging.Message.NextMsgId
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Messaging
   commentId: N:EventStore.Core.Messaging
   name: EventStore.Core.Messaging
@@ -174,6 +170,8 @@ references:
   nameWithType: CoreProjectionStatusMessage.Suspended.MsgTypeId
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Suspended.MsgTypeId
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

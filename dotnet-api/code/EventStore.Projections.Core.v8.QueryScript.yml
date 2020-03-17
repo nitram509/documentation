@@ -26,12 +26,8 @@ items:
   fullName: EventStore.Projections.Core.v8.QueryScript
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/v8/QueryScript.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: QueryScript
-    path: ../EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core
@@ -62,12 +58,8 @@ items:
   fullName: EventStore.Projections.Core.v8.QueryScript.Emit
   type: Event
   source:
-    remote:
-      path: src/EventStore.Projections.Core/v8/QueryScript.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Emit
-    path: ../EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
     startLine: 31
   assemblies:
   - EventStore.Projections.Core
@@ -93,12 +85,8 @@ items:
   fullName: EventStore.Projections.Core.v8.QueryScript.QueryScript(EventStore.Projections.Core.v8.PreludeScript, System.String, System.String)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/v8/QueryScript.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
     startLine: 33
   assemblies:
   - EventStore.Projections.Core
@@ -130,12 +118,8 @@ items:
   fullName: EventStore.Projections.Core.v8.QueryScript.Dispose()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/v8/QueryScript.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Dispose
-    path: ../EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
     startLine: 178
   assemblies:
   - EventStore.Projections.Core
@@ -160,12 +144,8 @@ items:
   fullName: EventStore.Projections.Core.v8.QueryScript.Initialize()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/v8/QueryScript.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Initialize
-    path: ../EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
     startLine: 182
   assemblies:
   - EventStore.Projections.Core
@@ -190,12 +170,8 @@ items:
   fullName: EventStore.Projections.Core.v8.QueryScript.InitializeShared()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/v8/QueryScript.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: InitializeShared
-    path: ../EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
     startLine: 186
   assemblies:
   - EventStore.Projections.Core
@@ -220,12 +196,8 @@ items:
   fullName: EventStore.Projections.Core.v8.QueryScript.GetPartition(System.String, System.String[])
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/v8/QueryScript.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: GetPartition
-    path: ../EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
     startLine: 200
   assemblies:
   - EventStore.Projections.Core
@@ -260,12 +232,8 @@ items:
   fullName: EventStore.Projections.Core.v8.QueryScript.Push(System.String, System.String[])
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/v8/QueryScript.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Push
-    path: ../EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
     startLine: 207
   assemblies:
   - EventStore.Projections.Core
@@ -300,12 +268,8 @@ items:
   fullName: EventStore.Projections.Core.v8.QueryScript.NotifyDeleted(System.String, System.String[])
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/v8/QueryScript.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: NotifyDeleted
-    path: ../EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
     startLine: 214
   assemblies:
   - EventStore.Projections.Core
@@ -340,12 +304,8 @@ items:
   fullName: EventStore.Projections.Core.v8.QueryScript.NotifyCreated(System.String, System.String[])
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/v8/QueryScript.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: NotifyCreated
-    path: ../EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
     startLine: 222
   assemblies:
   - EventStore.Projections.Core
@@ -380,12 +340,8 @@ items:
   fullName: EventStore.Projections.Core.v8.QueryScript.TransformStateToResult()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/v8/QueryScript.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: TransformStateToResult
-    path: ../EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
     startLine: 230
   assemblies:
   - EventStore.Projections.Core
@@ -412,12 +368,8 @@ items:
   fullName: EventStore.Projections.Core.v8.QueryScript.SetState(System.String)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/v8/QueryScript.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: SetState
-    path: ../EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
     startLine: 238
   assemblies:
   - EventStore.Projections.Core
@@ -445,12 +397,8 @@ items:
   fullName: EventStore.Projections.Core.v8.QueryScript.SetSharedState(System.String)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/v8/QueryScript.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: SetSharedState
-    path: ../EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
     startLine: 244
   assemblies:
   - EventStore.Projections.Core
@@ -478,12 +426,8 @@ items:
   fullName: EventStore.Projections.Core.v8.QueryScript.GetSourcesDefintion()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/v8/QueryScript.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: GetSourcesDefintion
-    path: ../EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/QueryScript.cs
     startLine: 250
   assemblies:
   - EventStore.Projections.Core
@@ -505,10 +449,18 @@ references:
   nameWithType: EventStore.Projections.Core.v8
   fullName: EventStore.Projections.Core.v8
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Action{System.String}
   commentId: '!:Action{System.String}'
   definition: Action`1
@@ -602,6 +554,8 @@ references:
   nameWithType: PreludeScript
   fullName: EventStore.Projections.Core.v8.PreludeScript
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

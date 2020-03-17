@@ -14,12 +14,8 @@ items:
   fullName: EventStore.Projections.Core.Utils.EnumExtensions
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Utils/EnumExtensions.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EnumExtensions
-    path: ../EventStore/src/EventStore.Projections.Core/Utils/EnumExtensions.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Utils/EnumExtensions.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -52,12 +48,8 @@ items:
   fullName: EventStore.Projections.Core.Utils.EnumExtensions.EnumValueName<T>(T)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Utils/EnumExtensions.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EnumValueName
-    path: ../EventStore/src/EventStore.Projections.Core/Utils/EnumExtensions.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Utils/EnumExtensions.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core
@@ -95,10 +87,18 @@ references:
   nameWithType: EventStore.Projections.Core.Utils
   fullName: EventStore.Projections.Core.Utils
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Utils.EnumExtensions.EnumValueName*
   commentId: Overload:EventStore.Projections.Core.Utils.EnumExtensions.EnumValueName
   name: EnumValueName
@@ -111,6 +111,8 @@ references:
   nameWithType: T
   fullName: T
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

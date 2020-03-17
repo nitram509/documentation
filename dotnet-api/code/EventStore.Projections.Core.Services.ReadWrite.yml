@@ -15,12 +15,8 @@ items:
   fullName: EventStore.Projections.Core.Services.ReadWrite
   type: Enum
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/ReadWrite.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ReadWrite
-    path: ../EventStore/src/EventStore.Projections.Core/Services/ReadWrite.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ReadWrite.cs
     startLine: 1
   assemblies:
   - EventStore.Projections.Core
@@ -48,12 +44,8 @@ items:
   fullName: EventStore.Projections.Core.Services.ReadWrite.Read
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/ReadWrite.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Read
-    path: ../EventStore/src/EventStore.Projections.Core/Services/ReadWrite.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ReadWrite.cs
     startLine: 2
   assemblies:
   - EventStore.Projections.Core
@@ -80,12 +72,8 @@ items:
   fullName: EventStore.Projections.Core.Services.ReadWrite.Write
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/ReadWrite.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Write
-    path: ../EventStore/src/EventStore.Projections.Core/Services/ReadWrite.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ReadWrite.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core

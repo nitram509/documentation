@@ -14,12 +14,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.NoopResultEventEmitter
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/NoopResultEventEmitter.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: NoopResultEventEmitter
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/NoopResultEventEmitter.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/NoopResultEventEmitter.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -54,12 +50,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.NoopResultEventEmitter.ResultUpdated(System.String, System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/NoopResultEventEmitter.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ResultUpdated
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/NoopResultEventEmitter.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/NoopResultEventEmitter.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core
@@ -90,6 +82,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -100,6 +94,12 @@ references:
   name: IResultEventEmitter
   nameWithType: IResultEventEmitter
   fullName: EventStore.Projections.Core.Services.Processing.IResultEventEmitter
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.NoopResultEventEmitter.ResultUpdated*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.NoopResultEventEmitter.ResultUpdated
   name: ResultUpdated
@@ -175,6 +175,8 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

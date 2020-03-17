@@ -15,12 +15,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManagerMessageDispatcher
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionManagerMessageDispatcher.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionManagerMessageDispatcher
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManagerMessageDispatcher.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManagerMessageDispatcher.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core
@@ -55,12 +51,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManagerMessageDispatcher.ProjectionManagerMessageDispatcher(IDictionary<Guid, EventStore.Core.Bus.IPublisher>)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionManagerMessageDispatcher.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManagerMessageDispatcher.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManagerMessageDispatcher.cs
     startLine: 13
   assemblies:
   - EventStore.Projections.Core
@@ -91,12 +83,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionManagerMessageDispatcher.Handle(EventStore.Projections.Core.Messages.CoreProjectionManagementControlMessage)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionManagerMessageDispatcher.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManagerMessageDispatcher.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionManagerMessageDispatcher.cs
     startLine: 17
   assemblies:
   - EventStore.Projections.Core
@@ -121,6 +109,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Management
   fullName: EventStore.Projections.Core.Services.Management
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -165,6 +155,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Bus.IHandle`1
   commentId: T:EventStore.Core.Bus.IHandle`1
   name: IHandle<T>

@@ -18,12 +18,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IResultWriter
   type: Interface
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/IResultWriter.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: IResultWriter
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IResultWriter.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IResultWriter.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -49,12 +45,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IResultWriter.WriteEofResult(Guid, System.String, System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag, Guid, System.String)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/IResultWriter.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: WriteEofResult
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IResultWriter.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IResultWriter.cs
     startLine: 5
   assemblies:
   - EventStore.Projections.Core
@@ -88,12 +80,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IResultWriter.WriteRunningResult(EventStore.Projections.Core.Services.Processing.EventProcessedResult)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/IResultWriter.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: WriteRunningResult
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IResultWriter.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IResultWriter.cs
     startLine: 9
   assemblies:
   - EventStore.Projections.Core
@@ -117,12 +105,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IResultWriter.AccountPartition(EventStore.Projections.Core.Services.Processing.EventProcessedResult)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/IResultWriter.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: AccountPartition
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IResultWriter.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IResultWriter.cs
     startLine: 11
   assemblies:
   - EventStore.Projections.Core
@@ -146,12 +130,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IResultWriter.EventsEmitted(EventStore.Projections.Core.Services.Processing.EmittedEventEnvelope[], Guid, System.String)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/IResultWriter.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EventsEmitted
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IResultWriter.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IResultWriter.cs
     startLine: 13
   assemblies:
   - EventStore.Projections.Core
@@ -182,12 +162,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IResultWriter.WriteProgress(Guid, System.Single)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/IResultWriter.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: WriteProgress
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IResultWriter.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IResultWriter.cs
     startLine: 15
   assemblies:
   - EventStore.Projections.Core
@@ -218,6 +194,8 @@ references:
   nameWithType: Guid
   fullName: Guid
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -228,6 +206,12 @@ references:
   name: CheckpointTag
   nameWithType: CheckpointTag
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.IResultWriter.WriteRunningResult*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.IResultWriter.WriteRunningResult
   name: WriteRunningResult
@@ -279,6 +263,8 @@ references:
   nameWithType: IResultWriter.WriteProgress
   fullName: EventStore.Projections.Core.Services.Processing.IResultWriter.WriteProgress
 - uid: System.Single
+  commentId: T:System.Single
+  parent: System
   isExternal: true
   name: Single
   nameWithType: Single

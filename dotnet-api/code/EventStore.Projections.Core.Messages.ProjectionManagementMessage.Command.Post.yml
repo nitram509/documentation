@@ -26,13 +26,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Post
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Post
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 81
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 80
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -68,13 +64,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Post.MsgTypeId
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 84
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 83
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -106,13 +98,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Post.Post(EventStore.Core.Messaging.IEnvelope, EventStore.Projections.Core.Services.ProjectionMode, System.String, EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs, System.String, System.String, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 98
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 97
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -159,13 +147,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Post.Post(EventStore.Core.Messaging.IEnvelope, EventStore.Projections.Core.Services.ProjectionMode, System.String, EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs, Type, System.String, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 114
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 113
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -212,13 +196,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Post.Post(EventStore.Core.Messaging.IEnvelope, EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs, System.String, System.Boolean)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 131
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 130
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -251,13 +231,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Post.Mode
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Mode
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 143
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 142
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -286,13 +262,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Post.Query
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Query
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 147
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 146
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -321,13 +293,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Post.Name
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Name
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 151
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 150
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -356,13 +324,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Post.HandlerType
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: HandlerType
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 155
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 154
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -391,13 +355,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Post.Enabled
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Enabled
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 159
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 158
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -426,13 +386,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Post.EmitEnabled
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EmitEnabled
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 163
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 162
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -461,13 +417,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Post.CheckpointsEnabled
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: CheckpointsEnabled
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 167
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 166
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -496,13 +448,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Post.EnableRunAs
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EnableRunAs
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 171
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 170
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -531,13 +479,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Post.TrackEmittedStreams
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: TrackEmittedStreams
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 175
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 174
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -561,6 +505,8 @@ references:
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -595,6 +541,12 @@ references:
   name: NextMsgId
   nameWithType: Message.NextMsgId
   fullName: EventStore.Core.Messaging.Message.NextMsgId
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Messaging
   commentId: N:EventStore.Core.Messaging
   name: EventStore.Core.Messaging
@@ -612,6 +564,8 @@ references:
   nameWithType: ProjectionManagementMessage.Command.Post.MsgTypeId
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.Post.MsgTypeId
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -634,6 +588,8 @@ references:
   nameWithType: ProjectionMode
   fullName: EventStore.Projections.Core.Services.ProjectionMode
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -645,6 +601,8 @@ references:
   nameWithType: ProjectionManagementMessage.RunAs
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

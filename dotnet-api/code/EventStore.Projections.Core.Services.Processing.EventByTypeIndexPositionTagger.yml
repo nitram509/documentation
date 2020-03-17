@@ -21,12 +21,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventByTypeIndexPositionTagger
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexPositionTagger.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EventByTypeIndexPositionTagger
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexPositionTagger.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexPositionTagger.cs
     startLine: 7
   assemblies:
   - EventStore.Projections.Core
@@ -60,12 +56,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventByTypeIndexPositionTagger.EventByTypeIndexPositionTagger(System.Int32, System.String[], System.Boolean)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexPositionTagger.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexPositionTagger.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexPositionTagger.cs
     startLine: 12
   assemblies:
   - EventStore.Projections.Core
@@ -100,12 +92,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventByTypeIndexPositionTagger.IsMessageAfterCheckpointTag(EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.CommittedEventDistributed)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexPositionTagger.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: IsMessageAfterCheckpointTag
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexPositionTagger.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexPositionTagger.cs
     startLine: 25
   assemblies:
   - EventStore.Projections.Core
@@ -140,12 +128,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventByTypeIndexPositionTagger.MakeCheckpointTag(EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.CommittedEventDistributed)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexPositionTagger.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: MakeCheckpointTag
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexPositionTagger.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexPositionTagger.cs
     startLine: 37
   assemblies:
   - EventStore.Projections.Core
@@ -180,12 +164,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventByTypeIndexPositionTagger.MakeCheckpointTag(EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionEof)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexPositionTagger.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: MakeCheckpointTag
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexPositionTagger.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexPositionTagger.cs
     startLine: 57
   assemblies:
   - EventStore.Projections.Core
@@ -220,12 +200,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventByTypeIndexPositionTagger.MakeCheckpointTag(EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionDeleted)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexPositionTagger.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: MakeCheckpointTag
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexPositionTagger.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexPositionTagger.cs
     startLine: 62
   assemblies:
   - EventStore.Projections.Core
@@ -260,12 +236,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventByTypeIndexPositionTagger.MakeZeroCheckpointTag()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexPositionTagger.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: MakeZeroCheckpointTag
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexPositionTagger.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexPositionTagger.cs
     startLine: 83
   assemblies:
   - EventStore.Projections.Core
@@ -295,12 +267,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventByTypeIndexPositionTagger.IsCompatible(EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexPositionTagger.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: IsCompatible
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexPositionTagger.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexPositionTagger.cs
     startLine: 88
   assemblies:
   - EventStore.Projections.Core
@@ -333,12 +301,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventByTypeIndexPositionTagger.AdjustTag(EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexPositionTagger.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: AdjustTag
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexPositionTagger.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventByTypeIndexPositionTagger.cs
     startLine: 94
   assemblies:
   - EventStore.Projections.Core
@@ -366,6 +330,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -382,12 +348,20 @@ references:
   name: Phase
   nameWithType: PositionTagger.Phase
   fullName: EventStore.Projections.Core.Services.Processing.PositionTagger.Phase
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.EventByTypeIndexPositionTagger.#ctor*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.EventByTypeIndexPositionTagger.#ctor
   name: EventByTypeIndexPositionTagger
   nameWithType: EventByTypeIndexPositionTagger.EventByTypeIndexPositionTagger
   fullName: EventStore.Projections.Core.Services.Processing.EventByTypeIndexPositionTagger.EventByTypeIndexPositionTagger
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -419,6 +393,8 @@ references:
     nameWithType: ()
     fullName: ()
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

@@ -21,12 +21,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionCoreCoordinator
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionCoreCoordinator
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
     startLine: 12
   assemblies:
   - EventStore.Projections.Core
@@ -65,12 +61,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionCoreCoordinator.ComponentName
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ComponentName
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
     startLine: 18
   assemblies:
   - EventStore.Projections.Core
@@ -98,12 +90,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionCoreCoordinator.ProjectionCoreCoordinator(EventStore.Common.Options.ProjectionType, EventStore.Projections.Core.Services.Management.TimeoutScheduler[], EventStore.Core.Bus.IPublisher[], EventStore.Core.Bus.IPublisher, EventStore.Core.Messaging.IEnvelope)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
     startLine: 34
   assemblies:
   - EventStore.Projections.Core
@@ -142,12 +130,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionCoreCoordinator.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.RegularTimeout)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
     startLine: 47
   assemblies:
   - EventStore.Projections.Core
@@ -177,12 +161,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionCoreCoordinator.Handle(EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.StartComponents)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
     startLine: 53
   assemblies:
   - EventStore.Projections.Core
@@ -212,12 +192,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionCoreCoordinator.Handle(EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.StopComponents)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
     startLine: 65
   assemblies:
   - EventStore.Projections.Core
@@ -247,12 +223,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionCoreCoordinator.Handle(EventStore.Projections.Core.Messages.ProjectionCoreServiceMessage.SubComponentStarted)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
     startLine: 132
   assemblies:
   - EventStore.Projections.Core
@@ -282,12 +254,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionCoreCoordinator.Handle(EventStore.Projections.Core.Messages.ProjectionCoreServiceMessage.SubComponentStopped)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
     startLine: 156
   assemblies:
   - EventStore.Projections.Core
@@ -317,12 +285,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionCoreCoordinator.SetupMessaging(EventStore.Core.Bus.IBus)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: SetupMessaging
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionCoreCoordinator.cs
     startLine: 179
   assemblies:
   - EventStore.Projections.Core
@@ -345,6 +309,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Management
   fullName: EventStore.Projections.Core.Services.Management
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -549,6 +515,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Bus.IHandle`1
   commentId: T:EventStore.Core.Bus.IHandle`1
   name: IHandle<T>
@@ -591,6 +563,8 @@ references:
   nameWithType: EventStore.Core.Bus
   fullName: EventStore.Core.Bus
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

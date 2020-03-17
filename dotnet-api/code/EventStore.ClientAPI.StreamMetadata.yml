@@ -11,7 +11,7 @@ items:
   - EventStore.ClientAPI.StreamMetadata.Build
   - EventStore.ClientAPI.StreamMetadata.CacheControl
   - EventStore.ClientAPI.StreamMetadata.Copy
-  - EventStore.ClientAPI.StreamMetadata.Create(System.Nullable{System.Int64},System.Nullable{TimeSpan},System.Nullable{System.Int64},System.Nullable{TimeSpan},EventStore.ClientAPI.StreamAcl)
+  - EventStore.ClientAPI.StreamMetadata.Create(System.Nullable{System.Int64},System.Nullable{System.TimeSpan},System.Nullable{System.Int64},System.Nullable{System.TimeSpan},EventStore.ClientAPI.StreamAcl)
   - EventStore.ClientAPI.StreamMetadata.CustomKeys
   - EventStore.ClientAPI.StreamMetadata.CustomMetadataAsRawJsons
   - EventStore.ClientAPI.StreamMetadata.FromJsonBytes(System.Byte[])
@@ -30,12 +30,8 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata
   type: Class
   source:
-    remote:
-      path: src/EventStore.ClientAPI/StreamMetadata.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: StreamMetadata
-    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 15
   assemblies:
   - EventStore.ClientAPI
@@ -43,12 +39,18 @@ items:
   summary: "\nA class representing stream metadata with strongly typed properties\nfor system values and a dictionary-like interface for custom values.\n"
   example: []
   syntax:
-    content: 'public class StreamMetadata : object'
-    content.vb: >-
-      Public Class StreamMetadata
-          Inherits Object
+    content: public class StreamMetadata
+    content.vb: Public Class StreamMetadata
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
   modifiers.csharp:
   - public
   - class
@@ -67,12 +69,8 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.MaxCount
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/StreamMetadata.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: MaxCount
-    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 19
   assemblies:
   - EventStore.ClientAPI
@@ -102,12 +100,8 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.MaxAge
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/StreamMetadata.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: MaxAge
-    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 24
   assemblies:
   - EventStore.ClientAPI
@@ -117,7 +111,7 @@ items:
   syntax:
     content: public readonly TimeSpan? MaxAge
     return:
-      type: System.Nullable{TimeSpan}
+      type: System.Nullable{System.TimeSpan}
     content.vb: Public ReadOnly MaxAge As TimeSpan?
   modifiers.csharp:
   - public
@@ -137,12 +131,8 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.TruncateBefore
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/StreamMetadata.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: TruncateBefore
-    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 30
   assemblies:
   - EventStore.ClientAPI
@@ -172,12 +162,8 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.CacheControl
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/StreamMetadata.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: CacheControl
-    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 35
   assemblies:
   - EventStore.ClientAPI
@@ -187,7 +173,7 @@ items:
   syntax:
     content: public readonly TimeSpan? CacheControl
     return:
-      type: System.Nullable{TimeSpan}
+      type: System.Nullable{System.TimeSpan}
     content.vb: Public ReadOnly CacheControl As TimeSpan?
   modifiers.csharp:
   - public
@@ -207,12 +193,8 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.Acl
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/StreamMetadata.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Acl
-    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 40
   assemblies:
   - EventStore.ClientAPI
@@ -242,12 +224,8 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.CustomKeys
   type: Property
   source:
-    remote:
-      path: src/EventStore.ClientAPI/StreamMetadata.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: CustomKeys
-    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 45
   assemblies:
   - EventStore.ClientAPI
@@ -258,7 +236,7 @@ items:
     content: public IEnumerable<string> CustomKeys { get; }
     parameters: []
     return:
-      type: IEnumerable{System.String}
+      type: System.Collections.Generic.IEnumerable{System.String}
     content.vb: Public ReadOnly Property CustomKeys As IEnumerable(Of String)
   overload: EventStore.ClientAPI.StreamMetadata.CustomKeys*
   modifiers.csharp:
@@ -279,12 +257,8 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.CustomMetadataAsRawJsons
   type: Property
   source:
-    remote:
-      path: src/EventStore.ClientAPI/StreamMetadata.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: CustomMetadataAsRawJsons
-    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 52
   assemblies:
   - EventStore.ClientAPI
@@ -295,7 +269,7 @@ items:
     content: public IEnumerable<KeyValuePair<string, string>> CustomMetadataAsRawJsons { get; }
     parameters: []
     return:
-      type: IEnumerable{KeyValuePair{System.String,System.String}}
+      type: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}}
     content.vb: Public ReadOnly Property CustomMetadataAsRawJsons As IEnumerable(Of KeyValuePair(Of String, String))
   overload: EventStore.ClientAPI.StreamMetadata.CustomMetadataAsRawJsons*
   modifiers.csharp:
@@ -304,24 +278,20 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: EventStore.ClientAPI.StreamMetadata.Create(System.Nullable{System.Int64},System.Nullable{TimeSpan},System.Nullable{System.Int64},System.Nullable{TimeSpan},EventStore.ClientAPI.StreamAcl)
-  commentId: M:EventStore.ClientAPI.StreamMetadata.Create(System.Nullable{System.Int64},System.Nullable{TimeSpan},System.Nullable{System.Int64},System.Nullable{TimeSpan},EventStore.ClientAPI.StreamAcl)
-  id: Create(System.Nullable{System.Int64},System.Nullable{TimeSpan},System.Nullable{System.Int64},System.Nullable{TimeSpan},EventStore.ClientAPI.StreamAcl)
+- uid: EventStore.ClientAPI.StreamMetadata.Create(System.Nullable{System.Int64},System.Nullable{System.TimeSpan},System.Nullable{System.Int64},System.Nullable{System.TimeSpan},EventStore.ClientAPI.StreamAcl)
+  commentId: M:EventStore.ClientAPI.StreamMetadata.Create(System.Nullable{System.Int64},System.Nullable{System.TimeSpan},System.Nullable{System.Int64},System.Nullable{System.TimeSpan},EventStore.ClientAPI.StreamAcl)
+  id: Create(System.Nullable{System.Int64},System.Nullable{System.TimeSpan},System.Nullable{System.Int64},System.Nullable{System.TimeSpan},EventStore.ClientAPI.StreamAcl)
   parent: EventStore.ClientAPI.StreamMetadata
   langs:
   - csharp
   - vb
   name: Create(Nullable<Int64>, Nullable<TimeSpan>, Nullable<Int64>, Nullable<TimeSpan>, StreamAcl)
   nameWithType: StreamMetadata.Create(Nullable<Int64>, Nullable<TimeSpan>, Nullable<Int64>, Nullable<TimeSpan>, StreamAcl)
-  fullName: EventStore.ClientAPI.StreamMetadata.Create(System.Nullable<System.Int64>, System.Nullable<TimeSpan>, System.Nullable<System.Int64>, System.Nullable<TimeSpan>, EventStore.ClientAPI.StreamAcl)
+  fullName: EventStore.ClientAPI.StreamMetadata.Create(System.Nullable<System.Int64>, System.Nullable<System.TimeSpan>, System.Nullable<System.Int64>, System.Nullable<System.TimeSpan>, EventStore.ClientAPI.StreamAcl)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/StreamMetadata.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Create
-    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 91
   assemblies:
   - EventStore.ClientAPI
@@ -329,19 +299,19 @@ items:
   summary: "\nCreates a <xref href=\"EventStore.ClientAPI.StreamMetadata\" data-throw-if-not-resolved=\"false\"></xref> with the specified parameters.\n"
   example: []
   syntax:
-    content: public static StreamMetadata Create(long? maxCount = null, TimeSpan? maxAge = null, long? truncateBefore = null, TimeSpan? cacheControl = null, StreamAcl acl = null)
+    content: public static StreamMetadata Create(long? maxCount = default(long? ), TimeSpan? maxAge = default(TimeSpan? ), long? truncateBefore = default(long? ), TimeSpan? cacheControl = default(TimeSpan? ), StreamAcl acl = null)
     parameters:
     - id: maxCount
       type: System.Nullable{System.Int64}
       description: The maximum number of events allowed in the stream.
     - id: maxAge
-      type: System.Nullable{TimeSpan}
+      type: System.Nullable{System.TimeSpan}
       description: The maximum age of events allowed in the stream.
     - id: truncateBefore
       type: System.Nullable{System.Int64}
       description: The event number from which previous events can be scavenged.
     - id: cacheControl
-      type: System.Nullable{TimeSpan}
+      type: System.Nullable{System.TimeSpan}
       description: The amount of time for which the stream head is cachable.
     - id: acl
       type: EventStore.ClientAPI.StreamAcl
@@ -358,7 +328,7 @@ items:
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: EventStore.ClientAPI.StreamMetadata.Create(System.Nullable(Of System.Int64), System.Nullable(Of TimeSpan), System.Nullable(Of System.Int64), System.Nullable(Of TimeSpan), EventStore.ClientAPI.StreamAcl)
+  fullName.vb: EventStore.ClientAPI.StreamMetadata.Create(System.Nullable(Of System.Int64), System.Nullable(Of System.TimeSpan), System.Nullable(Of System.Int64), System.Nullable(Of System.TimeSpan), EventStore.ClientAPI.StreamAcl)
   name.vb: Create(Nullable(Of Int64), Nullable(Of TimeSpan), Nullable(Of Int64), Nullable(Of TimeSpan), StreamAcl)
 - uid: EventStore.ClientAPI.StreamMetadata.Build
   commentId: M:EventStore.ClientAPI.StreamMetadata.Build
@@ -372,12 +342,8 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.Build()
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/StreamMetadata.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Build
-    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 100
   assemblies:
   - EventStore.ClientAPI
@@ -409,12 +375,8 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.Copy()
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/StreamMetadata.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Copy
-    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 108
   assemblies:
   - EventStore.ClientAPI
@@ -444,17 +406,13 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.GetValue<T>(System.String)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/StreamMetadata.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: GetValue
-    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 137
   assemblies:
   - EventStore.ClientAPI
   namespace: EventStore.ClientAPI
-  summary: "\nGet a value of type T for the given key from the custom metadata.\nThis method will throw an <see cref=\"!:ArgumentException\"></see> if the\nkey is not found.\n"
+  summary: "\nGet a value of type T for the given key from the custom metadata.\nThis method will throw an <xref href=\"System.ArgumentException\" data-throw-if-not-resolved=\"false\"></xref> if the\nkey is not found.\n"
   example: []
   syntax:
     content: public T GetValue<T>(string key)
@@ -489,12 +447,8 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.TryGetValue<T>(System.String, out T)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/StreamMetadata.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: TryGetValue
-    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 153
   assemblies:
   - EventStore.ClientAPI
@@ -537,12 +491,8 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.GetValueAsRawJsonString(System.String)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/StreamMetadata.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: GetValueAsRawJsonString
-    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 172
   assemblies:
   - EventStore.ClientAPI
@@ -560,6 +510,10 @@ items:
       description: String containing raw JSON value for the key.
     content.vb: Public Function GetValueAsRawJsonString(key As String) As String
   overload: EventStore.ClientAPI.StreamMetadata.GetValueAsRawJsonString*
+  exceptions:
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: If the key does not exist.
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -576,12 +530,8 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.TryGetValueAsRawJsonString(System.String, out System.String)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/StreamMetadata.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: TryGetValueAsRawJsonString
-    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 185
   assemblies:
   - EventStore.ClientAPI
@@ -621,12 +571,8 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.AsJsonBytes()
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/StreamMetadata.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: AsJsonBytes
-    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 203
   assemblies:
   - EventStore.ClientAPI
@@ -656,12 +602,8 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.AsJsonString()
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/StreamMetadata.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: AsJsonString
-    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 217
   assemblies:
   - EventStore.ClientAPI
@@ -691,12 +633,8 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.FromJsonBytes(System.Byte[])
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/StreamMetadata.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: FromJsonBytes
-    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 291
   assemblies:
   - EventStore.ClientAPI
@@ -730,12 +668,300 @@ references:
   nameWithType: EventStore.ClientAPI
   fullName: EventStore.ClientAPI
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: System.Nullable{System.Int64}
-  commentId: '!:System.Nullable{System.Int64}'
+  commentId: T:System.Nullable{System.Int64}
+  parent: System
   definition: System.Nullable`1
   name: Nullable<Int64>
   nameWithType: Nullable<Int64>
@@ -778,13 +1004,14 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Nullable`1
+  commentId: T:System.Nullable`1
   isExternal: true
-  name: Nullable<>
-  nameWithType: Nullable<>
-  fullName: System.Nullable<>
-  nameWithType.vb: Nullable(Of )
-  fullName.vb: System.Nullable(Of )
-  name.vb: Nullable(Of )
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
@@ -794,9 +1021,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -809,20 +1036,21 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Nullable{TimeSpan}
-  commentId: '!:System.Nullable{TimeSpan}'
+- uid: System.Nullable{System.TimeSpan}
+  commentId: T:System.Nullable{System.TimeSpan}
+  parent: System
   definition: System.Nullable`1
   name: Nullable<TimeSpan>
   nameWithType: Nullable<TimeSpan>
-  fullName: System.Nullable<TimeSpan>
+  fullName: System.Nullable<System.TimeSpan>
   nameWithType.vb: Nullable(Of TimeSpan)
-  fullName.vb: System.Nullable(Of TimeSpan)
+  fullName.vb: System.Nullable(Of System.TimeSpan)
   name.vb: Nullable(Of TimeSpan)
   spec.csharp:
   - uid: System.Nullable`1
@@ -833,10 +1061,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: TimeSpan
+  - uid: System.TimeSpan
     name: TimeSpan
     nameWithType: TimeSpan
-    fullName: TimeSpan
+    fullName: System.TimeSpan
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -850,10 +1078,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: TimeSpan
+  - uid: System.TimeSpan
     name: TimeSpan
     nameWithType: TimeSpan
-    fullName: TimeSpan
+    fullName: System.TimeSpan
     isExternal: true
   - name: )
     nameWithType: )
@@ -869,20 +1097,21 @@ references:
   name: CustomKeys
   nameWithType: StreamMetadata.CustomKeys
   fullName: EventStore.ClientAPI.StreamMetadata.CustomKeys
-- uid: IEnumerable{System.String}
-  commentId: '!:IEnumerable{System.String}'
-  definition: IEnumerable`1
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<String>
   nameWithType: IEnumerable<String>
-  fullName: IEnumerable<System.String>
+  fullName: System.Collections.Generic.IEnumerable<System.String>
   nameWithType.vb: IEnumerable(Of String)
-  fullName.vb: IEnumerable(Of System.String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
   name.vb: IEnumerable(Of String)
   spec.csharp:
-  - uid: IEnumerable`1
+  - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     nameWithType: IEnumerable
-    fullName: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -896,10 +1125,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: IEnumerable`1
+  - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     nameWithType: IEnumerable
-    fullName: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -912,71 +1141,79 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: IEnumerable`1
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
   spec.csharp:
-  - uid: IEnumerable`1
+  - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     nameWithType: IEnumerable
-    fullName: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: IEnumerable`1
+  - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     nameWithType: IEnumerable
-    fullName: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
 - uid: EventStore.ClientAPI.StreamMetadata.CustomMetadataAsRawJsons*
   commentId: Overload:EventStore.ClientAPI.StreamMetadata.CustomMetadataAsRawJsons
   name: CustomMetadataAsRawJsons
   nameWithType: StreamMetadata.CustomMetadataAsRawJsons
   fullName: EventStore.ClientAPI.StreamMetadata.CustomMetadataAsRawJsons
-- uid: IEnumerable{KeyValuePair{System.String,System.String}}
-  commentId: '!:IEnumerable{KeyValuePair{System.String,System.String}}'
-  definition: IEnumerable`1
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<KeyValuePair<String, String>>
   nameWithType: IEnumerable<KeyValuePair<String, String>>
-  fullName: IEnumerable<KeyValuePair<System.String, System.String>>
+  fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String, System.String>>
   nameWithType.vb: IEnumerable(Of KeyValuePair(Of String, String))
-  fullName.vb: IEnumerable(Of KeyValuePair(Of System.String, System.String))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of System.String, System.String))
   name.vb: IEnumerable(Of KeyValuePair(Of String, String))
   spec.csharp:
-  - uid: IEnumerable`1
+  - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     nameWithType: IEnumerable
-    fullName: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - uid: KeyValuePair`2
+  - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
     nameWithType: KeyValuePair
-    fullName: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
   - name: <
     nameWithType: <
@@ -1001,18 +1238,18 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: IEnumerable`1
+  - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     nameWithType: IEnumerable
-    fullName: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: KeyValuePair`2
+  - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
     nameWithType: KeyValuePair
-    fullName: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -1063,12 +1300,17 @@ references:
   name: Copy
   nameWithType: StreamMetadata.Copy
   fullName: EventStore.ClientAPI.StreamMetadata.Copy
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  isExternal: true
 - uid: EventStore.ClientAPI.StreamMetadata.GetValue*
   commentId: Overload:EventStore.ClientAPI.StreamMetadata.GetValue
   name: GetValue
   nameWithType: StreamMetadata.GetValue
   fullName: EventStore.ClientAPI.StreamMetadata.GetValue
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -1089,6 +1331,8 @@ references:
   nameWithType: StreamMetadata.TryGetValue
   fullName: EventStore.ClientAPI.StreamMetadata.TryGetValue
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

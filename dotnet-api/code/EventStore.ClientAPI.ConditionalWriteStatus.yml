@@ -16,12 +16,8 @@ items:
   fullName: EventStore.ClientAPI.ConditionalWriteStatus
   type: Enum
   source:
-    remote:
-      path: src/EventStore.ClientAPI/ConditionalWriteFailureReason.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ConditionalWriteStatus
-    path: ../EventStore/src/EventStore.ClientAPI/ConditionalWriteFailureReason.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConditionalWriteFailureReason.cs
     startLine: 4
   assemblies:
   - EventStore.ClientAPI
@@ -29,8 +25,8 @@ items:
   summary: "\nThe reason why a conditional write fails\n"
   example: []
   syntax:
-    content: 'public enum ConditionalWriteStatus : int'
-    content.vb: Public Enum ConditionalWriteStatus As Integer
+    content: public enum ConditionalWriteStatus
+    content.vb: Public Enum ConditionalWriteStatus
   extensionMethods:
   - EventStore.ClientAPI.ConditionalWriteStatus.EventStore.Projections.Core.Utils.EnumExtensions.EnumValueName``1
   modifiers.csharp:
@@ -51,12 +47,8 @@ items:
   fullName: EventStore.ClientAPI.ConditionalWriteStatus.Succeeded
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/ConditionalWriteFailureReason.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Succeeded
-    path: ../EventStore/src/EventStore.ClientAPI/ConditionalWriteFailureReason.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConditionalWriteFailureReason.cs
     startLine: 8
   assemblies:
   - EventStore.ClientAPI
@@ -64,10 +56,9 @@ items:
   summary: "\nThe write operation succeeded\n"
   example: []
   syntax:
-    content: Succeeded = null
+    content: Succeeded = 0
     return:
       type: EventStore.ClientAPI.ConditionalWriteStatus
-    content.vb: Succeeded = Nothing
   modifiers.csharp:
   - public
   - const
@@ -86,12 +77,8 @@ items:
   fullName: EventStore.ClientAPI.ConditionalWriteStatus.VersionMismatch
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/ConditionalWriteFailureReason.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: VersionMismatch
-    path: ../EventStore/src/EventStore.ClientAPI/ConditionalWriteFailureReason.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConditionalWriteFailureReason.cs
     startLine: 13
   assemblies:
   - EventStore.ClientAPI
@@ -99,10 +86,9 @@ items:
   summary: "\nThe expected version does not match actual stream version\n"
   example: []
   syntax:
-    content: VersionMismatch = null
+    content: VersionMismatch = 1
     return:
       type: EventStore.ClientAPI.ConditionalWriteStatus
-    content.vb: VersionMismatch = Nothing
   modifiers.csharp:
   - public
   - const
@@ -121,12 +107,8 @@ items:
   fullName: EventStore.ClientAPI.ConditionalWriteStatus.StreamDeleted
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/ConditionalWriteFailureReason.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: StreamDeleted
-    path: ../EventStore/src/EventStore.ClientAPI/ConditionalWriteFailureReason.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConditionalWriteFailureReason.cs
     startLine: 18
   assemblies:
   - EventStore.ClientAPI
@@ -134,10 +116,9 @@ items:
   summary: "\nThe stream has been deleted\n"
   example: []
   syntax:
-    content: StreamDeleted = null
+    content: StreamDeleted = 2
     return:
       type: EventStore.ClientAPI.ConditionalWriteStatus
-    content.vb: StreamDeleted = Nothing
   modifiers.csharp:
   - public
   - const

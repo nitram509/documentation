@@ -23,12 +23,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.PartitionStateCache
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: PartitionStateCache
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
     startLine: 5
   assemblies:
   - EventStore.Projections.Core
@@ -59,12 +55,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.PartitionStateCache.PartitionStateCache(System.Int32)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
     startLine: 19
   assemblies:
   - EventStore.Projections.Core
@@ -92,12 +84,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.PartitionStateCache.CachedItemCount
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: CachedItemCount
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
     startLine: 25
   assemblies:
   - EventStore.Projections.Core
@@ -127,12 +115,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.PartitionStateCache.Initialize()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Initialize
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
     startLine: 29
   assemblies:
   - EventStore.Projections.Core
@@ -157,12 +141,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.PartitionStateCache.CacheAndLockPartitionState(System.String, EventStore.Projections.Core.Services.Processing.PartitionState, EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: CacheAndLockPartitionState
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
     startLine: 37
   assemblies:
   - EventStore.Projections.Core
@@ -194,12 +174,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.PartitionStateCache.CachePartitionState(System.String, EventStore.Projections.Core.Services.Processing.PartitionState)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: CachePartitionState
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
     startLine: 50
   assemblies:
   - EventStore.Projections.Core
@@ -229,12 +205,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.PartitionStateCache.TryGetAndLockPartitionState(System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: TryGetAndLockPartitionState
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
     startLine: 61
   assemblies:
   - EventStore.Projections.Core
@@ -266,12 +238,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.PartitionStateCache.TryGetPartitionState(System.String)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: TryGetPartitionState
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
     startLine: 82
   assemblies:
   - EventStore.Projections.Core
@@ -301,12 +269,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.PartitionStateCache.GetLockedPartitionState(System.String)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: GetLockedPartitionState
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
     startLine: 90
   assemblies:
   - EventStore.Projections.Core
@@ -336,12 +300,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.PartitionStateCache.Unlock(EventStore.Projections.Core.Services.Processing.CheckpointTag, System.Boolean)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Unlock
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
     startLine: 105
   assemblies:
   - EventStore.Projections.Core
@@ -371,12 +331,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.PartitionStateCache.Enumerate()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Enumerate
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/PartitionStateCache.cs
     startLine: 143
   assemblies:
   - EventStore.Projections.Core
@@ -398,16 +354,26 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.PartitionStateCache.#ctor*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.PartitionStateCache.#ctor
   name: PartitionStateCache
   nameWithType: PartitionStateCache.PartitionStateCache
   fullName: EventStore.Projections.Core.Services.Processing.PartitionStateCache.PartitionStateCache
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -428,6 +394,8 @@ references:
   nameWithType: PartitionStateCache.CacheAndLockPartitionState
   fullName: EventStore.Projections.Core.Services.Processing.PartitionStateCache.CacheAndLockPartitionState
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -470,6 +438,8 @@ references:
   nameWithType: PartitionStateCache.Unlock
   fullName: EventStore.Projections.Core.Services.Processing.PartitionStateCache.Unlock
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

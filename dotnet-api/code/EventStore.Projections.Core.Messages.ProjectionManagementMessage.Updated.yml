@@ -16,13 +16,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Updated
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Updated
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 686
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 685
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -55,13 +51,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Updated.MsgTypeId
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 689
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 688
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -93,13 +85,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Updated.Updated(System.String)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 695
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 694
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -126,13 +114,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Updated.Name
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Name
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 699
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 698
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -156,6 +140,8 @@ references:
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -172,6 +158,12 @@ references:
   name: NextMsgId
   nameWithType: Message.NextMsgId
   fullName: EventStore.Core.Messaging.Message.NextMsgId
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Messaging
   commentId: N:EventStore.Core.Messaging
   name: EventStore.Core.Messaging
@@ -189,6 +181,8 @@ references:
   nameWithType: ProjectionManagementMessage.Updated.MsgTypeId
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Updated.MsgTypeId
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -199,6 +193,8 @@ references:
   nameWithType: ProjectionManagementMessage.Updated.Updated
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Updated.Updated
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

@@ -40,12 +40,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionStatisticsHttpFormatted
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -76,12 +72,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.ProjectionStatisticsHttpFormatted(EventStore.Projections.Core.Services.ProjectionStatistics, Func<System.String, System.String>)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core
@@ -114,12 +106,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.CoreProcessingTime
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: CoreProcessingTime
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 35
   assemblies:
   - EventStore.Projections.Core
@@ -149,12 +137,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.Version
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Version
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 37
   assemblies:
   - EventStore.Projections.Core
@@ -184,12 +168,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.Epoch
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Epoch
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 39
   assemblies:
   - EventStore.Projections.Core
@@ -219,12 +199,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.EffectiveName
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EffectiveName
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 41
   assemblies:
   - EventStore.Projections.Core
@@ -254,12 +230,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.WritesInProgress
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: WritesInProgress
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 43
   assemblies:
   - EventStore.Projections.Core
@@ -289,12 +261,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.ReadsInProgress
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ReadsInProgress
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 45
   assemblies:
   - EventStore.Projections.Core
@@ -324,12 +292,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.PartitionsCached
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: PartitionsCached
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 47
   assemblies:
   - EventStore.Projections.Core
@@ -359,12 +323,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.Status
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Status
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 49
   assemblies:
   - EventStore.Projections.Core
@@ -394,12 +354,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.StateReason
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: StateReason
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 51
   assemblies:
   - EventStore.Projections.Core
@@ -429,12 +385,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.Name
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Name
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 53
   assemblies:
   - EventStore.Projections.Core
@@ -464,12 +416,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.Mode
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Mode
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 55
   assemblies:
   - EventStore.Projections.Core
@@ -499,12 +447,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.Position
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Position
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 57
   assemblies:
   - EventStore.Projections.Core
@@ -534,12 +478,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.Progress
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Progress
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 59
   assemblies:
   - EventStore.Projections.Core
@@ -569,12 +509,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.LastCheckpoint
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: LastCheckpoint
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 61
   assemblies:
   - EventStore.Projections.Core
@@ -604,12 +540,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.EventsProcessedAfterRestart
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EventsProcessedAfterRestart
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 63
   assemblies:
   - EventStore.Projections.Core
@@ -639,12 +571,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.StatusUrl
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: StatusUrl
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 65
   assemblies:
   - EventStore.Projections.Core
@@ -674,12 +602,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.StateUrl
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: StateUrl
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 67
   assemblies:
   - EventStore.Projections.Core
@@ -709,12 +633,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.ResultUrl
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ResultUrl
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 69
   assemblies:
   - EventStore.Projections.Core
@@ -744,12 +664,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.QueryUrl
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: QueryUrl
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 71
   assemblies:
   - EventStore.Projections.Core
@@ -779,12 +695,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.ResultStreamUrl
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ResultStreamUrl
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 73
   assemblies:
   - EventStore.Projections.Core
@@ -814,12 +726,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.EnableCommandUrl
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EnableCommandUrl
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 75
   assemblies:
   - EventStore.Projections.Core
@@ -849,12 +757,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.DisableCommandUrl
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: DisableCommandUrl
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 77
   assemblies:
   - EventStore.Projections.Core
@@ -884,12 +788,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.CheckpointStatus
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: CheckpointStatus
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 79
   assemblies:
   - EventStore.Projections.Core
@@ -919,12 +819,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.BufferedEvents
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: BufferedEvents
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 81
   assemblies:
   - EventStore.Projections.Core
@@ -954,12 +850,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.WritePendingEventsBeforeCheckpoint
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: WritePendingEventsBeforeCheckpoint
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 83
   assemblies:
   - EventStore.Projections.Core
@@ -989,12 +881,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.WritePendingEventsAfterCheckpoint
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: WritePendingEventsAfterCheckpoint
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionStatisticsHttpFormatted.cs
     startLine: 85
   assemblies:
   - EventStore.Projections.Core
@@ -1019,10 +907,18 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Http
   fullName: EventStore.Projections.Core.Services.Http
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.#ctor*
   commentId: Overload:EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.#ctor
   name: ProjectionStatisticsHttpFormatted
@@ -1154,6 +1050,8 @@ references:
   nameWithType: ProjectionStatisticsHttpFormatted.CoreProcessingTime
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.CoreProcessingTime
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
@@ -1174,6 +1072,8 @@ references:
   nameWithType: ProjectionStatisticsHttpFormatted.EffectiveName
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.EffectiveName
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -1184,6 +1084,8 @@ references:
   nameWithType: ProjectionStatisticsHttpFormatted.WritesInProgress
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.WritesInProgress
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -1235,6 +1137,8 @@ references:
   nameWithType: ProjectionStatisticsHttpFormatted.Progress
   fullName: EventStore.Projections.Core.Services.Http.ProjectionStatisticsHttpFormatted.Progress
 - uid: System.Single
+  commentId: T:System.Single
+  parent: System
   isExternal: true
   name: Single
   nameWithType: Single

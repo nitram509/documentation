@@ -19,12 +19,8 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EventReaderSubscriptionMessageBase
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
     startLine: 237
   assemblies:
   - EventStore.Projections.Core
@@ -71,12 +67,8 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase.MsgTypeId
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
     startLine: 240
   assemblies:
   - EventStore.Projections.Core
@@ -109,12 +101,8 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase.CheckpointTag
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: CheckpointTag
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
     startLine: 260
   assemblies:
   - EventStore.Projections.Core
@@ -144,12 +132,8 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase.Progress
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Progress
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
     startLine: 264
   assemblies:
   - EventStore.Projections.Core
@@ -179,12 +163,8 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase.SubscriptionMessageSequenceNumber
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: SubscriptionMessageSequenceNumber
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
     startLine: 268
   assemblies:
   - EventStore.Projections.Core
@@ -214,12 +194,8 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase.SubscriptionId
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: SubscriptionId
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
     startLine: 272
   assemblies:
   - EventStore.Projections.Core
@@ -249,12 +225,8 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase.Source
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Source
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
     startLine: 276
   assemblies:
   - EventStore.Projections.Core
@@ -279,6 +251,8 @@ references:
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -295,6 +269,12 @@ references:
   name: NextMsgId
   nameWithType: Message.NextMsgId
   fullName: EventStore.Core.Messaging.Message.NextMsgId
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Messaging
   commentId: N:EventStore.Core.Messaging
   name: EventStore.Core.Messaging
@@ -312,6 +292,8 @@ references:
   nameWithType: EventReaderSubscriptionMessageBase.MsgTypeId
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase.MsgTypeId
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -338,6 +320,8 @@ references:
   nameWithType: EventReaderSubscriptionMessageBase.Progress
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase.Progress
 - uid: System.Single
+  commentId: T:System.Single
+  parent: System
   isExternal: true
   name: Single
   nameWithType: Single
@@ -348,6 +332,8 @@ references:
   nameWithType: EventReaderSubscriptionMessageBase.SubscriptionMessageSequenceNumber
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase.SubscriptionMessageSequenceNumber
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64

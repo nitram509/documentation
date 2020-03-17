@@ -26,12 +26,8 @@ items:
   fullName: EventStore.Projections.Core.Standard.ByCorrelationId
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ByCorrelationId
-    path: ../EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
     startLine: 11
   assemblies:
   - EventStore.Projections.Core
@@ -68,12 +64,8 @@ items:
   fullName: EventStore.Projections.Core.Standard.ByCorrelationId.ByCorrelationId(System.String, Action<System.String, System.Object[]>)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
     startLine: 14
   assemblies:
   - EventStore.Projections.Core
@@ -106,12 +98,8 @@ items:
   fullName: EventStore.Projections.Core.Standard.ByCorrelationId.ConfigureSourceProcessingStrategy(EventStore.Projections.Core.Services.Processing.SourceDefinitionBuilder)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ConfigureSourceProcessingStrategy
-    path: ../EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
     startLine: 45
   assemblies:
   - EventStore.Projections.Core
@@ -139,12 +127,8 @@ items:
   fullName: EventStore.Projections.Core.Standard.ByCorrelationId.Load(System.String)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Load
-    path: ../EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
     startLine: 51
   assemblies:
   - EventStore.Projections.Core
@@ -174,12 +158,8 @@ items:
   fullName: EventStore.Projections.Core.Standard.ByCorrelationId.LoadShared(System.String)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: LoadShared
-    path: ../EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
     startLine: 54
   assemblies:
   - EventStore.Projections.Core
@@ -209,12 +189,8 @@ items:
   fullName: EventStore.Projections.Core.Standard.ByCorrelationId.Initialize()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Initialize
-    path: ../EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
     startLine: 58
   assemblies:
   - EventStore.Projections.Core
@@ -241,12 +217,8 @@ items:
   fullName: EventStore.Projections.Core.Standard.ByCorrelationId.InitializeShared()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: InitializeShared
-    path: ../EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
     startLine: 61
   assemblies:
   - EventStore.Projections.Core
@@ -273,12 +245,8 @@ items:
   fullName: EventStore.Projections.Core.Standard.ByCorrelationId.GetStatePartition(EventStore.Projections.Core.Services.Processing.CheckpointTag, System.String, EventStore.Projections.Core.Services.Processing.ResolvedEvent)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: GetStatePartition
-    path: ../EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
     startLine: 64
   assemblies:
   - EventStore.Projections.Core
@@ -314,12 +282,8 @@ items:
   fullName: EventStore.Projections.Core.Standard.ByCorrelationId.ProcessEvent(System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag, System.String, EventStore.Projections.Core.Services.Processing.ResolvedEvent, out System.String, out System.String, out EventStore.Projections.Core.Services.Processing.EmittedEventEnvelope[])
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ProcessEvent
-    path: ../EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
     startLine: 68
   assemblies:
   - EventStore.Projections.Core
@@ -366,12 +330,8 @@ items:
   fullName: EventStore.Projections.Core.Standard.ByCorrelationId.ProcessPartitionCreated(System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Services.Processing.ResolvedEvent, out EventStore.Projections.Core.Services.Processing.EmittedEventEnvelope[])
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ProcessPartitionCreated
-    path: ../EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
     startLine: 123
   assemblies:
   - EventStore.Projections.Core
@@ -412,12 +372,8 @@ items:
   fullName: EventStore.Projections.Core.Standard.ByCorrelationId.ProcessPartitionDeleted(System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag, out System.String)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ProcessPartitionDeleted
-    path: ../EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
     startLine: 129
   assemblies:
   - EventStore.Projections.Core
@@ -456,12 +412,8 @@ items:
   fullName: EventStore.Projections.Core.Standard.ByCorrelationId.TransformStateToResult()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: TransformStateToResult
-    path: ../EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
     startLine: 133
   assemblies:
   - EventStore.Projections.Core
@@ -490,12 +442,8 @@ items:
   fullName: EventStore.Projections.Core.Standard.ByCorrelationId.Dispose()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Dispose
-    path: ../EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
     startLine: 137
   assemblies:
   - EventStore.Projections.Core
@@ -520,12 +468,8 @@ items:
   fullName: EventStore.Projections.Core.Standard.ByCorrelationId.GetSourceDefinition()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: GetSourceDefinition
-    path: ../EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/ByCorrelationId.cs
     startLine: 140
   assemblies:
   - EventStore.Projections.Core
@@ -549,6 +493,8 @@ references:
   nameWithType: EventStore.Projections.Core.Standard
   fullName: EventStore.Projections.Core.Standard
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -570,6 +516,12 @@ references:
   name: ISourceDefinitionSource
   nameWithType: ISourceDefinitionSource
   fullName: EventStore.Projections.Core.Services.ISourceDefinitionSource
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services
   commentId: N:EventStore.Projections.Core.Services
   name: EventStore.Projections.Core.Services
@@ -581,6 +533,8 @@ references:
   nameWithType: ByCorrelationId.ByCorrelationId
   fullName: EventStore.Projections.Core.Standard.ByCorrelationId.ByCorrelationId
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -1122,6 +1076,8 @@ references:
     nameWithType: ()
     fullName: ()
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

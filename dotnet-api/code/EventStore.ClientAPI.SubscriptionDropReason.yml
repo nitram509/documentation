@@ -26,12 +26,8 @@ items:
   fullName: EventStore.ClientAPI.SubscriptionDropReason
   type: Enum
   source:
-    remote:
-      path: src/EventStore.ClientAPI/SubscriptionDropReason.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: SubscriptionDropReason
-    path: ../EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
     startLine: 4
   assemblies:
   - EventStore.ClientAPI
@@ -39,8 +35,8 @@ items:
   summary: "\nRepresents the reason subscription drop happened\n"
   example: []
   syntax:
-    content: 'public enum SubscriptionDropReason : int'
-    content.vb: Public Enum SubscriptionDropReason As Integer
+    content: public enum SubscriptionDropReason
+    content.vb: Public Enum SubscriptionDropReason
   extensionMethods:
   - EventStore.ClientAPI.SubscriptionDropReason.EventStore.Projections.Core.Utils.EnumExtensions.EnumValueName``1
   modifiers.csharp:
@@ -61,12 +57,8 @@ items:
   fullName: EventStore.ClientAPI.SubscriptionDropReason.UserInitiated
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/SubscriptionDropReason.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: UserInitiated
-    path: ../EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
     startLine: 8
   assemblies:
   - EventStore.ClientAPI
@@ -95,12 +87,8 @@ items:
   fullName: EventStore.ClientAPI.SubscriptionDropReason.NotAuthenticated
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/SubscriptionDropReason.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: NotAuthenticated
-    path: ../EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
     startLine: 13
   assemblies:
   - EventStore.ClientAPI
@@ -129,12 +117,8 @@ items:
   fullName: EventStore.ClientAPI.SubscriptionDropReason.AccessDenied
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/SubscriptionDropReason.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: AccessDenied
-    path: ../EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
     startLine: 18
   assemblies:
   - EventStore.ClientAPI
@@ -163,12 +147,8 @@ items:
   fullName: EventStore.ClientAPI.SubscriptionDropReason.SubscribingError
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/SubscriptionDropReason.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: SubscribingError
-    path: ../EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
     startLine: 23
   assemblies:
   - EventStore.ClientAPI
@@ -197,12 +177,8 @@ items:
   fullName: EventStore.ClientAPI.SubscriptionDropReason.ServerError
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/SubscriptionDropReason.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ServerError
-    path: ../EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
     startLine: 28
   assemblies:
   - EventStore.ClientAPI
@@ -231,12 +207,8 @@ items:
   fullName: EventStore.ClientAPI.SubscriptionDropReason.ConnectionClosed
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/SubscriptionDropReason.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ConnectionClosed
-    path: ../EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
     startLine: 33
   assemblies:
   - EventStore.ClientAPI
@@ -265,12 +237,8 @@ items:
   fullName: EventStore.ClientAPI.SubscriptionDropReason.CatchUpError
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/SubscriptionDropReason.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: CatchUpError
-    path: ../EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
     startLine: 38
   assemblies:
   - EventStore.ClientAPI
@@ -299,12 +267,8 @@ items:
   fullName: EventStore.ClientAPI.SubscriptionDropReason.ProcessingQueueOverflow
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/SubscriptionDropReason.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ProcessingQueueOverflow
-    path: ../EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
     startLine: 43
   assemblies:
   - EventStore.ClientAPI
@@ -333,12 +297,8 @@ items:
   fullName: EventStore.ClientAPI.SubscriptionDropReason.EventHandlerException
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/SubscriptionDropReason.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EventHandlerException
-    path: ../EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
     startLine: 48
   assemblies:
   - EventStore.ClientAPI
@@ -367,12 +327,8 @@ items:
   fullName: EventStore.ClientAPI.SubscriptionDropReason.MaxSubscribersReached
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/SubscriptionDropReason.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: MaxSubscribersReached
-    path: ../EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
     startLine: 53
   assemblies:
   - EventStore.ClientAPI
@@ -401,12 +357,8 @@ items:
   fullName: EventStore.ClientAPI.SubscriptionDropReason.PersistentSubscriptionDeleted
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/SubscriptionDropReason.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: PersistentSubscriptionDeleted
-    path: ../EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
     startLine: 58
   assemblies:
   - EventStore.ClientAPI
@@ -435,12 +387,8 @@ items:
   fullName: EventStore.ClientAPI.SubscriptionDropReason.Unknown
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/SubscriptionDropReason.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Unknown
-    path: ../EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
     startLine: 63
   assemblies:
   - EventStore.ClientAPI
@@ -448,10 +396,9 @@ items:
   summary: "\nSubscription was dropped for an unknown reason.\n"
   example: []
   syntax:
-    content: Unknown = null
+    content: Unknown = 100
     return:
       type: EventStore.ClientAPI.SubscriptionDropReason
-    content.vb: Unknown = Nothing
   modifiers.csharp:
   - public
   - const
@@ -470,12 +417,8 @@ items:
   fullName: EventStore.ClientAPI.SubscriptionDropReason.NotFound
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/SubscriptionDropReason.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: NotFound
-    path: ../EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SubscriptionDropReason.cs
     startLine: 68
   assemblies:
   - EventStore.ClientAPI
@@ -483,10 +426,9 @@ items:
   summary: "\nTarget of persistent subscription was not found. Needs to be created first\n"
   example: []
   syntax:
-    content: NotFound = null
+    content: NotFound = 101
     return:
       type: EventStore.ClientAPI.SubscriptionDropReason
-    content.vb: NotFound = Nothing
   modifiers.csharp:
   - public
   - const

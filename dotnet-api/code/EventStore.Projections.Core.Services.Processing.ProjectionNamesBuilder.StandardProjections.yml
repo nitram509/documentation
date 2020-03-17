@@ -18,12 +18,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.StandardProjections
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: StandardProjections
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
     startLine: 5
   assemblies:
   - EventStore.Projections.Core
@@ -55,12 +51,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.StandardProjections.StreamsStandardProjection
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: StreamsStandardProjection
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core
@@ -88,12 +80,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.StandardProjections.StreamByCategoryStandardProjection
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: StreamByCategoryStandardProjection
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
     startLine: 7
   assemblies:
   - EventStore.Projections.Core
@@ -121,12 +109,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.StandardProjections.EventByCategoryStandardProjection
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EventByCategoryStandardProjection
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core
@@ -154,12 +138,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.StandardProjections.EventByTypeStandardProjection
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EventByTypeStandardProjection
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
     startLine: 9
   assemblies:
   - EventStore.Projections.Core
@@ -187,12 +167,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder.StandardProjections.EventByCorrIdStandardProjection
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EventByCorrIdStandardProjection
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionNamesBuilder.cs
     startLine: 10
   assemblies:
   - EventStore.Projections.Core
@@ -215,11 +191,21 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

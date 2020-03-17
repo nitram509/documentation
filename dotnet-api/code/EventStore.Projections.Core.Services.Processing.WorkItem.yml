@@ -26,12 +26,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.WorkItem
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: WorkItem
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -69,12 +65,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.WorkItem._requiresRunning
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: _requiresRunning
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
     startLine: 10
   assemblies:
   - EventStore.Projections.Core
@@ -100,12 +92,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.WorkItem.WorkItem(System.Object)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
     startLine: 12
   assemblies:
   - EventStore.Projections.Core
@@ -133,12 +121,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.WorkItem.Queue
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Queue
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
     startLine: 17
   assemblies:
   - EventStore.Projections.Core
@@ -168,12 +152,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.WorkItem.Process(System.Int32, Action<System.Int32, System.Object>)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Process
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
     startLine: 21
   assemblies:
   - EventStore.Projections.Core
@@ -209,12 +189,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.WorkItem.RecordEventOrder()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: RecordEventOrder
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
     startLine: 55
   assemblies:
   - EventStore.Projections.Core
@@ -241,12 +217,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.WorkItem.GetStatePartition()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: GetStatePartition
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
     startLine: 59
   assemblies:
   - EventStore.Projections.Core
@@ -273,12 +245,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.WorkItem.Load(EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Load
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
     startLine: 63
   assemblies:
   - EventStore.Projections.Core
@@ -308,12 +276,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.WorkItem.ProcessEvent()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ProcessEvent
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
     startLine: 67
   assemblies:
   - EventStore.Projections.Core
@@ -340,12 +304,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.WorkItem.WriteOutput()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: WriteOutput
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
     startLine: 71
   assemblies:
   - EventStore.Projections.Core
@@ -372,12 +332,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.WorkItem.CompleteItem()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: CompleteItem
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
     startLine: 76
   assemblies:
   - EventStore.Projections.Core
@@ -404,12 +360,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.WorkItem.NextStage(System.Object)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: NextStage
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
     startLine: 80
   assemblies:
   - EventStore.Projections.Core
@@ -437,12 +389,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.WorkItem.SetCheckpointTag(EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: SetCheckpointTag
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
     startLine: 85
   assemblies:
   - EventStore.Projections.Core
@@ -470,12 +418,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.WorkItem.SetProjectionQueue(EventStore.Projections.Core.Services.Processing.CoreProjectionQueue)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: SetProjectionQueue
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/WorkItem.cs
     startLine: 89
   assemblies:
   - EventStore.Projections.Core
@@ -498,6 +442,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -514,7 +460,15 @@ references:
   name: InitialCorrelationId
   nameWithType: StagedTask.InitialCorrelationId
   fullName: EventStore.Projections.Core.Services.Processing.StagedTask.InitialCorrelationId
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -637,6 +591,8 @@ references:
   nameWithType: WorkItem.Process
   fullName: EventStore.Projections.Core.Services.Processing.WorkItem.Process
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

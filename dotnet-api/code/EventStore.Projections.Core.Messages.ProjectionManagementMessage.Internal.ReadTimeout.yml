@@ -19,13 +19,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.ReadTimeout
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ReadTimeout
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 884
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 883
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -58,13 +54,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.ReadTimeout.MsgTypeId
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 887
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 886
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -96,13 +88,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.ReadTimeout.CorrelationId
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: CorrelationId
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 895
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 894
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -131,13 +119,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.ReadTimeout.StreamId
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: StreamId
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 899
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 898
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -166,13 +150,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.ReadTimeout.Parameters
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Parameters
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 903
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 902
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -201,13 +181,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.ReadTimeout.ReadTimeout(Guid, System.String, Dictionary<System.String, System.Object>)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 907
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 906
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -241,13 +217,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.ReadTimeout.ReadTimeout(Guid, System.String)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 913
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 912
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -271,6 +243,8 @@ references:
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -287,6 +261,12 @@ references:
   name: NextMsgId
   nameWithType: Message.NextMsgId
   fullName: EventStore.Core.Messaging.Message.NextMsgId
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Messaging
   commentId: N:EventStore.Core.Messaging
   name: EventStore.Core.Messaging
@@ -304,6 +284,8 @@ references:
   nameWithType: ProjectionManagementMessage.Internal.ReadTimeout.MsgTypeId
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.ReadTimeout.MsgTypeId
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -324,6 +306,8 @@ references:
   nameWithType: ProjectionManagementMessage.Internal.ReadTimeout.StreamId
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.ReadTimeout.StreamId
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

@@ -5,10 +5,10 @@ items:
   id: NodePreference
   parent: EventStore.ClientAPI
   children:
-  - EventStore.ClientAPI.NodePreference.Follower
-  - EventStore.ClientAPI.NodePreference.Leader
+  - EventStore.ClientAPI.NodePreference.Master
   - EventStore.ClientAPI.NodePreference.Random
   - EventStore.ClientAPI.NodePreference.ReadOnlyReplica
+  - EventStore.ClientAPI.NodePreference.Slave
   langs:
   - csharp
   - vb
@@ -17,21 +17,17 @@ items:
   fullName: EventStore.ClientAPI.NodePreference
   type: Enum
   source:
-    remote:
-      path: src/EventStore.ClientAPI/NodePreference.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: NodePreference
-    path: ../EventStore/src/EventStore.ClientAPI/NodePreference.cs
-    startLine: 4
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/NodePreference.cs
+    startLine: 10
   assemblies:
   - EventStore.ClientAPI
   namespace: EventStore.ClientAPI
   summary: "\nIndicates which order of preferred nodes for connecting to.\n"
   example: []
   syntax:
-    content: 'public enum NodePreference : int'
-    content.vb: Public Enum NodePreference As Integer
+    content: public enum NodePreference
+    content.vb: Public Enum NodePreference
   extensionMethods:
   - EventStore.ClientAPI.NodePreference.EventStore.Projections.Core.Utils.EnumExtensions.EnumValueName``1
   modifiers.csharp:
@@ -40,32 +36,28 @@ items:
   modifiers.vb:
   - Public
   - Enum
-- uid: EventStore.ClientAPI.NodePreference.Leader
-  commentId: F:EventStore.ClientAPI.NodePreference.Leader
-  id: Leader
+- uid: EventStore.ClientAPI.NodePreference.Master
+  commentId: F:EventStore.ClientAPI.NodePreference.Master
+  id: Master
   parent: EventStore.ClientAPI.NodePreference
   langs:
   - csharp
   - vb
-  name: Leader
-  nameWithType: NodePreference.Leader
-  fullName: EventStore.ClientAPI.NodePreference.Leader
+  name: Master
+  nameWithType: NodePreference.Master
+  fullName: EventStore.ClientAPI.NodePreference.Master
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/NodePreference.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
-    id: Leader
-    path: ../EventStore/src/EventStore.ClientAPI/NodePreference.cs
-    startLine: 8
+    id: Master
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/NodePreference.cs
+    startLine: 14
   assemblies:
   - EventStore.ClientAPI
   namespace: EventStore.ClientAPI
-  summary: "\nWhen attempting connnection, prefers leader node.\n"
+  summary: "\nWhen attempting connnection, prefers master node.\n"
   example: []
   syntax:
-    content: Leader = 0
+    content: Master = 0
     return:
       type: EventStore.ClientAPI.NodePreference
   modifiers.csharp:
@@ -74,32 +66,28 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: EventStore.ClientAPI.NodePreference.Follower
-  commentId: F:EventStore.ClientAPI.NodePreference.Follower
-  id: Follower
+- uid: EventStore.ClientAPI.NodePreference.Slave
+  commentId: F:EventStore.ClientAPI.NodePreference.Slave
+  id: Slave
   parent: EventStore.ClientAPI.NodePreference
   langs:
   - csharp
   - vb
-  name: Follower
-  nameWithType: NodePreference.Follower
-  fullName: EventStore.ClientAPI.NodePreference.Follower
+  name: Slave
+  nameWithType: NodePreference.Slave
+  fullName: EventStore.ClientAPI.NodePreference.Slave
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/NodePreference.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
-    id: Follower
-    path: ../EventStore/src/EventStore.ClientAPI/NodePreference.cs
-    startLine: 13
+    id: Slave
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/NodePreference.cs
+    startLine: 19
   assemblies:
   - EventStore.ClientAPI
   namespace: EventStore.ClientAPI
-  summary: "\nWhen attempting connnection, prefers follower node.\n"
+  summary: "\nWhen attempting connnection, prefers slave node.\n"
   example: []
   syntax:
-    content: Follower = 1
+    content: Slave = 1
     return:
       type: EventStore.ClientAPI.NodePreference
   modifiers.csharp:
@@ -120,13 +108,9 @@ items:
   fullName: EventStore.ClientAPI.NodePreference.Random
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/NodePreference.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Random
-    path: ../EventStore/src/EventStore.ClientAPI/NodePreference.cs
-    startLine: 18
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/NodePreference.cs
+    startLine: 24
   assemblies:
   - EventStore.ClientAPI
   namespace: EventStore.ClientAPI
@@ -154,13 +138,9 @@ items:
   fullName: EventStore.ClientAPI.NodePreference.ReadOnlyReplica
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/NodePreference.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ReadOnlyReplica
-    path: ../EventStore/src/EventStore.ClientAPI/NodePreference.cs
-    startLine: 23
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/NodePreference.cs
+    startLine: 29
   assemblies:
   - EventStore.ClientAPI
   namespace: EventStore.ClientAPI

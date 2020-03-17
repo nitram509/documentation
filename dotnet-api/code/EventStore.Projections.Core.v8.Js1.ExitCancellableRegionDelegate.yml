@@ -13,12 +13,8 @@ items:
   fullName: EventStore.Projections.Core.v8.Js1.ExitCancellableRegionDelegate
   type: Delegate
   source:
-    remote:
-      path: src/EventStore.Projections.Core/v8/js1.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ExitCancellableRegionDelegate
-    path: ../EventStore/src/EventStore.Projections.Core/v8/js1.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/js1.cs
     startLine: 23
   assemblies:
   - EventStore.Projections.Core
@@ -41,7 +37,15 @@ references:
   nameWithType: EventStore.Projections.Core.v8
   fullName: EventStore.Projections.Core.v8
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

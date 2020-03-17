@@ -22,12 +22,8 @@ items:
   fullName: EventStore.Projections.Core.v8.Js1
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/v8/js1.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Js1
-    path: ../EventStore/src/EventStore.Projections.Core/v8/js1.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/js1.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core
@@ -372,10 +368,18 @@ references:
   nameWithType: EventStore.Projections.Core.v8
   fullName: EventStore.Projections.Core.v8
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.v8.Js1.ApiVersion*
   commentId: Overload:EventStore.Projections.Core.v8.Js1.ApiVersion
   isExternal: true
@@ -394,6 +398,8 @@ references:
   nameWithType: Js1.CompileModule
   fullName: EventStore.Projections.Core.v8.Js1.CompileModule
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -485,11 +491,15 @@ references:
     nameWithType: ()
     fullName: ()
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

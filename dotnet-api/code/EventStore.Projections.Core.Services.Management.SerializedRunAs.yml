@@ -19,13 +19,9 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.SerializedRunAs
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: SerializedRunAs
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 1038
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 1037
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -55,13 +51,9 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.SerializedRunAs.Name
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Name
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 1039
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 1038
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -90,13 +82,9 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.SerializedRunAs.Roles
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Roles
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 1040
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 1039
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -125,13 +113,9 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.SerializedRunAs.Implicit(EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs to EventStore.Projections.Core.Services.Management.SerializedRunAs)
   type: Operator
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: op_Implicit
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 1042
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 1041
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -165,13 +149,9 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.SerializedRunAs.Implicit(EventStore.Projections.Core.Services.Management.SerializedRunAs to EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs)
   type: Operator
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: op_Implicit
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 1046
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 1045
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -205,13 +185,9 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.SerializedRunAs.SerializePrincipal(EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: SerializePrincipal
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 1050
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 1057
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
@@ -242,24 +218,20 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.SerializedRunAs.DeserializePrincipal(EventStore.Projections.Core.Services.Management.SerializedRunAs)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: DeserializePrincipal
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
-    startLine: 1061
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ManagedProjection.cs
+    startLine: 1072
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Management
   syntax:
-    content: public static ClaimsPrincipal DeserializePrincipal(SerializedRunAs runAs)
+    content: public static IPrincipal DeserializePrincipal(SerializedRunAs runAs)
     parameters:
     - id: runAs
       type: EventStore.Projections.Core.Services.Management.SerializedRunAs
     return:
-      type: ClaimsPrincipal
-    content.vb: Public Shared Function DeserializePrincipal(runAs As SerializedRunAs) As ClaimsPrincipal
+      type: IPrincipal
+    content.vb: Public Shared Function DeserializePrincipal(runAs As SerializedRunAs) As IPrincipal
   overload: EventStore.Projections.Core.Services.Management.SerializedRunAs.DeserializePrincipal*
   modifiers.csharp:
   - public
@@ -274,16 +246,26 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Management
   fullName: EventStore.Projections.Core.Services.Management
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Management.SerializedRunAs.Name*
   commentId: Overload:EventStore.Projections.Core.Services.Management.SerializedRunAs.Name
   name: Name
   nameWithType: SerializedRunAs.Name
   fullName: EventStore.Projections.Core.Services.Management.SerializedRunAs.Name
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -354,8 +336,8 @@ references:
   name: DeserializePrincipal
   nameWithType: SerializedRunAs.DeserializePrincipal
   fullName: EventStore.Projections.Core.Services.Management.SerializedRunAs.DeserializePrincipal
-- uid: ClaimsPrincipal
+- uid: IPrincipal
   isExternal: true
-  name: ClaimsPrincipal
-  nameWithType: ClaimsPrincipal
-  fullName: ClaimsPrincipal
+  name: IPrincipal
+  nameWithType: IPrincipal
+  fullName: IPrincipal

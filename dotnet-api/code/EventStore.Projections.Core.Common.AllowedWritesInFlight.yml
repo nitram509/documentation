@@ -14,12 +14,8 @@ items:
   fullName: EventStore.Projections.Core.Common.AllowedWritesInFlight
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Common/AllowedWritesInFlight.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: AllowedWritesInFlight
-    path: ../EventStore/src/EventStore.Projections.Core/Common/AllowedWritesInFlight.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Common/AllowedWritesInFlight.cs
     startLine: 7
   assemblies:
   - EventStore.Projections.Core
@@ -51,12 +47,8 @@ items:
   fullName: EventStore.Projections.Core.Common.AllowedWritesInFlight.Unbounded
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Common/AllowedWritesInFlight.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Unbounded
-    path: ../EventStore/src/EventStore.Projections.Core/Common/AllowedWritesInFlight.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Common/AllowedWritesInFlight.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core
@@ -79,11 +71,21 @@ references:
   nameWithType: EventStore.Projections.Core.Common
   fullName: EventStore.Projections.Core.Common
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

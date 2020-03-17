@@ -19,13 +19,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.ProjectionDataBase
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionDataBase
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 722
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 721
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -63,13 +59,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.ProjectionDataBase.MsgTypeId
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 725
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 724
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -101,13 +93,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.ProjectionDataBase.ProjectionDataBase(System.String, System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag, Exception)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 734
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 733
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -140,13 +128,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.ProjectionDataBase.Name
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Name
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 742
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 741
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -175,13 +159,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.ProjectionDataBase.Exception
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Exception
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 746
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 745
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -210,13 +190,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.ProjectionDataBase.Partition
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Partition
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 750
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 749
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -245,13 +221,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.ProjectionDataBase.Position
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Position
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 754
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 753
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -275,6 +247,8 @@ references:
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -291,6 +265,12 @@ references:
   name: NextMsgId
   nameWithType: Message.NextMsgId
   fullName: EventStore.Core.Messaging.Message.NextMsgId
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Messaging
   commentId: N:EventStore.Core.Messaging
   name: EventStore.Core.Messaging
@@ -308,6 +288,8 @@ references:
   nameWithType: ProjectionManagementMessage.ProjectionDataBase.MsgTypeId
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.ProjectionDataBase.MsgTypeId
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -318,6 +300,8 @@ references:
   nameWithType: ProjectionManagementMessage.ProjectionDataBase.ProjectionDataBase
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.ProjectionDataBase.ProjectionDataBase
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

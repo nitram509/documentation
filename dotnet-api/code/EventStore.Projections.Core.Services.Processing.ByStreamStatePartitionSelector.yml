@@ -15,12 +15,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ByStreamStatePartitionSelector
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ByStreamStatePartitionSelector.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ByStreamStatePartitionSelector
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ByStreamStatePartitionSelector.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ByStreamStatePartitionSelector.cs
     startLine: 5
   assemblies:
   - EventStore.Projections.Core
@@ -52,12 +48,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ByStreamStatePartitionSelector.GetStatePartition(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ByStreamStatePartitionSelector.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: GetStatePartition
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ByStreamStatePartitionSelector.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ByStreamStatePartitionSelector.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core
@@ -90,12 +82,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ByStreamStatePartitionSelector.EventReaderBasePartitionDeletedIsSupported()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ByStreamStatePartitionSelector.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EventReaderBasePartitionDeletedIsSupported
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ByStreamStatePartitionSelector.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ByStreamStatePartitionSelector.cs
     startLine: 23
   assemblies:
   - EventStore.Projections.Core
@@ -120,6 +108,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -130,6 +120,12 @@ references:
   name: StatePartitionSelector
   nameWithType: StatePartitionSelector
   fullName: EventStore.Projections.Core.Services.Processing.StatePartitionSelector
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.StatePartitionSelector.GetStatePartition(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived)
   commentId: M:EventStore.Projections.Core.Services.Processing.StatePartitionSelector.GetStatePartition(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived)
   parent: EventStore.Projections.Core.Services.Processing.StatePartitionSelector
@@ -178,6 +174,8 @@ references:
   nameWithType: EventReaderSubscriptionMessage.CommittedEventReceived
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -221,6 +219,8 @@ references:
   nameWithType: ByStreamStatePartitionSelector.EventReaderBasePartitionDeletedIsSupported
   fullName: EventStore.Projections.Core.Services.Processing.ByStreamStatePartitionSelector.EventReaderBasePartitionDeletedIsSupported
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

@@ -27,12 +27,8 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConfigDetails
   type: Class
   source:
-    remote:
-      path: src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: PersistentSubscriptionConfigDetails
-    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
     startLine: 93
   assemblies:
   - EventStore.ClientAPI
@@ -40,12 +36,18 @@ items:
   summary: "\nConfiguration details of a persistent subscription.\n"
   example: []
   syntax:
-    content: 'public sealed class PersistentSubscriptionConfigDetails : object'
-    content.vb: >-
-      Public NotInheritable Class PersistentSubscriptionConfigDetails
-          Inherits Object
+    content: public sealed class PersistentSubscriptionConfigDetails
+    content.vb: Public NotInheritable Class PersistentSubscriptionConfigDetails
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
   modifiers.csharp:
   - public
   - sealed
@@ -66,12 +68,8 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConfigDetails.ResolveLinktos
   type: Property
   source:
-    remote:
-      path: src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ResolveLinktos
-    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
     startLine: 97
   assemblies:
   - EventStore.ClientAPI
@@ -103,12 +101,8 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConfigDetails.StartFrom
   type: Property
   source:
-    remote:
-      path: src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: StartFrom
-    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
     startLine: 102
   assemblies:
   - EventStore.ClientAPI
@@ -140,12 +134,8 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConfigDetails.MessageTimeoutMilliseconds
   type: Property
   source:
-    remote:
-      path: src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: MessageTimeoutMilliseconds
-    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
     startLine: 107
   assemblies:
   - EventStore.ClientAPI
@@ -177,12 +167,8 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConfigDetails.ExtraStatistics
   type: Property
   source:
-    remote:
-      path: src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ExtraStatistics
-    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
     startLine: 112
   assemblies:
   - EventStore.ClientAPI
@@ -214,12 +200,8 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConfigDetails.MaxRetryCount
   type: Property
   source:
-    remote:
-      path: src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: MaxRetryCount
-    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
     startLine: 117
   assemblies:
   - EventStore.ClientAPI
@@ -251,12 +233,8 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConfigDetails.LiveBufferSize
   type: Property
   source:
-    remote:
-      path: src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: LiveBufferSize
-    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
     startLine: 122
   assemblies:
   - EventStore.ClientAPI
@@ -288,12 +266,8 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConfigDetails.BufferSize
   type: Property
   source:
-    remote:
-      path: src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: BufferSize
-    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
     startLine: 127
   assemblies:
   - EventStore.ClientAPI
@@ -325,12 +299,8 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConfigDetails.ReadBatchSize
   type: Property
   source:
-    remote:
-      path: src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ReadBatchSize
-    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
     startLine: 132
   assemblies:
   - EventStore.ClientAPI
@@ -362,12 +332,8 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConfigDetails.CheckPointAfterMilliseconds
   type: Property
   source:
-    remote:
-      path: src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: CheckPointAfterMilliseconds
-    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
     startLine: 137
   assemblies:
   - EventStore.ClientAPI
@@ -399,12 +365,8 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConfigDetails.MinCheckPointCount
   type: Property
   source:
-    remote:
-      path: src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: MinCheckPointCount
-    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
     startLine: 142
   assemblies:
   - EventStore.ClientAPI
@@ -436,12 +398,8 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConfigDetails.MaxCheckPointCount
   type: Property
   source:
-    remote:
-      path: src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: MaxCheckPointCount
-    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
     startLine: 147
   assemblies:
   - EventStore.ClientAPI
@@ -473,12 +431,8 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConfigDetails.MaxSubscriberCount
   type: Property
   source:
-    remote:
-      path: src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: MaxSubscriberCount
-    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
     startLine: 152
   assemblies:
   - EventStore.ClientAPI
@@ -510,12 +464,8 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConfigDetails.NamedConsumerStrategy
   type: Property
   source:
-    remote:
-      path: src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: NamedConsumerStrategy
-    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
     startLine: 157
   assemblies:
   - EventStore.ClientAPI
@@ -547,12 +497,8 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConfigDetails.PreferRoundRobin
   type: Property
   source:
-    remote:
-      path: src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: PreferRoundRobin
-    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
     startLine: 162
   assemblies:
   - EventStore.ClientAPI
@@ -579,16 +525,305 @@ references:
   nameWithType: EventStore.ClientAPI.PersistentSubscriptions
   fullName: EventStore.ClientAPI.PersistentSubscriptions
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConfigDetails.ResolveLinktos*
   commentId: Overload:EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConfigDetails.ResolveLinktos
   name: ResolveLinktos
   nameWithType: PersistentSubscriptionConfigDetails.ResolveLinktos
   fullName: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConfigDetails.ResolveLinktos
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -599,6 +834,8 @@ references:
   nameWithType: PersistentSubscriptionConfigDetails.StartFrom
   fullName: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConfigDetails.StartFrom
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
@@ -609,6 +846,8 @@ references:
   nameWithType: PersistentSubscriptionConfigDetails.MessageTimeoutMilliseconds
   fullName: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConfigDetails.MessageTimeoutMilliseconds
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -664,6 +903,8 @@ references:
   nameWithType: PersistentSubscriptionConfigDetails.NamedConsumerStrategy
   fullName: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConfigDetails.NamedConsumerStrategy
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

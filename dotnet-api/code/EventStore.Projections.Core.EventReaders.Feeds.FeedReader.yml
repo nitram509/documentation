@@ -5,7 +5,7 @@ items:
   id: FeedReader
   parent: EventStore.Projections.Core.EventReaders.Feeds
   children:
-  - EventStore.Projections.Core.EventReaders.Feeds.FeedReader.#ctor(EventStore.Projections.Core.Services.PublishSubscribeDispatcher{Guid,EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.Subscribe,EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage,EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase},ClaimsPrincipal,EventStore.Projections.Core.Messages.QuerySourcesDefinition,EventStore.Projections.Core.Services.Processing.CheckpointTag,System.Int32,Guid,EventStore.Core.Messaging.IEnvelope,EventStore.Core.Services.TimerService.ITimeProvider)
+  - EventStore.Projections.Core.EventReaders.Feeds.FeedReader.#ctor(EventStore.Projections.Core.Services.PublishSubscribeDispatcher{Guid,EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.Subscribe,EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage,EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase},IPrincipal,EventStore.Projections.Core.Messages.QuerySourcesDefinition,EventStore.Projections.Core.Services.Processing.CheckpointTag,System.Int32,Guid,EventStore.Core.Messaging.IEnvelope,EventStore.Core.Services.TimerService.ITimeProvider)
   - EventStore.Projections.Core.EventReaders.Feeds.FeedReader.Create(EventStore.Projections.Core.Services.PublishSubscribeDispatcher{Guid,EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.Subscribe,EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage,EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase},EventStore.Projections.Core.Messages.EventReaders.Feeds.FeedReaderMessage.ReadPage,EventStore.Core.Services.TimerService.ITimeProvider)
   - EventStore.Projections.Core.EventReaders.Feeds.FeedReader.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CheckpointSuggested)
   - EventStore.Projections.Core.EventReaders.Feeds.FeedReader.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived)
@@ -21,12 +21,8 @@ items:
   fullName: EventStore.Projections.Core.EventReaders.Feeds.FeedReader
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/EventReaders/Feeds/FeedReader.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: FeedReader
-    path: ../EventStore/src/EventStore.Projections.Core/EventReaders/Feeds/FeedReader.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/EventReaders/Feeds/FeedReader.cs
     startLine: 13
   assemblies:
   - EventStore.Projections.Core
@@ -65,12 +61,8 @@ items:
   fullName: EventStore.Projections.Core.EventReaders.Feeds.FeedReader.Create(EventStore.Projections.Core.Services.PublishSubscribeDispatcher<Guid, EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.Subscribe, EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage, EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase>, EventStore.Projections.Core.Messages.EventReaders.Feeds.FeedReaderMessage.ReadPage, EventStore.Core.Services.TimerService.ITimeProvider)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/EventReaders/Feeds/FeedReader.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Create
-    path: ../EventStore/src/EventStore.Projections.Core/EventReaders/Feeds/FeedReader.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/EventReaders/Feeds/FeedReader.cs
     startLine: 38
   assemblies:
   - EventStore.Projections.Core
@@ -97,35 +89,31 @@ items:
   - Shared
   fullName.vb: EventStore.Projections.Core.EventReaders.Feeds.FeedReader.Create(EventStore.Projections.Core.Services.PublishSubscribeDispatcher(Of Guid, EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.Subscribe, EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage, EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase), EventStore.Projections.Core.Messages.EventReaders.Feeds.FeedReaderMessage.ReadPage, EventStore.Core.Services.TimerService.ITimeProvider)
   name.vb: Create(PublishSubscribeDispatcher(Of Guid, ReaderSubscriptionManagement.Subscribe, ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage, EventReaderSubscriptionMessageBase), FeedReaderMessage.ReadPage, ITimeProvider)
-- uid: EventStore.Projections.Core.EventReaders.Feeds.FeedReader.#ctor(EventStore.Projections.Core.Services.PublishSubscribeDispatcher{Guid,EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.Subscribe,EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage,EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase},ClaimsPrincipal,EventStore.Projections.Core.Messages.QuerySourcesDefinition,EventStore.Projections.Core.Services.Processing.CheckpointTag,System.Int32,Guid,EventStore.Core.Messaging.IEnvelope,EventStore.Core.Services.TimerService.ITimeProvider)
-  commentId: M:EventStore.Projections.Core.EventReaders.Feeds.FeedReader.#ctor(EventStore.Projections.Core.Services.PublishSubscribeDispatcher{Guid,EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.Subscribe,EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage,EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase},ClaimsPrincipal,EventStore.Projections.Core.Messages.QuerySourcesDefinition,EventStore.Projections.Core.Services.Processing.CheckpointTag,System.Int32,Guid,EventStore.Core.Messaging.IEnvelope,EventStore.Core.Services.TimerService.ITimeProvider)
-  id: '#ctor(EventStore.Projections.Core.Services.PublishSubscribeDispatcher{Guid,EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.Subscribe,EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage,EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase},ClaimsPrincipal,EventStore.Projections.Core.Messages.QuerySourcesDefinition,EventStore.Projections.Core.Services.Processing.CheckpointTag,System.Int32,Guid,EventStore.Core.Messaging.IEnvelope,EventStore.Core.Services.TimerService.ITimeProvider)'
+- uid: EventStore.Projections.Core.EventReaders.Feeds.FeedReader.#ctor(EventStore.Projections.Core.Services.PublishSubscribeDispatcher{Guid,EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.Subscribe,EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage,EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase},IPrincipal,EventStore.Projections.Core.Messages.QuerySourcesDefinition,EventStore.Projections.Core.Services.Processing.CheckpointTag,System.Int32,Guid,EventStore.Core.Messaging.IEnvelope,EventStore.Core.Services.TimerService.ITimeProvider)
+  commentId: M:EventStore.Projections.Core.EventReaders.Feeds.FeedReader.#ctor(EventStore.Projections.Core.Services.PublishSubscribeDispatcher{Guid,EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.Subscribe,EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage,EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase},IPrincipal,EventStore.Projections.Core.Messages.QuerySourcesDefinition,EventStore.Projections.Core.Services.Processing.CheckpointTag,System.Int32,Guid,EventStore.Core.Messaging.IEnvelope,EventStore.Core.Services.TimerService.ITimeProvider)
+  id: '#ctor(EventStore.Projections.Core.Services.PublishSubscribeDispatcher{Guid,EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.Subscribe,EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage,EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase},IPrincipal,EventStore.Projections.Core.Messages.QuerySourcesDefinition,EventStore.Projections.Core.Services.Processing.CheckpointTag,System.Int32,Guid,EventStore.Core.Messaging.IEnvelope,EventStore.Core.Services.TimerService.ITimeProvider)'
   parent: EventStore.Projections.Core.EventReaders.Feeds.FeedReader
   langs:
   - csharp
   - vb
-  name: FeedReader(PublishSubscribeDispatcher<Guid, ReaderSubscriptionManagement.Subscribe, ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage, EventReaderSubscriptionMessageBase>, ClaimsPrincipal, QuerySourcesDefinition, CheckpointTag, Int32, Guid, IEnvelope, ITimeProvider)
-  nameWithType: FeedReader.FeedReader(PublishSubscribeDispatcher<Guid, ReaderSubscriptionManagement.Subscribe, ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage, EventReaderSubscriptionMessageBase>, ClaimsPrincipal, QuerySourcesDefinition, CheckpointTag, Int32, Guid, IEnvelope, ITimeProvider)
-  fullName: EventStore.Projections.Core.EventReaders.Feeds.FeedReader.FeedReader(EventStore.Projections.Core.Services.PublishSubscribeDispatcher<Guid, EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.Subscribe, EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage, EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase>, ClaimsPrincipal, EventStore.Projections.Core.Messages.QuerySourcesDefinition, EventStore.Projections.Core.Services.Processing.CheckpointTag, System.Int32, Guid, EventStore.Core.Messaging.IEnvelope, EventStore.Core.Services.TimerService.ITimeProvider)
+  name: FeedReader(PublishSubscribeDispatcher<Guid, ReaderSubscriptionManagement.Subscribe, ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage, EventReaderSubscriptionMessageBase>, IPrincipal, QuerySourcesDefinition, CheckpointTag, Int32, Guid, IEnvelope, ITimeProvider)
+  nameWithType: FeedReader.FeedReader(PublishSubscribeDispatcher<Guid, ReaderSubscriptionManagement.Subscribe, ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage, EventReaderSubscriptionMessageBase>, IPrincipal, QuerySourcesDefinition, CheckpointTag, Int32, Guid, IEnvelope, ITimeProvider)
+  fullName: EventStore.Projections.Core.EventReaders.Feeds.FeedReader.FeedReader(EventStore.Projections.Core.Services.PublishSubscribeDispatcher<Guid, EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.Subscribe, EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage, EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase>, IPrincipal, EventStore.Projections.Core.Messages.QuerySourcesDefinition, EventStore.Projections.Core.Services.Processing.CheckpointTag, System.Int32, Guid, EventStore.Core.Messaging.IEnvelope, EventStore.Core.Services.TimerService.ITimeProvider)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/EventReaders/Feeds/FeedReader.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/EventReaders/Feeds/FeedReader.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/EventReaders/Feeds/FeedReader.cs
     startLine: 49
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.EventReaders.Feeds
   syntax:
-    content: public FeedReader(PublishSubscribeDispatcher<Guid, ReaderSubscriptionManagement.Subscribe, ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage, EventReaderSubscriptionMessageBase> subscriptionDispatcher, ClaimsPrincipal user, QuerySourcesDefinition querySource, CheckpointTag fromPosition, int maxEvents, Guid requestCorrelationId, IEnvelope replyEnvelope, ITimeProvider timeProvider)
+    content: public FeedReader(PublishSubscribeDispatcher<Guid, ReaderSubscriptionManagement.Subscribe, ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage, EventReaderSubscriptionMessageBase> subscriptionDispatcher, IPrincipal user, QuerySourcesDefinition querySource, CheckpointTag fromPosition, int maxEvents, Guid requestCorrelationId, IEnvelope replyEnvelope, ITimeProvider timeProvider)
     parameters:
     - id: subscriptionDispatcher
       type: EventStore.Projections.Core.Services.PublishSubscribeDispatcher{Guid,EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.Subscribe,EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage,EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase}
     - id: user
-      type: ClaimsPrincipal
+      type: IPrincipal
     - id: querySource
       type: EventStore.Projections.Core.Messages.QuerySourcesDefinition
     - id: fromPosition
@@ -138,15 +126,15 @@ items:
       type: EventStore.Core.Messaging.IEnvelope
     - id: timeProvider
       type: EventStore.Core.Services.TimerService.ITimeProvider
-    content.vb: Public Sub New(subscriptionDispatcher As PublishSubscribeDispatcher(Of Guid, ReaderSubscriptionManagement.Subscribe, ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage, EventReaderSubscriptionMessageBase), user As ClaimsPrincipal, querySource As QuerySourcesDefinition, fromPosition As CheckpointTag, maxEvents As Integer, requestCorrelationId As Guid, replyEnvelope As IEnvelope, timeProvider As ITimeProvider)
+    content.vb: Public Sub New(subscriptionDispatcher As PublishSubscribeDispatcher(Of Guid, ReaderSubscriptionManagement.Subscribe, ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage, EventReaderSubscriptionMessageBase), user As IPrincipal, querySource As QuerySourcesDefinition, fromPosition As CheckpointTag, maxEvents As Integer, requestCorrelationId As Guid, replyEnvelope As IEnvelope, timeProvider As ITimeProvider)
   overload: EventStore.Projections.Core.EventReaders.Feeds.FeedReader.#ctor*
-  nameWithType.vb: FeedReader.FeedReader(PublishSubscribeDispatcher(Of Guid, ReaderSubscriptionManagement.Subscribe, ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage, EventReaderSubscriptionMessageBase), ClaimsPrincipal, QuerySourcesDefinition, CheckpointTag, Int32, Guid, IEnvelope, ITimeProvider)
+  nameWithType.vb: FeedReader.FeedReader(PublishSubscribeDispatcher(Of Guid, ReaderSubscriptionManagement.Subscribe, ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage, EventReaderSubscriptionMessageBase), IPrincipal, QuerySourcesDefinition, CheckpointTag, Int32, Guid, IEnvelope, ITimeProvider)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: EventStore.Projections.Core.EventReaders.Feeds.FeedReader.FeedReader(EventStore.Projections.Core.Services.PublishSubscribeDispatcher(Of Guid, EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.Subscribe, EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage, EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase), ClaimsPrincipal, EventStore.Projections.Core.Messages.QuerySourcesDefinition, EventStore.Projections.Core.Services.Processing.CheckpointTag, System.Int32, Guid, EventStore.Core.Messaging.IEnvelope, EventStore.Core.Services.TimerService.ITimeProvider)
-  name.vb: FeedReader(PublishSubscribeDispatcher(Of Guid, ReaderSubscriptionManagement.Subscribe, ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage, EventReaderSubscriptionMessageBase), ClaimsPrincipal, QuerySourcesDefinition, CheckpointTag, Int32, Guid, IEnvelope, ITimeProvider)
+  fullName.vb: EventStore.Projections.Core.EventReaders.Feeds.FeedReader.FeedReader(EventStore.Projections.Core.Services.PublishSubscribeDispatcher(Of Guid, EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.Subscribe, EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage, EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase), IPrincipal, EventStore.Projections.Core.Messages.QuerySourcesDefinition, EventStore.Projections.Core.Services.Processing.CheckpointTag, System.Int32, Guid, EventStore.Core.Messaging.IEnvelope, EventStore.Core.Services.TimerService.ITimeProvider)
+  name.vb: FeedReader(PublishSubscribeDispatcher(Of Guid, ReaderSubscriptionManagement.Subscribe, ReaderSubscriptionManagement.ReaderSubscriptionManagementMessage, EventReaderSubscriptionMessageBase), IPrincipal, QuerySourcesDefinition, CheckpointTag, Int32, Guid, IEnvelope, ITimeProvider)
 - uid: EventStore.Projections.Core.EventReaders.Feeds.FeedReader.Start
   commentId: M:EventStore.Projections.Core.EventReaders.Feeds.FeedReader.Start
   id: Start
@@ -159,12 +147,8 @@ items:
   fullName: EventStore.Projections.Core.EventReaders.Feeds.FeedReader.Start()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/EventReaders/Feeds/FeedReader.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Start
-    path: ../EventStore/src/EventStore.Projections.Core/EventReaders/Feeds/FeedReader.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/EventReaders/Feeds/FeedReader.cs
     startLine: 72
   assemblies:
   - EventStore.Projections.Core
@@ -189,12 +173,8 @@ items:
   fullName: EventStore.Projections.Core.EventReaders.Feeds.FeedReader.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/EventReaders/Feeds/FeedReader.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: ../EventStore/src/EventStore.Projections.Core/EventReaders/Feeds/FeedReader.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/EventReaders/Feeds/FeedReader.cs
     startLine: 95
   assemblies:
   - EventStore.Projections.Core
@@ -224,12 +204,8 @@ items:
   fullName: EventStore.Projections.Core.EventReaders.Feeds.FeedReader.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.EofReached)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/EventReaders/Feeds/FeedReader.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: ../EventStore/src/EventStore.Projections.Core/EventReaders/Feeds/FeedReader.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/EventReaders/Feeds/FeedReader.cs
     startLine: 100
   assemblies:
   - EventStore.Projections.Core
@@ -259,12 +235,8 @@ items:
   fullName: EventStore.Projections.Core.EventReaders.Feeds.FeedReader.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.PartitionEofReached)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/EventReaders/Feeds/FeedReader.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: ../EventStore/src/EventStore.Projections.Core/EventReaders/Feeds/FeedReader.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/EventReaders/Feeds/FeedReader.cs
     startLine: 106
   assemblies:
   - EventStore.Projections.Core
@@ -294,12 +266,8 @@ items:
   fullName: EventStore.Projections.Core.EventReaders.Feeds.FeedReader.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CheckpointSuggested)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/EventReaders/Feeds/FeedReader.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: ../EventStore/src/EventStore.Projections.Core/EventReaders/Feeds/FeedReader.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/EventReaders/Feeds/FeedReader.cs
     startLine: 110
   assemblies:
   - EventStore.Projections.Core
@@ -329,12 +297,8 @@ items:
   fullName: EventStore.Projections.Core.EventReaders.Feeds.FeedReader.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.NotAuthorized)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/EventReaders/Feeds/FeedReader.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: ../EventStore/src/EventStore.Projections.Core/EventReaders/Feeds/FeedReader.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/EventReaders/Feeds/FeedReader.cs
     startLine: 132
   assemblies:
   - EventStore.Projections.Core
@@ -359,6 +323,8 @@ references:
   nameWithType: EventStore.Projections.Core.EventReaders.Feeds
   fullName: EventStore.Projections.Core.EventReaders.Feeds
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -563,6 +529,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Bus.IHandle`1
   commentId: T:EventStore.Core.Bus.IHandle`1
   name: IHandle<T>
@@ -803,11 +775,11 @@ references:
   name: FeedReader
   nameWithType: FeedReader.FeedReader
   fullName: EventStore.Projections.Core.EventReaders.Feeds.FeedReader.FeedReader
-- uid: ClaimsPrincipal
+- uid: IPrincipal
   isExternal: true
-  name: ClaimsPrincipal
-  nameWithType: ClaimsPrincipal
-  fullName: ClaimsPrincipal
+  name: IPrincipal
+  nameWithType: IPrincipal
+  fullName: IPrincipal
 - uid: EventStore.Projections.Core.Messages.QuerySourcesDefinition
   commentId: T:EventStore.Projections.Core.Messages.QuerySourcesDefinition
   parent: EventStore.Projections.Core.Messages
@@ -821,6 +793,8 @@ references:
   nameWithType: CheckpointTag
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTag
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

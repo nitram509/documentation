@@ -20,12 +20,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionVersion
   type: Struct
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ProjectionVersion.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionVersion
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionVersion.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionVersion.cs
     startLine: 1
   assemblies:
   - EventStore.Projections.Core
@@ -53,12 +49,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionVersion.ProjectionId
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ProjectionVersion.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionId
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionVersion.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionVersion.cs
     startLine: 2
   assemblies:
   - EventStore.Projections.Core
@@ -86,12 +78,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionVersion.Epoch
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ProjectionVersion.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Epoch
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionVersion.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionVersion.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -119,12 +107,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionVersion.Version
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ProjectionVersion.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Version
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionVersion.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionVersion.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core
@@ -152,12 +136,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionVersion.ProjectionVersion(System.Int64, System.Int64, System.Int64)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ProjectionVersion.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionVersion.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionVersion.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core
@@ -189,12 +169,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionVersion.Equals(EventStore.Projections.Core.Services.Processing.ProjectionVersion)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ProjectionVersion.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Equals
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionVersion.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionVersion.cs
     startLine: 12
   assemblies:
   - EventStore.Projections.Core
@@ -224,12 +200,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionVersion.Equals(System.Object)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ProjectionVersion.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Equals
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionVersion.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionVersion.cs
     startLine: 16
   assemblies:
   - EventStore.Projections.Core
@@ -261,12 +233,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionVersion.GetHashCode()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ProjectionVersion.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: GetHashCode
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionVersion.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionVersion.cs
     startLine: 21
   assemblies:
   - EventStore.Projections.Core
@@ -369,10 +337,18 @@ references:
   nameWithType: EventStore.Projections.Core.Utils
   fullName: EventStore.Projections.Core.Utils
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.ProjectionVersion.#ctor*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.ProjectionVersion.#ctor
   name: ProjectionVersion
@@ -390,11 +366,15 @@ references:
   nameWithType: ProjectionVersion
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionVersion
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -405,6 +385,8 @@ references:
   nameWithType: ProjectionVersion.GetHashCode
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionVersion.GetHashCode
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

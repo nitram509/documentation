@@ -5,7 +5,7 @@ items:
   id: ProjectionsManager
   parent: EventStore.ClientAPI.Projections
   children:
-  - EventStore.ClientAPI.Projections.ProjectionsManager.#ctor(EventStore.ClientAPI.ILogger,EndPoint,TimeSpan,HttpMessageHandler,System.String)
+  - EventStore.ClientAPI.Projections.ProjectionsManager.#ctor(EventStore.ClientAPI.ILogger,System.Net.EndPoint,System.TimeSpan,System.Net.Http.HttpMessageHandler,System.String)
   - EventStore.ClientAPI.Projections.ProjectionsManager.AbortAsync(System.String,EventStore.ClientAPI.SystemData.UserCredentials)
   - EventStore.ClientAPI.Projections.ProjectionsManager.CreateContinuousAsync(System.String,System.String,EventStore.ClientAPI.SystemData.UserCredentials)
   - EventStore.ClientAPI.Projections.ProjectionsManager.CreateContinuousAsync(System.String,System.String,System.Boolean,EventStore.ClientAPI.SystemData.UserCredentials)
@@ -38,12 +38,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager
   type: Class
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionsManager
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 14
   assemblies:
   - EventStore.ClientAPI
@@ -51,36 +47,38 @@ items:
   summary: "\nAPI for managing projections in the Event Store through C# code. Communicates\nwith the Event Store over the RESTful API.\n"
   example: []
   syntax:
-    content: 'public class ProjectionsManager : object'
-    content.vb: >-
-      Public Class ProjectionsManager
-          Inherits Object
+    content: public class ProjectionsManager
+    content.vb: Public Class ProjectionsManager
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
   modifiers.csharp:
   - public
   - class
   modifiers.vb:
   - Public
   - Class
-- uid: EventStore.ClientAPI.Projections.ProjectionsManager.#ctor(EventStore.ClientAPI.ILogger,EndPoint,TimeSpan,HttpMessageHandler,System.String)
-  commentId: M:EventStore.ClientAPI.Projections.ProjectionsManager.#ctor(EventStore.ClientAPI.ILogger,EndPoint,TimeSpan,HttpMessageHandler,System.String)
-  id: '#ctor(EventStore.ClientAPI.ILogger,EndPoint,TimeSpan,HttpMessageHandler,System.String)'
+- uid: EventStore.ClientAPI.Projections.ProjectionsManager.#ctor(EventStore.ClientAPI.ILogger,System.Net.EndPoint,System.TimeSpan,System.Net.Http.HttpMessageHandler,System.String)
+  commentId: M:EventStore.ClientAPI.Projections.ProjectionsManager.#ctor(EventStore.ClientAPI.ILogger,System.Net.EndPoint,System.TimeSpan,System.Net.Http.HttpMessageHandler,System.String)
+  id: '#ctor(EventStore.ClientAPI.ILogger,System.Net.EndPoint,System.TimeSpan,System.Net.Http.HttpMessageHandler,System.String)'
   parent: EventStore.ClientAPI.Projections.ProjectionsManager
   langs:
   - csharp
   - vb
   name: ProjectionsManager(ILogger, EndPoint, TimeSpan, HttpMessageHandler, String)
   nameWithType: ProjectionsManager.ProjectionsManager(ILogger, EndPoint, TimeSpan, HttpMessageHandler, String)
-  fullName: EventStore.ClientAPI.Projections.ProjectionsManager.ProjectionsManager(EventStore.ClientAPI.ILogger, EndPoint, TimeSpan, HttpMessageHandler, System.String)
+  fullName: EventStore.ClientAPI.Projections.ProjectionsManager.ProjectionsManager(EventStore.ClientAPI.ILogger, System.Net.EndPoint, System.TimeSpan, System.Net.Http.HttpMessageHandler, System.String)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 27
   assemblies:
   - EventStore.ClientAPI
@@ -88,24 +86,24 @@ items:
   summary: "\nCreates a new instance of <xref href=\"EventStore.ClientAPI.Projections.ProjectionsManager\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   example: []
   syntax:
-    content: public ProjectionsManager(ILogger log, EndPoint httpEndPoint, TimeSpan operationTimeout, HttpMessageHandler httpMessageHandler = null, string httpSchema = null)
+    content: public ProjectionsManager(ILogger log, EndPoint httpEndPoint, TimeSpan operationTimeout, HttpMessageHandler httpMessageHandler = null, string httpSchema = "http")
     parameters:
     - id: log
       type: EventStore.ClientAPI.ILogger
       description: An instance of <xref href="EventStore.ClientAPI.ILogger" data-throw-if-not-resolved="false"></xref> to use for logging.
     - id: httpEndPoint
-      type: EndPoint
+      type: System.Net.EndPoint
       description: HTTP endpoint of an Event Store server.
     - id: operationTimeout
-      type: TimeSpan
+      type: System.TimeSpan
       description: ''
     - id: httpMessageHandler
-      type: HttpMessageHandler
+      type: System.Net.Http.HttpMessageHandler
       description: ''
     - id: httpSchema
       type: System.String
       description: HTTP endpoint schema http|https.
-    content.vb: Public Sub New(log As ILogger, httpEndPoint As EndPoint, operationTimeout As TimeSpan, httpMessageHandler As HttpMessageHandler = Nothing, httpSchema As String = Nothing)
+    content.vb: Public Sub New(log As ILogger, httpEndPoint As EndPoint, operationTimeout As TimeSpan, httpMessageHandler As HttpMessageHandler = Nothing, httpSchema As String = "http")
   overload: EventStore.ClientAPI.Projections.ProjectionsManager.#ctor*
   modifiers.csharp:
   - public
@@ -123,12 +121,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.EnableAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EnableAsync
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 43
   assemblies:
   - EventStore.ClientAPI
@@ -145,7 +139,7 @@ items:
       type: EventStore.ClientAPI.SystemData.UserCredentials
       description: Credentials for a user with permission to enable a projection
     return:
-      type: Task
+      type: System.Threading.Tasks.Task
       description: A task representing the operation.
     content.vb: Public Function EnableAsync(name As String, userCredentials As UserCredentials = Nothing) As Task
   overload: EventStore.ClientAPI.Projections.ProjectionsManager.EnableAsync*
@@ -165,12 +159,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.DisableAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: DisableAsync
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 54
   assemblies:
   - EventStore.ClientAPI
@@ -187,7 +177,7 @@ items:
       type: EventStore.ClientAPI.SystemData.UserCredentials
       description: Credentials for a user with permission to disable a projection.
     return:
-      type: Task
+      type: System.Threading.Tasks.Task
       description: A task representing the operation.
     content.vb: Public Function DisableAsync(name As String, userCredentials As UserCredentials = Nothing) As Task
   overload: EventStore.ClientAPI.Projections.ProjectionsManager.DisableAsync*
@@ -207,12 +197,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.AbortAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: AbortAsync
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 65
   assemblies:
   - EventStore.ClientAPI
@@ -229,7 +215,7 @@ items:
       type: EventStore.ClientAPI.SystemData.UserCredentials
       description: Credentials for a user with permission to disable a projection.
     return:
-      type: Task
+      type: System.Threading.Tasks.Task
       description: A task representing the operation.
     content.vb: Public Function AbortAsync(name As String, userCredentials As UserCredentials = Nothing) As Task
   overload: EventStore.ClientAPI.Projections.ProjectionsManager.AbortAsync*
@@ -249,12 +235,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.CreateOneTimeAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: CreateOneTimeAsync
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 75
   assemblies:
   - EventStore.ClientAPI
@@ -271,7 +253,7 @@ items:
       type: EventStore.ClientAPI.SystemData.UserCredentials
       description: Credentials for a user with permission to create a query.
     return:
-      type: Task
+      type: System.Threading.Tasks.Task
     content.vb: Public Function CreateOneTimeAsync(query As String, userCredentials As UserCredentials = Nothing) As Task
   overload: EventStore.ClientAPI.Projections.ProjectionsManager.CreateOneTimeAsync*
   modifiers.csharp:
@@ -290,12 +272,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.CreateTransientAsync(System.String, System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: CreateTransientAsync
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 86
   assemblies:
   - EventStore.ClientAPI
@@ -315,7 +293,7 @@ items:
       type: EventStore.ClientAPI.SystemData.UserCredentials
       description: Credentials for a user with permission to create a query.
     return:
-      type: Task
+      type: System.Threading.Tasks.Task
     content.vb: Public Function CreateTransientAsync(name As String, query As String, userCredentials As UserCredentials = Nothing) As Task
   overload: EventStore.ClientAPI.Projections.ProjectionsManager.CreateTransientAsync*
   modifiers.csharp:
@@ -334,12 +312,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.CreateContinuousAsync(System.String, System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: CreateContinuousAsync
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 98
   assemblies:
   - EventStore.ClientAPI
@@ -359,7 +333,7 @@ items:
       type: EventStore.ClientAPI.SystemData.UserCredentials
       description: Credentials for a user with permission to create a query.
     return:
-      type: Task
+      type: System.Threading.Tasks.Task
     content.vb: Public Function CreateContinuousAsync(name As String, query As String, userCredentials As UserCredentials = Nothing) As Task
   overload: EventStore.ClientAPI.Projections.ProjectionsManager.CreateContinuousAsync*
   modifiers.csharp:
@@ -378,12 +352,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.CreateContinuousAsync(System.String, System.String, System.Boolean, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: CreateContinuousAsync
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 109
   assemblies:
   - EventStore.ClientAPI
@@ -406,7 +376,7 @@ items:
       type: EventStore.ClientAPI.SystemData.UserCredentials
       description: Credentials for a user with permission to create a query.
     return:
-      type: Task
+      type: System.Threading.Tasks.Task
     content.vb: Public Function CreateContinuousAsync(name As String, query As String, trackEmittedStreams As Boolean, userCredentials As UserCredentials = Nothing) As Task
   overload: EventStore.ClientAPI.Projections.ProjectionsManager.CreateContinuousAsync*
   modifiers.csharp:
@@ -425,12 +395,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.ListAllAsync(EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ListAllAsync
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 123
   assemblies:
   - EventStore.ClientAPI
@@ -444,7 +410,7 @@ items:
       type: EventStore.ClientAPI.SystemData.UserCredentials
       description: Credentials for the operation.
     return:
-      type: Task{List{EventStore.ClientAPI.Projections.ProjectionDetails}}
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{EventStore.ClientAPI.Projections.ProjectionDetails}}
       description: List of all ProjectionDetails items containing projection statuses.
     content.vb: Public Function ListAllAsync(userCredentials As UserCredentials = Nothing) As Task(Of List(Of ProjectionDetails))
   overload: EventStore.ClientAPI.Projections.ProjectionsManager.ListAllAsync*
@@ -464,12 +430,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.ListOneTimeAsync(EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ListOneTimeAsync
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 132
   assemblies:
   - EventStore.ClientAPI
@@ -483,7 +445,7 @@ items:
       type: EventStore.ClientAPI.SystemData.UserCredentials
       description: Credentials for the operation.
     return:
-      type: Task{List{EventStore.ClientAPI.Projections.ProjectionDetails}}
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{EventStore.ClientAPI.Projections.ProjectionDetails}}
       description: List of one-time ProjectionDetails items containing projection statuses.
     content.vb: Public Function ListOneTimeAsync(userCredentials As UserCredentials = Nothing) As Task(Of List(Of ProjectionDetails))
   overload: EventStore.ClientAPI.Projections.ProjectionsManager.ListOneTimeAsync*
@@ -503,12 +465,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.ListContinuousAsync(EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ListContinuousAsync
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 141
   assemblies:
   - EventStore.ClientAPI
@@ -522,7 +480,7 @@ items:
       type: EventStore.ClientAPI.SystemData.UserCredentials
       description: Credentials for the operation.
     return:
-      type: Task{List{EventStore.ClientAPI.Projections.ProjectionDetails}}
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{EventStore.ClientAPI.Projections.ProjectionDetails}}
       description: List of continuous ProjectionDetails items containing projection statuses.
     content.vb: Public Function ListContinuousAsync(userCredentials As UserCredentials = Nothing) As Task(Of List(Of ProjectionDetails))
   overload: EventStore.ClientAPI.Projections.ProjectionsManager.ListContinuousAsync*
@@ -542,12 +500,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.GetStatusAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: GetStatusAsync
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 151
   assemblies:
   - EventStore.ClientAPI
@@ -564,7 +518,7 @@ items:
       type: EventStore.ClientAPI.SystemData.UserCredentials
       description: Credentials for the operation.
     return:
-      type: Task{System.String}
+      type: System.Threading.Tasks.Task{System.String}
       description: String of JSON containing projection status.
     content.vb: Public Function GetStatusAsync(name As String, userCredentials As UserCredentials = Nothing) As Task(Of String)
   overload: EventStore.ClientAPI.Projections.ProjectionsManager.GetStatusAsync*
@@ -584,12 +538,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.GetStateAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: GetStateAsync
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 162
   assemblies:
   - EventStore.ClientAPI
@@ -606,7 +556,7 @@ items:
       type: EventStore.ClientAPI.SystemData.UserCredentials
       description: Credentials for the operation.
     return:
-      type: Task{System.String}
+      type: System.Threading.Tasks.Task{System.String}
       description: String of JSON containing projection state.
     content.vb: Public Function GetStateAsync(name As String, userCredentials As UserCredentials = Nothing) As Task(Of String)
   overload: EventStore.ClientAPI.Projections.ProjectionsManager.GetStateAsync*
@@ -626,12 +576,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.GetPartitionStateAsync(System.String, System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: GetPartitionStateAsync
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 174
   assemblies:
   - EventStore.ClientAPI
@@ -651,7 +597,7 @@ items:
       type: EventStore.ClientAPI.SystemData.UserCredentials
       description: Credentials for the operation.
     return:
-      type: Task{System.String}
+      type: System.Threading.Tasks.Task{System.String}
       description: String of JSON containing projection state.
     content.vb: Public Function GetPartitionStateAsync(name As String, partitionId As String, userCredentials As UserCredentials = Nothing) As Task(Of String)
   overload: EventStore.ClientAPI.Projections.ProjectionsManager.GetPartitionStateAsync*
@@ -671,12 +617,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.GetResultAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: GetResultAsync
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 187
   assemblies:
   - EventStore.ClientAPI
@@ -693,7 +635,7 @@ items:
       type: EventStore.ClientAPI.SystemData.UserCredentials
       description: Credentials for the operation.
     return:
-      type: Task{System.String}
+      type: System.Threading.Tasks.Task{System.String}
       description: String of JSON containing projection state.
     content.vb: Public Function GetResultAsync(name As String, userCredentials As UserCredentials = Nothing) As Task(Of String)
   overload: EventStore.ClientAPI.Projections.ProjectionsManager.GetResultAsync*
@@ -713,12 +655,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.GetPartitionResultAsync(System.String, System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: GetPartitionResultAsync
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 199
   assemblies:
   - EventStore.ClientAPI
@@ -738,7 +676,7 @@ items:
       type: EventStore.ClientAPI.SystemData.UserCredentials
       description: Credentials for the operation.
     return:
-      type: Task{System.String}
+      type: System.Threading.Tasks.Task{System.String}
       description: String of JSON containing projection state.
     content.vb: Public Function GetPartitionResultAsync(name As String, partitionId As String, userCredentials As UserCredentials = Nothing) As Task(Of String)
   overload: EventStore.ClientAPI.Projections.ProjectionsManager.GetPartitionResultAsync*
@@ -758,12 +696,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.GetStatisticsAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: GetStatisticsAsync
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 212
   assemblies:
   - EventStore.ClientAPI
@@ -780,7 +714,7 @@ items:
       type: EventStore.ClientAPI.SystemData.UserCredentials
       description: Credentials for the operation.
     return:
-      type: Task{System.String}
+      type: System.Threading.Tasks.Task{System.String}
       description: String of JSON containing projection statistics.
     content.vb: Public Function GetStatisticsAsync(name As String, userCredentials As UserCredentials = Nothing) As Task(Of String)
   overload: EventStore.ClientAPI.Projections.ProjectionsManager.GetStatisticsAsync*
@@ -800,12 +734,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.GetQueryAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: GetQueryAsync
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 223
   assemblies:
   - EventStore.ClientAPI
@@ -822,7 +752,7 @@ items:
       type: EventStore.ClientAPI.SystemData.UserCredentials
       description: Credentials for the operation.
     return:
-      type: Task{System.String}
+      type: System.Threading.Tasks.Task{System.String}
       description: String of JSON containing query status.
     content.vb: Public Function GetQueryAsync(name As String, userCredentials As UserCredentials = Nothing) As Task(Of String)
   overload: EventStore.ClientAPI.Projections.ProjectionsManager.GetQueryAsync*
@@ -842,12 +772,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.UpdateQueryAsync(System.String, System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: UpdateQueryAsync
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 234
   assemblies:
   - EventStore.ClientAPI
@@ -867,7 +793,7 @@ items:
       type: EventStore.ClientAPI.SystemData.UserCredentials
       description: Credentials for the operation.
     return:
-      type: Task
+      type: System.Threading.Tasks.Task
     content.vb: Public Function UpdateQueryAsync(name As String, query As String, userCredentials As UserCredentials = Nothing) As Task
   overload: EventStore.ClientAPI.Projections.ProjectionsManager.UpdateQueryAsync*
   modifiers.csharp:
@@ -886,12 +812,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.UpdateQueryAsync(System.String, System.String, System.Nullable<System.Boolean>, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: UpdateQueryAsync
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 248
   assemblies:
   - EventStore.ClientAPI
@@ -899,7 +821,7 @@ items:
   summary: "\nAsynchronously updates the definition of a query.\n"
   example: []
   syntax:
-    content: public Task UpdateQueryAsync(string name, string query, bool? emitEnabled = null, UserCredentials userCredentials = null)
+    content: public Task UpdateQueryAsync(string name, string query, bool? emitEnabled = default(bool? ), UserCredentials userCredentials = null)
     parameters:
     - id: name
       type: System.String
@@ -914,7 +836,7 @@ items:
       type: EventStore.ClientAPI.SystemData.UserCredentials
       description: Credentials for the operation.
     return:
-      type: Task
+      type: System.Threading.Tasks.Task
     content.vb: Public Function UpdateQueryAsync(name As String, query As String, emitEnabled As Boolean? = Nothing, userCredentials As UserCredentials = Nothing) As Task
   overload: EventStore.ClientAPI.Projections.ProjectionsManager.UpdateQueryAsync*
   nameWithType.vb: ProjectionsManager.UpdateQueryAsync(String, String, Nullable(Of Boolean), UserCredentials)
@@ -936,12 +858,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.DeleteAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: DeleteAsync
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 263
   assemblies:
   - EventStore.ClientAPI
@@ -958,7 +876,7 @@ items:
       type: EventStore.ClientAPI.SystemData.UserCredentials
       description: Credentials for a user with permission to delete a projection
     return:
-      type: Task
+      type: System.Threading.Tasks.Task
       description: A task representing the operation.
     content.vb: Public Function DeleteAsync(name As String, userCredentials As UserCredentials = Nothing) As Task
   overload: EventStore.ClientAPI.Projections.ProjectionsManager.DeleteAsync*
@@ -978,12 +896,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.DeleteAsync(System.String, System.Boolean, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: DeleteAsync
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 274
   assemblies:
   - EventStore.ClientAPI
@@ -1003,7 +917,7 @@ items:
       type: EventStore.ClientAPI.SystemData.UserCredentials
       description: Credentials for a user with permission to delete a projection
     return:
-      type: Task
+      type: System.Threading.Tasks.Task
       description: A task representing the operation.
     content.vb: Public Function DeleteAsync(name As String, deleteEmittedStreams As Boolean, userCredentials As UserCredentials = Nothing) As Task
   overload: EventStore.ClientAPI.Projections.ProjectionsManager.DeleteAsync*
@@ -1023,12 +937,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.ResetAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ResetAsync
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 285
   assemblies:
   - EventStore.ClientAPI
@@ -1045,7 +955,7 @@ items:
       type: EventStore.ClientAPI.SystemData.UserCredentials
       description: Credentials for a user with permission to delete a projection
     return:
-      type: Task
+      type: System.Threading.Tasks.Task
       description: A task representing the operation.
     content.vb: Public Function ResetAsync(name As String, userCredentials As UserCredentials = Nothing) As Task
   overload: EventStore.ClientAPI.Projections.ProjectionsManager.ResetAsync*
@@ -1065,12 +975,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.GetConfigAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: GetConfigAsync
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 296
   assemblies:
   - EventStore.ClientAPI
@@ -1087,7 +993,7 @@ items:
       type: EventStore.ClientAPI.SystemData.UserCredentials
       description: Credentials for the operation.
     return:
-      type: Task{EventStore.ClientAPI.Projections.ProjectionConfig}
+      type: System.Threading.Tasks.Task{EventStore.ClientAPI.Projections.ProjectionConfig}
       description: String of JSON containing projection config.
     content.vb: Public Function GetConfigAsync(name As String, userCredentials As UserCredentials = Nothing) As Task(Of ProjectionConfig)
   overload: EventStore.ClientAPI.Projections.ProjectionsManager.GetConfigAsync*
@@ -1107,12 +1013,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.UpdateConfigAsync(System.String, EventStore.ClientAPI.Projections.ProjectionConfig, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: UpdateConfigAsync
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 307
   assemblies:
   - EventStore.ClientAPI
@@ -1132,7 +1034,7 @@ items:
       type: EventStore.ClientAPI.SystemData.UserCredentials
       description: Credentials for the operation.
     return:
-      type: Task
+      type: System.Threading.Tasks.Task
     content.vb: Public Function UpdateConfigAsync(name As String, config As ProjectionConfig, userCredentials As UserCredentials = Nothing) As Task
   overload: EventStore.ClientAPI.Projections.ProjectionsManager.UpdateConfigAsync*
   modifiers.csharp:
@@ -1146,10 +1048,297 @@ references:
   nameWithType: EventStore.ClientAPI.Projections
   fullName: EventStore.ClientAPI.Projections
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.ClientAPI.Projections.ProjectionsManager
   commentId: T:EventStore.ClientAPI.Projections.ProjectionsManager
   name: ProjectionsManager
@@ -1166,22 +1355,30 @@ references:
   name: ProjectionsManager
   nameWithType: ProjectionsManager.ProjectionsManager
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.ProjectionsManager
-- uid: EndPoint
+- uid: System.Net.EndPoint
+  commentId: T:System.Net.EndPoint
+  parent: System.Net
   isExternal: true
   name: EndPoint
   nameWithType: EndPoint
-  fullName: EndPoint
-- uid: TimeSpan
+  fullName: System.Net.EndPoint
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
   isExternal: true
   name: TimeSpan
   nameWithType: TimeSpan
-  fullName: TimeSpan
-- uid: HttpMessageHandler
+  fullName: System.TimeSpan
+- uid: System.Net.Http.HttpMessageHandler
+  commentId: T:System.Net.Http.HttpMessageHandler
+  parent: System.Net.Http
   isExternal: true
   name: HttpMessageHandler
   nameWithType: HttpMessageHandler
-  fullName: HttpMessageHandler
+  fullName: System.Net.Http.HttpMessageHandler
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -1191,6 +1388,18 @@ references:
   name: EventStore.ClientAPI
   nameWithType: EventStore.ClientAPI
   fullName: EventStore.ClientAPI
+- uid: System.Net
+  commentId: N:System.Net
+  isExternal: true
+  name: System.Net
+  nameWithType: System.Net
+  fullName: System.Net
+- uid: System.Net.Http
+  commentId: N:System.Net.Http
+  isExternal: true
+  name: System.Net.Http
+  nameWithType: System.Net.Http
+  fullName: System.Net.Http
 - uid: EventStore.ClientAPI.Projections.ProjectionsManager.EnableAsync*
   commentId: Overload:EventStore.ClientAPI.Projections.ProjectionsManager.EnableAsync
   name: EnableAsync
@@ -1202,16 +1411,24 @@ references:
   name: UserCredentials
   nameWithType: UserCredentials
   fullName: EventStore.ClientAPI.SystemData.UserCredentials
-- uid: Task
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
   name: Task
   nameWithType: Task
-  fullName: Task
+  fullName: System.Threading.Tasks.Task
 - uid: EventStore.ClientAPI.SystemData
   commentId: N:EventStore.ClientAPI.SystemData
   name: EventStore.ClientAPI.SystemData
   nameWithType: EventStore.ClientAPI.SystemData
   fullName: EventStore.ClientAPI.SystemData
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
 - uid: EventStore.ClientAPI.Projections.ProjectionsManager.DisableAsync*
   commentId: Overload:EventStore.ClientAPI.Projections.ProjectionsManager.DisableAsync
   name: DisableAsync
@@ -1238,6 +1455,8 @@ references:
   nameWithType: ProjectionsManager.CreateContinuousAsync
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.CreateContinuousAsync
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -1247,28 +1466,29 @@ references:
   name: ListAllAsync
   nameWithType: ProjectionsManager.ListAllAsync
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.ListAllAsync
-- uid: Task{List{EventStore.ClientAPI.Projections.ProjectionDetails}}
-  commentId: '!:Task{List{EventStore.ClientAPI.Projections.ProjectionDetails}}'
-  definition: Task`1
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{EventStore.ClientAPI.Projections.ProjectionDetails}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{EventStore.ClientAPI.Projections.ProjectionDetails}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
   name: Task<List<ProjectionDetails>>
   nameWithType: Task<List<ProjectionDetails>>
-  fullName: Task<List<EventStore.ClientAPI.Projections.ProjectionDetails>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<EventStore.ClientAPI.Projections.ProjectionDetails>>
   nameWithType.vb: Task(Of List(Of ProjectionDetails))
-  fullName.vb: Task(Of List(Of EventStore.ClientAPI.Projections.ProjectionDetails))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of EventStore.ClientAPI.Projections.ProjectionDetails))
   name.vb: Task(Of List(Of ProjectionDetails))
   spec.csharp:
-  - uid: Task`1
+  - uid: System.Threading.Tasks.Task`1
     name: Task
     nameWithType: Task
-    fullName: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - uid: List`1
+  - uid: System.Collections.Generic.List`1
     name: List
     nameWithType: List
-    fullName: List
+    fullName: System.Collections.Generic.List
     isExternal: true
   - name: <
     nameWithType: <
@@ -1284,18 +1504,18 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Task`1
+  - uid: System.Threading.Tasks.Task`1
     name: Task
     nameWithType: Task
-    fullName: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: List`1
+  - uid: System.Collections.Generic.List`1
     name: List
     nameWithType: List
-    fullName: List
+    fullName: System.Collections.Generic.List
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -1310,41 +1530,42 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Task`1
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: Task<>
-  nameWithType: Task<>
-  fullName: Task<>
-  nameWithType.vb: Task(Of )
-  fullName.vb: Task(Of )
-  name.vb: Task(Of )
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
   spec.csharp:
-  - uid: Task`1
+  - uid: System.Threading.Tasks.Task`1
     name: Task
     nameWithType: Task
-    fullName: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Task`1
+  - uid: System.Threading.Tasks.Task`1
     name: Task
     nameWithType: Task
-    fullName: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
   - name: )
     nameWithType: )
     fullName: )
@@ -1363,20 +1584,21 @@ references:
   name: GetStatusAsync
   nameWithType: ProjectionsManager.GetStatusAsync
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.GetStatusAsync
-- uid: Task{System.String}
-  commentId: '!:Task{System.String}'
-  definition: Task`1
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
   name: Task<String>
   nameWithType: Task<String>
-  fullName: Task<System.String>
+  fullName: System.Threading.Tasks.Task<System.String>
   nameWithType.vb: Task(Of String)
-  fullName.vb: Task(Of System.String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
   name.vb: Task(Of String)
   spec.csharp:
-  - uid: Task`1
+  - uid: System.Threading.Tasks.Task`1
     name: Task
     nameWithType: Task
-    fullName: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -1390,10 +1612,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Task`1
+  - uid: System.Threading.Tasks.Task`1
     name: Task
     nameWithType: Task
-    fullName: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -1442,7 +1664,8 @@ references:
   nameWithType: ProjectionsManager.UpdateQueryAsync
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.UpdateQueryAsync
 - uid: System.Nullable{System.Boolean}
-  commentId: '!:System.Nullable{System.Boolean}'
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
   definition: System.Nullable`1
   name: Nullable<Boolean>
   nameWithType: Nullable<Boolean>
@@ -1485,13 +1708,14 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Nullable`1
+  commentId: T:System.Nullable`1
   isExternal: true
-  name: Nullable<>
-  nameWithType: Nullable<>
-  fullName: System.Nullable<>
-  nameWithType.vb: Nullable(Of )
-  fullName.vb: System.Nullable(Of )
-  name.vb: Nullable(Of )
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
@@ -1501,9 +1725,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -1516,9 +1740,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )
@@ -1537,20 +1761,21 @@ references:
   name: GetConfigAsync
   nameWithType: ProjectionsManager.GetConfigAsync
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.GetConfigAsync
-- uid: Task{EventStore.ClientAPI.Projections.ProjectionConfig}
-  commentId: '!:Task{EventStore.ClientAPI.Projections.ProjectionConfig}'
-  definition: Task`1
+- uid: System.Threading.Tasks.Task{EventStore.ClientAPI.Projections.ProjectionConfig}
+  commentId: T:System.Threading.Tasks.Task{EventStore.ClientAPI.Projections.ProjectionConfig}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
   name: Task<ProjectionConfig>
   nameWithType: Task<ProjectionConfig>
-  fullName: Task<EventStore.ClientAPI.Projections.ProjectionConfig>
+  fullName: System.Threading.Tasks.Task<EventStore.ClientAPI.Projections.ProjectionConfig>
   nameWithType.vb: Task(Of ProjectionConfig)
-  fullName.vb: Task(Of EventStore.ClientAPI.Projections.ProjectionConfig)
+  fullName.vb: System.Threading.Tasks.Task(Of EventStore.ClientAPI.Projections.ProjectionConfig)
   name.vb: Task(Of ProjectionConfig)
   spec.csharp:
-  - uid: Task`1
+  - uid: System.Threading.Tasks.Task`1
     name: Task
     nameWithType: Task
-    fullName: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -1563,10 +1788,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Task`1
+  - uid: System.Threading.Tasks.Task`1
     name: Task
     nameWithType: Task
-    fullName: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '

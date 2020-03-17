@@ -17,12 +17,8 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionMode
   type: Enum
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/ProjectionMode.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionMode
-    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionMode.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionMode.cs
     startLine: 1
   assemblies:
   - EventStore.Projections.Core
@@ -50,12 +46,8 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionMode.Transient
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/ProjectionMode.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Transient
-    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionMode.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionMode.cs
     startLine: 2
   assemblies:
   - EventStore.Projections.Core
@@ -83,12 +75,8 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionMode.OneTime
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/ProjectionMode.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: OneTime
-    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionMode.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionMode.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -116,12 +104,8 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionMode.Continuous
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/ProjectionMode.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Continuous
-    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionMode.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionMode.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core
@@ -149,12 +133,8 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionMode.AllNonTransient
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/ProjectionMode.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: AllNonTransient
-    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionMode.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionMode.cs
     startLine: 9
   assemblies:
   - EventStore.Projections.Core

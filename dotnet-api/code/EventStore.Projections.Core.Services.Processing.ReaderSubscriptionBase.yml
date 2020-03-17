@@ -28,12 +28,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ReaderSubscriptionBase
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
     startLine: 7
   assemblies:
   - EventStore.Projections.Core
@@ -67,12 +63,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase._eventFilter
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: _eventFilter
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
     startLine: 15
   assemblies:
   - EventStore.Projections.Core
@@ -100,12 +92,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase._positionTagger
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: _positionTagger
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
     startLine: 16
   assemblies:
   - EventStore.Projections.Core
@@ -133,12 +121,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase._positionTracker
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: _positionTracker
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
     startLine: 17
   assemblies:
   - EventStore.Projections.Core
@@ -166,12 +150,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase._tag
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: _tag
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
     startLine: 24
   assemblies:
   - EventStore.Projections.Core
@@ -197,12 +177,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase.ReaderSubscriptionBase(EventStore.Core.Bus.IPublisher, Guid, EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Services.Processing.IReaderStrategy, EventStore.Core.Services.TimerService.ITimeProvider, System.Nullable<System.Int64>, System.Nullable<System.Int32>, System.Int32, System.Boolean, System.Nullable<System.Int32>)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
     startLine: 29
   assemblies:
   - EventStore.Projections.Core
@@ -251,12 +227,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase.Tag
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Tag
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
     startLine: 64
   assemblies:
   - EventStore.Projections.Core
@@ -286,12 +258,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase.SubscriptionId
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: SubscriptionId
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
     startLine: 68
   assemblies:
   - EventStore.Projections.Core
@@ -321,12 +289,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase.ProcessOne(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.CommittedEventDistributed)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ProcessOne
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
     startLine: 72
   assemblies:
   - EventStore.Projections.Core
@@ -354,12 +318,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase.PublishPartitionDeleted(System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: PublishPartitionDeleted
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
     startLine: 160
   assemblies:
   - EventStore.Projections.Core
@@ -389,12 +349,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase.CreatePausedEventReader(EventStore.Core.Bus.IPublisher, EventStore.Core.Helpers.IODispatcher, Guid)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: CreatePausedEventReader
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
     startLine: 183
   assemblies:
   - EventStore.Projections.Core
@@ -428,12 +384,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderEof)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
     startLine: 192
   assemblies:
   - EventStore.Projections.Core
@@ -461,12 +413,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionEof)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
     startLine: 212
   assemblies:
   - EventStore.Projections.Core
@@ -494,12 +442,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderNotAuthorized)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
     startLine: 224
   assemblies:
   - EventStore.Projections.Core
@@ -527,12 +471,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderStarting)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
     startLine: 236
   assemblies:
   - EventStore.Projections.Core
@@ -560,12 +500,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderSubscriptionBase.EofReached()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EofReached
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscriptionBase.cs
     startLine: 240
   assemblies:
   - EventStore.Projections.Core
@@ -587,10 +523,18 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.EventFilter
   commentId: T:EventStore.Projections.Core.Services.Processing.EventFilter
   parent: EventStore.Projections.Core.Services.Processing
@@ -610,6 +554,8 @@ references:
   nameWithType: PositionTracker
   fullName: EventStore.Projections.Core.Services.Processing.PositionTracker
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -649,7 +595,8 @@ references:
   nameWithType: ITimeProvider
   fullName: EventStore.Core.Services.TimerService.ITimeProvider
 - uid: System.Nullable{System.Int64}
-  commentId: '!:System.Nullable{System.Int64}'
+  commentId: T:System.Nullable{System.Int64}
+  parent: System
   definition: System.Nullable`1
   name: Nullable<Int64>
   nameWithType: Nullable<Int64>
@@ -692,7 +639,8 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Nullable{System.Int32}
-  commentId: '!:System.Nullable{System.Int32}'
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
   definition: System.Nullable`1
   name: Nullable<Int32>
   nameWithType: Nullable<Int32>
@@ -735,11 +683,15 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -755,13 +707,14 @@ references:
   nameWithType: EventStore.Core.Services.TimerService
   fullName: EventStore.Core.Services.TimerService
 - uid: System.Nullable`1
+  commentId: T:System.Nullable`1
   isExternal: true
-  name: Nullable<>
-  nameWithType: Nullable<>
-  fullName: System.Nullable<>
-  nameWithType.vb: Nullable(Of )
-  fullName.vb: System.Nullable(Of )
-  name.vb: Nullable(Of )
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
@@ -771,9 +724,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -786,9 +739,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )

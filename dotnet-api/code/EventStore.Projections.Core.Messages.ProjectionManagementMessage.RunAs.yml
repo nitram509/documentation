@@ -5,11 +5,11 @@ items:
   id: ProjectionManagementMessage.RunAs
   parent: EventStore.Projections.Core.Messages
   children:
-  - EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.#ctor(ClaimsPrincipal)
+  - EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.#ctor(IPrincipal)
   - EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.Anonymous
   - EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.Principal
   - EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.System
-  - EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.ValidateRunAs(EventStore.Projections.Core.Services.ProjectionMode,EventStore.Projections.Core.Services.ReadWrite,ClaimsPrincipal,EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.ControlMessage,System.Boolean)
+  - EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.ValidateRunAs(EventStore.Projections.Core.Services.ProjectionMode,EventStore.Projections.Core.Services.ReadWrite,IPrincipal,EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.ControlMessage,System.Boolean)
   langs:
   - csharp
   - vb
@@ -18,13 +18,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: RunAs
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 628
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 627
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -44,34 +40,30 @@ items:
   - Public
   - NotInheritable
   - Class
-- uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.#ctor(ClaimsPrincipal)
-  commentId: M:EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.#ctor(ClaimsPrincipal)
-  id: '#ctor(ClaimsPrincipal)'
+- uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.#ctor(IPrincipal)
+  commentId: M:EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.#ctor(IPrincipal)
+  id: '#ctor(IPrincipal)'
   parent: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs
   langs:
   - csharp
   - vb
-  name: RunAs(ClaimsPrincipal)
-  nameWithType: ProjectionManagementMessage.RunAs.RunAs(ClaimsPrincipal)
-  fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.RunAs(ClaimsPrincipal)
+  name: RunAs(IPrincipal)
+  nameWithType: ProjectionManagementMessage.RunAs.RunAs(IPrincipal)
+  fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.RunAs(IPrincipal)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 631
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 630
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
   syntax:
-    content: public RunAs(ClaimsPrincipal runAs)
+    content: public RunAs(IPrincipal runAs)
     parameters:
     - id: runAs
-      type: ClaimsPrincipal
-    content.vb: Public Sub New(runAs As ClaimsPrincipal)
+      type: IPrincipal
+    content.vb: Public Sub New(runAs As IPrincipal)
   overload: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.#ctor*
   modifiers.csharp:
   - public
@@ -89,13 +81,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.Anonymous
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Anonymous
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 638
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 637
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -126,13 +114,9 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.System
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: System
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 642
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 641
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
@@ -163,22 +147,18 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.Principal
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Principal
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 646
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 645
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
   syntax:
-    content: public ClaimsPrincipal Principal { get; }
+    content: public IPrincipal Principal { get; }
     parameters: []
     return:
-      type: ClaimsPrincipal
-    content.vb: Public ReadOnly Property Principal As ClaimsPrincipal
+      type: IPrincipal
+    content.vb: Public ReadOnly Property Principal As IPrincipal
   overload: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.Principal*
   modifiers.csharp:
   - public
@@ -186,44 +166,40 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.ValidateRunAs(EventStore.Projections.Core.Services.ProjectionMode,EventStore.Projections.Core.Services.ReadWrite,ClaimsPrincipal,EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.ControlMessage,System.Boolean)
-  commentId: M:EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.ValidateRunAs(EventStore.Projections.Core.Services.ProjectionMode,EventStore.Projections.Core.Services.ReadWrite,ClaimsPrincipal,EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.ControlMessage,System.Boolean)
-  id: ValidateRunAs(EventStore.Projections.Core.Services.ProjectionMode,EventStore.Projections.Core.Services.ReadWrite,ClaimsPrincipal,EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.ControlMessage,System.Boolean)
+- uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.ValidateRunAs(EventStore.Projections.Core.Services.ProjectionMode,EventStore.Projections.Core.Services.ReadWrite,IPrincipal,EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.ControlMessage,System.Boolean)
+  commentId: M:EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.ValidateRunAs(EventStore.Projections.Core.Services.ProjectionMode,EventStore.Projections.Core.Services.ReadWrite,IPrincipal,EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.ControlMessage,System.Boolean)
+  id: ValidateRunAs(EventStore.Projections.Core.Services.ProjectionMode,EventStore.Projections.Core.Services.ReadWrite,IPrincipal,EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.ControlMessage,System.Boolean)
   parent: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs
   langs:
   - csharp
   - vb
-  name: ValidateRunAs(ProjectionMode, ReadWrite, ClaimsPrincipal, ProjectionManagementMessage.Command.ControlMessage, Boolean)
-  nameWithType: ProjectionManagementMessage.RunAs.ValidateRunAs(ProjectionMode, ReadWrite, ClaimsPrincipal, ProjectionManagementMessage.Command.ControlMessage, Boolean)
-  fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.ValidateRunAs(EventStore.Projections.Core.Services.ProjectionMode, EventStore.Projections.Core.Services.ReadWrite, ClaimsPrincipal, EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.ControlMessage, System.Boolean)
+  name: ValidateRunAs(ProjectionMode, ReadWrite, IPrincipal, ProjectionManagementMessage.Command.ControlMessage, Boolean)
+  nameWithType: ProjectionManagementMessage.RunAs.ValidateRunAs(ProjectionMode, ReadWrite, IPrincipal, ProjectionManagementMessage.Command.ControlMessage, Boolean)
+  fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.ValidateRunAs(EventStore.Projections.Core.Services.ProjectionMode, EventStore.Projections.Core.Services.ReadWrite, IPrincipal, EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.ControlMessage, System.Boolean)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ValidateRunAs
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
-    startLine: 650
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionManagementMessage.cs
+    startLine: 649
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Messages
   syntax:
-    content: public static bool ValidateRunAs(ProjectionMode mode, ReadWrite readWrite, ClaimsPrincipal existingRunAs, ProjectionManagementMessage.Command.ControlMessage message, bool replace = false)
+    content: public static bool ValidateRunAs(ProjectionMode mode, ReadWrite readWrite, IPrincipal existingRunAs, ProjectionManagementMessage.Command.ControlMessage message, bool replace = false)
     parameters:
     - id: mode
       type: EventStore.Projections.Core.Services.ProjectionMode
     - id: readWrite
       type: EventStore.Projections.Core.Services.ReadWrite
     - id: existingRunAs
-      type: ClaimsPrincipal
+      type: IPrincipal
     - id: message
       type: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.ControlMessage
     - id: replace
       type: System.Boolean
     return:
       type: System.Boolean
-    content.vb: Public Shared Function ValidateRunAs(mode As ProjectionMode, readWrite As ReadWrite, existingRunAs As ClaimsPrincipal, message As ProjectionManagementMessage.Command.ControlMessage, replace As Boolean = False) As Boolean
+    content.vb: Public Shared Function ValidateRunAs(mode As ProjectionMode, readWrite As ReadWrite, existingRunAs As IPrincipal, message As ProjectionManagementMessage.Command.ControlMessage, replace As Boolean = False) As Boolean
   overload: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.ValidateRunAs*
   modifiers.csharp:
   - public
@@ -238,20 +214,28 @@ references:
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.#ctor*
   commentId: Overload:EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.#ctor
   name: RunAs
   nameWithType: ProjectionManagementMessage.RunAs.RunAs
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.RunAs
-- uid: ClaimsPrincipal
+- uid: IPrincipal
   isExternal: true
-  name: ClaimsPrincipal
-  nameWithType: ClaimsPrincipal
-  fullName: ClaimsPrincipal
+  name: IPrincipal
+  nameWithType: IPrincipal
+  fullName: IPrincipal
 - uid: EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.Anonymous*
   commentId: Overload:EventStore.Projections.Core.Messages.ProjectionManagementMessage.RunAs.Anonymous
   name: Anonymous
@@ -297,6 +281,8 @@ references:
   nameWithType: ProjectionManagementMessage.Command.ControlMessage
   fullName: EventStore.Projections.Core.Messages.ProjectionManagementMessage.Command.ControlMessage
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

@@ -5,7 +5,7 @@ items:
   id: ProjectionDetails
   parent: EventStore.ClientAPI.Projections
   children:
-  - EventStore.ClientAPI.Projections.ProjectionDetails.#ctor(System.Int64,System.Int64,System.Int64,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Single,System.String,System.Int64,Uri,Uri,Uri,Uri,Uri,Uri,System.String,System.Int64,System.Int32,System.Int32)
+  - EventStore.ClientAPI.Projections.ProjectionDetails.#ctor(System.Int64,System.Int64,System.Int64,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Single,System.String,System.Int64,System.Uri,System.Uri,System.Uri,System.Uri,System.Uri,System.Uri,System.String,System.Int64,System.Int32,System.Int32)
   - EventStore.ClientAPI.Projections.ProjectionDetails.BufferedEvents
   - EventStore.ClientAPI.Projections.ProjectionDetails.CheckpointStatus
   - EventStore.ClientAPI.Projections.ProjectionDetails.CoreProcessingTime
@@ -39,12 +39,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails
   type: Class
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionDetails
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 6
   assemblies:
   - EventStore.ClientAPI
@@ -52,12 +48,18 @@ items:
   summary: "\nProvides the details for a projection.\n"
   example: []
   syntax:
-    content: 'public sealed class ProjectionDetails : object'
-    content.vb: >-
-      Public NotInheritable Class ProjectionDetails
-          Inherits Object
+    content: public sealed class ProjectionDetails
+    content.vb: Public NotInheritable Class ProjectionDetails
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
   modifiers.csharp:
   - public
   - sealed
@@ -78,12 +80,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.CoreProcessingTime
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: CoreProcessingTime
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 10
   assemblies:
   - EventStore.ClientAPI
@@ -113,12 +111,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.Version
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Version
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 15
   assemblies:
   - EventStore.ClientAPI
@@ -148,12 +142,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.Epoch
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Epoch
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 20
   assemblies:
   - EventStore.ClientAPI
@@ -183,12 +173,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.EffectiveName
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EffectiveName
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 25
   assemblies:
   - EventStore.ClientAPI
@@ -218,12 +204,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.WritesInProgress
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: WritesInProgress
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 30
   assemblies:
   - EventStore.ClientAPI
@@ -253,12 +235,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.ReadsInProgress
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ReadsInProgress
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 35
   assemblies:
   - EventStore.ClientAPI
@@ -288,12 +266,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.PartitionsCached
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: PartitionsCached
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 40
   assemblies:
   - EventStore.ClientAPI
@@ -323,12 +297,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.Status
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Status
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 45
   assemblies:
   - EventStore.ClientAPI
@@ -358,12 +328,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.StateReason
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: StateReason
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 50
   assemblies:
   - EventStore.ClientAPI
@@ -393,12 +359,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.Name
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Name
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 55
   assemblies:
   - EventStore.ClientAPI
@@ -428,12 +390,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.Mode
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Mode
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 60
   assemblies:
   - EventStore.ClientAPI
@@ -463,12 +421,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.Position
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Position
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 65
   assemblies:
   - EventStore.ClientAPI
@@ -498,12 +452,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.Progress
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Progress
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 70
   assemblies:
   - EventStore.ClientAPI
@@ -533,12 +483,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.LastCheckpoint
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: LastCheckpoint
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 75
   assemblies:
   - EventStore.ClientAPI
@@ -568,12 +514,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.EventsProcessedAfterRestart
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EventsProcessedAfterRestart
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 80
   assemblies:
   - EventStore.ClientAPI
@@ -603,12 +545,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.StatusUrl
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: StatusUrl
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 85
   assemblies:
   - EventStore.ClientAPI
@@ -618,7 +556,7 @@ items:
   syntax:
     content: public readonly Uri StatusUrl
     return:
-      type: Uri
+      type: System.Uri
     content.vb: Public ReadOnly StatusUrl As Uri
   modifiers.csharp:
   - public
@@ -638,12 +576,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.StateUrl
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: StateUrl
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 90
   assemblies:
   - EventStore.ClientAPI
@@ -653,7 +587,7 @@ items:
   syntax:
     content: public readonly Uri StateUrl
     return:
-      type: Uri
+      type: System.Uri
     content.vb: Public ReadOnly StateUrl As Uri
   modifiers.csharp:
   - public
@@ -673,12 +607,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.ResultUrl
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ResultUrl
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 95
   assemblies:
   - EventStore.ClientAPI
@@ -688,7 +618,7 @@ items:
   syntax:
     content: public readonly Uri ResultUrl
     return:
-      type: Uri
+      type: System.Uri
     content.vb: Public ReadOnly ResultUrl As Uri
   modifiers.csharp:
   - public
@@ -708,12 +638,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.QueryUrl
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: QueryUrl
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 100
   assemblies:
   - EventStore.ClientAPI
@@ -723,7 +649,7 @@ items:
   syntax:
     content: public readonly Uri QueryUrl
     return:
-      type: Uri
+      type: System.Uri
     content.vb: Public ReadOnly QueryUrl As Uri
   modifiers.csharp:
   - public
@@ -743,12 +669,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.EnableCommandUrl
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EnableCommandUrl
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 105
   assemblies:
   - EventStore.ClientAPI
@@ -758,7 +680,7 @@ items:
   syntax:
     content: public readonly Uri EnableCommandUrl
     return:
-      type: Uri
+      type: System.Uri
     content.vb: Public ReadOnly EnableCommandUrl As Uri
   modifiers.csharp:
   - public
@@ -778,12 +700,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.DisableCommandUrl
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: DisableCommandUrl
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 110
   assemblies:
   - EventStore.ClientAPI
@@ -793,7 +711,7 @@ items:
   syntax:
     content: public readonly Uri DisableCommandUrl
     return:
-      type: Uri
+      type: System.Uri
     content.vb: Public ReadOnly DisableCommandUrl As Uri
   modifiers.csharp:
   - public
@@ -813,12 +731,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.CheckpointStatus
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: CheckpointStatus
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 115
   assemblies:
   - EventStore.ClientAPI
@@ -848,12 +762,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.BufferedEvents
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: BufferedEvents
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 120
   assemblies:
   - EventStore.ClientAPI
@@ -883,12 +793,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.WritePendingEventsBeforeCheckpoint
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: WritePendingEventsBeforeCheckpoint
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 125
   assemblies:
   - EventStore.ClientAPI
@@ -918,12 +824,8 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.WritePendingEventsAfterCheckpoint
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: WritePendingEventsAfterCheckpoint
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 130
   assemblies:
   - EventStore.ClientAPI
@@ -941,24 +843,20 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: EventStore.ClientAPI.Projections.ProjectionDetails.#ctor(System.Int64,System.Int64,System.Int64,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Single,System.String,System.Int64,Uri,Uri,Uri,Uri,Uri,Uri,System.String,System.Int64,System.Int32,System.Int32)
-  commentId: M:EventStore.ClientAPI.Projections.ProjectionDetails.#ctor(System.Int64,System.Int64,System.Int64,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Single,System.String,System.Int64,Uri,Uri,Uri,Uri,Uri,Uri,System.String,System.Int64,System.Int32,System.Int32)
-  id: '#ctor(System.Int64,System.Int64,System.Int64,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Single,System.String,System.Int64,Uri,Uri,Uri,Uri,Uri,Uri,System.String,System.Int64,System.Int32,System.Int32)'
+- uid: EventStore.ClientAPI.Projections.ProjectionDetails.#ctor(System.Int64,System.Int64,System.Int64,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Single,System.String,System.Int64,System.Uri,System.Uri,System.Uri,System.Uri,System.Uri,System.Uri,System.String,System.Int64,System.Int32,System.Int32)
+  commentId: M:EventStore.ClientAPI.Projections.ProjectionDetails.#ctor(System.Int64,System.Int64,System.Int64,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Single,System.String,System.Int64,System.Uri,System.Uri,System.Uri,System.Uri,System.Uri,System.Uri,System.String,System.Int64,System.Int32,System.Int32)
+  id: '#ctor(System.Int64,System.Int64,System.Int64,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Single,System.String,System.Int64,System.Uri,System.Uri,System.Uri,System.Uri,System.Uri,System.Uri,System.String,System.Int64,System.Int32,System.Int32)'
   parent: EventStore.ClientAPI.Projections.ProjectionDetails
   langs:
   - csharp
   - vb
   name: ProjectionDetails(Int64, Int64, Int64, String, Int32, Int32, Int32, String, String, String, String, String, Single, String, Int64, Uri, Uri, Uri, Uri, Uri, Uri, String, Int64, Int32, Int32)
   nameWithType: ProjectionDetails.ProjectionDetails(Int64, Int64, Int64, String, Int32, Int32, Int32, String, String, String, String, String, Single, String, Int64, Uri, Uri, Uri, Uri, Uri, Uri, String, Int64, Int32, Int32)
-  fullName: EventStore.ClientAPI.Projections.ProjectionDetails.ProjectionDetails(System.Int64, System.Int64, System.Int64, System.String, System.Int32, System.Int32, System.Int32, System.String, System.String, System.String, System.String, System.String, System.Single, System.String, System.Int64, Uri, Uri, Uri, Uri, Uri, Uri, System.String, System.Int64, System.Int32, System.Int32)
+  fullName: EventStore.ClientAPI.Projections.ProjectionDetails.ProjectionDetails(System.Int64, System.Int64, System.Int64, System.String, System.Int32, System.Int32, System.Int32, System.String, System.String, System.String, System.String, System.String, System.Single, System.String, System.Int64, System.Uri, System.Uri, System.Uri, System.Uri, System.Uri, System.Uri, System.String, System.Int64, System.Int32, System.Int32)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 160
   assemblies:
   - EventStore.ClientAPI
@@ -1014,22 +912,22 @@ items:
       type: System.Int64
       description: ''
     - id: statusUrl
-      type: Uri
+      type: System.Uri
       description: ''
     - id: stateUrl
-      type: Uri
+      type: System.Uri
       description: ''
     - id: resultUrl
-      type: Uri
+      type: System.Uri
       description: ''
     - id: queryUrl
-      type: Uri
+      type: System.Uri
       description: ''
     - id: enableCommandUrl
-      type: Uri
+      type: System.Uri
       description: ''
     - id: disableCommandUrl
-      type: Uri
+      type: System.Uri
       description: ''
     - id: checkpointStatus
       type: System.String
@@ -1056,35 +954,332 @@ references:
   nameWithType: EventStore.ClientAPI.Projections
   fullName: EventStore.ClientAPI.Projections
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
 - uid: System.Single
+  commentId: T:System.Single
+  parent: System
   isExternal: true
   name: Single
   nameWithType: Single
   fullName: System.Single
-- uid: Uri
+- uid: System.Uri
+  commentId: T:System.Uri
+  parent: System
   isExternal: true
   name: Uri
   nameWithType: Uri
-  fullName: Uri
+  fullName: System.Uri
 - uid: EventStore.ClientAPI.Projections.ProjectionDetails
   commentId: T:EventStore.ClientAPI.Projections.ProjectionDetails
   name: ProjectionDetails

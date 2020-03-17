@@ -16,12 +16,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionsController
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionsController
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
     startLine: 23
   assemblies:
   - EventStore.Projections.Core
@@ -67,12 +63,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionsController.ProjectionsController(EventStore.Core.Services.Transport.Http.IHttpForwarder, EventStore.Core.Bus.IPublisher, EventStore.Core.Bus.IPublisher)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
     startLine: 33
   assemblies:
   - EventStore.Projections.Core
@@ -104,12 +96,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionsController.SubscribeCore(EventStore.Core.Services.Transport.Http.IHttpService)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: SubscribeCore
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
     startLine: 43
   assemblies:
   - EventStore.Projections.Core
@@ -140,12 +128,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionsController.EatException<T>(Func<T>, T)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EatException
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
     startLine: 618
   assemblies:
   - EventStore.Projections.Core
@@ -179,6 +163,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Http
   fullName: EventStore.Projections.Core.Services.Http
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -933,6 +919,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Services.Transport.Http.Controllers
   commentId: N:EventStore.Core.Services.Transport.Http.Controllers
   name: EventStore.Core.Services.Transport.Http.Controllers
@@ -1063,6 +1055,7 @@ references:
   nameWithType: T
   fullName: T
 - uid: Func`1
+  commentId: '!:Func`1'
   isExternal: true
   name: Func<>
   nameWithType: Func<>

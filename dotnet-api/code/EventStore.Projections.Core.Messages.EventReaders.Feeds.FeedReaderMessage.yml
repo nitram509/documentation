@@ -13,12 +13,8 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaders.Feeds.FeedReaderMessage
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/EventReaders/Feeds/FeedReaderMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: FeedReaderMessage
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaders/Feeds/FeedReaderMessage.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaders/Feeds/FeedReaderMessage.cs
     startLine: 7
   assemblies:
   - EventStore.Projections.Core
@@ -45,7 +41,15 @@ references:
   nameWithType: EventStore.Projections.Core.Messages.EventReaders.Feeds
   fullName: EventStore.Projections.Core.Messages.EventReaders.Feeds
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

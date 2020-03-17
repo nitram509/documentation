@@ -15,12 +15,8 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaders.Feeds.FeedReaderMessage.FeedPage.ErrorStatus
   type: Enum
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/EventReaders/Feeds/FeedReaderMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ErrorStatus
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaders/Feeds/FeedReaderMessage.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaders/Feeds/FeedReaderMessage.cs
     startLine: 51
   assemblies:
   - EventStore.Projections.Core
@@ -48,12 +44,8 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaders.Feeds.FeedReaderMessage.FeedPage.ErrorStatus.Success
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/EventReaders/Feeds/FeedReaderMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Success
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaders/Feeds/FeedReaderMessage.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaders/Feeds/FeedReaderMessage.cs
     startLine: 52
   assemblies:
   - EventStore.Projections.Core
@@ -80,12 +72,8 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaders.Feeds.FeedReaderMessage.FeedPage.ErrorStatus.NotAuthorized
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Messages/EventReaders/Feeds/FeedReaderMessage.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: NotAuthorized
-    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaders/Feeds/FeedReaderMessage.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaders/Feeds/FeedReaderMessage.cs
     startLine: 53
   assemblies:
   - EventStore.Projections.Core

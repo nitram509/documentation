@@ -16,12 +16,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IProjectionPhaseStateManager
   type: Interface
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: IProjectionPhaseStateManager
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
     startLine: 13
   assemblies:
   - EventStore.Projections.Core
@@ -47,12 +43,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IProjectionPhaseStateManager.BeginGetPartitionStateAt(System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag, Action<EventStore.Projections.Core.Services.Processing.PartitionState>, System.Boolean)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: BeginGetPartitionStateAt
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
     startLine: 14
   assemblies:
   - EventStore.Projections.Core
@@ -85,12 +77,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IProjectionPhaseStateManager.UnlockAndForgetBefore(EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: UnlockAndForgetBefore
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
     startLine: 18
   assemblies:
   - EventStore.Projections.Core
@@ -114,12 +102,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IProjectionPhaseStateManager.LastProcessedEventPosition
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: LastProcessedEventPosition
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
     startLine: 20
   assemblies:
   - EventStore.Projections.Core
@@ -147,6 +131,8 @@ references:
   nameWithType: IProjectionPhaseStateManager.BeginGetPartitionStateAt
   fullName: EventStore.Projections.Core.Services.Processing.IProjectionPhaseStateManager.BeginGetPartitionStateAt
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -199,10 +185,18 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Action`1
   isExternal: true
   name: Action<>

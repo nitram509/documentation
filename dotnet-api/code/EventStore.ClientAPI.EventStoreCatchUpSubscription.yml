@@ -5,12 +5,12 @@ items:
   id: EventStoreCatchUpSubscription
   parent: EventStore.ClientAPI
   children:
-  - EventStore.ClientAPI.EventStoreCatchUpSubscription.#ctor(EventStore.ClientAPI.IEventStoreConnection,EventStore.ClientAPI.ILogger,System.String,EventStore.ClientAPI.SystemData.UserCredentials,Func{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.ResolvedEvent,Task},Action{EventStore.ClientAPI.EventStoreCatchUpSubscription},Action{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.SubscriptionDropReason,Exception},EventStore.ClientAPI.CatchUpSubscriptionSettings)
+  - EventStore.ClientAPI.EventStoreCatchUpSubscription.#ctor(EventStore.ClientAPI.IEventStoreConnection,EventStore.ClientAPI.ILogger,System.String,EventStore.ClientAPI.SystemData.UserCredentials,System.Func{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.ResolvedEvent,System.Threading.Tasks.Task},System.Action{EventStore.ClientAPI.EventStoreCatchUpSubscription},System.Action{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.SubscriptionDropReason,System.Exception},EventStore.ClientAPI.CatchUpSubscriptionSettings)
   - EventStore.ClientAPI.EventStoreCatchUpSubscription.AllowProcessing
   - EventStore.ClientAPI.EventStoreCatchUpSubscription.Connection
-  - EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction(Func{Task})
+  - EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction(System.Func{System.Threading.Tasks.Task})
   - EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueuePushedEvent(EventStore.ClientAPI.EventStoreSubscription,EventStore.ClientAPI.ResolvedEvent)
-  - EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification(EventStore.ClientAPI.SubscriptionDropReason,Exception)
+  - EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification(EventStore.ClientAPI.SubscriptionDropReason,System.Exception)
   - EventStore.ClientAPI.EventStoreCatchUpSubscription.EnsureProcessingPushQueue
   - EventStore.ClientAPI.EventStoreCatchUpSubscription.EventAppeared
   - EventStore.ClientAPI.EventStoreCatchUpSubscription.IsSubscribedToAll
@@ -21,10 +21,10 @@ items:
   - EventStore.ClientAPI.EventStoreCatchUpSubscription.ReadEventsTillAsync(EventStore.ClientAPI.IEventStoreConnection,System.Boolean,EventStore.ClientAPI.SystemData.UserCredentials,System.Nullable{System.Int64},System.Nullable{System.Int64})
   - EventStore.ClientAPI.EventStoreCatchUpSubscription.ReadMissedHistoricEventsAsync
   - EventStore.ClientAPI.EventStoreCatchUpSubscription.ResolveLinkTos
-  - EventStore.ClientAPI.EventStoreCatchUpSubscription.ServerSubscriptionDropped(EventStore.ClientAPI.EventStoreSubscription,EventStore.ClientAPI.SubscriptionDropReason,Exception)
+  - EventStore.ClientAPI.EventStoreCatchUpSubscription.ServerSubscriptionDropped(EventStore.ClientAPI.EventStoreSubscription,EventStore.ClientAPI.SubscriptionDropReason,System.Exception)
   - EventStore.ClientAPI.EventStoreCatchUpSubscription.ShouldStop
   - EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop
-  - EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop(TimeSpan)
+  - EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop(System.TimeSpan)
   - EventStore.ClientAPI.EventStoreCatchUpSubscription.StreamId
   - EventStore.ClientAPI.EventStoreCatchUpSubscription.SubscribeToStreamAsync
   - EventStore.ClientAPI.EventStoreCatchUpSubscription.Subscription
@@ -40,12 +40,8 @@ items:
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription
   type: Class
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EventStoreCatchUpSubscription
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 15
   assemblies:
   - EventStore.ClientAPI
@@ -53,16 +49,22 @@ items:
   summary: "\nBase class representing catch-up subscriptions.\n"
   example: []
   syntax:
-    content: 'public abstract class EventStoreCatchUpSubscription : object'
-    content.vb: >-
-      Public MustInherit Class EventStoreCatchUpSubscription
-          Inherits Object
+    content: public abstract class EventStoreCatchUpSubscription
+    content.vb: Public MustInherit Class EventStoreCatchUpSubscription
   inheritance:
   - System.Object
   derivedClasses:
   - EventStore.ClientAPI.EventStoreAllCatchUpSubscription
   - EventStore.ClientAPI.EventStoreAllFilteredCatchUpSubscription
   - EventStore.ClientAPI.EventStoreStreamCatchUpSubscription
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
   modifiers.csharp:
   - public
   - abstract
@@ -83,12 +85,8 @@ items:
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.IsSubscribedToAll
   type: Property
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: IsSubscribedToAll
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 20
   assemblies:
   - EventStore.ClientAPI
@@ -120,12 +118,8 @@ items:
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.StreamId
   type: Property
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: StreamId
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 26
   assemblies:
   - EventStore.ClientAPI
@@ -157,12 +151,8 @@ items:
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.SubscriptionName
   type: Property
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: SubscriptionName
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 31
   assemblies:
   - EventStore.ClientAPI
@@ -194,12 +184,8 @@ items:
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.Log
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Log
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 36
   assemblies:
   - EventStore.ClientAPI
@@ -229,12 +215,8 @@ items:
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.Connection
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Connection
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 41
   assemblies:
   - EventStore.ClientAPI
@@ -264,12 +246,8 @@ items:
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.ResolveLinkTos
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ResolveLinkTos
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 45
   assemblies:
   - EventStore.ClientAPI
@@ -299,12 +277,8 @@ items:
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.UserCredentials
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: UserCredentials
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 49
   assemblies:
   - EventStore.ClientAPI
@@ -334,12 +308,8 @@ items:
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.ReadBatchSize
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ReadBatchSize
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 54
   assemblies:
   - EventStore.ClientAPI
@@ -369,12 +339,8 @@ items:
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.MaxPushQueueSize
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: MaxPushQueueSize
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 59
   assemblies:
   - EventStore.ClientAPI
@@ -404,12 +370,8 @@ items:
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.EventAppeared
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EventAppeared
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 64
   assemblies:
   - EventStore.ClientAPI
@@ -419,7 +381,7 @@ items:
   syntax:
     content: protected readonly Func<EventStoreCatchUpSubscription, ResolvedEvent, Task> EventAppeared
     return:
-      type: Func{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.ResolvedEvent,Task}
+      type: System.Func{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.ResolvedEvent,System.Threading.Tasks.Task}
     content.vb: Protected ReadOnly EventAppeared As Func(Of EventStoreCatchUpSubscription, ResolvedEvent, Task)
   modifiers.csharp:
   - protected
@@ -439,12 +401,8 @@ items:
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.Verbose
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Verbose
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 72
   assemblies:
   - EventStore.ClientAPI
@@ -474,12 +432,8 @@ items:
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.Subscription
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Subscription
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 78
   assemblies:
   - EventStore.ClientAPI
@@ -507,12 +461,8 @@ items:
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.AllowProcessing
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: AllowProcessing
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 83
   assemblies:
   - EventStore.ClientAPI
@@ -541,12 +491,8 @@ items:
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.ShouldStop
   type: Field
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ShouldStop
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 89
   assemblies:
   - EventStore.ClientAPI
@@ -575,12 +521,8 @@ items:
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.ReadEventsTillAsync(EventStore.ClientAPI.IEventStoreConnection, System.Boolean, EventStore.ClientAPI.SystemData.UserCredentials, System.Nullable<System.Int64>, System.Nullable<System.Int64>)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ReadEventsTillAsync
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 103
   assemblies:
   - EventStore.ClientAPI
@@ -606,7 +548,7 @@ items:
       type: System.Nullable{System.Int64}
       description: The event number to read until.
     return:
-      type: Task{EventStore.ClientAPI.Position}
+      type: System.Threading.Tasks.Task{EventStore.ClientAPI.Position}
       description: ''
     content.vb: Protected MustOverride Function ReadEventsTillAsync(connection As IEventStoreConnection, resolveLinkTos As Boolean, userCredentials As UserCredentials, lastCommitPosition As Long?, lastEventNumber As Long?) As Task(Of Position)
   overload: EventStore.ClientAPI.EventStoreCatchUpSubscription.ReadEventsTillAsync*
@@ -631,12 +573,8 @@ items:
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.TryProcessAsync(EventStore.ClientAPI.ResolvedEvent)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: TryProcessAsync
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 113
   assemblies:
   - EventStore.ClientAPI
@@ -650,7 +588,7 @@ items:
       type: EventStore.ClientAPI.ResolvedEvent
       description: The <xref href="EventStore.ClientAPI.ResolvedEvent" data-throw-if-not-resolved="false"></xref> to process.
     return:
-      type: Task
+      type: System.Threading.Tasks.Task
     content.vb: Protected MustOverride Function TryProcessAsync(e As ResolvedEvent) As Task
   overload: EventStore.ClientAPI.EventStoreCatchUpSubscription.TryProcessAsync*
   modifiers.csharp:
@@ -659,24 +597,20 @@ items:
   modifiers.vb:
   - Protected
   - MustOverride
-- uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.#ctor(EventStore.ClientAPI.IEventStoreConnection,EventStore.ClientAPI.ILogger,System.String,EventStore.ClientAPI.SystemData.UserCredentials,Func{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.ResolvedEvent,Task},Action{EventStore.ClientAPI.EventStoreCatchUpSubscription},Action{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.SubscriptionDropReason,Exception},EventStore.ClientAPI.CatchUpSubscriptionSettings)
-  commentId: M:EventStore.ClientAPI.EventStoreCatchUpSubscription.#ctor(EventStore.ClientAPI.IEventStoreConnection,EventStore.ClientAPI.ILogger,System.String,EventStore.ClientAPI.SystemData.UserCredentials,Func{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.ResolvedEvent,Task},Action{EventStore.ClientAPI.EventStoreCatchUpSubscription},Action{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.SubscriptionDropReason,Exception},EventStore.ClientAPI.CatchUpSubscriptionSettings)
-  id: '#ctor(EventStore.ClientAPI.IEventStoreConnection,EventStore.ClientAPI.ILogger,System.String,EventStore.ClientAPI.SystemData.UserCredentials,Func{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.ResolvedEvent,Task},Action{EventStore.ClientAPI.EventStoreCatchUpSubscription},Action{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.SubscriptionDropReason,Exception},EventStore.ClientAPI.CatchUpSubscriptionSettings)'
+- uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.#ctor(EventStore.ClientAPI.IEventStoreConnection,EventStore.ClientAPI.ILogger,System.String,EventStore.ClientAPI.SystemData.UserCredentials,System.Func{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.ResolvedEvent,System.Threading.Tasks.Task},System.Action{EventStore.ClientAPI.EventStoreCatchUpSubscription},System.Action{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.SubscriptionDropReason,System.Exception},EventStore.ClientAPI.CatchUpSubscriptionSettings)
+  commentId: M:EventStore.ClientAPI.EventStoreCatchUpSubscription.#ctor(EventStore.ClientAPI.IEventStoreConnection,EventStore.ClientAPI.ILogger,System.String,EventStore.ClientAPI.SystemData.UserCredentials,System.Func{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.ResolvedEvent,System.Threading.Tasks.Task},System.Action{EventStore.ClientAPI.EventStoreCatchUpSubscription},System.Action{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.SubscriptionDropReason,System.Exception},EventStore.ClientAPI.CatchUpSubscriptionSettings)
+  id: '#ctor(EventStore.ClientAPI.IEventStoreConnection,EventStore.ClientAPI.ILogger,System.String,EventStore.ClientAPI.SystemData.UserCredentials,System.Func{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.ResolvedEvent,System.Threading.Tasks.Task},System.Action{EventStore.ClientAPI.EventStoreCatchUpSubscription},System.Action{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.SubscriptionDropReason,System.Exception},EventStore.ClientAPI.CatchUpSubscriptionSettings)'
   parent: EventStore.ClientAPI.EventStoreCatchUpSubscription
   langs:
   - csharp
   - vb
   name: EventStoreCatchUpSubscription(IEventStoreConnection, ILogger, String, UserCredentials, Func<EventStoreCatchUpSubscription, ResolvedEvent, Task>, Action<EventStoreCatchUpSubscription>, Action<EventStoreCatchUpSubscription, SubscriptionDropReason, Exception>, CatchUpSubscriptionSettings)
   nameWithType: EventStoreCatchUpSubscription.EventStoreCatchUpSubscription(IEventStoreConnection, ILogger, String, UserCredentials, Func<EventStoreCatchUpSubscription, ResolvedEvent, Task>, Action<EventStoreCatchUpSubscription>, Action<EventStoreCatchUpSubscription, SubscriptionDropReason, Exception>, CatchUpSubscriptionSettings)
-  fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.EventStoreCatchUpSubscription(EventStore.ClientAPI.IEventStoreConnection, EventStore.ClientAPI.ILogger, System.String, EventStore.ClientAPI.SystemData.UserCredentials, Func<EventStore.ClientAPI.EventStoreCatchUpSubscription, EventStore.ClientAPI.ResolvedEvent, Task>, Action<EventStore.ClientAPI.EventStoreCatchUpSubscription>, Action<EventStore.ClientAPI.EventStoreCatchUpSubscription, EventStore.ClientAPI.SubscriptionDropReason, Exception>, EventStore.ClientAPI.CatchUpSubscriptionSettings)
+  fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.EventStoreCatchUpSubscription(EventStore.ClientAPI.IEventStoreConnection, EventStore.ClientAPI.ILogger, System.String, EventStore.ClientAPI.SystemData.UserCredentials, System.Func<EventStore.ClientAPI.EventStoreCatchUpSubscription, EventStore.ClientAPI.ResolvedEvent, System.Threading.Tasks.Task>, System.Action<EventStore.ClientAPI.EventStoreCatchUpSubscription>, System.Action<EventStore.ClientAPI.EventStoreCatchUpSubscription, EventStore.ClientAPI.SubscriptionDropReason, System.Exception>, EventStore.ClientAPI.CatchUpSubscriptionSettings)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 126
   assemblies:
   - EventStore.ClientAPI
@@ -699,13 +633,13 @@ items:
       type: EventStore.ClientAPI.SystemData.UserCredentials
       description: User credentials for the operations.
     - id: eventAppeared
-      type: Func{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.ResolvedEvent,Task}
+      type: System.Func{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.ResolvedEvent,System.Threading.Tasks.Task}
       description: Action invoked when events are received.
     - id: liveProcessingStarted
-      type: Action{EventStore.ClientAPI.EventStoreCatchUpSubscription}
+      type: System.Action{EventStore.ClientAPI.EventStoreCatchUpSubscription}
       description: Action invoked when the read phase finishes.
     - id: subscriptionDropped
-      type: Action{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.SubscriptionDropReason,Exception}
+      type: System.Action{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.SubscriptionDropReason,System.Exception}
       description: Action invoked if the subscription drops.
     - id: settings
       type: EventStore.ClientAPI.CatchUpSubscriptionSettings
@@ -717,26 +651,22 @@ items:
   - protected
   modifiers.vb:
   - Protected
-  fullName.vb: EventStore.ClientAPI.EventStoreCatchUpSubscription.EventStoreCatchUpSubscription(EventStore.ClientAPI.IEventStoreConnection, EventStore.ClientAPI.ILogger, System.String, EventStore.ClientAPI.SystemData.UserCredentials, Func(Of EventStore.ClientAPI.EventStoreCatchUpSubscription, EventStore.ClientAPI.ResolvedEvent, Task), Action(Of EventStore.ClientAPI.EventStoreCatchUpSubscription), Action(Of EventStore.ClientAPI.EventStoreCatchUpSubscription, EventStore.ClientAPI.SubscriptionDropReason, Exception), EventStore.ClientAPI.CatchUpSubscriptionSettings)
+  fullName.vb: EventStore.ClientAPI.EventStoreCatchUpSubscription.EventStoreCatchUpSubscription(EventStore.ClientAPI.IEventStoreConnection, EventStore.ClientAPI.ILogger, System.String, EventStore.ClientAPI.SystemData.UserCredentials, System.Func(Of EventStore.ClientAPI.EventStoreCatchUpSubscription, EventStore.ClientAPI.ResolvedEvent, System.Threading.Tasks.Task), System.Action(Of EventStore.ClientAPI.EventStoreCatchUpSubscription), System.Action(Of EventStore.ClientAPI.EventStoreCatchUpSubscription, EventStore.ClientAPI.SubscriptionDropReason, System.Exception), EventStore.ClientAPI.CatchUpSubscriptionSettings)
   name.vb: EventStoreCatchUpSubscription(IEventStoreConnection, ILogger, String, UserCredentials, Func(Of EventStoreCatchUpSubscription, ResolvedEvent, Task), Action(Of EventStoreCatchUpSubscription), Action(Of EventStoreCatchUpSubscription, SubscriptionDropReason, Exception), CatchUpSubscriptionSettings)
-- uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop(TimeSpan)
-  commentId: M:EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop(TimeSpan)
-  id: Stop(TimeSpan)
+- uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop(System.TimeSpan)
+  commentId: M:EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop(System.TimeSpan)
+  id: Stop(System.TimeSpan)
   parent: EventStore.ClientAPI.EventStoreCatchUpSubscription
   langs:
   - csharp
   - vb
   name: Stop(TimeSpan)
   nameWithType: EventStoreCatchUpSubscription.Stop(TimeSpan)
-  fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop(TimeSpan)
+  fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop(System.TimeSpan)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Stop
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 164
   assemblies:
   - EventStore.ClientAPI
@@ -747,10 +677,14 @@ items:
     content: public void Stop(TimeSpan timeout)
     parameters:
     - id: timeout
-      type: TimeSpan
+      type: System.TimeSpan
       description: The maximum amount of time which the current thread will block waiting for the subscription to stop before throwing a TimeoutException.
     content.vb: Public Sub Stop(timeout As TimeSpan)
   overload: EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop*
+  exceptions:
+  - type: System.TimeoutException
+    commentId: T:System.TimeoutException
+    description: Thrown if the subscription fails to stop within it&apos;s timeout period.
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -767,12 +701,8 @@ items:
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop()
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Stop
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 174
   assemblies:
   - EventStore.ClientAPI
@@ -799,12 +729,8 @@ items:
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.SubscribeToStreamAsync()
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: SubscribeToStreamAsync
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 243
   assemblies:
   - EventStore.ClientAPI
@@ -814,7 +740,7 @@ items:
   syntax:
     content: protected abstract Task SubscribeToStreamAsync()
     return:
-      type: Task
+      type: System.Threading.Tasks.Task
       description: ''
     content.vb: Protected MustOverride Function SubscribeToStreamAsync As Task
   overload: EventStore.ClientAPI.EventStoreCatchUpSubscription.SubscribeToStreamAsync*
@@ -836,12 +762,8 @@ items:
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.ReadMissedHistoricEventsAsync()
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ReadMissedHistoricEventsAsync
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 249
   assemblies:
   - EventStore.ClientAPI
@@ -851,7 +773,7 @@ items:
   syntax:
     content: protected Task ReadMissedHistoricEventsAsync()
     return:
-      type: Task
+      type: System.Threading.Tasks.Task
       description: ''
     content.vb: Protected Function ReadMissedHistoricEventsAsync As Task
   overload: EventStore.ClientAPI.EventStoreCatchUpSubscription.ReadMissedHistoricEventsAsync*
@@ -871,12 +793,8 @@ items:
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.LiveProcessingStarted(EventStore.ClientAPI.EventStoreCatchUpSubscription, EventStore.ClientAPI.Position)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: LiveProcessingStarted
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 293
   assemblies:
   - EventStore.ClientAPI
@@ -893,7 +811,7 @@ items:
       type: EventStore.ClientAPI.Position
       description: ''
     return:
-      type: Task
+      type: System.Threading.Tasks.Task
       description: ''
     content.vb: Protected MustOverride Function LiveProcessingStarted(eventStoreCatchUpSubscription As EventStoreCatchUpSubscription, lastPosition As Position) As Task
   overload: EventStore.ClientAPI.EventStoreCatchUpSubscription.LiveProcessingStarted*
@@ -915,12 +833,8 @@ items:
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueuePushedEvent(EventStore.ClientAPI.EventStoreSubscription, EventStore.ClientAPI.ResolvedEvent)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EnqueuePushedEvent
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 302
   assemblies:
   - EventStore.ClientAPI
@@ -937,7 +851,7 @@ items:
       type: EventStore.ClientAPI.ResolvedEvent
       description: ''
     return:
-      type: Task
+      type: System.Threading.Tasks.Task
       description: ''
     content.vb: Protected Function EnqueuePushedEvent(subscription As EventStoreSubscription, e As ResolvedEvent) As Task
   overload: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueuePushedEvent*
@@ -945,24 +859,20 @@ items:
   - protected
   modifiers.vb:
   - Protected
-- uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.ServerSubscriptionDropped(EventStore.ClientAPI.EventStoreSubscription,EventStore.ClientAPI.SubscriptionDropReason,Exception)
-  commentId: M:EventStore.ClientAPI.EventStoreCatchUpSubscription.ServerSubscriptionDropped(EventStore.ClientAPI.EventStoreSubscription,EventStore.ClientAPI.SubscriptionDropReason,Exception)
-  id: ServerSubscriptionDropped(EventStore.ClientAPI.EventStoreSubscription,EventStore.ClientAPI.SubscriptionDropReason,Exception)
+- uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.ServerSubscriptionDropped(EventStore.ClientAPI.EventStoreSubscription,EventStore.ClientAPI.SubscriptionDropReason,System.Exception)
+  commentId: M:EventStore.ClientAPI.EventStoreCatchUpSubscription.ServerSubscriptionDropped(EventStore.ClientAPI.EventStoreSubscription,EventStore.ClientAPI.SubscriptionDropReason,System.Exception)
+  id: ServerSubscriptionDropped(EventStore.ClientAPI.EventStoreSubscription,EventStore.ClientAPI.SubscriptionDropReason,System.Exception)
   parent: EventStore.ClientAPI.EventStoreCatchUpSubscription
   langs:
   - csharp
   - vb
   name: ServerSubscriptionDropped(EventStoreSubscription, SubscriptionDropReason, Exception)
   nameWithType: EventStoreCatchUpSubscription.ServerSubscriptionDropped(EventStoreSubscription, SubscriptionDropReason, Exception)
-  fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.ServerSubscriptionDropped(EventStore.ClientAPI.EventStoreSubscription, EventStore.ClientAPI.SubscriptionDropReason, Exception)
+  fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.ServerSubscriptionDropped(EventStore.ClientAPI.EventStoreSubscription, EventStore.ClientAPI.SubscriptionDropReason, System.Exception)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ServerSubscriptionDropped
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 329
   assemblies:
   - EventStore.ClientAPI
@@ -979,7 +889,7 @@ items:
       type: EventStore.ClientAPI.SubscriptionDropReason
       description: ''
     - id: exc
-      type: Exception
+      type: System.Exception
       description: ''
     content.vb: Protected Sub ServerSubscriptionDropped(subscription As EventStoreSubscription, reason As SubscriptionDropReason, exc As Exception)
   overload: EventStore.ClientAPI.EventStoreCatchUpSubscription.ServerSubscriptionDropped*
@@ -987,24 +897,20 @@ items:
   - protected
   modifiers.vb:
   - Protected
-- uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification(EventStore.ClientAPI.SubscriptionDropReason,Exception)
-  commentId: M:EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification(EventStore.ClientAPI.SubscriptionDropReason,Exception)
-  id: EnqueueSubscriptionDropNotification(EventStore.ClientAPI.SubscriptionDropReason,Exception)
+- uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification(EventStore.ClientAPI.SubscriptionDropReason,System.Exception)
+  commentId: M:EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification(EventStore.ClientAPI.SubscriptionDropReason,System.Exception)
+  id: EnqueueSubscriptionDropNotification(EventStore.ClientAPI.SubscriptionDropReason,System.Exception)
   parent: EventStore.ClientAPI.EventStoreCatchUpSubscription
   langs:
   - csharp
   - vb
   name: EnqueueSubscriptionDropNotification(SubscriptionDropReason, Exception)
   nameWithType: EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification(SubscriptionDropReason, Exception)
-  fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification(EventStore.ClientAPI.SubscriptionDropReason, Exception)
+  fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification(EventStore.ClientAPI.SubscriptionDropReason, System.Exception)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EnqueueSubscriptionDropNotification
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 339
   assemblies:
   - EventStore.ClientAPI
@@ -1018,7 +924,7 @@ items:
       type: EventStore.ClientAPI.SubscriptionDropReason
       description: ''
     - id: error
-      type: Exception
+      type: System.Exception
       description: ''
     content.vb: Protected Sub EnqueueSubscriptionDropNotification(reason As SubscriptionDropReason, error As Exception)
   overload: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification*
@@ -1038,12 +944,8 @@ items:
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnsureProcessingPushQueue()
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EnsureProcessingPushQueue
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 352
   assemblies:
   - EventStore.ClientAPI
@@ -1058,24 +960,20 @@ items:
   - protected
   modifiers.vb:
   - Protected
-- uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction(Func{Task})
-  commentId: M:EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction(Func{Task})
-  id: EnqueueAction(Func{Task})
+- uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction(System.Func{System.Threading.Tasks.Task})
+  commentId: M:EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction(System.Func{System.Threading.Tasks.Task})
+  id: EnqueueAction(System.Func{System.Threading.Tasks.Task})
   parent: EventStore.ClientAPI.EventStoreCatchUpSubscription
   langs:
   - csharp
   - vb
   name: EnqueueAction(Func<Task>)
   nameWithType: EventStoreCatchUpSubscription.EnqueueAction(Func<Task>)
-  fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction(Func<Task>)
+  fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction(System.Func<System.Threading.Tasks.Task>)
   type: Method
   source:
-    remote:
-      path: src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EnqueueAction
-    path: ../EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreCatchUpSubscription.cs
     startLine: 372
   assemblies:
   - EventStore.ClientAPI
@@ -1086,7 +984,7 @@ items:
     content: protected void EnqueueAction(Func<Task> action)
     parameters:
     - id: action
-      type: Func{Task}
+      type: System.Func{System.Threading.Tasks.Task}
       description: ''
     content.vb: Protected Sub EnqueueAction(action As Func(Of Task))
   overload: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction*
@@ -1095,7 +993,7 @@ items:
   - protected
   modifiers.vb:
   - Protected
-  fullName.vb: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction(Func(Of Task))
+  fullName.vb: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction(System.Func(Of System.Threading.Tasks.Task))
   name.vb: EnqueueAction(Func(Of Task))
 references:
 - uid: EventStore.ClientAPI
@@ -1104,16 +1002,305 @@ references:
   nameWithType: EventStore.ClientAPI
   fullName: EventStore.ClientAPI
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.IsSubscribedToAll*
   commentId: Overload:EventStore.ClientAPI.EventStoreCatchUpSubscription.IsSubscribedToAll
   name: IsSubscribedToAll
   nameWithType: EventStoreCatchUpSubscription.IsSubscribedToAll
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.IsSubscribedToAll
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -1124,6 +1311,8 @@ references:
   nameWithType: EventStoreCatchUpSubscription.StreamId
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.StreamId
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -1169,24 +1358,27 @@ references:
   nameWithType: EventStore.ClientAPI.SystemData
   fullName: EventStore.ClientAPI.SystemData
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: Func{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.ResolvedEvent,Task}
-  commentId: '!:Func{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.ResolvedEvent,Task}'
-  definition: Func`3
+- uid: System.Func{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.ResolvedEvent,System.Threading.Tasks.Task}
+  commentId: T:System.Func{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.ResolvedEvent,System.Threading.Tasks.Task}
+  parent: System
+  definition: System.Func`3
   name: Func<EventStoreCatchUpSubscription, ResolvedEvent, Task>
   nameWithType: Func<EventStoreCatchUpSubscription, ResolvedEvent, Task>
-  fullName: Func<EventStore.ClientAPI.EventStoreCatchUpSubscription, EventStore.ClientAPI.ResolvedEvent, Task>
+  fullName: System.Func<EventStore.ClientAPI.EventStoreCatchUpSubscription, EventStore.ClientAPI.ResolvedEvent, System.Threading.Tasks.Task>
   nameWithType.vb: Func(Of EventStoreCatchUpSubscription, ResolvedEvent, Task)
-  fullName.vb: Func(Of EventStore.ClientAPI.EventStoreCatchUpSubscription, EventStore.ClientAPI.ResolvedEvent, Task)
+  fullName.vb: System.Func(Of EventStore.ClientAPI.EventStoreCatchUpSubscription, EventStore.ClientAPI.ResolvedEvent, System.Threading.Tasks.Task)
   name.vb: Func(Of EventStoreCatchUpSubscription, ResolvedEvent, Task)
   spec.csharp:
-  - uid: Func`3
+  - uid: System.Func`3
     name: Func
     nameWithType: Func
-    fullName: Func
+    fullName: System.Func
     isExternal: true
   - name: <
     nameWithType: <
@@ -1205,19 +1397,19 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: Task
+  - uid: System.Threading.Tasks.Task
     name: Task
     nameWithType: Task
-    fullName: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Func`3
+  - uid: System.Func`3
     name: Func
     nameWithType: Func
-    fullName: Func
+    fullName: System.Func
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -1236,73 +1428,74 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: Task
+  - uid: System.Threading.Tasks.Task
     name: Task
     nameWithType: Task
-    fullName: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: Func`3
+- uid: System.Func`3
+  commentId: T:System.Func`3
   isExternal: true
-  name: Func<, , >
-  nameWithType: Func<, , >
-  fullName: Func<, , >
-  nameWithType.vb: Func(Of , , )
-  fullName.vb: Func(Of , , )
-  name.vb: Func(Of , , )
+  name: Func<T1, T2, TResult>
+  nameWithType: Func<T1, T2, TResult>
+  fullName: System.Func<T1, T2, TResult>
+  nameWithType.vb: Func(Of T1, T2, TResult)
+  fullName.vb: System.Func(Of T1, T2, TResult)
+  name.vb: Func(Of T1, T2, TResult)
   spec.csharp:
-  - uid: Func`3
+  - uid: System.Func`3
     name: Func
     nameWithType: Func
-    fullName: Func
+    fullName: System.Func
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T1
+    nameWithType: T1
+    fullName: T1
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T2
+    nameWithType: T2
+    fullName: T2
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Func`3
+  - uid: System.Func`3
     name: Func
     nameWithType: Func
-    fullName: Func
+    fullName: System.Func
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T1
+    nameWithType: T1
+    fullName: T1
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T2
+    nameWithType: T2
+    fullName: T2
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
   - name: )
     nameWithType: )
     fullName: )
@@ -1318,7 +1511,8 @@ references:
   nameWithType: EventStoreCatchUpSubscription.ReadEventsTillAsync
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.ReadEventsTillAsync
 - uid: System.Nullable{System.Int64}
-  commentId: '!:System.Nullable{System.Int64}'
+  commentId: T:System.Nullable{System.Int64}
+  parent: System
   definition: System.Nullable`1
   name: Nullable<Int64>
   nameWithType: Nullable<Int64>
@@ -1360,20 +1554,21 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Task{EventStore.ClientAPI.Position}
-  commentId: '!:Task{EventStore.ClientAPI.Position}'
-  definition: Task`1
+- uid: System.Threading.Tasks.Task{EventStore.ClientAPI.Position}
+  commentId: T:System.Threading.Tasks.Task{EventStore.ClientAPI.Position}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
   name: Task<Position>
   nameWithType: Task<Position>
-  fullName: Task<EventStore.ClientAPI.Position>
+  fullName: System.Threading.Tasks.Task<EventStore.ClientAPI.Position>
   nameWithType.vb: Task(Of Position)
-  fullName.vb: Task(Of EventStore.ClientAPI.Position)
+  fullName.vb: System.Threading.Tasks.Task(Of EventStore.ClientAPI.Position)
   name.vb: Task(Of Position)
   spec.csharp:
-  - uid: Task`1
+  - uid: System.Threading.Tasks.Task`1
     name: Task
     nameWithType: Task
-    fullName: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
@@ -1386,10 +1581,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Task`1
+  - uid: System.Threading.Tasks.Task`1
     name: Task
     nameWithType: Task
-    fullName: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -1402,13 +1597,14 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Nullable`1
+  commentId: T:System.Nullable`1
   isExternal: true
-  name: Nullable<>
-  nameWithType: Nullable<>
-  fullName: System.Nullable<>
-  nameWithType.vb: Nullable(Of )
-  fullName.vb: System.Nullable(Of )
-  name.vb: Nullable(Of )
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
@@ -1418,9 +1614,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -1433,50 +1629,57 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )
-- uid: Task`1
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: Task<>
-  nameWithType: Task<>
-  fullName: Task<>
-  nameWithType.vb: Task(Of )
-  fullName.vb: Task(Of )
-  name.vb: Task(Of )
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
   spec.csharp:
-  - uid: Task`1
+  - uid: System.Threading.Tasks.Task`1
     name: Task
     nameWithType: Task
-    fullName: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Task`1
+  - uid: System.Threading.Tasks.Task`1
     name: Task
     nameWithType: Task
-    fullName: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
 - uid: EventStore.ClientAPI.ResolvedEvent
   commentId: T:EventStore.ClientAPI.ResolvedEvent
   parent: EventStore.ClientAPI
@@ -1488,30 +1691,33 @@ references:
   name: TryProcessAsync
   nameWithType: EventStoreCatchUpSubscription.TryProcessAsync
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.TryProcessAsync
-- uid: Task
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
   name: Task
   nameWithType: Task
-  fullName: Task
+  fullName: System.Threading.Tasks.Task
 - uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.#ctor*
   commentId: Overload:EventStore.ClientAPI.EventStoreCatchUpSubscription.#ctor
   name: EventStoreCatchUpSubscription
   nameWithType: EventStoreCatchUpSubscription.EventStoreCatchUpSubscription
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.EventStoreCatchUpSubscription
-- uid: Action{EventStore.ClientAPI.EventStoreCatchUpSubscription}
-  commentId: '!:Action{EventStore.ClientAPI.EventStoreCatchUpSubscription}'
-  definition: Action`1
+- uid: System.Action{EventStore.ClientAPI.EventStoreCatchUpSubscription}
+  commentId: T:System.Action{EventStore.ClientAPI.EventStoreCatchUpSubscription}
+  parent: System
+  definition: System.Action`1
   name: Action<EventStoreCatchUpSubscription>
   nameWithType: Action<EventStoreCatchUpSubscription>
-  fullName: Action<EventStore.ClientAPI.EventStoreCatchUpSubscription>
+  fullName: System.Action<EventStore.ClientAPI.EventStoreCatchUpSubscription>
   nameWithType.vb: Action(Of EventStoreCatchUpSubscription)
-  fullName.vb: Action(Of EventStore.ClientAPI.EventStoreCatchUpSubscription)
+  fullName.vb: System.Action(Of EventStore.ClientAPI.EventStoreCatchUpSubscription)
   name.vb: Action(Of EventStoreCatchUpSubscription)
   spec.csharp:
-  - uid: Action`1
+  - uid: System.Action`1
     name: Action
     nameWithType: Action
-    fullName: Action
+    fullName: System.Action
     isExternal: true
   - name: <
     nameWithType: <
@@ -1524,10 +1730,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Action`1
+  - uid: System.Action`1
     name: Action
     nameWithType: Action
-    fullName: Action
+    fullName: System.Action
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -1539,20 +1745,21 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Action{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.SubscriptionDropReason,Exception}
-  commentId: '!:Action{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.SubscriptionDropReason,Exception}'
-  definition: Action`3
+- uid: System.Action{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.SubscriptionDropReason,System.Exception}
+  commentId: T:System.Action{EventStore.ClientAPI.EventStoreCatchUpSubscription,EventStore.ClientAPI.SubscriptionDropReason,System.Exception}
+  parent: System
+  definition: System.Action`3
   name: Action<EventStoreCatchUpSubscription, SubscriptionDropReason, Exception>
   nameWithType: Action<EventStoreCatchUpSubscription, SubscriptionDropReason, Exception>
-  fullName: Action<EventStore.ClientAPI.EventStoreCatchUpSubscription, EventStore.ClientAPI.SubscriptionDropReason, Exception>
+  fullName: System.Action<EventStore.ClientAPI.EventStoreCatchUpSubscription, EventStore.ClientAPI.SubscriptionDropReason, System.Exception>
   nameWithType.vb: Action(Of EventStoreCatchUpSubscription, SubscriptionDropReason, Exception)
-  fullName.vb: Action(Of EventStore.ClientAPI.EventStoreCatchUpSubscription, EventStore.ClientAPI.SubscriptionDropReason, Exception)
+  fullName.vb: System.Action(Of EventStore.ClientAPI.EventStoreCatchUpSubscription, EventStore.ClientAPI.SubscriptionDropReason, System.Exception)
   name.vb: Action(Of EventStoreCatchUpSubscription, SubscriptionDropReason, Exception)
   spec.csharp:
-  - uid: Action`3
+  - uid: System.Action`3
     name: Action
     nameWithType: Action
-    fullName: Action
+    fullName: System.Action
     isExternal: true
   - name: <
     nameWithType: <
@@ -1571,19 +1778,19 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: Exception
+  - uid: System.Exception
     name: Exception
     nameWithType: Exception
-    fullName: Exception
+    fullName: System.Exception
     isExternal: true
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Action`3
+  - uid: System.Action`3
     name: Action
     nameWithType: Action
-    fullName: Action
+    fullName: System.Action
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -1602,10 +1809,10 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: Exception
+  - uid: System.Exception
     name: Exception
     nameWithType: Exception
-    fullName: Exception
+    fullName: System.Exception
     isExternal: true
   - name: )
     nameWithType: )
@@ -1616,116 +1823,123 @@ references:
   name: CatchUpSubscriptionSettings
   nameWithType: CatchUpSubscriptionSettings
   fullName: EventStore.ClientAPI.CatchUpSubscriptionSettings
-- uid: Action`1
+- uid: System.Action`1
+  commentId: T:System.Action`1
   isExternal: true
-  name: Action<>
-  nameWithType: Action<>
-  fullName: Action<>
-  nameWithType.vb: Action(Of )
-  fullName.vb: Action(Of )
-  name.vb: Action(Of )
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
   spec.csharp:
-  - uid: Action`1
+  - uid: System.Action`1
     name: Action
     nameWithType: Action
-    fullName: Action
+    fullName: System.Action
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Action`1
+  - uid: System.Action`1
     name: Action
     nameWithType: Action
-    fullName: Action
+    fullName: System.Action
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )
-- uid: Action`3
+- uid: System.Action`3
+  commentId: T:System.Action`3
   isExternal: true
-  name: Action<, , >
-  nameWithType: Action<, , >
-  fullName: Action<, , >
-  nameWithType.vb: Action(Of , , )
-  fullName.vb: Action(Of , , )
-  name.vb: Action(Of , , )
+  name: Action<T1, T2, T3>
+  nameWithType: Action<T1, T2, T3>
+  fullName: System.Action<T1, T2, T3>
+  nameWithType.vb: Action(Of T1, T2, T3)
+  fullName.vb: System.Action(Of T1, T2, T3)
+  name.vb: Action(Of T1, T2, T3)
   spec.csharp:
-  - uid: Action`3
+  - uid: System.Action`3
     name: Action
     nameWithType: Action
-    fullName: Action
+    fullName: System.Action
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T1
+    nameWithType: T1
+    fullName: T1
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T2
+    nameWithType: T2
+    fullName: T2
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T3
+    nameWithType: T3
+    fullName: T3
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Action`3
+  - uid: System.Action`3
     name: Action
     nameWithType: Action
-    fullName: Action
+    fullName: System.Action
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T1
+    nameWithType: T1
+    fullName: T1
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T2
+    nameWithType: T2
+    fullName: T2
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T3
+    nameWithType: T3
+    fullName: T3
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.TimeoutException
+  commentId: T:System.TimeoutException
+  isExternal: true
 - uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop*
   commentId: Overload:EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop
   name: Stop
   nameWithType: EventStoreCatchUpSubscription.Stop
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.Stop
-- uid: TimeSpan
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
   isExternal: true
   name: TimeSpan
   nameWithType: TimeSpan
-  fullName: TimeSpan
+  fullName: System.TimeSpan
 - uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.SubscribeToStreamAsync*
   commentId: Overload:EventStore.ClientAPI.EventStoreCatchUpSubscription.SubscribeToStreamAsync
   name: SubscribeToStreamAsync
@@ -1763,11 +1977,13 @@ references:
   name: SubscriptionDropReason
   nameWithType: SubscriptionDropReason
   fullName: EventStore.ClientAPI.SubscriptionDropReason
-- uid: Exception
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
   isExternal: true
   name: Exception
   nameWithType: Exception
-  fullName: Exception
+  fullName: System.Exception
 - uid: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification*
   commentId: Overload:EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueSubscriptionDropNotification
   name: EnqueueSubscriptionDropNotification
@@ -1783,84 +1999,86 @@ references:
   name: EnqueueAction
   nameWithType: EventStoreCatchUpSubscription.EnqueueAction
   fullName: EventStore.ClientAPI.EventStoreCatchUpSubscription.EnqueueAction
-- uid: Func{Task}
-  commentId: '!:Func{Task}'
-  definition: Func`1
+- uid: System.Func{System.Threading.Tasks.Task}
+  commentId: T:System.Func{System.Threading.Tasks.Task}
+  parent: System
+  definition: System.Func`1
   name: Func<Task>
   nameWithType: Func<Task>
-  fullName: Func<Task>
+  fullName: System.Func<System.Threading.Tasks.Task>
   nameWithType.vb: Func(Of Task)
-  fullName.vb: Func(Of Task)
+  fullName.vb: System.Func(Of System.Threading.Tasks.Task)
   name.vb: Func(Of Task)
   spec.csharp:
-  - uid: Func`1
+  - uid: System.Func`1
     name: Func
     nameWithType: Func
-    fullName: Func
+    fullName: System.Func
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - uid: Task
+  - uid: System.Threading.Tasks.Task
     name: Task
     nameWithType: Task
-    fullName: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Func`1
+  - uid: System.Func`1
     name: Func
     nameWithType: Func
-    fullName: Func
+    fullName: System.Func
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: Task
+  - uid: System.Threading.Tasks.Task
     name: Task
     nameWithType: Task
-    fullName: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: Func`1
+- uid: System.Func`1
+  commentId: T:System.Func`1
   isExternal: true
-  name: Func<>
-  nameWithType: Func<>
-  fullName: Func<>
-  nameWithType.vb: Func(Of )
-  fullName.vb: Func(Of )
-  name.vb: Func(Of )
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
   spec.csharp:
-  - uid: Func`1
+  - uid: System.Func`1
     name: Func
     nameWithType: Func
-    fullName: Func
+    fullName: System.Func
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Func`1
+  - uid: System.Func`1
     name: Func
     nameWithType: Func
-    fullName: Func
+    fullName: System.Func
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
   - name: )
     nameWithType: )
     fullName: )

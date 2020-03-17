@@ -20,12 +20,8 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionEventTypes
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/SystemNames.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionEventTypes
-    path: ../EventStore/src/EventStore.Projections.Core/Services/SystemNames.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/SystemNames.cs
     startLine: 1
   assemblies:
   - EventStore.Projections.Core
@@ -57,12 +53,8 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionEventTypes.ProjectionCheckpoint
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/SystemNames.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionCheckpoint
-    path: ../EventStore/src/EventStore.Projections.Core/Services/SystemNames.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/SystemNames.cs
     startLine: 2
   assemblies:
   - EventStore.Projections.Core
@@ -90,12 +82,8 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionEventTypes.PartitionCheckpoint
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/SystemNames.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: PartitionCheckpoint
-    path: ../EventStore/src/EventStore.Projections.Core/Services/SystemNames.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/SystemNames.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -123,12 +111,8 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionEventTypes.StreamTracked
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/SystemNames.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: StreamTracked
-    path: ../EventStore/src/EventStore.Projections.Core/Services/SystemNames.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/SystemNames.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core
@@ -156,12 +140,8 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionEventTypes.ProjectionCreated
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/SystemNames.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionCreated
-    path: ../EventStore/src/EventStore.Projections.Core/Services/SystemNames.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/SystemNames.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core
@@ -189,12 +169,8 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionEventTypes.ProjectionDeleted
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/SystemNames.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionDeleted
-    path: ../EventStore/src/EventStore.Projections.Core/Services/SystemNames.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/SystemNames.cs
     startLine: 7
   assemblies:
   - EventStore.Projections.Core
@@ -222,12 +198,8 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionEventTypes.ProjectionsInitialized
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/SystemNames.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionsInitialized
-    path: ../EventStore/src/EventStore.Projections.Core/Services/SystemNames.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/SystemNames.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core
@@ -255,12 +227,8 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionEventTypes.ProjectionUpdated
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/SystemNames.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionUpdated
-    path: ../EventStore/src/EventStore.Projections.Core/Services/SystemNames.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/SystemNames.cs
     startLine: 9
   assemblies:
   - EventStore.Projections.Core
@@ -283,11 +251,21 @@ references:
   nameWithType: EventStore.Projections.Core.Services
   fullName: EventStore.Projections.Core.Services
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

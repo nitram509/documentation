@@ -81,12 +81,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EventSubscriptionBasedProjectionProcessingPhase
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 11
   assemblies:
   - EventStore.Projections.Core
@@ -139,12 +135,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase._publisher
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: _publisher
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 22
   assemblies:
   - EventStore.Projections.Core
@@ -172,12 +164,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase._coreProjection
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: _coreProjection
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 24
   assemblies:
   - EventStore.Projections.Core
@@ -205,12 +193,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase._projectionCorrelationId
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: _projectionCorrelationId
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 25
   assemblies:
   - EventStore.Projections.Core
@@ -238,12 +222,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase._checkpointManager
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: _checkpointManager
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 26
   assemblies:
   - EventStore.Projections.Core
@@ -271,12 +251,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase._progressResultWriter
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: _progressResultWriter
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 27
   assemblies:
   - EventStore.Projections.Core
@@ -304,12 +280,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase._projectionConfig
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: _projectionConfig
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 28
   assemblies:
   - EventStore.Projections.Core
@@ -337,12 +309,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase._projectionName
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: _projectionName
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 29
   assemblies:
   - EventStore.Projections.Core
@@ -370,12 +338,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase._logger
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: _logger
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 30
   assemblies:
   - EventStore.Projections.Core
@@ -403,12 +367,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase._zeroCheckpointTag
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: _zeroCheckpointTag
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 31
   assemblies:
   - EventStore.Projections.Core
@@ -436,12 +396,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase._processingQueue
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: _processingQueue
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 32
   assemblies:
   - EventStore.Projections.Core
@@ -469,12 +425,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase._partitionStateCache
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: _partitionStateCache
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 33
   assemblies:
   - EventStore.Projections.Core
@@ -502,12 +454,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase._subscriptionDispatcher
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: _subscriptionDispatcher
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 34
   assemblies:
   - EventStore.Projections.Core
@@ -535,12 +483,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase._readerStrategy
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: _readerStrategy
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 35
   assemblies:
   - EventStore.Projections.Core
@@ -568,12 +512,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase._resultWriter
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: _resultWriter
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 36
   assemblies:
   - EventStore.Projections.Core
@@ -601,12 +541,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase._useCheckpoints
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: _useCheckpoints
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 37
   assemblies:
   - EventStore.Projections.Core
@@ -634,12 +570,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase._expectedSubscriptionMessageSequenceNumber
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: _expectedSubscriptionMessageSequenceNumber
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 38
   assemblies:
   - EventStore.Projections.Core
@@ -665,12 +597,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase._currentSubscriptionId
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: _currentSubscriptionId
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 39
   assemblies:
   - EventStore.Projections.Core
@@ -696,12 +624,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase._subscribed
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: _subscribed
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 40
   assemblies:
   - EventStore.Projections.Core
@@ -727,12 +651,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase._state
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: _state
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 41
   assemblies:
   - EventStore.Projections.Core
@@ -758,12 +678,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase._stopOnEof
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: _stopOnEof
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 42
   assemblies:
   - EventStore.Projections.Core
@@ -791,12 +707,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase._emittedStreamsTracker
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: _emittedStreamsTracker
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 44
   assemblies:
   - EventStore.Projections.Core
@@ -824,12 +736,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.EventSubscriptionBasedProjectionProcessingPhase(EventStore.Core.Bus.IPublisher, EventStore.Core.Bus.IPublisher, EventStore.Projections.Core.Services.Processing.ICoreProjectionForProcessingPhase, Guid, EventStore.Projections.Core.Services.Processing.ICoreProjectionCheckpointManager, EventStore.Projections.Core.Services.ProjectionConfig, System.String, EventStore.Common.Log.ILogger, EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Services.Processing.PartitionStateCache, EventStore.Projections.Core.Services.Processing.IResultWriter, Action, EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher, EventStore.Projections.Core.Services.Processing.IReaderStrategy, System.Boolean, System.Boolean, System.Boolean, System.Boolean, EventStore.Projections.Core.Services.Processing.IEmittedStreamsTracker)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 48
   assemblies:
   - EventStore.Projections.Core
@@ -893,12 +801,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.UnlockAndForgetBefore(EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: UnlockAndForgetBefore
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 94
   assemblies:
   - EventStore.Projections.Core
@@ -928,12 +832,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.LastProcessedEventPosition
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: LastProcessedEventPosition
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 98
   assemblies:
   - EventStore.Projections.Core
@@ -965,12 +865,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.CheckpointManager
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: CheckpointManager
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 102
   assemblies:
   - EventStore.Projections.Core
@@ -1002,12 +898,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.EmittedStreamsTracker
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EmittedStreamsTracker
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 106
   assemblies:
   - EventStore.Projections.Core
@@ -1039,12 +931,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.IsOutOfOrderSubscriptionMessage(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: IsOutOfOrderSubscriptionMessage
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 110
   assemblies:
   - EventStore.Projections.Core
@@ -1074,12 +962,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.RegisterSubscriptionMessage(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessageBase)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: RegisterSubscriptionMessage
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 118
   assemblies:
   - EventStore.Projections.Core
@@ -1107,12 +991,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.EnsureTickPending()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EnsureTickPending
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 122
   assemblies:
   - EventStore.Projections.Core
@@ -1137,12 +1017,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.ProcessEvent()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ProcessEvent
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 126
   assemblies:
   - EventStore.Projections.Core
@@ -1169,12 +1045,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.ProgressChanged)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 152
   assemblies:
   - EventStore.Projections.Core
@@ -1204,12 +1076,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.SubscriptionStarted)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 166
   assemblies:
   - EventStore.Projections.Core
@@ -1239,12 +1107,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.NotAuthorized)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 177
   assemblies:
   - EventStore.Projections.Core
@@ -1274,12 +1138,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.Unsubscribed()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Unsubscribed
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 190
   assemblies:
   - EventStore.Projections.Core
@@ -1304,12 +1164,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.EofReached)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 196
   assemblies:
   - EventStore.Projections.Core
@@ -1339,12 +1195,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CheckpointSuggested)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 210
   assemblies:
   - EventStore.Projections.Core
@@ -1374,12 +1226,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.Handle(EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.GetState)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 229
   assemblies:
   - EventStore.Projections.Core
@@ -1409,12 +1257,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.Handle(EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.GetResult)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 244
   assemblies:
   - EventStore.Projections.Core
@@ -1444,12 +1288,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.Failed)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 259
   assemblies:
   - EventStore.Projections.Core
@@ -1479,12 +1319,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.UnsubscribeFromPreRecordedOrderEvents()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: UnsubscribeFromPreRecordedOrderEvents
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 263
   assemblies:
   - EventStore.Projections.Core
@@ -1509,12 +1345,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.Subscribed(Guid)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Subscribed
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 269
   assemblies:
   - EventStore.Projections.Core
@@ -1542,12 +1374,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.GetSubscriptionOptions()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: GetSubscriptionOptions
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 273
   assemblies:
   - EventStore.Projections.Core
@@ -1574,12 +1402,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.SubscribeReaders(EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: SubscribeReaders
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 280
   assemblies:
   - EventStore.Projections.Core
@@ -1607,12 +1431,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.SubscribeToPreRecordedOrderEvents()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: SubscribeToPreRecordedOrderEvents
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 301
   assemblies:
   - EventStore.Projections.Core
@@ -1637,12 +1457,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.Subscribe(EventStore.Projections.Core.Services.Processing.CheckpointTag, System.Boolean)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Subscribe
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 311
   assemblies:
   - EventStore.Projections.Core
@@ -1676,12 +1492,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.Handle(CoreProjectionProcessingMessage.PrerecordedEventsLoaded)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 320
   assemblies:
   - EventStore.Projections.Core
@@ -1711,12 +1523,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.AdjustTag(EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: AdjustTag
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 325
   assemblies:
   - EventStore.Projections.Core
@@ -1748,12 +1556,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.SetFaulting(System.String, Exception)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: SetFaulting
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 329
   assemblies:
   - EventStore.Projections.Core
@@ -1783,12 +1587,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.ValidateEmittedEvents(EventStore.Projections.Core.Services.Processing.EmittedEventEnvelope[])
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ValidateEmittedEvents
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 340
   assemblies:
   - EventStore.Projections.Core
@@ -1821,12 +1621,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.NewCheckpointStarted(EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: NewCheckpointStarted
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 351
   assemblies:
   - EventStore.Projections.Core
@@ -1858,12 +1654,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.InitializeFromCheckpoint(EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: InitializeFromCheckpoint
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 353
   assemblies:
   - EventStore.Projections.Core
@@ -1893,12 +1685,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.GetBufferedEventCount()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: GetBufferedEventCount
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 360
   assemblies:
   - EventStore.Projections.Core
@@ -1925,12 +1713,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.GetStatus()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: GetStatus
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 364
   assemblies:
   - EventStore.Projections.Core
@@ -1957,12 +1741,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.InternalCommittedEventProcessed(System.String, EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived, EventStore.Projections.Core.Services.Processing.EmittedEventEnvelope[], EventStore.Projections.Core.Services.Processing.PartitionState, EventStore.Projections.Core.Services.Processing.PartitionState)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: InternalCommittedEventProcessed
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 368
   assemblies:
   - EventStore.Projections.Core
@@ -2003,12 +1783,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.InternalPartitionDeletedProcessed(System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Services.Processing.PartitionState)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: InternalPartitionDeletedProcessed
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 401
   assemblies:
   - EventStore.Projections.Core
@@ -2042,12 +1818,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.BeginGetPartitionStateAt(System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag, Action<EventStore.Projections.Core.Services.Processing.PartitionState>, System.Boolean)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: BeginGetPartitionStateAt
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 423
   assemblies:
   - EventStore.Projections.Core
@@ -2086,12 +1858,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.FinalizeEventProcessing(EventStore.Projections.Core.Services.Processing.EventProcessedResult, EventStore.Projections.Core.Services.Processing.CheckpointTag, System.Single)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: FinalizeEventProcessing
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 454
   assemblies:
   - EventStore.Projections.Core
@@ -2123,12 +1891,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.EmitEofResult(System.String, System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag, Guid, System.String)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EmitEofResult
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 481
   assemblies:
   - EventStore.Projections.Core
@@ -2164,12 +1928,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.RecordEventOrder(EventStore.Projections.Core.Services.Processing.ResolvedEvent, EventStore.Projections.Core.Services.Processing.CheckpointTag, Action)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: RecordEventOrder
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 487
   assemblies:
   - EventStore.Projections.Core
@@ -2201,12 +1961,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.Complete()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Complete
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 500
   assemblies:
   - EventStore.Projections.Core
@@ -2233,12 +1989,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.SetCurrentCheckpointSuggestedWorkItem(EventStore.Projections.Core.Services.Processing.CheckpointSuggestedWorkItem)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: SetCurrentCheckpointSuggestedWorkItem
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 506
   assemblies:
   - EventStore.Projections.Core
@@ -2268,12 +2020,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.GetStatistics(EventStore.Projections.Core.Services.ProjectionStatistics)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: GetStatistics
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 510
   assemblies:
   - EventStore.Projections.Core
@@ -2305,12 +2053,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.MakeZeroCheckpointTag()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: MakeZeroCheckpointTag
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 515
   assemblies:
   - EventStore.Projections.Core
@@ -2339,12 +2083,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.EnsureUnsubscribed()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EnsureUnsubscribed
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 519
   assemblies:
   - EventStore.Projections.Core
@@ -2371,12 +2111,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase._subscriptionStartedAtLastCommitPosition
   type: Field
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: _subscriptionStartedAtLastCommitPosition
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 531
   assemblies:
   - EventStore.Projections.Core
@@ -2402,12 +2138,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.Handle(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.ReaderAssignedReader)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 536
   assemblies:
   - EventStore.Projections.Core
@@ -2437,12 +2169,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.Dispose()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Dispose
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 546
   assemblies:
   - EventStore.Projections.Core
@@ -2469,12 +2197,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.SetProjectionState(EventStore.Projections.Core.Services.Processing.PhaseState)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: SetProjectionState
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventSubscriptionBasedProjectionProcessingPhase.cs
     startLine: 548
   assemblies:
   - EventStore.Projections.Core
@@ -2499,6 +2223,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -2932,6 +2658,12 @@ references:
   name: IProjectionPhaseStateManager
   nameWithType: IProjectionPhaseStateManager
   fullName: EventStore.Projections.Core.Services.Processing.IProjectionPhaseStateManager
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Core.Bus.IHandle`1
   commentId: T:EventStore.Core.Bus.IHandle`1
   name: IHandle<T>
@@ -3014,6 +2746,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services
   fullName: EventStore.Projections.Core.Services
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -3066,11 +2800,15 @@ references:
   nameWithType: IResultWriter
   fullName: EventStore.Projections.Core.Services.Processing.IResultWriter
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
@@ -3936,6 +3674,8 @@ references:
   nameWithType: EventSubscriptionBasedProjectionProcessingPhase.GetBufferedEventCount
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.GetBufferedEventCount
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -4171,6 +3911,8 @@ references:
   nameWithType: EventSubscriptionBasedProjectionProcessingPhase.FinalizeEventProcessing
   fullName: EventStore.Projections.Core.Services.Processing.EventSubscriptionBasedProjectionProcessingPhase.FinalizeEventProcessing
 - uid: System.Single
+  commentId: T:System.Single
+  parent: System
   isExternal: true
   name: Single
   nameWithType: Single

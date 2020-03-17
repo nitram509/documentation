@@ -21,12 +21,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionForProcessingPhase
   type: Interface
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionForProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ICoreProjectionForProcessingPhase
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionForProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionForProcessingPhase.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -52,12 +48,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionForProcessingPhase.CompletePhase()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionForProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: CompletePhase
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionForProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionForProcessingPhase.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core
@@ -78,12 +70,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionForProcessingPhase.SetFaulted(System.String)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionForProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: SetFaulted
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionForProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionForProcessingPhase.cs
     startLine: 5
   assemblies:
   - EventStore.Projections.Core
@@ -107,12 +95,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionForProcessingPhase.SetFaulted(Exception)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionForProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: SetFaulted
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionForProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionForProcessingPhase.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core
@@ -136,12 +120,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionForProcessingPhase.SetFaulting(System.String)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionForProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: SetFaulting
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionForProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionForProcessingPhase.cs
     startLine: 7
   assemblies:
   - EventStore.Projections.Core
@@ -165,12 +145,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionForProcessingPhase.SetCurrentCheckpointSuggestedWorkItem(EventStore.Projections.Core.Services.Processing.CheckpointSuggestedWorkItem)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionForProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: SetCurrentCheckpointSuggestedWorkItem
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionForProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionForProcessingPhase.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core
@@ -194,12 +170,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionForProcessingPhase.EnsureTickPending()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionForProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EnsureTickPending
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionForProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionForProcessingPhase.cs
     startLine: 9
   assemblies:
   - EventStore.Projections.Core
@@ -220,12 +192,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionForProcessingPhase.LastProcessedEventPosition
   type: Property
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionForProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: LastProcessedEventPosition
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionForProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionForProcessingPhase.cs
     startLine: 10
   assemblies:
   - EventStore.Projections.Core
@@ -253,12 +221,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionForProcessingPhase.Subscribed()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionForProcessingPhase.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Subscribed
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionForProcessingPhase.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionForProcessingPhase.cs
     startLine: 11
   assemblies:
   - EventStore.Projections.Core
@@ -284,10 +248,18 @@ references:
   nameWithType: ICoreProjectionForProcessingPhase.SetFaulted
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionForProcessingPhase.SetFaulted
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Exception
   isExternal: true
   name: Exception

@@ -19,12 +19,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CoreProjectionCheckpointReader
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/CoreProjectionCheckpointReader.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: CoreProjectionCheckpointReader
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CoreProjectionCheckpointReader.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CoreProjectionCheckpointReader.cs
     startLine: 14
   assemblies:
   - EventStore.Projections.Core
@@ -59,12 +55,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CoreProjectionCheckpointReader.CoreProjectionCheckpointReader(EventStore.Core.Bus.IPublisher, Guid, EventStore.Core.Helpers.IODispatcher, System.String, EventStore.Projections.Core.Services.Processing.ProjectionVersion, System.Boolean)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/CoreProjectionCheckpointReader.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CoreProjectionCheckpointReader.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CoreProjectionCheckpointReader.cs
     startLine: 29
   assemblies:
   - EventStore.Projections.Core
@@ -102,12 +94,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CoreProjectionCheckpointReader.BeginLoadState()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/CoreProjectionCheckpointReader.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: BeginLoadState
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CoreProjectionCheckpointReader.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CoreProjectionCheckpointReader.cs
     startLine: 40
   assemblies:
   - EventStore.Projections.Core
@@ -134,12 +122,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CoreProjectionCheckpointReader.Initialize()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/CoreProjectionCheckpointReader.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Initialize
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CoreProjectionCheckpointReader.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CoreProjectionCheckpointReader.cs
     startLine: 52
   assemblies:
   - EventStore.Projections.Core
@@ -166,12 +150,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CoreProjectionCheckpointReader.BeforeBeginLoadState()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/CoreProjectionCheckpointReader.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: BeforeBeginLoadState
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CoreProjectionCheckpointReader.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CoreProjectionCheckpointReader.cs
     startLine: 58
   assemblies:
   - EventStore.Projections.Core
@@ -196,12 +176,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CoreProjectionCheckpointReader.RequestLoadState()
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/CoreProjectionCheckpointReader.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: RequestLoadState
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CoreProjectionCheckpointReader.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CoreProjectionCheckpointReader.cs
     startLine: 63
   assemblies:
   - EventStore.Projections.Core
@@ -226,12 +202,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CoreProjectionCheckpointReader.CheckpointLoaded(EventStore.Projections.Core.Services.Processing.CheckpointTag, System.String)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/CoreProjectionCheckpointReader.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: CheckpointLoaded
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CoreProjectionCheckpointReader.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CoreProjectionCheckpointReader.cs
     startLine: 110
   assemblies:
   - EventStore.Projections.Core
@@ -256,6 +228,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -266,6 +240,12 @@ references:
   name: ICoreProjectionCheckpointReader
   nameWithType: ICoreProjectionCheckpointReader
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionCheckpointReader
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.CoreProjectionCheckpointReader.#ctor*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.CoreProjectionCheckpointReader.#ctor
   name: CoreProjectionCheckpointReader
@@ -289,6 +269,8 @@ references:
   nameWithType: IODispatcher
   fullName: EventStore.Core.Helpers.IODispatcher
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -300,6 +282,8 @@ references:
   nameWithType: ProjectionVersion
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionVersion
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

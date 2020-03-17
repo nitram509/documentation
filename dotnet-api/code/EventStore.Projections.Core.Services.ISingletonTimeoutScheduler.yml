@@ -14,12 +14,8 @@ items:
   fullName: EventStore.Projections.Core.Services.ISingletonTimeoutScheduler
   type: Interface
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/ISingletonTimeoutScheduler.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: ISingletonTimeoutScheduler
-    path: ../EventStore/src/EventStore.Projections.Core/Services/ISingletonTimeoutScheduler.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ISingletonTimeoutScheduler.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -45,12 +41,8 @@ items:
   fullName: EventStore.Projections.Core.Services.ISingletonTimeoutScheduler.Schedule(System.Int32, Action)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/ISingletonTimeoutScheduler.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: Schedule
-    path: ../EventStore/src/EventStore.Projections.Core/Services/ISingletonTimeoutScheduler.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ISingletonTimeoutScheduler.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core
@@ -76,6 +68,8 @@ references:
   nameWithType: ISingletonTimeoutScheduler.Schedule
   fullName: EventStore.Projections.Core.Services.ISingletonTimeoutScheduler.Schedule
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -85,3 +79,9 @@ references:
   name: Action
   nameWithType: Action
   fullName: Action
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

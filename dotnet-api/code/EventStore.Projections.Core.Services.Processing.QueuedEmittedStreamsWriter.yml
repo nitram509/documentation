@@ -6,7 +6,7 @@ items:
   parent: EventStore.Projections.Core.Services.Processing
   children:
   - EventStore.Projections.Core.Services.Processing.QueuedEmittedStreamsWriter.#ctor(EventStore.Core.Helpers.IODispatcher,Guid)
-  - EventStore.Projections.Core.Services.Processing.QueuedEmittedStreamsWriter.WriteEvents(System.String,System.Int64,EventStore.Core.Data.Event[],ClaimsPrincipal,Action{EventStore.Core.Messages.ClientMessage.WriteEventsCompleted})
+  - EventStore.Projections.Core.Services.Processing.QueuedEmittedStreamsWriter.WriteEvents(System.String,System.Int64,EventStore.Core.Data.Event[],IPrincipal,Action{EventStore.Core.Messages.ClientMessage.WriteEventsCompleted})
   langs:
   - csharp
   - vb
@@ -15,12 +15,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.QueuedEmittedStreamsWriter
   type: Class
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/QueuedEmittedStreamsWriter.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: QueuedEmittedStreamsWriter
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/QueuedEmittedStreamsWriter.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/QueuedEmittedStreamsWriter.cs
     startLine: 7
   assemblies:
   - EventStore.Projections.Core
@@ -55,12 +51,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.QueuedEmittedStreamsWriter.QueuedEmittedStreamsWriter(EventStore.Core.Helpers.IODispatcher, Guid)
   type: Constructor
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/QueuedEmittedStreamsWriter.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/QueuedEmittedStreamsWriter.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/QueuedEmittedStreamsWriter.cs
     startLine: 11
   assemblies:
   - EventStore.Projections.Core
@@ -78,30 +70,26 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: EventStore.Projections.Core.Services.Processing.QueuedEmittedStreamsWriter.WriteEvents(System.String,System.Int64,EventStore.Core.Data.Event[],ClaimsPrincipal,Action{EventStore.Core.Messages.ClientMessage.WriteEventsCompleted})
-  commentId: M:EventStore.Projections.Core.Services.Processing.QueuedEmittedStreamsWriter.WriteEvents(System.String,System.Int64,EventStore.Core.Data.Event[],ClaimsPrincipal,Action{EventStore.Core.Messages.ClientMessage.WriteEventsCompleted})
-  id: WriteEvents(System.String,System.Int64,EventStore.Core.Data.Event[],ClaimsPrincipal,Action{EventStore.Core.Messages.ClientMessage.WriteEventsCompleted})
+- uid: EventStore.Projections.Core.Services.Processing.QueuedEmittedStreamsWriter.WriteEvents(System.String,System.Int64,EventStore.Core.Data.Event[],IPrincipal,Action{EventStore.Core.Messages.ClientMessage.WriteEventsCompleted})
+  commentId: M:EventStore.Projections.Core.Services.Processing.QueuedEmittedStreamsWriter.WriteEvents(System.String,System.Int64,EventStore.Core.Data.Event[],IPrincipal,Action{EventStore.Core.Messages.ClientMessage.WriteEventsCompleted})
+  id: WriteEvents(System.String,System.Int64,EventStore.Core.Data.Event[],IPrincipal,Action{EventStore.Core.Messages.ClientMessage.WriteEventsCompleted})
   parent: EventStore.Projections.Core.Services.Processing.QueuedEmittedStreamsWriter
   langs:
   - csharp
   - vb
-  name: WriteEvents(String, Int64, Event[], ClaimsPrincipal, Action<ClientMessage.WriteEventsCompleted>)
-  nameWithType: QueuedEmittedStreamsWriter.WriteEvents(String, Int64, Event[], ClaimsPrincipal, Action<ClientMessage.WriteEventsCompleted>)
-  fullName: EventStore.Projections.Core.Services.Processing.QueuedEmittedStreamsWriter.WriteEvents(System.String, System.Int64, EventStore.Core.Data.Event[], ClaimsPrincipal, Action<EventStore.Core.Messages.ClientMessage.WriteEventsCompleted>)
+  name: WriteEvents(String, Int64, Event[], IPrincipal, Action<ClientMessage.WriteEventsCompleted>)
+  nameWithType: QueuedEmittedStreamsWriter.WriteEvents(String, Int64, Event[], IPrincipal, Action<ClientMessage.WriteEventsCompleted>)
+  fullName: EventStore.Projections.Core.Services.Processing.QueuedEmittedStreamsWriter.WriteEvents(System.String, System.Int64, EventStore.Core.Data.Event[], IPrincipal, Action<EventStore.Core.Messages.ClientMessage.WriteEventsCompleted>)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/QueuedEmittedStreamsWriter.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: WriteEvents
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/QueuedEmittedStreamsWriter.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/QueuedEmittedStreamsWriter.cs
     startLine: 16
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
   syntax:
-    content: public void WriteEvents(string streamId, long expectedVersion, Event[] events, ClaimsPrincipal writeAs, Action<ClientMessage.WriteEventsCompleted> complete)
+    content: public void WriteEvents(string streamId, long expectedVersion, Event[] events, IPrincipal writeAs, Action<ClientMessage.WriteEventsCompleted> complete)
     parameters:
     - id: streamId
       type: System.String
@@ -110,20 +98,20 @@ items:
     - id: events
       type: EventStore.Core.Data.Event[]
     - id: writeAs
-      type: ClaimsPrincipal
+      type: IPrincipal
     - id: complete
       type: Action{EventStore.Core.Messages.ClientMessage.WriteEventsCompleted}
-    content.vb: Public Sub WriteEvents(streamId As String, expectedVersion As Long, events As  Event (), writeAs As ClaimsPrincipal, complete As Action(Of ClientMessage.WriteEventsCompleted))
+    content.vb: Public Sub WriteEvents(streamId As String, expectedVersion As Long, events As  Event (), writeAs As IPrincipal, complete As Action(Of ClientMessage.WriteEventsCompleted))
   overload: EventStore.Projections.Core.Services.Processing.QueuedEmittedStreamsWriter.WriteEvents*
   implements:
-  - EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter.WriteEvents(System.String,System.Int64,EventStore.Core.Data.Event[],ClaimsPrincipal,Action{EventStore.Core.Messages.ClientMessage.WriteEventsCompleted})
-  nameWithType.vb: QueuedEmittedStreamsWriter.WriteEvents(String, Int64, Event(), ClaimsPrincipal, Action(Of ClientMessage.WriteEventsCompleted))
+  - EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter.WriteEvents(System.String,System.Int64,EventStore.Core.Data.Event[],IPrincipal,Action{EventStore.Core.Messages.ClientMessage.WriteEventsCompleted})
+  nameWithType.vb: QueuedEmittedStreamsWriter.WriteEvents(String, Int64, Event(), IPrincipal, Action(Of ClientMessage.WriteEventsCompleted))
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: EventStore.Projections.Core.Services.Processing.QueuedEmittedStreamsWriter.WriteEvents(System.String, System.Int64, EventStore.Core.Data.Event(), ClaimsPrincipal, Action(Of EventStore.Core.Messages.ClientMessage.WriteEventsCompleted))
-  name.vb: WriteEvents(String, Int64, Event(), ClaimsPrincipal, Action(Of ClientMessage.WriteEventsCompleted))
+  fullName.vb: EventStore.Projections.Core.Services.Processing.QueuedEmittedStreamsWriter.WriteEvents(System.String, System.Int64, EventStore.Core.Data.Event(), IPrincipal, Action(Of EventStore.Core.Messages.ClientMessage.WriteEventsCompleted))
+  name.vb: WriteEvents(String, Int64, Event(), IPrincipal, Action(Of ClientMessage.WriteEventsCompleted))
 references:
 - uid: EventStore.Projections.Core.Services.Processing
   commentId: N:EventStore.Projections.Core.Services.Processing
@@ -131,6 +119,8 @@ references:
   nameWithType: EventStore.Projections.Core.Services.Processing
   fullName: EventStore.Projections.Core.Services.Processing
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -141,6 +131,12 @@ references:
   name: IEmittedStreamsWriter
   nameWithType: IEmittedStreamsWriter
   fullName: EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EventStore.Projections.Core.Services.Processing.QueuedEmittedStreamsWriter.#ctor*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.QueuedEmittedStreamsWriter.#ctor
   name: QueuedEmittedStreamsWriter
@@ -167,18 +163,18 @@ references:
   name: WriteEvents
   nameWithType: QueuedEmittedStreamsWriter.WriteEvents
   fullName: EventStore.Projections.Core.Services.Processing.QueuedEmittedStreamsWriter.WriteEvents
-- uid: EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter.WriteEvents(System.String,System.Int64,EventStore.Core.Data.Event[],ClaimsPrincipal,Action{EventStore.Core.Messages.ClientMessage.WriteEventsCompleted})
-  commentId: M:EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter.WriteEvents(System.String,System.Int64,EventStore.Core.Data.Event[],ClaimsPrincipal,Action{EventStore.Core.Messages.ClientMessage.WriteEventsCompleted})
+- uid: EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter.WriteEvents(System.String,System.Int64,EventStore.Core.Data.Event[],IPrincipal,Action{EventStore.Core.Messages.ClientMessage.WriteEventsCompleted})
+  commentId: M:EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter.WriteEvents(System.String,System.Int64,EventStore.Core.Data.Event[],IPrincipal,Action{EventStore.Core.Messages.ClientMessage.WriteEventsCompleted})
   parent: EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter
   isExternal: true
-  name: WriteEvents(String, Int64, Event[], ClaimsPrincipal, Action<ClientMessage.WriteEventsCompleted>)
-  nameWithType: IEmittedStreamsWriter.WriteEvents(String, Int64, Event[], ClaimsPrincipal, Action<ClientMessage.WriteEventsCompleted>)
-  fullName: EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter.WriteEvents(System.String, System.Int64, EventStore.Core.Data.Event[], ClaimsPrincipal, Action<EventStore.Core.Messages.ClientMessage.WriteEventsCompleted>)
-  nameWithType.vb: IEmittedStreamsWriter.WriteEvents(String, Int64, Event(), ClaimsPrincipal, Action(Of ClientMessage.WriteEventsCompleted))
-  fullName.vb: EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter.WriteEvents(System.String, System.Int64, EventStore.Core.Data.Event(), ClaimsPrincipal, Action(Of EventStore.Core.Messages.ClientMessage.WriteEventsCompleted))
-  name.vb: WriteEvents(String, Int64, Event(), ClaimsPrincipal, Action(Of ClientMessage.WriteEventsCompleted))
+  name: WriteEvents(String, Int64, Event[], IPrincipal, Action<ClientMessage.WriteEventsCompleted>)
+  nameWithType: IEmittedStreamsWriter.WriteEvents(String, Int64, Event[], IPrincipal, Action<ClientMessage.WriteEventsCompleted>)
+  fullName: EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter.WriteEvents(System.String, System.Int64, EventStore.Core.Data.Event[], IPrincipal, Action<EventStore.Core.Messages.ClientMessage.WriteEventsCompleted>)
+  nameWithType.vb: IEmittedStreamsWriter.WriteEvents(String, Int64, Event(), IPrincipal, Action(Of ClientMessage.WriteEventsCompleted))
+  fullName.vb: EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter.WriteEvents(System.String, System.Int64, EventStore.Core.Data.Event(), IPrincipal, Action(Of EventStore.Core.Messages.ClientMessage.WriteEventsCompleted))
+  name.vb: WriteEvents(String, Int64, Event(), IPrincipal, Action(Of ClientMessage.WriteEventsCompleted))
   spec.csharp:
-  - uid: EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter.WriteEvents(System.String,System.Int64,EventStore.Core.Data.Event[],ClaimsPrincipal,Action{EventStore.Core.Messages.ClientMessage.WriteEventsCompleted})
+  - uid: EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter.WriteEvents(System.String,System.Int64,EventStore.Core.Data.Event[],IPrincipal,Action{EventStore.Core.Messages.ClientMessage.WriteEventsCompleted})
     name: WriteEvents
     nameWithType: IEmittedStreamsWriter.WriteEvents
     fullName: EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter.WriteEvents
@@ -211,10 +207,10 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: ClaimsPrincipal
-    name: ClaimsPrincipal
-    nameWithType: ClaimsPrincipal
-    fullName: ClaimsPrincipal
+  - uid: IPrincipal
+    name: IPrincipal
+    nameWithType: IPrincipal
+    fullName: IPrincipal
     isExternal: true
   - name: ', '
     nameWithType: ', '
@@ -238,7 +234,7 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter.WriteEvents(System.String,System.Int64,EventStore.Core.Data.Event[],ClaimsPrincipal,Action{EventStore.Core.Messages.ClientMessage.WriteEventsCompleted})
+  - uid: EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter.WriteEvents(System.String,System.Int64,EventStore.Core.Data.Event[],IPrincipal,Action{EventStore.Core.Messages.ClientMessage.WriteEventsCompleted})
     name: WriteEvents
     nameWithType: IEmittedStreamsWriter.WriteEvents
     fullName: EventStore.Projections.Core.Services.Processing.IEmittedStreamsWriter.WriteEvents
@@ -271,10 +267,10 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: ClaimsPrincipal
-    name: ClaimsPrincipal
-    nameWithType: ClaimsPrincipal
-    fullName: ClaimsPrincipal
+  - uid: IPrincipal
+    name: IPrincipal
+    nameWithType: IPrincipal
+    fullName: IPrincipal
     isExternal: true
   - name: ', '
     nameWithType: ', '
@@ -298,11 +294,15 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
@@ -331,11 +331,11 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: ClaimsPrincipal
+- uid: IPrincipal
   isExternal: true
-  name: ClaimsPrincipal
-  nameWithType: ClaimsPrincipal
-  fullName: ClaimsPrincipal
+  name: IPrincipal
+  nameWithType: IPrincipal
+  fullName: IPrincipal
 - uid: Action{EventStore.Core.Messages.ClientMessage.WriteEventsCompleted}
   commentId: '!:Action{EventStore.Core.Messages.ClientMessage.WriteEventsCompleted}'
   definition: Action`1

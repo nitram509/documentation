@@ -14,12 +14,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IEmittedEventWriter
   type: Interface
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: IEmittedEventWriter
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core
@@ -45,12 +41,8 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IEmittedEventWriter.EventsEmitted(EventStore.Projections.Core.Services.Processing.EmittedEventEnvelope[], Guid, System.String)
   type: Method
   source:
-    remote:
-      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
-      branch: master
-      repo: git@github.com:EventStore/EventStore.git
     id: EventsEmitted
-    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
     startLine: 9
   assemblies:
   - EventStore.Projections.Core
@@ -110,7 +102,15 @@ references:
   nameWithType: Guid
   fullName: Guid
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
