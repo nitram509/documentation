@@ -15,8 +15,12 @@ items:
   fullName: EventStore.ClientAPI.Exceptions.CommandNotExpectedException
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Exceptions/CommandNotExpectedException.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CommandNotExpectedException
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Exceptions/CommandNotExpectedException.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Exceptions/CommandNotExpectedException.cs
     startLine: 4
   assemblies:
   - EventStore.ClientAPI
@@ -74,8 +78,12 @@ items:
   fullName: EventStore.ClientAPI.Exceptions.CommandNotExpectedException.CommandNotExpectedException(System.String, System.String)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Exceptions/CommandNotExpectedException.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Exceptions/CommandNotExpectedException.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Exceptions/CommandNotExpectedException.cs
     startLine: 8
   assemblies:
   - EventStore.ClientAPI
@@ -107,8 +115,12 @@ items:
   fullName: EventStore.ClientAPI.Exceptions.CommandNotExpectedException.CommandNotExpectedException(System.String)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Exceptions/CommandNotExpectedException.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Exceptions/CommandNotExpectedException.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Exceptions/CommandNotExpectedException.cs
     startLine: 15
   assemblies:
   - EventStore.ClientAPI

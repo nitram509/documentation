@@ -15,8 +15,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.QueryManager
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/QueryManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: QueryManager
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/QueryManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/QueryManager.cs
     startLine: 15
   assemblies:
   - EventStore.ClientAPI
@@ -54,8 +58,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.QueryManager.QueryManager(EventStore.ClientAPI.ILogger, System.Net.EndPoint, System.TimeSpan, System.TimeSpan, System.Net.Http.HttpMessageHandler)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/QueryManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/QueryManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/QueryManager.cs
     startLine: 27
   assemblies:
   - EventStore.ClientAPI
@@ -98,8 +106,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.QueryManager.ExecuteAsync(System.String, System.String, System.TimeSpan, System.TimeSpan, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/QueryManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ExecuteAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/QueryManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/QueryManager.cs
     startLine: 45
   assemblies:
   - EventStore.ClientAPI

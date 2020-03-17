@@ -26,8 +26,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.QuerySourceOptions
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: QuerySourceOptions
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
     startLine: 186
   assemblies:
   - EventStore.Projections.Core
@@ -58,8 +62,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.ResultStreamName
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ResultStreamName
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
     startLine: 188
   assemblies:
   - EventStore.Projections.Core
@@ -89,8 +97,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.PartitionResultStreamNamePattern
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: PartitionResultStreamNamePattern
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
     startLine: 190
   assemblies:
   - EventStore.Projections.Core
@@ -120,8 +132,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.ReorderEvents
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ReorderEvents
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
     startLine: 192
   assemblies:
   - EventStore.Projections.Core
@@ -151,8 +167,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.ProcessingLag
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ProcessingLag
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
     startLine: 194
   assemblies:
   - EventStore.Projections.Core
@@ -182,8 +202,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.IsBiState
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: IsBiState
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
     startLine: 196
   assemblies:
   - EventStore.Projections.Core
@@ -213,8 +237,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.DefinesStateTransform
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: DefinesStateTransform
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
     startLine: 198
   assemblies:
   - EventStore.Projections.Core
@@ -244,8 +272,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.ProducesResults
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ProducesResults
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
     startLine: 200
   assemblies:
   - EventStore.Projections.Core
@@ -275,8 +307,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.DefinesFold
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: DefinesFold
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
     startLine: 202
   assemblies:
   - EventStore.Projections.Core
@@ -306,8 +342,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.HandlesDeletedNotifications
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: HandlesDeletedNotifications
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
     startLine: 204
   assemblies:
   - EventStore.Projections.Core
@@ -337,8 +377,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.IncludeLinks
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: IncludeLinks
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
     startLine: 206
   assemblies:
   - EventStore.Projections.Core
@@ -368,8 +412,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.Equals(EventStore.Projections.Core.Services.Processing.QuerySourceOptions)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Equals
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
     startLine: 208
   assemblies:
   - EventStore.Projections.Core
@@ -399,8 +447,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.Equals(System.Object)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Equals
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
     startLine: 218
   assemblies:
   - EventStore.Projections.Core
@@ -432,8 +484,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.QuerySourceOptions.GetHashCode()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: GetHashCode
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/SourceDefinitionBuilder.cs
     startLine: 225
   assemblies:
   - EventStore.Projections.Core

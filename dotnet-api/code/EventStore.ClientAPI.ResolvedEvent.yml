@@ -20,8 +20,12 @@ items:
   fullName: EventStore.ClientAPI.ResolvedEvent
   type: Struct
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ResolvedEvent.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ResolvedEvent
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ResolvedEvent.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ResolvedEvent.cs
     startLine: 7
   assemblies:
   - EventStore.ClientAPI
@@ -61,8 +65,12 @@ items:
   fullName: EventStore.ClientAPI.ResolvedEvent.Event
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ResolvedEvent.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Event
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ResolvedEvent.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ResolvedEvent.cs
     startLine: 12
   assemblies:
   - EventStore.ClientAPI
@@ -92,8 +100,12 @@ items:
   fullName: EventStore.ClientAPI.ResolvedEvent.Link
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ResolvedEvent.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Link
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ResolvedEvent.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ResolvedEvent.cs
     startLine: 17
   assemblies:
   - EventStore.ClientAPI
@@ -123,8 +135,12 @@ items:
   fullName: EventStore.ClientAPI.ResolvedEvent.OriginalEvent
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ResolvedEvent.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: OriginalEvent
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ResolvedEvent.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ResolvedEvent.cs
     startLine: 26
   assemblies:
   - EventStore.ClientAPI
@@ -156,8 +172,12 @@ items:
   fullName: EventStore.ClientAPI.ResolvedEvent.IsResolved
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ResolvedEvent.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: IsResolved
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ResolvedEvent.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ResolvedEvent.cs
     startLine: 34
   assemblies:
   - EventStore.ClientAPI
@@ -189,8 +209,12 @@ items:
   fullName: EventStore.ClientAPI.ResolvedEvent.OriginalPosition
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ResolvedEvent.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: OriginalPosition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ResolvedEvent.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ResolvedEvent.cs
     startLine: 41
   assemblies:
   - EventStore.ClientAPI
@@ -220,8 +244,12 @@ items:
   fullName: EventStore.ClientAPI.ResolvedEvent.OriginalStreamId
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ResolvedEvent.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: OriginalStreamId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ResolvedEvent.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ResolvedEvent.cs
     startLine: 46
   assemblies:
   - EventStore.ClientAPI
@@ -253,8 +281,12 @@ items:
   fullName: EventStore.ClientAPI.ResolvedEvent.OriginalEventNumber
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ResolvedEvent.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: OriginalEventNumber
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ResolvedEvent.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ResolvedEvent.cs
     startLine: 53
   assemblies:
   - EventStore.ClientAPI

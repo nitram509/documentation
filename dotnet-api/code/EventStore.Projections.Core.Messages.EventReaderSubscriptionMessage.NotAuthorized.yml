@@ -15,8 +15,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.NotAuthorized
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: NotAuthorized
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
     startLine: 62
   assemblies:
   - EventStore.Projections.Core
@@ -58,8 +62,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.NotAuthorized.MsgTypeId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
     startLine: 65
   assemblies:
   - EventStore.Projections.Core
@@ -92,8 +100,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.NotAuthorized.NotAuthorized(Guid, EventStore.Projections.Core.Services.Processing.CheckpointTag, System.Single, System.Int64, System.Object)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
     startLine: 69
   assemblies:
   - EventStore.Projections.Core

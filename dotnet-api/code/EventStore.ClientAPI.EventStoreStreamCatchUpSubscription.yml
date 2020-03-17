@@ -18,8 +18,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreStreamCatchUpSubscription
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreStreamCatchUpSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStoreStreamCatchUpSubscription
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreStreamCatchUpSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreStreamCatchUpSubscription.cs
     startLine: 15
   assemblies:
   - EventStore.ClientAPI
@@ -83,8 +87,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreStreamCatchUpSubscription.LastProcessedEventNumber
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreStreamCatchUpSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: LastProcessedEventNumber
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreStreamCatchUpSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreStreamCatchUpSubscription.cs
     startLine: 19
   assemblies:
   - EventStore.ClientAPI
@@ -116,8 +124,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreStreamCatchUpSubscription.ReadEventsTillAsync(EventStore.ClientAPI.IEventStoreConnection, System.Boolean, EventStore.ClientAPI.SystemData.UserCredentials, System.Nullable<System.Int64>, System.Nullable<System.Int64>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreStreamCatchUpSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ReadEventsTillAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreStreamCatchUpSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreStreamCatchUpSubscription.cs
     startLine: 52
   assemblies:
   - EventStore.ClientAPI
@@ -169,8 +181,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreStreamCatchUpSubscription.TryProcessAsync(EventStore.ClientAPI.ResolvedEvent)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreStreamCatchUpSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: TryProcessAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreStreamCatchUpSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreStreamCatchUpSubscription.cs
     startLine: 124
   assemblies:
   - EventStore.ClientAPI
@@ -206,8 +222,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreStreamCatchUpSubscription.SubscribeToStreamAsync()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreStreamCatchUpSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SubscribeToStreamAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreStreamCatchUpSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreStreamCatchUpSubscription.cs
     startLine: 148
   assemblies:
   - EventStore.ClientAPI
@@ -238,8 +258,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreStreamCatchUpSubscription.LiveProcessingStarted(EventStore.ClientAPI.EventStoreCatchUpSubscription, EventStore.ClientAPI.Position)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreStreamCatchUpSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: LiveProcessingStarted
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreStreamCatchUpSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreStreamCatchUpSubscription.cs
     startLine: 164
   assemblies:
   - EventStore.ClientAPI

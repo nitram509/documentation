@@ -6,7 +6,7 @@ items:
   parent: EventStore.Projections.Core.Services.Processing
   children:
   - EventStore.Projections.Core.Services.Processing.ProjectionCoreService.#ctor(Guid,EventStore.Core.Bus.IPublisher,EventStore.Core.Bus.IPublisher,EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher,EventStore.Core.Services.TimerService.ITimeProvider,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.ISingletonTimeoutScheduler)
-  - EventStore.Projections.Core.Services.Processing.ProjectionCoreService.CreateStateHandler(EventStore.Projections.Core.Services.ISingletonTimeoutScheduler,EventStore.Common.Log.ILogger,System.String,System.String)
+  - EventStore.Projections.Core.Services.Processing.ProjectionCoreService.CreateStateHandler(EventStore.Projections.Core.Services.ISingletonTimeoutScheduler,ILogger,System.String,System.String)
   - EventStore.Projections.Core.Services.Processing.ProjectionCoreService.Handle(CoreProjectionProcessingMessage.CheckpointCompleted)
   - EventStore.Projections.Core.Services.Processing.ProjectionCoreService.Handle(CoreProjectionProcessingMessage.CheckpointLoaded)
   - EventStore.Projections.Core.Services.Processing.ProjectionCoreService.Handle(CoreProjectionProcessingMessage.Failed)
@@ -36,8 +36,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreService
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionCoreService
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
     startLine: 14
   assemblies:
   - EventStore.Projections.Core
@@ -90,8 +94,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.SubComponentName
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: SubComponentName
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
     startLine: 34
   assemblies:
   - EventStore.Projections.Core
@@ -119,8 +127,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.ProjectionCoreService(Guid, EventStore.Core.Bus.IPublisher, EventStore.Core.Bus.IPublisher, EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher, EventStore.Core.Services.TimerService.ITimeProvider, EventStore.Core.Helpers.IODispatcher, EventStore.Projections.Core.Services.ISingletonTimeoutScheduler)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
     startLine: 57
   assemblies:
   - EventStore.Projections.Core
@@ -160,8 +172,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.Logger
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Logger
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
     startLine: 75
   assemblies:
   - EventStore.Projections.Core
@@ -170,7 +186,7 @@ items:
     content: public ILogger Logger { get; }
     parameters: []
     return:
-      type: EventStore.Common.Log.ILogger
+      type: ILogger
     content.vb: Public ReadOnly Property Logger As ILogger
   overload: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.Logger*
   modifiers.csharp:
@@ -191,8 +207,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.Handle(EventStore.Projections.Core.Messages.ProjectionCoreServiceMessage.StartCore)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
     startLine: 79
   assemblies:
   - EventStore.Projections.Core
@@ -222,8 +242,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.Handle(EventStore.Projections.Core.Messages.ProjectionCoreServiceMessage.StopCore)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
     startLine: 84
   assemblies:
   - EventStore.Projections.Core
@@ -253,8 +277,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.Handle(EventStore.Projections.Core.Messages.ProjectionCoreServiceMessage.StopCoreTimeout)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
     startLine: 114
   assemblies:
   - EventStore.Projections.Core
@@ -284,8 +312,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.Handle(EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Suspended)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
     startLine: 120
   assemblies:
   - EventStore.Projections.Core
@@ -315,8 +347,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.Handle(EventStore.Projections.Core.Messages.ProjectionCoreServiceMessage.CoreTick)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
     startLine: 139
   assemblies:
   - EventStore.Projections.Core
@@ -346,8 +382,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.Handle(EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.CreateAndPrepare)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
     startLine: 143
   assemblies:
   - EventStore.Projections.Core
@@ -377,8 +417,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.Handle(EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.CreatePrepared)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
     startLine: 179
   assemblies:
   - EventStore.Projections.Core
@@ -408,8 +452,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.Handle(EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.Dispose)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
     startLine: 221
   assemblies:
   - EventStore.Projections.Core
@@ -439,8 +487,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.Handle(EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.Start)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
     startLine: 229
   assemblies:
   - EventStore.Projections.Core
@@ -470,8 +522,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.Handle(EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.LoadStopped)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
     startLine: 234
   assemblies:
   - EventStore.Projections.Core
@@ -501,8 +557,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.Handle(EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.Stop)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
     startLine: 239
   assemblies:
   - EventStore.Projections.Core
@@ -532,8 +592,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.Handle(EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.Kill)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
     startLine: 244
   assemblies:
   - EventStore.Projections.Core
@@ -563,8 +627,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.Handle(EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.GetState)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
     startLine: 249
   assemblies:
   - EventStore.Projections.Core
@@ -594,8 +662,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.Handle(EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.GetResult)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
     startLine: 255
   assemblies:
   - EventStore.Projections.Core
@@ -625,8 +697,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.Handle(CoreProjectionProcessingMessage.CheckpointCompleted)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
     startLine: 261
   assemblies:
   - EventStore.Projections.Core
@@ -656,8 +732,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.Handle(CoreProjectionProcessingMessage.CheckpointLoaded)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
     startLine: 267
   assemblies:
   - EventStore.Projections.Core
@@ -687,8 +767,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.Handle(CoreProjectionProcessingMessage.PrerecordedEventsLoaded)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
     startLine: 273
   assemblies:
   - EventStore.Projections.Core
@@ -718,8 +802,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.Handle(CoreProjectionProcessingMessage.RestartRequested)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
     startLine: 279
   assemblies:
   - EventStore.Projections.Core
@@ -749,8 +837,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.Handle(CoreProjectionProcessingMessage.Failed)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
     startLine: 285
   assemblies:
   - EventStore.Projections.Core
@@ -768,20 +860,24 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.CreateStateHandler(EventStore.Projections.Core.Services.ISingletonTimeoutScheduler,EventStore.Common.Log.ILogger,System.String,System.String)
-  commentId: M:EventStore.Projections.Core.Services.Processing.ProjectionCoreService.CreateStateHandler(EventStore.Projections.Core.Services.ISingletonTimeoutScheduler,EventStore.Common.Log.ILogger,System.String,System.String)
-  id: CreateStateHandler(EventStore.Projections.Core.Services.ISingletonTimeoutScheduler,EventStore.Common.Log.ILogger,System.String,System.String)
+- uid: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.CreateStateHandler(EventStore.Projections.Core.Services.ISingletonTimeoutScheduler,ILogger,System.String,System.String)
+  commentId: M:EventStore.Projections.Core.Services.Processing.ProjectionCoreService.CreateStateHandler(EventStore.Projections.Core.Services.ISingletonTimeoutScheduler,ILogger,System.String,System.String)
+  id: CreateStateHandler(EventStore.Projections.Core.Services.ISingletonTimeoutScheduler,ILogger,System.String,System.String)
   parent: EventStore.Projections.Core.Services.Processing.ProjectionCoreService
   langs:
   - csharp
   - vb
   name: CreateStateHandler(ISingletonTimeoutScheduler, ILogger, String, String)
   nameWithType: ProjectionCoreService.CreateStateHandler(ISingletonTimeoutScheduler, ILogger, String, String)
-  fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.CreateStateHandler(EventStore.Projections.Core.Services.ISingletonTimeoutScheduler, EventStore.Common.Log.ILogger, System.String, System.String)
+  fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.CreateStateHandler(EventStore.Projections.Core.Services.ISingletonTimeoutScheduler, ILogger, System.String, System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CreateStateHandler
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionCoreService.cs
     startLine: 291
   assemblies:
   - EventStore.Projections.Core
@@ -792,7 +888,7 @@ items:
     - id: singletonTimeoutScheduler
       type: EventStore.Projections.Core.Services.ISingletonTimeoutScheduler
     - id: logger
-      type: EventStore.Common.Log.ILogger
+      type: ILogger
     - id: handlerType
       type: System.String
     - id: query
@@ -1694,17 +1790,11 @@ references:
   name: Logger
   nameWithType: ProjectionCoreService.Logger
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.Logger
-- uid: EventStore.Common.Log.ILogger
-  commentId: T:EventStore.Common.Log.ILogger
-  parent: EventStore.Common.Log
+- uid: ILogger
+  isExternal: true
   name: ILogger
   nameWithType: ILogger
-  fullName: EventStore.Common.Log.ILogger
-- uid: EventStore.Common.Log
-  commentId: N:EventStore.Common.Log
-  name: EventStore.Common.Log
-  nameWithType: EventStore.Common.Log
-  fullName: EventStore.Common.Log
+  fullName: ILogger
 - uid: EventStore.Projections.Core.Services.Processing.ProjectionCoreService.Handle*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.ProjectionCoreService.Handle
   name: Handle

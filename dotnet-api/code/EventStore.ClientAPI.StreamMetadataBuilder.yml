@@ -45,8 +45,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamMetadataBuilder
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 10
   assemblies:
   - EventStore.ClientAPI
@@ -84,8 +88,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.CustomPropertyKeys
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CustomPropertyKeys
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 28
   assemblies:
   - EventStore.ClientAPI
@@ -118,8 +126,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.Implicit(EventStore.ClientAPI.StreamMetadataBuilder to EventStore.ClientAPI.StreamMetadata)
   type: Operator
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: op_Implicit
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 60
   assemblies:
   - EventStore.ClientAPI
@@ -158,8 +170,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.Build()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Build
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 67
   assemblies:
   - EventStore.ClientAPI
@@ -188,8 +204,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetMaxCount(System.Int64)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetMaxCount
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 84
   assemblies:
   - EventStore.ClientAPI
@@ -223,8 +243,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetMaxAge(System.TimeSpan)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetMaxAge
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 95
   assemblies:
   - EventStore.ClientAPI
@@ -258,8 +282,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetTruncateBefore(System.Int64)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetTruncateBefore
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 106
   assemblies:
   - EventStore.ClientAPI
@@ -293,8 +321,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetCacheControl(System.TimeSpan)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetCacheControl
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 117
   assemblies:
   - EventStore.ClientAPI
@@ -328,8 +360,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetReadRole(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetReadRole
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 128
   assemblies:
   - EventStore.ClientAPI
@@ -363,8 +399,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetReadRoles(System.String[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetReadRoles
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 138
   assemblies:
   - EventStore.ClientAPI
@@ -401,8 +441,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetWriteRole(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetWriteRole
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 148
   assemblies:
   - EventStore.ClientAPI
@@ -436,8 +480,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetWriteRoles(System.String[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetWriteRoles
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 158
   assemblies:
   - EventStore.ClientAPI
@@ -474,8 +522,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetDeleteRole(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetDeleteRole
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 168
   assemblies:
   - EventStore.ClientAPI
@@ -509,8 +561,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetDeleteRoles(System.String[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetDeleteRoles
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 178
   assemblies:
   - EventStore.ClientAPI
@@ -547,8 +603,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetMetadataReadRole(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetMetadataReadRole
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 188
   assemblies:
   - EventStore.ClientAPI
@@ -582,8 +642,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetMetadataReadRoles(System.String[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetMetadataReadRoles
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 198
   assemblies:
   - EventStore.ClientAPI
@@ -620,8 +684,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetMetadataWriteRole(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetMetadataWriteRole
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 208
   assemblies:
   - EventStore.ClientAPI
@@ -655,8 +723,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetMetadataWriteRoles(System.String[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetMetadataWriteRoles
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 218
   assemblies:
   - EventStore.ClientAPI
@@ -693,8 +765,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetCustomProperty(System.String, System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetCustomProperty
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 229
   assemblies:
   - EventStore.ClientAPI
@@ -731,8 +807,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetCustomProperty(System.String, System.Int32)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetCustomProperty
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 240
   assemblies:
   - EventStore.ClientAPI
@@ -769,8 +849,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetCustomProperty(System.String, System.Nullable<System.Int32>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetCustomProperty
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 251
   assemblies:
   - EventStore.ClientAPI
@@ -810,8 +894,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetCustomProperty(System.String, System.Int64)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetCustomProperty
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 262
   assemblies:
   - EventStore.ClientAPI
@@ -848,8 +936,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetCustomProperty(System.String, System.Nullable<System.Int64>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetCustomProperty
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 273
   assemblies:
   - EventStore.ClientAPI
@@ -889,8 +981,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetCustomProperty(System.String, System.Single)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetCustomProperty
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 284
   assemblies:
   - EventStore.ClientAPI
@@ -927,8 +1023,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetCustomProperty(System.String, System.Nullable<System.Single>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetCustomProperty
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 295
   assemblies:
   - EventStore.ClientAPI
@@ -968,8 +1068,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetCustomProperty(System.String, System.Double)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetCustomProperty
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 306
   assemblies:
   - EventStore.ClientAPI
@@ -1006,8 +1110,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetCustomProperty(System.String, System.Nullable<System.Double>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetCustomProperty
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 317
   assemblies:
   - EventStore.ClientAPI
@@ -1047,8 +1155,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetCustomProperty(System.String, System.Decimal)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetCustomProperty
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 328
   assemblies:
   - EventStore.ClientAPI
@@ -1085,8 +1197,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetCustomProperty(System.String, System.Nullable<System.Decimal>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetCustomProperty
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 339
   assemblies:
   - EventStore.ClientAPI
@@ -1126,8 +1242,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetCustomProperty(System.String, System.Boolean)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetCustomProperty
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 350
   assemblies:
   - EventStore.ClientAPI
@@ -1164,8 +1284,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetCustomProperty(System.String, System.Nullable<System.Boolean>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetCustomProperty
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 361
   assemblies:
   - EventStore.ClientAPI
@@ -1205,8 +1329,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.SetCustomPropertyWithValueAsRawJsonString(System.String, System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetCustomPropertyWithValueAsRawJsonString
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 372
   assemblies:
   - EventStore.ClientAPI
@@ -1243,8 +1371,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataBuilder.RemoveCustomProperty(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: RemoveCustomProperty
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataBuilder.cs
     startLine: 382
   assemblies:
   - EventStore.ClientAPI

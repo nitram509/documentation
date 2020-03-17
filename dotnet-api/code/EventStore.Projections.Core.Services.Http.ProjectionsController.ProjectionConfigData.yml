@@ -21,9 +21,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionsController.ProjectionConfigData
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionConfigData
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
-    startLine: 627
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+    startLine: 628
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Http
@@ -53,9 +57,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionsController.ProjectionConfigData.EmitEnabled
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EmitEnabled
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
-    startLine: 628
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+    startLine: 629
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Http
@@ -84,9 +92,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionsController.ProjectionConfigData.TrackEmittedStreams
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: TrackEmittedStreams
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
-    startLine: 629
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+    startLine: 630
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Http
@@ -115,9 +127,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionsController.ProjectionConfigData.CheckpointAfterMs
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CheckpointAfterMs
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
-    startLine: 630
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+    startLine: 631
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Http
@@ -146,9 +162,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionsController.ProjectionConfigData.CheckpointHandledThreshold
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CheckpointHandledThreshold
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
-    startLine: 631
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+    startLine: 632
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Http
@@ -177,9 +197,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionsController.ProjectionConfigData.CheckpointUnhandledBytesThreshold
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CheckpointUnhandledBytesThreshold
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
-    startLine: 632
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+    startLine: 633
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Http
@@ -208,9 +232,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionsController.ProjectionConfigData.PendingEventsThreshold
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: PendingEventsThreshold
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
-    startLine: 633
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+    startLine: 634
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Http
@@ -239,9 +267,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionsController.ProjectionConfigData.MaxWriteBatchLength
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MaxWriteBatchLength
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
-    startLine: 634
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+    startLine: 635
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Http
@@ -270,9 +302,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Http.ProjectionsController.ProjectionConfigData.MaxAllowedWritesInFlight
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MaxAllowedWritesInFlight
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
-    startLine: 635
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Http/ProjectionsController.cs
+    startLine: 636
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Http

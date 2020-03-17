@@ -17,8 +17,12 @@ items:
   fullName: EventStore.ClientAPI.Transport.Http.IHttpClient
   type: Interface
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Transport.Http/IHttpClient.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: IHttpClient
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Transport.Http/IHttpClient.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Transport.Http/IHttpClient.cs
     startLine: 7
   assemblies:
   - EventStore.ClientAPI
@@ -46,8 +50,12 @@ items:
   fullName: EventStore.ClientAPI.Transport.Http.IHttpClient.Get(System.String, EventStore.ClientAPI.SystemData.UserCredentials, System.Action<EventStore.ClientAPI.Transport.Http.HttpResponse>, System.Action<System.Exception>, System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Transport.Http/IHttpClient.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Get
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Transport.Http/IHttpClient.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Transport.Http/IHttpClient.cs
     startLine: 16
   assemblies:
   - EventStore.ClientAPI
@@ -89,8 +97,12 @@ items:
   fullName: EventStore.ClientAPI.Transport.Http.IHttpClient.Post(System.String, System.String, System.String, EventStore.ClientAPI.SystemData.UserCredentials, System.Action<EventStore.ClientAPI.Transport.Http.HttpResponse>, System.Action<System.Exception>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Transport.Http/IHttpClient.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Post
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Transport.Http/IHttpClient.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Transport.Http/IHttpClient.cs
     startLine: 29
   assemblies:
   - EventStore.ClientAPI
@@ -135,8 +147,12 @@ items:
   fullName: EventStore.ClientAPI.Transport.Http.IHttpClient.Delete(System.String, EventStore.ClientAPI.SystemData.UserCredentials, System.Action<EventStore.ClientAPI.Transport.Http.HttpResponse>, System.Action<System.Exception>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Transport.Http/IHttpClient.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Delete
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Transport.Http/IHttpClient.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Transport.Http/IHttpClient.cs
     startLine: 39
   assemblies:
   - EventStore.ClientAPI
@@ -175,8 +191,12 @@ items:
   fullName: EventStore.ClientAPI.Transport.Http.IHttpClient.Put(System.String, System.String, System.String, EventStore.ClientAPI.SystemData.UserCredentials, System.Action<EventStore.ClientAPI.Transport.Http.HttpResponse>, System.Action<System.Exception>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Transport.Http/IHttpClient.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Put
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Transport.Http/IHttpClient.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Transport.Http/IHttpClient.cs
     startLine: 51
   assemblies:
   - EventStore.ClientAPI

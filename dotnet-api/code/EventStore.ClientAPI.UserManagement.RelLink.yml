@@ -16,8 +16,12 @@ items:
   fullName: EventStore.ClientAPI.UserManagement.RelLink
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/UserManagement/RelLink.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: RelLink
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/UserManagement/RelLink.cs
+    path: ../EventStore/src/EventStore.ClientAPI/UserManagement/RelLink.cs
     startLine: 4
   assemblies:
   - EventStore.ClientAPI
@@ -55,8 +59,12 @@ items:
   fullName: EventStore.ClientAPI.UserManagement.RelLink.Href
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/UserManagement/RelLink.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Href
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/UserManagement/RelLink.cs
+    path: ../EventStore/src/EventStore.ClientAPI/UserManagement/RelLink.cs
     startLine: 8
   assemblies:
   - EventStore.ClientAPI
@@ -86,8 +94,12 @@ items:
   fullName: EventStore.ClientAPI.UserManagement.RelLink.Rel
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/UserManagement/RelLink.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Rel
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/UserManagement/RelLink.cs
+    path: ../EventStore/src/EventStore.ClientAPI/UserManagement/RelLink.cs
     startLine: 13
   assemblies:
   - EventStore.ClientAPI
@@ -117,8 +129,12 @@ items:
   fullName: EventStore.ClientAPI.UserManagement.RelLink.RelLink(System.String, System.String)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/UserManagement/RelLink.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/UserManagement/RelLink.cs
+    path: ../EventStore/src/EventStore.ClientAPI/UserManagement/RelLink.cs
     startLine: 20
   assemblies:
   - EventStore.ClientAPI

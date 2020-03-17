@@ -16,8 +16,12 @@ items:
   fullName: EventStore.Projections.Core.Utils.EncodingExtensions
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Utils/EncodingExtensions.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EncodingExtensions
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Utils/EncodingExtensions.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Utils/EncodingExtensions.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -50,8 +54,12 @@ items:
   fullName: EventStore.Projections.Core.Utils.EncodingExtensions.FromUtf8(System.Byte[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Utils/EncodingExtensions.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: FromUtf8
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Utils/EncodingExtensions.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Utils/EncodingExtensions.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core
@@ -90,8 +98,12 @@ items:
   fullName: EventStore.Projections.Core.Utils.EncodingExtensions.ToUtf8(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Utils/EncodingExtensions.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ToUtf8
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Utils/EncodingExtensions.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Utils/EncodingExtensions.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core
@@ -127,8 +139,12 @@ items:
   fullName: EventStore.Projections.Core.Utils.EncodingExtensions.Apply(System.String, System.Object[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Utils/EncodingExtensions.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Apply
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Utils/EncodingExtensions.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Utils/EncodingExtensions.cs
     startLine: 12
   assemblies:
   - EventStore.Projections.Core

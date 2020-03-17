@@ -39,8 +39,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionDetails
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 6
   assemblies:
   - EventStore.ClientAPI
@@ -80,8 +84,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.CoreProcessingTime
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CoreProcessingTime
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 10
   assemblies:
   - EventStore.ClientAPI
@@ -111,8 +119,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.Version
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Version
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 15
   assemblies:
   - EventStore.ClientAPI
@@ -142,8 +154,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.Epoch
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Epoch
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 20
   assemblies:
   - EventStore.ClientAPI
@@ -173,8 +189,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.EffectiveName
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EffectiveName
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 25
   assemblies:
   - EventStore.ClientAPI
@@ -204,8 +224,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.WritesInProgress
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: WritesInProgress
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 30
   assemblies:
   - EventStore.ClientAPI
@@ -235,8 +259,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.ReadsInProgress
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ReadsInProgress
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 35
   assemblies:
   - EventStore.ClientAPI
@@ -266,8 +294,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.PartitionsCached
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: PartitionsCached
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 40
   assemblies:
   - EventStore.ClientAPI
@@ -297,8 +329,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.Status
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Status
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 45
   assemblies:
   - EventStore.ClientAPI
@@ -328,8 +364,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.StateReason
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StateReason
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 50
   assemblies:
   - EventStore.ClientAPI
@@ -359,8 +399,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.Name
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Name
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 55
   assemblies:
   - EventStore.ClientAPI
@@ -390,8 +434,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.Mode
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Mode
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 60
   assemblies:
   - EventStore.ClientAPI
@@ -421,8 +469,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.Position
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Position
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 65
   assemblies:
   - EventStore.ClientAPI
@@ -452,8 +504,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.Progress
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Progress
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 70
   assemblies:
   - EventStore.ClientAPI
@@ -483,8 +539,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.LastCheckpoint
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: LastCheckpoint
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 75
   assemblies:
   - EventStore.ClientAPI
@@ -514,8 +574,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.EventsProcessedAfterRestart
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EventsProcessedAfterRestart
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 80
   assemblies:
   - EventStore.ClientAPI
@@ -545,8 +609,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.StatusUrl
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StatusUrl
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 85
   assemblies:
   - EventStore.ClientAPI
@@ -576,8 +644,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.StateUrl
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StateUrl
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 90
   assemblies:
   - EventStore.ClientAPI
@@ -607,8 +679,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.ResultUrl
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ResultUrl
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 95
   assemblies:
   - EventStore.ClientAPI
@@ -638,8 +714,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.QueryUrl
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: QueryUrl
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 100
   assemblies:
   - EventStore.ClientAPI
@@ -669,8 +749,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.EnableCommandUrl
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EnableCommandUrl
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 105
   assemblies:
   - EventStore.ClientAPI
@@ -700,8 +784,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.DisableCommandUrl
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: DisableCommandUrl
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 110
   assemblies:
   - EventStore.ClientAPI
@@ -731,8 +819,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.CheckpointStatus
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CheckpointStatus
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 115
   assemblies:
   - EventStore.ClientAPI
@@ -762,8 +854,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.BufferedEvents
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: BufferedEvents
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 120
   assemblies:
   - EventStore.ClientAPI
@@ -793,8 +889,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.WritePendingEventsBeforeCheckpoint
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: WritePendingEventsBeforeCheckpoint
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 125
   assemblies:
   - EventStore.ClientAPI
@@ -824,8 +924,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.WritePendingEventsAfterCheckpoint
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: WritePendingEventsAfterCheckpoint
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 130
   assemblies:
   - EventStore.ClientAPI
@@ -855,8 +959,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionDetails.ProjectionDetails(System.Int64, System.Int64, System.Int64, System.String, System.Int32, System.Int32, System.Int32, System.String, System.String, System.String, System.String, System.String, System.Single, System.String, System.Int64, System.Uri, System.Uri, System.Uri, System.Uri, System.Uri, System.Uri, System.String, System.Int64, System.Int32, System.Int32)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionDetails.cs
     startLine: 160
   assemblies:
   - EventStore.ClientAPI

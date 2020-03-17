@@ -15,8 +15,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.Dispose
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Dispose
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
     startLine: 219
   assemblies:
   - EventStore.Projections.Core
@@ -54,8 +58,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.Dispose.MsgTypeId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
     startLine: 222
   assemblies:
   - EventStore.Projections.Core
@@ -88,8 +96,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.Dispose.Dispose(Guid, Guid)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
     startLine: 226
   assemblies:
   - EventStore.Projections.Core

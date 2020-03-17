@@ -24,8 +24,12 @@ items:
   fullName: EventStore.ClientAPI.UserManagement.UsersManager
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/UserManagement/UsersManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: UsersManager
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/UserManagement/UsersManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/UserManagement/UsersManager.cs
     startLine: 14
   assemblies:
   - EventStore.ClientAPI
@@ -63,8 +67,12 @@ items:
   fullName: EventStore.ClientAPI.UserManagement.UsersManager.UsersManager(EventStore.ClientAPI.ILogger, System.Net.EndPoint, System.TimeSpan, System.Boolean, System.Net.Http.HttpMessageHandler)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/UserManagement/UsersManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/UserManagement/UsersManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/UserManagement/UsersManager.cs
     startLine: 28
   assemblies:
   - EventStore.ClientAPI
@@ -107,8 +115,12 @@ items:
   fullName: EventStore.ClientAPI.UserManagement.UsersManager.EnableAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/UserManagement/UsersManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EnableAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/UserManagement/UsersManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/UserManagement/UsersManager.cs
     startLine: 43
   assemblies:
   - EventStore.ClientAPI
@@ -145,8 +157,12 @@ items:
   fullName: EventStore.ClientAPI.UserManagement.UsersManager.DisableAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/UserManagement/UsersManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: DisableAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/UserManagement/UsersManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/UserManagement/UsersManager.cs
     startLine: 54
   assemblies:
   - EventStore.ClientAPI
@@ -183,8 +199,12 @@ items:
   fullName: EventStore.ClientAPI.UserManagement.UsersManager.DeleteUserAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/UserManagement/UsersManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: DeleteUserAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/UserManagement/UsersManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/UserManagement/UsersManager.cs
     startLine: 65
   assemblies:
   - EventStore.ClientAPI
@@ -221,8 +241,12 @@ items:
   fullName: EventStore.ClientAPI.UserManagement.UsersManager.ListAllAsync(EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/UserManagement/UsersManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ListAllAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/UserManagement/UsersManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/UserManagement/UsersManager.cs
     startLine: 75
   assemblies:
   - EventStore.ClientAPI
@@ -256,8 +280,12 @@ items:
   fullName: EventStore.ClientAPI.UserManagement.UsersManager.GetCurrentUserAsync(EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/UserManagement/UsersManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GetCurrentUserAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/UserManagement/UsersManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/UserManagement/UsersManager.cs
     startLine: 84
   assemblies:
   - EventStore.ClientAPI
@@ -291,8 +319,12 @@ items:
   fullName: EventStore.ClientAPI.UserManagement.UsersManager.GetUserAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/UserManagement/UsersManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GetUserAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/UserManagement/UsersManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/UserManagement/UsersManager.cs
     startLine: 94
   assemblies:
   - EventStore.ClientAPI
@@ -329,8 +361,12 @@ items:
   fullName: EventStore.ClientAPI.UserManagement.UsersManager.CreateUserAsync(System.String, System.String, System.String[], System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/UserManagement/UsersManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CreateUserAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/UserManagement/UsersManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/UserManagement/UsersManager.cs
     startLine: 108
   assemblies:
   - EventStore.ClientAPI
@@ -379,8 +415,12 @@ items:
   fullName: EventStore.ClientAPI.UserManagement.UsersManager.UpdateUserAsync(System.String, System.String, System.String[], EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/UserManagement/UsersManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: UpdateUserAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/UserManagement/UsersManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/UserManagement/UsersManager.cs
     startLine: 126
   assemblies:
   - EventStore.ClientAPI
@@ -426,8 +466,12 @@ items:
   fullName: EventStore.ClientAPI.UserManagement.UsersManager.ChangePasswordAsync(System.String, System.String, System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/UserManagement/UsersManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ChangePasswordAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/UserManagement/UsersManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/UserManagement/UsersManager.cs
     startLine: 143
   assemblies:
   - EventStore.ClientAPI
@@ -470,8 +514,12 @@ items:
   fullName: EventStore.ClientAPI.UserManagement.UsersManager.ResetPasswordAsync(System.String, System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/UserManagement/UsersManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ResetPasswordAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/UserManagement/UsersManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/UserManagement/UsersManager.cs
     startLine: 159
   assemblies:
   - EventStore.ClientAPI

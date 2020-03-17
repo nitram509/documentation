@@ -17,8 +17,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Stopped
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Stopped
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
     startLine: 188
   assemblies:
   - EventStore.Projections.Core
@@ -55,8 +59,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Stopped.MsgTypeId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
     startLine: 191
   assemblies:
   - EventStore.Projections.Core
@@ -89,8 +97,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Stopped.Stopped(Guid, System.String, System.Boolean)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
     startLine: 198
   assemblies:
   - EventStore.Projections.Core
@@ -122,8 +134,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Stopped.Completed
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Completed
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
     startLine: 204
   assemblies:
   - EventStore.Projections.Core
@@ -153,8 +169,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.Stopped.Name
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Name
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
     startLine: 208
   assemblies:
   - EventStore.Projections.Core

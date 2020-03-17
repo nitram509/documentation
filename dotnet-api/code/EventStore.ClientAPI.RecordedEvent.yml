@@ -22,8 +22,12 @@ items:
   fullName: EventStore.ClientAPI.RecordedEvent
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/RecordedEvent.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: RecordedEvent
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/RecordedEvent.cs
+    path: ../EventStore/src/EventStore.ClientAPI/RecordedEvent.cs
     startLine: 9
   assemblies:
   - EventStore.ClientAPI
@@ -61,8 +65,12 @@ items:
   fullName: EventStore.ClientAPI.RecordedEvent.EventStreamId
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/RecordedEvent.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStreamId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/RecordedEvent.cs
+    path: ../EventStore/src/EventStore.ClientAPI/RecordedEvent.cs
     startLine: 13
   assemblies:
   - EventStore.ClientAPI
@@ -92,8 +100,12 @@ items:
   fullName: EventStore.ClientAPI.RecordedEvent.EventId
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/RecordedEvent.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EventId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/RecordedEvent.cs
+    path: ../EventStore/src/EventStore.ClientAPI/RecordedEvent.cs
     startLine: 18
   assemblies:
   - EventStore.ClientAPI
@@ -123,8 +135,12 @@ items:
   fullName: EventStore.ClientAPI.RecordedEvent.EventNumber
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/RecordedEvent.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EventNumber
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/RecordedEvent.cs
+    path: ../EventStore/src/EventStore.ClientAPI/RecordedEvent.cs
     startLine: 23
   assemblies:
   - EventStore.ClientAPI
@@ -154,8 +170,12 @@ items:
   fullName: EventStore.ClientAPI.RecordedEvent.EventType
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/RecordedEvent.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EventType
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/RecordedEvent.cs
+    path: ../EventStore/src/EventStore.ClientAPI/RecordedEvent.cs
     startLine: 28
   assemblies:
   - EventStore.ClientAPI
@@ -185,8 +205,12 @@ items:
   fullName: EventStore.ClientAPI.RecordedEvent.Data
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/RecordedEvent.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Data
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/RecordedEvent.cs
+    path: ../EventStore/src/EventStore.ClientAPI/RecordedEvent.cs
     startLine: 33
   assemblies:
   - EventStore.ClientAPI
@@ -216,8 +240,12 @@ items:
   fullName: EventStore.ClientAPI.RecordedEvent.Metadata
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/RecordedEvent.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Metadata
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/RecordedEvent.cs
+    path: ../EventStore/src/EventStore.ClientAPI/RecordedEvent.cs
     startLine: 38
   assemblies:
   - EventStore.ClientAPI
@@ -247,8 +275,12 @@ items:
   fullName: EventStore.ClientAPI.RecordedEvent.IsJson
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/RecordedEvent.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: IsJson
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/RecordedEvent.cs
+    path: ../EventStore/src/EventStore.ClientAPI/RecordedEvent.cs
     startLine: 43
   assemblies:
   - EventStore.ClientAPI
@@ -278,8 +310,12 @@ items:
   fullName: EventStore.ClientAPI.RecordedEvent.Created
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/RecordedEvent.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Created
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/RecordedEvent.cs
+    path: ../EventStore/src/EventStore.ClientAPI/RecordedEvent.cs
     startLine: 48
   assemblies:
   - EventStore.ClientAPI
@@ -307,8 +343,12 @@ items:
   fullName: EventStore.ClientAPI.RecordedEvent.CreatedEpoch
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/RecordedEvent.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CreatedEpoch
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/RecordedEvent.cs
+    path: ../EventStore/src/EventStore.ClientAPI/RecordedEvent.cs
     startLine: 53
   assemblies:
   - EventStore.ClientAPI

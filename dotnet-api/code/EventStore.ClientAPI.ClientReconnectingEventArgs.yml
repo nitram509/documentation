@@ -15,8 +15,12 @@ items:
   fullName: EventStore.ClientAPI.ClientReconnectingEventArgs
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ClientReconnectingEventArgs.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ClientReconnectingEventArgs
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ClientReconnectingEventArgs.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ClientReconnectingEventArgs.cs
     startLine: 7
   assemblies:
   - EventStore.ClientAPI
@@ -59,8 +63,12 @@ items:
   fullName: EventStore.ClientAPI.ClientReconnectingEventArgs.Connection
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ClientReconnectingEventArgs.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Connection
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ClientReconnectingEventArgs.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ClientReconnectingEventArgs.cs
     startLine: 11
   assemblies:
   - EventStore.ClientAPI
@@ -92,8 +100,12 @@ items:
   fullName: EventStore.ClientAPI.ClientReconnectingEventArgs.ClientReconnectingEventArgs(EventStore.ClientAPI.IEventStoreConnection)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ClientReconnectingEventArgs.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ClientReconnectingEventArgs.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ClientReconnectingEventArgs.cs
     startLine: 17
   assemblies:
   - EventStore.ClientAPI

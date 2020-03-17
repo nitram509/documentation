@@ -14,8 +14,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ISingletonTimeoutScheduler
   type: Interface
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ISingletonTimeoutScheduler.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ISingletonTimeoutScheduler
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ISingletonTimeoutScheduler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ISingletonTimeoutScheduler.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -41,8 +45,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ISingletonTimeoutScheduler.Schedule(System.Int32, Action)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ISingletonTimeoutScheduler.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Schedule
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ISingletonTimeoutScheduler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ISingletonTimeoutScheduler.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core

@@ -20,8 +20,12 @@ items:
   fullName: EventStore.ClientAPI.CatchUpSubscriptionSettings
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/CatchUpSubscriptionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CatchUpSubscriptionSettings
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/CatchUpSubscriptionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/CatchUpSubscriptionSettings.cs
     startLine: 7
   assemblies:
   - EventStore.ClientAPI
@@ -61,8 +65,12 @@ items:
   fullName: EventStore.ClientAPI.CatchUpSubscriptionSettings.MaxLiveQueueSize
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/CatchUpSubscriptionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MaxLiveQueueSize
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/CatchUpSubscriptionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/CatchUpSubscriptionSettings.cs
     startLine: 11
   assemblies:
   - EventStore.ClientAPI
@@ -92,8 +100,12 @@ items:
   fullName: EventStore.ClientAPI.CatchUpSubscriptionSettings.ReadBatchSize
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/CatchUpSubscriptionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ReadBatchSize
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/CatchUpSubscriptionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/CatchUpSubscriptionSettings.cs
     startLine: 16
   assemblies:
   - EventStore.ClientAPI
@@ -123,8 +135,12 @@ items:
   fullName: EventStore.ClientAPI.CatchUpSubscriptionSettings.VerboseLogging
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/CatchUpSubscriptionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: VerboseLogging
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/CatchUpSubscriptionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/CatchUpSubscriptionSettings.cs
     startLine: 21
   assemblies:
   - EventStore.ClientAPI
@@ -154,8 +170,12 @@ items:
   fullName: EventStore.ClientAPI.CatchUpSubscriptionSettings.ResolveLinkTos
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/CatchUpSubscriptionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ResolveLinkTos
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/CatchUpSubscriptionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/CatchUpSubscriptionSettings.cs
     startLine: 26
   assemblies:
   - EventStore.ClientAPI
@@ -185,8 +205,12 @@ items:
   fullName: EventStore.ClientAPI.CatchUpSubscriptionSettings.SubscriptionName
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/CatchUpSubscriptionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SubscriptionName
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/CatchUpSubscriptionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/CatchUpSubscriptionSettings.cs
     startLine: 31
   assemblies:
   - EventStore.ClientAPI
@@ -216,8 +240,12 @@ items:
   fullName: EventStore.ClientAPI.CatchUpSubscriptionSettings.Default
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/CatchUpSubscriptionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Default
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/CatchUpSubscriptionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/CatchUpSubscriptionSettings.cs
     startLine: 36
   assemblies:
   - EventStore.ClientAPI
@@ -249,8 +277,12 @@ items:
   fullName: EventStore.ClientAPI.CatchUpSubscriptionSettings.CatchUpSubscriptionSettings(System.Int32, System.Int32, System.Boolean, System.Boolean, System.String)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/CatchUpSubscriptionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/CatchUpSubscriptionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/CatchUpSubscriptionSettings.cs
     startLine: 52
   assemblies:
   - EventStore.ClientAPI

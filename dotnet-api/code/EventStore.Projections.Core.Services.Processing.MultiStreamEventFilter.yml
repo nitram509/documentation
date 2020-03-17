@@ -17,8 +17,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.MultiStreamEventFilter
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/MultiStreamEventFilter.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MultiStreamEventFilter
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamEventFilter.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamEventFilter.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -53,8 +57,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.MultiStreamEventFilter.MultiStreamEventFilter(HashSet<System.String>, System.Boolean, HashSet<System.String>)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/MultiStreamEventFilter.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamEventFilter.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamEventFilter.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core
@@ -89,8 +97,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.MultiStreamEventFilter.DeletedNotificationPasses(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/MultiStreamEventFilter.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: DeletedNotificationPasses
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamEventFilter.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamEventFilter.cs
     startLine: 11
   assemblies:
   - EventStore.Projections.Core
@@ -123,8 +135,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.MultiStreamEventFilter.PassesSource(System.Boolean, System.String, System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/MultiStreamEventFilter.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: PassesSource
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamEventFilter.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamEventFilter.cs
     startLine: 15
   assemblies:
   - EventStore.Projections.Core
@@ -161,8 +177,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.MultiStreamEventFilter.GetCategory(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/MultiStreamEventFilter.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: GetCategory
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamEventFilter.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/MultiStreamEventFilter.cs
     startLine: 19
   assemblies:
   - EventStore.Projections.Core

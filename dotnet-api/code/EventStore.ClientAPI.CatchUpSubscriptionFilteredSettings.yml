@@ -16,8 +16,12 @@ items:
   fullName: EventStore.ClientAPI.CatchUpSubscriptionFilteredSettings
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/CatchUpSubscriptionFilteredSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CatchUpSubscriptionFilteredSettings
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/CatchUpSubscriptionFilteredSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/CatchUpSubscriptionFilteredSettings.cs
     startLine: 4
   assemblies:
   - EventStore.ClientAPI
@@ -63,8 +67,12 @@ items:
   fullName: EventStore.ClientAPI.CatchUpSubscriptionFilteredSettings.CatchUpSubscriptionFilteredSettings(System.Int32, System.Int32, System.Boolean, System.Boolean, System.Int32, System.String)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/CatchUpSubscriptionFilteredSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/CatchUpSubscriptionFilteredSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/CatchUpSubscriptionFilteredSettings.cs
     startLine: 14
   assemblies:
   - EventStore.ClientAPI
@@ -110,8 +118,12 @@ items:
   fullName: EventStore.ClientAPI.CatchUpSubscriptionFilteredSettings.MaxSearchWindow
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/CatchUpSubscriptionFilteredSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MaxSearchWindow
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/CatchUpSubscriptionFilteredSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/CatchUpSubscriptionFilteredSettings.cs
     startLine: 24
   assemblies:
   - EventStore.ClientAPI
@@ -143,8 +155,12 @@ items:
   fullName: EventStore.ClientAPI.CatchUpSubscriptionFilteredSettings.Default
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/CatchUpSubscriptionFilteredSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Default
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/CatchUpSubscriptionFilteredSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/CatchUpSubscriptionFilteredSettings.cs
     startLine: 29
   assemblies:
   - EventStore.ClientAPI

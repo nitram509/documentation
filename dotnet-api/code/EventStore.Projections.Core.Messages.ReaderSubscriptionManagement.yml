@@ -13,8 +13,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.ReaderSubscriptionManagement
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ReaderSubscriptionManagement.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ReaderSubscriptionManagement
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionManagement.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionManagement.cs
     startLine: 5
   assemblies:
   - EventStore.Projections.Core

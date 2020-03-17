@@ -21,8 +21,12 @@ items:
   fullName: EventStore.ClientAPI.UserManagement.UserDetails
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/UserManagement/UserDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: UserDetails
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/UserManagement/UserDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/UserManagement/UserDetails.cs
     startLine: 7
   assemblies:
   - EventStore.ClientAPI
@@ -62,8 +66,12 @@ items:
   fullName: EventStore.ClientAPI.UserManagement.UserDetails.LoginName
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/UserManagement/UserDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: LoginName
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/UserManagement/UserDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/UserManagement/UserDetails.cs
     startLine: 11
   assemblies:
   - EventStore.ClientAPI
@@ -93,8 +101,12 @@ items:
   fullName: EventStore.ClientAPI.UserManagement.UserDetails.FullName
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/UserManagement/UserDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: FullName
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/UserManagement/UserDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/UserManagement/UserDetails.cs
     startLine: 16
   assemblies:
   - EventStore.ClientAPI
@@ -124,8 +136,12 @@ items:
   fullName: EventStore.ClientAPI.UserManagement.UserDetails.Groups
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/UserManagement/UserDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Groups
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/UserManagement/UserDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/UserManagement/UserDetails.cs
     startLine: 21
   assemblies:
   - EventStore.ClientAPI
@@ -155,8 +171,12 @@ items:
   fullName: EventStore.ClientAPI.UserManagement.UserDetails.DateLastUpdated
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/UserManagement/UserDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: DateLastUpdated
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/UserManagement/UserDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/UserManagement/UserDetails.cs
     startLine: 26
   assemblies:
   - EventStore.ClientAPI
@@ -186,8 +206,12 @@ items:
   fullName: EventStore.ClientAPI.UserManagement.UserDetails.Disabled
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/UserManagement/UserDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Disabled
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/UserManagement/UserDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/UserManagement/UserDetails.cs
     startLine: 31
   assemblies:
   - EventStore.ClientAPI
@@ -217,8 +241,12 @@ items:
   fullName: EventStore.ClientAPI.UserManagement.UserDetails.Links
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/UserManagement/UserDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Links
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/UserManagement/UserDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/UserManagement/UserDetails.cs
     startLine: 36
   assemblies:
   - EventStore.ClientAPI
@@ -248,8 +276,12 @@ items:
   fullName: EventStore.ClientAPI.UserManagement.UserDetails.UserDetails(System.String, System.String, System.String[], System.Boolean, System.Nullable<System.DateTimeOffset>, EventStore.ClientAPI.UserManagement.RelLink[])
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/UserManagement/UserDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/UserManagement/UserDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/UserManagement/UserDetails.cs
     startLine: 47
   assemblies:
   - EventStore.ClientAPI
@@ -298,8 +330,12 @@ items:
   fullName: EventStore.ClientAPI.UserManagement.UserDetails.GetRelLink(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/UserManagement/UserDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GetRelLink
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/UserManagement/UserDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/UserManagement/UserDetails.cs
     startLine: 63
   assemblies:
   - EventStore.ClientAPI

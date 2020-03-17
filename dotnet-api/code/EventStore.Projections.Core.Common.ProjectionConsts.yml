@@ -19,8 +19,12 @@ items:
   fullName: EventStore.Projections.Core.Common.ProjectionConsts
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Common/ProjectionConsts.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionConsts
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Common/ProjectionConsts.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Common/ProjectionConsts.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -52,8 +56,12 @@ items:
   fullName: EventStore.Projections.Core.Common.ProjectionConsts.CheckpointHandledThreshold
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Common/ProjectionConsts.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CheckpointHandledThreshold
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Common/ProjectionConsts.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Common/ProjectionConsts.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core
@@ -81,8 +89,12 @@ items:
   fullName: EventStore.Projections.Core.Common.ProjectionConsts.PendingEventsThreshold
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Common/ProjectionConsts.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: PendingEventsThreshold
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Common/ProjectionConsts.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Common/ProjectionConsts.cs
     startLine: 5
   assemblies:
   - EventStore.Projections.Core
@@ -110,8 +122,12 @@ items:
   fullName: EventStore.Projections.Core.Common.ProjectionConsts.MaxWriteBatchLength
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Common/ProjectionConsts.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MaxWriteBatchLength
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Common/ProjectionConsts.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Common/ProjectionConsts.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core
@@ -139,8 +155,12 @@ items:
   fullName: EventStore.Projections.Core.Common.ProjectionConsts.CheckpointUnhandledBytesThreshold
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Common/ProjectionConsts.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CheckpointUnhandledBytesThreshold
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Common/ProjectionConsts.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Common/ProjectionConsts.cs
     startLine: 7
   assemblies:
   - EventStore.Projections.Core
@@ -168,8 +188,12 @@ items:
   fullName: EventStore.Projections.Core.Common.ProjectionConsts.MaxAllowedWritesInFlight
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Common/ProjectionConsts.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MaxAllowedWritesInFlight
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Common/ProjectionConsts.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Common/ProjectionConsts.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core
@@ -197,8 +221,12 @@ items:
   fullName: EventStore.Projections.Core.Common.ProjectionConsts.CheckpointAfterMs
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Common/ProjectionConsts.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CheckpointAfterMs
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Common/ProjectionConsts.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Common/ProjectionConsts.cs
     startLine: 9
   assemblies:
   - EventStore.Projections.Core

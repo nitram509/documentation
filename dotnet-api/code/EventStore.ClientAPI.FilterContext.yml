@@ -15,8 +15,12 @@ items:
   fullName: EventStore.ClientAPI.FilterContext
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Filter.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: FilterContext
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Filter.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Filter.cs
     startLine: 38
   assemblies:
   - EventStore.ClientAPI
@@ -54,8 +58,12 @@ items:
   fullName: EventStore.ClientAPI.FilterContext.Regex(System.Text.RegularExpressions.Regex)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Filter.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Regex
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Filter.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Filter.cs
     startLine: 49
   assemblies:
   - EventStore.ClientAPI
@@ -89,8 +97,12 @@ items:
   fullName: EventStore.ClientAPI.FilterContext.Prefix(System.String[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Filter.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Prefix
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Filter.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Filter.cs
     startLine: 58
   assemblies:
   - EventStore.ClientAPI

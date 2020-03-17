@@ -16,8 +16,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStateHandlerTestExtensions
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionStateHandlerTestExtensions
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
     startLine: 61
   assemblies:
   - EventStore.Projections.Core
@@ -50,8 +54,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStateHandlerTestExtensions.ProcessEvent(EventStore.Projections.Core.Services.IProjectionStateHandler, System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag, System.String, System.String, System.String, Guid, System.Int64, System.String, System.String, out System.String, out EventStore.Projections.Core.Services.Processing.EmittedEventEnvelope[], System.Boolean)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ProcessEvent
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
     startLine: 62
   assemblies:
   - EventStore.Projections.Core
@@ -114,8 +122,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStateHandlerTestExtensions.ProcessEvent(EventStore.Projections.Core.Services.IProjectionStateHandler, System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag, System.String, System.String, System.String, Guid, System.Int64, System.String, System.String, out System.String, out System.String, out EventStore.Projections.Core.Services.Processing.EmittedEventEnvelope[], System.Boolean)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ProcessEvent
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
     startLine: 74
   assemblies:
   - EventStore.Projections.Core
@@ -180,8 +192,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionStateHandlerTestExtensions.GetNativeHandlerName(Type)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: GetNativeHandlerName
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
     startLine: 85
   assemblies:
   - EventStore.Projections.Core

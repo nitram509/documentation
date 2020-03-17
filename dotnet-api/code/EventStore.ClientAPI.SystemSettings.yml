@@ -20,8 +20,12 @@ items:
   fullName: EventStore.ClientAPI.SystemSettings
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/SystemSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SystemSettings
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SystemSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/SystemSettings.cs
     startLine: 11
   assemblies:
   - EventStore.ClientAPI
@@ -58,8 +62,12 @@ items:
   fullName: EventStore.ClientAPI.SystemSettings.UserStreamAcl
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/SystemSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: UserStreamAcl
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SystemSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/SystemSettings.cs
     startLine: 15
   assemblies:
   - EventStore.ClientAPI
@@ -89,8 +97,12 @@ items:
   fullName: EventStore.ClientAPI.SystemSettings.SystemStreamAcl
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/SystemSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SystemStreamAcl
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SystemSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/SystemSettings.cs
     startLine: 20
   assemblies:
   - EventStore.ClientAPI
@@ -120,8 +132,12 @@ items:
   fullName: EventStore.ClientAPI.SystemSettings.SystemSettings(EventStore.ClientAPI.StreamAcl, EventStore.ClientAPI.StreamAcl)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/SystemSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SystemSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/SystemSettings.cs
     startLine: 27
   assemblies:
   - EventStore.ClientAPI
@@ -155,8 +171,12 @@ items:
   fullName: EventStore.ClientAPI.SystemSettings.ToString()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/SystemSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ToString
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SystemSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/SystemSettings.cs
     startLine: 39
   assemblies:
   - EventStore.ClientAPI
@@ -189,8 +209,12 @@ items:
   fullName: EventStore.ClientAPI.SystemSettings.FromJsonBytes(System.Byte[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/SystemSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: FromJsonBytes
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SystemSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/SystemSettings.cs
     startLine: 49
   assemblies:
   - EventStore.ClientAPI
@@ -229,8 +253,12 @@ items:
   fullName: EventStore.ClientAPI.SystemSettings.ToJsonBytes()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/SystemSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ToJsonBytes
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SystemSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/SystemSettings.cs
     startLine: 98
   assemblies:
   - EventStore.ClientAPI
@@ -260,8 +288,12 @@ items:
   fullName: EventStore.ClientAPI.SystemSettings.ToJsonString()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/SystemSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ToJsonString
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SystemSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/SystemSettings.cs
     startLine: 113
   assemblies:
   - EventStore.ClientAPI

@@ -14,8 +14,12 @@ items:
   fullName: EventStore.ClientAPI.ConnectionString
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionString.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ConnectionString
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionString.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionString.cs
     startLine: 14
   assemblies:
   - EventStore.ClientAPI
@@ -53,8 +57,12 @@ items:
   fullName: EventStore.ClientAPI.ConnectionString.GetConnectionSettings(System.String, EventStore.ClientAPI.ConnectionSettingsBuilder)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionString.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GetConnectionSettings
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionString.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionString.cs
     startLine: 74
   assemblies:
   - EventStore.ClientAPI

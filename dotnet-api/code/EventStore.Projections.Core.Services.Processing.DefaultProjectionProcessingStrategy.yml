@@ -5,7 +5,7 @@ items:
   id: DefaultProjectionProcessingStrategy
   parent: EventStore.Projections.Core.Services.Processing
   children:
-  - EventStore.Projections.Core.Services.Processing.DefaultProjectionProcessingStrategy.#ctor(System.String,EventStore.Projections.Core.Services.Processing.ProjectionVersion,EventStore.Projections.Core.Services.IProjectionStateHandler,EventStore.Projections.Core.Services.ProjectionConfig,EventStore.Projections.Core.Messages.IQuerySources,EventStore.Common.Log.ILogger,EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher)
+  - EventStore.Projections.Core.Services.Processing.DefaultProjectionProcessingStrategy.#ctor(System.String,EventStore.Projections.Core.Services.Processing.ProjectionVersion,EventStore.Projections.Core.Services.IProjectionStateHandler,EventStore.Projections.Core.Services.ProjectionConfig,EventStore.Projections.Core.Messages.IQuerySources,Serilog.ILogger,EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher)
   - EventStore.Projections.Core.Services.Processing.DefaultProjectionProcessingStrategy.CreateFirstProcessingPhase(EventStore.Core.Bus.IPublisher,EventStore.Core.Bus.IPublisher,Guid,EventStore.Projections.Core.Services.Processing.PartitionStateCache,Action,EventStore.Projections.Core.Services.Processing.CoreProjection,EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher,EventStore.Projections.Core.Services.Processing.CheckpointTag,EventStore.Projections.Core.Services.Processing.ICoreProjectionCheckpointManager,EventStore.Projections.Core.Services.Processing.IReaderStrategy,EventStore.Projections.Core.Services.Processing.IResultWriter,EventStore.Projections.Core.Services.Processing.IEmittedStreamsTracker)
   - EventStore.Projections.Core.Services.Processing.DefaultProjectionProcessingStrategy.CreateStatePartitionSelector
   langs:
@@ -16,8 +16,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.DefaultProjectionProcessingStrategy
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/DefaultProjectionProcessingStrategy.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: DefaultProjectionProcessingStrategy
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/DefaultProjectionProcessingStrategy.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/DefaultProjectionProcessingStrategy.cs
     startLine: 163
   assemblies:
   - EventStore.Projections.Core
@@ -50,7 +54,7 @@ items:
   - EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy._name
   - EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy._projectionVersion
   - EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy._logger
-  - EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.Create(Guid,EventStore.Core.Bus.IPublisher,Guid,IPrincipal,EventStore.Core.Bus.IPublisher,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher,EventStore.Core.Services.TimerService.ITimeProvider)
+  - EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.Create(Guid,EventStore.Core.Bus.IPublisher,Guid,ClaimsPrincipal,EventStore.Core.Bus.IPublisher,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher,EventStore.Core.Services.TimerService.ITimeProvider)
   - EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetStopOnEof
   - EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetUseCheckpoints
   - EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.GetProducesRunningResults
@@ -62,26 +66,30 @@ items:
   - Public
   - MustInherit
   - Class
-- uid: EventStore.Projections.Core.Services.Processing.DefaultProjectionProcessingStrategy.#ctor(System.String,EventStore.Projections.Core.Services.Processing.ProjectionVersion,EventStore.Projections.Core.Services.IProjectionStateHandler,EventStore.Projections.Core.Services.ProjectionConfig,EventStore.Projections.Core.Messages.IQuerySources,EventStore.Common.Log.ILogger,EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher)
-  commentId: M:EventStore.Projections.Core.Services.Processing.DefaultProjectionProcessingStrategy.#ctor(System.String,EventStore.Projections.Core.Services.Processing.ProjectionVersion,EventStore.Projections.Core.Services.IProjectionStateHandler,EventStore.Projections.Core.Services.ProjectionConfig,EventStore.Projections.Core.Messages.IQuerySources,EventStore.Common.Log.ILogger,EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher)
-  id: '#ctor(System.String,EventStore.Projections.Core.Services.Processing.ProjectionVersion,EventStore.Projections.Core.Services.IProjectionStateHandler,EventStore.Projections.Core.Services.ProjectionConfig,EventStore.Projections.Core.Messages.IQuerySources,EventStore.Common.Log.ILogger,EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher)'
+- uid: EventStore.Projections.Core.Services.Processing.DefaultProjectionProcessingStrategy.#ctor(System.String,EventStore.Projections.Core.Services.Processing.ProjectionVersion,EventStore.Projections.Core.Services.IProjectionStateHandler,EventStore.Projections.Core.Services.ProjectionConfig,EventStore.Projections.Core.Messages.IQuerySources,Serilog.ILogger,EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher)
+  commentId: M:EventStore.Projections.Core.Services.Processing.DefaultProjectionProcessingStrategy.#ctor(System.String,EventStore.Projections.Core.Services.Processing.ProjectionVersion,EventStore.Projections.Core.Services.IProjectionStateHandler,EventStore.Projections.Core.Services.ProjectionConfig,EventStore.Projections.Core.Messages.IQuerySources,Serilog.ILogger,EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher)
+  id: '#ctor(System.String,EventStore.Projections.Core.Services.Processing.ProjectionVersion,EventStore.Projections.Core.Services.IProjectionStateHandler,EventStore.Projections.Core.Services.ProjectionConfig,EventStore.Projections.Core.Messages.IQuerySources,Serilog.ILogger,EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher)'
   parent: EventStore.Projections.Core.Services.Processing.DefaultProjectionProcessingStrategy
   langs:
   - csharp
   - vb
-  name: DefaultProjectionProcessingStrategy(String, ProjectionVersion, IProjectionStateHandler, ProjectionConfig, IQuerySources, ILogger, ReaderSubscriptionDispatcher)
-  nameWithType: DefaultProjectionProcessingStrategy.DefaultProjectionProcessingStrategy(String, ProjectionVersion, IProjectionStateHandler, ProjectionConfig, IQuerySources, ILogger, ReaderSubscriptionDispatcher)
-  fullName: EventStore.Projections.Core.Services.Processing.DefaultProjectionProcessingStrategy.DefaultProjectionProcessingStrategy(System.String, EventStore.Projections.Core.Services.Processing.ProjectionVersion, EventStore.Projections.Core.Services.IProjectionStateHandler, EventStore.Projections.Core.Services.ProjectionConfig, EventStore.Projections.Core.Messages.IQuerySources, EventStore.Common.Log.ILogger, EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher)
+  name: DefaultProjectionProcessingStrategy(String, ProjectionVersion, IProjectionStateHandler, ProjectionConfig, IQuerySources, Serilog.ILogger, ReaderSubscriptionDispatcher)
+  nameWithType: DefaultProjectionProcessingStrategy.DefaultProjectionProcessingStrategy(String, ProjectionVersion, IProjectionStateHandler, ProjectionConfig, IQuerySources, Serilog.ILogger, ReaderSubscriptionDispatcher)
+  fullName: EventStore.Projections.Core.Services.Processing.DefaultProjectionProcessingStrategy.DefaultProjectionProcessingStrategy(System.String, EventStore.Projections.Core.Services.Processing.ProjectionVersion, EventStore.Projections.Core.Services.IProjectionStateHandler, EventStore.Projections.Core.Services.ProjectionConfig, EventStore.Projections.Core.Messages.IQuerySources, Serilog.ILogger, EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/DefaultProjectionProcessingStrategy.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/DefaultProjectionProcessingStrategy.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/DefaultProjectionProcessingStrategy.cs
     startLine: 166
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
   syntax:
-    content: protected DefaultProjectionProcessingStrategy(string name, ProjectionVersion projectionVersion, IProjectionStateHandler stateHandler, ProjectionConfig projectionConfig, IQuerySources sourceDefinition, ILogger logger, ReaderSubscriptionDispatcher subscriptionDispatcher)
+    content: protected DefaultProjectionProcessingStrategy(string name, ProjectionVersion projectionVersion, IProjectionStateHandler stateHandler, ProjectionConfig projectionConfig, IQuerySources sourceDefinition, Serilog.ILogger logger, ReaderSubscriptionDispatcher subscriptionDispatcher)
     parameters:
     - id: name
       type: System.String
@@ -94,10 +102,10 @@ items:
     - id: sourceDefinition
       type: EventStore.Projections.Core.Messages.IQuerySources
     - id: logger
-      type: EventStore.Common.Log.ILogger
+      type: Serilog.ILogger
     - id: subscriptionDispatcher
       type: EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher
-    content.vb: Protected Sub New(name As String, projectionVersion As ProjectionVersion, stateHandler As IProjectionStateHandler, projectionConfig As ProjectionConfig, sourceDefinition As IQuerySources, logger As ILogger, subscriptionDispatcher As ReaderSubscriptionDispatcher)
+    content.vb: Protected Sub New(name As String, projectionVersion As ProjectionVersion, stateHandler As IProjectionStateHandler, projectionConfig As ProjectionConfig, sourceDefinition As IQuerySources, logger As Serilog.ILogger, subscriptionDispatcher As ReaderSubscriptionDispatcher)
   overload: EventStore.Projections.Core.Services.Processing.DefaultProjectionProcessingStrategy.#ctor*
   modifiers.csharp:
   - protected
@@ -115,8 +123,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.DefaultProjectionProcessingStrategy.CreateFirstProcessingPhase(EventStore.Core.Bus.IPublisher, EventStore.Core.Bus.IPublisher, Guid, EventStore.Projections.Core.Services.Processing.PartitionStateCache, Action, EventStore.Projections.Core.Services.Processing.CoreProjection, EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher, EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Services.Processing.ICoreProjectionCheckpointManager, EventStore.Projections.Core.Services.Processing.IReaderStrategy, EventStore.Projections.Core.Services.Processing.IResultWriter, EventStore.Projections.Core.Services.Processing.IEmittedStreamsTracker)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/DefaultProjectionProcessingStrategy.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CreateFirstProcessingPhase
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/DefaultProjectionProcessingStrategy.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/DefaultProjectionProcessingStrategy.cs
     startLine: 174
   assemblies:
   - EventStore.Projections.Core
@@ -171,8 +183,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.DefaultProjectionProcessingStrategy.CreateStatePartitionSelector()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/DefaultProjectionProcessingStrategy.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CreateStatePartitionSelector
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/DefaultProjectionProcessingStrategy.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/DefaultProjectionProcessingStrategy.cs
     startLine: 215
   assemblies:
   - EventStore.Projections.Core
@@ -901,15 +917,15 @@ references:
   name: _logger
   nameWithType: ProjectionProcessingStrategy._logger
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy._logger
-- uid: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.Create(Guid,EventStore.Core.Bus.IPublisher,Guid,IPrincipal,EventStore.Core.Bus.IPublisher,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher,EventStore.Core.Services.TimerService.ITimeProvider)
-  commentId: M:EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.Create(Guid,EventStore.Core.Bus.IPublisher,Guid,IPrincipal,EventStore.Core.Bus.IPublisher,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher,EventStore.Core.Services.TimerService.ITimeProvider)
+- uid: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.Create(Guid,EventStore.Core.Bus.IPublisher,Guid,ClaimsPrincipal,EventStore.Core.Bus.IPublisher,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher,EventStore.Core.Services.TimerService.ITimeProvider)
+  commentId: M:EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.Create(Guid,EventStore.Core.Bus.IPublisher,Guid,ClaimsPrincipal,EventStore.Core.Bus.IPublisher,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher,EventStore.Core.Services.TimerService.ITimeProvider)
   parent: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy
   isExternal: true
-  name: Create(Guid, IPublisher, Guid, IPrincipal, IPublisher, IODispatcher, ReaderSubscriptionDispatcher, ITimeProvider)
-  nameWithType: ProjectionProcessingStrategy.Create(Guid, IPublisher, Guid, IPrincipal, IPublisher, IODispatcher, ReaderSubscriptionDispatcher, ITimeProvider)
-  fullName: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.Create(Guid, EventStore.Core.Bus.IPublisher, Guid, IPrincipal, EventStore.Core.Bus.IPublisher, EventStore.Core.Helpers.IODispatcher, EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher, EventStore.Core.Services.TimerService.ITimeProvider)
+  name: Create(Guid, IPublisher, Guid, ClaimsPrincipal, IPublisher, IODispatcher, ReaderSubscriptionDispatcher, ITimeProvider)
+  nameWithType: ProjectionProcessingStrategy.Create(Guid, IPublisher, Guid, ClaimsPrincipal, IPublisher, IODispatcher, ReaderSubscriptionDispatcher, ITimeProvider)
+  fullName: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.Create(Guid, EventStore.Core.Bus.IPublisher, Guid, ClaimsPrincipal, EventStore.Core.Bus.IPublisher, EventStore.Core.Helpers.IODispatcher, EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher, EventStore.Core.Services.TimerService.ITimeProvider)
   spec.csharp:
-  - uid: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.Create(Guid,EventStore.Core.Bus.IPublisher,Guid,IPrincipal,EventStore.Core.Bus.IPublisher,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher,EventStore.Core.Services.TimerService.ITimeProvider)
+  - uid: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.Create(Guid,EventStore.Core.Bus.IPublisher,Guid,ClaimsPrincipal,EventStore.Core.Bus.IPublisher,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher,EventStore.Core.Services.TimerService.ITimeProvider)
     name: Create
     nameWithType: ProjectionProcessingStrategy.Create
     fullName: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.Create
@@ -939,10 +955,10 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: IPrincipal
-    name: IPrincipal
-    nameWithType: IPrincipal
-    fullName: IPrincipal
+  - uid: ClaimsPrincipal
+    name: ClaimsPrincipal
+    nameWithType: ClaimsPrincipal
+    fullName: ClaimsPrincipal
     isExternal: true
   - name: ', '
     nameWithType: ', '
@@ -976,7 +992,7 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.Create(Guid,EventStore.Core.Bus.IPublisher,Guid,IPrincipal,EventStore.Core.Bus.IPublisher,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher,EventStore.Core.Services.TimerService.ITimeProvider)
+  - uid: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.Create(Guid,EventStore.Core.Bus.IPublisher,Guid,ClaimsPrincipal,EventStore.Core.Bus.IPublisher,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher,EventStore.Core.Services.TimerService.ITimeProvider)
     name: Create
     nameWithType: ProjectionProcessingStrategy.Create
     fullName: EventStore.Projections.Core.Services.Processing.ProjectionProcessingStrategy.Create
@@ -1006,10 +1022,10 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: IPrincipal
-    name: IPrincipal
-    nameWithType: IPrincipal
-    fullName: IPrincipal
+  - uid: ClaimsPrincipal
+    name: ClaimsPrincipal
+    nameWithType: ClaimsPrincipal
+    fullName: ClaimsPrincipal
     isExternal: true
   - name: ', '
     nameWithType: ', '
@@ -1168,12 +1184,11 @@ references:
   name: IQuerySources
   nameWithType: IQuerySources
   fullName: EventStore.Projections.Core.Messages.IQuerySources
-- uid: EventStore.Common.Log.ILogger
-  commentId: T:EventStore.Common.Log.ILogger
-  parent: EventStore.Common.Log
-  name: ILogger
-  nameWithType: ILogger
-  fullName: EventStore.Common.Log.ILogger
+- uid: Serilog.ILogger
+  isExternal: true
+  name: Serilog.ILogger
+  nameWithType: Serilog.ILogger
+  fullName: Serilog.ILogger
 - uid: EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher
   commentId: T:EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher
   parent: EventStore.Projections.Core.Services
@@ -1190,11 +1205,6 @@ references:
   name: EventStore.Projections.Core.Messages
   nameWithType: EventStore.Projections.Core.Messages
   fullName: EventStore.Projections.Core.Messages
-- uid: EventStore.Common.Log
-  commentId: N:EventStore.Common.Log
-  name: EventStore.Common.Log
-  nameWithType: EventStore.Common.Log
-  fullName: EventStore.Common.Log
 - uid: EventStore.Projections.Core.Services.Processing.EventReaderBasedProjectionProcessingStrategy.CreateFirstProcessingPhase(EventStore.Core.Bus.IPublisher,EventStore.Core.Bus.IPublisher,Guid,EventStore.Projections.Core.Services.Processing.PartitionStateCache,Action,EventStore.Projections.Core.Services.Processing.CoreProjection,EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher,EventStore.Projections.Core.Services.Processing.CheckpointTag,EventStore.Projections.Core.Services.Processing.ICoreProjectionCheckpointManager,EventStore.Projections.Core.Services.Processing.IReaderStrategy,EventStore.Projections.Core.Services.Processing.IResultWriter,EventStore.Projections.Core.Services.Processing.IEmittedStreamsTracker)
   commentId: M:EventStore.Projections.Core.Services.Processing.EventReaderBasedProjectionProcessingStrategy.CreateFirstProcessingPhase(EventStore.Core.Bus.IPublisher,EventStore.Core.Bus.IPublisher,Guid,EventStore.Projections.Core.Services.Processing.PartitionStateCache,Action,EventStore.Projections.Core.Services.Processing.CoreProjection,EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher,EventStore.Projections.Core.Services.Processing.CheckpointTag,EventStore.Projections.Core.Services.Processing.ICoreProjectionCheckpointManager,EventStore.Projections.Core.Services.Processing.IReaderStrategy,EventStore.Projections.Core.Services.Processing.IResultWriter,EventStore.Projections.Core.Services.Processing.IEmittedStreamsTracker)
   parent: EventStore.Projections.Core.Services.Processing.EventReaderBasedProjectionProcessingStrategy

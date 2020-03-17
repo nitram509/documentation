@@ -15,8 +15,12 @@ items:
   fullName: EventStore.ClientAPI.DeleteResult
   type: Struct
   source:
+    remote:
+      path: src/EventStore.ClientAPI/DeleteResult.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: DeleteResult
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/DeleteResult.cs
+    path: ../EventStore/src/EventStore.ClientAPI/DeleteResult.cs
     startLine: 4
   assemblies:
   - EventStore.ClientAPI
@@ -53,8 +57,12 @@ items:
   fullName: EventStore.ClientAPI.DeleteResult.LogPosition
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/DeleteResult.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: LogPosition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/DeleteResult.cs
+    path: ../EventStore/src/EventStore.ClientAPI/DeleteResult.cs
     startLine: 8
   assemblies:
   - EventStore.ClientAPI
@@ -84,8 +92,12 @@ items:
   fullName: EventStore.ClientAPI.DeleteResult.DeleteResult(EventStore.ClientAPI.Position)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/DeleteResult.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/DeleteResult.cs
+    path: ../EventStore/src/EventStore.ClientAPI/DeleteResult.cs
     startLine: 14
   assemblies:
   - EventStore.ClientAPI

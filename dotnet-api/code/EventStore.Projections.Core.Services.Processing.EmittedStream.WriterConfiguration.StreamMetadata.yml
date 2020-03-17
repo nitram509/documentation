@@ -16,9 +16,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.StreamMetadata
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamMetadata
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
-    startLine: 78
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+    startLine: 79
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -48,9 +52,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.StreamMetadata.StreamMetadata(System.Nullable<System.Int32>, System.Nullable<TimeSpan>)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
-    startLine: 82
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+    startLine: 83
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -82,9 +90,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.StreamMetadata.MaxCount
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MaxCount
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
-    startLine: 87
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+    startLine: 88
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -113,9 +125,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration.StreamMetadata.MaxAge
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MaxAge
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
-    startLine: 91
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+    startLine: 92
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing

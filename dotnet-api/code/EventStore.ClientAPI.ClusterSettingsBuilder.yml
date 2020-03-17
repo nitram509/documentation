@@ -15,8 +15,12 @@ items:
   fullName: EventStore.ClientAPI.ClusterSettingsBuilder
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ClusterSettingsBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ClusterSettingsBuilder
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ClusterSettingsBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ClusterSettingsBuilder.cs
     startLine: 4
   assemblies:
   - EventStore.ClientAPI
@@ -54,8 +58,12 @@ items:
   fullName: EventStore.ClientAPI.ClusterSettingsBuilder.DiscoverClusterViaDns()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ClusterSettingsBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: DiscoverClusterViaDns
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ClusterSettingsBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ClusterSettingsBuilder.cs
     startLine: 9
   assemblies:
   - EventStore.ClientAPI
@@ -85,8 +93,12 @@ items:
   fullName: EventStore.ClientAPI.ClusterSettingsBuilder.DiscoverClusterViaGossipSeeds()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ClusterSettingsBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: DiscoverClusterViaGossipSeeds
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ClusterSettingsBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ClusterSettingsBuilder.cs
     startLine: 18
   assemblies:
   - EventStore.ClientAPI

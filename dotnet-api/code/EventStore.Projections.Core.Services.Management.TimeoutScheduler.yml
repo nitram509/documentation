@@ -15,8 +15,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.TimeoutScheduler
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/TimeoutScheduler.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: TimeoutScheduler
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/TimeoutScheduler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/TimeoutScheduler.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core
@@ -51,8 +55,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.TimeoutScheduler.Tick()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/TimeoutScheduler.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Tick
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/TimeoutScheduler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/TimeoutScheduler.cs
     startLine: 12
   assemblies:
   - EventStore.Projections.Core
@@ -77,8 +85,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.TimeoutScheduler.Schedule(System.Int32, Action)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/TimeoutScheduler.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Schedule
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/TimeoutScheduler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/TimeoutScheduler.cs
     startLine: 24
   assemblies:
   - EventStore.Projections.Core

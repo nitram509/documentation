@@ -15,8 +15,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedStreamsDeleter
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStreamsDeleter.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EmittedStreamsDeleter
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStreamsDeleter.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStreamsDeleter.cs
     startLine: 14
   assemblies:
   - EventStore.Projections.Core
@@ -51,8 +55,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedStreamsDeleter.EmittedStreamsDeleter(EventStore.Core.Helpers.IODispatcher, System.String, System.String)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStreamsDeleter.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStreamsDeleter.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStreamsDeleter.cs
     startLine: 24
   assemblies:
   - EventStore.Projections.Core
@@ -84,8 +92,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedStreamsDeleter.DeleteEmittedStreams(Action)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStreamsDeleter.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: DeleteEmittedStreams
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStreamsDeleter.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStreamsDeleter.cs
     startLine: 31
   assemblies:
   - EventStore.Projections.Core

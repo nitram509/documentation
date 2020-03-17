@@ -16,8 +16,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTagJsonConverter
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CheckpointTagJsonConverter
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 780
   assemblies:
   - EventStore.Projections.Core
@@ -48,8 +52,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTagJsonConverter.WriteJson(JsonWriter, System.Object, JsonSerializer)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: WriteJson
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 781
   assemblies:
   - EventStore.Projections.Core
@@ -83,8 +91,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTagJsonConverter.ReadJson(JsonReader, Type, System.Object, JsonSerializer)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ReadJson
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 786
   assemblies:
   - EventStore.Projections.Core
@@ -122,8 +134,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTagJsonConverter.CanConvert(Type)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CanConvert
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTag.cs
     startLine: 791
   assemblies:
   - EventStore.Projections.Core

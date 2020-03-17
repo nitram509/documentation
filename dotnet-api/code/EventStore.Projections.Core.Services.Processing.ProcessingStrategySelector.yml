@@ -15,8 +15,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProcessingStrategySelector
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProcessingStrategySelector.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ProcessingStrategySelector
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProcessingStrategySelector.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProcessingStrategySelector.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core
@@ -47,8 +51,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProcessingStrategySelector.ProcessingStrategySelector(EventStore.Projections.Core.Services.ReaderSubscriptionDispatcher)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProcessingStrategySelector.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProcessingStrategySelector.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProcessingStrategySelector.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core
@@ -76,8 +84,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProcessingStrategySelector.CreateProjectionProcessingStrategy(System.String, EventStore.Projections.Core.Services.Processing.ProjectionVersion, EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder, EventStore.Projections.Core.Messages.IQuerySources, EventStore.Projections.Core.Services.ProjectionConfig, EventStore.Projections.Core.Services.IProjectionStateHandler, System.String, System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProcessingStrategySelector.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CreateProjectionProcessingStrategy
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProcessingStrategySelector.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProcessingStrategySelector.cs
     startLine: 13
   assemblies:
   - EventStore.Projections.Core

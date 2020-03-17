@@ -14,8 +14,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.SubsystemRestarting
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: SubsystemRestarting
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
     startLine: 34
   assemblies:
   - EventStore.Projections.Core
@@ -49,8 +53,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.SubsystemRestarting.MsgTypeId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
     startLine: 37
   assemblies:
   - EventStore.Projections.Core

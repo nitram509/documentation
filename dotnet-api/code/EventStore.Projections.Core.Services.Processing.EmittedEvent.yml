@@ -28,8 +28,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedEvent
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EmittedEvent
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core
@@ -66,8 +70,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedEvent.StreamId
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
     startLine: 5
   assemblies:
   - EventStore.Projections.Core
@@ -95,8 +103,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedEvent.EventId
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core
@@ -124,8 +136,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedEvent.EventType
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventType
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
     startLine: 7
   assemblies:
   - EventStore.Projections.Core
@@ -153,8 +169,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedEvent.EmittedEvent(System.String, Guid, System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Services.Processing.CheckpointTag, Action<System.Int64>)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
     startLine: 15
   assemblies:
   - EventStore.Projections.Core
@@ -195,8 +215,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedEvent.Data
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Data
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
     startLine: 27
   assemblies:
   - EventStore.Projections.Core
@@ -228,8 +252,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedEvent.CausedByTag
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CausedByTag
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
     startLine: 29
   assemblies:
   - EventStore.Projections.Core
@@ -259,8 +287,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedEvent.ExpectedTag
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ExpectedTag
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
     startLine: 33
   assemblies:
   - EventStore.Projections.Core
@@ -290,8 +322,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedEvent.OnCommitted
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: OnCommitted
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
     startLine: 37
   assemblies:
   - EventStore.Projections.Core
@@ -321,8 +357,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedEvent.CausedBy
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CausedBy
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
     startLine: 41
   assemblies:
   - EventStore.Projections.Core
@@ -352,8 +392,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedEvent.CorrelationId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CorrelationId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
     startLine: 45
   assemblies:
   - EventStore.Projections.Core
@@ -383,8 +427,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedEvent.IsJson
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: IsJson
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
     startLine: 49
   assemblies:
   - EventStore.Projections.Core
@@ -416,8 +464,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedEvent.IsReady()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: IsReady
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
     startLine: 51
   assemblies:
   - EventStore.Projections.Core
@@ -446,8 +498,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedEvent.ExtraMetaData()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ExtraMetaData
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
     startLine: 53
   assemblies:
   - EventStore.Projections.Core
@@ -476,8 +532,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedEvent.SetCausedBy(Guid)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: SetCausedBy
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
     startLine: 57
   assemblies:
   - EventStore.Projections.Core
@@ -505,8 +565,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedEvent.SetCorrelationId(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: SetCorrelationId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedEvent.cs
     startLine: 61
   assemblies:
   - EventStore.Projections.Core

@@ -14,8 +14,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionOutputConfig
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionOutputConfig.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionOutputConfig
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionOutputConfig.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionOutputConfig.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -46,8 +50,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionOutputConfig.ResultStreamName
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionOutputConfig.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ResultStreamName
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionOutputConfig.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionOutputConfig.cs
     startLine: 5
   assemblies:
   - EventStore.Projections.Core

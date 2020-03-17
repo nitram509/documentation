@@ -22,8 +22,12 @@ items:
   fullName: EventStore.Projections.Core.v8.Js1
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/v8/js1.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Js1
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/js1.cs
+    path: ../EventStore/src/EventStore.Projections.Core/v8/js1.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core

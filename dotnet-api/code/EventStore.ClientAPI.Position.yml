@@ -28,8 +28,12 @@ items:
   fullName: EventStore.ClientAPI.Position
   type: Struct
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Position.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Position
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Position.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Position.cs
     startLine: 7
   assemblies:
   - EventStore.ClientAPI
@@ -63,8 +67,12 @@ items:
   fullName: EventStore.ClientAPI.Position.Start
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Position.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Start
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Position.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Position.cs
     startLine: 11
   assemblies:
   - EventStore.ClientAPI
@@ -96,8 +104,12 @@ items:
   fullName: EventStore.ClientAPI.Position.End
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Position.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: End
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Position.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Position.cs
     startLine: 16
   assemblies:
   - EventStore.ClientAPI
@@ -129,8 +141,12 @@ items:
   fullName: EventStore.ClientAPI.Position.CommitPosition
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Position.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CommitPosition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Position.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Position.cs
     startLine: 21
   assemblies:
   - EventStore.ClientAPI
@@ -160,8 +176,12 @@ items:
   fullName: EventStore.ClientAPI.Position.PreparePosition
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Position.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: PreparePosition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Position.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Position.cs
     startLine: 26
   assemblies:
   - EventStore.ClientAPI
@@ -191,8 +211,12 @@ items:
   fullName: EventStore.ClientAPI.Position.Position(System.Int64, System.Int64)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Position.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Position.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Position.cs
     startLine: 37
   assemblies:
   - EventStore.ClientAPI
@@ -226,8 +250,12 @@ items:
   fullName: EventStore.ClientAPI.Position.LessThan(EventStore.ClientAPI.Position, EventStore.ClientAPI.Position)
   type: Operator
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Position.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: op_LessThan
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Position.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Position.cs
     startLine: 52
   assemblies:
   - EventStore.ClientAPI
@@ -266,8 +294,12 @@ items:
   fullName: EventStore.ClientAPI.Position.GreaterThan(EventStore.ClientAPI.Position, EventStore.ClientAPI.Position)
   type: Operator
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Position.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: op_GreaterThan
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Position.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Position.cs
     startLine: 64
   assemblies:
   - EventStore.ClientAPI
@@ -306,8 +338,12 @@ items:
   fullName: EventStore.ClientAPI.Position.GreaterThanOrEqual(EventStore.ClientAPI.Position, EventStore.ClientAPI.Position)
   type: Operator
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Position.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: op_GreaterThanOrEqual
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Position.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Position.cs
     startLine: 75
   assemblies:
   - EventStore.ClientAPI
@@ -346,8 +382,12 @@ items:
   fullName: EventStore.ClientAPI.Position.LessThanOrEqual(EventStore.ClientAPI.Position, EventStore.ClientAPI.Position)
   type: Operator
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Position.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: op_LessThanOrEqual
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Position.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Position.cs
     startLine: 85
   assemblies:
   - EventStore.ClientAPI
@@ -386,8 +426,12 @@ items:
   fullName: EventStore.ClientAPI.Position.Equality(EventStore.ClientAPI.Position, EventStore.ClientAPI.Position)
   type: Operator
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Position.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: op_Equality
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Position.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Position.cs
     startLine: 95
   assemblies:
   - EventStore.ClientAPI
@@ -426,8 +470,12 @@ items:
   fullName: EventStore.ClientAPI.Position.Inequality(EventStore.ClientAPI.Position, EventStore.ClientAPI.Position)
   type: Operator
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Position.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: op_Inequality
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Position.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Position.cs
     startLine: 105
   assemblies:
   - EventStore.ClientAPI
@@ -466,8 +514,12 @@ items:
   fullName: EventStore.ClientAPI.Position.Equals(System.Object)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Position.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Equals
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Position.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Position.cs
     startLine: 116
   assemblies:
   - EventStore.ClientAPI
@@ -504,8 +556,12 @@ items:
   fullName: EventStore.ClientAPI.Position.Equals(EventStore.ClientAPI.Position)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Position.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Equals
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Position.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Position.cs
     startLine: 126
   assemblies:
   - EventStore.ClientAPI
@@ -539,8 +595,12 @@ items:
   fullName: EventStore.ClientAPI.Position.GetHashCode()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Position.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GetHashCode
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Position.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Position.cs
     startLine: 137
   assemblies:
   - EventStore.ClientAPI
@@ -573,8 +633,12 @@ items:
   fullName: EventStore.ClientAPI.Position.ToString()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Position.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ToString
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Position.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Position.cs
     startLine: 150
   assemblies:
   - EventStore.ClientAPI

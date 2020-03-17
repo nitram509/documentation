@@ -23,9 +23,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedStream
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EmittedStream
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
-    startLine: 19
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+    startLine: 20
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -60,9 +64,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedStream.EmittedStream(System.String, EventStore.Projections.Core.Services.Processing.EmittedStream.WriterConfiguration, EventStore.Projections.Core.Services.Processing.ProjectionVersion, EventStore.Projections.Core.Services.Processing.PositionTagger, EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Core.Bus.IPublisher, EventStore.Core.Helpers.IODispatcher, EventStore.Projections.Core.Messages.IEmittedStreamContainer, System.Boolean)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
-    startLine: 134
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+    startLine: 135
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -105,9 +113,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedStream.EmitEvents(EventStore.Projections.Core.Services.Processing.EmittedEvent[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EmitEvents
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
-    startLine: 163
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+    startLine: 164
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -137,9 +149,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedStream.Checkpoint()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Checkpoint
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
-    startLine: 188
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+    startLine: 189
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -163,9 +179,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedStream.Start()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Start
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
-    startLine: 196
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+    startLine: 197
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -189,9 +209,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedStream.GetWritePendingEvents()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: GetWritePendingEvents
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
-    startLine: 204
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+    startLine: 205
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -217,9 +241,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedStream.GetWritesInProgress()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: GetWritesInProgress
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
-    startLine: 208
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+    startLine: 209
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -245,9 +273,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedStream.GetReadsInProgress()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: GetReadsInProgress
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
-    startLine: 212
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+    startLine: 213
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -273,9 +305,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedStream.Handle(EventStore.Projections.Core.Messages.ProjectionManagementMessage.Internal.ReadTimeout)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
-    startLine: 419
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+    startLine: 420
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -304,9 +340,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedStream.Dispose()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Dispose
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
-    startLine: 720
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+    startLine: 721
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -330,9 +370,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedStream.Handle(CoreProjectionProcessingMessage.EmittedStreamWriteCompleted)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
-    startLine: 724
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStream.cs
+    startLine: 725
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing

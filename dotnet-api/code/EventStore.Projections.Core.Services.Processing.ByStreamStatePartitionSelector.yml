@@ -15,8 +15,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ByStreamStatePartitionSelector
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ByStreamStatePartitionSelector.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ByStreamStatePartitionSelector
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ByStreamStatePartitionSelector.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ByStreamStatePartitionSelector.cs
     startLine: 5
   assemblies:
   - EventStore.Projections.Core
@@ -48,8 +52,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ByStreamStatePartitionSelector.GetStatePartition(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ByStreamStatePartitionSelector.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: GetStatePartition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ByStreamStatePartitionSelector.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ByStreamStatePartitionSelector.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core
@@ -82,8 +90,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ByStreamStatePartitionSelector.EventReaderBasePartitionDeletedIsSupported()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ByStreamStatePartitionSelector.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventReaderBasePartitionDeletedIsSupported
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ByStreamStatePartitionSelector.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ByStreamStatePartitionSelector.cs
     startLine: 23
   assemblies:
   - EventStore.Projections.Core

@@ -5,7 +5,7 @@ items:
   id: EventReader
   parent: EventStore.Projections.Core.Services.Processing
   children:
-  - EventStore.Projections.Core.Services.Processing.EventReader.#ctor(EventStore.Core.Bus.IPublisher,Guid,IPrincipal,System.Boolean)
+  - EventStore.Projections.Core.Services.Processing.EventReader.#ctor(EventStore.Core.Bus.IPublisher,Guid,ClaimsPrincipal,System.Boolean)
   - EventStore.Projections.Core.Services.Processing.EventReader._disposed
   - EventStore.Projections.Core.Services.Processing.EventReader._publisher
   - EventStore.Projections.Core.Services.Processing.EventReader._stopOnEof
@@ -33,9 +33,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventReader
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventReader
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
-    startLine: 9
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+    startLine: 8
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -77,9 +81,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventReader.EventReaderCorrelationId
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventReaderCorrelationId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
-    startLine: 10
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+    startLine: 9
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -106,9 +114,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventReader._publisher
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: _publisher
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
-    startLine: 12
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+    startLine: 11
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -135,9 +147,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventReader._stopOnEof
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: _stopOnEof
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
-    startLine: 14
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+    startLine: 13
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -164,9 +180,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventReader._disposed
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: _disposed
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
-    startLine: 17
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+    startLine: 16
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -179,36 +199,40 @@ items:
   - protected
   modifiers.vb:
   - Protected
-- uid: EventStore.Projections.Core.Services.Processing.EventReader.#ctor(EventStore.Core.Bus.IPublisher,Guid,IPrincipal,System.Boolean)
-  commentId: M:EventStore.Projections.Core.Services.Processing.EventReader.#ctor(EventStore.Core.Bus.IPublisher,Guid,IPrincipal,System.Boolean)
-  id: '#ctor(EventStore.Core.Bus.IPublisher,Guid,IPrincipal,System.Boolean)'
+- uid: EventStore.Projections.Core.Services.Processing.EventReader.#ctor(EventStore.Core.Bus.IPublisher,Guid,ClaimsPrincipal,System.Boolean)
+  commentId: M:EventStore.Projections.Core.Services.Processing.EventReader.#ctor(EventStore.Core.Bus.IPublisher,Guid,ClaimsPrincipal,System.Boolean)
+  id: '#ctor(EventStore.Core.Bus.IPublisher,Guid,ClaimsPrincipal,System.Boolean)'
   parent: EventStore.Projections.Core.Services.Processing.EventReader
   langs:
   - csharp
   - vb
-  name: EventReader(IPublisher, Guid, IPrincipal, Boolean)
-  nameWithType: EventReader.EventReader(IPublisher, Guid, IPrincipal, Boolean)
-  fullName: EventStore.Projections.Core.Services.Processing.EventReader.EventReader(EventStore.Core.Bus.IPublisher, Guid, IPrincipal, System.Boolean)
+  name: EventReader(IPublisher, Guid, ClaimsPrincipal, Boolean)
+  nameWithType: EventReader.EventReader(IPublisher, Guid, ClaimsPrincipal, Boolean)
+  fullName: EventStore.Projections.Core.Services.Processing.EventReader.EventReader(EventStore.Core.Bus.IPublisher, Guid, ClaimsPrincipal, System.Boolean)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
-    startLine: 20
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+    startLine: 19
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
   syntax:
-    content: protected EventReader(IPublisher publisher, Guid eventReaderCorrelationId, IPrincipal readAs, bool stopOnEof)
+    content: protected EventReader(IPublisher publisher, Guid eventReaderCorrelationId, ClaimsPrincipal readAs, bool stopOnEof)
     parameters:
     - id: publisher
       type: EventStore.Core.Bus.IPublisher
     - id: eventReaderCorrelationId
       type: Guid
     - id: readAs
-      type: IPrincipal
+      type: ClaimsPrincipal
     - id: stopOnEof
       type: System.Boolean
-    content.vb: Protected Sub New(publisher As IPublisher, eventReaderCorrelationId As Guid, readAs As IPrincipal, stopOnEof As Boolean)
+    content.vb: Protected Sub New(publisher As IPublisher, eventReaderCorrelationId As Guid, readAs As ClaimsPrincipal, stopOnEof As Boolean)
   overload: EventStore.Projections.Core.Services.Processing.EventReader.#ctor*
   modifiers.csharp:
   - protected
@@ -226,9 +250,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventReader.PauseRequested
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: PauseRequested
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
-    startLine: 30
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+    startLine: 29
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -257,9 +285,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventReader.Paused
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Paused
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
-    startLine: 34
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+    startLine: 33
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -288,18 +320,22 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventReader.ReadAs
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ReadAs
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
-    startLine: 38
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+    startLine: 37
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
   syntax:
-    content: protected IPrincipal ReadAs { get; }
+    content: protected ClaimsPrincipal ReadAs { get; }
     parameters: []
     return:
-      type: IPrincipal
-    content.vb: Protected ReadOnly Property ReadAs As IPrincipal
+      type: ClaimsPrincipal
+    content.vb: Protected ReadOnly Property ReadAs As ClaimsPrincipal
   overload: EventStore.Projections.Core.Services.Processing.EventReader.ReadAs*
   modifiers.csharp:
   - protected
@@ -319,9 +355,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventReader.Resume()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Resume
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
-    startLine: 42
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+    startLine: 41
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -347,9 +387,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventReader.Pause()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Pause
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
-    startLine: 57
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+    startLine: 56
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -375,9 +419,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventReader.Dispose()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Dispose
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
-    startLine: 69
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+    startLine: 68
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -403,9 +451,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventReader.AreEventsRequested()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: AreEventsRequested
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
-    startLine: 73
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+    startLine: 72
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -433,9 +485,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventReader.RequestEvents()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: RequestEvents
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
-    startLine: 74
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+    startLine: 73
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -461,9 +517,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventReader.SendEof()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: SendEof
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
-    startLine: 76
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+    startLine: 75
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -487,9 +547,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventReader.SendPartitionEof(System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: SendPartitionEof
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
-    startLine: 83
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+    startLine: 82
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -518,9 +582,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventReader.SendPartitionDeleted_WhenReadingDataStream(System.String, System.Nullable<System.Int64>, System.Nullable<EventStore.Core.Data.TFPos>, System.Nullable<EventStore.Core.Data.TFPos>, System.String, System.Nullable<System.Int32>, EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: SendPartitionDeleted_WhenReadingDataStream
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
-    startLine: 90
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+    startLine: 89
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -562,9 +630,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventReader.SendNotAuthorized()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: SendNotAuthorized
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
-    startLine: 102
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+    startLine: 101
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -590,9 +662,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventReader.GetLastCommitPositionFrom(EventStore.Core.Messages.ClientMessage.ReadStreamEventsForwardCompleted)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: GetLastCommitPositionFrom
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
-    startLine: 109
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+    startLine: 108
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -623,9 +699,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventReader.PauseOrContinueProcessing()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: PauseOrContinueProcessing
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
-    startLine: 117
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+    startLine: 116
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -649,9 +729,13 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EventReader.NotifyIfStarting(System.Int64)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: NotifyIfStarting
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
-    startLine: 132
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EventReader.cs
+    startLine: 131
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
@@ -724,11 +808,11 @@ references:
   name: EventReader
   nameWithType: EventReader.EventReader
   fullName: EventStore.Projections.Core.Services.Processing.EventReader.EventReader
-- uid: IPrincipal
+- uid: ClaimsPrincipal
   isExternal: true
-  name: IPrincipal
-  nameWithType: IPrincipal
-  fullName: IPrincipal
+  name: ClaimsPrincipal
+  nameWithType: ClaimsPrincipal
+  fullName: ClaimsPrincipal
 - uid: EventStore.Projections.Core.Services.Processing.EventReader.PauseRequested*
   commentId: Overload:EventStore.Projections.Core.Services.Processing.EventReader.PauseRequested
   name: PauseRequested

@@ -13,8 +13,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaders.Feeds.FeedReaderMessage
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/EventReaders/Feeds/FeedReaderMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: FeedReaderMessage
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaders/Feeds/FeedReaderMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaders/Feeds/FeedReaderMessage.cs
     startLine: 7
   assemblies:
   - EventStore.Projections.Core

@@ -17,8 +17,12 @@ items:
   fullName: EventStore.ClientAPI.Exceptions.NoResultException
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Exceptions/NoResultException.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: NoResultException
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Exceptions/NoResultException.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Exceptions/NoResultException.cs
     startLine: 8
   assemblies:
   - EventStore.ClientAPI
@@ -76,8 +80,12 @@ items:
   fullName: EventStore.ClientAPI.Exceptions.NoResultException.NoResultException()
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Exceptions/NoResultException.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Exceptions/NoResultException.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Exceptions/NoResultException.cs
     startLine: 12
   assemblies:
   - EventStore.ClientAPI
@@ -104,8 +112,12 @@ items:
   fullName: EventStore.ClientAPI.Exceptions.NoResultException.NoResultException(System.String)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Exceptions/NoResultException.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Exceptions/NoResultException.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Exceptions/NoResultException.cs
     startLine: 18
   assemblies:
   - EventStore.ClientAPI
@@ -135,8 +147,12 @@ items:
   fullName: EventStore.ClientAPI.Exceptions.NoResultException.NoResultException(System.String, System.Exception)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Exceptions/NoResultException.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Exceptions/NoResultException.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Exceptions/NoResultException.cs
     startLine: 24
   assemblies:
   - EventStore.ClientAPI
@@ -168,8 +184,12 @@ items:
   fullName: EventStore.ClientAPI.Exceptions.NoResultException.NoResultException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Exceptions/NoResultException.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Exceptions/NoResultException.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Exceptions/NoResultException.cs
     startLine: 30
   assemblies:
   - EventStore.ClientAPI

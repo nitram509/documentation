@@ -8,9 +8,9 @@ items:
   - EventStore.ClientAPI.DnsClusterSettingsBuilder.Build
   - EventStore.ClientAPI.DnsClusterSettingsBuilder.KeepDiscovering
   - EventStore.ClientAPI.DnsClusterSettingsBuilder.op_Implicit(EventStore.ClientAPI.DnsClusterSettingsBuilder)~EventStore.ClientAPI.ClusterSettings
+  - EventStore.ClientAPI.DnsClusterSettingsBuilder.PreferFollowerNode
   - EventStore.ClientAPI.DnsClusterSettingsBuilder.PreferRandomNode
   - EventStore.ClientAPI.DnsClusterSettingsBuilder.PreferReadOnlyReplica
-  - EventStore.ClientAPI.DnsClusterSettingsBuilder.PreferSlaveNode
   - EventStore.ClientAPI.DnsClusterSettingsBuilder.SetClusterDns(System.String)
   - EventStore.ClientAPI.DnsClusterSettingsBuilder.SetClusterGossipPort(System.Int32)
   - EventStore.ClientAPI.DnsClusterSettingsBuilder.SetGossipTimeout(System.TimeSpan)
@@ -23,8 +23,12 @@ items:
   fullName: EventStore.ClientAPI.DnsClusterSettingsBuilder
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: DnsClusterSettingsBuilder
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
     startLine: 9
   assemblies:
   - EventStore.ClientAPI
@@ -62,8 +66,12 @@ items:
   fullName: EventStore.ClientAPI.DnsClusterSettingsBuilder.SetClusterDns(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetClusterDns
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
     startLine: 22
   assemblies:
   - EventStore.ClientAPI
@@ -101,8 +109,12 @@ items:
   fullName: EventStore.ClientAPI.DnsClusterSettingsBuilder.SetMaxDiscoverAttempts(System.Int32)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetMaxDiscoverAttempts
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
     startLine: 34
   assemblies:
   - EventStore.ClientAPI
@@ -140,8 +152,12 @@ items:
   fullName: EventStore.ClientAPI.DnsClusterSettingsBuilder.SetGossipTimeout(System.TimeSpan)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetGossipTimeout
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
     startLine: 48
   assemblies:
   - EventStore.ClientAPI
@@ -175,8 +191,12 @@ items:
   fullName: EventStore.ClientAPI.DnsClusterSettingsBuilder.KeepDiscovering()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: KeepDiscovering
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
     startLine: 57
   assemblies:
   - EventStore.ClientAPI
@@ -206,8 +226,12 @@ items:
   fullName: EventStore.ClientAPI.DnsClusterSettingsBuilder.PreferRandomNode()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: PreferRandomNode
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
     startLine: 66
   assemblies:
   - EventStore.ClientAPI
@@ -225,33 +249,37 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: EventStore.ClientAPI.DnsClusterSettingsBuilder.PreferSlaveNode
-  commentId: M:EventStore.ClientAPI.DnsClusterSettingsBuilder.PreferSlaveNode
-  id: PreferSlaveNode
+- uid: EventStore.ClientAPI.DnsClusterSettingsBuilder.PreferFollowerNode
+  commentId: M:EventStore.ClientAPI.DnsClusterSettingsBuilder.PreferFollowerNode
+  id: PreferFollowerNode
   parent: EventStore.ClientAPI.DnsClusterSettingsBuilder
   langs:
   - csharp
   - vb
-  name: PreferSlaveNode()
-  nameWithType: DnsClusterSettingsBuilder.PreferSlaveNode()
-  fullName: EventStore.ClientAPI.DnsClusterSettingsBuilder.PreferSlaveNode()
+  name: PreferFollowerNode()
+  nameWithType: DnsClusterSettingsBuilder.PreferFollowerNode()
+  fullName: EventStore.ClientAPI.DnsClusterSettingsBuilder.PreferFollowerNode()
   type: Method
   source:
-    id: PreferSlaveNode
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
+    remote:
+      path: src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
+    id: PreferFollowerNode
+    path: ../EventStore/src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
     startLine: 75
   assemblies:
   - EventStore.ClientAPI
   namespace: EventStore.ClientAPI
-  summary: "\nWhether to prioritize choosing a slave node that&apos;s alive from the known nodes. \n"
+  summary: "\nWhether to prioritize choosing a follower node that&apos;s alive from the known nodes. \n"
   example: []
   syntax:
-    content: public DnsClusterSettingsBuilder PreferSlaveNode()
+    content: public DnsClusterSettingsBuilder PreferFollowerNode()
     return:
       type: EventStore.ClientAPI.DnsClusterSettingsBuilder
       description: A <xref href="EventStore.ClientAPI.DnsClusterSettingsBuilder" data-throw-if-not-resolved="false"></xref> for further configuration.
-    content.vb: Public Function PreferSlaveNode As DnsClusterSettingsBuilder
-  overload: EventStore.ClientAPI.DnsClusterSettingsBuilder.PreferSlaveNode*
+    content.vb: Public Function PreferFollowerNode As DnsClusterSettingsBuilder
+  overload: EventStore.ClientAPI.DnsClusterSettingsBuilder.PreferFollowerNode*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -268,8 +296,12 @@ items:
   fullName: EventStore.ClientAPI.DnsClusterSettingsBuilder.PreferReadOnlyReplica()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: PreferReadOnlyReplica
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
     startLine: 84
   assemblies:
   - EventStore.ClientAPI
@@ -299,8 +331,12 @@ items:
   fullName: EventStore.ClientAPI.DnsClusterSettingsBuilder.SetClusterGossipPort(System.Int32)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SetClusterGossipPort
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
     startLine: 103
   assemblies:
   - EventStore.ClientAPI
@@ -334,8 +370,12 @@ items:
   fullName: EventStore.ClientAPI.DnsClusterSettingsBuilder.Implicit(EventStore.ClientAPI.DnsClusterSettingsBuilder to EventStore.ClientAPI.ClusterSettings)
   type: Operator
   source:
+    remote:
+      path: src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: op_Implicit
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
     startLine: 114
   assemblies:
   - EventStore.ClientAPI
@@ -374,8 +414,12 @@ items:
   fullName: EventStore.ClientAPI.DnsClusterSettingsBuilder.Build()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Build
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
+    path: ../EventStore/src/EventStore.ClientAPI/DnsClusterSettingsBuilder.cs
     startLine: 121
   assemblies:
   - EventStore.ClientAPI
@@ -754,11 +798,11 @@ references:
   name: PreferRandomNode
   nameWithType: DnsClusterSettingsBuilder.PreferRandomNode
   fullName: EventStore.ClientAPI.DnsClusterSettingsBuilder.PreferRandomNode
-- uid: EventStore.ClientAPI.DnsClusterSettingsBuilder.PreferSlaveNode*
-  commentId: Overload:EventStore.ClientAPI.DnsClusterSettingsBuilder.PreferSlaveNode
-  name: PreferSlaveNode
-  nameWithType: DnsClusterSettingsBuilder.PreferSlaveNode
-  fullName: EventStore.ClientAPI.DnsClusterSettingsBuilder.PreferSlaveNode
+- uid: EventStore.ClientAPI.DnsClusterSettingsBuilder.PreferFollowerNode*
+  commentId: Overload:EventStore.ClientAPI.DnsClusterSettingsBuilder.PreferFollowerNode
+  name: PreferFollowerNode
+  nameWithType: DnsClusterSettingsBuilder.PreferFollowerNode
+  fullName: EventStore.ClientAPI.DnsClusterSettingsBuilder.PreferFollowerNode
 - uid: EventStore.ClientAPI.DnsClusterSettingsBuilder.PreferReadOnlyReplica*
   commentId: Overload:EventStore.ClientAPI.DnsClusterSettingsBuilder.PreferReadOnlyReplica
   name: PreferReadOnlyReplica

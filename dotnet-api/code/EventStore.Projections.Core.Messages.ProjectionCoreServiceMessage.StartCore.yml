@@ -16,8 +16,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionCoreServiceMessage.StartCore
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionCoreServiceMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: StartCore
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionCoreServiceMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionCoreServiceMessage.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core
@@ -51,8 +55,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionCoreServiceMessage.StartCore.MsgTypeId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionCoreServiceMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionCoreServiceMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionCoreServiceMessage.cs
     startLine: 9
   assemblies:
   - EventStore.Projections.Core
@@ -85,8 +93,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionCoreServiceMessage.StartCore.InstanceCorrelationId
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionCoreServiceMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: InstanceCorrelationId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionCoreServiceMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionCoreServiceMessage.cs
     startLine: 13
   assemblies:
   - EventStore.Projections.Core
@@ -114,8 +126,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionCoreServiceMessage.StartCore.StartCore(Guid)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionCoreServiceMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionCoreServiceMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionCoreServiceMessage.cs
     startLine: 15
   assemblies:
   - EventStore.Projections.Core

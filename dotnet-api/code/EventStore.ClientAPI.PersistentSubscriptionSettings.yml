@@ -27,8 +27,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptionSettings
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: PersistentSubscriptionSettings
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
     startLine: 8
   assemblies:
   - EventStore.ClientAPI
@@ -66,8 +70,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptionSettings.Create()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Create
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
     startLine: 13
   assemblies:
   - EventStore.ClientAPI
@@ -99,8 +107,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptionSettings.ResolveLinkTos
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ResolveLinkTos
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
     startLine: 33
   assemblies:
   - EventStore.ClientAPI
@@ -130,8 +142,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptionSettings.StartFrom
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StartFrom
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
     startLine: 38
   assemblies:
   - EventStore.ClientAPI
@@ -161,8 +177,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptionSettings.ExtraStatistics
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ExtraStatistics
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
     startLine: 43
   assemblies:
   - EventStore.ClientAPI
@@ -192,8 +212,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptionSettings.MessageTimeout
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MessageTimeout
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
     startLine: 48
   assemblies:
   - EventStore.ClientAPI
@@ -223,8 +247,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptionSettings.MaxRetryCount
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MaxRetryCount
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
     startLine: 53
   assemblies:
   - EventStore.ClientAPI
@@ -252,8 +280,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptionSettings.LiveBufferSize
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: LiveBufferSize
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
     startLine: 58
   assemblies:
   - EventStore.ClientAPI
@@ -281,8 +313,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptionSettings.ReadBatchSize
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ReadBatchSize
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
     startLine: 63
   assemblies:
   - EventStore.ClientAPI
@@ -310,8 +346,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptionSettings.HistoryBufferSize
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: HistoryBufferSize
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
     startLine: 68
   assemblies:
   - EventStore.ClientAPI
@@ -339,8 +379,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptionSettings.CheckPointAfter
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CheckPointAfter
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
     startLine: 73
   assemblies:
   - EventStore.ClientAPI
@@ -370,8 +414,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptionSettings.MinCheckPointCount
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MinCheckPointCount
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
     startLine: 78
   assemblies:
   - EventStore.ClientAPI
@@ -401,8 +449,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptionSettings.MaxCheckPointCount
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MaxCheckPointCount
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
     startLine: 83
   assemblies:
   - EventStore.ClientAPI
@@ -432,8 +484,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptionSettings.MaxSubscriberCount
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MaxSubscriberCount
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
     startLine: 88
   assemblies:
   - EventStore.ClientAPI
@@ -463,8 +519,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptionSettings.NamedConsumerStrategy
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: NamedConsumerStrategy
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptionSettings.cs
     startLine: 93
   assemblies:
   - EventStore.ClientAPI

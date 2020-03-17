@@ -18,8 +18,12 @@ items:
   fullName: EventStore.ClientAPI.Transport.Http.HttpAsyncClient
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Transport.Http/HttpAsyncClient.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: HttpAsyncClient
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Transport.Http/HttpAsyncClient.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Transport.Http/HttpAsyncClient.cs
     startLine: 14
   assemblies:
   - EventStore.ClientAPI
@@ -62,8 +66,12 @@ items:
   fullName: EventStore.ClientAPI.Transport.Http.HttpAsyncClient.HttpAsyncClient(System.TimeSpan, System.Net.Http.HttpMessageHandler)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Transport.Http/HttpAsyncClient.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Transport.Http/HttpAsyncClient.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Transport.Http/HttpAsyncClient.cs
     startLine: 28
   assemblies:
   - EventStore.ClientAPI
@@ -97,8 +105,12 @@ items:
   fullName: EventStore.ClientAPI.Transport.Http.HttpAsyncClient.Get(System.String, EventStore.ClientAPI.SystemData.UserCredentials, System.Action<EventStore.ClientAPI.Transport.Http.HttpResponse>, System.Action<System.Exception>, System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Transport.Http/HttpAsyncClient.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Get
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Transport.Http/HttpAsyncClient.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Transport.Http/HttpAsyncClient.cs
     startLine: 34
   assemblies:
   - EventStore.ClientAPI
@@ -140,8 +152,12 @@ items:
   fullName: EventStore.ClientAPI.Transport.Http.HttpAsyncClient.Post(System.String, System.String, System.String, EventStore.ClientAPI.SystemData.UserCredentials, System.Action<EventStore.ClientAPI.Transport.Http.HttpResponse>, System.Action<System.Exception>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Transport.Http/HttpAsyncClient.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Post
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Transport.Http/HttpAsyncClient.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Transport.Http/HttpAsyncClient.cs
     startLine: 45
   assemblies:
   - EventStore.ClientAPI
@@ -185,8 +201,12 @@ items:
   fullName: EventStore.ClientAPI.Transport.Http.HttpAsyncClient.Delete(System.String, EventStore.ClientAPI.SystemData.UserCredentials, System.Action<EventStore.ClientAPI.Transport.Http.HttpResponse>, System.Action<System.Exception>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Transport.Http/HttpAsyncClient.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Delete
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Transport.Http/HttpAsyncClient.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Transport.Http/HttpAsyncClient.cs
     startLine: 57
   assemblies:
   - EventStore.ClientAPI
@@ -226,8 +246,12 @@ items:
   fullName: EventStore.ClientAPI.Transport.Http.HttpAsyncClient.Put(System.String, System.String, System.String, EventStore.ClientAPI.SystemData.UserCredentials, System.Action<EventStore.ClientAPI.Transport.Http.HttpResponse>, System.Action<System.Exception>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Transport.Http/HttpAsyncClient.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Put
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Transport.Http/HttpAsyncClient.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Transport.Http/HttpAsyncClient.cs
     startLine: 67
   assemblies:
   - EventStore.ClientAPI

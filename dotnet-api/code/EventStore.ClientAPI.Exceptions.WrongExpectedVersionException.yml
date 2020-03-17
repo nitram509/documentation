@@ -19,8 +19,12 @@ items:
   fullName: EventStore.ClientAPI.Exceptions.WrongExpectedVersionException
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Exceptions/WrongExpectedVersionException.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: WrongExpectedVersionException
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Exceptions/WrongExpectedVersionException.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Exceptions/WrongExpectedVersionException.cs
     startLine: 8
   assemblies:
   - EventStore.ClientAPI
@@ -78,8 +82,12 @@ items:
   fullName: EventStore.ClientAPI.Exceptions.WrongExpectedVersionException.ExpectedVersion
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Exceptions/WrongExpectedVersionException.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ExpectedVersion
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Exceptions/WrongExpectedVersionException.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Exceptions/WrongExpectedVersionException.cs
     startLine: 13
   assemblies:
   - EventStore.ClientAPI
@@ -112,8 +120,12 @@ items:
   fullName: EventStore.ClientAPI.Exceptions.WrongExpectedVersionException.ActualVersion
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Exceptions/WrongExpectedVersionException.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ActualVersion
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Exceptions/WrongExpectedVersionException.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Exceptions/WrongExpectedVersionException.cs
     startLine: 19
   assemblies:
   - EventStore.ClientAPI
@@ -146,8 +158,12 @@ items:
   fullName: EventStore.ClientAPI.Exceptions.WrongExpectedVersionException.WrongExpectedVersionException(System.String)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Exceptions/WrongExpectedVersionException.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Exceptions/WrongExpectedVersionException.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Exceptions/WrongExpectedVersionException.cs
     startLine: 24
   assemblies:
   - EventStore.ClientAPI
@@ -177,8 +193,12 @@ items:
   fullName: EventStore.ClientAPI.Exceptions.WrongExpectedVersionException.WrongExpectedVersionException(System.String, System.Nullable<System.Int64>, System.Nullable<System.Int64>)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Exceptions/WrongExpectedVersionException.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Exceptions/WrongExpectedVersionException.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Exceptions/WrongExpectedVersionException.cs
     startLine: 30
   assemblies:
   - EventStore.ClientAPI
@@ -215,8 +235,12 @@ items:
   fullName: EventStore.ClientAPI.Exceptions.WrongExpectedVersionException.WrongExpectedVersionException(System.String, System.Exception)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Exceptions/WrongExpectedVersionException.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Exceptions/WrongExpectedVersionException.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Exceptions/WrongExpectedVersionException.cs
     startLine: 39
   assemblies:
   - EventStore.ClientAPI
@@ -248,8 +272,12 @@ items:
   fullName: EventStore.ClientAPI.Exceptions.WrongExpectedVersionException.WrongExpectedVersionException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Exceptions/WrongExpectedVersionException.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Exceptions/WrongExpectedVersionException.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Exceptions/WrongExpectedVersionException.cs
     startLine: 45
   assemblies:
   - EventStore.ClientAPI

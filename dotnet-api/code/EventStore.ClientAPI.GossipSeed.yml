@@ -17,8 +17,12 @@ items:
   fullName: EventStore.ClientAPI.GossipSeed
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/GossipSeed.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GossipSeed
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/GossipSeed.cs
+    path: ../EventStore/src/EventStore.ClientAPI/GossipSeed.cs
     startLine: 7
   assemblies:
   - EventStore.ClientAPI
@@ -56,8 +60,12 @@ items:
   fullName: EventStore.ClientAPI.GossipSeed.EndPoint
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/GossipSeed.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EndPoint
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/GossipSeed.cs
+    path: ../EventStore/src/EventStore.ClientAPI/GossipSeed.cs
     startLine: 15
   assemblies:
   - EventStore.ClientAPI
@@ -87,8 +95,12 @@ items:
   fullName: EventStore.ClientAPI.GossipSeed.SeedOverTls
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/GossipSeed.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SeedOverTls
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/GossipSeed.cs
+    path: ../EventStore/src/EventStore.ClientAPI/GossipSeed.cs
     startLine: 20
   assemblies:
   - EventStore.ClientAPI
@@ -118,8 +130,12 @@ items:
   fullName: EventStore.ClientAPI.GossipSeed.HostHeader
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/GossipSeed.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: HostHeader
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/GossipSeed.cs
+    path: ../EventStore/src/EventStore.ClientAPI/GossipSeed.cs
     startLine: 25
   assemblies:
   - EventStore.ClientAPI
@@ -149,8 +165,12 @@ items:
   fullName: EventStore.ClientAPI.GossipSeed.GossipSeed(System.Net.EndPoint, System.String, System.Boolean)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/GossipSeed.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/GossipSeed.cs
+    path: ../EventStore/src/EventStore.ClientAPI/GossipSeed.cs
     startLine: 33
   assemblies:
   - EventStore.ClientAPI

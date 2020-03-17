@@ -20,8 +20,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreSubscription
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStoreSubscription
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
     startLine: 7
   assemblies:
   - EventStore.ClientAPI
@@ -66,8 +70,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreSubscription.IsSubscribedToAll
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: IsSubscribedToAll
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
     startLine: 11
   assemblies:
   - EventStore.ClientAPI
@@ -99,8 +107,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreSubscription.StreamId
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
     startLine: 18
   assemblies:
   - EventStore.ClientAPI
@@ -132,8 +144,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreSubscription.LastCommitPosition
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: LastCommitPosition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
     startLine: 24
   assemblies:
   - EventStore.ClientAPI
@@ -163,8 +179,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreSubscription.LastEventNumber
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: LastEventNumber
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
     startLine: 30
   assemblies:
   - EventStore.ClientAPI
@@ -194,8 +214,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreSubscription.Dispose()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Dispose
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
     startLine: 41
   assemblies:
   - EventStore.ClientAPI
@@ -224,8 +248,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreSubscription.Close()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Close
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
     startLine: 48
   assemblies:
   - EventStore.ClientAPI
@@ -252,8 +280,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreSubscription.Unsubscribe()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Unsubscribe
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreSubscription.cs
     startLine: 55
   assemblies:
   - EventStore.ClientAPI

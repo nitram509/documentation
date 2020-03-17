@@ -15,8 +15,12 @@ items:
   fullName: EventStore.Projections.Core.v8.Js1Exception
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/v8/Js1Exception.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Js1Exception
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/Js1Exception.cs
+    path: ../EventStore/src/EventStore.Projections.Core/v8/Js1Exception.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -47,8 +51,12 @@ items:
   fullName: EventStore.Projections.Core.v8.Js1Exception.Js1Exception(System.Int32, System.String)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/v8/Js1Exception.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/Js1Exception.cs
+    path: ../EventStore/src/EventStore.Projections.Core/v8/Js1Exception.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core
@@ -78,8 +86,12 @@ items:
   fullName: EventStore.Projections.Core.v8.Js1Exception.ErrorCode
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/v8/Js1Exception.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ErrorCode
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/Js1Exception.cs
+    path: ../EventStore/src/EventStore.Projections.Core/v8/Js1Exception.cs
     startLine: 11
   assemblies:
   - EventStore.Projections.Core

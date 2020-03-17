@@ -16,8 +16,12 @@ items:
   fullName: EventStore.ClientAPI.ConditionalWriteStatus
   type: Enum
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConditionalWriteFailureReason.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ConditionalWriteStatus
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConditionalWriteFailureReason.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ConditionalWriteFailureReason.cs
     startLine: 4
   assemblies:
   - EventStore.ClientAPI
@@ -47,8 +51,12 @@ items:
   fullName: EventStore.ClientAPI.ConditionalWriteStatus.Succeeded
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConditionalWriteFailureReason.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Succeeded
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConditionalWriteFailureReason.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ConditionalWriteFailureReason.cs
     startLine: 8
   assemblies:
   - EventStore.ClientAPI
@@ -77,8 +85,12 @@ items:
   fullName: EventStore.ClientAPI.ConditionalWriteStatus.VersionMismatch
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConditionalWriteFailureReason.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: VersionMismatch
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConditionalWriteFailureReason.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ConditionalWriteFailureReason.cs
     startLine: 13
   assemblies:
   - EventStore.ClientAPI
@@ -107,8 +119,12 @@ items:
   fullName: EventStore.ClientAPI.ConditionalWriteStatus.StreamDeleted
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConditionalWriteFailureReason.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamDeleted
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConditionalWriteFailureReason.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ConditionalWriteFailureReason.cs
     startLine: 18
   assemblies:
   - EventStore.ClientAPI

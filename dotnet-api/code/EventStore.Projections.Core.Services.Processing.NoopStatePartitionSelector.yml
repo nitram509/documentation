@@ -15,8 +15,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.NoopStatePartitionSelector
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/NoopStatePartitionSelector.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: NoopStatePartitionSelector
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/NoopStatePartitionSelector.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/NoopStatePartitionSelector.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -48,8 +52,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.NoopStatePartitionSelector.GetStatePartition(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/NoopStatePartitionSelector.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: GetStatePartition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/NoopStatePartitionSelector.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/NoopStatePartitionSelector.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core
@@ -82,8 +90,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.NoopStatePartitionSelector.EventReaderBasePartitionDeletedIsSupported()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/NoopStatePartitionSelector.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventReaderBasePartitionDeletedIsSupported
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/NoopStatePartitionSelector.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/NoopStatePartitionSelector.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core

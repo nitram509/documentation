@@ -17,8 +17,12 @@ items:
   fullName: EventStore.ClientAPI.EventReadStatus
   type: Enum
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventReadStatus.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EventReadStatus
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventReadStatus.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventReadStatus.cs
     startLine: 4
   assemblies:
   - EventStore.ClientAPI
@@ -48,8 +52,12 @@ items:
   fullName: EventStore.ClientAPI.EventReadStatus.Success
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventReadStatus.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Success
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventReadStatus.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventReadStatus.cs
     startLine: 8
   assemblies:
   - EventStore.ClientAPI
@@ -78,8 +86,12 @@ items:
   fullName: EventStore.ClientAPI.EventReadStatus.NotFound
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventReadStatus.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: NotFound
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventReadStatus.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventReadStatus.cs
     startLine: 13
   assemblies:
   - EventStore.ClientAPI
@@ -108,8 +120,12 @@ items:
   fullName: EventStore.ClientAPI.EventReadStatus.NoStream
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventReadStatus.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: NoStream
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventReadStatus.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventReadStatus.cs
     startLine: 18
   assemblies:
   - EventStore.ClientAPI
@@ -138,8 +154,12 @@ items:
   fullName: EventStore.ClientAPI.EventReadStatus.StreamDeleted
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventReadStatus.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamDeleted
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventReadStatus.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventReadStatus.cs
     startLine: 23
   assemblies:
   - EventStore.ClientAPI

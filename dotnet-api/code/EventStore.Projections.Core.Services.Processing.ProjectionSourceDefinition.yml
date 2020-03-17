@@ -37,8 +37,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionSourceDefinition
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionSourceDefinition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
     startLine: 5
   assemblies:
   - EventStore.Projections.Core
@@ -73,8 +77,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionSourceDefinition.AllEvents
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: AllEvents
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
     startLine: 7
   assemblies:
   - EventStore.Projections.Core
@@ -106,8 +114,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionSourceDefinition.AllStreams
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: AllStreams
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
     startLine: 9
   assemblies:
   - EventStore.Projections.Core
@@ -139,8 +151,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionSourceDefinition.ByStream
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ByStream
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
     startLine: 11
   assemblies:
   - EventStore.Projections.Core
@@ -170,8 +186,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionSourceDefinition.ByCustomPartitions
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ByCustomPartitions
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
     startLine: 13
   assemblies:
   - EventStore.Projections.Core
@@ -203,8 +223,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionSourceDefinition.Categories
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Categories
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
     startLine: 15
   assemblies:
   - EventStore.Projections.Core
@@ -236,8 +260,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionSourceDefinition.Events
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Events
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
     startLine: 17
   assemblies:
   - EventStore.Projections.Core
@@ -269,8 +297,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionSourceDefinition.Streams
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Streams
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
     startLine: 19
   assemblies:
   - EventStore.Projections.Core
@@ -302,8 +334,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionSourceDefinition.LimitingCommitPosition
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: LimitingCommitPosition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
     startLine: 21
   assemblies:
   - EventStore.Projections.Core
@@ -335,8 +371,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionSourceDefinition.Options
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Options
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
     startLine: 23
   assemblies:
   - EventStore.Projections.Core
@@ -367,8 +407,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionSourceDefinition.EventStore.Projections.Core.Messages.IQuerySources.DefinesStateTransform
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStore.Projections.Core.Messages.IQuerySources.DefinesStateTransform
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
     startLine: 25
   assemblies:
   - EventStore.Projections.Core
@@ -401,8 +445,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionSourceDefinition.EventStore.Projections.Core.Messages.IQuerySources.ProducesResults
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStore.Projections.Core.Messages.IQuerySources.ProducesResults
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
     startLine: 29
   assemblies:
   - EventStore.Projections.Core
@@ -435,8 +483,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionSourceDefinition.EventStore.Projections.Core.Messages.IQuerySources.DefinesFold
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStore.Projections.Core.Messages.IQuerySources.DefinesFold
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
     startLine: 33
   assemblies:
   - EventStore.Projections.Core
@@ -469,8 +521,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionSourceDefinition.EventStore.Projections.Core.Messages.IQuerySources.HandlesDeletedNotifications
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStore.Projections.Core.Messages.IQuerySources.HandlesDeletedNotifications
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
     startLine: 37
   assemblies:
   - EventStore.Projections.Core
@@ -503,8 +559,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionSourceDefinition.EventStore.Projections.Core.Messages.IQuerySources.IncludeLinksOption
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStore.Projections.Core.Messages.IQuerySources.IncludeLinksOption
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
     startLine: 41
   assemblies:
   - EventStore.Projections.Core
@@ -537,8 +597,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionSourceDefinition.EventStore.Projections.Core.Messages.IQuerySources.ResultStreamNameOption
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStore.Projections.Core.Messages.IQuerySources.ResultStreamNameOption
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
     startLine: 45
   assemblies:
   - EventStore.Projections.Core
@@ -571,8 +635,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionSourceDefinition.EventStore.Projections.Core.Messages.IQuerySources.PartitionResultStreamNamePatternOption
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStore.Projections.Core.Messages.IQuerySources.PartitionResultStreamNamePatternOption
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
     startLine: 49
   assemblies:
   - EventStore.Projections.Core
@@ -605,8 +673,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionSourceDefinition.EventStore.Projections.Core.Messages.IQuerySources.ReorderEventsOption
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStore.Projections.Core.Messages.IQuerySources.ReorderEventsOption
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
     startLine: 53
   assemblies:
   - EventStore.Projections.Core
@@ -639,8 +711,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionSourceDefinition.EventStore.Projections.Core.Messages.IQuerySources.ProcessingLagOption
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStore.Projections.Core.Messages.IQuerySources.ProcessingLagOption
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
     startLine: 57
   assemblies:
   - EventStore.Projections.Core
@@ -673,8 +749,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionSourceDefinition.EventStore.Projections.Core.Messages.IQuerySources.IsBiState
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStore.Projections.Core.Messages.IQuerySources.IsBiState
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
     startLine: 61
   assemblies:
   - EventStore.Projections.Core
@@ -707,8 +787,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionSourceDefinition.EventStore.Projections.Core.Messages.IQuerySources.ByStreams
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStore.Projections.Core.Messages.IQuerySources.ByStreams
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
     startLine: 65
   assemblies:
   - EventStore.Projections.Core
@@ -740,8 +824,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionSourceDefinition.From(EventStore.Projections.Core.Messages.IQuerySources)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: From
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
     startLine: 69
   assemblies:
   - EventStore.Projections.Core
@@ -773,8 +861,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionSourceDefinition.Equals(EventStore.Projections.Core.Services.Processing.ProjectionSourceDefinition)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Equals
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
     startLine: 105
   assemblies:
   - EventStore.Projections.Core
@@ -804,8 +896,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionSourceDefinition.Equals(System.Object)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Equals
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
     startLine: 116
   assemblies:
   - EventStore.Projections.Core
@@ -837,8 +933,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ProjectionSourceDefinition.GetHashCode()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: GetHashCode
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ProjectionSourceDefinition.cs
     startLine: 123
   assemblies:
   - EventStore.Projections.Core

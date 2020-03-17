@@ -16,8 +16,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.QuerySourcesExtensions
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/IQuerySources.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: QuerySourcesExtensions
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/IQuerySources.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/IQuerySources.cs
     startLine: 39
   assemblies:
   - EventStore.Projections.Core
@@ -50,8 +54,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.QuerySourcesExtensions.HasStreams(EventStore.Projections.Core.Messages.IQuerySources)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/IQuerySources.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: HasStreams
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/IQuerySources.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/IQuerySources.cs
     startLine: 40
   assemblies:
   - EventStore.Projections.Core
@@ -87,8 +95,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.QuerySourcesExtensions.HasCategories(EventStore.Projections.Core.Messages.IQuerySources)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/IQuerySources.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: HasCategories
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/IQuerySources.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/IQuerySources.cs
     startLine: 45
   assemblies:
   - EventStore.Projections.Core
@@ -124,8 +136,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.QuerySourcesExtensions.HasEvents(EventStore.Projections.Core.Messages.IQuerySources)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/IQuerySources.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: HasEvents
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/IQuerySources.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/IQuerySources.cs
     startLine: 50
   assemblies:
   - EventStore.Projections.Core

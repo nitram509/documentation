@@ -17,8 +17,12 @@ items:
   fullName: EventStore.ClientAPI.ExpectedVersion
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ExpectedVersion.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ExpectedVersion
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ExpectedVersion.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ExpectedVersion.cs
     startLine: 17
   assemblies:
   - EventStore.ClientAPI
@@ -58,8 +62,12 @@ items:
   fullName: EventStore.ClientAPI.ExpectedVersion.Any
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ExpectedVersion.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Any
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ExpectedVersion.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ExpectedVersion.cs
     startLine: 21
   assemblies:
   - EventStore.ClientAPI
@@ -89,8 +97,12 @@ items:
   fullName: EventStore.ClientAPI.ExpectedVersion.NoStream
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ExpectedVersion.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: NoStream
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ExpectedVersion.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ExpectedVersion.cs
     startLine: 26
   assemblies:
   - EventStore.ClientAPI
@@ -120,8 +132,12 @@ items:
   fullName: EventStore.ClientAPI.ExpectedVersion.EmptyStream
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ExpectedVersion.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EmptyStream
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ExpectedVersion.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ExpectedVersion.cs
     startLine: 32
   assemblies:
   - EventStore.ClientAPI
@@ -163,8 +179,12 @@ items:
   fullName: EventStore.ClientAPI.ExpectedVersion.StreamExists
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ExpectedVersion.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamExists
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ExpectedVersion.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ExpectedVersion.cs
     startLine: 37
   assemblies:
   - EventStore.ClientAPI

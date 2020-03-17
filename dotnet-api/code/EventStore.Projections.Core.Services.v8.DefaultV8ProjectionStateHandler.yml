@@ -15,8 +15,12 @@ items:
   fullName: EventStore.Projections.Core.Services.v8.DefaultV8ProjectionStateHandler
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/v8/DefaultV8ProjectionStateHandler.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: DefaultV8ProjectionStateHandler
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/v8/DefaultV8ProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/v8/DefaultV8ProjectionStateHandler.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core
@@ -66,8 +70,12 @@ items:
   fullName: EventStore.Projections.Core.Services.v8.DefaultV8ProjectionStateHandler.DefaultV8ProjectionStateHandler(System.String, Action<System.String, System.Object[]>, Action<System.Int32, Action>)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/v8/DefaultV8ProjectionStateHandler.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/v8/DefaultV8ProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/v8/DefaultV8ProjectionStateHandler.cs
     startLine: 7
   assemblies:
   - EventStore.Projections.Core
@@ -102,8 +110,12 @@ items:
   fullName: EventStore.Projections.Core.Services.v8.DefaultV8ProjectionStateHandler.GetModuleSource(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/v8/DefaultV8ProjectionStateHandler.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: GetModuleSource
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/v8/DefaultV8ProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/v8/DefaultV8ProjectionStateHandler.cs
     startLine: 12
   assemblies:
   - EventStore.Projections.Core

@@ -18,8 +18,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IReaderStrategy
   type: Interface
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: IReaderStrategy
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
     startLine: 5
   assemblies:
   - EventStore.Projections.Core
@@ -45,8 +49,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IReaderStrategy.IsReadingOrderRepeatable
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: IsReadingOrderRepeatable
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core
@@ -74,8 +82,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IReaderStrategy.EventFilter
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventFilter
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
     startLine: 7
   assemblies:
   - EventStore.Projections.Core
@@ -103,8 +115,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IReaderStrategy.PositionTagger
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: PositionTagger
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core
@@ -132,8 +148,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IReaderStrategy.CreateReaderSubscription(EventStore.Core.Bus.IPublisher, EventStore.Projections.Core.Services.Processing.CheckpointTag, Guid, EventStore.Projections.Core.Services.Processing.ReaderSubscriptionOptions)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CreateReaderSubscription
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
     startLine: 10
   assemblies:
   - EventStore.Projections.Core
@@ -165,8 +185,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IReaderStrategy.CreatePausedEventReader(Guid, EventStore.Core.Bus.IPublisher, EventStore.Core.Helpers.IODispatcher, EventStore.Projections.Core.Services.Processing.CheckpointTag, System.Boolean, System.Nullable<System.Int32>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CreatePausedEventReader
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderStrategy.cs
     startLine: 14
   assemblies:
   - EventStore.Projections.Core

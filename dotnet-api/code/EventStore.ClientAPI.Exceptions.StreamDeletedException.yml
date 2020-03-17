@@ -16,8 +16,12 @@ items:
   fullName: EventStore.ClientAPI.Exceptions.StreamDeletedException
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Exceptions/StreamDeletedException.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamDeletedException
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Exceptions/StreamDeletedException.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Exceptions/StreamDeletedException.cs
     startLine: 7
   assemblies:
   - EventStore.ClientAPI
@@ -75,8 +79,12 @@ items:
   fullName: EventStore.ClientAPI.Exceptions.StreamDeletedException.Stream
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Exceptions/StreamDeletedException.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Stream
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Exceptions/StreamDeletedException.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Exceptions/StreamDeletedException.cs
     startLine: 11
   assemblies:
   - EventStore.ClientAPI
@@ -106,8 +114,12 @@ items:
   fullName: EventStore.ClientAPI.Exceptions.StreamDeletedException.StreamDeletedException(System.String)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Exceptions/StreamDeletedException.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Exceptions/StreamDeletedException.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Exceptions/StreamDeletedException.cs
     startLine: 17
   assemblies:
   - EventStore.ClientAPI
@@ -138,8 +150,12 @@ items:
   fullName: EventStore.ClientAPI.Exceptions.StreamDeletedException.StreamDeletedException()
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Exceptions/StreamDeletedException.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Exceptions/StreamDeletedException.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Exceptions/StreamDeletedException.cs
     startLine: 26
   assemblies:
   - EventStore.ClientAPI

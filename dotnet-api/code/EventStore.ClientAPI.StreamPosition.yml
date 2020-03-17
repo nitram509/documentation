@@ -15,8 +15,12 @@ items:
   fullName: EventStore.ClientAPI.StreamPosition
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamPosition.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamPosition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamPosition.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamPosition.cs
     startLine: 4
   assemblies:
   - EventStore.ClientAPI
@@ -55,8 +59,12 @@ items:
   fullName: EventStore.ClientAPI.StreamPosition.Start
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamPosition.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Start
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamPosition.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamPosition.cs
     startLine: 8
   assemblies:
   - EventStore.ClientAPI
@@ -86,8 +94,12 @@ items:
   fullName: EventStore.ClientAPI.StreamPosition.End
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamPosition.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: End
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamPosition.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamPosition.cs
     startLine: 13
   assemblies:
   - EventStore.ClientAPI

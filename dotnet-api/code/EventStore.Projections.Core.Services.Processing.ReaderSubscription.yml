@@ -17,8 +17,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderSubscription
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ReaderSubscription.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ReaderSubscription
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscription.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscription.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core
@@ -76,8 +80,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderSubscription.ReaderSubscription(System.String, EventStore.Core.Bus.IPublisher, Guid, EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Services.Processing.IReaderStrategy, EventStore.Core.Services.TimerService.ITimeProvider, System.Nullable<System.Int64>, System.Nullable<System.Int32>, System.Int32, System.Boolean, System.Nullable<System.Int32>)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ReaderSubscription.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscription.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscription.cs
     startLine: 7
   assemblies:
   - EventStore.Projections.Core
@@ -128,8 +136,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderSubscription.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.CommittedEventDistributed)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ReaderSubscription.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscription.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscription.cs
     startLine: 33
   assemblies:
   - EventStore.Projections.Core
@@ -159,8 +171,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderSubscription.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderIdle)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ReaderSubscription.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscription.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscription.cs
     startLine: 37
   assemblies:
   - EventStore.Projections.Core
@@ -190,8 +206,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderSubscription.Handle(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionDeleted)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ReaderSubscription.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscription.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderSubscription.cs
     startLine: 41
   assemblies:
   - EventStore.Projections.Core

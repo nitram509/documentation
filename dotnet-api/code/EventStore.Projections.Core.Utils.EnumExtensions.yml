@@ -14,8 +14,12 @@ items:
   fullName: EventStore.Projections.Core.Utils.EnumExtensions
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Utils/EnumExtensions.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EnumExtensions
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Utils/EnumExtensions.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Utils/EnumExtensions.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -48,8 +52,12 @@ items:
   fullName: EventStore.Projections.Core.Utils.EnumExtensions.EnumValueName<T>(T)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Utils/EnumExtensions.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EnumValueName
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Utils/EnumExtensions.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Utils/EnumExtensions.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core

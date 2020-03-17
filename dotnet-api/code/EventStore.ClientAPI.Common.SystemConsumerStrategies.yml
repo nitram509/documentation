@@ -16,8 +16,12 @@ items:
   fullName: EventStore.ClientAPI.Common.SystemConsumerStrategies
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/SystemNames.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SystemConsumerStrategies
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
     startLine: 123
   assemblies:
   - EventStore.ClientAPI
@@ -56,8 +60,12 @@ items:
   fullName: EventStore.ClientAPI.Common.SystemConsumerStrategies.DispatchToSingle
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/SystemNames.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: DispatchToSingle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
     startLine: 127
   assemblies:
   - EventStore.ClientAPI
@@ -87,8 +95,12 @@ items:
   fullName: EventStore.ClientAPI.Common.SystemConsumerStrategies.RoundRobin
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/SystemNames.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: RoundRobin
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
     startLine: 132
   assemblies:
   - EventStore.ClientAPI
@@ -118,8 +130,12 @@ items:
   fullName: EventStore.ClientAPI.Common.SystemConsumerStrategies.Pinned
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/SystemNames.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Pinned
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
     startLine: 138
   assemblies:
   - EventStore.ClientAPI

@@ -5,7 +5,7 @@ items:
   id: ReaderStrategy
   parent: EventStore.Projections.Core.Services.Processing
   children:
-  - EventStore.Projections.Core.Services.Processing.ReaderStrategy.Create(System.String,System.Int32,EventStore.Projections.Core.Messages.IQuerySources,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,IPrincipal)
+  - EventStore.Projections.Core.Services.Processing.ReaderStrategy.Create(System.String,System.Int32,EventStore.Projections.Core.Messages.IQuerySources,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,ClaimsPrincipal)
   - EventStore.Projections.Core.Services.Processing.ReaderStrategy.CreatePausedEventReader(Guid,EventStore.Core.Bus.IPublisher,EventStore.Core.Helpers.IODispatcher,EventStore.Projections.Core.Services.Processing.CheckpointTag,System.Boolean,System.Nullable{System.Int32})
   - EventStore.Projections.Core.Services.Processing.ReaderStrategy.CreateReaderSubscription(EventStore.Core.Bus.IPublisher,EventStore.Projections.Core.Services.Processing.CheckpointTag,Guid,EventStore.Projections.Core.Services.Processing.ReaderSubscriptionOptions)
   - EventStore.Projections.Core.Services.Processing.ReaderStrategy.EventFilter
@@ -20,8 +20,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderStrategy
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ReaderStrategy
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
     startLine: 11
   assemblies:
   - EventStore.Projections.Core
@@ -44,26 +48,30 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: EventStore.Projections.Core.Services.Processing.ReaderStrategy.Create(System.String,System.Int32,EventStore.Projections.Core.Messages.IQuerySources,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,IPrincipal)
-  commentId: M:EventStore.Projections.Core.Services.Processing.ReaderStrategy.Create(System.String,System.Int32,EventStore.Projections.Core.Messages.IQuerySources,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,IPrincipal)
-  id: Create(System.String,System.Int32,EventStore.Projections.Core.Messages.IQuerySources,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,IPrincipal)
+- uid: EventStore.Projections.Core.Services.Processing.ReaderStrategy.Create(System.String,System.Int32,EventStore.Projections.Core.Messages.IQuerySources,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,ClaimsPrincipal)
+  commentId: M:EventStore.Projections.Core.Services.Processing.ReaderStrategy.Create(System.String,System.Int32,EventStore.Projections.Core.Messages.IQuerySources,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,ClaimsPrincipal)
+  id: Create(System.String,System.Int32,EventStore.Projections.Core.Messages.IQuerySources,EventStore.Core.Services.TimerService.ITimeProvider,System.Boolean,ClaimsPrincipal)
   parent: EventStore.Projections.Core.Services.Processing.ReaderStrategy
   langs:
   - csharp
   - vb
-  name: Create(String, Int32, IQuerySources, ITimeProvider, Boolean, IPrincipal)
-  nameWithType: ReaderStrategy.Create(String, Int32, IQuerySources, ITimeProvider, Boolean, IPrincipal)
-  fullName: EventStore.Projections.Core.Services.Processing.ReaderStrategy.Create(System.String, System.Int32, EventStore.Projections.Core.Messages.IQuerySources, EventStore.Core.Services.TimerService.ITimeProvider, System.Boolean, IPrincipal)
+  name: Create(String, Int32, IQuerySources, ITimeProvider, Boolean, ClaimsPrincipal)
+  nameWithType: ReaderStrategy.Create(String, Int32, IQuerySources, ITimeProvider, Boolean, ClaimsPrincipal)
+  fullName: EventStore.Projections.Core.Services.Processing.ReaderStrategy.Create(System.String, System.Int32, EventStore.Projections.Core.Messages.IQuerySources, EventStore.Core.Services.TimerService.ITimeProvider, System.Boolean, ClaimsPrincipal)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Create
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
     startLine: 31
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services.Processing
   syntax:
-    content: public static IReaderStrategy Create(string tag, int phase, IQuerySources sources, ITimeProvider timeProvider, bool stopOnEof, IPrincipal runAs)
+    content: public static IReaderStrategy Create(string tag, int phase, IQuerySources sources, ITimeProvider timeProvider, bool stopOnEof, ClaimsPrincipal runAs)
     parameters:
     - id: tag
       type: System.String
@@ -76,10 +84,10 @@ items:
     - id: stopOnEof
       type: System.Boolean
     - id: runAs
-      type: IPrincipal
+      type: ClaimsPrincipal
     return:
       type: EventStore.Projections.Core.Services.Processing.IReaderStrategy
-    content.vb: Public Shared Function Create(tag As String, phase As Integer, sources As IQuerySources, timeProvider As ITimeProvider, stopOnEof As Boolean, runAs As IPrincipal) As IReaderStrategy
+    content.vb: Public Shared Function Create(tag As String, phase As Integer, sources As IQuerySources, timeProvider As ITimeProvider, stopOnEof As Boolean, runAs As ClaimsPrincipal) As IReaderStrategy
   overload: EventStore.Projections.Core.Services.Processing.ReaderStrategy.Create*
   modifiers.csharp:
   - public
@@ -99,8 +107,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderStrategy.IsReadingOrderRepeatable
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: IsReadingOrderRepeatable
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
     startLine: 119
   assemblies:
   - EventStore.Projections.Core
@@ -132,8 +144,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderStrategy.EventFilter
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventFilter
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
     startLine: 123
   assemblies:
   - EventStore.Projections.Core
@@ -165,8 +181,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderStrategy.PositionTagger
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: PositionTagger
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
     startLine: 127
   assemblies:
   - EventStore.Projections.Core
@@ -198,8 +218,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderStrategy.Phase
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Phase
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
     startLine: 131
   assemblies:
   - EventStore.Projections.Core
@@ -229,8 +253,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderStrategy.CreateReaderSubscription(EventStore.Core.Bus.IPublisher, EventStore.Projections.Core.Services.Processing.CheckpointTag, Guid, EventStore.Projections.Core.Services.Processing.ReaderSubscriptionOptions)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CreateReaderSubscription
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
     startLine: 135
   assemblies:
   - EventStore.Projections.Core
@@ -268,8 +296,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ReaderStrategy.CreatePausedEventReader(Guid, EventStore.Core.Bus.IPublisher, EventStore.Core.Helpers.IODispatcher, EventStore.Projections.Core.Services.Processing.CheckpointTag, System.Boolean, System.Nullable<System.Int32>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CreatePausedEventReader
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ReaderStrategy.cs
     startLine: 166
   assemblies:
   - EventStore.Projections.Core
@@ -365,11 +397,11 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: IPrincipal
+- uid: ClaimsPrincipal
   isExternal: true
-  name: IPrincipal
-  nameWithType: IPrincipal
-  fullName: IPrincipal
+  name: ClaimsPrincipal
+  nameWithType: ClaimsPrincipal
+  fullName: ClaimsPrincipal
 - uid: EventStore.Projections.Core.Messages
   commentId: N:EventStore.Projections.Core.Messages
   name: EventStore.Projections.Core.Messages

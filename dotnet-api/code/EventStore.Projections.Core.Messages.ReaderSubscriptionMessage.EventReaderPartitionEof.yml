@@ -16,8 +16,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionEof
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ReaderSubscriptionMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventReaderPartitionEof
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionMessage.cs
     startLine: 94
   assemblies:
   - EventStore.Projections.Core
@@ -55,8 +59,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionEof.MsgTypeId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ReaderSubscriptionMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionMessage.cs
     startLine: 97
   assemblies:
   - EventStore.Projections.Core
@@ -89,8 +97,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionEof.EventReaderPartitionEof(Guid, System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag, System.Object)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ReaderSubscriptionMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionMessage.cs
     startLine: 103
   assemblies:
   - EventStore.Projections.Core
@@ -124,8 +136,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionEof.Partition
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ReaderSubscriptionMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Partition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionMessage.cs
     startLine: 109
   assemblies:
   - EventStore.Projections.Core

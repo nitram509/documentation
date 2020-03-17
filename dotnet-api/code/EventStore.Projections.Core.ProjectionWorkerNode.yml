@@ -16,8 +16,12 @@ items:
   fullName: EventStore.Projections.Core.ProjectionWorkerNode
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/ProjectionWorkerNode.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionWorkerNode
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionWorkerNode.cs
+    path: ../EventStore/src/EventStore.Projections.Core/ProjectionWorkerNode.cs
     startLine: 15
   assemblies:
   - EventStore.Projections.Core
@@ -48,14 +52,18 @@ items:
   fullName: EventStore.Projections.Core.ProjectionWorkerNode.ProjectionWorkerNode(Guid, EventStore.Core.TransactionLog.Chunks.TFChunkDb, EventStore.Core.Bus.IQueuedHandler, EventStore.Core.Services.TimerService.ITimeProvider, EventStore.Projections.Core.Services.ISingletonTimeoutScheduler, EventStore.Common.Options.ProjectionType, System.Boolean, EventStore.Core.Bus.IPublisher)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/ProjectionWorkerNode.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionWorkerNode.cs
+    path: ../EventStore/src/EventStore.Projections.Core/ProjectionWorkerNode.cs
     startLine: 27
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core
   syntax:
-    content: public ProjectionWorkerNode(Guid workerId, TFChunkDb db, IQueuedHandler inputQueue, ITimeProvider timeProvider, ISingletonTimeoutScheduler timeoutScheduler, ProjectionType runProjections, bool faultOutOfOrderProjections, IPublisher masterOutputBus)
+    content: public ProjectionWorkerNode(Guid workerId, TFChunkDb db, IQueuedHandler inputQueue, ITimeProvider timeProvider, ISingletonTimeoutScheduler timeoutScheduler, ProjectionType runProjections, bool faultOutOfOrderProjections, IPublisher leaderOutputBus)
     parameters:
     - id: workerId
       type: Guid
@@ -71,9 +79,9 @@ items:
       type: EventStore.Common.Options.ProjectionType
     - id: faultOutOfOrderProjections
       type: System.Boolean
-    - id: masterOutputBus
+    - id: leaderOutputBus
       type: EventStore.Core.Bus.IPublisher
-    content.vb: Public Sub New(workerId As Guid, db As TFChunkDb, inputQueue As IQueuedHandler, timeProvider As ITimeProvider, timeoutScheduler As ISingletonTimeoutScheduler, runProjections As ProjectionType, faultOutOfOrderProjections As Boolean, masterOutputBus As IPublisher)
+    content.vb: Public Sub New(workerId As Guid, db As TFChunkDb, inputQueue As IQueuedHandler, timeProvider As ITimeProvider, timeoutScheduler As ISingletonTimeoutScheduler, runProjections As ProjectionType, faultOutOfOrderProjections As Boolean, leaderOutputBus As IPublisher)
   overload: EventStore.Projections.Core.ProjectionWorkerNode.#ctor*
   modifiers.csharp:
   - public
@@ -91,8 +99,12 @@ items:
   fullName: EventStore.Projections.Core.ProjectionWorkerNode.CoreOutput
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/ProjectionWorkerNode.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CoreOutput
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionWorkerNode.cs
+    path: ../EventStore/src/EventStore.Projections.Core/ProjectionWorkerNode.cs
     startLine: 67
   assemblies:
   - EventStore.Projections.Core
@@ -122,8 +134,12 @@ items:
   fullName: EventStore.Projections.Core.ProjectionWorkerNode.SetupMessaging(EventStore.Core.Bus.IBus)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/ProjectionWorkerNode.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: SetupMessaging
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionWorkerNode.cs
+    path: ../EventStore/src/EventStore.Projections.Core/ProjectionWorkerNode.cs
     startLine: 71
   assemblies:
   - EventStore.Projections.Core

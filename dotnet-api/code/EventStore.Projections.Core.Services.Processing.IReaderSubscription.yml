@@ -16,8 +16,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IReaderSubscription
   type: Interface
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IReaderSubscription.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: IReaderSubscription
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderSubscription.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderSubscription.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core
@@ -54,8 +58,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IReaderSubscription.Tag
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IReaderSubscription.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Tag
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderSubscription.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderSubscription.cs
     startLine: 13
   assemblies:
   - EventStore.Projections.Core
@@ -83,8 +91,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IReaderSubscription.SubscriptionId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IReaderSubscription.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: SubscriptionId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderSubscription.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderSubscription.cs
     startLine: 14
   assemblies:
   - EventStore.Projections.Core
@@ -112,8 +124,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IReaderSubscription.CreatePausedEventReader(EventStore.Core.Bus.IPublisher, EventStore.Core.Helpers.IODispatcher, Guid)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IReaderSubscription.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CreatePausedEventReader
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderSubscription.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IReaderSubscription.cs
     startLine: 15
   assemblies:
   - EventStore.Projections.Core

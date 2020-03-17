@@ -17,8 +17,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.GetResult
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: GetResult
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
     startLine: 81
   assemblies:
   - EventStore.Projections.Core
@@ -56,8 +60,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.GetResult.MsgTypeId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
     startLine: 84
   assemblies:
   - EventStore.Projections.Core
@@ -90,8 +98,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.GetResult.GetResult(Guid, Guid, System.String, Guid)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
     startLine: 91
   assemblies:
   - EventStore.Projections.Core
@@ -125,8 +137,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.GetResult.Partition
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Partition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
     startLine: 98
   assemblies:
   - EventStore.Projections.Core
@@ -156,8 +172,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionManagementMessage.GetResult.CorrelationId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CorrelationId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionManagementMessage.cs
     startLine: 102
   assemblies:
   - EventStore.Projections.Core

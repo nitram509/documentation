@@ -27,8 +27,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionCheckpointManager
   type: Interface
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ICoreProjectionCheckpointManager
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
     startLine: 12
   assemblies:
   - EventStore.Projections.Core
@@ -54,8 +58,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionCheckpointManager.Initialize()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Initialize
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
     startLine: 13
   assemblies:
   - EventStore.Projections.Core
@@ -76,8 +84,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionCheckpointManager.Start(EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Services.Processing.PartitionState)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Start
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
     startLine: 14
   assemblies:
   - EventStore.Projections.Core
@@ -103,8 +115,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionCheckpointManager.Stopping()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Stopping
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
     startLine: 15
   assemblies:
   - EventStore.Projections.Core
@@ -125,8 +141,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionCheckpointManager.Stopped()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Stopped
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
     startLine: 16
   assemblies:
   - EventStore.Projections.Core
@@ -147,8 +167,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionCheckpointManager.GetStatistics(EventStore.Projections.Core.Services.ProjectionStatistics)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: GetStatistics
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
     startLine: 17
   assemblies:
   - EventStore.Projections.Core
@@ -172,8 +196,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionCheckpointManager.StateUpdated(System.String, EventStore.Projections.Core.Services.Processing.PartitionState, EventStore.Projections.Core.Services.Processing.PartitionState)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: StateUpdated
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
     startLine: 20
   assemblies:
   - EventStore.Projections.Core
@@ -201,8 +229,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionCheckpointManager.PartitionCompleted(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: PartitionCompleted
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
     startLine: 21
   assemblies:
   - EventStore.Projections.Core
@@ -226,8 +258,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionCheckpointManager.EventProcessed(EventStore.Projections.Core.Services.Processing.CheckpointTag, System.Single)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventProcessed
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
     startLine: 22
   assemblies:
   - EventStore.Projections.Core
@@ -253,8 +289,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionCheckpointManager.CheckpointSuggested(EventStore.Projections.Core.Services.Processing.CheckpointTag, System.Single)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CheckpointSuggested
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
     startLine: 30
   assemblies:
   - EventStore.Projections.Core
@@ -287,8 +327,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionCheckpointManager.Progress(System.Single)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Progress
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
     startLine: 32
   assemblies:
   - EventStore.Projections.Core
@@ -312,8 +356,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionCheckpointManager.BeginLoadPrerecordedEvents(EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: BeginLoadPrerecordedEvents
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
     startLine: 34
   assemblies:
   - EventStore.Projections.Core
@@ -337,8 +385,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionCheckpointManager.BeginLoadPartitionStateAt(System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag, Action<EventStore.Projections.Core.Services.Processing.PartitionState>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: BeginLoadPartitionStateAt
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
     startLine: 36
   assemblies:
   - EventStore.Projections.Core
@@ -369,8 +421,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionCheckpointManager.RecordEventOrder(EventStore.Projections.Core.Services.Processing.ResolvedEvent, EventStore.Projections.Core.Services.Processing.CheckpointTag, Action)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: RecordEventOrder
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
     startLine: 40
   assemblies:
   - EventStore.Projections.Core
@@ -398,8 +454,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ICoreProjectionCheckpointManager.LastProcessedEventPosition
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: LastProcessedEventPosition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ICoreProjectionCheckpointManager.cs
     startLine: 41
   assemblies:
   - EventStore.Projections.Core

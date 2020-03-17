@@ -19,8 +19,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreTransaction
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreTransaction.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStoreTransaction
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreTransaction.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreTransaction.cs
     startLine: 11
   assemblies:
   - EventStore.ClientAPI
@@ -63,8 +67,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreTransaction.TransactionId
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreTransaction.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: TransactionId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreTransaction.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreTransaction.cs
     startLine: 16
   assemblies:
   - EventStore.ClientAPI
@@ -94,8 +102,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreTransaction.CommitAsync()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreTransaction.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CommitAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreTransaction.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreTransaction.cs
     startLine: 42
   assemblies:
   - EventStore.ClientAPI
@@ -125,8 +137,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreTransaction.WriteAsync(EventStore.ClientAPI.EventData[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreTransaction.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: WriteAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreTransaction.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreTransaction.cs
     startLine: 54
   assemblies:
   - EventStore.ClientAPI
@@ -163,8 +179,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreTransaction.WriteAsync(System.Collections.Generic.IEnumerable<EventStore.ClientAPI.EventData>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreTransaction.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: WriteAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreTransaction.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreTransaction.cs
     startLine: 63
   assemblies:
   - EventStore.ClientAPI
@@ -201,8 +221,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreTransaction.Rollback()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreTransaction.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Rollback
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreTransaction.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreTransaction.cs
     startLine: 72
   assemblies:
   - EventStore.ClientAPI
@@ -229,8 +253,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreTransaction.Dispose()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreTransaction.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Dispose
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreTransaction.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreTransaction.cs
     startLine: 80
   assemblies:
   - EventStore.ClientAPI

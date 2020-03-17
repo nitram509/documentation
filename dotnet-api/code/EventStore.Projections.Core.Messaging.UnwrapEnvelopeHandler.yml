@@ -14,8 +14,12 @@ items:
   fullName: EventStore.Projections.Core.Messaging.UnwrapEnvelopeHandler
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messaging/UnwrapEnvelopeHandler.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: UnwrapEnvelopeHandler
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messaging/UnwrapEnvelopeHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messaging/UnwrapEnvelopeHandler.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -50,8 +54,12 @@ items:
   fullName: EventStore.Projections.Core.Messaging.UnwrapEnvelopeHandler.Handle(EventStore.Projections.Core.Messaging.UnwrapEnvelopeMessage)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messaging/UnwrapEnvelopeHandler.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Handle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messaging/UnwrapEnvelopeHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messaging/UnwrapEnvelopeHandler.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core

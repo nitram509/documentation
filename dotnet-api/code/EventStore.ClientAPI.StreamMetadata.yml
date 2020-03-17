@@ -30,8 +30,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadata.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamMetadata
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 15
   assemblies:
   - EventStore.ClientAPI
@@ -69,8 +73,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.MaxCount
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadata.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MaxCount
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 19
   assemblies:
   - EventStore.ClientAPI
@@ -100,8 +108,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.MaxAge
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadata.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MaxAge
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 24
   assemblies:
   - EventStore.ClientAPI
@@ -131,8 +143,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.TruncateBefore
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadata.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: TruncateBefore
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 30
   assemblies:
   - EventStore.ClientAPI
@@ -162,8 +178,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.CacheControl
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadata.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CacheControl
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 35
   assemblies:
   - EventStore.ClientAPI
@@ -193,8 +213,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.Acl
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadata.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Acl
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 40
   assemblies:
   - EventStore.ClientAPI
@@ -224,8 +248,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.CustomKeys
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadata.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CustomKeys
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 45
   assemblies:
   - EventStore.ClientAPI
@@ -257,8 +285,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.CustomMetadataAsRawJsons
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadata.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CustomMetadataAsRawJsons
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 52
   assemblies:
   - EventStore.ClientAPI
@@ -290,8 +322,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.Create(System.Nullable<System.Int64>, System.Nullable<System.TimeSpan>, System.Nullable<System.Int64>, System.Nullable<System.TimeSpan>, EventStore.ClientAPI.StreamAcl)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadata.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Create
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 91
   assemblies:
   - EventStore.ClientAPI
@@ -342,8 +378,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.Build()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadata.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Build
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 100
   assemblies:
   - EventStore.ClientAPI
@@ -375,8 +415,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.Copy()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadata.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Copy
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 108
   assemblies:
   - EventStore.ClientAPI
@@ -406,8 +450,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.GetValue<T>(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadata.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GetValue
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 137
   assemblies:
   - EventStore.ClientAPI
@@ -447,8 +495,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.TryGetValue<T>(System.String, out T)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadata.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: TryGetValue
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 153
   assemblies:
   - EventStore.ClientAPI
@@ -491,8 +543,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.GetValueAsRawJsonString(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadata.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GetValueAsRawJsonString
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 172
   assemblies:
   - EventStore.ClientAPI
@@ -530,8 +586,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.TryGetValueAsRawJsonString(System.String, out System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadata.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: TryGetValueAsRawJsonString
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 185
   assemblies:
   - EventStore.ClientAPI
@@ -571,8 +631,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.AsJsonBytes()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadata.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: AsJsonBytes
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 203
   assemblies:
   - EventStore.ClientAPI
@@ -602,8 +666,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.AsJsonString()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadata.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: AsJsonString
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 217
   assemblies:
   - EventStore.ClientAPI
@@ -633,8 +701,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadata.FromJsonBytes(System.Byte[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadata.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: FromJsonBytes
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadata.cs
     startLine: 291
   assemblies:
   - EventStore.ClientAPI

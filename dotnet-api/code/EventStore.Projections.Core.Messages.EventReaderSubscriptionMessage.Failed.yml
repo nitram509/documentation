@@ -16,8 +16,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.Failed
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Failed
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
     startLine: 77
   assemblies:
   - EventStore.Projections.Core
@@ -59,8 +63,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.Failed.MsgTypeId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
     startLine: 80
   assemblies:
   - EventStore.Projections.Core
@@ -93,8 +101,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.Failed.Reason
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Reason
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
     startLine: 86
   assemblies:
   - EventStore.Projections.Core
@@ -124,8 +136,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.Failed.Failed(Guid, System.String)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
     startLine: 90
   assemblies:
   - EventStore.Projections.Core

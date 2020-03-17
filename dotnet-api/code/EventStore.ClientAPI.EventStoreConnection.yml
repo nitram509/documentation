@@ -22,8 +22,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreConnection
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreConnection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStoreConnection
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreConnection.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreConnection.cs
     startLine: 14
   assemblies:
   - EventStore.ClientAPI
@@ -62,8 +66,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreConnection.Create(System.Uri, System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreConnection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Create
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreConnection.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreConnection.cs
     startLine: 24
   assemblies:
   - EventStore.ClientAPI
@@ -102,8 +110,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreConnection.Create(System.String, System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreConnection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Create
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreConnection.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreConnection.cs
     startLine: 34
   assemblies:
   - EventStore.ClientAPI
@@ -142,8 +154,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreConnection.Create(System.String, EventStore.ClientAPI.ConnectionSettingsBuilder, System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreConnection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Create
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreConnection.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreConnection.cs
     startLine: 45
   assemblies:
   - EventStore.ClientAPI
@@ -185,8 +201,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreConnection.Create(EventStore.ClientAPI.ConnectionSettings, System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreConnection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Create
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreConnection.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreConnection.cs
     startLine: 69
   assemblies:
   - EventStore.ClientAPI
@@ -225,8 +245,12 @@ items:
   fullName: EventStore.ClientAPI.EventStoreConnection.Create(EventStore.ClientAPI.ConnectionSettings, System.Uri, System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreConnection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Create
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreConnection.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreConnection.cs
     startLine: 84
   assemblies:
   - EventStore.ClientAPI
@@ -269,9 +293,13 @@ items:
   fullName: EventStore.ClientAPI.EventStoreConnection.Create(System.Net.IPEndPoint, System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreConnection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Create
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreConnection.cs
-    startLine: 173
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreConnection.cs
+    startLine: 172
   assemblies:
   - EventStore.ClientAPI
   namespace: EventStore.ClientAPI
@@ -309,9 +337,13 @@ items:
   fullName: EventStore.ClientAPI.EventStoreConnection.Create(EventStore.ClientAPI.ConnectionSettings, System.Net.IPEndPoint, System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreConnection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Create
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreConnection.cs
-    startLine: 184
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreConnection.cs
+    startLine: 183
   assemblies:
   - EventStore.ClientAPI
   namespace: EventStore.ClientAPI
@@ -352,9 +384,13 @@ items:
   fullName: EventStore.ClientAPI.EventStoreConnection.Create(EventStore.ClientAPI.ConnectionSettings, EventStore.ClientAPI.ClusterSettings, System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreConnection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Create
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreConnection.cs
-    startLine: 200
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreConnection.cs
+    startLine: 199
   assemblies:
   - EventStore.ClientAPI
   namespace: EventStore.ClientAPI
@@ -395,9 +431,13 @@ items:
   fullName: EventStore.ClientAPI.EventStoreConnection.Create(EventStore.ClientAPI.ConnectionSettings, EventStore.ClientAPI.IEndPointDiscoverer, System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStoreConnection.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Create
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStoreConnection.cs
-    startLine: 224
+    path: ../EventStore/src/EventStore.ClientAPI/EventStoreConnection.cs
+    startLine: 223
   assemblies:
   - EventStore.ClientAPI
   namespace: EventStore.ClientAPI

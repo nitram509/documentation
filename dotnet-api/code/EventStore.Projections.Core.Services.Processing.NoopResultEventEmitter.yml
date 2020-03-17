@@ -14,8 +14,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.NoopResultEventEmitter
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/NoopResultEventEmitter.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: NoopResultEventEmitter
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/NoopResultEventEmitter.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/NoopResultEventEmitter.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -50,8 +54,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.NoopResultEventEmitter.ResultUpdated(System.String, System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/NoopResultEventEmitter.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ResultUpdated
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/NoopResultEventEmitter.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/NoopResultEventEmitter.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core

@@ -16,8 +16,12 @@ items:
   fullName: EventStore.Projections.Core.Messaging.UnwrapEnvelopeMessage
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messaging/UnwrapEnvelopeMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: UnwrapEnvelopeMessage
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messaging/UnwrapEnvelopeMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messaging/UnwrapEnvelopeMessage.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core
@@ -51,8 +55,12 @@ items:
   fullName: EventStore.Projections.Core.Messaging.UnwrapEnvelopeMessage.MsgTypeId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messaging/UnwrapEnvelopeMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messaging/UnwrapEnvelopeMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messaging/UnwrapEnvelopeMessage.cs
     startLine: 7
   assemblies:
   - EventStore.Projections.Core
@@ -85,8 +93,12 @@ items:
   fullName: EventStore.Projections.Core.Messaging.UnwrapEnvelopeMessage.UnwrapEnvelopeMessage(Action)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messaging/UnwrapEnvelopeMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messaging/UnwrapEnvelopeMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messaging/UnwrapEnvelopeMessage.cs
     startLine: 13
   assemblies:
   - EventStore.Projections.Core
@@ -114,8 +126,12 @@ items:
   fullName: EventStore.Projections.Core.Messaging.UnwrapEnvelopeMessage.Action
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messaging/UnwrapEnvelopeMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Action
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messaging/UnwrapEnvelopeMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messaging/UnwrapEnvelopeMessage.cs
     startLine: 17
   assemblies:
   - EventStore.Projections.Core

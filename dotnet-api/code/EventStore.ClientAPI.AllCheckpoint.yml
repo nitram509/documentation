@@ -14,8 +14,12 @@ items:
   fullName: EventStore.ClientAPI.AllCheckpoint
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/AllCheckpoint.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: AllCheckpoint
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/AllCheckpoint.cs
+    path: ../EventStore/src/EventStore.ClientAPI/AllCheckpoint.cs
     startLine: 6
   assemblies:
   - EventStore.ClientAPI
@@ -54,8 +58,12 @@ items:
   fullName: EventStore.ClientAPI.AllCheckpoint.AllStart
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/AllCheckpoint.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: AllStart
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/AllCheckpoint.cs
+    path: ../EventStore/src/EventStore.ClientAPI/AllCheckpoint.cs
     startLine: 11
   assemblies:
   - EventStore.ClientAPI

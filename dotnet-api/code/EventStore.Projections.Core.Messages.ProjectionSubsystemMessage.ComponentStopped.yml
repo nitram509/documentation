@@ -17,8 +17,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.ComponentStopped
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ComponentStopped
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
     startLine: 86
   assemblies:
   - EventStore.Projections.Core
@@ -52,8 +56,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.ComponentStopped.MsgTypeId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
     startLine: 89
   assemblies:
   - EventStore.Projections.Core
@@ -86,8 +94,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.ComponentStopped.ComponentName
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ComponentName
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
     startLine: 93
   assemblies:
   - EventStore.Projections.Core
@@ -117,8 +129,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.ComponentStopped.InstanceCorrelationId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: InstanceCorrelationId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
     startLine: 94
   assemblies:
   - EventStore.Projections.Core
@@ -148,8 +164,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.ProjectionSubsystemMessage.ComponentStopped.ComponentStopped(System.String, Guid)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ProjectionSubsystemMessage.cs
     startLine: 96
   assemblies:
   - EventStore.Projections.Core

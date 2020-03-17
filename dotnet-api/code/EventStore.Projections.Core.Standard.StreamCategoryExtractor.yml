@@ -15,8 +15,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.StreamCategoryExtractor
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/StreamCategoryExtractor.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamCategoryExtractor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/StreamCategoryExtractor.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/StreamCategoryExtractor.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -52,8 +56,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.StreamCategoryExtractor.GetCategoryByStreamId(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/StreamCategoryExtractor.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: GetCategoryByStreamId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/StreamCategoryExtractor.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/StreamCategoryExtractor.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core
@@ -85,8 +93,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.StreamCategoryExtractor.GetExtractor(System.String, Action<System.String, System.Object[]>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/StreamCategoryExtractor.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: GetExtractor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/StreamCategoryExtractor.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/StreamCategoryExtractor.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core

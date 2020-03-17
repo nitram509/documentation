@@ -14,8 +14,12 @@ items:
   fullName: EventStore.ClientAPI.StreamCheckpoint
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamCheckpoint.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamCheckpoint
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamCheckpoint.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamCheckpoint.cs
     startLine: 6
   assemblies:
   - EventStore.ClientAPI
@@ -54,8 +58,12 @@ items:
   fullName: EventStore.ClientAPI.StreamCheckpoint.StreamStart
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamCheckpoint.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamStart
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamCheckpoint.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamCheckpoint.cs
     startLine: 11
   assemblies:
   - EventStore.ClientAPI

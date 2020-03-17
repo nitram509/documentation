@@ -19,8 +19,12 @@ items:
   fullName: EventStore.ClientAPI.Common.Log.ConsoleLogger
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/Log/ConsoleLogger.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ConsoleLogger
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/Log/ConsoleLogger.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/Log/ConsoleLogger.cs
     startLine: 8
   assemblies:
   - EventStore.ClientAPI
@@ -63,8 +67,12 @@ items:
   fullName: EventStore.ClientAPI.Common.Log.ConsoleLogger.Error(System.String, System.Object[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/Log/ConsoleLogger.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Error
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/Log/ConsoleLogger.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/Log/ConsoleLogger.cs
     startLine: 14
   assemblies:
   - EventStore.ClientAPI
@@ -103,8 +111,12 @@ items:
   fullName: EventStore.ClientAPI.Common.Log.ConsoleLogger.Error(System.Exception, System.String, System.Object[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/Log/ConsoleLogger.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Error
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/Log/ConsoleLogger.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/Log/ConsoleLogger.cs
     startLine: 24
   assemblies:
   - EventStore.ClientAPI
@@ -146,8 +158,12 @@ items:
   fullName: EventStore.ClientAPI.Common.Log.ConsoleLogger.Debug(System.String, System.Object[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/Log/ConsoleLogger.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Debug
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/Log/ConsoleLogger.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/Log/ConsoleLogger.cs
     startLine: 33
   assemblies:
   - EventStore.ClientAPI
@@ -186,8 +202,12 @@ items:
   fullName: EventStore.ClientAPI.Common.Log.ConsoleLogger.Debug(System.Exception, System.String, System.Object[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/Log/ConsoleLogger.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Debug
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/Log/ConsoleLogger.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/Log/ConsoleLogger.cs
     startLine: 43
   assemblies:
   - EventStore.ClientAPI
@@ -229,8 +249,12 @@ items:
   fullName: EventStore.ClientAPI.Common.Log.ConsoleLogger.Info(System.String, System.Object[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/Log/ConsoleLogger.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Info
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/Log/ConsoleLogger.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/Log/ConsoleLogger.cs
     startLine: 52
   assemblies:
   - EventStore.ClientAPI
@@ -269,8 +293,12 @@ items:
   fullName: EventStore.ClientAPI.Common.Log.ConsoleLogger.Info(System.Exception, System.String, System.Object[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/Log/ConsoleLogger.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Info
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/Log/ConsoleLogger.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/Log/ConsoleLogger.cs
     startLine: 62
   assemblies:
   - EventStore.ClientAPI

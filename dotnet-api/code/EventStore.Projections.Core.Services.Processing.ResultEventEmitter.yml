@@ -15,8 +15,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ResultEventEmitter
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ResultEventEmitter.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ResultEventEmitter
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ResultEventEmitter.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ResultEventEmitter.cs
     startLine: 3
   assemblies:
   - EventStore.Projections.Core
@@ -51,8 +55,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ResultEventEmitter.ResultEventEmitter(EventStore.Projections.Core.Services.Processing.ProjectionNamesBuilder)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ResultEventEmitter.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ResultEventEmitter.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ResultEventEmitter.cs
     startLine: 9
   assemblies:
   - EventStore.Projections.Core
@@ -80,8 +88,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.ResultEventEmitter.ResultUpdated(System.String, System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/ResultEventEmitter.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ResultUpdated
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/ResultEventEmitter.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/ResultEventEmitter.cs
     startLine: 14
   assemblies:
   - EventStore.Projections.Core

@@ -13,8 +13,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CoreProjectionStatusMessage
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
     startLine: 7
   assemblies:
   - EventStore.Projections.Core

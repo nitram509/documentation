@@ -20,8 +20,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConnectionDetails
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: PersistentSubscriptionConnectionDetails
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
     startLine: 168
   assemblies:
   - EventStore.ClientAPI
@@ -61,8 +65,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConnectionDetails.From
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: From
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
     startLine: 172
   assemblies:
   - EventStore.ClientAPI
@@ -94,8 +102,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConnectionDetails.Username
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Username
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
     startLine: 177
   assemblies:
   - EventStore.ClientAPI
@@ -127,8 +139,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConnectionDetails.AverageItemsPerSecond
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: AverageItemsPerSecond
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
     startLine: 182
   assemblies:
   - EventStore.ClientAPI
@@ -160,8 +176,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConnectionDetails.TotalItems
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: TotalItems
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
     startLine: 187
   assemblies:
   - EventStore.ClientAPI
@@ -193,8 +213,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConnectionDetails.CountSinceLastMeasurement
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CountSinceLastMeasurement
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
     startLine: 192
   assemblies:
   - EventStore.ClientAPI
@@ -226,8 +250,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConnectionDetails.AvailableSlots
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: AvailableSlots
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
     startLine: 197
   assemblies:
   - EventStore.ClientAPI
@@ -259,8 +287,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptions.PersistentSubscriptionConnectionDetails.InFlightMessages
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: InFlightMessages
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptions/PersistentSubscriptionDetails.cs
     startLine: 202
   assemblies:
   - EventStore.ClientAPI

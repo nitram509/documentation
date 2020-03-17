@@ -18,8 +18,12 @@ items:
   fullName: EventStore.Projections.Core.v8.PreludeScript
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/v8/PreludeScript.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: PreludeScript
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/PreludeScript.cs
+    path: ../EventStore/src/EventStore.Projections.Core/v8/PreludeScript.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core
@@ -50,8 +54,12 @@ items:
   fullName: EventStore.Projections.Core.v8.PreludeScript.PreludeScript(System.String, System.String, Func<System.String, Tuple<System.String, System.String>>, Action<System.Int32, Action>, Action<System.String, System.Object[]>)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/v8/PreludeScript.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/PreludeScript.cs
+    path: ../EventStore/src/EventStore.Projections.Core/v8/PreludeScript.cs
     startLine: 32
   assemblies:
   - EventStore.Projections.Core
@@ -90,8 +98,12 @@ items:
   fullName: EventStore.Projections.Core.v8.PreludeScript.Dispose()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/v8/PreludeScript.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Dispose
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/PreludeScript.cs
+    path: ../EventStore/src/EventStore.Projections.Core/v8/PreludeScript.cs
     startLine: 105
   assemblies:
   - EventStore.Projections.Core
@@ -116,8 +128,12 @@ items:
   fullName: EventStore.Projections.Core.v8.PreludeScript.GetHandle()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/v8/PreludeScript.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: GetHandle
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/PreludeScript.cs
+    path: ../EventStore/src/EventStore.Projections.Core/v8/PreludeScript.cs
     startLine: 110
   assemblies:
   - EventStore.Projections.Core
@@ -144,8 +160,12 @@ items:
   fullName: EventStore.Projections.Core.v8.PreludeScript.ScheduleTerminateExecution()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/v8/PreludeScript.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ScheduleTerminateExecution
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/PreludeScript.cs
+    path: ../EventStore/src/EventStore.Projections.Core/v8/PreludeScript.cs
     startLine: 140
   assemblies:
   - EventStore.Projections.Core
@@ -170,8 +190,12 @@ items:
   fullName: EventStore.Projections.Core.v8.PreludeScript.CancelTerminateExecution()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/v8/PreludeScript.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CancelTerminateExecution
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/PreludeScript.cs
+    path: ../EventStore/src/EventStore.Projections.Core/v8/PreludeScript.cs
     startLine: 158
   assemblies:
   - EventStore.Projections.Core

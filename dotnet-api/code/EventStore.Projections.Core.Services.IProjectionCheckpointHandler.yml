@@ -14,8 +14,12 @@ items:
   fullName: EventStore.Projections.Core.Services.IProjectionCheckpointHandler
   type: Interface
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: IProjectionCheckpointHandler
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
     startLine: 57
   assemblies:
   - EventStore.Projections.Core
@@ -41,8 +45,12 @@ items:
   fullName: EventStore.Projections.Core.Services.IProjectionCheckpointHandler.ProcessNewCheckpoint(EventStore.Projections.Core.Services.Processing.CheckpointTag, out EventStore.Projections.Core.Services.Processing.EmittedEventEnvelope[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ProcessNewCheckpoint
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/IProjectionStateHandler.cs
     startLine: 58
   assemblies:
   - EventStore.Projections.Core

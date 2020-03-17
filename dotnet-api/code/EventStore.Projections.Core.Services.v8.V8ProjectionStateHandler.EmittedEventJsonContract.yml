@@ -19,8 +19,12 @@ items:
   fullName: EventStore.Projections.Core.Services.v8.V8ProjectionStateHandler.EmittedEventJsonContract
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/v8/V8ProjectionStateHandler.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EmittedEventJsonContract
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/v8/V8ProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/v8/V8ProjectionStateHandler.cs
     startLine: 40
   assemblies:
   - EventStore.Projections.Core
@@ -51,8 +55,12 @@ items:
   fullName: EventStore.Projections.Core.Services.v8.V8ProjectionStateHandler.EmittedEventJsonContract.streamId
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/v8/V8ProjectionStateHandler.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: streamId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/v8/V8ProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/v8/V8ProjectionStateHandler.cs
     startLine: 42
   assemblies:
   - EventStore.Projections.Core
@@ -78,8 +86,12 @@ items:
   fullName: EventStore.Projections.Core.Services.v8.V8ProjectionStateHandler.EmittedEventJsonContract.eventName
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/v8/V8ProjectionStateHandler.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: eventName
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/v8/V8ProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/v8/V8ProjectionStateHandler.cs
     startLine: 44
   assemblies:
   - EventStore.Projections.Core
@@ -105,8 +117,12 @@ items:
   fullName: EventStore.Projections.Core.Services.v8.V8ProjectionStateHandler.EmittedEventJsonContract.isJson
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/v8/V8ProjectionStateHandler.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: isJson
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/v8/V8ProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/v8/V8ProjectionStateHandler.cs
     startLine: 46
   assemblies:
   - EventStore.Projections.Core
@@ -132,8 +148,12 @@ items:
   fullName: EventStore.Projections.Core.Services.v8.V8ProjectionStateHandler.EmittedEventJsonContract.body
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/v8/V8ProjectionStateHandler.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: body
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/v8/V8ProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/v8/V8ProjectionStateHandler.cs
     startLine: 48
   assemblies:
   - EventStore.Projections.Core
@@ -159,8 +179,12 @@ items:
   fullName: EventStore.Projections.Core.Services.v8.V8ProjectionStateHandler.EmittedEventJsonContract.metadata
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/v8/V8ProjectionStateHandler.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: metadata
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/v8/V8ProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/v8/V8ProjectionStateHandler.cs
     startLine: 50
   assemblies:
   - EventStore.Projections.Core
@@ -186,8 +210,12 @@ items:
   fullName: EventStore.Projections.Core.Services.v8.V8ProjectionStateHandler.EmittedEventJsonContract.GetExtraMetadata()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/v8/V8ProjectionStateHandler.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: GetExtraMetadata
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/v8/V8ProjectionStateHandler.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/v8/V8ProjectionStateHandler.cs
     startLine: 52
   assemblies:
   - EventStore.Projections.Core

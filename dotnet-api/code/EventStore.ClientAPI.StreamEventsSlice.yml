@@ -21,8 +21,12 @@ items:
   fullName: EventStore.ClientAPI.StreamEventsSlice
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamEventsSlice.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamEventsSlice
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamEventsSlice.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamEventsSlice.cs
     startLine: 8
   assemblies:
   - EventStore.ClientAPI
@@ -60,8 +64,12 @@ items:
   fullName: EventStore.ClientAPI.StreamEventsSlice.Status
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamEventsSlice.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Status
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamEventsSlice.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamEventsSlice.cs
     startLine: 12
   assemblies:
   - EventStore.ClientAPI
@@ -91,8 +99,12 @@ items:
   fullName: EventStore.ClientAPI.StreamEventsSlice.Stream
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamEventsSlice.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Stream
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamEventsSlice.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamEventsSlice.cs
     startLine: 17
   assemblies:
   - EventStore.ClientAPI
@@ -122,8 +134,12 @@ items:
   fullName: EventStore.ClientAPI.StreamEventsSlice.FromEventNumber
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamEventsSlice.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: FromEventNumber
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamEventsSlice.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamEventsSlice.cs
     startLine: 22
   assemblies:
   - EventStore.ClientAPI
@@ -153,8 +169,12 @@ items:
   fullName: EventStore.ClientAPI.StreamEventsSlice.ReadDirection
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamEventsSlice.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ReadDirection
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamEventsSlice.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamEventsSlice.cs
     startLine: 27
   assemblies:
   - EventStore.ClientAPI
@@ -184,8 +204,12 @@ items:
   fullName: EventStore.ClientAPI.StreamEventsSlice.Events
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamEventsSlice.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Events
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamEventsSlice.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamEventsSlice.cs
     startLine: 32
   assemblies:
   - EventStore.ClientAPI
@@ -215,8 +239,12 @@ items:
   fullName: EventStore.ClientAPI.StreamEventsSlice.NextEventNumber
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamEventsSlice.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: NextEventNumber
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamEventsSlice.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamEventsSlice.cs
     startLine: 37
   assemblies:
   - EventStore.ClientAPI
@@ -246,8 +274,12 @@ items:
   fullName: EventStore.ClientAPI.StreamEventsSlice.LastEventNumber
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamEventsSlice.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: LastEventNumber
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamEventsSlice.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamEventsSlice.cs
     startLine: 42
   assemblies:
   - EventStore.ClientAPI
@@ -277,8 +309,12 @@ items:
   fullName: EventStore.ClientAPI.StreamEventsSlice.IsEndOfStream
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamEventsSlice.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: IsEndOfStream
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamEventsSlice.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamEventsSlice.cs
     startLine: 47
   assemblies:
   - EventStore.ClientAPI

@@ -18,8 +18,12 @@ items:
   fullName: EventStore.ClientAPI.RawStreamMetadataResult
   type: Struct
   source:
+    remote:
+      path: src/EventStore.ClientAPI/RawStreamMetadataResult.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: RawStreamMetadataResult
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/RawStreamMetadataResult.cs
+    path: ../EventStore/src/EventStore.ClientAPI/RawStreamMetadataResult.cs
     startLine: 8
   assemblies:
   - EventStore.ClientAPI
@@ -56,8 +60,12 @@ items:
   fullName: EventStore.ClientAPI.RawStreamMetadataResult.Stream
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/RawStreamMetadataResult.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Stream
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/RawStreamMetadataResult.cs
+    path: ../EventStore/src/EventStore.ClientAPI/RawStreamMetadataResult.cs
     startLine: 12
   assemblies:
   - EventStore.ClientAPI
@@ -87,8 +95,12 @@ items:
   fullName: EventStore.ClientAPI.RawStreamMetadataResult.IsStreamDeleted
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/RawStreamMetadataResult.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: IsStreamDeleted
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/RawStreamMetadataResult.cs
+    path: ../EventStore/src/EventStore.ClientAPI/RawStreamMetadataResult.cs
     startLine: 17
   assemblies:
   - EventStore.ClientAPI
@@ -118,8 +130,12 @@ items:
   fullName: EventStore.ClientAPI.RawStreamMetadataResult.MetastreamVersion
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/RawStreamMetadataResult.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MetastreamVersion
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/RawStreamMetadataResult.cs
+    path: ../EventStore/src/EventStore.ClientAPI/RawStreamMetadataResult.cs
     startLine: 22
   assemblies:
   - EventStore.ClientAPI
@@ -149,8 +165,12 @@ items:
   fullName: EventStore.ClientAPI.RawStreamMetadataResult.StreamMetadata
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/RawStreamMetadataResult.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamMetadata
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/RawStreamMetadataResult.cs
+    path: ../EventStore/src/EventStore.ClientAPI/RawStreamMetadataResult.cs
     startLine: 27
   assemblies:
   - EventStore.ClientAPI
@@ -180,8 +200,12 @@ items:
   fullName: EventStore.ClientAPI.RawStreamMetadataResult.RawStreamMetadataResult(System.String, System.Boolean, System.Int64, System.Byte[])
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/RawStreamMetadataResult.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/RawStreamMetadataResult.cs
+    path: ../EventStore/src/EventStore.ClientAPI/RawStreamMetadataResult.cs
     startLine: 36
   assemblies:
   - EventStore.ClientAPI

@@ -21,8 +21,12 @@ items:
   fullName: EventStore.ClientAPI.EventStorePersistentSubscriptionBase
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStorePersistentSubscriptionBase.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStorePersistentSubscriptionBase
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStorePersistentSubscriptionBase.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStorePersistentSubscriptionBase.cs
     startLine: 18
   assemblies:
   - EventStore.ClientAPI
@@ -64,8 +68,12 @@ items:
   fullName: EventStore.ClientAPI.EventStorePersistentSubscriptionBase.DefaultBufferSize
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStorePersistentSubscriptionBase.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: DefaultBufferSize
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStorePersistentSubscriptionBase.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStorePersistentSubscriptionBase.cs
     startLine: 24
   assemblies:
   - EventStore.ClientAPI
@@ -95,8 +103,12 @@ items:
   fullName: EventStore.ClientAPI.EventStorePersistentSubscriptionBase.Acknowledge(EventStore.ClientAPI.ResolvedEvent)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStorePersistentSubscriptionBase.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Acknowledge
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStorePersistentSubscriptionBase.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStorePersistentSubscriptionBase.cs
     startLine: 94
   assemblies:
   - EventStore.ClientAPI
@@ -128,8 +140,12 @@ items:
   fullName: EventStore.ClientAPI.EventStorePersistentSubscriptionBase.Acknowledge(System.Collections.Generic.IEnumerable<EventStore.ClientAPI.ResolvedEvent>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStorePersistentSubscriptionBase.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Acknowledge
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStorePersistentSubscriptionBase.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStorePersistentSubscriptionBase.cs
     startLine: 103
   assemblies:
   - EventStore.ClientAPI
@@ -164,8 +180,12 @@ items:
   fullName: EventStore.ClientAPI.EventStorePersistentSubscriptionBase.Acknowledge(System.Guid)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStorePersistentSubscriptionBase.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Acknowledge
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStorePersistentSubscriptionBase.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStorePersistentSubscriptionBase.cs
     startLine: 115
   assemblies:
   - EventStore.ClientAPI
@@ -197,8 +217,12 @@ items:
   fullName: EventStore.ClientAPI.EventStorePersistentSubscriptionBase.Acknowledge(System.Collections.Generic.IEnumerable<System.Guid>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStorePersistentSubscriptionBase.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Acknowledge
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStorePersistentSubscriptionBase.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStorePersistentSubscriptionBase.cs
     startLine: 124
   assemblies:
   - EventStore.ClientAPI
@@ -233,8 +257,12 @@ items:
   fullName: EventStore.ClientAPI.EventStorePersistentSubscriptionBase.Fail(EventStore.ClientAPI.ResolvedEvent, EventStore.ClientAPI.PersistentSubscriptionNakEventAction, System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStorePersistentSubscriptionBase.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Fail
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStorePersistentSubscriptionBase.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStorePersistentSubscriptionBase.cs
     startLine: 137
   assemblies:
   - EventStore.ClientAPI
@@ -271,8 +299,12 @@ items:
   fullName: EventStore.ClientAPI.EventStorePersistentSubscriptionBase.Fail(System.Collections.Generic.IEnumerable<EventStore.ClientAPI.ResolvedEvent>, EventStore.ClientAPI.PersistentSubscriptionNakEventAction, System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStorePersistentSubscriptionBase.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Fail
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStorePersistentSubscriptionBase.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStorePersistentSubscriptionBase.cs
     startLine: 147
   assemblies:
   - EventStore.ClientAPI
@@ -312,8 +344,12 @@ items:
   fullName: EventStore.ClientAPI.EventStorePersistentSubscriptionBase.Stop(System.TimeSpan)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStorePersistentSubscriptionBase.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Stop
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStorePersistentSubscriptionBase.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStorePersistentSubscriptionBase.cs
     startLine: 161
   assemblies:
   - EventStore.ClientAPI

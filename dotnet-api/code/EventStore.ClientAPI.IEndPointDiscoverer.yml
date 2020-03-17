@@ -14,8 +14,12 @@ items:
   fullName: EventStore.ClientAPI.IEndPointDiscoverer
   type: Interface
   source:
+    remote:
+      path: src/EventStore.ClientAPI/IEndPointDiscoverer.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: IEndPointDiscoverer
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/IEndPointDiscoverer.cs
+    path: ../EventStore/src/EventStore.ClientAPI/IEndPointDiscoverer.cs
     startLine: 7
   assemblies:
   - EventStore.ClientAPI
@@ -43,8 +47,12 @@ items:
   fullName: EventStore.ClientAPI.IEndPointDiscoverer.DiscoverAsync(System.Net.IPEndPoint)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/IEndPointDiscoverer.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: DiscoverAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/IEndPointDiscoverer.cs
+    path: ../EventStore/src/EventStore.ClientAPI/IEndPointDiscoverer.cs
     startLine: 12
   assemblies:
   - EventStore.ClientAPI

@@ -14,8 +14,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaders.Feeds.FeedReaderMessage.FeedReaderMessageBase
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/EventReaders/Feeds/FeedReaderMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: FeedReaderMessageBase
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaders/Feeds/FeedReaderMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaders/Feeds/FeedReaderMessage.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core
@@ -54,8 +58,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaders.Feeds.FeedReaderMessage.FeedReaderMessageBase.MsgTypeId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/EventReaders/Feeds/FeedReaderMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaders/Feeds/FeedReaderMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaders/Feeds/FeedReaderMessage.cs
     startLine: 11
   assemblies:
   - EventStore.Projections.Core

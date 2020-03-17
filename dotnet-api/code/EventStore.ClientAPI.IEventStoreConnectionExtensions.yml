@@ -21,8 +21,12 @@ items:
   fullName: EventStore.ClientAPI.IEventStoreConnectionExtensions
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/IEventStoreConnectionExtensions.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: IEventStoreConnectionExtensions
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/IEventStoreConnectionExtensions.cs
+    path: ../EventStore/src/EventStore.ClientAPI/IEventStoreConnectionExtensions.cs
     startLine: 13
   assemblies:
   - EventStore.ClientAPI
@@ -62,8 +66,12 @@ items:
   fullName: EventStore.ClientAPI.IEventStoreConnectionExtensions.SubscribeToStreamAsync(EventStore.ClientAPI.IEventStoreConnection, System.String, System.Boolean, System.Action<EventStore.ClientAPI.EventStoreSubscription, EventStore.ClientAPI.ResolvedEvent>, System.Action<EventStore.ClientAPI.EventStoreSubscription, EventStore.ClientAPI.SubscriptionDropReason, System.Exception>, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/IEventStoreConnectionExtensions.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SubscribeToStreamAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/IEventStoreConnectionExtensions.cs
+    path: ../EventStore/src/EventStore.ClientAPI/IEventStoreConnectionExtensions.cs
     startLine: 33
   assemblies:
   - EventStore.ClientAPI
@@ -121,8 +129,12 @@ items:
   fullName: EventStore.ClientAPI.IEventStoreConnectionExtensions.SubscribeToStreamFrom(EventStore.ClientAPI.IEventStoreConnection, System.String, System.Nullable<System.Int64>, EventStore.ClientAPI.CatchUpSubscriptionSettings, System.Action<EventStore.ClientAPI.EventStoreCatchUpSubscription, EventStore.ClientAPI.ResolvedEvent>, System.Action<EventStore.ClientAPI.EventStoreCatchUpSubscription>, System.Action<EventStore.ClientAPI.EventStoreCatchUpSubscription, EventStore.ClientAPI.SubscriptionDropReason, System.Exception>, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/IEventStoreConnectionExtensions.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SubscribeToStreamFrom
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/IEventStoreConnectionExtensions.cs
+    path: ../EventStore/src/EventStore.ClientAPI/IEventStoreConnectionExtensions.cs
     startLine: 79
   assemblies:
   - EventStore.ClientAPI
@@ -201,8 +213,12 @@ items:
   fullName: EventStore.ClientAPI.IEventStoreConnectionExtensions.SubscribeToAllAsync(EventStore.ClientAPI.IEventStoreConnection, System.Boolean, System.Action<EventStore.ClientAPI.EventStoreSubscription, EventStore.ClientAPI.ResolvedEvent>, System.Action<EventStore.ClientAPI.EventStoreSubscription, EventStore.ClientAPI.SubscriptionDropReason, System.Exception>, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/IEventStoreConnectionExtensions.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SubscribeToAllAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/IEventStoreConnectionExtensions.cs
+    path: ../EventStore/src/EventStore.ClientAPI/IEventStoreConnectionExtensions.cs
     startLine: 109
   assemblies:
   - EventStore.ClientAPI
@@ -257,8 +273,12 @@ items:
   fullName: EventStore.ClientAPI.IEventStoreConnectionExtensions.ConnectToPersistentSubscription(EventStore.ClientAPI.IEventStoreConnection, System.String, System.String, System.Action<EventStore.ClientAPI.EventStorePersistentSubscriptionBase, EventStore.ClientAPI.ResolvedEvent>, System.Action<EventStore.ClientAPI.EventStorePersistentSubscriptionBase, EventStore.ClientAPI.SubscriptionDropReason, System.Exception>, EventStore.ClientAPI.SystemData.UserCredentials, System.Int32, System.Boolean)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/IEventStoreConnectionExtensions.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ConnectToPersistentSubscription
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/IEventStoreConnectionExtensions.cs
+    path: ../EventStore/src/EventStore.ClientAPI/IEventStoreConnectionExtensions.cs
     startLine: 141
   assemblies:
   - EventStore.ClientAPI
@@ -335,8 +355,12 @@ items:
   fullName: EventStore.ClientAPI.IEventStoreConnectionExtensions.ConnectToPersistentSubscription(EventStore.ClientAPI.IEventStoreConnection, System.String, System.String, System.Func<EventStore.ClientAPI.EventStorePersistentSubscriptionBase, EventStore.ClientAPI.ResolvedEvent, System.Threading.Tasks.Task>, System.Action<EventStore.ClientAPI.EventStorePersistentSubscriptionBase, EventStore.ClientAPI.SubscriptionDropReason, System.Exception>, EventStore.ClientAPI.SystemData.UserCredentials, System.Int32, System.Boolean)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/IEventStoreConnectionExtensions.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ConnectToPersistentSubscription
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/IEventStoreConnectionExtensions.cs
+    path: ../EventStore/src/EventStore.ClientAPI/IEventStoreConnectionExtensions.cs
     startLine: 179
   assemblies:
   - EventStore.ClientAPI
@@ -413,8 +437,12 @@ items:
   fullName: EventStore.ClientAPI.IEventStoreConnectionExtensions.ConnectToPersistentSubscriptionAsync(EventStore.ClientAPI.IEventStoreConnection, System.String, System.String, System.Action<EventStore.ClientAPI.EventStorePersistentSubscriptionBase, EventStore.ClientAPI.ResolvedEvent>, System.Action<EventStore.ClientAPI.EventStorePersistentSubscriptionBase, EventStore.ClientAPI.SubscriptionDropReason, System.Exception>, EventStore.ClientAPI.SystemData.UserCredentials, System.Int32, System.Boolean)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/IEventStoreConnectionExtensions.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ConnectToPersistentSubscriptionAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/IEventStoreConnectionExtensions.cs
+    path: ../EventStore/src/EventStore.ClientAPI/IEventStoreConnectionExtensions.cs
     startLine: 217
   assemblies:
   - EventStore.ClientAPI
@@ -491,8 +519,12 @@ items:
   fullName: EventStore.ClientAPI.IEventStoreConnectionExtensions.ConnectToPersistentSubscriptionAsync(EventStore.ClientAPI.IEventStoreConnection, System.String, System.String, System.Func<EventStore.ClientAPI.EventStorePersistentSubscriptionBase, EventStore.ClientAPI.ResolvedEvent, System.Threading.Tasks.Task>, System.Action<EventStore.ClientAPI.EventStorePersistentSubscriptionBase, EventStore.ClientAPI.SubscriptionDropReason, System.Exception>, EventStore.ClientAPI.SystemData.UserCredentials, System.Int32, System.Boolean)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/IEventStoreConnectionExtensions.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ConnectToPersistentSubscriptionAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/IEventStoreConnectionExtensions.cs
+    path: ../EventStore/src/EventStore.ClientAPI/IEventStoreConnectionExtensions.cs
     startLine: 255
   assemblies:
   - EventStore.ClientAPI
@@ -569,8 +601,12 @@ items:
   fullName: EventStore.ClientAPI.IEventStoreConnectionExtensions.SubscribeToAllFrom(EventStore.ClientAPI.IEventStoreConnection, System.Nullable<EventStore.ClientAPI.Position>, EventStore.ClientAPI.CatchUpSubscriptionSettings, System.Action<EventStore.ClientAPI.EventStoreCatchUpSubscription, EventStore.ClientAPI.ResolvedEvent>, System.Action<EventStore.ClientAPI.EventStoreCatchUpSubscription>, System.Action<EventStore.ClientAPI.EventStoreCatchUpSubscription, EventStore.ClientAPI.SubscriptionDropReason, System.Exception>, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/IEventStoreConnectionExtensions.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SubscribeToAllFrom
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/IEventStoreConnectionExtensions.cs
+    path: ../EventStore/src/EventStore.ClientAPI/IEventStoreConnectionExtensions.cs
     startLine: 303
   assemblies:
   - EventStore.ClientAPI

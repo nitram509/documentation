@@ -16,8 +16,12 @@ items:
   fullName: EventStore.ClientAPI.SliceReadStatus
   type: Enum
   source:
+    remote:
+      path: src/EventStore.ClientAPI/SliceReadStatus.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SliceReadStatus
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SliceReadStatus.cs
+    path: ../EventStore/src/EventStore.ClientAPI/SliceReadStatus.cs
     startLine: 5
   assemblies:
   - EventStore.ClientAPI
@@ -47,8 +51,12 @@ items:
   fullName: EventStore.ClientAPI.SliceReadStatus.Success
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/SliceReadStatus.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Success
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SliceReadStatus.cs
+    path: ../EventStore/src/EventStore.ClientAPI/SliceReadStatus.cs
     startLine: 9
   assemblies:
   - EventStore.ClientAPI
@@ -77,8 +85,12 @@ items:
   fullName: EventStore.ClientAPI.SliceReadStatus.StreamNotFound
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/SliceReadStatus.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamNotFound
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SliceReadStatus.cs
+    path: ../EventStore/src/EventStore.ClientAPI/SliceReadStatus.cs
     startLine: 14
   assemblies:
   - EventStore.ClientAPI
@@ -107,8 +119,12 @@ items:
   fullName: EventStore.ClientAPI.SliceReadStatus.StreamDeleted
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/SliceReadStatus.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamDeleted
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/SliceReadStatus.cs
+    path: ../EventStore/src/EventStore.ClientAPI/SliceReadStatus.cs
     startLine: 19
   assemblies:
   - EventStore.ClientAPI

@@ -14,8 +14,12 @@ items:
   fullName: EventStore.ClientAPI.Internal.PersistentSubscriptionUpdateResult
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Internal/PersistentSubscriptionUpdateResult.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: PersistentSubscriptionUpdateResult
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Internal/PersistentSubscriptionUpdateResult.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Internal/PersistentSubscriptionUpdateResult.cs
     startLine: 5
   assemblies:
   - EventStore.ClientAPI
@@ -53,8 +57,12 @@ items:
   fullName: EventStore.ClientAPI.Internal.PersistentSubscriptionUpdateResult.Status
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Internal/PersistentSubscriptionUpdateResult.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Status
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Internal/PersistentSubscriptionUpdateResult.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Internal/PersistentSubscriptionUpdateResult.cs
     startLine: 9
   assemblies:
   - EventStore.ClientAPI

@@ -25,8 +25,12 @@ items:
   fullName: EventStore.ClientAPI.Common.SystemMetadata
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/SystemNames.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SystemMetadata
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
     startLine: 22
   assemblies:
   - EventStore.ClientAPI
@@ -65,8 +69,12 @@ items:
   fullName: EventStore.ClientAPI.Common.SystemMetadata.MaxAge
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/SystemNames.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MaxAge
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
     startLine: 27
   assemblies:
   - EventStore.ClientAPI
@@ -96,8 +104,12 @@ items:
   fullName: EventStore.ClientAPI.Common.SystemMetadata.MaxCount
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/SystemNames.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MaxCount
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
     startLine: 33
   assemblies:
   - EventStore.ClientAPI
@@ -127,8 +139,12 @@ items:
   fullName: EventStore.ClientAPI.Common.SystemMetadata.TruncateBefore
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/SystemNames.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: TruncateBefore
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
     startLine: 39
   assemblies:
   - EventStore.ClientAPI
@@ -158,8 +174,12 @@ items:
   fullName: EventStore.ClientAPI.Common.SystemMetadata.CacheControl
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/SystemNames.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CacheControl
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
     startLine: 44
   assemblies:
   - EventStore.ClientAPI
@@ -189,8 +209,12 @@ items:
   fullName: EventStore.ClientAPI.Common.SystemMetadata.Acl
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/SystemNames.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Acl
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
     startLine: 50
   assemblies:
   - EventStore.ClientAPI
@@ -220,8 +244,12 @@ items:
   fullName: EventStore.ClientAPI.Common.SystemMetadata.AclRead
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/SystemNames.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: AclRead
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
     startLine: 55
   assemblies:
   - EventStore.ClientAPI
@@ -251,8 +279,12 @@ items:
   fullName: EventStore.ClientAPI.Common.SystemMetadata.AclWrite
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/SystemNames.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: AclWrite
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
     startLine: 60
   assemblies:
   - EventStore.ClientAPI
@@ -282,8 +314,12 @@ items:
   fullName: EventStore.ClientAPI.Common.SystemMetadata.AclDelete
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/SystemNames.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: AclDelete
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
     startLine: 65
   assemblies:
   - EventStore.ClientAPI
@@ -313,8 +349,12 @@ items:
   fullName: EventStore.ClientAPI.Common.SystemMetadata.AclMetaRead
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/SystemNames.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: AclMetaRead
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
     startLine: 70
   assemblies:
   - EventStore.ClientAPI
@@ -344,8 +384,12 @@ items:
   fullName: EventStore.ClientAPI.Common.SystemMetadata.AclMetaWrite
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/SystemNames.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: AclMetaWrite
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
     startLine: 75
   assemblies:
   - EventStore.ClientAPI
@@ -375,8 +419,12 @@ items:
   fullName: EventStore.ClientAPI.Common.SystemMetadata.UserStreamAcl
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/SystemNames.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: UserStreamAcl
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
     startLine: 81
   assemblies:
   - EventStore.ClientAPI
@@ -406,8 +454,12 @@ items:
   fullName: EventStore.ClientAPI.Common.SystemMetadata.SystemStreamAcl
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/SystemNames.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SystemStreamAcl
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
     startLine: 86
   assemblies:
   - EventStore.ClientAPI

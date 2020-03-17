@@ -13,8 +13,12 @@ items:
   fullName: EventStore.Projections.Core.v8.Js1.LogDelegate
   type: Delegate
   source:
+    remote:
+      path: src/EventStore.Projections.Core/v8/js1.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: LogDelegate
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/v8/js1.cs
+    path: ../EventStore/src/EventStore.Projections.Core/v8/js1.cs
     startLine: 15
   assemblies:
   - EventStore.Projections.Core

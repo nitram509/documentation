@@ -14,8 +14,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IEmittedStreamsDeleter
   type: Interface
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStreamsDeleter.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: IEmittedStreamsDeleter
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStreamsDeleter.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStreamsDeleter.cs
     startLine: 10
   assemblies:
   - EventStore.Projections.Core
@@ -41,8 +45,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IEmittedStreamsDeleter.DeleteEmittedStreams(Action)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedStreamsDeleter.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: DeleteEmittedStreams
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStreamsDeleter.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedStreamsDeleter.cs
     startLine: 11
   assemblies:
   - EventStore.Projections.Core

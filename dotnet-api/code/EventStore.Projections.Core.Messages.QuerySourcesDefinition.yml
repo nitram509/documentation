@@ -33,8 +33,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinition
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: QuerySourcesDefinition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core
@@ -69,8 +73,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinition.AllStreams
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: AllStreams
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core
@@ -102,8 +110,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinition.Categories
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Categories
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core
@@ -135,8 +147,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinition.Streams
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Streams
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
     startLine: 10
   assemblies:
   - EventStore.Projections.Core
@@ -168,8 +184,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinition.AllEvents
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: AllEvents
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
     startLine: 12
   assemblies:
   - EventStore.Projections.Core
@@ -201,8 +221,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinition.Events
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Events
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
     startLine: 14
   assemblies:
   - EventStore.Projections.Core
@@ -234,8 +258,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinition.ByStreams
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ByStreams
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
     startLine: 16
   assemblies:
   - EventStore.Projections.Core
@@ -267,8 +295,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinition.ByCustomPartitions
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ByCustomPartitions
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
     startLine: 18
   assemblies:
   - EventStore.Projections.Core
@@ -300,8 +332,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinition.LimitingCommitPosition
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: LimitingCommitPosition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
     startLine: 21
   assemblies:
   - EventStore.Projections.Core
@@ -334,8 +370,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinition.EventStore.Projections.Core.Messages.IQuerySources.DefinesStateTransform
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStore.Projections.Core.Messages.IQuerySources.DefinesStateTransform
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
     startLine: 24
   assemblies:
   - EventStore.Projections.Core
@@ -368,8 +408,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinition.EventStore.Projections.Core.Messages.IQuerySources.ProducesResults
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStore.Projections.Core.Messages.IQuerySources.ProducesResults
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
     startLine: 28
   assemblies:
   - EventStore.Projections.Core
@@ -402,8 +446,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinition.EventStore.Projections.Core.Messages.IQuerySources.DefinesFold
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStore.Projections.Core.Messages.IQuerySources.DefinesFold
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
     startLine: 32
   assemblies:
   - EventStore.Projections.Core
@@ -436,8 +484,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinition.EventStore.Projections.Core.Messages.IQuerySources.HandlesDeletedNotifications
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStore.Projections.Core.Messages.IQuerySources.HandlesDeletedNotifications
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
     startLine: 36
   assemblies:
   - EventStore.Projections.Core
@@ -470,8 +522,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinition.EventStore.Projections.Core.Messages.IQuerySources.IncludeLinksOption
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStore.Projections.Core.Messages.IQuerySources.IncludeLinksOption
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
     startLine: 40
   assemblies:
   - EventStore.Projections.Core
@@ -504,8 +560,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinition.EventStore.Projections.Core.Messages.IQuerySources.ResultStreamNameOption
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStore.Projections.Core.Messages.IQuerySources.ResultStreamNameOption
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
     startLine: 44
   assemblies:
   - EventStore.Projections.Core
@@ -538,8 +598,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinition.EventStore.Projections.Core.Messages.IQuerySources.PartitionResultStreamNamePatternOption
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStore.Projections.Core.Messages.IQuerySources.PartitionResultStreamNamePatternOption
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
     startLine: 48
   assemblies:
   - EventStore.Projections.Core
@@ -572,8 +636,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinition.EventStore.Projections.Core.Messages.IQuerySources.ReorderEventsOption
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStore.Projections.Core.Messages.IQuerySources.ReorderEventsOption
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
     startLine: 52
   assemblies:
   - EventStore.Projections.Core
@@ -606,8 +674,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinition.EventStore.Projections.Core.Messages.IQuerySources.ProcessingLagOption
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStore.Projections.Core.Messages.IQuerySources.ProcessingLagOption
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
     startLine: 56
   assemblies:
   - EventStore.Projections.Core
@@ -640,8 +712,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinition.EventStore.Projections.Core.Messages.IQuerySources.IsBiState
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStore.Projections.Core.Messages.IQuerySources.IsBiState
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
     startLine: 60
   assemblies:
   - EventStore.Projections.Core
@@ -673,8 +749,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinition.Options
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Options
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
     startLine: 64
   assemblies:
   - EventStore.Projections.Core
@@ -704,8 +784,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.QuerySourcesDefinition.From(EventStore.Projections.Core.Messages.IQuerySources)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: From
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/QuerySourcesDefinition.cs
     startLine: 66
   assemblies:
   - EventStore.Projections.Core

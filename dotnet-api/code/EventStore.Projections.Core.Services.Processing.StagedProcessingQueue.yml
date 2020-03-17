@@ -20,8 +20,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StagedProcessingQueue
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: StagedProcessingQueue
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
     startLine: 14
   assemblies:
   - EventStore.Projections.Core
@@ -54,8 +58,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StagedProcessingQueue.EnsureTickPending
   type: Event
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EnsureTickPending
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
     startLine: 53
   assemblies:
   - EventStore.Projections.Core
@@ -81,8 +89,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StagedProcessingQueue.StagedProcessingQueue(System.Boolean[])
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
     startLine: 55
   assemblies:
   - EventStore.Projections.Core
@@ -113,8 +125,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StagedProcessingQueue.IsEmpty
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: IsEmpty
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
     startLine: 63
   assemblies:
   - EventStore.Projections.Core
@@ -144,8 +160,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StagedProcessingQueue.Count
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Count
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
     startLine: 67
   assemblies:
   - EventStore.Projections.Core
@@ -175,8 +195,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StagedProcessingQueue.Enqueue(EventStore.Projections.Core.Services.Processing.StagedTask)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Enqueue
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
     startLine: 71
   assemblies:
   - EventStore.Projections.Core
@@ -204,8 +228,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StagedProcessingQueue.Process(System.Int32)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Process
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
     startLine: 92
   assemblies:
   - EventStore.Projections.Core
@@ -235,8 +263,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StagedProcessingQueue.Initialize()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Initialize
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StagedProcessingQueue.cs
     startLine: 245
   assemblies:
   - EventStore.Projections.Core

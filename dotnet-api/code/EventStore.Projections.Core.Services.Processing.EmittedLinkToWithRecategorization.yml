@@ -18,8 +18,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedLinkToWithRecategorization
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedLinkToWithRecategorization.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EmittedLinkToWithRecategorization
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedLinkToWithRecategorization.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedLinkToWithRecategorization.cs
     startLine: 5
   assemblies:
   - EventStore.Projections.Core
@@ -62,8 +66,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedLinkToWithRecategorization.EmittedLinkToWithRecategorization(System.String, Guid, System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Services.Processing.CheckpointTag, System.String, System.Nullable<System.Int32>)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedLinkToWithRecategorization.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedLinkToWithRecategorization.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedLinkToWithRecategorization.cs
     startLine: 10
   assemblies:
   - EventStore.Projections.Core
@@ -106,8 +114,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedLinkToWithRecategorization.Data
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedLinkToWithRecategorization.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Data
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedLinkToWithRecategorization.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedLinkToWithRecategorization.cs
     startLine: 19
   assemblies:
   - EventStore.Projections.Core
@@ -140,8 +152,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedLinkToWithRecategorization.IsJson
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedLinkToWithRecategorization.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: IsJson
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedLinkToWithRecategorization.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedLinkToWithRecategorization.cs
     startLine: 23
   assemblies:
   - EventStore.Projections.Core
@@ -174,8 +190,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedLinkToWithRecategorization.IsReady()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedLinkToWithRecategorization.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: IsReady
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedLinkToWithRecategorization.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedLinkToWithRecategorization.cs
     startLine: 27
   assemblies:
   - EventStore.Projections.Core
@@ -205,8 +225,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.EmittedLinkToWithRecategorization.ExtraMetaData()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/EmittedLinkToWithRecategorization.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ExtraMetaData
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedLinkToWithRecategorization.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/EmittedLinkToWithRecategorization.cs
     startLine: 31
   assemblies:
   - EventStore.Projections.Core

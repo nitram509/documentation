@@ -17,8 +17,12 @@ items:
   fullName: EventStore.ClientAPI.Internal.PersistentSubscriptionUpdateStatus
   type: Enum
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Internal/PersistentSubscriptionUpdateStatus.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: PersistentSubscriptionUpdateStatus
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Internal/PersistentSubscriptionUpdateStatus.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Internal/PersistentSubscriptionUpdateStatus.cs
     startLine: 4
   assemblies:
   - EventStore.ClientAPI
@@ -48,8 +52,12 @@ items:
   fullName: EventStore.ClientAPI.Internal.PersistentSubscriptionUpdateStatus.Success
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Internal/PersistentSubscriptionUpdateStatus.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Success
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Internal/PersistentSubscriptionUpdateStatus.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Internal/PersistentSubscriptionUpdateStatus.cs
     startLine: 8
   assemblies:
   - EventStore.ClientAPI
@@ -78,8 +86,12 @@ items:
   fullName: EventStore.ClientAPI.Internal.PersistentSubscriptionUpdateStatus.NotFound
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Internal/PersistentSubscriptionUpdateStatus.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: NotFound
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Internal/PersistentSubscriptionUpdateStatus.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Internal/PersistentSubscriptionUpdateStatus.cs
     startLine: 13
   assemblies:
   - EventStore.ClientAPI
@@ -108,8 +120,12 @@ items:
   fullName: EventStore.ClientAPI.Internal.PersistentSubscriptionUpdateStatus.Failure
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Internal/PersistentSubscriptionUpdateStatus.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Failure
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Internal/PersistentSubscriptionUpdateStatus.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Internal/PersistentSubscriptionUpdateStatus.cs
     startLine: 18
   assemblies:
   - EventStore.ClientAPI
@@ -138,8 +154,12 @@ items:
   fullName: EventStore.ClientAPI.Internal.PersistentSubscriptionUpdateStatus.AccessDenied
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Internal/PersistentSubscriptionUpdateStatus.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: AccessDenied
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Internal/PersistentSubscriptionUpdateStatus.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Internal/PersistentSubscriptionUpdateStatus.cs
     startLine: 23
   assemblies:
   - EventStore.ClientAPI

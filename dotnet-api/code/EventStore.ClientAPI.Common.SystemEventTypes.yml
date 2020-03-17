@@ -18,8 +18,12 @@ items:
   fullName: EventStore.ClientAPI.Common.SystemEventTypes
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/SystemNames.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: SystemEventTypes
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
     startLine: 93
   assemblies:
   - EventStore.ClientAPI
@@ -58,8 +62,12 @@ items:
   fullName: EventStore.ClientAPI.Common.SystemEventTypes.StreamDeleted
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/SystemNames.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamDeleted
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
     startLine: 97
   assemblies:
   - EventStore.ClientAPI
@@ -89,8 +97,12 @@ items:
   fullName: EventStore.ClientAPI.Common.SystemEventTypes.StatsCollection
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/SystemNames.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StatsCollection
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
     startLine: 102
   assemblies:
   - EventStore.ClientAPI
@@ -120,8 +132,12 @@ items:
   fullName: EventStore.ClientAPI.Common.SystemEventTypes.LinkTo
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/SystemNames.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: LinkTo
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
     startLine: 107
   assemblies:
   - EventStore.ClientAPI
@@ -151,8 +167,12 @@ items:
   fullName: EventStore.ClientAPI.Common.SystemEventTypes.StreamMetadata
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/SystemNames.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamMetadata
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
     startLine: 112
   assemblies:
   - EventStore.ClientAPI
@@ -182,8 +202,12 @@ items:
   fullName: EventStore.ClientAPI.Common.SystemEventTypes.Settings
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Common/SystemNames.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Settings
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Common/SystemNames.cs
     startLine: 117
   assemblies:
   - EventStore.ClientAPI

@@ -26,8 +26,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.CategorizeStreamByPath
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CategorizeStreamByPath
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
     startLine: 7
   assemblies:
   - EventStore.Projections.Core
@@ -64,8 +68,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.CategorizeStreamByPath.CategorizeStreamByPath(System.String, Action<System.String, System.Object[]>)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
     startLine: 10
   assemblies:
   - EventStore.Projections.Core
@@ -98,8 +106,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.CategorizeStreamByPath.ConfigureSourceProcessingStrategy(EventStore.Projections.Core.Services.Processing.SourceDefinitionBuilder)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ConfigureSourceProcessingStrategy
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
     startLine: 16
   assemblies:
   - EventStore.Projections.Core
@@ -127,8 +139,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.CategorizeStreamByPath.Load(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Load
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
     startLine: 22
   assemblies:
   - EventStore.Projections.Core
@@ -158,8 +174,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.CategorizeStreamByPath.LoadShared(System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: LoadShared
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
     startLine: 25
   assemblies:
   - EventStore.Projections.Core
@@ -189,8 +209,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.CategorizeStreamByPath.Initialize()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Initialize
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
     startLine: 29
   assemblies:
   - EventStore.Projections.Core
@@ -217,8 +241,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.CategorizeStreamByPath.InitializeShared()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: InitializeShared
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
     startLine: 32
   assemblies:
   - EventStore.Projections.Core
@@ -245,8 +273,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.CategorizeStreamByPath.GetStatePartition(EventStore.Projections.Core.Services.Processing.CheckpointTag, System.String, EventStore.Projections.Core.Services.Processing.ResolvedEvent)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: GetStatePartition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
     startLine: 35
   assemblies:
   - EventStore.Projections.Core
@@ -282,8 +314,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.CategorizeStreamByPath.ProcessEvent(System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag, System.String, EventStore.Projections.Core.Services.Processing.ResolvedEvent, out System.String, out System.String, out EventStore.Projections.Core.Services.Processing.EmittedEventEnvelope[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ProcessEvent
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
     startLine: 39
   assemblies:
   - EventStore.Projections.Core
@@ -330,8 +366,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.CategorizeStreamByPath.ProcessPartitionCreated(System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Services.Processing.ResolvedEvent, out EventStore.Projections.Core.Services.Processing.EmittedEventEnvelope[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ProcessPartitionCreated
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
     startLine: 63
   assemblies:
   - EventStore.Projections.Core
@@ -372,8 +412,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.CategorizeStreamByPath.ProcessPartitionDeleted(System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag, out System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ProcessPartitionDeleted
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
     startLine: 69
   assemblies:
   - EventStore.Projections.Core
@@ -412,8 +456,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.CategorizeStreamByPath.TransformStateToResult()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: TransformStateToResult
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
     startLine: 73
   assemblies:
   - EventStore.Projections.Core
@@ -442,8 +490,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.CategorizeStreamByPath.Dispose()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Dispose
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
     startLine: 77
   assemblies:
   - EventStore.Projections.Core
@@ -468,8 +520,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.CategorizeStreamByPath.GetSourceDefinition()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: GetSourceDefinition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/CategorizeStreamByPath.cs
     startLine: 80
   assemblies:
   - EventStore.Projections.Core

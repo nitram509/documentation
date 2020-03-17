@@ -21,8 +21,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StreamPositionTagger
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StreamPositionTagger.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamPositionTagger
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StreamPositionTagger.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StreamPositionTagger.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core
@@ -56,8 +60,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StreamPositionTagger.StreamPositionTagger(System.Int32, System.String)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StreamPositionTagger.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StreamPositionTagger.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StreamPositionTagger.cs
     startLine: 9
   assemblies:
   - EventStore.Projections.Core
@@ -87,8 +95,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StreamPositionTagger.IsMessageAfterCheckpointTag(EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.CommittedEventDistributed)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StreamPositionTagger.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: IsMessageAfterCheckpointTag
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StreamPositionTagger.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StreamPositionTagger.cs
     startLine: 15
   assemblies:
   - EventStore.Projections.Core
@@ -123,8 +135,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StreamPositionTagger.MakeCheckpointTag(EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.CommittedEventDistributed)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StreamPositionTagger.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MakeCheckpointTag
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StreamPositionTagger.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StreamPositionTagger.cs
     startLine: 25
   assemblies:
   - EventStore.Projections.Core
@@ -159,8 +175,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StreamPositionTagger.MakeCheckpointTag(EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionEof)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StreamPositionTagger.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MakeCheckpointTag
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StreamPositionTagger.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StreamPositionTagger.cs
     startLine: 39
   assemblies:
   - EventStore.Projections.Core
@@ -195,8 +215,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StreamPositionTagger.MakeCheckpointTag(EventStore.Projections.Core.Services.Processing.CheckpointTag, EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.EventReaderPartitionDeleted)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StreamPositionTagger.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MakeCheckpointTag
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StreamPositionTagger.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StreamPositionTagger.cs
     startLine: 44
   assemblies:
   - EventStore.Projections.Core
@@ -231,8 +255,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StreamPositionTagger.MakeZeroCheckpointTag()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StreamPositionTagger.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MakeZeroCheckpointTag
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StreamPositionTagger.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StreamPositionTagger.cs
     startLine: 60
   assemblies:
   - EventStore.Projections.Core
@@ -262,8 +290,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StreamPositionTagger.IsCompatible(EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StreamPositionTagger.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: IsCompatible
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StreamPositionTagger.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StreamPositionTagger.cs
     startLine: 64
   assemblies:
   - EventStore.Projections.Core
@@ -296,8 +328,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.StreamPositionTagger.AdjustTag(EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/StreamPositionTagger.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: AdjustTag
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/StreamPositionTagger.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/StreamPositionTagger.cs
     startLine: 68
   assemblies:
   - EventStore.Projections.Core

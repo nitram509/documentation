@@ -20,8 +20,12 @@ items:
   fullName: EventStore.ClientAPI.ClusterSettings
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ClusterSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ClusterSettings
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ClusterSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ClusterSettings.cs
     startLine: 7
   assemblies:
   - EventStore.ClientAPI
@@ -61,8 +65,12 @@ items:
   fullName: EventStore.ClientAPI.ClusterSettings.Create()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ClusterSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Create
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ClusterSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ClusterSettings.cs
     startLine: 12
   assemblies:
   - EventStore.ClientAPI
@@ -94,8 +102,12 @@ items:
   fullName: EventStore.ClientAPI.ClusterSettings.ClusterDns
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ClusterSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ClusterDns
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ClusterSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ClusterSettings.cs
     startLine: 19
   assemblies:
   - EventStore.ClientAPI
@@ -125,8 +137,12 @@ items:
   fullName: EventStore.ClientAPI.ClusterSettings.MaxDiscoverAttempts
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ClusterSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MaxDiscoverAttempts
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ClusterSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ClusterSettings.cs
     startLine: 24
   assemblies:
   - EventStore.ClientAPI
@@ -156,8 +172,12 @@ items:
   fullName: EventStore.ClientAPI.ClusterSettings.ExternalGossipPort
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ClusterSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ExternalGossipPort
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ClusterSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ClusterSettings.cs
     startLine: 29
   assemblies:
   - EventStore.ClientAPI
@@ -187,8 +207,12 @@ items:
   fullName: EventStore.ClientAPI.ClusterSettings.GossipSeeds
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ClusterSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GossipSeeds
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ClusterSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ClusterSettings.cs
     startLine: 34
   assemblies:
   - EventStore.ClientAPI
@@ -218,8 +242,12 @@ items:
   fullName: EventStore.ClientAPI.ClusterSettings.GossipTimeout
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ClusterSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GossipTimeout
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ClusterSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ClusterSettings.cs
     startLine: 39
   assemblies:
   - EventStore.ClientAPI
@@ -247,8 +275,12 @@ items:
   fullName: EventStore.ClientAPI.ClusterSettings.NodePreference
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ClusterSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: NodePreference
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ClusterSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ClusterSettings.cs
     startLine: 44
   assemblies:
   - EventStore.ClientAPI

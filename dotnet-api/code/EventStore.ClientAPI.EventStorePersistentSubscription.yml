@@ -13,8 +13,12 @@ items:
   fullName: EventStore.ClientAPI.EventStorePersistentSubscription
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/EventStorePersistentSubscription.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EventStorePersistentSubscription
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/EventStorePersistentSubscription.cs
+    path: ../EventStore/src/EventStore.ClientAPI/EventStorePersistentSubscription.cs
     startLine: 48
   assemblies:
   - EventStore.ClientAPI

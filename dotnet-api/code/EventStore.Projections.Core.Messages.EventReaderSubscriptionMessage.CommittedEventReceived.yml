@@ -20,8 +20,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CommittedEventReceived
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
     startLine: 154
   assemblies:
   - EventStore.Projections.Core
@@ -61,8 +65,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived.MsgTypeId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
     startLine: 157
   assemblies:
   - EventStore.Projections.Core
@@ -95,8 +103,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived.Sample(EventStore.Projections.Core.Services.Processing.ResolvedEvent, Guid, System.Int64)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Sample
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
     startLine: 161
   assemblies:
   - EventStore.Projections.Core
@@ -132,8 +144,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived.Sample(EventStore.Projections.Core.Services.Processing.ResolvedEvent, EventStore.Projections.Core.Services.Processing.CheckpointTag, Guid, System.Int64)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Sample
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
     startLine: 167
   assemblies:
   - EventStore.Projections.Core
@@ -171,8 +187,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived.Data
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Data
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
     startLine: 196
   assemblies:
   - EventStore.Projections.Core
@@ -202,8 +222,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived.EventCategory
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EventCategory
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
     startLine: 200
   assemblies:
   - EventStore.Projections.Core
@@ -233,8 +257,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived.FromCommittedEventDistributed(EventStore.Projections.Core.Messages.ReaderSubscriptionMessage.CommittedEventDistributed, EventStore.Projections.Core.Services.Processing.CheckpointTag, System.String, Guid, System.Int64)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: FromCommittedEventDistributed
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
     startLine: 204
   assemblies:
   - EventStore.Projections.Core
@@ -274,8 +302,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived.ToString()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ToString
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/EventReaderSubscriptionMessageBase.cs
     startLine: 212
   assemblies:
   - EventStore.Projections.Core

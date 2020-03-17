@@ -17,8 +17,12 @@ items:
   fullName: EventStore.ClientAPI.Filter
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Filter.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Filter
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Filter.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Filter.cs
     startLine: 7
   assemblies:
   - EventStore.ClientAPI
@@ -55,8 +59,12 @@ items:
   fullName: EventStore.ClientAPI.Filter.EventType
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Filter.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EventType
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Filter.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Filter.cs
     startLine: 17
   assemblies:
   - EventStore.ClientAPI
@@ -90,8 +98,12 @@ items:
   fullName: EventStore.ClientAPI.Filter.StreamId
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Filter.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Filter.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Filter.cs
     startLine: 21
   assemblies:
   - EventStore.ClientAPI
@@ -125,8 +137,12 @@ items:
   fullName: EventStore.ClientAPI.Filter.ExcludeSystemEvents
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Filter.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ExcludeSystemEvents
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Filter.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Filter.cs
     startLine: 26
   assemblies:
   - EventStore.ClientAPI
@@ -160,8 +176,12 @@ items:
   fullName: EventStore.ClientAPI.Filter.ToString()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Filter.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ToString
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Filter.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Filter.cs
     startLine: 30
   assemblies:
   - EventStore.ClientAPI

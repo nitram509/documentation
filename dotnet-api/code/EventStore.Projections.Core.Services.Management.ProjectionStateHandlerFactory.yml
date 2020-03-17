@@ -14,8 +14,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionStateHandlerFactory
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionStateHandlerFactory.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionStateHandlerFactory
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionStateHandlerFactory.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionStateHandlerFactory.cs
     startLine: 5
   assemblies:
   - EventStore.Projections.Core
@@ -46,8 +50,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Management.ProjectionStateHandlerFactory.Create(System.String, System.String, Action<System.Int32, Action>, Action<System.String, System.Object[]>)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Management/ProjectionStateHandlerFactory.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Create
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionStateHandlerFactory.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Management/ProjectionStateHandlerFactory.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core

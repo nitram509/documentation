@@ -38,8 +38,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionsManager
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 14
   assemblies:
   - EventStore.ClientAPI
@@ -77,8 +81,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.ProjectionsManager(EventStore.ClientAPI.ILogger, System.Net.EndPoint, System.TimeSpan, System.Net.Http.HttpMessageHandler, System.String)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 27
   assemblies:
   - EventStore.ClientAPI
@@ -121,8 +129,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.EnableAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: EnableAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 43
   assemblies:
   - EventStore.ClientAPI
@@ -159,8 +171,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.DisableAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: DisableAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 54
   assemblies:
   - EventStore.ClientAPI
@@ -197,8 +213,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.AbortAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: AbortAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 65
   assemblies:
   - EventStore.ClientAPI
@@ -235,8 +255,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.CreateOneTimeAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CreateOneTimeAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 75
   assemblies:
   - EventStore.ClientAPI
@@ -272,8 +296,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.CreateTransientAsync(System.String, System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CreateTransientAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 86
   assemblies:
   - EventStore.ClientAPI
@@ -312,8 +340,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.CreateContinuousAsync(System.String, System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CreateContinuousAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 98
   assemblies:
   - EventStore.ClientAPI
@@ -352,8 +384,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.CreateContinuousAsync(System.String, System.String, System.Boolean, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CreateContinuousAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 109
   assemblies:
   - EventStore.ClientAPI
@@ -395,8 +431,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.ListAllAsync(EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ListAllAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 123
   assemblies:
   - EventStore.ClientAPI
@@ -430,8 +470,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.ListOneTimeAsync(EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ListOneTimeAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 132
   assemblies:
   - EventStore.ClientAPI
@@ -465,8 +509,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.ListContinuousAsync(EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ListContinuousAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 141
   assemblies:
   - EventStore.ClientAPI
@@ -500,8 +548,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.GetStatusAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GetStatusAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 151
   assemblies:
   - EventStore.ClientAPI
@@ -538,8 +590,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.GetStateAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GetStateAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 162
   assemblies:
   - EventStore.ClientAPI
@@ -576,8 +632,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.GetPartitionStateAsync(System.String, System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GetPartitionStateAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 174
   assemblies:
   - EventStore.ClientAPI
@@ -617,8 +677,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.GetResultAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GetResultAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 187
   assemblies:
   - EventStore.ClientAPI
@@ -655,8 +719,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.GetPartitionResultAsync(System.String, System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GetPartitionResultAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 199
   assemblies:
   - EventStore.ClientAPI
@@ -696,8 +764,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.GetStatisticsAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GetStatisticsAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 212
   assemblies:
   - EventStore.ClientAPI
@@ -734,8 +806,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.GetQueryAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GetQueryAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 223
   assemblies:
   - EventStore.ClientAPI
@@ -772,8 +848,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.UpdateQueryAsync(System.String, System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: UpdateQueryAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 234
   assemblies:
   - EventStore.ClientAPI
@@ -812,8 +892,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.UpdateQueryAsync(System.String, System.String, System.Nullable<System.Boolean>, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: UpdateQueryAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 248
   assemblies:
   - EventStore.ClientAPI
@@ -858,8 +942,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.DeleteAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: DeleteAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 263
   assemblies:
   - EventStore.ClientAPI
@@ -896,8 +984,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.DeleteAsync(System.String, System.Boolean, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: DeleteAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 274
   assemblies:
   - EventStore.ClientAPI
@@ -937,8 +1029,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.ResetAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ResetAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 285
   assemblies:
   - EventStore.ClientAPI
@@ -975,8 +1071,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.GetConfigAsync(System.String, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GetConfigAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 296
   assemblies:
   - EventStore.ClientAPI
@@ -1013,8 +1113,12 @@ items:
   fullName: EventStore.ClientAPI.Projections.ProjectionsManager.UpdateConfigAsync(System.String, EventStore.ClientAPI.Projections.ProjectionConfig, EventStore.ClientAPI.SystemData.UserCredentials)
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: UpdateConfigAsync
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
+    path: ../EventStore/src/EventStore.ClientAPI/Projections/ProjectionsManager.cs
     startLine: 307
   assemblies:
   - EventStore.ClientAPI

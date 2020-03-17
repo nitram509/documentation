@@ -18,8 +18,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptionNakEventAction
   type: Enum
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: PersistentSubscriptionNakEventAction
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
     startLine: 4
   assemblies:
   - EventStore.ClientAPI
@@ -49,8 +53,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptionNakEventAction.Unknown
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Unknown
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
     startLine: 8
   assemblies:
   - EventStore.ClientAPI
@@ -79,8 +87,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptionNakEventAction.Park
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Park
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
     startLine: 13
   assemblies:
   - EventStore.ClientAPI
@@ -109,8 +121,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptionNakEventAction.Retry
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Retry
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
     startLine: 18
   assemblies:
   - EventStore.ClientAPI
@@ -139,8 +155,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptionNakEventAction.Skip
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Skip
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
     startLine: 23
   assemblies:
   - EventStore.ClientAPI
@@ -169,8 +189,12 @@ items:
   fullName: EventStore.ClientAPI.PersistentSubscriptionNakEventAction.Stop
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Stop
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
+    path: ../EventStore/src/EventStore.ClientAPI/PersistentSubscriptionNakEventAction.cs
     startLine: 28
   assemblies:
   - EventStore.ClientAPI

@@ -18,8 +18,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase
   type: Interface
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: IEventProcessingProjectionPhase
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
     startLine: 23
   assemblies:
   - EventStore.Projections.Core
@@ -52,8 +56,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.ProcessCommittedEvent(EventStore.Projections.Core.Messages.EventReaderSubscriptionMessage.CommittedEventReceived, System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ProcessCommittedEvent
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
     startLine: 24
   assemblies:
   - EventStore.Projections.Core
@@ -81,8 +89,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.FinalizeEventProcessing(EventStore.Projections.Core.Services.Processing.EventProcessedResult, EventStore.Projections.Core.Services.Processing.CheckpointTag, System.Single)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: FinalizeEventProcessing
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
     startLine: 27
   assemblies:
   - EventStore.Projections.Core
@@ -110,8 +122,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.RecordEventOrder(EventStore.Projections.Core.Services.Processing.ResolvedEvent, EventStore.Projections.Core.Services.Processing.CheckpointTag, Action)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: RecordEventOrder
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
     startLine: 30
   assemblies:
   - EventStore.Projections.Core
@@ -139,8 +155,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.EmitEofResult(System.String, System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag, Guid, System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EmitEofResult
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
     startLine: 32
   assemblies:
   - EventStore.Projections.Core
@@ -172,8 +192,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IEventProcessingProjectionPhase.ProcessPartitionDeleted(System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ProcessPartitionDeleted
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
     startLine: 35
   assemblies:
   - EventStore.Projections.Core

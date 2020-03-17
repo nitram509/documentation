@@ -15,8 +15,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.Unsubscribe
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ReaderSubscriptionManagement.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Unsubscribe
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionManagement.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionManagement.cs
     startLine: 83
   assemblies:
   - EventStore.Projections.Core
@@ -52,8 +56,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.Unsubscribe.MsgTypeId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ReaderSubscriptionManagement.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionManagement.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionManagement.cs
     startLine: 86
   assemblies:
   - EventStore.Projections.Core
@@ -86,8 +94,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.ReaderSubscriptionManagement.Unsubscribe.Unsubscribe(Guid)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/ReaderSubscriptionManagement.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionManagement.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/ReaderSubscriptionManagement.cs
     startLine: 90
   assemblies:
   - EventStore.Projections.Core

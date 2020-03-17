@@ -13,8 +13,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.IEmittedStreamContainer
   type: Interface
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/IProjectionCheckpointManager.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: IEmittedStreamContainer
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/IProjectionCheckpointManager.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/IProjectionCheckpointManager.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core

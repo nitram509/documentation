@@ -14,8 +14,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IEventWriter
   type: Interface
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IEventWriter.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: IEventWriter
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IEventWriter.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IEventWriter.cs
     startLine: 1
   assemblies:
   - EventStore.Projections.Core
@@ -41,8 +45,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IEventWriter.ValidateOrderAndEmitEvents(EventStore.Projections.Core.Services.Processing.EmittedEventEnvelope[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IEventWriter.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ValidateOrderAndEmitEvents
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IEventWriter.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IEventWriter.cs
     startLine: 2
   assemblies:
   - EventStore.Projections.Core

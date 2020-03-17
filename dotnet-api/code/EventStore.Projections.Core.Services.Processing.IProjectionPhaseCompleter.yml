@@ -14,8 +14,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IProjectionPhaseCompleter
   type: Interface
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: IProjectionPhaseCompleter
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
     startLine: 4
   assemblies:
   - EventStore.Projections.Core
@@ -41,8 +45,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IProjectionPhaseCompleter.Complete()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Complete
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IEventProcessingPhase.cs
     startLine: 5
   assemblies:
   - EventStore.Projections.Core

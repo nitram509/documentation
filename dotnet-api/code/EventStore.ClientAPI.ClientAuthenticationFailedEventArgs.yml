@@ -16,8 +16,12 @@ items:
   fullName: EventStore.ClientAPI.ClientAuthenticationFailedEventArgs
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ClientAuthenticationFailedEventArgs.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ClientAuthenticationFailedEventArgs
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ClientAuthenticationFailedEventArgs.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ClientAuthenticationFailedEventArgs.cs
     startLine: 7
   assemblies:
   - EventStore.ClientAPI
@@ -60,8 +64,12 @@ items:
   fullName: EventStore.ClientAPI.ClientAuthenticationFailedEventArgs.Reason
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ClientAuthenticationFailedEventArgs.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Reason
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ClientAuthenticationFailedEventArgs.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ClientAuthenticationFailedEventArgs.cs
     startLine: 11
   assemblies:
   - EventStore.ClientAPI
@@ -93,8 +101,12 @@ items:
   fullName: EventStore.ClientAPI.ClientAuthenticationFailedEventArgs.Connection
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ClientAuthenticationFailedEventArgs.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Connection
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ClientAuthenticationFailedEventArgs.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ClientAuthenticationFailedEventArgs.cs
     startLine: 16
   assemblies:
   - EventStore.ClientAPI
@@ -126,8 +138,12 @@ items:
   fullName: EventStore.ClientAPI.ClientAuthenticationFailedEventArgs.ClientAuthenticationFailedEventArgs(EventStore.ClientAPI.IEventStoreConnection, System.String)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ClientAuthenticationFailedEventArgs.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ClientAuthenticationFailedEventArgs.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ClientAuthenticationFailedEventArgs.cs
     startLine: 23
   assemblies:
   - EventStore.ClientAPI

@@ -5,7 +5,7 @@ items:
   id: ProjectionConfig
   parent: EventStore.Projections.Core.Services
   children:
-  - EventStore.Projections.Core.Services.ProjectionConfig.#ctor(IPrincipal,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Int32)
+  - EventStore.Projections.Core.Services.ProjectionConfig.#ctor(ClaimsPrincipal,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Int32)
   - EventStore.Projections.Core.Services.ProjectionConfig.CheckpointAfterMs
   - EventStore.Projections.Core.Services.ProjectionConfig.CheckpointHandledThreshold
   - EventStore.Projections.Core.Services.ProjectionConfig.CheckpointsEnabled
@@ -27,8 +27,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionConfig
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionConfig
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
     startLine: 5
   assemblies:
   - EventStore.Projections.Core
@@ -47,29 +51,33 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: EventStore.Projections.Core.Services.ProjectionConfig.#ctor(IPrincipal,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Int32)
-  commentId: M:EventStore.Projections.Core.Services.ProjectionConfig.#ctor(IPrincipal,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Int32)
-  id: '#ctor(IPrincipal,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Int32)'
+- uid: EventStore.Projections.Core.Services.ProjectionConfig.#ctor(ClaimsPrincipal,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Int32)
+  commentId: M:EventStore.Projections.Core.Services.ProjectionConfig.#ctor(ClaimsPrincipal,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Int32)
+  id: '#ctor(ClaimsPrincipal,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Int32)'
   parent: EventStore.Projections.Core.Services.ProjectionConfig
   langs:
   - csharp
   - vb
-  name: ProjectionConfig(IPrincipal, Int32, Int32, Int32, Int32, Boolean, Boolean, Boolean, Boolean, Boolean, Int32, Int32)
-  nameWithType: ProjectionConfig.ProjectionConfig(IPrincipal, Int32, Int32, Int32, Int32, Boolean, Boolean, Boolean, Boolean, Boolean, Int32, Int32)
-  fullName: EventStore.Projections.Core.Services.ProjectionConfig.ProjectionConfig(IPrincipal, System.Int32, System.Int32, System.Int32, System.Int32, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Int32, System.Int32)
+  name: ProjectionConfig(ClaimsPrincipal, Int32, Int32, Int32, Int32, Boolean, Boolean, Boolean, Boolean, Boolean, Int32, Int32)
+  nameWithType: ProjectionConfig.ProjectionConfig(ClaimsPrincipal, Int32, Int32, Int32, Int32, Boolean, Boolean, Boolean, Boolean, Boolean, Int32, Int32)
+  fullName: EventStore.Projections.Core.Services.ProjectionConfig.ProjectionConfig(ClaimsPrincipal, System.Int32, System.Int32, System.Int32, System.Int32, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Int32, System.Int32)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
     startLine: 19
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services
   syntax:
-    content: public ProjectionConfig(IPrincipal runAs, int checkpointHandledThreshold, int checkpointUnhandledBytesThreshold, int pendingEventsThreshold, int maxWriteBatchLength, bool emitEventEnabled, bool checkpointsEnabled, bool createTempStreams, bool stopOnEof, bool trackEmittedStreams, int checkpointAfterMs, int maximumAllowedWritesInFlight)
+    content: public ProjectionConfig(ClaimsPrincipal runAs, int checkpointHandledThreshold, int checkpointUnhandledBytesThreshold, int pendingEventsThreshold, int maxWriteBatchLength, bool emitEventEnabled, bool checkpointsEnabled, bool createTempStreams, bool stopOnEof, bool trackEmittedStreams, int checkpointAfterMs, int maximumAllowedWritesInFlight)
     parameters:
     - id: runAs
-      type: IPrincipal
+      type: ClaimsPrincipal
     - id: checkpointHandledThreshold
       type: System.Int32
     - id: checkpointUnhandledBytesThreshold
@@ -92,7 +100,7 @@ items:
       type: System.Int32
     - id: maximumAllowedWritesInFlight
       type: System.Int32
-    content.vb: Public Sub New(runAs As IPrincipal, checkpointHandledThreshold As Integer, checkpointUnhandledBytesThreshold As Integer, pendingEventsThreshold As Integer, maxWriteBatchLength As Integer, emitEventEnabled As Boolean, checkpointsEnabled As Boolean, createTempStreams As Boolean, stopOnEof As Boolean, trackEmittedStreams As Boolean, checkpointAfterMs As Integer, maximumAllowedWritesInFlight As Integer)
+    content.vb: Public Sub New(runAs As ClaimsPrincipal, checkpointHandledThreshold As Integer, checkpointUnhandledBytesThreshold As Integer, pendingEventsThreshold As Integer, maxWriteBatchLength As Integer, emitEventEnabled As Boolean, checkpointsEnabled As Boolean, createTempStreams As Boolean, stopOnEof As Boolean, trackEmittedStreams As Boolean, checkpointAfterMs As Integer, maximumAllowedWritesInFlight As Integer)
   overload: EventStore.Projections.Core.Services.ProjectionConfig.#ctor*
   modifiers.csharp:
   - public
@@ -110,8 +118,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionConfig.CheckpointHandledThreshold
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CheckpointHandledThreshold
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
     startLine: 55
   assemblies:
   - EventStore.Projections.Core
@@ -141,8 +153,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionConfig.CheckpointUnhandledBytesThreshold
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CheckpointUnhandledBytesThreshold
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
     startLine: 59
   assemblies:
   - EventStore.Projections.Core
@@ -172,8 +188,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionConfig.MaxWriteBatchLength
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MaxWriteBatchLength
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
     startLine: 63
   assemblies:
   - EventStore.Projections.Core
@@ -203,8 +223,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionConfig.EmitEventEnabled
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EmitEventEnabled
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
     startLine: 67
   assemblies:
   - EventStore.Projections.Core
@@ -234,8 +258,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionConfig.CheckpointsEnabled
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CheckpointsEnabled
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
     startLine: 71
   assemblies:
   - EventStore.Projections.Core
@@ -265,8 +293,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionConfig.PendingEventsThreshold
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: PendingEventsThreshold
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
     startLine: 75
   assemblies:
   - EventStore.Projections.Core
@@ -296,8 +328,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionConfig.CreateTempStreams
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CreateTempStreams
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
     startLine: 79
   assemblies:
   - EventStore.Projections.Core
@@ -327,8 +363,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionConfig.StopOnEof
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: StopOnEof
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
     startLine: 83
   assemblies:
   - EventStore.Projections.Core
@@ -358,18 +398,22 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionConfig.RunAs
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: RunAs
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
     startLine: 87
   assemblies:
   - EventStore.Projections.Core
   namespace: EventStore.Projections.Core.Services
   syntax:
-    content: public IPrincipal RunAs { get; }
+    content: public ClaimsPrincipal RunAs { get; }
     parameters: []
     return:
-      type: IPrincipal
-    content.vb: Public ReadOnly Property RunAs As IPrincipal
+      type: ClaimsPrincipal
+    content.vb: Public ReadOnly Property RunAs As ClaimsPrincipal
   overload: EventStore.Projections.Core.Services.ProjectionConfig.RunAs*
   modifiers.csharp:
   - public
@@ -389,8 +433,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionConfig.TrackEmittedStreams
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: TrackEmittedStreams
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
     startLine: 91
   assemblies:
   - EventStore.Projections.Core
@@ -420,8 +468,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionConfig.CheckpointAfterMs
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CheckpointAfterMs
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
     startLine: 95
   assemblies:
   - EventStore.Projections.Core
@@ -451,8 +503,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionConfig.MaximumAllowedWritesInFlight
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MaximumAllowedWritesInFlight
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
     startLine: 99
   assemblies:
   - EventStore.Projections.Core
@@ -482,8 +538,12 @@ items:
   fullName: EventStore.Projections.Core.Services.ProjectionConfig.GetTest()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: GetTest
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/ProjectionConfig.cs
     startLine: 103
   assemblies:
   - EventStore.Projections.Core
@@ -524,11 +584,11 @@ references:
   name: ProjectionConfig
   nameWithType: ProjectionConfig.ProjectionConfig
   fullName: EventStore.Projections.Core.Services.ProjectionConfig.ProjectionConfig
-- uid: IPrincipal
+- uid: ClaimsPrincipal
   isExternal: true
-  name: IPrincipal
-  nameWithType: IPrincipal
-  fullName: IPrincipal
+  name: ClaimsPrincipal
+  nameWithType: ClaimsPrincipal
+  fullName: ClaimsPrincipal
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System

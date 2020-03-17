@@ -23,8 +23,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IProjectionProcessingPhase
   type: Interface
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: IProjectionProcessingPhase
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
     startLine: 13
   assemblies:
   - EventStore.Projections.Core
@@ -57,8 +61,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IProjectionProcessingPhase.AdjustTag(EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: AdjustTag
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
     startLine: 17
   assemblies:
   - EventStore.Projections.Core
@@ -84,8 +92,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IProjectionProcessingPhase.InitializeFromCheckpoint(EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: InitializeFromCheckpoint
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
     startLine: 19
   assemblies:
   - EventStore.Projections.Core
@@ -109,8 +121,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IProjectionProcessingPhase.Subscribe(EventStore.Projections.Core.Services.Processing.CheckpointTag, System.Boolean)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Subscribe
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
     startLine: 22
   assemblies:
   - EventStore.Projections.Core
@@ -136,8 +152,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IProjectionProcessingPhase.ProcessEvent()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ProcessEvent
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
     startLine: 24
   assemblies:
   - EventStore.Projections.Core
@@ -158,8 +178,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IProjectionProcessingPhase.EnsureUnsubscribed()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EnsureUnsubscribed
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
     startLine: 26
   assemblies:
   - EventStore.Projections.Core
@@ -180,8 +204,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IProjectionProcessingPhase.SetProjectionState(EventStore.Projections.Core.Services.Processing.PhaseState)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: SetProjectionState
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
     startLine: 28
   assemblies:
   - EventStore.Projections.Core
@@ -205,8 +233,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IProjectionProcessingPhase.GetStatistics(EventStore.Projections.Core.Services.ProjectionStatistics)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: GetStatistics
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
     startLine: 30
   assemblies:
   - EventStore.Projections.Core
@@ -230,8 +262,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IProjectionProcessingPhase.MakeZeroCheckpointTag()
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MakeZeroCheckpointTag
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
     startLine: 32
   assemblies:
   - EventStore.Projections.Core
@@ -254,8 +290,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IProjectionProcessingPhase.CheckpointManager
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CheckpointManager
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
     startLine: 33
   assemblies:
   - EventStore.Projections.Core
@@ -283,8 +323,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.IProjectionProcessingPhase.EmittedStreamsTracker
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: EmittedStreamsTracker
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/IProjectionProcessingPhase.cs
     startLine: 34
   assemblies:
   - EventStore.Projections.Core

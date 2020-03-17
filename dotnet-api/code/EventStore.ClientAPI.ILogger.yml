@@ -19,8 +19,12 @@ items:
   fullName: EventStore.ClientAPI.ILogger
   type: Interface
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ILogger.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ILogger
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ILogger.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ILogger.cs
     startLine: 10
   assemblies:
   - EventStore.ClientAPI
@@ -49,8 +53,12 @@ items:
   fullName: EventStore.ClientAPI.ILogger.Error(System.String, System.Object[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ILogger.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Error
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ILogger.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ILogger.cs
     startLine: 16
   assemblies:
   - EventStore.ClientAPI
@@ -83,8 +91,12 @@ items:
   fullName: EventStore.ClientAPI.ILogger.Error(System.Exception, System.String, System.Object[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ILogger.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Error
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ILogger.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ILogger.cs
     startLine: 24
   assemblies:
   - EventStore.ClientAPI
@@ -120,8 +132,12 @@ items:
   fullName: EventStore.ClientAPI.ILogger.Info(System.String, System.Object[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ILogger.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Info
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ILogger.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ILogger.cs
     startLine: 31
   assemblies:
   - EventStore.ClientAPI
@@ -154,8 +170,12 @@ items:
   fullName: EventStore.ClientAPI.ILogger.Info(System.Exception, System.String, System.Object[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ILogger.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Info
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ILogger.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ILogger.cs
     startLine: 39
   assemblies:
   - EventStore.ClientAPI
@@ -191,8 +211,12 @@ items:
   fullName: EventStore.ClientAPI.ILogger.Debug(System.String, System.Object[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ILogger.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Debug
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ILogger.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ILogger.cs
     startLine: 46
   assemblies:
   - EventStore.ClientAPI
@@ -225,8 +249,12 @@ items:
   fullName: EventStore.ClientAPI.ILogger.Debug(System.Exception, System.String, System.Object[])
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ILogger.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Debug
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ILogger.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ILogger.cs
     startLine: 54
   assemblies:
   - EventStore.ClientAPI

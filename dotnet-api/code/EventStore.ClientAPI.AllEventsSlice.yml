@@ -18,8 +18,12 @@ items:
   fullName: EventStore.ClientAPI.AllEventsSlice
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/AllEventsSlice.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: AllEventsSlice
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/AllEventsSlice.cs
+    path: ../EventStore/src/EventStore.ClientAPI/AllEventsSlice.cs
     startLine: 7
   assemblies:
   - EventStore.ClientAPI
@@ -57,8 +61,12 @@ items:
   fullName: EventStore.ClientAPI.AllEventsSlice.ReadDirection
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/AllEventsSlice.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ReadDirection
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/AllEventsSlice.cs
+    path: ../EventStore/src/EventStore.ClientAPI/AllEventsSlice.cs
     startLine: 11
   assemblies:
   - EventStore.ClientAPI
@@ -88,8 +96,12 @@ items:
   fullName: EventStore.ClientAPI.AllEventsSlice.FromPosition
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/AllEventsSlice.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: FromPosition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/AllEventsSlice.cs
+    path: ../EventStore/src/EventStore.ClientAPI/AllEventsSlice.cs
     startLine: 16
   assemblies:
   - EventStore.ClientAPI
@@ -119,8 +131,12 @@ items:
   fullName: EventStore.ClientAPI.AllEventsSlice.NextPosition
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/AllEventsSlice.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: NextPosition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/AllEventsSlice.cs
+    path: ../EventStore/src/EventStore.ClientAPI/AllEventsSlice.cs
     startLine: 21
   assemblies:
   - EventStore.ClientAPI
@@ -150,8 +166,12 @@ items:
   fullName: EventStore.ClientAPI.AllEventsSlice.Events
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/AllEventsSlice.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Events
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/AllEventsSlice.cs
+    path: ../EventStore/src/EventStore.ClientAPI/AllEventsSlice.cs
     startLine: 26
   assemblies:
   - EventStore.ClientAPI
@@ -181,8 +201,12 @@ items:
   fullName: EventStore.ClientAPI.AllEventsSlice.IsEndOfStream
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/AllEventsSlice.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: IsEndOfStream
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/AllEventsSlice.cs
+    path: ../EventStore/src/EventStore.ClientAPI/AllEventsSlice.cs
     startLine: 31
   assemblies:
   - EventStore.ClientAPI

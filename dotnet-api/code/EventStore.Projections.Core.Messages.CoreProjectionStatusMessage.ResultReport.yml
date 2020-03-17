@@ -16,8 +16,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ResultReport
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ResultReport
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
     startLine: 108
   assemblies:
   - EventStore.Projections.Core
@@ -58,8 +62,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ResultReport.MsgTypeId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
     startLine: 111
   assemblies:
   - EventStore.Projections.Core
@@ -92,8 +100,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ResultReport.ResultReport(Guid, Guid, System.String, System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
     startLine: 117
   assemblies:
   - EventStore.Projections.Core
@@ -129,8 +141,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.ResultReport.Result
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Result
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
     startLine: 127
   assemblies:
   - EventStore.Projections.Core

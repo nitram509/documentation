@@ -16,8 +16,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.StreamDeletedHelper
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/StreamDeletedHelper.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamDeletedHelper
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/StreamDeletedHelper.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/StreamDeletedHelper.cs
     startLine: 6
   assemblies:
   - EventStore.Projections.Core
@@ -49,8 +53,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.StreamDeletedHelper.IsStreamDeletedEventOrLinkToStreamDeletedEvent(EventStore.Projections.Core.Services.Processing.ResolvedEvent, out System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/StreamDeletedHelper.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: IsStreamDeletedEventOrLinkToStreamDeletedEvent
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/StreamDeletedHelper.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/StreamDeletedHelper.cs
     startLine: 7
   assemblies:
   - EventStore.Projections.Core
@@ -87,8 +95,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.StreamDeletedHelper.IsStreamDeletedEvent(System.String, System.String, System.String, out System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/StreamDeletedHelper.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: IsStreamDeletedEvent
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/StreamDeletedHelper.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/StreamDeletedHelper.cs
     startLine: 22
   assemblies:
   - EventStore.Projections.Core
@@ -129,8 +141,12 @@ items:
   fullName: EventStore.Projections.Core.Standard.StreamDeletedHelper.IsStreamDeletedEvent(System.String, System.String, System.Byte[], out System.String)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Standard/StreamDeletedHelper.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: IsStreamDeletedEvent
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Standard/StreamDeletedHelper.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Standard/StreamDeletedHelper.cs
     startLine: 55
   assemblies:
   - EventStore.Projections.Core

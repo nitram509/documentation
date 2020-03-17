@@ -14,8 +14,12 @@ items:
   fullName: EventStore.Projections.Core.ProjectionManagerNode
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/ProjectionManagerNode.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionManagerNode
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionManagerNode.cs
+    path: ../EventStore/src/EventStore.Projections.Core/ProjectionManagerNode.cs
     startLine: 17
   assemblies:
   - EventStore.Projections.Core
@@ -46,8 +50,12 @@ items:
   fullName: EventStore.Projections.Core.ProjectionManagerNode.CreateManagerService(EventStore.Core.StandardComponents, EventStore.Projections.Core.ProjectionsStandardComponents, IDictionary<Guid, EventStore.Core.Bus.IPublisher>, TimeSpan)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/ProjectionManagerNode.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CreateManagerService
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionManagerNode.cs
+    path: ../EventStore/src/EventStore.Projections.Core/ProjectionManagerNode.cs
     startLine: 18
   assemblies:
   - EventStore.Projections.Core

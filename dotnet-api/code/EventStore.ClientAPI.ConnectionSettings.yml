@@ -28,8 +28,7 @@ items:
   - EventStore.ClientAPI.ConnectionSettings.OperationTimeoutCheckPeriod
   - EventStore.ClientAPI.ConnectionSettings.QueueTimeout
   - EventStore.ClientAPI.ConnectionSettings.ReconnectionDelay
-  - EventStore.ClientAPI.ConnectionSettings.RequireMaster
-  - EventStore.ClientAPI.ConnectionSettings.TargetHost
+  - EventStore.ClientAPI.ConnectionSettings.RequireLeader
   - EventStore.ClientAPI.ConnectionSettings.UseSslConnection
   - EventStore.ClientAPI.ConnectionSettings.ValidateServer
   - EventStore.ClientAPI.ConnectionSettings.VerboseLogging
@@ -41,8 +40,12 @@ items:
   fullName: EventStore.ClientAPI.ConnectionSettings
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ConnectionSettings
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
     startLine: 12
   assemblies:
   - EventStore.ClientAPI
@@ -82,8 +85,12 @@ items:
   fullName: EventStore.ClientAPI.ConnectionSettings.Default
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Default
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
     startLine: 19
   assemblies:
   - EventStore.ClientAPI
@@ -117,8 +124,12 @@ items:
   fullName: EventStore.ClientAPI.ConnectionSettings.Create()
   type: Method
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Create
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
     startLine: 27
   assemblies:
   - EventStore.ClientAPI
@@ -150,8 +161,12 @@ items:
   fullName: EventStore.ClientAPI.ConnectionSettings.Log
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Log
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
     startLine: 34
   assemblies:
   - EventStore.ClientAPI
@@ -181,8 +196,12 @@ items:
   fullName: EventStore.ClientAPI.ConnectionSettings.CustomHttpClient
   type: Property
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: CustomHttpClient
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
     startLine: 39
   assemblies:
   - EventStore.ClientAPI
@@ -214,8 +233,12 @@ items:
   fullName: EventStore.ClientAPI.ConnectionSettings.VerboseLogging
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: VerboseLogging
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
     startLine: 44
   assemblies:
   - EventStore.ClientAPI
@@ -245,8 +268,12 @@ items:
   fullName: EventStore.ClientAPI.ConnectionSettings.MaxQueueSize
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MaxQueueSize
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
     startLine: 49
   assemblies:
   - EventStore.ClientAPI
@@ -276,8 +303,12 @@ items:
   fullName: EventStore.ClientAPI.ConnectionSettings.MaxConcurrentItems
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MaxConcurrentItems
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
     startLine: 54
   assemblies:
   - EventStore.ClientAPI
@@ -307,8 +338,12 @@ items:
   fullName: EventStore.ClientAPI.ConnectionSettings.MaxRetries
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MaxRetries
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
     startLine: 59
   assemblies:
   - EventStore.ClientAPI
@@ -338,8 +373,12 @@ items:
   fullName: EventStore.ClientAPI.ConnectionSettings.MaxReconnections
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MaxReconnections
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
     startLine: 64
   assemblies:
   - EventStore.ClientAPI
@@ -357,31 +396,35 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: EventStore.ClientAPI.ConnectionSettings.RequireMaster
-  commentId: F:EventStore.ClientAPI.ConnectionSettings.RequireMaster
-  id: RequireMaster
+- uid: EventStore.ClientAPI.ConnectionSettings.RequireLeader
+  commentId: F:EventStore.ClientAPI.ConnectionSettings.RequireLeader
+  id: RequireLeader
   parent: EventStore.ClientAPI.ConnectionSettings
   langs:
   - csharp
   - vb
-  name: RequireMaster
-  nameWithType: ConnectionSettings.RequireMaster
-  fullName: EventStore.ClientAPI.ConnectionSettings.RequireMaster
+  name: RequireLeader
+  nameWithType: ConnectionSettings.RequireLeader
+  fullName: EventStore.ClientAPI.ConnectionSettings.RequireLeader
   type: Field
   source:
-    id: RequireMaster
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
+    id: RequireLeader
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
     startLine: 69
   assemblies:
   - EventStore.ClientAPI
   namespace: EventStore.ClientAPI
-  summary: "\nWhether to require EventStore to refuse serving read or write request if it is not master.\n"
+  summary: "\nWhether to require EventStore to refuse serving read or write request if it is not leader.\n"
   example: []
   syntax:
-    content: public readonly bool RequireMaster
+    content: public readonly bool RequireLeader
     return:
       type: System.Boolean
-    content.vb: Public ReadOnly RequireMaster As Boolean
+    content.vb: Public ReadOnly RequireLeader As Boolean
   modifiers.csharp:
   - public
   - readonly
@@ -400,8 +443,12 @@ items:
   fullName: EventStore.ClientAPI.ConnectionSettings.ReconnectionDelay
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ReconnectionDelay
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
     startLine: 74
   assemblies:
   - EventStore.ClientAPI
@@ -431,8 +478,12 @@ items:
   fullName: EventStore.ClientAPI.ConnectionSettings.QueueTimeout
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: QueueTimeout
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
     startLine: 79
   assemblies:
   - EventStore.ClientAPI
@@ -462,8 +513,12 @@ items:
   fullName: EventStore.ClientAPI.ConnectionSettings.OperationTimeout
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: OperationTimeout
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
     startLine: 84
   assemblies:
   - EventStore.ClientAPI
@@ -493,8 +548,12 @@ items:
   fullName: EventStore.ClientAPI.ConnectionSettings.OperationTimeoutCheckPeriod
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: OperationTimeoutCheckPeriod
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
     startLine: 89
   assemblies:
   - EventStore.ClientAPI
@@ -524,8 +583,12 @@ items:
   fullName: EventStore.ClientAPI.ConnectionSettings.DefaultUserCredentials
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: DefaultUserCredentials
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
     startLine: 94
   assemblies:
   - EventStore.ClientAPI
@@ -555,8 +618,12 @@ items:
   fullName: EventStore.ClientAPI.ConnectionSettings.UseSslConnection
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: UseSslConnection
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
     startLine: 99
   assemblies:
   - EventStore.ClientAPI
@@ -568,37 +635,6 @@ items:
     return:
       type: System.Boolean
     content.vb: Public ReadOnly UseSslConnection As Boolean
-  modifiers.csharp:
-  - public
-  - readonly
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: EventStore.ClientAPI.ConnectionSettings.TargetHost
-  commentId: F:EventStore.ClientAPI.ConnectionSettings.TargetHost
-  id: TargetHost
-  parent: EventStore.ClientAPI.ConnectionSettings
-  langs:
-  - csharp
-  - vb
-  name: TargetHost
-  nameWithType: ConnectionSettings.TargetHost
-  fullName: EventStore.ClientAPI.ConnectionSettings.TargetHost
-  type: Field
-  source:
-    id: TargetHost
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
-    startLine: 104
-  assemblies:
-  - EventStore.ClientAPI
-  namespace: EventStore.ClientAPI
-  summary: "\nThe host name of the server expected on the SSL certificate.\n"
-  example: []
-  syntax:
-    content: public readonly string TargetHost
-    return:
-      type: System.String
-    content.vb: Public ReadOnly TargetHost As String
   modifiers.csharp:
   - public
   - readonly
@@ -617,9 +653,13 @@ items:
   fullName: EventStore.ClientAPI.ConnectionSettings.ValidateServer
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ValidateServer
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
-    startLine: 109
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    startLine: 104
   assemblies:
   - EventStore.ClientAPI
   namespace: EventStore.ClientAPI
@@ -648,9 +688,13 @@ items:
   fullName: EventStore.ClientAPI.ConnectionSettings.FailOnNoServerResponse
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: FailOnNoServerResponse
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
-    startLine: 114
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    startLine: 109
   assemblies:
   - EventStore.ClientAPI
   namespace: EventStore.ClientAPI
@@ -679,9 +723,13 @@ items:
   fullName: EventStore.ClientAPI.ConnectionSettings.HeartbeatInterval
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: HeartbeatInterval
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
-    startLine: 119
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    startLine: 114
   assemblies:
   - EventStore.ClientAPI
   namespace: EventStore.ClientAPI
@@ -710,9 +758,13 @@ items:
   fullName: EventStore.ClientAPI.ConnectionSettings.HeartbeatTimeout
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: HeartbeatTimeout
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
-    startLine: 124
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    startLine: 119
   assemblies:
   - EventStore.ClientAPI
   namespace: EventStore.ClientAPI
@@ -741,9 +793,13 @@ items:
   fullName: EventStore.ClientAPI.ConnectionSettings.ClusterDns
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ClusterDns
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
-    startLine: 129
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    startLine: 124
   assemblies:
   - EventStore.ClientAPI
   namespace: EventStore.ClientAPI
@@ -772,9 +828,13 @@ items:
   fullName: EventStore.ClientAPI.ConnectionSettings.MaxDiscoverAttempts
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MaxDiscoverAttempts
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
-    startLine: 134
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    startLine: 129
   assemblies:
   - EventStore.ClientAPI
   namespace: EventStore.ClientAPI
@@ -803,9 +863,13 @@ items:
   fullName: EventStore.ClientAPI.ConnectionSettings.ExternalGossipPort
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ExternalGossipPort
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
-    startLine: 139
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    startLine: 134
   assemblies:
   - EventStore.ClientAPI
   namespace: EventStore.ClientAPI
@@ -834,9 +898,13 @@ items:
   fullName: EventStore.ClientAPI.ConnectionSettings.GossipSeeds
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GossipSeeds
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
-    startLine: 144
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    startLine: 139
   assemblies:
   - EventStore.ClientAPI
   namespace: EventStore.ClientAPI
@@ -865,9 +933,13 @@ items:
   fullName: EventStore.ClientAPI.ConnectionSettings.GossipTimeout
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: GossipTimeout
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
-    startLine: 149
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    startLine: 144
   assemblies:
   - EventStore.ClientAPI
   namespace: EventStore.ClientAPI
@@ -896,9 +968,13 @@ items:
   fullName: EventStore.ClientAPI.ConnectionSettings.NodePreference
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: NodePreference
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
-    startLine: 154
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    startLine: 149
   assemblies:
   - EventStore.ClientAPI
   namespace: EventStore.ClientAPI
@@ -927,9 +1003,13 @@ items:
   fullName: EventStore.ClientAPI.ConnectionSettings.ClientConnectionTimeout
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ConnectionSettings.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: ClientConnectionTimeout
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
-    startLine: 159
+    path: ../EventStore/src/EventStore.ClientAPI/ConnectionSettings.cs
+    startLine: 154
   assemblies:
   - EventStore.ClientAPI
   namespace: EventStore.ClientAPI

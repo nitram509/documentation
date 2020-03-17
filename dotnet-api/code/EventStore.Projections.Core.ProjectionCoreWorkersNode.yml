@@ -15,8 +15,12 @@ items:
   fullName: EventStore.Projections.Core.ProjectionCoreWorkersNode
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/ProjectionCoreWorkersNode.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ProjectionCoreWorkersNode
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionCoreWorkersNode.cs
+    path: ../EventStore/src/EventStore.Projections.Core/ProjectionCoreWorkersNode.cs
     startLine: 17
   assemblies:
   - EventStore.Projections.Core
@@ -48,8 +52,12 @@ items:
   fullName: EventStore.Projections.Core.ProjectionCoreWorkersNode.CreateCoreWorkers(EventStore.Core.StandardComponents, EventStore.Projections.Core.ProjectionsStandardComponents)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/ProjectionCoreWorkersNode.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CreateCoreWorkers
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionCoreWorkersNode.cs
+    path: ../EventStore/src/EventStore.Projections.Core/ProjectionCoreWorkersNode.cs
     startLine: 18
   assemblies:
   - EventStore.Projections.Core
@@ -83,8 +91,12 @@ items:
   fullName: EventStore.Projections.Core.ProjectionCoreWorkersNode.CreateTimeoutSchedulers(System.Int32)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/ProjectionCoreWorkersNode.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CreateTimeoutSchedulers
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/ProjectionCoreWorkersNode.cs
+    path: ../EventStore/src/EventStore.Projections.Core/ProjectionCoreWorkersNode.cs
     startLine: 91
   assemblies:
   - EventStore.Projections.Core

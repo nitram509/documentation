@@ -18,8 +18,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.DataReportBase
   type: Class
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: DataReportBase
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
     startLine: 53
   assemblies:
   - EventStore.Projections.Core
@@ -61,8 +65,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.DataReportBase.MsgTypeId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: MsgTypeId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
     startLine: 56
   assemblies:
   - EventStore.Projections.Core
@@ -95,8 +103,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.DataReportBase.DataReportBase(Guid, Guid, System.String, EventStore.Projections.Core.Services.Processing.CheckpointTag)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
     startLine: 64
   assemblies:
   - EventStore.Projections.Core
@@ -130,8 +142,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.DataReportBase.Partition
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Partition
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
     startLine: 71
   assemblies:
   - EventStore.Projections.Core
@@ -161,8 +177,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.DataReportBase.CorrelationId
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CorrelationId
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
     startLine: 75
   assemblies:
   - EventStore.Projections.Core
@@ -192,8 +212,12 @@ items:
   fullName: EventStore.Projections.Core.Messages.CoreProjectionStatusMessage.DataReportBase.Position
   type: Property
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Position
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Messages/CoreProjectionStatusMessage.cs
     startLine: 79
   assemblies:
   - EventStore.Projections.Core

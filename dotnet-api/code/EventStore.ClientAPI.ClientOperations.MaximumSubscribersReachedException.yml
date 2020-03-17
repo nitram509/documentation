@@ -14,8 +14,12 @@ items:
   fullName: EventStore.ClientAPI.ClientOperations.MaximumSubscribersReachedException
   type: Class
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ClientOperations/ConnectToPersistentSubscriptionOperation.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MaximumSubscribersReachedException
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ClientOperations/ConnectToPersistentSubscriptionOperation.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ClientOperations/ConnectToPersistentSubscriptionOperation.cs
     startLine: 137
   assemblies:
   - EventStore.ClientAPI
@@ -72,8 +76,12 @@ items:
   fullName: EventStore.ClientAPI.ClientOperations.MaximumSubscribersReachedException.MaximumSubscribersReachedException()
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/ClientOperations/ConnectToPersistentSubscriptionOperation.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/ClientOperations/ConnectToPersistentSubscriptionOperation.cs
+    path: ../EventStore/src/EventStore.ClientAPI/ClientOperations/ConnectToPersistentSubscriptionOperation.cs
     startLine: 141
   assemblies:
   - EventStore.ClientAPI

@@ -18,8 +18,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTagVersion
   type: Struct
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: CheckpointTagVersion
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
     startLine: 8
   assemblies:
   - EventStore.Projections.Core
@@ -47,8 +51,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTagVersion.Version
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Version
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
     startLine: 9
   assemblies:
   - EventStore.Projections.Core
@@ -74,8 +82,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTagVersion.SystemVersion
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: SystemVersion
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
     startLine: 10
   assemblies:
   - EventStore.Projections.Core
@@ -101,8 +113,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTagVersion.Tag
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: Tag
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
     startLine: 11
   assemblies:
   - EventStore.Projections.Core
@@ -128,8 +144,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTagVersion.ExtraMetadata
   type: Field
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: ExtraMetadata
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
     startLine: 12
   assemblies:
   - EventStore.Projections.Core
@@ -155,8 +175,12 @@ items:
   fullName: EventStore.Projections.Core.Services.Processing.CheckpointTagVersion.AdjustBy(EventStore.Projections.Core.Services.Processing.PositionTagger, EventStore.Projections.Core.Services.Processing.ProjectionVersion)
   type: Method
   source:
+    remote:
+      path: src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
+      branch: feature/docs-connection-code
+      repo: git@github.com:EventStore/EventStore.git
     id: AdjustBy
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
+    path: ../EventStore/src/EventStore.Projections.Core/Services/Processing/CheckpointTagExtensions.cs
     startLine: 14
   assemblies:
   - EventStore.Projections.Core

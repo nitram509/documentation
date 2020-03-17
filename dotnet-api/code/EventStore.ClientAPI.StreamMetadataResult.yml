@@ -18,8 +18,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataResult
   type: Struct
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataResult.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamMetadataResult
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataResult.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataResult.cs
     startLine: 7
   assemblies:
   - EventStore.ClientAPI
@@ -56,8 +60,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataResult.Stream
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataResult.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: Stream
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataResult.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataResult.cs
     startLine: 11
   assemblies:
   - EventStore.ClientAPI
@@ -87,8 +95,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataResult.IsStreamDeleted
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataResult.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: IsStreamDeleted
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataResult.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataResult.cs
     startLine: 16
   assemblies:
   - EventStore.ClientAPI
@@ -118,8 +130,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataResult.MetastreamVersion
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataResult.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: MetastreamVersion
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataResult.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataResult.cs
     startLine: 21
   assemblies:
   - EventStore.ClientAPI
@@ -149,8 +165,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataResult.StreamMetadata
   type: Field
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataResult.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: StreamMetadata
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataResult.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataResult.cs
     startLine: 26
   assemblies:
   - EventStore.ClientAPI
@@ -180,8 +200,12 @@ items:
   fullName: EventStore.ClientAPI.StreamMetadataResult.StreamMetadataResult(System.String, System.Boolean, System.Int64, EventStore.ClientAPI.StreamMetadata)
   type: Constructor
   source:
+    remote:
+      path: src/EventStore.ClientAPI/StreamMetadataResult.cs
+      branch: master
+      repo: git@github.com:EventStore/EventStore.git
     id: .ctor
-    path: /Users/chrisward/Workspace/EventStore/EventStore/src/EventStore.ClientAPI/StreamMetadataResult.cs
+    path: ../EventStore/src/EventStore.ClientAPI/StreamMetadataResult.cs
     startLine: 35
   assemblies:
   - EventStore.ClientAPI
