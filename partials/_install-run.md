@@ -94,20 +94,6 @@ docker-compose -f docker-compose.yaml up
 
 Refer to the [image overview](https://hub.docker.com/r/eventstore/eventstore/) for more information.
 
-### [Kubernetes](#tab/tabid-k8)
-
-Event Store has [a Helm chart](https://github.com/EventStore/EventStore.Charts) available for installing Event Store on Kubernetes clusters:
-
-```bash
-helm repo add eventstore https://eventstore.github.io/EventStore.Charts
-helm repo update
-helm install -n eventstore eventstore/eventstore
-```
-
-> [!NOTE]
-> Read [this guide](https://github.com/EventStore/EventStore.Charts/blob/master/stable/eventstore/README.md) for more details on how to use the helm chart.
-> Read [this guide](~/server/deploy-kubernetes-aks.md) for more details on using Kubernetes with AKS and [this guide](~/server/deploy-kubernetes-gke.md) for more details on using Kubernetes with GKE.
-
 ### [macOS](#tab/tabid-macos)
 
 Event Store has a macOS package [you can download](https://eventstore.com/downloads/) and install, and we maintain a Homebrew Cask formula you can install:
