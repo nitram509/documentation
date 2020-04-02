@@ -38,11 +38,11 @@ To use the .NET API, use the following method passing the stream name, the start
 
 ### [JVM client](#tab/tabid-jvm-client)
 
-To use the JVM client, use the following method passing the stream name, the start point in the stream, and whether to follow links to the event data:
+To use the JVM client, use the following method passing the stream name, the number of the event to read, and whether to follow links to the event data:
 
-[!code-java[getting-started-read](../../EventStore.Samples.Java/src/main/java/org/eventstore/sample/ReadMultipleEventsExample.java?start=21&end=28)]
+[!code-java[getting-started-read](../../EventStore.Samples.Java/src/main/java/org/eventstore/sample/ReadMultipleEventsExample.java?start=21&end=29)]
 
-### [HTTP API Request](#tab/tabid-6)
+### [HTTP API Request](#tab/tabid-8)
 
 [!code-bash[getting-started-read-stream-request](~/code-examples/getting-started/read-stream.sh?start=1&end=1)]
 
@@ -52,7 +52,7 @@ To use the JVM client, use the following method passing the stream name, the sta
 > [!NOTE]
 > This returns the feed in JSON format, you can also use `Accept:application/atom+xml` if you prefer XML.
 
-### [HTTP API Response](#tab/tabid-7)
+### [HTTP API Response](#tab/tabid-9)
 
 [!code-http[getting-started-read-stream-response](~/code-examples/getting-started/read-stream.sh?range=3-)]
 
@@ -72,9 +72,9 @@ To use the .NET API, use the following method passing the stream name, the event
 
 To use the Java client, use the following method passing the stream name, the event you want to read and if you want to also return the event data:
 
-[!code-java[getting-started-read](../../EventStore.Samples.Java/src/main/java/org/eventstore/sample/ReadSingleEventExample.java?start=25&end=33)]
+[!code-java[getting-started-read](../../EventStore.Samples.Java/src/main/java/org/eventstore/sample/ReadSingleEventExample.java?start=21&end=29)]
 
-### [HTTP API Request](#tab/tabid-8)
+### [HTTP API Request](#tab/tabid-10)
 
 [!code-bash[getting-started-read-event-request](~/code-examples/getting-started/read-event.sh?start=1&end=1)]
 
@@ -84,7 +84,7 @@ To use the Java client, use the following method passing the stream name, the ev
 > [!NOTE]
 > You can also use `Accept: text/xml` if you prefer XML.
 
-### [HTTP API Response](#tab/tabid-9)
+### [HTTP API Response](#tab/tabid-11)
 
 [!code-http[getting-started-read-event-response](~/code-examples/getting-started/read-event.sh?range=3-)]
 
@@ -124,7 +124,7 @@ You can create subscription and watch events as they arrive under the _Persisten
 
 ### [JVM client API](#tab/tabid-create-sub-java)
 
-[!code-java[getting-started-create-subscription](../../EventStore.Samples.Java/src/main/java/org/eventstore/sample/SubscriptionExample.java?start=13&end=33)]
+[!code-java[getting-started-create-subscription](../../EventStore.Samples.Java/src/main/java/org/eventstore/sample/SubscriptionExample.java?start=14&end=34)]
 
 ### [HTTP API](#tab/tabid-create-sub-http)
 
