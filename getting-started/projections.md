@@ -148,7 +148,7 @@ To use the HTTP or .NET API, pass the projection JSON file as a parameter of you
 
 ### [.NET API](#tab/tabid-create-proj-net)
 
-[!code-csharp[getting-started-projections-create-projection-dotnet](../../EventStore.Samples.Dotnet/DocsExample/Program.cs?range=26-27,164)]
+[!code-csharp[getting-started-projections-create-projection-dotnet](../../EventStore.Samples.Dotnet/DocsExample/Program.cs?range=26-27,150-164)]
 
 > [!NEXT]
 > [Read here](~/dotnet-api/projections.md) for more information on creating projections with the .NET API and the parameters available, or [our projections section](~/projections/index.md) for details on projection syntax.
@@ -258,7 +258,7 @@ Now you can read the result as above, but use the new stream name:
 
 ### [.NET API](#tab/tabid-read-projection-events-renamed-dotnet)
 
-[!code-csharp[getting-started-projections-state](../../EventStore.Samples.Dotnet/DocsExample/Program.cs?range=219-222)]
+[!code-csharp[getting-started-projections-state](../../EventStore.Samples.Dotnet/DocsExample/Program.cs?range=219-221)]
 
 * * *
 
