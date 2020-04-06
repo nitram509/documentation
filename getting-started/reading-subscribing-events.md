@@ -31,7 +31,7 @@ Event Store exposes all streams as [atom feeds](http://tools.ietf.org/html/rfc42
 
 To use the .NET API, use the following method passing the stream name, the start point in the stream, the number of events to read and whether to follow links to the event data:
 
-[!code-csharp[getting-started-read-stream-request](../../EventStore.Samples.Dotnet/DocsExample/Program.cs?range=104-106)]
+[!code-csharp[getting-started-read-stream-request](../../EventStore.Samples.Dotnet/DocsExample/Program.cs?range=103-105)]
 
 > [!NEXT]
 > [Read this guide](~/dotnet-api/reading-events.md) for more information on how to read events with the .NET API.
@@ -117,7 +117,7 @@ You can create subscription and watch events as they arrive under the _Persisten
 
 ### [.NET API](#tab/tabid-create-sub-dotnet)
 
-[!code-csharp[getting-started-create-subscription](../../EventStore.Samples.Dotnet/DocsExample/GettingStarted/CreatePersistentSubscription.cs)]
+[!code-csharp[getting-started-create-subscription](../../EventStore.Samples.Dotnet/DocsExample/GettingStarted/CreatePersistentSubscription.cs?start=14&end=21)]
 
 > [!NEXT]
 > Find more details on the parameters used in the example above, read the API documentation for [`PersistentSubscriptionSettings`](xref:EventStore.ClientAPI.PersistentSubscriptionSettings), [`CreatePersistentSubscriptionAsync`](xref:EventStore.ClientAPI.IEventStoreConnection.CreatePersistentSubscriptionAsync*) and [`ConnectToPersistentSubscription`](xref:EventStore.ClientAPI.IEventStoreConnection.ConnectToPersistentSubscriptionAsync*)

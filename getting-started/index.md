@@ -47,10 +47,7 @@ dotnet add package EventStore.Client
 
 And require it in your code:
 
-```csharp
-using EventStore.ClientAPI;
-using EventStore.ClientAPI.SystemData;
-```
+[!code-csharp[getting-started-import](../../EventStore.Samples.Dotnet/DocsExample/Program.cs?start=7&end=10)]
 
 ### [JVM client](#tab/tabid-jvm-client)
 
@@ -59,8 +56,6 @@ using EventStore.ClientAPI.SystemData;
 [!code-xml[getting-started-maven](../../EventStore.Samples.Java/pom.xml?start=28&end=32)]
 
 And import it in your code.
-
-<!-- TODO: Add more detail -->
 
 * * *
 
