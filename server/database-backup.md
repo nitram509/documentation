@@ -11,6 +11,8 @@ Backing up an Event Store database is straightforward, but relies on you carryin
 1.  Copy all _*.chk_ files to your backup location.
 2.  Copy the remaining files and directories to your backup location.
 
+This can be done, while the Event Store process is running, because internal design allows that. 
+
 For example:
 
 ```bash
